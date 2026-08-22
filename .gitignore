@@ -8,3 +8,5 @@ __pycache__/
 # Local API smoke-test outputs (optional; do not commit)
 *_smoke_test.csv
 .mimosa/
+.zcode/
+silver_adjudication_v1/data/cache/
