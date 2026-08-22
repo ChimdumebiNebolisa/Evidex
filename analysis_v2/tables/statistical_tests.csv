@@ -1,0 +1,22 @@
+analysis,model,regressions(b),rescues(c),mcnemar_chi2,p_value,accuracy_gain_pp,gain_ci,regression_rate,regression_ci,rescue_rate,rescue_ci,transition,gpt54_n,mini_n,chi2,gold_label,n,rate,ci,regress_Supported,regress_Refuted,condition,kappa,agree_rate
+mcnemar_evidence_effect,gpt-5.4,115.0,850.0,558.2963730569949,1.9734047817076992e-123,7.350000000000001,"[6.72, 7.92]",0.0115,"[0.95, 1.36]",0.085,"[7.92, 9.04]",,,,,,,,,,,,,
+mcnemar_evidence_effect,gpt-5.4-mini,151.0,1238.0,849.0971922246221,1.1424541696994055e-186,10.870000000000001,"[10.13, 11.57]",0.0151,"[1.28, 1.75]",0.1238,"[11.73, 13.00]",,,,,,,,,,,,,
+model_diff_transition,,,,,3.5776981741311e-19,,,,,,,wrong_to_correct,850.0,1238.0,80.0898261231153,,,,,,,,,
+model_diff_transition,,,,,0.030741527644761107,,,,,,,correct_to_wrong,115.0,151.0,4.667338763448604,,,,,,,,,
+model_diff_transition,,,,,0.582566801380102,,,,,,,wrong_to_wrong,281.0,295.0,0.30210335438403807,,,,,,,,,
+transition_by_label,gpt-5.4,,,,,,,,,,,correct_to_wrong,,,,Supported,5000.0,0.0176,"[1.40, 2.12]",,,,,
+transition_by_label,gpt-5.4,,,,,,,,,,,wrong_to_wrong,,,,Supported,5000.0,0.03,"[2.54, 3.50]",,,,,
+transition_by_label,gpt-5.4,,,,,,,,,,,wrong_to_correct,,,,Supported,5000.0,0.0586,"[5.24, 6.54]",,,,,
+transition_by_label,gpt-5.4,,,,,,,,,,,correct_to_wrong,,,,Refuted,5000.0,0.0054,"[0.34, 0.74]",,,,,
+transition_by_label,gpt-5.4,,,,,,,,,,,wrong_to_wrong,,,,Refuted,5000.0,0.0262,"[2.20, 3.06]",,,,,
+transition_by_label,gpt-5.4,,,,,,,,,,,wrong_to_correct,,,,Refuted,5000.0,0.1114,"[10.24, 12.04]",,,,,
+regression_label_contrast,gpt-5.4,,,,1.8286090140762365e-08,,,,,,,,,,31.66853598997163,,,,,88.0,27.0,,,
+transition_by_label,gpt-5.4-mini,,,,,,,,,,,correct_to_wrong,,,,Supported,5000.0,0.0148,"[1.14, 1.82]",,,,,
+transition_by_label,gpt-5.4-mini,,,,,,,,,,,wrong_to_wrong,,,,Supported,5000.0,0.0254,"[2.10, 2.98]",,,,,
+transition_by_label,gpt-5.4-mini,,,,,,,,,,,wrong_to_correct,,,,Supported,5000.0,0.0898,"[8.20, 9.78]",,,,,
+transition_by_label,gpt-5.4-mini,,,,,,,,,,,correct_to_wrong,,,,Refuted,5000.0,0.0154,"[1.22, 1.88]",,,,,
+transition_by_label,gpt-5.4-mini,,,,,,,,,,,wrong_to_wrong,,,,Refuted,5000.0,0.0336,"[2.90, 3.86]",,,,,
+transition_by_label,gpt-5.4-mini,,,,,,,,,,,wrong_to_correct,,,,Refuted,5000.0,0.1578,"[14.82, 16.78]",,,,,
+regression_label_contrast,gpt-5.4-mini,,,,0.8697306666099708,,,,,,,,,,0.02689619882746021,,,,,74.0,77.0,,,
+cohens_kappa,,,,,,,,,,,,,,,,,,,,,,claim_only,0.7860009704233667,0.8934
+cohens_kappa,,,,,,,,,,,,,,,,,,,,,,claim_plus_evidence,0.9440078836899765,0.972

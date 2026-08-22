@@ -1,0 +1,5 @@
+model,gold_label,evidence_errors,n
+gpt-5.4,Supported,238,5000
+gpt-5.4,Refuted,158,5000
+gpt-5.4-mini,Supported,201,5000
+gpt-5.4-mini,Refuted,245,5000
