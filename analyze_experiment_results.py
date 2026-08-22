@@ -1,3 +1,4 @@
+from pathlib import Path
 import argparse
 import csv
 import os
@@ -25,6 +26,15 @@ TAXONOMY_LABELS = (
     "other_or_ambiguous",
 )
 
+
+def _checked_output_path(path: str) -> str:
+    """Hardening: reject output paths that escape the repository root (CWE-22)."""
+    root = Path(__file__).resolve().parent
+    p = Path(path)
+    resolved = p.resolve() if p.is_absolute() else (root / p).resolve()
+    if resolved != root and root not in resolved.parents:
+        raise ValueError(f"output path escapes repository root: {path}")
+    return str(resolved)
 
 def pct(numerator, denominator):
     if denominator == 0:
@@ -213,7 +223,7 @@ def main():
         print(f"  - {model} | {condition}: {s['incorrect_no']}")
     print()
 
-    with open(args.output, "w", encoding="utf-8", newline="") as out:
+    with open(_checked_output_path(args.output), "w", encoding="utf-8", newline="") as out:
         w = csv.DictWriter(
             out,
             fieldnames=[
@@ -303,7 +313,7 @@ def main():
             }
         )
 
-    with open(args.metrics_output, "w", encoding="utf-8", newline="") as out:
+    with open(_checked_output_path(args.metrics_output), "w", encoding="utf-8", newline="") as out:
         w = csv.DictWriter(
             out,
             fieldnames=[
@@ -367,7 +377,7 @@ def main():
         "error_type",
         "notes",
     ]
-    with open(args.evidence_errors_output, "w", encoding="utf-8", newline="") as out:
+    with open(_checked_output_path(args.evidence_errors_output), "w", encoding="utf-8", newline="") as out:
         w = csv.DictWriter(out, fieldnames=evidence_error_fields)
         w.writeheader()
         for r in evidence_condition_errors:
@@ -396,7 +406,7 @@ def main():
         "taxonomy_label",
         "taxonomy_notes",
     ]
-    with open(args.manual_annotation_output, "w", encoding="utf-8", newline="") as out:
+    with open(_checked_output_path(args.manual_annotation_output), "w", encoding="utf-8", newline="") as out:
         w = csv.DictWriter(out, fieldnames=manual_annotation_fields)
         w.writeheader()
         for r in evidence_condition_errors:
@@ -424,7 +434,7 @@ def main():
         taxonomy = evidence_error_taxonomy(r)
         taxonomy_counts[(model, taxonomy)] += 1
 
-    with open(args.taxonomy_output, "w", encoding="utf-8", newline="") as out:
+    with open(_checked_output_path(args.taxonomy_output), "w", encoding="utf-8", newline="") as out:
         w = csv.DictWriter(
             out,
             fieldnames=["model", "taxonomy", "count"],
@@ -435,7 +445,7 @@ def main():
 
     example_max = max(2, min(4, args.example_failures_max))
     examples = evidence_condition_errors[:example_max]
-    with open(args.example_failures_output, "w", encoding="utf-8", newline="") as out:
+    with open(_checked_output_path(args.example_failures_output), "w", encoding="utf-8", newline="") as out:
         w = csv.DictWriter(
             out,
             fieldnames=[

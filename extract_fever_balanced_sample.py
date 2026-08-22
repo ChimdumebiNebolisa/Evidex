@@ -1,3 +1,4 @@
+from pathlib import Path
 import argparse
 import csv
 import json
@@ -39,6 +40,15 @@ SOURCE_FIELDS = [
 
 PROVENANCE_FIELDS = ["claim_id", "true_label", "seed", "input_file"]
 
+
+def _checked_output_path(path: str) -> str:
+    """Hardening: reject output paths that escape the repository root (CWE-22)."""
+    root = Path(__file__).resolve().parent
+    p = Path(path)
+    resolved = p.resolve() if p.is_absolute() else (root / p).resolve()
+    if resolved != root and root not in resolved.parents:
+        raise ValueError(f"output path escapes repository root: {path}")
+    return str(resolved)
 
 def to_output_row(src_row):
     claim_id = str(src_row["id"])
@@ -129,19 +139,19 @@ def main():
     provenance_path = f"sample_provenance_{args.tag}.csv"
     validation_path = f"sample_validation_{args.tag}.json"
 
-    with open(source_path, "w", encoding="utf-8", newline="") as out:
+    with open(_checked_output_path(source_path), "w", encoding="utf-8", newline="") as out:
         w = csv.DictWriter(out, fieldnames=SOURCE_FIELDS)
         w.writeheader()
         for row in structured_rows:
             w.writerow({k: row.get(k, "") for k in SOURCE_FIELDS})
 
-    with open(tracker_path, "w", encoding="utf-8", newline="") as out:
+    with open(_checked_output_path(tracker_path), "w", encoding="utf-8", newline="") as out:
         w = csv.DictWriter(out, fieldnames=TRACKER_FIELDS)
         w.writeheader()
         for row in structured_rows:
             w.writerow({k: row.get(k, "") for k in TRACKER_FIELDS})
 
-    with open(provenance_path, "w", encoding="utf-8", newline="") as out:
+    with open(_checked_output_path(provenance_path), "w", encoding="utf-8", newline="") as out:
         w = csv.DictWriter(out, fieldnames=PROVENANCE_FIELDS)
         w.writeheader()
         for row in structured_rows:
@@ -155,7 +165,7 @@ def main():
             )
 
     counts = Counter(row["true_label"] for row in structured_rows)
-    with open(validation_path, "w", encoding="utf-8") as out:
+    with open(_checked_output_path(validation_path), "w", encoding="utf-8") as out:
         json.dump(
             {
                 "input_file": args.input,
