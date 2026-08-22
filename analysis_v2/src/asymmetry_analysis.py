@@ -43,26 +43,31 @@ def asymmetry_analysis():
                     "sup_to_ref": n_sup, "ref_to_sup": n_ref,
                     "binom_p": p_bin})
 
-        # Conditioned: does gold label still predict direction given covariates?
-        covs = [c for c in COVARS if c in errs.columns]
-        X = errs[covs].copy()
+        # Note: among errors, predicted direction is exactly the flipped gold
+        # label, so direction itself cannot be modeled. Instead test whether the
+        # label asymmetry in error INCIDENCE survives conditioning on covariates:
+        # logit(P(evidence-condition error)) ~ gold label + covariates, on all claims.
+        allc = df.copy()
+        covs = [c for c in COVARS if c in allc.columns]
+        X = allc[covs].copy()
         for c in covs:
             X[c] = pd.to_numeric(X[c], errors="coerce")
         X = X.fillna(X.median(numeric_only=True))
-        X["gold_refuted"] = (errs["gold_label"] == "Refuted").astype(int)
-        y = (errs[f"{m}_evidence_pred"] == "Supported").astype(int)  # direction of prediction
+        X["gold_refuted"] = (allc["gold_label"] == "Refuted").astype(int)
+        y = (~allc[f"{m}_evidence_correct"]).astype(int)
         Xs = sm.add_constant(X.astype(float))
         try:
             fit = sm.Logit(y.to_numpy(), Xs.to_numpy()).fit(disp=0)
             idx = list(Xs.columns).index("gold_refuted")
             ci = fit.conf_int()[idx]
-            out.append({"analysis": "conditioned_logit_label_effect", "model": m,
-                        "n_errors": len(errs), "covariates": ";".join(covs),
+            out.append({"analysis": "conditioned_logit_label_effect_on_error", "model": m,
+                        "n_all": len(allc), "n_errors": len(errs),
+                        "covariates": ";".join(covs),
                         "logit_coef_gold_refuted": fit.params[idx],
                         "ci_low": ci[0], "ci_high": ci[1],
                         "p_value": fit.pvalues[idx]})
         except Exception as e:
-            out.append({"analysis": "conditioned_logit_label_effect", "model": m,
+            out.append({"analysis": "conditioned_logit_label_effect_on_error", "model": m,
                         "error": str(e)})
 
     res = pd.DataFrame(out)

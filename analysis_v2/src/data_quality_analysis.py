@@ -96,8 +96,8 @@ def data_quality():
 
     # Shared same-direction evidence-condition failures.
     same_dir = (
-        (df["gpt-5.4_evidence_pred"] == df["gpt-5.4-mini_evidence_pred"])
-        & (df["gpt-5.4_evidence_pred"] != df["gold_label"])
+        (df["gpt54_evidence_pred"] == df["gpt54mini_evidence_pred"])
+        & (df["gpt54_evidence_pred"] != df["gold_label"])
     )
     df["both_models_fail_same_direction"] = same_dir
 

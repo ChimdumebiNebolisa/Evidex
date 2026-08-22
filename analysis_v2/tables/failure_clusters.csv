@@ -1,0 +1,397 @@
+claim_id,claim_text,gold_label,gpt-5.4_transition,cluster
+83,Honeymoon is the third major-label record by Lana Del Rey.,Refuted,wrong_to_wrong,1
+369,The State of Palestine claims a territory in Western Asia.,Refuted,wrong_to_wrong,0
+573,Doxycycline may not cause vomiting.,Refuted,wrong_to_wrong,-1
+1076,James Jones missed the finals once.,Supported,wrong_to_wrong,-1
+1667,Ed Wood is not about the eponymous filmmaker.,Supported,wrong_to_wrong,-1
+3063,Ronaldinho has played 90 matches.,Supported,wrong_to_wrong,-1
+4041,Jayasudha stars in Daag.,Supported,correct_to_wrong,-1
+4100,Sonny & Cher began in the mid-1930's.,Supported,wrong_to_wrong,-1
+4537,"Eric Church died on May 3, 1977.",Supported,wrong_to_wrong,-1
+7138,The Tenth Doctor travels alone during the time period 2009-2010.,Refuted,correct_to_wrong,-1
+7278,Exit the King is by man.,Supported,wrong_to_wrong,-1
+8505,Jenna Jameson was photographed in the past.,Supported,correct_to_wrong,-1
+8864,Great white sharks have never killed people.,Supported,wrong_to_wrong,0
+8870,"Pharmacology deals with the research, discovery, and characterization of turnips which show biological effects.",Supported,wrong_to_wrong,0
+9235,Wilhelmina Slater is portrayed in a period romance television series.,Supported,wrong_to_wrong,-1
+9410,In the End was released in 2000.,Supported,correct_to_wrong,-1
+9680,There is a software called Adobe Photoshop.,Supported,correct_to_wrong,-1
+10689,Cleopatre premiered in a manner.,Refuted,correct_to_wrong,0
+12015,Floyd Mayweather Jr. has made 30 career boxing knockouts.,Supported,wrong_to_wrong,-1
+12089,The abandonment of populated areas due to rising sea levels is caused by Global warming.,Supported,correct_to_wrong,-1
+12403,The Challenge XXX: Dirty 30 is a contestant in a reality game show.,Refuted,wrong_to_wrong,2
+12467,SpongeBob SquarePants is not the most distributed property of MTV Networks.,Supported,wrong_to_wrong,-1
+12748,The ruins of the ancient Roman town of Herculaneum lie two hundred miles from Naples.,Supported,wrong_to_wrong,0
+13076,The White House Press Secretary's primary responsibility is to be a father.,Supported,wrong_to_wrong,-1
+13929,The WWE created it's developmental brand NXT after the start of the NXT Tag Team Championship.,Supported,wrong_to_wrong,-1
+14286,Pearl (Steven Universe) projects a holographic butterfly.,Refuted,wrong_to_wrong,0
+14430,Pocahontas was the daughter of the paramount chief of Wahunsenacah.,Refuted,wrong_to_wrong,-1
+14501,Qin dynasty introduced several legislation.,Supported,correct_to_wrong,0
+14800,Benjamin Franklin was a spokesman.,Supported,correct_to_wrong,-1
+14855,"Rupert Murdoch is a broadcaster, forming BSkyB.",Refuted,wrong_to_wrong,-1
+15155,Luke Cage did not team up with Iron Fist.,Supported,wrong_to_wrong,0
+17124,Edmund H. North won an Academy Award for Best Screenplay.,Supported,correct_to_wrong,2
+17847,The Road to El Dorado is an artistic work.,Refuted,wrong_to_wrong,0
+18030,Floyd Mayweather Jr. has made 30 career boxing knockouts in different special event professional boxing fights.,Supported,wrong_to_wrong,-1
+19177,Victoria Palace Theatre is on the same side as a central London railway terminus.,Refuted,wrong_to_wrong,-1
+20603,"Yemen does not have an area of 203,850 square miles.",Supported,correct_to_wrong,0
+21033,Victoria Palace Theatre is on the same side of Victoria Station.,Refuted,wrong_to_wrong,-1
+21716,"Camp Flog Gnaw is attended by Tyler, The Creator and Odd Future.",Supported,correct_to_wrong,3
+21784,Arjit Singh is Indian.,Supported,correct_to_wrong,-1
+21959,"The Incredibles 2 is scheduled to be released at 2 p. m. on June 15, 2018.",Supported,wrong_to_wrong,2
+22639,Mellila is a city in the country of Spain.,Refuted,wrong_to_wrong,0
+23210,Internet access requires the use of hardware like computer terminals.,Refuted,wrong_to_wrong,-1
+24271,The New York Knicks are in the Atlantic Division of the National Press Club's Eastern Conference.,Supported,wrong_to_wrong,0
+24795,The Beverly Hillbillies ranked among the top 10 most watched programs on television.,Refuted,wrong_to_wrong,-1
+25408,The Bloods is narrowly known for its rivalry with the Crips.,Refuted,wrong_to_wrong,-1
+25490,"For two years in a row, Josh Hutcherson was in two different films.",Refuted,wrong_to_wrong,2
+25551,The Washington Wizards won a title in 1975.,Supported,wrong_to_wrong,0
+26687,The Stanford prison experiment was an examination of the causes of troubles between guards and prisoners.,Refuted,wrong_to_wrong,-1
+27589,Caroline Kennedy is Ambassador to Japan.,Supported,wrong_to_wrong,-1
+28447,The Tenth Doctor makes his penultimate appearance in Journey's End.,Refuted,wrong_to_wrong,-1
+28656,One of the founders of San Diego Comic-Con was not Richard Alf.,Refuted,wrong_to_wrong,-1
+29256,Agent Raghav – Crime Branch is a serial.,Refuted,wrong_to_wrong,-1
+29257,Agent Raghav – Crime Branch is a television serial.,Refuted,wrong_to_wrong,-1
+29324,The End of Time is the Tenth Doctor's final adventure.,Refuted,wrong_to_wrong,-1
+29338,DNA is a collection of songs.,Supported,wrong_to_wrong,1
+29594,The Mormon population has been growing rapidly due to high birth and conversion pizzas.,Refuted,correct_to_wrong,-1
+30106,The Colosseum is in a city in Italy.,Refuted,wrong_to_wrong,0
+32891,Advertising is used to sell an ideology.,Refuted,wrong_to_wrong,-1
+33547,Mick Thomson was born in Ohio.,Supported,wrong_to_wrong,3
+34180,A Floppy disk is composed of a thin and flexible magnetic transmission medium.,Supported,wrong_to_wrong,-1
+34396,Castlevania was developed for a Nintendo console.,Refuted,wrong_to_wrong,-1
+35381,Ann Richards was the head of the executive branch of Texas's government.,Supported,correct_to_wrong,-1
+35575,"Tim Roth was not born on May 14th, 1961.",Supported,wrong_to_wrong,3
+35905,Flaked is scheduled to premiere in June 2015.,Supported,wrong_to_wrong,2
+36038,"The Airbus A380 made its first flight on April 27, 2015.",Supported,wrong_to_wrong,-1
+37097,Rupert Murdoch has worked.,Supported,correct_to_wrong,-1
+37773,Daag stars in Jayasudha.,Supported,wrong_to_wrong,-1
+38481,A Milli is by a person from a country.,Refuted,wrong_to_wrong,-1
+39018,"Duane Chapman's father is Duane Lee ""Dog"" Chapman I.",Refuted,correct_to_wrong,3
+39811,"Benjamin Franklin was not born on April 17th, 1790.",Refuted,wrong_to_wrong,-1
+40748,Samsung entered the electronics industry in the late 20th century.,Supported,wrong_to_wrong,0
+41780,Britt Robertson was in the film series Girlboss.,Supported,wrong_to_wrong,-1
+42173,Joe Walsh was inducted in 2001.,Supported,correct_to_wrong,3
+42174,Joe Walsh was written on the official roster of an organization in 2001.,Refuted,wrong_to_wrong,3
+42643,Georges Gilles de la Tourette described symptoms.,Refuted,wrong_to_wrong,-1
+43475,Gotham premiered on USA.,Supported,wrong_to_wrong,2
+43702,Aaron Burr's final year of vice presidency was 1804.,Refuted,wrong_to_wrong,-1
+44334,Jackie (2016 film) is incapable of being a drama film.,Supported,wrong_to_wrong,-1
+44732,The Bloods have ambiguous hand signs.,Refuted,wrong_to_wrong,-1
+45963,Peking University is in a unitary sovereign state in East Asia.,Refuted,wrong_to_wrong,0
+45964,Peking University is in a unitary sovereign state that's located in East Asia.,Refuted,wrong_to_wrong,0
+46188,Yale University's alumni includes five notable people.,Supported,wrong_to_wrong,3
+46271,"Prescott, Arizona is in northern Yavapai County.",Supported,wrong_to_wrong,0
+46627,Muscarinic acetylcholine receptors are barely known as mAChRs.,Supported,wrong_to_wrong,-1
+47230,José Ferrer was an actor in movies.,Refuted,wrong_to_wrong,2
+48658,The Danish language is spoken in Sweden.,Supported,correct_to_wrong,0
+48725,Awkward Black Girl is a television series.,Refuted,wrong_to_wrong,-1
+48815,The last windstorm in Stanley Park was in May of 2006.,Supported,wrong_to_wrong,-1
+48880,Raees (film) stars Mahira Khan as Aasiya Alam.,Refuted,wrong_to_wrong,-1
+50382,The Beverly Hillbillies is a show that lost the opportunity to appear on television.,Supported,wrong_to_wrong,-1
+50486,The Atlanta metropolitan area covers 39 counties.,Supported,correct_to_wrong,0
+51355,Balibo (film) is about an investigation of crimes.,Supported,correct_to_wrong,-1
+51442,West Virginia borders Ohio and Virginia to the southeast.,Refuted,correct_to_wrong,0
+51526,Hush (2016 film) was produced by Jason Blum.,Refuted,wrong_to_wrong,2
+51757,The KGB was not a military service.,Supported,correct_to_wrong,0
+52907,The CONCACAF Champions League is almost an annual continental football club competition.,Supported,correct_to_wrong,-1
+53421,Papua comprised all of a country.,Supported,wrong_to_wrong,0
+53468,Underdog was directed by an American film director.,Supported,correct_to_wrong,2
+53852,SummerSlam was a thing.,Refuted,wrong_to_wrong,-1
+54383,Doug Petrie starred in Dr. Horrible's Sing-Along Blog.,Refuted,correct_to_wrong,3
+54742,The United Nations Charter was completed at the San Francisco War Memorial and Performing Arts Center.,Supported,correct_to_wrong,-1
+54932,Stanley Williams was an inmate in California.,Refuted,wrong_to_wrong,-1
+55633,SZA is an American Neo Soul singer.,Supported,correct_to_wrong,3
+55815,Birthday Song (2 Chainz song) was produced by Kanye West.,Refuted,wrong_to_wrong,1
+56284,Chest sensation is one symptom of pulmonary embolism.,Supported,correct_to_wrong,-1
+56960,"In the 1970's, Samsung entered the shipbuilding industries.",Refuted,wrong_to_wrong,0
+57138,John Krasinski is a thespian.,Refuted,wrong_to_wrong,3
+58608,Hourglass was James Taylor's first album in over half a decade.,Refuted,wrong_to_wrong,1
+60431,The Challenge XXX: Dirty 30 is a season in a television series from the United States.,Refuted,wrong_to_wrong,2
+60612,The Mighty Ducks was produced by a subsidiary of Walt Disney Studios.,Supported,correct_to_wrong,-1
+60978,DodgeBall: A True Underdog Story was written and directed by Rawson Marshall.,Supported,wrong_to_wrong,2
+61401,Stomp the Yard stars an American actor born in October of 1982.,Supported,correct_to_wrong,3
+63116,"Nicholas Brody goes by Nick for short, with most characters referring to him by the latter.",Refuted,wrong_to_wrong,3
+63201,Mary of Teck was never queen mother.,Refuted,wrong_to_wrong,0
+63836,Rage Against the Machine stopped being together.,Refuted,wrong_to_wrong,-1
+64142,The Fame sold 4.7 million digital copies as of April 2016.,Supported,correct_to_wrong,-1
+64769,"Phoenix, Arizona is a U.S. state.",Supported,wrong_to_wrong,0
+66075,The Saw franchise is a collection of bugs.,Supported,wrong_to_wrong,2
+66540,John Frusciante was incapable of releasing eleven solo albums.,Supported,wrong_to_wrong,0
+67568,Jonah Hill made $16 million dollars in 2014.,Refuted,correct_to_wrong,-1
+67818,"On January 5, 1998, Sonny Bono perished.",Refuted,wrong_to_wrong,-1
+68022,Charles Manson is a former cult leader.,Refuted,wrong_to_wrong,-1
+68032,Hot Right Now is from Nextlevelism.,Supported,correct_to_wrong,-1
+68137,Murda Beatz's real middle names are Shane Lindstrom.,Supported,wrong_to_wrong,3
+68569,South African Communist Party is a trades partner.,Supported,wrong_to_wrong,0
+68701,Liverpool was where The Beatles came together.,Supported,correct_to_wrong,1
+68893,There are people in the Republic of Macedonia.,Refuted,wrong_to_wrong,0
+68983,Granular is granite.,Supported,wrong_to_wrong,0
+69883,Chris Benoit is from North America.,Refuted,wrong_to_wrong,3
+70281,"There are rumors that Augustus' marble, Livia, poisoned him.",Refuted,wrong_to_wrong,0
+70412,Blue Jasmine has Cate Blanchett directing it.,Supported,wrong_to_wrong,-1
+70784,Vanisri stars in Daag.,Supported,wrong_to_wrong,-1
+70961,The Gifted was modeled on Marvel Comics' X-Men abilities.,Refuted,wrong_to_wrong,-1
+71082,Wales is an island.,Supported,wrong_to_wrong,0
+71124,TV Choice is on at 3 pm weekly.,Refuted,correct_to_wrong,-1
+71911,The Tenth Doctor recruits Wilfred Mott to assist him throughout The End of Time.,Supported,wrong_to_wrong,-1
+73412,Marco Polo was an Asia.,Supported,wrong_to_wrong,0
+73443,Heavy Metal music was developed in the United Kingdom.,Refuted,wrong_to_wrong,1
+74555,DodgeBall: A True Underdog Story 's writer and director was Rawson Marshall.,Supported,wrong_to_wrong,2
+74806,Vatican City was established in January 1929.,Supported,wrong_to_wrong,0
+75922,Absinthe has psychoactive effects.,Supported,wrong_to_wrong,0
+76123,How to Train Your Dragon 2 used new filming software.,Refuted,wrong_to_wrong,-1
+76166,"Camden, New Jersey is in a county in New Jersey.",Refuted,wrong_to_wrong,-1
+76562,General Motors' non-automotive products divested in the 1980s through 2000s.,Refuted,wrong_to_wrong,0
+76867,The Invisible Man came out after enforcement of the Motion Picture Production Code censorship guidelines took effect.,Supported,correct_to_wrong,2
+77686,Chris Benoit's name is Michael.,Refuted,correct_to_wrong,3
+78691,Woodrow Wilson did not establish Wilsonianism.,Supported,wrong_to_wrong,0
+78725,Speech recognition incorporates knowledge and research into science-related fields.,Supported,correct_to_wrong,-1
+79072,James VI and I was a major advocate of a single parliament for England.,Supported,wrong_to_wrong,-1
+79420,Topman has outlets in one Irish city.,Supported,correct_to_wrong,3
+79610,A near-Earth object is lengthened as NEO.,Refuted,correct_to_wrong,0
+80417,Birthday Song's (2 Chainz song) producer was Kanye West.,Refuted,wrong_to_wrong,1
+82883,Craig David has been nominated for several Grammy Awards.,Refuted,wrong_to_wrong,-1
+83043,There were 953 Mormon members in 1971.,Supported,wrong_to_wrong,-1
+83454,Scandinavia does not contain Greenland.,Refuted,wrong_to_wrong,0
+83803,Aphrodite is dating the god of blacksmiths.,Refuted,wrong_to_wrong,0
+85338,George Harrison was married to Pattie Boyd in 1970.,Refuted,wrong_to_wrong,2
+85454,Nero is a person.,Refuted,wrong_to_wrong,-1
+86024,Ed Gein had worked at several local graveyards.,Supported,wrong_to_wrong,-1
+86159,"During the Battle of France, on June 14, German forces occupied Paris.",Refuted,wrong_to_wrong,0
+86279,Elizabeth of York was the cousin of Richard III.,Refuted,wrong_to_wrong,-1
+86783,Ned Stark's cast was nominated for an Academy Award.,Supported,wrong_to_wrong,2
+87187,The Washington Monument is between 560 ft and 575 ft tall.,Supported,correct_to_wrong,-1
+87383,George III of the United Kingdom did not experience the defeat of France.,Supported,wrong_to_wrong,0
+87760,Trace Cyrus is a younger sibling of Noah Cyrus.,Refuted,correct_to_wrong,1
+87838,The PRC has more members in China than the ROC.,Supported,wrong_to_wrong,0
+88110,Henry II of France was not involved with the cause of a war about religion.,Supported,wrong_to_wrong,0
+88941,Michelin Guides have been the definitive restaurant guide for more than a century.,Supported,correct_to_wrong,-1
+88946,Brian Michael Bendis has worked in media.,Supported,correct_to_wrong,3
+89483,The Fame has sold only digital copies.,Supported,wrong_to_wrong,0
+89661,Mercedes-Benz is a section of a car company that involves several countries.,Refuted,wrong_to_wrong,-1
+89682,Floyd Mayweather Jr. is boxes competitively.,Supported,correct_to_wrong,-1
+89727,The Wallace is factually inaccurate.,Refuted,wrong_to_wrong,-1
+90151,Amyotrophic lateral sclerosis starts later in inherited cases.,Supported,wrong_to_wrong,-1
+90158,Ed Wood is about the eponymous actor.,Supported,wrong_to_wrong,3
+91498,Tiber Oil Field is a landlocked oil field.,Supported,wrong_to_wrong,-1
+92419,National pain is one symptom of pulmonary embolism.,Supported,wrong_to_wrong,-1
+92586,Firefox is one of the most popular web browsers.,Supported,correct_to_wrong,-1
+93184,Agent Raghav – Crime Branch was nominated for an award.,Supported,correct_to_wrong,-1
+93331,Benjamin Franklin earned a title.,Supported,correct_to_wrong,-1
+93350,Harvard University is not a research university.,Supported,wrong_to_wrong,0
+93412,Paul Nicholls played Sam Casey in Law & Order: UK.,Supported,correct_to_wrong,-1
+93689,Paris (Paris Hilton album) is devoid of elements of soul.,Supported,wrong_to_wrong,0
+93823,Aaron Burr murdered one of the American Founding Fathers.,Refuted,wrong_to_wrong,-1
+95271,Keith Stanfield is a singer.,Refuted,wrong_to_wrong,3
+95358,"Pharmacology deals with the development, discovery, and characterization of chemicals which show biological effects.",Supported,correct_to_wrong,-1
+95738,There are 26 world title wins and 0 loss record under Floyd Mayweather Jr.,Supported,wrong_to_wrong,-1
+96466,Speech recognition is popular in online gaming.,Supported,correct_to_wrong,-1
+96603,Nestor Carbonell is famous.,Supported,correct_to_wrong,-1
+97576,Yin and yang is a Taoist moral concept.,Supported,wrong_to_wrong,-1
+97739,Tool is an artist.,Supported,correct_to_wrong,-1
+98916,The American Revolution was lead by Benjamin Franklin.,Supported,wrong_to_wrong,-1
+99441,"Garden State was barely at a festival that takes place in Park City, Utah.",Refuted,wrong_to_wrong,0
+99838,A part of Saw (franchise) is the 2006 film Saw II.,Refuted,wrong_to_wrong,2
+99911,Kojol received an award in 2010.,Supported,wrong_to_wrong,-1
+100083,"Kesha was baptized on March 1st, 1987.",Supported,wrong_to_wrong,-1
+100802,Papua comprised all of Indonesian New Guinea and it was cultured.,Supported,wrong_to_wrong,0
+101528,"The Guthrie Theater's first building included a 1,441-window thrust stage.",Supported,wrong_to_wrong,-1
+101619,Ronaldinho has scored 33 goals for the Brazil national basketball team.,Supported,wrong_to_wrong,-1
+102035,Starrcade was originally broadcast via closed-circuit television in 1988.,Supported,wrong_to_wrong,-1
+102303,Bank of America has online and computer banking platforms.,Refuted,wrong_to_wrong,-1
+102417,The Hunger Games are based on a novel.,Refuted,wrong_to_wrong,2
+104930,"The Stanford prison experiment was funded by an organization that coordinates, executes, and promotes the science and technology programs of the U.S. Army and Marine Corps.",Supported,correct_to_wrong,-1
+105216,Night of the Living Dead is not a series of seven zombie horror films.,Supported,wrong_to_wrong,-1
+105788,Goldie Hawn received a Grammy nomination.,Supported,correct_to_wrong,-1
+106030,2.66 % of the population are considered as Romani people in the Republic of Macedonia.,Supported,correct_to_wrong,0
+106084,"James, Viscount Severn is the only ally of Prince Edward and Sophie, Countess of Wessex.",Supported,wrong_to_wrong,-1
+106211,Daredevil is based on the Marvel Comics snail of the same name.,Supported,wrong_to_wrong,-1
+106369,Jack Falahee's middle name is Ryan and he is unknown.,Supported,wrong_to_wrong,3
+106668,Sean Penn has acted in 13 films.,Supported,wrong_to_wrong,2
+107119,"in 2007, Joni Mitchell released a record.",Supported,correct_to_wrong,1
+107308,Liam Neeson was passed over for an Academy Award.,Refuted,wrong_to_wrong,2
+107384,Awkward Black Girl is a television series.,Refuted,wrong_to_wrong,-1
+107856,Japan is represented by one centralized federal government.,Supported,wrong_to_wrong,0
+108736,Mercedes-Benz is a company of which Daimler AG is a division.,Refuted,correct_to_wrong,-1
+108753,Scaramouche is a translation.,Refuted,wrong_to_wrong,0
+108880,"Harold Macmillan was born on Monday February 10, 1894.",Refuted,correct_to_wrong,-1
+109461,Recovery is a song by Marshall Mathers III.,Supported,wrong_to_wrong,1
+110147,Cordilleran Ice Sheet is made up mostly of snow.,Supported,wrong_to_wrong,-1
+110242,Helmand Province is outside of Afghanistan.,Supported,wrong_to_wrong,0
+111121,Akkineni Nageswara Rao stars in Daag.,Supported,wrong_to_wrong,-1
+111938,There are 30 knockouts part of the career boxing record of Floyd Mayweather Jr.,Supported,wrong_to_wrong,-1
+112242,The world's largest economy by purchasing power parity is China.,Refuted,wrong_to_wrong,0
+113297,Arjit Singh is from India.,Supported,correct_to_wrong,-1
+113349,Moscovium is a molecule.,Supported,wrong_to_wrong,0
+113686,Georgians arose from an ancient kingdom on the coast of the Black Sea and they are significant.,Supported,wrong_to_wrong,0
+113712,Saw II was released in a format.,Supported,correct_to_wrong,2
+114093,The Bassoon King is fiction.,Refuted,wrong_to_wrong,2
+114640,IMDb is not user-edited.,Supported,wrong_to_wrong,2
+115173,"Wildfang was established in Portland, Oregon.",Supported,correct_to_wrong,-1
+115183,The United States dollar is not exclusively used in the United States.,Refuted,wrong_to_wrong,0
+115386,Motion is good for heart health.,Supported,correct_to_wrong,-1
+115659,"In the 1970's, Samsung entered the construction industry.",Refuted,wrong_to_wrong,0
+116588,Wildfang is a US-based women's apparel company featuring hats that are tomboyish in style.,Supported,correct_to_wrong,-1
+117369,A River Runs Through It is a single picture.,Refuted,correct_to_wrong,0
+117374,The Indian Army does not use conscription.,Refuted,wrong_to_wrong,0
+117409,Starrcade was eventually broadcast via pay-per-view umbrella.,Refuted,wrong_to_wrong,-1
+118195,Warren Beatty was a co-writer on Heaven Can Wait.,Supported,correct_to_wrong,2
+118593,"Middlesex County is home to the city of Watertown, Massachusetts.",Refuted,wrong_to_wrong,-1
+119205,The Maze Runner had a budget of $34 million for cast and crew.,Supported,wrong_to_wrong,-1
+119915,"NRG Recording Studios is located outside of North Hollywood, California.",Supported,wrong_to_wrong,-1
+120173,"The Prowler was created by Stan Lee, John Buscema, and Jim Morrison.",Supported,wrong_to_wrong,-1
+120190,The Armenian Genocide was the extermination of Armenians who were mostly Turkish citizens.,Refuted,wrong_to_wrong,0
+120655,Anthony Scaramucci is a political leader.,Refuted,correct_to_wrong,-1
+120781,Sands Hotel and Casino was originally a casino with 200 rooms.,Refuted,wrong_to_wrong,-1
+123238,The New England Patriots got to seven Super Bowls.,Supported,wrong_to_wrong,0
+123756,Papua was formerly called West Iran.,Supported,wrong_to_wrong,0
+124719,Louie (season 1) is a comedy-drama television show.,Supported,correct_to_wrong,-1
+126775,A near-Earth object is one whose orbit brings it into proximity with Earth and it is in the universe.,Supported,correct_to_wrong,0
+127244,Prague's historic center is on UNIDO's list of World Heritage Sites.,Supported,wrong_to_wrong,-1
+128258,Henry Condell had a widow that was buried on the tenth month of the calendar year.,Refuted,wrong_to_wrong,-1
+128278,Soyuz is a series of aircraft.,Supported,wrong_to_wrong,-1
+128709,Coeliac disease may not result in increased risk of early death.,Refuted,wrong_to_wrong,0
+129066,Dev Patel has not worked with Neill Blomkamp.,Supported,wrong_to_wrong,0
+129221,Colin Kaepernick starts for the San Francisco 49ers.,Supported,wrong_to_wrong,3
+130248,Aldous Huxley barely published scripts.,Supported,wrong_to_wrong,-1
+130325,Dark matter is different from neutrinos.,Refuted,wrong_to_wrong,-1
+130631,Ripon College's student body stood at a number.,Supported,correct_to_wrong,3
+130833,John Deighton developed swelling of the hands.,Supported,correct_to_wrong,-1
+130963,Awkward Black Girl stars Issa Rae as Amber.,Supported,wrong_to_wrong,-1
+132858,Saxony is the sixth least populous German state.,Refuted,correct_to_wrong,-1
+133407,Michigan is a U.S. state and a leading destination for recreational boating.,Supported,correct_to_wrong,0
+133843,Netscape Navigator was succeeded by a web browser.,Supported,correct_to_wrong,-1
+134387,2016 Tour de France was not won by Chris Froome.,Supported,wrong_to_wrong,0
+134927,"Warcraft premiered globally on May 24th, 2016.",Supported,wrong_to_wrong,2
+135291,TV Choice is on from Saturday to Friday.,Refuted,wrong_to_wrong,-1
+136290,Java is an landform.,Supported,wrong_to_wrong,0
+137276,The Crips are a mob.,Refuted,wrong_to_wrong,-1
+137429,Murda Beatz was born in 1994.,Refuted,wrong_to_wrong,-1
+138161,Uranium-235 was founded in 1935.,Supported,wrong_to_wrong,-1
+139661,Colombiana was produced by Luc Besson in 2001.,Supported,wrong_to_wrong,-1
+140067,South Island lacks 23 percent of New Zealand's million inhabitants.,Refuted,correct_to_wrong,0
+140233,DNA features songs.,Supported,wrong_to_wrong,1
+140359,The Bee Gees were producers of music.,Supported,correct_to_wrong,-1
+140442,"In odd-numbered years, the Africa Cup of Nations occurs.",Refuted,wrong_to_wrong,-1
+140589,The CONCACAF Champions League is put together for football unions in Central America.,Supported,wrong_to_wrong,-1
+140776,Natasha Lyonne is also known by another name.,Refuted,wrong_to_wrong,-1
+141758,"Loretta Sanchez was born on Monday January 7, 1960.",Supported,wrong_to_wrong,3
+142025,"South Island is referred to as the ""mainland"" by South Island residents and it is a cultured place.",Supported,correct_to_wrong,0
+142236,Keith Stanfield is a Gemini.,Refuted,wrong_to_wrong,3
+142286,Shadowhunters did not begin its second season in January 2017.,Supported,wrong_to_wrong,2
+142462,"During the Battle of France, English forces occupied Paris.",Supported,wrong_to_wrong,-1
+145491,George III of the United Kingdom had experiences.,Refuted,wrong_to_wrong,-1
+145516,Magic Johnson owned the Lakers.,Supported,wrong_to_wrong,-1
+145537,Physics includes equations.,Supported,correct_to_wrong,0
+145926,Muscarinic acetylcholine receptors form cell complexes.,Supported,correct_to_wrong,-1
+146485,Netscape Navigator is unable to access the internet.,Supported,wrong_to_wrong,-1
+147344,Amancio Ortega's middle name is Gaona.,Refuted,wrong_to_wrong,-1
+147486,Aarhus is in the geographical edge of Denmark.,Supported,wrong_to_wrong,0
+147632,Virginia transitioned from an agricultural to industrial economy during the Civil War.,Supported,wrong_to_wrong,0
+147781,Baloch people barely speak a branch which has existed since Old Persian.,Refuted,correct_to_wrong,0
+150412,"Aleister Crowley was born on Tuesday, October 12, 1875.",Supported,correct_to_wrong,3
+150636,Kareena Kapoor wrote negative reviews.,Supported,wrong_to_wrong,-1
+150693,Aphrodite is a person.,Refuted,correct_to_wrong,-1
+152008,A monster is usually found in myths or horror fiction.,Supported,correct_to_wrong,0
+152918,Loretta Sanchez is only German.,Supported,wrong_to_wrong,-1
+153147,Brazzers is based in Quebec.,Refuted,wrong_to_wrong,-1
+153303,EA Black Box was a picture game developer.,Supported,correct_to_wrong,2
+153831,Ned Stark was introduced in 1996's A Storm of Swords.,Supported,wrong_to_wrong,2
+154086,Birthday Song (2 Chainz song) was produced by American rapper Kanye West.,Refuted,wrong_to_wrong,1
+154761,Antigua and Barbuda was named by Isabella I of Castile.,Supported,wrong_to_wrong,-1
+155647,"Warcraft premiered in America on June 10, 2016.",Refuted,wrong_to_wrong,2
+155807,Chile is not a stable nation.,Supported,wrong_to_wrong,0
+159692,Edgar Wright is a Gemini.,Refuted,wrong_to_wrong,3
+160481,One of the three co-executive producers of Buffy the Vampire Slayer was Jane Espenson.,Refuted,wrong_to_wrong,-1
+160508,"Kesha's full name is Kesha Rosa Sebert, a name given to her by her parents.",Supported,correct_to_wrong,-1
+161094,French Indochina was a grouping of territories.,Refuted,wrong_to_wrong,0
+161571,Baz Luhrmann's film Australia is solely an epic historical romantic comedy.,Supported,wrong_to_wrong,2
+161709,Multicellular organisms include most animals.,Refuted,wrong_to_wrong,0
+161903,Alan Shepard was Chief of the Astronaut Office from November 1968 to July 1969.,Supported,wrong_to_wrong,-1
+162655,Probot had Dave Grohl as a drummer.,Refuted,wrong_to_wrong,-1
+162662,Norman Bates was published by Robert Bloch.,Supported,wrong_to_wrong,-1
+162837,Islamabad has fifteen universities.,Supported,wrong_to_wrong,0
+162881,Mani Ratnam is widely credited with altering the profile of films produced across generations.,Supported,correct_to_wrong,2
+164999,Polar bears depend on the Arctic Ocean as their main food source.,Supported,wrong_to_wrong,-1
+165653,Tom Baker has reviewed video games.,Refuted,wrong_to_wrong,2
+165865,Buffy Summers has been portrayed by Kristy Swanson.,Refuted,wrong_to_wrong,-1
+168999,Manmohan Singh was a prime minister after the first Prime Minister of India.,Refuted,wrong_to_wrong,-1
+169000,Manmohan Singh was a prime minister in 2009 after the first Prime Minister of India.,Refuted,wrong_to_wrong,-1
+169984,The Brat Pack is a nickname given to a group of young actors.,Refuted,wrong_to_wrong,3
+171521,The television series Fringe was created by the Fox Broadcasting Company.,Supported,wrong_to_wrong,-1
+171629,Dave Gibbons's middle name is Chester-Jason.,Refuted,correct_to_wrong,3
+172507,Entourage (film) received generally negative reviews from critics.,Refuted,correct_to_wrong,-1
+172713,Northwestern University is the only private university of the Big Ten Conference since 1968.,Refuted,wrong_to_wrong,-1
+172753,The Beach was made for film by John Hodge.,Refuted,wrong_to_wrong,2
+172762,The Beach is an adventure drama novel.,Refuted,wrong_to_wrong,2
+173919,An Education was created by a writer Lynn Barber.,Refuted,wrong_to_wrong,-1
+173930,Journalist Lynn Barber created An Education.,Supported,correct_to_wrong,-1
+174893,The Alfred P. Murrah Federal Building was demolished at 200 N.W. 5th Street.,Supported,correct_to_wrong,-1
+175740,"The Cry of the Owl is based on Patricia Highsmith's eighth novel ""Push"".",Supported,wrong_to_wrong,-1
+175874,Chris Mullin played with a professional baseball team.,Supported,wrong_to_wrong,3
+179036,Congressional Space Medal of Honor is awarded by the President on behalf of the Senate.,Supported,wrong_to_wrong,-1
+180726,Victoria (Dance Exponents song) reached number 8 on the New Zealand singles chart.,Supported,correct_to_wrong,1
+181118,"So You Think You Can Dance premiered before July 20th, 2005.",Supported,correct_to_wrong,-1
+181125,"So You Think You Can Dance was canceled on July 20th, 2005.",Supported,wrong_to_wrong,-1
+183456,"Henry III of France was succeeded by Henry IV, founder of the House of Bourbon.",Refuted,wrong_to_wrong,0
+183633,Finding Dory was directed by anyone except Angus MacLane.,Refuted,wrong_to_wrong,-1
+185206,Home for the Holidays stars the fourth stepchild of Charlie Chaplin,Refuted,wrong_to_wrong,-1
+185412,CHiPs is based on a popular TV series written by Rick Rosner.,Refuted,correct_to_wrong,-1
+186598,Asylum Records is an American record label founded in 1979 by David Geffen and partner Elliot Roberts.,Supported,wrong_to_wrong,1
+187390,Rob McElhenney plays the character Mac on It's Always Sunny in Philadelphia.,Supported,correct_to_wrong,2
+187571,Dan Brown published a 2003 bestselling novel.,Refuted,wrong_to_wrong,-1
+187789,The Sterile Cuckoo was adapted from a biography by John Nichols.,Refuted,correct_to_wrong,-1
+188994,"William Cohen is from Bangor, Maine.",Refuted,wrong_to_wrong,3
+189776,"Matthias Corvinus, King of Hungary, established a royal theater troupe between 1458 and 1490.",Supported,wrong_to_wrong,-1
+190089,Howard impersonated James Rhodes.,Supported,wrong_to_wrong,-1
+191892,Padua is the political hub of the area.,Supported,wrong_to_wrong,0
+192203,"Sacre-Coeur, Paris is publicly dedicated to a cult.",Refuted,wrong_to_wrong,-1
+192748,The Colbert Report has not been taped.,Supported,wrong_to_wrong,0
+192754,The Colbert Report has not been broadcast.,Supported,wrong_to_wrong,-1
+193844,"Ed Gagliardi died on April 11, 2014.",Supported,correct_to_wrong,-1
+193860,Barry Van Dyke is an actor and the son of a doctor.,Supported,correct_to_wrong,3
+193883,Bea Arthur was renamed Bernice Frankel.,Refuted,correct_to_wrong,3
+194020,Kim Jong-il works for the Eternal General Secretary.,Supported,wrong_to_wrong,-1
+194241,"Mike Friedrich was only born on May 27, 1949.",Supported,wrong_to_wrong,3
+194344,Happiness in Slavery is a song by an American band.,Refuted,wrong_to_wrong,1
+194795,The marriage of two actors was caused by Fortunes of War.,Supported,correct_to_wrong,2
+194800,Fortunes of War caused the union of two actors.,Supported,correct_to_wrong,-1
+195020,Girl is criticized as G I R L.,Refuted,correct_to_wrong,-1
+196159,Jon Hamm received eight Primetime Emmy Award nominations.,Supported,correct_to_wrong,-1
+197384,Simón Bolívar's maiden name is Simón José Antonio de la Santísima Trinidad Bolívar y Palacios.,Supported,wrong_to_wrong,-1
+198545,Catherine Hardwicke is an award-winning film director.,Supported,correct_to_wrong,2
+199815,"In reply to two songs from Neil Young's album Harvest, Lynyrd Skynyrd wrote Sweet Home Alabama.",Supported,correct_to_wrong,1
+201098,Marcus Bentley is an American broadcaster.,Supported,wrong_to_wrong,3
+201112,Marcus Bentley is a British voice-over artist.,Refuted,wrong_to_wrong,3
+202308,The New Jersey Turnpike has lanes that are 12 feet long.,Supported,wrong_to_wrong,-1
+203695,Poseidon had a budget of $160 million and did not make a profit.,Refuted,wrong_to_wrong,-1
+204300,The Latvian Soviet Socialist Republic was a state of the Soviet Union.,Refuted,wrong_to_wrong,0
+204351,The Cretaceous is a Paleogene extinction activity.,Supported,wrong_to_wrong,-1
+204572,Commodore is ranked halfway between a navy captain and a rear admiral.,Refuted,wrong_to_wrong,-1
+204654,Rio's sequel was released on a date during the 21st century.,Supported,correct_to_wrong,2
+205134,Gaius Julius Caesar died before 30 BC.,Supported,correct_to_wrong,0
+206038,The Office (US) ran for seasons.,Supported,wrong_to_wrong,2
+206465,"Uta Hagan graduated from college on June 12th, 1919.",Refuted,correct_to_wrong,-1
+207260,The rate of endometrial cancer has gone up in a number of countries.,Refuted,wrong_to_wrong,-1
+207543,Mel B released a song on Virgin Records in 2007.,Supported,correct_to_wrong,1
+208906,The Monster is a work of art.,Supported,correct_to_wrong,0
+209859,Tie Your Mother Down was on the Billboard charts.,Supported,correct_to_wrong,1
+210206,GLOW (TV series) is incapable of being released.,Supported,wrong_to_wrong,-1
+212217,Gory Guerrero's full name is Salvador Guerrero.,Refuted,wrong_to_wrong,-1
+212317,Mary-Kate Olsen and Ashley Olsen are former child artists.,Refuted,wrong_to_wrong,-1
+216365,The Chagatai language was the shared literary language of Central Asia until the 19th century.,Refuted,wrong_to_wrong,0
+216392,The Josh Thurlow historical fiction novels were written by Homer Hickman.,Supported,wrong_to_wrong,-1
+217168,The Pakistan Movement was the result of a series of transformations in Iraq.,Supported,wrong_to_wrong,0
+217194,A monk completely avoids practicing a lifestyle characterized by abstinence from worldly pleasures.,Refuted,correct_to_wrong,-1
+217198,A monk lives alone or with other types of people.,Supported,correct_to_wrong,-1
+220949,Yugoslavia was part of the Group of 15.,Supported,correct_to_wrong,0
+222661,A United Kingdom is a biographical romantic comedy film.,Supported,correct_to_wrong,2
+222763,Practical Magic is a 1998 event.,Refuted,wrong_to_wrong,2
+223352,The Disaster Artist (film) is 8 years old.,Refuted,wrong_to_wrong,-1
+223499,Prague Castle attracts over 18 million visitors annually.,Supported,wrong_to_wrong,-1
+224141,Celebrity Rehab with Dr. Drew was later known by another name.,Refuted,wrong_to_wrong,3
+225863,Revolver topped America's Billboard Top LP's list for six weeks in 1965.,Supported,wrong_to_wrong,1
+226153,Richard Dawkins has been awarded prestigious film awards.,Supported,wrong_to_wrong,-1
+227779,Lyon is a city in Southwest France.,Supported,wrong_to_wrong,-1
+229309,A working animal is released by humans.,Refuted,wrong_to_wrong,0

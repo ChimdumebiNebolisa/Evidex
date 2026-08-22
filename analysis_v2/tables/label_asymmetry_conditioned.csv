@@ -1,0 +1,5 @@
+analysis,model,sup_to_ref,ref_to_sup,binom_p,n_all,n_errors,covariates,logit_coef_gold_refuted,ci_low,ci_high,p_value
+raw_direction_counts,gpt-5.4,238.0,158.0,6.82197142715817e-05,,,,,,,
+conditioned_logit_label_effect_on_error,gpt-5.4,,,,10000.0,396.0,claim_len_words;evidence_len_words;claim_evidence_len_ratio;claim_negation;claim_comparative;claim_numbers;claim_dates;claim_pronouns;claim_modals;claim_conjunctions;evidence_negation;evidence_numbers;evidence_set_size;n_evidence_sentences;n_evidence_pages;lexical_overlap;numerical_overlap;cosine_sim_claim_evidence,-0.5371014544746653,-0.7634186012898996,-0.31078430765943094,3.2963311298010376e-06
+raw_direction_counts,gpt-5.4-mini,201.0,245.0,0.04161908679775737,,,,,,,
+conditioned_logit_label_effect_on_error,gpt-5.4-mini,,,,10000.0,446.0,claim_len_words;evidence_len_words;claim_evidence_len_ratio;claim_negation;claim_comparative;claim_numbers;claim_dates;claim_pronouns;claim_modals;claim_conjunctions;evidence_negation;evidence_numbers;evidence_set_size;n_evidence_sentences;n_evidence_pages;lexical_overlap;numerical_overlap;cosine_sim_claim_evidence,0.14096521955517757,0.14096521955517757,0.14096521955517757,0.0

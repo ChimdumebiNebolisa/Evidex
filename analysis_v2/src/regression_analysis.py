@@ -77,7 +77,7 @@ def regression_analysis():
             # Coefficients from a single fitted L2 model for interpretability.
             lr = LogisticRegression(max_iter=2000, C=1.0, class_weight="balanced")
             lr.fit(X.to_numpy(), y)
-            coef_df = pd.DataFrame({"feature": feats, "coef": lr.coef_[0]})
+            coef_df = pd.DataFrame({"feature": list(X.columns), "coef": lr.coef_[0]})
             coef_df["abs_coef"] = coef_df.coef.abs()
             coef_df = coef_df.sort_values("abs_coef", ascending=False)
             coef_df.to_csv(config.TABLES_DIR / f"regression_coefs_{tag}_{model.replace('.', '_')}.csv",

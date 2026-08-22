@@ -179,3 +179,18 @@ Condition-level aggregate:
 
 ## License
 This project is licensed under the MIT License. See `LICENSE`.
+
+---
+
+## Analysis v2 (2026-08-21)
+
+A secondary, zero-paid-API analysis of the completed 40,000-observation
+experiment now lives in [`analysis_v2/`](analysis_v2/). It decomposes each
+model's paired claim-only vs claim+evidence predictions into four transition
+classes (rescue, robust, resistant, regression), isolates evidence-induced
+regressions, and characterizes them with statistical tests, linguistic and
+evidence-structure features, local semantic embeddings, a local NLI diagnostic,
+interpretable predictive models, and a manual-review export. The original
+experiment artifacts remain unchanged; all derived data is under
+`analysis_v2/data/`. See `analysis_v2/reports/FINDINGS.md` for results and
+`analysis_v2/reports/METHODS.md` for methodology.
