@@ -1,0 +1,7 @@
+{
+  "reason": "provider_content_filter",
+  "description": "Item SA-000352 triggers an empty model response (provider-side content filter) in every GLM subagent request that includes it, across all judges and batch sizes. Isolated by bisection: ranges containing the item fail; adjacent ranges succeed.",
+  "items": ["SA-000352"],
+  "decided_at": "2026-08-22",
+  "handling": "Excluded from expected items in run_judges; never judged in any stage; consensus computed over remaining 1060 items; flagged in LIMITATIONS and SILVER_FINDINGS; unblinding still joins its cohort metadata for transparency (no silver label)."
+}

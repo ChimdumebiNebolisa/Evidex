@@ -1,0 +1,152 @@
+[
+  {
+    "item_id": "SA-000361",
+    "judge_id": "judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence states Salmaan received the Filmfare Award for Best Male Debut, contradicting the claim that he was unqualified to ever receive a Filmfare Award nomination."
+  },
+  {
+    "item_id": "SA-000362",
+    "judge_id": "judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 75,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Portland, Oregon is mentioned only as where the founders previously worked at Nike, not as where Wildfang was established."
+  },
+  {
+    "item_id": "SA-000363",
+    "judge_id": "judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 85,
+    "issue_flags": ["other"],
+    "brief_reason": "The evidence states she implemented policies that came to be known as Thatcherism, not 'windows'."
+  },
+  {
+    "item_id": "SA-000364",
+    "judge_id": "judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives Macmillan's death date as 29 December 1986, not December 19, 1986."
+  },
+  {
+    "item_id": "SA-000365",
+    "judge_id": "judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence identifies his real name as Shane Lee Lindstrom, with Shane as the given name, so 'Shane Lindstrom' are not his middle names."
+  },
+  {
+    "item_id": "SA-000366",
+    "judge_id": "judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence states Eric Church was born May 3, 1977 and describes an ongoing career, contradicting that he died on that date."
+  },
+  {
+    "item_id": "SA-000367",
+    "judge_id": "judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly states Nawaz Sharif is the 20th Prime Minister of Pakistan."
+  },
+  {
+    "item_id": "SA-000368",
+    "judge_id": "judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["other"],
+    "brief_reason": "The evidence says Howard played the character James Rhodes in Iron Man and its video game, which does not clearly establish that he 'impersonated' him."
+  },
+  {
+    "item_id": "SA-000369",
+    "judge_id": "judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Tool has performed worldwide tours, directly warranting the claim."
+  },
+  {
+    "item_id": "SA-000370",
+    "judge_id": "judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 70,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence presents mAChRs as the standard alternative name ('or mAChRs'), contradicting the hedge 'barely known as'."
+  },
+  {
+    "item_id": "SA-000371",
+    "judge_id": "judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence says heavy metal developed largely in the United Kingdom and the United States, only partly matching 'developed in Europe'."
+  },
+  {
+    "item_id": "SA-000372",
+    "judge_id": "judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence states the film was released on July 8, 2005, and July is the 7th month of the calendar year."
+  },
+  {
+    "item_id": "SA-000373",
+    "judge_id": "judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence states the film stars Eddie Murphy in a dual role, contradicting that he rejected all offers to star in it."
+  },
+  {
+    "item_id": "SA-000374",
+    "judge_id": "judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states the series began its seventh season on July 11, 2011."
+  },
+  {
+    "item_id": "SA-000375",
+    "judge_id": "judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 65,
+    "issue_flags": ["other"],
+    "brief_reason": "The evidence identifies Orci as a film and television screenwriter, which warrants the bare, objectless claim that he wrote."
+  }
+]

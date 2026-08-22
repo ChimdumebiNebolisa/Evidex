@@ -32,8 +32,13 @@ def sha256(path: Path) -> str:
 
 def expected_items(stage: str):
     src = config.BLINDED_DIR / STAGE_FILE[stage]
-    return [json.loads(l)["item_id"]
-            for l in src.read_text(encoding="utf-8").splitlines() if l.strip()]
+    items = [json.loads(l)["item_id"]
+             for l in src.read_text(encoding="utf-8").splitlines() if l.strip()]
+    pf = config.DERIVED_DIR / "provider_filtered.json"
+    if pf.exists():
+        excluded = set(json.loads(pf.read_text(encoding="utf-8"))["items"])
+        items = [i for i in items if i not in excluded]
+    return items
 
 
 def valid_record(r, stage: str, judge: str) -> bool:
