@@ -1,0 +1,7 @@
+model,gold_label,n,co_correct_ev_correct,co_correct_ev_wrong,co_wrong_ev_correct,co_wrong_ev_wrong,claim_only_correct,claim_only_wrong,evidence_correct,evidence_wrong
+gpt-5.4,ALL,10000,8754,115,850,281,8869,1131,9604,396
+gpt-5.4,Supported,5000,4469,88,293,150,4557,443,4762,238
+gpt-5.4,Refuted,5000,4285,27,557,131,4312,688,4842,158
+gpt-5.4-mini,ALL,10000,8316,151,1238,295,8467,1533,9554,446
+gpt-5.4-mini,Supported,5000,4350,74,449,127,4424,576,4799,201
+gpt-5.4-mini,Refuted,5000,3966,77,789,168,4043,957,4755,245

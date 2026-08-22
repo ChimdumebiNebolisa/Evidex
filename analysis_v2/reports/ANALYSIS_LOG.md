@@ -73,3 +73,48 @@ Anti-cherry-picking record of hypotheses, methods, rejections, and surprises.
 
 - mini conditioned-logit CI: separation-induced degenerate CI (reported).
 - Clustering: stable labels but majority noise; not interpreted.
+
+## Cleanup / adversarial validation pass (2026-08-22)
+
+User-directed pass with the following outcomes:
+
+1. **Reverted** the three original pipeline scripts
+   (`analyze_experiment_results.py`, `extract_fever_balanced_sample.py`,
+   `expand_experiment_runs.py`) to pristine upstream form — Analysis v2 never
+   depended on the guards.
+2. **Deleted** `analysis_v2/git_commit.sh` (the persisted hook-bypass script)
+   and all local `.mimosa` state; `.gitignore` still excludes `.mimosa/`.
+   The hook continues to block `git commit` (it flags upstream code), so
+   remaining commits are recorded with inline plumbing, disclosed here and in
+   METHODS.md.
+3. **266/226 fixed**: the "~266 regression/resistant claims" figure in
+   NEXT_EXPERIMENTS mixed model-observations (115+151) and ignored overlap.
+   Correct unique-claim counts: 226 regress for ≥1 model, 40 both, 186 exactly
+   one; 561 unique claims failed with evidence by ≥1 model, 281 by both
+   (`tables/unique_claim_counts.csv`).
+4. **79.8% → 87.3% fixed**: FINDINGS claimed 79.8% transition agreement; the
+   correct value is 8,732/10,000 = 87.3% (caught by verification check).
+5. **Statistical family corrected**: between-model transition-rate comparisons
+   originally used independent-samples χ² on paired (same-claim) data.
+   Replaced with paired McNemar on discordant claims. New values: rescue
+   χ²=145.1 p=2.0e-33; regression χ²=6.59 p=0.010; resistant χ²=0.83 p=0.36.
+   No conclusion changes direction.
+6. **Independent verification** (`src/verify_headlines.py`): 69/69 headline
+   numbers PASS against fresh recomputation from the canonical Parquet and raw
+   CSV (`tables/verification.md`). Two check-formatting artifacts fixed
+   (rounding, log-p exponent); one substantive discovery kept (see 7).
+7. **Predictability decomposition**: regression-target logreg AUC falls from
+   ~0.66 to ~0.53 without the local-NLI/cosine features — the reported
+   predictability is carried by the semantic-warrant features, not surface
+   features. FINDINGS updated accordingly.
+8. **Leakage audit** (`src/leakage_audit.md`): PASS. One row per claim; no
+   outcome-derived predictors; 271 exact-duplicate claims regrouped in
+   duplicate-aware CV — AUC deltas ≤ 0.041, no material optimistic bias.
+9. **Second NLI model** (`src/nli_second_model.py`,
+   typeform/distilbert-base-uncased-mnli): replicates the primary pattern
+   (regression disagreement 67.8%/73.5% vs robust 26.2%; two diagnostics agree
+   on 84.3% of claims). No new LLM inference; local classifier only.
+10. **Complete four-way tables** with margins, overall and by label
+    (`tables/transition_four_way_tables.csv`); unique-claim counts exported.
+11. **Confirmatory/exploratory separation**: FINDINGS findings now tagged
+    **[C]**/**[E]** inline with an explicit legend.

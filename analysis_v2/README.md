@@ -41,10 +41,8 @@ libraries are unavailable; the rest of the pipeline still completes.
 ## Data protection
 
 Everything under the repository root outside `analysis_v2/` is treated as an
-immutable source artifact. All derived data lives in `analysis_v2/data/`.
-The one exception, documented in `reports/ANALYSIS_LOG.md`: three original
-analysis scripts (`analyze_experiment_results.py`,
-`extract_fever_balanced_sample.py`, `expand_experiment_runs.py`) received
-behavior-preserving CWE-22 output-path guards (rejecting paths outside the
-repo root) to satisfy the environment's security scanner. Their analysis
-behavior for all in-repo usage is unchanged.
+immutable source artifact and is unchanged from `main`. All derived data lives
+in `analysis_v2/data/`. During development, CWE-22 output-path guards were
+briefly added to three original analysis scripts to appease the environment's
+security scanner; they were reverted to pristine upstream form in the cleanup
+pass because the analysis does not depend on them.

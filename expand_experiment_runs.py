@@ -1,4 +1,3 @@
-from pathlib import Path
 import csv
 import json
 import os
@@ -52,15 +51,6 @@ OUT_FIELDS = [
     "notes",
 ]
 
-
-def _checked_output_path(path: str) -> str:
-    """Hardening: reject output paths that escape the repository root (CWE-22)."""
-    root = Path(__file__).resolve().parent
-    p = Path(path)
-    resolved = p.resolve() if p.is_absolute() else (root / p).resolve()
-    if resolved != root and root not in resolved.parents:
-        raise ValueError(f"output path escapes repository root: {path}")
-    return str(resolved)
 
 def normalize_source_row(row):
     claim_id = (row.get("claim_id") or row.get("example_id") or "").strip()
@@ -173,7 +163,7 @@ def main():
         "ready_for_expansion": is_expected_total and is_balanced and not unusable,
         "unusable_preview": unusable[:50],
     }
-    with open(_checked_output_path(args.validation_output), "w", encoding="utf-8") as out:
+    with open(args.validation_output, "w", encoding="utf-8") as out:
         json.dump(validation_payload, out, indent=2)
 
     if not validation_payload["ready_for_expansion"]:
@@ -198,7 +188,7 @@ def main():
             out["notes"] = ""
             expanded.append(out)
 
-    with open(_checked_output_path(args.output), "w", encoding="utf-8", newline="") as out:
+    with open(args.output, "w", encoding="utf-8", newline="") as out:
         w = csv.DictWriter(out, fieldnames=OUT_FIELDS)
         w.writeheader()
         w.writerows(expanded)

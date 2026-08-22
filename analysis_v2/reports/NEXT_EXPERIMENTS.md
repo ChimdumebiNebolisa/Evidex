@@ -8,16 +8,19 @@ Ranked by scientific value × directness of mechanism test; inference needs note
 - Step 1 (no inference cost): expert-annotate the exported 250-claim manual
   review cohort (`data/derived/manual_review_cohort.csv`) into the provisional
   taxonomy (model-utilization vs representation vs benchmark ambiguity).
-- Step 2 (paid API, small): rerun only the ~266 regression/resistant claims
-  under 3 evidence serializations — sentence-only (current), sentences +
-  page titles, full evidence set (not just shortest complete set) — predicting
-  label + confidence + evidence-quote requirement.
+- Step 2 (paid API, small): rerun only the claims that drive the diagnostic
+  signal — the 226 unique claims that regress for at least one model, and the
+  561 unique claims failed with evidence by at least one model — under 3
+  evidence serializations: sentence-only (current), sentences + page titles,
+  full evidence set (not just shortest complete set), predicting label +
+  confidence + required evidence quote.
 - Directly tests whether the sentence-only, shortest-set representation
   contributes to regressions, separating representation failure from model
   failure. Cost: a few hundred paid calls, three arms.
 - Decisive because v2 shows regressions concentrate in weakly-warranted
-  claim-evidence pairs; if titles/full sets fix a large share, representation
-  is implicated; if not, model utilization.
+  claim-evidence pairs (replicated with two local NLI models); if titles/full
+  sets fix a large share, representation is implicated; if not, model
+  utilization.
 
 ## 2. NLI-guided relabeling audit of the weakly-warranted cohort (local, free)
 

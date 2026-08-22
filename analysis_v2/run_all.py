@@ -17,12 +17,15 @@ STAGES = [
     ("linguistic_features", "src/linguistic_features.py"),
     ("semantic_features", "src/semantic_features.py"),
     ("nli_analysis", "src/nli_analysis.py"),
+    ("nli_second_model", "src/nli_second_model.py"),
     ("feature_associations", "src/feature_associations.py"),
     ("regression_analysis", "src/regression_analysis.py"),
     ("data_quality_analysis", "src/data_quality_analysis.py"),
     ("clustering_analysis", "src/clustering_analysis.py"),
     ("manual_review_export", "src/manual_review_export.py"),
     ("generate_figures", "src/generate_figures.py"),
+    ("leakage_audit", "src/leakage_audit.py"),
+    ("verify_headlines", "src/verify_headlines.py"),
 ]
 
 REQUIRED = ["validate_source_data", "build_paired_dataset", "transition_analysis",

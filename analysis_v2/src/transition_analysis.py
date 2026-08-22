@@ -63,6 +63,25 @@ def transition_analysis():
                          "evidence_errors": n_err, "n": len(sub)})
     pd.DataFrame(asym).to_csv(config.TABLES_DIR / "evidence_error_asymmetry.csv", index=False)
 
+    # A1/A7-complete. Full four-way tables: 2x2 claim_only-correctness x
+    # evidence-correctness per model (with margins), overall and by gold label.
+    fourway = []
+    for m in config.MODELS:
+        for lbl in [None, "Supported", "Refuted"]:
+            sub = df if lbl is None else df[df["gold_label"] == lbl]
+            co = sub[f"{m}_claim_only_correct"]
+            ev = sub[f"{m}_evidence_correct"]
+            fourway.append({
+                "model": m, "gold_label": lbl or "ALL", "n": len(sub),
+                "co_correct_ev_correct": int((co & ev).sum()),
+                "co_correct_ev_wrong": int((co & ~ev).sum()),
+                "co_wrong_ev_correct": int((~co & ev).sum()),
+                "co_wrong_ev_wrong": int((~co & ~ev).sum()),
+                "claim_only_correct": int(co.sum()), "claim_only_wrong": int((~co).sum()),
+                "evidence_correct": int(ev.sum()), "evidence_wrong": int((~ev).sum()),
+            })
+    pd.DataFrame(fourway).to_csv(config.TABLES_DIR / "transition_four_way_tables.csv", index=False)
+
     # A4/A5/I. Cross-model transition concordance.
     ct = pd.crosstab(df["gpt-5.4_transition"], df["gpt-5.4-mini_transition"])
     ct = ct.reindex(index=T4, columns=T4, fill_value=0)

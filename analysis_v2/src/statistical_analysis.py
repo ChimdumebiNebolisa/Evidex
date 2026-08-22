@@ -66,13 +66,21 @@ def run():
             "rescue_rate": resc_rate, "rescue_ci": f"[{sl*100:.2f}, {sh*100:.2f}]",
         })
 
-    # 2. Transition-rate differences between models (chi-square on pooled counts).
+    # 2. Transition-rate differences between models.
+    # The two models are evaluated on the SAME claims, so these are paired
+    # comparisons: McNemar on the discordant pairs of each transition indicator
+    # (NOT an independent-samples chi-square).
     for t in ["wrong_to_correct", "correct_to_wrong", "wrong_to_wrong"]:
-        a1 = (df[f"gpt-5.4_transition"] == t).sum()
-        a2 = (df[f"gpt-5.4-mini_transition"] == t).sum()
-        chi2, p = stats.chi2_contingency([[a1, 10000 - a1], [a2, 10000 - a2]])[:2]
-        out.append({"analysis": "model_diff_transition", "transition": t,
-                    "gpt54_n": int(a1), "mini_n": int(a2), "chi2": chi2, "p_value": p})
+        a = (df[f"gpt-5.4_transition"] == t).to_numpy()
+        b = (df[f"gpt-5.4-mini_transition"] == t).to_numpy()
+        n01 = int((~a & b).sum())  # mini only
+        n10 = int((a & ~b).sum())  # gpt-5.4 only
+        res = mcnemar([[int((a & b).sum()), n10], [n01, int((~a & ~b).sum())]],
+                      exact=False, correction=True)
+        out.append({"analysis": "model_diff_transition_paired_mcnemar", "transition": t,
+                    "gpt54_n": int(a.sum()), "mini_n": int(b.sum()),
+                    "discordant_gpt54_only": n10, "discordant_mini_only": n01,
+                    "mcnemar_chi2": res.statistic, "p_value": res.pvalue})
 
     # 3. Label asymmetry: error direction in evidence condition per model per gold label.
     for m in config.MODELS:
