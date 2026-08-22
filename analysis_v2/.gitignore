@@ -1,0 +1,3 @@
+# Local-model caches are regenerable and large; do not commit.
+data/cache/*
+!data/cache/.gitkeep

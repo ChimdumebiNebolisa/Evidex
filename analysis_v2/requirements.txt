@@ -1,0 +1,14 @@
+# Analysis v2 dependencies (all free/local; no paid APIs).
+pandas>=2.0
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+statsmodels>=0.14
+matplotlib>=3.8
+pyarrow>=15
+polars>=0.20          # available as an alternative engine; pandas used in practice
+sentence-transformers>=2.7   # optional stage: semantic embeddings (local model)
+transformers>=4.40           # optional stage: local NLI diagnostic
+spacy>=3.7                   # optional stage: entity features
+# spacy model: python -m spacy download en_core_web_sm
+# optional clustering: umap-learn, hdbscan
