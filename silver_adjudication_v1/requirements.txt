@@ -1,0 +1,9 @@
+# Silver Adjudication v1 dependencies (all free/local; GLM subagents are
+# provided by the environment's Agent tooling, not a paid API call from here).
+pandas>=2.0
+numpy>=1.26
+scipy>=1.11
+statsmodels>=0.14
+scikit-learn>=1.4
+matplotlib>=3.8
+pyarrow>=15
