@@ -1,0 +1,802 @@
+[
+  {
+    "item_id": "SA-000006",
+    "stage": "A",
+    "resolver_outcome": "Supported",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 68,
+    "brief_reason": "Nine Super Bowl appearances entail that the Patriots got to seven; judges split over an exact-seven versus at-least-seven reading."
+  },
+  {
+    "item_id": "SA-000010",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 86,
+    "brief_reason": "The sentence confirms January 7, 1960 as the birth date but does not say that day was a Monday."
+  },
+  {
+    "item_id": "SA-000012",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 70,
+    "brief_reason": "An unidentified 'She' is the creator of Awkward Black Girl, which neither identifies Issa Rae nor establishes that she stars in it."
+  },
+  {
+    "item_id": "SA-000014",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 64,
+    "brief_reason": "Unidentified 'He' and the unmatched 'marble' attribute block a decision, even though a Livia-poisoning rumor is stated."
+  },
+  {
+    "item_id": "SA-000015",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 72,
+    "brief_reason": "The sentence describes a TV character's father as a doctor, not the unidentified subject's real parentage or occupation."
+  },
+  {
+    "item_id": "SA-000016",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 62,
+    "brief_reason": "Unidentified 'it' is called a form of strategic information use, but military use is not stated and the referent depends on a missing title."
+  },
+  {
+    "item_id": "SA-000026",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 76,
+    "brief_reason": "The monument is given as 554 ft or 555 ft by conflicting sources, neither of which is the claimed 554.5 ft."
+  },
+  {
+    "item_id": "SA-000034",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 74,
+    "brief_reason": "The evidence establishes that Benoit was Canadian, not that he was from North America."
+  },
+  {
+    "item_id": "SA-000036",
+    "stage": "A",
+    "resolver_outcome": "Supported",
+    "disagreement_type": "judge_error",
+    "confidence": 72,
+    "brief_reason": "The named show is an Indian television series, which warrants calling it a serial; remaining judges over-distinguished anthology from serial."
+  },
+  {
+    "item_id": "SA-000043",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 68,
+    "brief_reason": "Unidentified 'it' is a political alliance partner with COSATU, which is not the same as being a trades partner."
+  },
+  {
+    "item_id": "SA-000044",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 82,
+    "brief_reason": "The university is located in Beijing as a Chinese institution, but a unitary East Asian sovereign state is not stated."
+  },
+  {
+    "item_id": "SA-000046",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 70,
+    "brief_reason": "The untitled series has a second season slated for June 2017, which does not decide a June 2015 premiere."
+  },
+  {
+    "item_id": "SA-000051",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 88,
+    "brief_reason": "SZA is identified as a Neo Soul singer, but American nationality is not given."
+  },
+  {
+    "item_id": "SA-000052",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 72,
+    "brief_reason": "Unidentified 'He' only attempts to travel alone across 2008-2010 specials and is later accompanied, so a 2009-2010 alone claim is mixed."
+  },
+  {
+    "item_id": "SA-000054",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 82,
+    "brief_reason": "Draft selection by the 49ers in 2011 does not establish that Kaepernick is their quarterback."
+  },
+  {
+    "item_id": "SA-000056",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 60,
+    "brief_reason": "Missing title plus the scope of 'anyone except' clash with Stanton as director and MacLane as co-director."
+  },
+  {
+    "item_id": "SA-000059",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 80,
+    "brief_reason": "Matthias's library is called one of Europe's largest, but the Renaissance 1450s dating is not given."
+  },
+  {
+    "item_id": "SA-000062",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 76,
+    "brief_reason": "Castlevania is said to be for the Family Computer Disk System, which is not identified as a Nintendo console."
+  },
+  {
+    "item_id": "SA-000064",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 72,
+    "brief_reason": "Unidentified 'He' worked on Star Trek with others, which does not establish that Roberto Orci wrote it."
+  },
+  {
+    "item_id": "SA-000074",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 70,
+    "brief_reason": "April 17, 1790 is attached to Franklin without being labeled birth or death, so the negated birth claim cannot be decided."
+  },
+  {
+    "item_id": "SA-000078",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 88,
+    "brief_reason": "Wildfang is a US women's apparel company with tomboyish clothing, but hats are not mentioned."
+  },
+  {
+    "item_id": "SA-000079",
+    "stage": "A",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 58,
+    "brief_reason": "Territorial loss to Sweden does not address whether the Danish language is spoken in Sweden."
+  },
+  {
+    "item_id": "SA-000087",
+    "stage": "A",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 80,
+    "brief_reason": "The biography identifies McElhenney as an actor and is silent on Mac or It's Always Sunny in Philadelphia."
+  },
+  {
+    "item_id": "SA-000093",
+    "stage": "A",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 86,
+    "brief_reason": "The film credits do not mention a corpse exhibition or any appearance at one."
+  },
+  {
+    "item_id": "SA-000094",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 78,
+    "brief_reason": "Scaramucci is called a political figure, which does not establish that he is a political leader."
+  },
+  {
+    "item_id": "SA-000099",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 76,
+    "brief_reason": "The evidence contrasts static and dynamic pages, not static and interactive ones."
+  },
+  {
+    "item_id": "SA-000100",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 64,
+    "brief_reason": "Unidentified 'Brown' released the song with Missy Elliott, but that name is not tied to Mel B."
+  },
+  {
+    "item_id": "SA-000103",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 80,
+    "brief_reason": "David Marvin Blake is given as DJ Quik's name, not as a maiden name."
+  },
+  {
+    "item_id": "SA-000107",
+    "stage": "A",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 70,
+    "brief_reason": "The competition is stated to be annual, which conflicts with calling it only almost annual."
+  },
+  {
+    "item_id": "SA-000109",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 84,
+    "brief_reason": "Villa Park hosted the 2012 FA Community Shield, but the evidence does not say it was the 90th."
+  },
+  {
+    "item_id": "SA-000113",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 82,
+    "brief_reason": "South Island residents' 'mainland' usage is stated, but the island being a cultured place is not."
+  },
+  {
+    "item_id": "SA-000115",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 76,
+    "brief_reason": "A last windstorm in 2006 is given without the month May or an explicit Stanley Park identification."
+  },
+  {
+    "item_id": "SA-000117",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 82,
+    "brief_reason": "Michael appears only as Benoit's middle name, not as his name."
+  },
+  {
+    "item_id": "SA-000124",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 74,
+    "brief_reason": "Stanfield is identified as an actor and rapper, not as a singer."
+  },
+  {
+    "item_id": "SA-000125",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 80,
+    "brief_reason": "Matoaka is given as a birth name, not as Pocahontas's middle name."
+  },
+  {
+    "item_id": "SA-000126",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 84,
+    "brief_reason": "The stated full name is Salvador Guerrero Quesada, not just Salvador Guerrero."
+  },
+  {
+    "item_id": "SA-000128",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 66,
+    "brief_reason": "An unidentified town was the capital from 972 to 992, which clashes with 'barely' and with an unnamed Skopje referent."
+  },
+  {
+    "item_id": "SA-000131",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 62,
+    "brief_reason": "Unidentified Elizabeth is the daughter of Henry VIII and Anne Boleyn, which does not settle a salesman-parent claim."
+  },
+  {
+    "item_id": "SA-000132",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 84,
+    "brief_reason": "A first season is said to have ten episodes, but Westworld and Jason Bateman are not mentioned."
+  },
+  {
+    "item_id": "SA-000134",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 70,
+    "brief_reason": "Khurrana is an actor, RJ, and TV anchor; adjacent journalism definitions do not show that he works in journalism."
+  },
+  {
+    "item_id": "SA-000139",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 72,
+    "brief_reason": "Melilla, spelled differently, is a Spanish autonomous city in Africa, which neither cleanly confirms nor denies a city in Spain."
+  },
+  {
+    "item_id": "SA-000140",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 76,
+    "brief_reason": "Henry IV's succession is stated, but a 1268 Bourbon origin contradicts calling him founder of the House."
+  },
+  {
+    "item_id": "SA-000145",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 66,
+    "brief_reason": "Unidentified 'it' was established in Belgrade, which does not show that Yugoslavia belonged to the Group of 15."
+  },
+  {
+    "item_id": "SA-000154",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 74,
+    "brief_reason": "Murdoch formed the broadcaster BSkyB, which does not establish that he himself is a broadcaster."
+  },
+  {
+    "item_id": "SA-000155",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 70,
+    "brief_reason": "Beatles popularity is tied to Liverpool tourism, not to the band coming together there."
+  },
+  {
+    "item_id": "SA-000158",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 78,
+    "brief_reason": "Unidentified 'He' won Australian Open men's doubles, but the 2011 year and Kontinen identity are missing."
+  },
+  {
+    "item_id": "SA-000160",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 76,
+    "brief_reason": "Unidentified 'it' is an economic and communications hub and provincial capital, not a political hub."
+  },
+  {
+    "item_id": "SA-000165",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 60,
+    "brief_reason": "An untitled album sold 15 million copies, which neither confirms nor refutes sales of only digital copies."
+  },
+  {
+    "item_id": "SA-000182",
+    "stage": "A",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 62,
+    "brief_reason": "A Colombia shoot with Challenge alumni does not identify Dirty 30 as a United States television season."
+  },
+  {
+    "item_id": "SA-000189",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 74,
+    "brief_reason": "The track appears on a 2000 album but was released as a single in 2001, so a 2000 release depends on which event is meant."
+  },
+  {
+    "item_id": "SA-000192",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 60,
+    "brief_reason": "A founding-member list omits Barlow but does not address later membership or name the Grateful Dead."
+  },
+  {
+    "item_id": "SA-000193",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 68,
+    "brief_reason": "Geraldine Chaplin is among the stars, but she is not identified as Charlie Chaplin's fourth stepchild."
+  },
+  {
+    "item_id": "SA-000195",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 68,
+    "brief_reason": "Calling it a 1968 horror film does not rule out a seven-film zombie series of that name."
+  },
+  {
+    "item_id": "SA-000202",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 80,
+    "brief_reason": "Unidentified 'it' was signed at that San Francisco center, which is not the same as being completed there."
+  },
+  {
+    "item_id": "SA-000203",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 62,
+    "brief_reason": "Unidentified 'he' published scripts, which sits poorly with 'barely' but does not quantify Huxley's output."
+  },
+  {
+    "item_id": "SA-000208",
+    "stage": "A",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 70,
+    "brief_reason": "Granting the subject reading, 'She' is listed as appearing in The Boat That Rocked, which contradicts the negation."
+  },
+  {
+    "item_id": "SA-000210",
+    "stage": "A",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 72,
+    "brief_reason": "Granting the subject reading, Everyday Robots is his debut solo album, which contradicts having nothing to do with it."
+  },
+  {
+    "item_id": "SA-000211",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 82,
+    "brief_reason": "Northwestern remains the conference's only private university, but the since-1968 restriction is not given."
+  },
+  {
+    "item_id": "SA-000213",
+    "stage": "A",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 68,
+    "brief_reason": "Granting the title reading, the film follows a marijuana dealer, which contradicts none of the characters being one."
+  },
+  {
+    "item_id": "SA-000214",
+    "stage": "A",
+    "resolver_outcome": "Supported",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 66,
+    "brief_reason": "Granting that 'the couple' is Sonny & Cher, they began as R&B backing singers, which supports that they sing R&B."
+  },
+  {
+    "item_id": "SA-000215",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 62,
+    "brief_reason": "Unidentified 'She' is a younger sister of Trace Cyrus, so Trace's being a younger sibling of Noah depends on identifying her as Noah."
+  },
+  {
+    "item_id": "SA-000216",
+    "stage": "A",
+    "resolver_outcome": "Supported",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 68,
+    "brief_reason": "Granting that 'it' is Blank Space, the sentence says it charted in the top 10 in Germany."
+  },
+  {
+    "item_id": "SA-000218",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 70,
+    "brief_reason": "His sons' reigns helped spark the Wars of Religion, which does not settle whether Henry II was involved in causing them."
+  },
+  {
+    "item_id": "SA-000219",
+    "stage": "A",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 72,
+    "brief_reason": "Granting the subject reading, Richard III is called her uncle, which contradicts cousin."
+  },
+  {
+    "item_id": "SA-000220",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 80,
+    "brief_reason": "Baker narrated video games, which is not the same as having reviewed them."
+  },
+  {
+    "item_id": "SA-000222",
+    "stage": "A",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 74,
+    "brief_reason": "Granting the title reading, Tarantino's screenplay was heavily revised, which contradicts 'without revision.'"
+  },
+  {
+    "item_id": "SA-000223",
+    "stage": "A",
+    "resolver_outcome": "Supported",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 66,
+    "brief_reason": "Granting the title reading, the movie was dubbed into Japanese."
+  },
+  {
+    "item_id": "SA-000224",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 76,
+    "brief_reason": "Palestine is described as a Middle East state, not as claiming territory in Western Asia."
+  },
+  {
+    "item_id": "SA-000226",
+    "stage": "A",
+    "resolver_outcome": "Supported",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 68,
+    "brief_reason": "Granting the title reading, the movie was adapted by Alvin Sargent."
+  },
+  {
+    "item_id": "SA-000228",
+    "stage": "A",
+    "resolver_outcome": "Supported",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 70,
+    "brief_reason": "Granting that 'the club' is Southampton F.C., it finished second in the First Division in 1983-84."
+  },
+  {
+    "item_id": "SA-000229",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 78,
+    "brief_reason": "Unidentified 'it' was established after the Chechen-Ingush ASSR split, not named after that split."
+  },
+  {
+    "item_id": "SA-000230",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 72,
+    "brief_reason": "Kathleen Erin Walsh is identified as an actress, which does not show she was on a television show."
+  },
+  {
+    "item_id": "SA-000231",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 76,
+    "brief_reason": "Origin from a Black Sea kingdom is supported, but the claim that Georgians are significant is not."
+  },
+  {
+    "item_id": "SA-000234",
+    "stage": "A",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 70,
+    "brief_reason": "Granting the title reading, the film concerns Wood's filmmaking life, which contradicts it not being about the eponymous filmmaker."
+  },
+  {
+    "item_id": "SA-000236",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 74,
+    "brief_reason": "Advertising is said to sell a product, service, or idea, not an ideology."
+  },
+  {
+    "item_id": "SA-000237",
+    "stage": "A",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 72,
+    "brief_reason": "Granting that 'the couple' is Sonny & Cher, a mid-1960s start contradicts a mid-1930s beginning."
+  },
+  {
+    "item_id": "SA-000238",
+    "stage": "A",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 72,
+    "brief_reason": "Topman is said to have Ireland outlets in six cities and towns, which conflicts with outlets in one Irish city."
+  },
+  {
+    "item_id": "SA-000239",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 68,
+    "brief_reason": "The victims are described as mostly Ottoman citizens, which is related to but not the same as Turkish citizens."
+  },
+  {
+    "item_id": "SA-000240",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 78,
+    "brief_reason": "Bloch created the character in a novel; that is not the same as Norman Bates being published by Bloch."
+  },
+  {
+    "item_id": "SA-000241",
+    "stage": "A",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 76,
+    "brief_reason": "Granting the film referent, it is loosely based on the games, which contradicts an exact adaptation."
+  },
+  {
+    "item_id": "SA-000243",
+    "stage": "A",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 74,
+    "brief_reason": "Granting the subject reading, her debut was a studio album, which contradicts making only non-studio albums."
+  },
+  {
+    "item_id": "SA-000246",
+    "stage": "A",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 66,
+    "brief_reason": "Granting the field identity, a September 2009 discovery conflicts with operation by BP as of 2008."
+  },
+  {
+    "item_id": "SA-000248",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 84,
+    "brief_reason": "Hardwicke directed an Academy Award-nominated film, which does not make her award-winning."
+  },
+  {
+    "item_id": "SA-000249",
+    "stage": "A",
+    "resolver_outcome": "Supported",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 68,
+    "brief_reason": "Granting that 'He' is Paul Nicholls, he is best known for playing Joe Wicks."
+  },
+  {
+    "item_id": "SA-000252",
+    "stage": "A",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 64,
+    "brief_reason": "Granting the membership is Mormon, 3,090,953 members in 1971 contradicts 953."
+  },
+  {
+    "item_id": "SA-000255",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 80,
+    "brief_reason": "Brody is identified as a fictional character, which conflicts with an ordinary reading of 'is a person.'"
+  },
+  {
+    "item_id": "SA-000256",
+    "stage": "A",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 78,
+    "brief_reason": "The sentence mentions air traffic controllers' cursory understanding without identifying Morse Code or its use."
+  },
+  {
+    "item_id": "SA-000260",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 64,
+    "brief_reason": "After death, unidentified 'he' was designated Eternal General Secretary, which conflicts with working for that post."
+  },
+  {
+    "item_id": "SA-000262",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 60,
+    "brief_reason": "Unidentified 'it' began in 1785, which is not linked to the American Revolution or named as The Times."
+  },
+  {
+    "item_id": "SA-000264",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 72,
+    "brief_reason": "Capitol Nashville released the album titled Keith Urban, not clearly the person Keith Urban."
+  },
+  {
+    "item_id": "SA-000266",
+    "stage": "A",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 74,
+    "brief_reason": "Granting the film is Swordfish, it centers on a computer hacker, which contradicts being incapable of being about one."
+  },
+  {
+    "item_id": "SA-000275",
+    "stage": "A",
+    "resolver_outcome": "Supported",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 70,
+    "brief_reason": "Granting that 'She' is Talulah Riley, she is listed as appearing in The Boat That Rocked."
+  },
+  {
+    "item_id": "SA-000276",
+    "stage": "A",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 70,
+    "brief_reason": "The sentence identifies Duane Lee 'Dog' Chapman I and does not state a father-son relation."
+  },
+  {
+    "item_id": "SA-000278",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 86,
+    "brief_reason": "An untitled movie is scheduled for June 15, 2018, but a 2 p.m. release time is not given."
+  },
+  {
+    "item_id": "SA-000280",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 88,
+    "brief_reason": "The series is said to star Issa Rae, but the character Amber is not mentioned."
+  },
+  {
+    "item_id": "SA-000281",
+    "stage": "A",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 70,
+    "brief_reason": "Granting the metro referent, a 2015 estimate of 5.7 million contradicts 5.5 million."
+  },
+  {
+    "item_id": "SA-000283",
+    "stage": "A",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 70,
+    "brief_reason": "Ronaldinho is said to have played 97 Brazil matches, which conflicts with a specific count of 90."
+  },
+  {
+    "item_id": "SA-000284",
+    "stage": "A",
+    "resolver_outcome": "Supported",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 72,
+    "brief_reason": "Granting that 'it' is the United States dollar, it is the sole currency in both named territories."
+  },
+  {
+    "item_id": "SA-000285",
+    "stage": "A",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 72,
+    "brief_reason": "The film is attributed to Gordon Chan and is silent on remake status or John Woo."
+  },
+  {
+    "item_id": "SA-000286",
+    "stage": "A",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 70,
+    "brief_reason": "Singh is a later prime minister than Nehru, but Nehru is not identified as India's first prime minister."
+  }
+]

@@ -1,0 +1,802 @@
+[
+  {
+    "item_id": "SA-000010",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 78,
+    "brief_reason": "Evidence confirms the January 7, 1960 birth date but never states that the day was a Monday."
+  },
+  {
+    "item_id": "SA-000012",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 80,
+    "brief_reason": "Evidence identifies Issa Rae as creator of Awkward Black Girl, not as someone who stars in it."
+  },
+  {
+    "item_id": "SA-000014",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 70,
+    "brief_reason": "Evidence supports unconfirmed rumors that wife Livia poisoned Augustus, but not the extra marble descriptor."
+  },
+  {
+    "item_id": "SA-000015",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 82,
+    "brief_reason": "The doctor-son relation is about the TV character Steve Sloan, not a stated fact about Barry Van Dyke himself."
+  },
+  {
+    "item_id": "SA-000021",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 74,
+    "brief_reason": "Virginia is southeast and Ohio is northwest, so the claim is true or false depending on whether to the southeast covers both states."
+  },
+  {
+    "item_id": "SA-000034",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 72,
+    "brief_reason": "Evidence says Benoit was Canadian and does not itself state that he was from North America."
+  },
+  {
+    "item_id": "SA-000043",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 76,
+    "brief_reason": "Evidence shows a political alliance that includes a trade-union federation, not that the party is a trades partner."
+  },
+  {
+    "item_id": "SA-000044",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 80,
+    "brief_reason": "Evidence places the university in Beijing as a Chinese institution but does not establish a unitary East Asian sovereign state."
+  },
+  {
+    "item_id": "SA-000046",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 68,
+    "brief_reason": "The supplied sentence is about a 2017 second-season premiere, so a 2015 premiere cannot be judged without the missing first-season context."
+  },
+  {
+    "item_id": "SA-000051",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 84,
+    "brief_reason": "Evidence calls SZA a Neo Soul singer but never says she is American."
+  },
+  {
+    "item_id": "SA-000052",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 71,
+    "brief_reason": "He attempted to travel alone across the 2008-2010 specials, then was accompanied, and the claimed 2009-2010 span does not match exactly."
+  },
+  {
+    "item_id": "SA-000054",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 77,
+    "brief_reason": "Draft selection by the 49ers does not establish that he is their quarterback."
+  },
+  {
+    "item_id": "SA-000056",
+    "stage": "C",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 80,
+    "brief_reason": "Angus MacLane is credited as co-director, so the claim that it was directed by anyone except him does not hold."
+  },
+  {
+    "item_id": "SA-000058",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 73,
+    "brief_reason": "The record's acclaim and Grammy are stated, but the text never names Michael Jackson as that singer."
+  },
+  {
+    "item_id": "SA-000059",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 82,
+    "brief_reason": "The library-size claim is supported, but the Renaissance and 1450s timing are not in the evidence."
+  },
+  {
+    "item_id": "SA-000064",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 75,
+    "brief_reason": "Working with Abrams on Star Trek does not establish that Orci wrote Star Trek."
+  },
+  {
+    "item_id": "SA-000074",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 70,
+    "brief_reason": "A bare parenthetical date of April 17, 1790 could be birth or death, so the negated birth claim cannot be decided from this format."
+  },
+  {
+    "item_id": "SA-000078",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 86,
+    "brief_reason": "The company and tomboyish clothing match, but hats are never mentioned."
+  },
+  {
+    "item_id": "SA-000079",
+    "stage": "C",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 64,
+    "brief_reason": "Loss of territory to Sweden does not say whether Danish is spoken in Sweden."
+  },
+  {
+    "item_id": "SA-000087",
+    "stage": "C",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 78,
+    "brief_reason": "The biography sentence names acting credits in general and never mentions Mac or It's Always Sunny in Philadelphia."
+  },
+  {
+    "item_id": "SA-000093",
+    "stage": "C",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 80,
+    "brief_reason": "The film description has nothing about a corpse exhibition."
+  },
+  {
+    "item_id": "SA-000094",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 76,
+    "brief_reason": "Being a political figure is not the same as being a political leader."
+  },
+  {
+    "item_id": "SA-000099",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 74,
+    "brief_reason": "Evidence contrasts static and dynamic pages, which only loosely matches the claim's interactive wording."
+  },
+  {
+    "item_id": "SA-000103",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 79,
+    "brief_reason": "David Marvin Blake is given as his name, but not as a maiden name."
+  },
+  {
+    "item_id": "SA-000107",
+    "stage": "C",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 76,
+    "brief_reason": "Evidence says the competition is annual, which conflicts with calling it only almost annual."
+  },
+  {
+    "item_id": "SA-000109",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 83,
+    "brief_reason": "Hosting the 2012 FA Community Shield is stated, but not that it was the 90th edition."
+  },
+  {
+    "item_id": "SA-000113",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 85,
+    "brief_reason": "The mainland nickname for South Island residents is supported, but cultured place is not."
+  },
+  {
+    "item_id": "SA-000115",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 84,
+    "brief_reason": "The last major windstorm is placed in 2006, not specifically in May."
+  },
+  {
+    "item_id": "SA-000117",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 77,
+    "brief_reason": "Michael is his middle name, so saying his name is Michael is only a partial identification."
+  },
+  {
+    "item_id": "SA-000124",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 73,
+    "brief_reason": "He is identified as an actor and rapper, which neither establishes nor rules out being a singer."
+  },
+  {
+    "item_id": "SA-000125",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 72,
+    "brief_reason": "Matoaka is given as a birth name, which clashes with calling it a middle name without deciding a broader naming claim."
+  },
+  {
+    "item_id": "SA-000126",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 74,
+    "brief_reason": "Salvador Guerrero matches part of the given full name Salvador Guerrero Quesada, so full name is overstated rather than settled."
+  },
+  {
+    "item_id": "SA-000128",
+    "stage": "C",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "judge_error",
+    "confidence": 83,
+    "brief_reason": "Evidence states Skopje was the capital between 972 and 992, so calling it barely a capital is an unsupported hedge."
+  },
+  {
+    "item_id": "SA-000131",
+    "stage": "C",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 66,
+    "brief_reason": "Parents are named as Henry VIII and Anne Boleyn, with no occupation that could confirm or deny salesman."
+  },
+  {
+    "item_id": "SA-000132",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 86,
+    "brief_reason": "Ten first-season episodes are stated, but Jason Bateman is never mentioned."
+  },
+  {
+    "item_id": "SA-000134",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 70,
+    "brief_reason": "He is an RJ and TV anchor, and nearby definitions of presenting and journalism do not say he works in journalism."
+  },
+  {
+    "item_id": "SA-000140",
+    "stage": "C",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 78,
+    "brief_reason": "Henry IV succeeds Henry III as the first French Bourbon king, but the house originated in 1268, so he is not its founder."
+  },
+  {
+    "item_id": "SA-000145",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 72,
+    "brief_reason": "The Group of 15 was established in Belgrade, but membership is described as Latin American, African, and Asian, not Yugoslav."
+  },
+  {
+    "item_id": "SA-000155",
+    "stage": "C",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 68,
+    "brief_reason": "Beatles popularity is tied to Liverpool tourism, not to the band coming together there."
+  },
+  {
+    "item_id": "SA-000158",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 84,
+    "brief_reason": "The Australian Open men's doubles win is stated without the year 2011."
+  },
+  {
+    "item_id": "SA-000160",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 75,
+    "brief_reason": "Padua is a provincial capital and an economic and communications hub, not a stated political hub."
+  },
+  {
+    "item_id": "SA-000165",
+    "stage": "C",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 62,
+    "brief_reason": "Worldwide copy sales are given with no format information that could decide an only-digital claim."
+  },
+  {
+    "item_id": "SA-000177",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 67,
+    "brief_reason": "A Golden Globe nomination is stated for a He on the Byron Howard page, which does not securely identify Bryan Howd."
+  },
+  {
+    "item_id": "SA-000182",
+    "stage": "C",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 71,
+    "brief_reason": "The sentence about filming in Colombia and franchise alumni does not establish a U.S. television season."
+  },
+  {
+    "item_id": "SA-000189",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 73,
+    "brief_reason": "The track appears on a 2000 album but the single release date is October 9, 2001, so released in 2000 depends on which release is meant."
+  },
+  {
+    "item_id": "SA-000192",
+    "stage": "C",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 74,
+    "brief_reason": "The founding-member list does not include John Perry Barlow and gives no later-member information."
+  },
+  {
+    "item_id": "SA-000193",
+    "stage": "C",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 79,
+    "brief_reason": "Geraldine Chaplin is listed in the cast, with no evidence she is Charlie Chaplin's fourth stepchild."
+  },
+  {
+    "item_id": "SA-000202",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 80,
+    "brief_reason": "The Charter was signed at that San Francisco center, which is not the same as being completed there."
+  },
+  {
+    "item_id": "SA-000203",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 72,
+    "brief_reason": "Evidence says he published scripts but gives no quantity that could support or refute barely."
+  },
+  {
+    "item_id": "SA-000211",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 81,
+    "brief_reason": "Northwestern is the conference's only private university, but the since 1968 restriction is not in the evidence."
+  },
+  {
+    "item_id": "SA-000218",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 70,
+    "brief_reason": "His sons' reigns helped spark the Wars of Religion, which neither clears nor ties Henry II himself to that cause."
+  },
+  {
+    "item_id": "SA-000220",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 82,
+    "brief_reason": "Narrating video games is not the same as reviewing them."
+  },
+  {
+    "item_id": "SA-000224",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 69,
+    "brief_reason": "Evidence locates a de jure state in the Middle East and does not say it claims territory in Western Asia."
+  },
+  {
+    "item_id": "SA-000229",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 78,
+    "brief_reason": "Ingushetia was established after the Chechen-Ingush split, not named after that split."
+  },
+  {
+    "item_id": "SA-000230",
+    "stage": "C",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 80,
+    "brief_reason": "Calling her an actress does not say she was on a television show."
+  },
+  {
+    "item_id": "SA-000231",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 71,
+    "brief_reason": "Colchis supports the Black Sea kingdom origin, but they are significant is not clearly warranted by the majority-population sentence."
+  },
+  {
+    "item_id": "SA-000236",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 74,
+    "brief_reason": "Advertising can sell an idea, which only partly and contentiously matches selling an ideology."
+  },
+  {
+    "item_id": "SA-000239",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 73,
+    "brief_reason": "Victims are described as mostly Ottoman citizens, which is not the same as mostly Turkish citizens."
+  },
+  {
+    "item_id": "SA-000240",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 77,
+    "brief_reason": "Bloch created the character; the evidence does not say he published Norman Bates."
+  },
+  {
+    "item_id": "SA-000248",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 79,
+    "brief_reason": "She is a film director of an Academy Award-nominated work, which is not the same as being award-winning."
+  },
+  {
+    "item_id": "SA-000255",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 76,
+    "brief_reason": "Evidence calls Brody a fictional character, so whether that counts as a person is a genuine semantic dispute."
+  },
+  {
+    "item_id": "SA-000256",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 68,
+    "brief_reason": "Controllers needing a cursory understanding only supports ATC use if missing surrounding Morse-code context is assumed."
+  },
+  {
+    "item_id": "SA-000262",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 66,
+    "brief_reason": "An 1785 start date is given without naming the American Revolution or stating that the paper has been printed since then."
+  },
+  {
+    "item_id": "SA-000274",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 75,
+    "brief_reason": "The album is stylized as G I R L, which is a different relation from being criticized as G I R L."
+  },
+  {
+    "item_id": "SA-000278",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 88,
+    "brief_reason": "A June 15, 2018 release is scheduled, but 2 p.m. is not in the evidence."
+  },
+  {
+    "item_id": "SA-000280",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 83,
+    "brief_reason": "Issa Rae is said to star in the series, but not as Amber."
+  },
+  {
+    "item_id": "SA-000285",
+    "stage": "C",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 81,
+    "brief_reason": "The film is attributed to Gordon Chan, with no remake relationship or John Woo credit."
+  },
+  {
+    "item_id": "SA-000286",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 70,
+    "brief_reason": "Singh is a later prime minister than Nehru, but Nehru is not identified as India's first prime minister."
+  },
+  {
+    "item_id": "SA-000293",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 76,
+    "brief_reason": "Hickam is said to have written the Josh Thurlow novels, which does not match the claimed name Homer Hickman."
+  },
+  {
+    "item_id": "SA-000309",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 73,
+    "brief_reason": "Serving the United Kingdom does not by itself state that Sky UK serves London."
+  },
+  {
+    "item_id": "SA-000313",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 71,
+    "brief_reason": "More than sixty television and film productions are mentioned, but the notable titles are films and multiple TV-show starring roles are not shown."
+  },
+  {
+    "item_id": "SA-000328",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 72,
+    "brief_reason": "The supplied text describes an adventure drama film based on a novel, so the novel claim turns on which work the title is taken to name."
+  },
+  {
+    "item_id": "SA-000330",
+    "stage": "C",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 60,
+    "brief_reason": "Gender and geographic mix are given, not a student-body headcount, and stood at a number is not a decidable claim."
+  },
+  {
+    "item_id": "SA-000340",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 77,
+    "brief_reason": "The stated treatment is a strict gluten-free diet, not a generic healthy diet."
+  },
+  {
+    "item_id": "SA-000349",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 69,
+    "brief_reason": "Several knockout totals are listed in title-fight categories, none of which is 30 career knockouts in special-event fights."
+  },
+  {
+    "item_id": "SA-000351",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 74,
+    "brief_reason": "Stated themes are positive change, anxiety, and emotional drives, which conflict with isolation and addiction without fully ruling them out."
+  },
+  {
+    "item_id": "SA-000355",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 80,
+    "brief_reason": "A Paris premiere on May 24, 2016 is stated, with no mention of the Rio Olympics."
+  },
+  {
+    "item_id": "SA-000358",
+    "stage": "C",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 76,
+    "brief_reason": "The 1949 founding and ROC retreat say nothing about comparative membership counts."
+  },
+  {
+    "item_id": "SA-000360",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 65,
+    "brief_reason": "The prose only identifies the Lynyrd Skynyrd song, while a Harvest link appears without a sentence that it replied to two Neil Young tracks."
+  },
+  {
+    "item_id": "SA-000362",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 79,
+    "brief_reason": "The founders previously worked at Nike in Portland, which does not say Wildfang was established there."
+  },
+  {
+    "item_id": "SA-000368",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 72,
+    "brief_reason": "Howard played James Rhodes, which is not clearly the same as impersonating him, and the referent of Howard is only page-title dependent."
+  },
+  {
+    "item_id": "SA-000371",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 75,
+    "brief_reason": "Development is placed largely in the United Kingdom and the United States, so a Europe-only origin is only partly warranted."
+  },
+  {
+    "item_id": "SA-000377",
+    "stage": "C",
+    "resolver_outcome": "Unresolved",
+    "disagreement_type": "unresolved",
+    "confidence": 70,
+    "brief_reason": "Karen Lucille Hale is the subject's own name, and the evidence never addresses her mother's name."
+  },
+  {
+    "item_id": "SA-000378",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 78,
+    "brief_reason": "Service from 2004 to 2014 covers 2009, but the first-Prime-Minister comparison is not in the evidence."
+  },
+  {
+    "item_id": "SA-000382",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 80,
+    "brief_reason": "The $16 million figure is for June 2014 to June 2015, not for calendar 2014."
+  },
+  {
+    "item_id": "SA-000386",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 71,
+    "brief_reason": "Tijuana is placed in Baja California and a San Diego-Tijuana metro area, not explicitly in Mexico."
+  },
+  {
+    "item_id": "SA-000387",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 78,
+    "brief_reason": "The film is based on a TV series created by Rick Rosner, not shown to be popular or written by him."
+  },
+  {
+    "item_id": "SA-000391",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 74,
+    "brief_reason": "A $160 million budget is stated and worldwide gross exceeds it, but that does not settle whether the film made a profit."
+  },
+  {
+    "item_id": "SA-000399",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 85,
+    "brief_reason": "Comprising all of Indonesian New Guinea is stated, but cultured is not."
+  },
+  {
+    "item_id": "SA-000411",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 76,
+    "brief_reason": "A coach-quarterback tandem reached seven Super Bowls and won five, which does not say the team lost five."
+  },
+  {
+    "item_id": "SA-000412",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "representation_sensitive",
+    "confidence": 67,
+    "brief_reason": "The truncated UK's largest fragment mentions the UK but does not establish service to a sovereign country in western Eurasia."
+  },
+  {
+    "item_id": "SA-000414",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 81,
+    "brief_reason": "Seth Meyers hosted and hosts Late Night, but he is not identified as the inventor of Late Night."
+  },
+  {
+    "item_id": "SA-000422",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 80,
+    "brief_reason": "The first season's Netflix date matches, but first season does not establish that the series has only one season."
+  },
+  {
+    "item_id": "SA-000425",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 73,
+    "brief_reason": "Primary products are poultry, soybeans, and cattle, which only questionably counts as producing grain."
+  },
+  {
+    "item_id": "SA-000426",
+    "stage": "C",
+    "resolver_outcome": "Refuted",
+    "disagreement_type": "judge_error",
+    "confidence": 82,
+    "brief_reason": "The supplied evidence identifies this Night of the Living Dead as a 1968 horror film, which contradicts 1990."
+  },
+  {
+    "item_id": "SA-000435",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 84,
+    "brief_reason": "A $34 million budget is stated, but not that it was specifically for cast and crew."
+  },
+  {
+    "item_id": "SA-000438",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 72,
+    "brief_reason": "Untreated disease may slightly raise early-death risk, which clashes with may not without making both hedges impossible."
+  },
+  {
+    "item_id": "SA-000441",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 79,
+    "brief_reason": "The university is placed in China, but a unitary sovereign state in East Asia is not established."
+  },
+  {
+    "item_id": "SA-000458",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "semantic_conflict",
+    "confidence": 75,
+    "brief_reason": "She is identified with Venus and a Roman goddess equivalent, so whether Aphrodite is a person is semantically unsettled."
+  },
+  {
+    "item_id": "SA-000459",
+    "stage": "C",
+    "resolver_outcome": "Ambiguous",
+    "disagreement_type": "partial_warrant",
+    "confidence": 77,
+    "brief_reason": "Lyon is a city in France, but Southwest is not stated."
+  }
+]
