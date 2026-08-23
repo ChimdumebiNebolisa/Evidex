@@ -32,7 +32,9 @@ def sha256(path: Path) -> str:
 def _raw_judgments(stage: str):
     """Read judge outputs directly from the frozen batch files."""
     rows = []
-    for p in sorted((config.JUDGMENTS_DIR / f"stage_{stage.lower()}").glob("judge_*_batch_*.jsonl")):
+    for p in sorted((config.JUDGMENTS_DIR / f"stage_{stage.lower()}").glob("*_batch_*.jsonl")):
+        if p.name.endswith("_missing.json"):
+            continue
         judge = p.name.split("_batch")[0]
         content = p.read_text(encoding="utf-8").strip()
         try:
@@ -93,7 +95,7 @@ def cohort_robust_n():
 
 @verifier
 def judged_items_n():
-    pf = json.loads((config.DERIVED_DIR / "provider_filtered.json").read_text(encoding="utf-8"))
+    pf = json.loads(config.PROVIDER_FILTERED.read_text(encoding="utf-8"))
     return cohort_total_n() - len(pf["items"])
 
 
@@ -106,7 +108,7 @@ def _recount_consensus(stage: str):
     by_item = {}
     for item_id, judge, verdict, _ in rows:
         by_item.setdefault(item_id, []).append((judge, verdict))
-    pf = json.loads((config.DERIVED_DIR / "provider_filtered.json").read_text(encoding="utf-8"))
+    pf = json.loads(config.PROVIDER_FILTERED.read_text(encoding="utf-8"))
     excluded = set(pf["items"])
     return {i: v for i, v in by_item.items() if i not in excluded}
 

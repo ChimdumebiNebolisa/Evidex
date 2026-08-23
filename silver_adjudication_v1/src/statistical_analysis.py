@@ -1,11 +1,12 @@
-"""Post-unblinding cohort comparisons (Q1-Q10) with uncertainty.
+"""Post-unblinding cohort comparisons (Q1-Q12) with uncertainty.
 
-Confirmatory family (pre-listed): Q1-Q10 contrasts from the protocol.
-Exploratory: everything else. BH correction applied across the reported
-family. Tests: Fisher exact (sparse cells), odds ratios with 95% CI,
-percentile bootstrap CIs (2,000 iters, seed 20260822), paired McNemar for
-within-claim stage changes. No causal language; stage contrasts are
-within-item controlled-disclosure comparisons.
+Confirmatory family (pre-listed): the 12 protocol questions. Exploratory:
+everything else. BH correction applied across the reported family. Tests:
+Fisher exact, odds ratios with 95% CI, percentile bootstrap CIs
+(2,000 iters, seed 20260822), paired McNemar for within-claim stage changes.
+
+Cursor A/B/C numbers are within-Cursor-panel progressive disclosure.
+GLM Stage A is not mixed into A->B->C transition math.
 """
 import sys
 from pathlib import Path
@@ -44,6 +45,10 @@ def fisher_or(a, b, c, d):
     return orv, np.exp(np.log(orv) - 1.96 * se), np.exp(np.log(orv) + 1.96 * se), p
 
 
+def _amb(series: pd.Series) -> pd.Series:
+    return series.isin(["Ambiguous", "Unresolved"])
+
+
 def compare_cohorts():
     df = pd.read_parquet(config.UNBLINDED_PARQUET)
     rows = []
@@ -60,18 +65,17 @@ def compare_cohorts():
     rob = df["cohort"] == "robust"
 
     # Q1: Stage A ambiguity, regression vs robust.
-    for feat, tag in [("consensus_A", "Q1_stageA_ambiguous"), ("consensus_C", "Q10_stageC_ambiguous")]:
-        amb = df[feat].isin(["Ambiguous", "Unresolved"])
-        for name, mask in [("regression", reg), ("resistant", res), ("rescue", rsc), ("robust", rob)]:
-            rate_row(f"{tag}_{name}", mask, amb)
-        a, b = int((reg & amb).sum()), int((reg & ~amb).sum())
-        c, d = int((rob & amb).sum()), int((rob & ~amb).sum())
-        orv, lo, hi, p = fisher_or(a, b, c, d)
-        rows.append({"analysis": f"{tag}_reg_vs_robust_OR", "family": "confirmatory",
-                     "n": a + b + c + d, "odds_ratio": orv, "ci_low": lo, "ci_high": hi,
-                     "p_value": p})
+    amb_a = _amb(df["consensus_A"])
+    for name, mask in [("regression", reg), ("resistant", res), ("rescue", rsc), ("robust", rob)]:
+        rate_row(f"Q1_stageA_ambiguous_{name}", mask, amb_a)
+    a, b = int((reg & amb_a).sum()), int((reg & ~amb_a).sum())
+    c, d = int((rob & amb_a).sum()), int((rob & ~amb_a).sum())
+    orv, lo, hi, p = fisher_or(a, b, c, d)
+    rows.append({"analysis": "Q1_stageA_ambiguous_reg_vs_robust_OR", "family": "confirmatory",
+                 "n": a + b + c + d, "odds_ratio": orv, "ci_low": lo, "ci_high": hi,
+                 "p_value": p})
 
-    # Q2/Q3: resolution by titles / structure, regression vs robust.
+    # Q2/Q3: titles / structured evidence resolve regressions vs robust.
     for feat, tag in [("resolved_by_titles", "Q2_resolved_by_titles"),
                       ("resolved_only_by_structure", "Q3_resolved_by_structure")]:
         for name, mask in [("regression", reg), ("resistant", res), ("rescue", rsc), ("robust", rob)]:
@@ -80,66 +84,90 @@ def compare_cohorts():
         c, d = int((rob & df[feat]).sum()), int((rob & ~df[feat]).sum())
         orv, lo, hi, p = fisher_or(a, b, c, d)
         rows.append({"analysis": f"{tag}_reg_vs_robust_OR", "family": "confirmatory",
-                     "odds_ratio": orv, "ci_low": lo, "ci_high": hi, "p_value": p})
+                     "n": a + b + c + d, "odds_ratio": orv, "ci_low": lo, "ci_high": hi,
+                     "p_value": p})
 
-    # Q4: do resistant failures resemble regressions or robust?
-    for feat, tag in [("consensus_A", "Q4a_stageA_amb"), ("still_ambiguous_after_C", "Q4b_stageC_amb")]:
-        amb = df[feat] if feat in df.columns else df[feat]
-        a, b = int((res & amb).sum()), int((res & ~amb).sum())
-        c, d = int((rob & amb).sum()), int((rob & ~amb).sum())
+    # Q4: do resistant failures resemble regressions (vs robust)?
+    amb_c = _amb(df["consensus_C"])
+    for feat, tag in [(amb_a, "Q4a_stageA_amb"), (df["still_ambiguous_after_C"], "Q4b_stageC_amb")]:
+        a, b = int((res & feat).sum()), int((res & ~feat).sum())
+        c, d = int((rob & feat).sum()), int((rob & ~feat).sum())
         orv, lo, hi, p = fisher_or(a, b, c, d)
         rows.append({"analysis": f"{tag}_res_vs_robust_OR", "family": "confirmatory",
-                     "odds_ratio": orv, "ci_low": lo, "ci_high": hi, "p_value": p})
+                     "n": a + b + c + d, "odds_ratio": orv, "ci_low": lo, "ci_high": hi,
+                     "p_value": p})
+        a, b = int((res & feat).sum()), int((res & ~feat).sum())
+        c, d = int((reg & feat).sum()), int((reg & ~feat).sum())
+        orv, lo, hi, p = fisher_or(a, b, c, d)
+        rows.append({"analysis": f"{tag}_res_vs_reg_OR", "family": "confirmatory",
+                     "n": a + b + c + d, "odds_ratio": orv, "ci_low": lo, "ci_high": hi,
+                     "p_value": p})
 
     # Q5: shared vs model-specific regressions: representation sensitivity.
     both = df["regression_type"] == "both"
-    for feat, tag in [("resolved_by_titles", "Q5a_titles"), ("resolved_only_by_structure", "Q5b_structure"),
+    in_reg = reg
+    for feat, tag in [("resolved_by_titles", "Q5a_titles"),
+                      ("resolved_only_by_structure", "Q5b_structure"),
                       ("still_ambiguous_after_C", "Q5c_still_amb")]:
         a, b = int((both & df[feat]).sum()), int((both & ~df[feat]).sum())
-        c, d = int((~both & df[feat]).sum()), int((~both & ~df[feat]).sum())
+        spec = in_reg & ~both
+        c, d = int((spec & df[feat]).sum()), int((spec & ~df[feat]).sum())
         orv, lo, hi, p = fisher_or(a, b, c, d)
         rows.append({"analysis": f"{tag}_shared_vs_specific_OR", "family": "confirmatory",
-                     "odds_ratio": orv, "ci_low": lo, "ci_high": hi, "p_value": p})
+                     "n": a + b + c + d, "odds_ratio": orv, "ci_low": lo, "ci_high": hi,
+                     "p_value": p})
 
-    # Q6: within-GLM disagreement vs NLI disagreement (correlation).
-    for nlif, tag in [("nli_disagrees", "Q6_nli1"), ("nli2_disagrees", "Q6_nli2")]:
-        glm_dis = df["rule_A"] != "high_consensus"
-        tab = pd.crosstab(glm_dis, df[nlif])
-        chi2, p, _, _ = stats.chi2_contingency(tab.to_numpy())
-        phi = np.sqrt(chi2 / len(df))
-        rows.append({"analysis": f"{tag}_vs_glm_disagreement", "family": "confirmatory",
-                     "chi2": chi2, "cramers_phi": phi, "p_value": p})
-
-    # Q7: does Stage C reduce disagreement on NLI-weak cases (paired McNemar).
+    # Q6: ambiguity decline A -> B -> C (within-Cursor-panel).
+    amb_b = _amb(df["consensus_B"])
+    for stage, amb in [("A", amb_a), ("B", amb_b), ("C", amb_c)]:
+        rate_row(f"Q6_ambiguous_stage_{stage}_all", df.index.notna(), amb)
+        rate_row(f"Q6_ambiguous_stage_{stage}_regression", reg, amb)
     from statsmodels.stats.contingency_tables import mcnemar
-    weak = df["nli_disagrees"] & df["nli2_disagrees"]
-    dis_a = (df.loc[weak, "rule_A"] != "high_consensus").to_numpy()
-    dis_c = (df.loc[weak, "rule_C"] != "high_consensus").to_numpy()
-    if dis_a.sum() + dis_c.sum() > 0:
-        res_m = mcnemar([[int((dis_a & dis_c).sum()), int((dis_a & ~dis_c).sum())],
-                         [int((~dis_a & dis_c).sum()), int((~dis_a & ~dis_c).sum())]],
-                        exact=False, correction=True)
-        rows.append({"analysis": "Q7_stageC_disagreement_on_nli_weak_mcnemar",
-                     "family": "confirmatory", "n": int(weak.sum()),
-                     "mcnemar_chi2": res_m.statistic, "p_value": res_m.pvalue})
+    for left, right, tag in [(amb_a, amb_b, "Q6_A_to_B"), (amb_b, amb_c, "Q6_B_to_C"),
+                             (amb_a, amb_c, "Q6_A_to_C")]:
+        table = [[int((left & right).sum()), int((left & ~right).sum())],
+                 [int((~left & right).sum()), int((~left & ~right).sum())]]
+        res_m = mcnemar(table, exact=False, correction=True)
+        rows.append({"analysis": f"{tag}_ambiguity_mcnemar", "family": "confirmatory",
+                     "n": len(df), "mcnemar_chi2": res_m.statistic, "p_value": res_m.pvalue})
 
-    # Q8: regressions still clearly sufficient after Stage C.
+    # Q7/Q8: consensus verdict changes A->B and B->C.
+    change_ab = df["consensus_A"] != df["consensus_B"]
+    change_bc = df["consensus_B"] != df["consensus_C"]
+    rate_row("Q7_consensus_change_A_to_B_all", df.index.notna(), change_ab)
+    rate_row("Q7_consensus_change_A_to_B_regression", reg, change_ab)
+    rate_row("Q8_consensus_change_B_to_C_all", df.index.notna(), change_bc)
+    rate_row("Q8_consensus_change_B_to_C_regression", reg, change_bc)
+
+    # Q9: regressions still clearly warranted after Stage C.
     suff_clear = df["consensus_C"].isin(["Supported", "Refuted"]) & (df["rule_C"] == "high_consensus")
-    rate_row("Q8_reg_clearly_warranted_after_C", reg, suff_clear)
-    rate_row("Q8b_robust_clearly_warranted_after_C", rob, suff_clear)
+    rate_row("Q9_reg_clearly_warranted_after_C", reg, suff_clear)
+    rate_row("Q9b_robust_clearly_warranted_after_C", rob, suff_clear)
 
-    # Q9: representation-sensitive share among regressions.
+    # Q10: representation-sensitive share among regressions.
     rep_sens = df["silver_taxonomy"].isin(
         ["silver_title_context_sensitive", "silver_structured_evidence_sensitive"])
-    rate_row("Q9_reg_representation_sensitive", reg, rep_sens)
-    rate_row("Q9b_res_representation_sensitive", res, rep_sens)
-    rate_row("Q9c_robust_representation_sensitive", rob, rep_sens)
+    rate_row("Q10_reg_representation_sensitive", reg, rep_sens)
+    rate_row("Q10b_res_representation_sensitive", res, rep_sens)
+    rate_row("Q10c_robust_representation_sensitive", rob, rep_sens)
 
-    # Exploratory: Supported vs Refuted contrasts.
-    for lbl in config.VERDICTS[:2]:
-        m = df["gold_label"] == lbl
-        rate_row(f"EXPL_stageA_amb_{lbl}", m, df["consensus_A"].isin(["Ambiguous", "Unresolved"]),
-                 family="exploratory")
+    # Q11: residual partial/ambiguous after Stage C.
+    rate_row("Q11_reg_still_ambiguous_after_C", reg, df["still_ambiguous_after_C"])
+    rate_row("Q11b_all_still_ambiguous_after_C", df.index.notna(), df["still_ambiguous_after_C"])
+
+    # Q12: Cursor silver ambiguity vs the two local NLI diagnostics.
+    cursor_amb_c = amb_c
+    for nlif, tag in [("nli_disagrees", "Q12_nli1"), ("nli2_disagrees", "Q12_nli2")]:
+        tab = pd.crosstab(cursor_amb_c, df[nlif])
+        chi2, p, _, _ = stats.chi2_contingency(tab.to_numpy())
+        phi = np.sqrt(chi2 / len(df))
+        rows.append({"analysis": f"{tag}_vs_cursor_stageC_ambiguity", "family": "confirmatory",
+                     "n": len(df), "chi2": chi2, "cramers_phi": phi, "p_value": p})
+        tab_a = pd.crosstab(amb_a, df[nlif])
+        chi2a, pa, _, _ = stats.chi2_contingency(tab_a.to_numpy())
+        phia = np.sqrt(chi2a / len(df))
+        rows.append({"analysis": f"{tag}_vs_cursor_stageA_ambiguity", "family": "confirmatory",
+                     "n": len(df), "chi2": chi2a, "cramers_phi": phia, "p_value": pa})
 
     out = pd.DataFrame(rows)
     ps = out["p_value"].dropna()

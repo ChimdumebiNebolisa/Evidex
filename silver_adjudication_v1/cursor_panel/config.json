@@ -1,0 +1,25 @@
+{
+  "panel": "cursor",
+  "model": "cursor-grok-4.6-high-fast",
+  "required_model": "cursor-grok-4.6-high-fast",
+  "judges": [
+    "cursor_judge_1",
+    "cursor_judge_2",
+    "cursor_judge_3",
+    "cursor_judge_4",
+    "cursor_judge_5"
+  ],
+  "resolver": "cursor_resolver",
+  "date": "2026-08-23",
+  "cursor_version": "Cursor agent session; model slug cursor-grok-4.6-high-fast",
+  "batch_size": 100,
+  "max_retries": 2,
+  "inference": {
+    "temperature": "provider_default",
+    "auto": false,
+    "inherit": false,
+    "web_browse": false,
+    "external_retrieval": false
+  },
+  "notes": "If cursor-grok-4.6-high-fast becomes unavailable, stop. Do not substitute another model. GLM Stage A is a separate replication panel and is not part of this progressive-disclosure run."
+}

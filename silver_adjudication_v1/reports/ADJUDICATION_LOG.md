@@ -95,3 +95,15 @@ findings — anti-cherry-picking documentation.
   treating the subcommand as a stage name).
 - `run_all.py`: agreement stage moved before freeze_silver.
 - No changes to prompts/, blinded data, or any frozen artifact.
+
+## Cursor panel branch (2026-08-23)
+
+- Created `research/evidex-cursor-silver-adjudication-v1` from
+  `research/evidex-silver-adjudication-v1`. `main` was not modified.
+- Frozen GLM-5.3 Stage A remains immutable (independent silver warrant audit).
+  Partial GLM Stage B is preserved for provenance and excluded from Cursor
+  progressive-disclosure analyses.
+- New namespace `silver_adjudication_v1/cursor_panel/` with locked model
+  `cursor-grok-4.6-high-fast` for all five Cursor judges, all stages, and the
+  resolver. `--panel cursor` remaps outputs; GLM `judgments/` is never written.
+- Do not chain GLM Stage A into Cursor Stage B/C.

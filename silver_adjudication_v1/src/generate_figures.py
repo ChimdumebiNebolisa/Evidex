@@ -31,7 +31,8 @@ def fig_agreement_by_stage():
            label="pairwise % agreement")
     ax.bar([i + 0.17 for i in x], df["fleiss_kappa"], width=0.34, label="Fleiss' kappa")
     ax.set_xticks(list(x)); ax.set_xticklabels([f"Stage {s}" for s in df["stage"]])
-    ax.set_title(f"Within-GLM-family agreement by stage (n={int(df['n_items'].iloc[0])} items, 5 judges)")
+    ax.set_title(f"{config.AGREEMENT_FAMILY_LABEL} agreement by stage "
+                 f"(n={int(df['n_items'].iloc[0])} items, 5 judges)")
     ax.legend(fontsize=8)
     fig.savefig(config.FIGURES_DIR / "fig1_agreement_by_stage.png")
     plt.close(fig)
@@ -133,7 +134,7 @@ def fig_glm_vs_nli():
     ax.bar(cats, rates, color=["#55a868", "#dd8452", "#c44e52"])
     for i, (r, n) in enumerate(zip(rates, ns)):
         ax.text(i, r + 1, f"{r:.1f}% (n={n})", ha="center", fontsize=8)
-    ax.set_title("GLM within-family disagreement (Stage A) vs local NLI disagreement")
+    ax.set_title(f"{config.AGREEMENT_FAMILY_LABEL} disagreement (Stage A) vs local NLI disagreement")
     ax.set_ylabel("% items without high consensus")
     fig.savefig(config.FIGURES_DIR / "fig6_glm_vs_nli_disagreement.png")
     plt.close(fig)

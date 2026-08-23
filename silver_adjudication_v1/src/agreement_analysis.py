@@ -1,7 +1,7 @@
-"""Within-GLM-family agreement statistics per stage.
+"""Within-panel agreement statistics per stage.
 
-All judges are GLM-5.3 from the same family; every metric here is explicitly
-within-model-family agreement, NOT cross-family validation.
+Metrics are explicitly within-model-family agreement (GLM-5.3 or the locked
+Cursor model), NOT cross-family validation and not human validation.
 
 Outputs tables/agreement_stage_<X>.csv, tables/judge_behavior.csv,
 tables/judge_verdict_distributions.csv.
@@ -17,6 +17,43 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import config  # noqa: E402
 from aggregate_consensus import load_judgments  # noqa: E402
+
+
+def krippendorff_alpha_nominal(wide: pd.DataFrame, cats) -> float:
+    """Nominal Krippendorff's alpha from an items x judges verdict table."""
+    values = wide.to_numpy()
+    n_items, n_raters = values.shape
+    coincidence = {c: {d: 0.0 for d in cats} for c in cats}
+    n_pairable = 0.0
+    for i in range(n_items):
+        row = [v for v in values[i] if isinstance(v, str)]
+        m = len(row)
+        if m < 2:
+            continue
+        n_pairable += m
+        for a in range(m):
+            for b in range(m):
+                if a == b:
+                    continue
+                coincidence[row[a]][row[b]] += 1.0 / (m - 1)
+    if n_pairable == 0:
+        return float("nan")
+    do = 0.0
+    de = 0.0
+    n_c = {c: sum(coincidence[c].values()) for c in cats}
+    n = sum(n_c.values())
+    if n <= 1:
+        return float("nan")
+    for c in cats:
+        do += n_c[c] - coincidence[c][c]
+        for d in cats:
+            if c != d:
+                de += n_c[c] * n_c[d]
+    do = do / n
+    de = de / (n * (n - 1))
+    if de == 0:
+        return 1.0
+    return 1.0 - (do / de)
 
 
 def fleiss_kappa(mat: np.ndarray) -> float:
@@ -50,6 +87,8 @@ def agreement(stage: str):
     for j, c in enumerate(cats):
         mat[:, j] = (wide == c).sum(axis=1).to_numpy()
     rows["fleiss_kappa"] = float(fleiss_kappa(mat))
+    rows["krippendorff_alpha_nominal"] = float(krippendorff_alpha_nominal(wide, cats))
+    rows["agreement_family"] = config.AGREEMENT_FAMILY_LABEL
 
     # Decisive-only agreement (excluding Ambiguous as its own category).
     dec = wide.replace({"Ambiguous": None}).dropna()

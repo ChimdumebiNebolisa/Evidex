@@ -53,7 +53,7 @@ def expected_items(stage: str):
     src = config.BLINDED_DIR / STAGE_FILE[stage]
     items = [json.loads(l)["item_id"]
              for l in src.read_text(encoding="utf-8").splitlines() if l.strip()]
-    pf = config.DERIVED_DIR / "provider_filtered.json"
+    pf = config.PROVIDER_FILTERED
     if pf.exists():
         excluded = set(json.loads(pf.read_text(encoding="utf-8"))["items"])
         items = [i for i in items if i not in excluded]
@@ -102,7 +102,17 @@ def judge_status(stage: str, judge: str):
     return done & expected, malformed
 
 
+def _assert_panel_output_isolation():
+    if config.PANEL == "cursor":
+        allowed = (config.CURSOR_PANEL_ROOT / "judgments").resolve()
+        if config.JUDGMENTS_DIR.resolve() != allowed:
+            raise SystemExit("Cursor panel must write judgments under cursor_panel/")
+        if allowed == config.GLM_JUDGMENTS_DIR.resolve():
+            raise SystemExit("Cursor panel attempted to write into GLM judgments/")
+
+
 def completeness_report(stage: str):
+    _assert_panel_output_isolation()
     rows = []
     for judge in config.JUDGES:
         done, malformed = judge_status(stage, judge)
@@ -118,8 +128,23 @@ def completeness_report(stage: str):
     return rep
 
 
+STAGE_PREDECESSOR = {"B": "A", "C": "B"}
+
+
 def freeze_stage(stage: str):
-    """Freeze a stage: all judges complete + valid; write sha256 manifest."""
+    """Freeze a stage: all judges complete + valid; write sha256 manifest.
+
+    Stage B cannot freeze unless Stage A is frozen; Stage C cannot freeze
+    unless Stage B is frozen. This is the progressive-disclosure gate.
+    """
+    pred = STAGE_PREDECESSOR.get(stage)
+    if pred:
+        pred_manifest = config.DERIVED_DIR / f"freeze_stage_{pred}.json"
+        if not pred_manifest.exists():
+            raise SystemExit(f"Stage {pred} must be frozen before Stage {stage}")
+        verify_frozen(pred)
+    if config.PANEL == "cursor":
+        config.require_locked_model(config.LOCKED_MODEL)
     outdir = config.JUDGMENTS_DIR / f"stage_{stage.lower()}"
     manifest_path = config.DERIVED_DIR / f"freeze_stage_{stage}.json"
     rep = completeness_report(stage)
