@@ -1,0 +1,27 @@
+{
+  "panel": "claude_residual",
+  "model": "claude-opus-5-thinking-high",
+  "required_model": "claude-opus-5-thinking-high",
+  "judges": [
+    "claude_judge_1",
+    "claude_judge_2",
+    "claude_judge_3",
+    "claude_judge_4",
+    "claude_judge_5"
+  ],
+  "resolver": "claude_resolver",
+  "stage": "C",
+  "date": "2026-08-23",
+  "cursor_version": "Cursor agent session; model slug claude-opus-5-thinking-high",
+  "batch_size": 77,
+  "max_retries": 2,
+  "expected_residual_n": 231,
+  "inference": {
+    "temperature": "provider_default",
+    "auto": false,
+    "inherit": false,
+    "web_browse": false,
+    "external_retrieval": false
+  },
+  "notes": "If claude-opus-5-thinking-high becomes unavailable, stop. Do not substitute. This panel judges only Cursor Stage C residual Ambiguous/Unresolved items. Judges must not be told why items were selected."
+}
