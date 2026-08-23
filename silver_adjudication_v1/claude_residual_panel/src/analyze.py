@@ -96,19 +96,18 @@ def _taxonomy(r):
 
 def cross_family_and_unblind():
     verify_manifest()
-    claude = pd.read_parquet(cfg.FREEZES_DIR / "consensus_raw.parquet")
-    idmap = pd.read_csv(cfg.ID_MAP_CSV)
-    cursor = pd.read_parquet(cfg.CURSOR_UNBLINDED)
-    df = claude.merge(idmap, left_on="item_id", right_on="claude_item_id")
-    df = df.merge(cursor, left_on="source_item_id", right_on="item_id",
-                  suffixes=("_claude", "_cursor"))
-    df = df.rename(columns={
-        "consensus": "claude_consensus", "rule": "claude_rule",
-        "consensus_C": "cursor_consensus_C", "rule_C": "cursor_rule_C",
-        "item_id_claude": "item_id",
+    claude = pd.read_parquet(cfg.FREEZES_DIR / "consensus_raw.parquet").rename(columns={
+        "item_id": "claude_item_id", "consensus": "claude_consensus",
+        "rule": "claude_rule",
     })
-    if "item_id" not in df.columns:
-        df["item_id"] = df["claude_item_id"]
+    idmap = pd.read_csv(cfg.ID_MAP_CSV)
+    cursor = pd.read_parquet(cfg.CURSOR_UNBLINDED).rename(columns={
+        "item_id": "source_item_id", "consensus_C": "cursor_consensus_C",
+        "rule_C": "cursor_rule_C",
+    })
+    df = claude.merge(idmap, on="claude_item_id")
+    df = df.merge(cursor, on="source_item_id")
+    df["item_id"] = df["claude_item_id"]
 
     df["claude_ambiguous"] = _amb(df["claude_consensus"])
     df["claude_decisive"] = df["claude_consensus"].isin(["Supported", "Refuted"])
@@ -116,17 +115,16 @@ def cross_family_and_unblind():
     df["cross_family_taxonomy"] = df.apply(_taxonomy, axis=1)
 
     # FEVER agreement only for decisive Claude items.
-    gold_map = {"SUPPORTS": "Supported", "REFUTES": "Refuted"}
-    mapped = df["gold_label"].map(gold_map)
+    gold = df["gold_label"].replace({"SUPPORTS": "Supported", "REFUTES": "Refuted"})
     df["claude_agrees_fever"] = np.where(
-        df["claude_decisive"], df["claude_consensus"] == mapped, pd.NA)
+        df["claude_decisive"], df["claude_consensus"] == gold, pd.NA)
 
     def fever_tax(r):
         if r["cross_family_taxonomy"] != "grok_only_ambiguity":
             return r["cross_family_taxonomy"]
-        if r["claude_agrees_fever"] is True:
+        if r["claude_agrees_fever"] == True:  # noqa: E712
             return "cross_family_decisive_feversame"
-        if r["claude_agrees_fever"] is False:
+        if r["claude_agrees_fever"] == False:  # noqa: E712
             return "cross_family_decisive_feverdifferent"
         return "grok_only_ambiguity"
 

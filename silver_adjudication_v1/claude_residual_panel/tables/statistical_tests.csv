@@ -1,0 +1,16 @@
+analysis,family,n,rate_pct,ci_low,ci_high,odds_ratio,p_value,mean_persistent,mean_resolved,p_bh
+persistent_ambiguity,primary,231,58.00865800865801,51.515151515151516,64.06926406926407,,,,,
+claude_resolved,primary,231,41.99134199134199,35.93073593073593,48.484848484848484,,,,,
+claude_high_consensus_resolved,primary,231,41.99134199134199,35.93073593073593,48.484848484848484,,,,,
+grok_only_ambiguity,primary,231,41.99134199134199,35.4978354978355,48.484848484848484,,,,,
+claude_internal_disagreement,primary,231,0.0,0.0,0.0,,,,,
+cross_family_consensus_agree_pct,primary,231,56.27705627705628,,,,,,,
+claude_decisive_agrees_fever,primary,97,63.91752577319587,53.608247422680414,73.19587628865979,,,,,
+persistent_amb_shared_regression,exploratory,24,75.0,58.333333333333336,91.66666666666666,,,,,
+persistent_amb_model_specific_regression,exploratory,62,66.12903225806451,53.2258064516129,77.41935483870968,,,,,
+persistent_amb_regression,exploratory,86,68.6046511627907,58.139534883720934,77.90697674418605,,,,,
+persistent_amb_resistant,exploratory,112,53.57142857142857,44.642857142857146,62.5,,,,,
+persistent_amb_rescue,exploratory,24,50.0,29.166666666666668,70.83333333333334,,,,,
+persistent_amb_robust,exploratory,9,33.33333333333333,0.0,66.66666666666666,,,,,
+persistent_amb_reg_vs_resistant_OR,exploratory,198,,1.0523018617746824,3.4083198406352975,1.8938271604938273,0.040360999658667476,,,0.040360999658667476
+confidence_persistent_vs_resolved_mwu,exploratory,231,,,,,1.1616347305199255e-19,59.87313432835821,67.90515463917525,2.323269461039851e-19
