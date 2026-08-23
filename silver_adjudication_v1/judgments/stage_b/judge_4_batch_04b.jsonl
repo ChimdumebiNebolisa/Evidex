@@ -1,0 +1,482 @@
+[
+  {
+    "item_id": "SA-000353",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 62,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence states the medium is magnetic storage, not electronic storage, so the claim swaps an attribute."
+  },
+  {
+    "item_id": "SA-000354",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The sentence explicitly says Mani Ratnam is widely credited with altering the profile of Indian cinema."
+  },
+  {
+    "item_id": "SA-000355",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 60,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_missing_surrounding_context"],
+    "brief_reason": "The evidence gives the Paris premiere date (May 24, 2016) but no date for the Rio Olympics, so the comparison cannot be made."
+  },
+  {
+    "item_id": "SA-000356",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 85,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states ten matches were contested at the event with no pre-show, matching the claim that SummerSlam skipped the pre-show."
+  },
+  {
+    "item_id": "SA-000357",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["none"],
+    "brief_reason": "On the Global warming page, the abandonment of populated areas due to rising sea levels is listed among the effects significant to humans."
+  },
+  {
+    "item_id": "SA-000358",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 78,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence describes the founding of the PRC and the ROC's relocation to Taiwan but says nothing about membership counts."
+  },
+  {
+    "item_id": "SA-000359",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states it was built in 1915, which falls within the 1910s."
+  },
+  {
+    "item_id": "SA-000360",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 70,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence confirms Sweet Home Alabama is by Lynyrd Skynyrd but says nothing about it being a reply to Neil Young songs from Harvest."
+  },
+  {
+    "item_id": "SA-000361",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence says he received the Filmfare Award for Best Male Debut, contradicting the claim that he was unqualified to ever receive a nomination."
+  },
+  {
+    "item_id": "SA-000362",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 70,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence ties Portland, Oregon to the founders' prior Nike employment, not to where Wildfang was established."
+  },
+  {
+    "item_id": "SA-000363",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says she implemented policies that have come to be known as Thatcherism, not windows."
+  },
+  {
+    "item_id": "SA-000364",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives his death date as 29 December 1986, not December 19, 1986."
+  },
+  {
+    "item_id": "SA-000365",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence gives his full name as Shane Lee Lindstrom but does not identify which parts are middle names."
+  },
+  {
+    "item_id": "SA-000366",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Eric Church was born May 3, 1977 and is a currently active singer, not that he died on that date."
+  },
+  {
+    "item_id": "SA-000367",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence explicitly calls him the 20th and current Prime Minister of Pakistan."
+  },
+  {
+    "item_id": "SA-000368",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 65,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Howard played James Rhodes in Iron Man, which probably warrants 'impersonated' as a loose paraphrase of playing the role."
+  },
+  {
+    "item_id": "SA-000369",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Tool has performed worldwide tours."
+  },
+  {
+    "item_id": "SA-000370",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 60,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence presents mAChRs as the standard alternative name for these receptors, not a barely used one."
+  },
+  {
+    "item_id": "SA-000371",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence says the genre developed largely in the United Kingdom and the United States, so an Europe-only framing is not settled."
+  },
+  {
+    "item_id": "SA-000372",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states the US release was July 8, 2005, and July is the 7th month of the year."
+  },
+  {
+    "item_id": "SA-000373",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 85,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence says the film stars Eddie Murphy, which is inconsistent with him having rejected all offers to star in it."
+  },
+  {
+    "item_id": "SA-000374",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states the series began its seventh and final season on July 11, 2011."
+  },
+  {
+    "item_id": "SA-000375",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 50,
+    "issue_flags": ["other"],
+    "brief_reason": "The claim gives no object for 'wrote'; the evidence only states Orci's profession as a screenwriter and producer."
+  },
+  {
+    "item_id": "SA-000376",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Tourette described the symptoms of Tourette's syndrome in nine patients in 1884."
+  },
+  {
+    "item_id": "SA-000377",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 75,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence shows Karen is Lucy Hale's own first name and says nothing about her mother."
+  },
+  {
+    "item_id": "SA-000378",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence supports his being Prime Minister in 2009 (served 2004 to 2014) but never addresses the relation to the first Prime Minister of India."
+  },
+  {
+    "item_id": "SA-000379",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence states Lyon's 2014 population was 506,615, which is over 500,000."
+  },
+  {
+    "item_id": "SA-000380",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence identifies the film as a Hindi-language film, not Russian."
+  },
+  {
+    "item_id": "SA-000381",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states the site was launched in February 2007 by Community Connect Inc., and the page title resolves the site as Glee.com."
+  },
+  {
+    "item_id": "SA-000382",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence ties the $16 million to the period June 2014 to June 2015, not to calendar year 2014."
+  },
+  {
+    "item_id": "SA-000383",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states he is an American professional basketball player for the Miami Heat of the NBA."
+  },
+  {
+    "item_id": "SA-000384",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence attributes Same Old Love to Selena Gomez, not Demi Lovato."
+  },
+  {
+    "item_id": "SA-000385",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states she was influenced by the real-life journalist Nellie Bly, with the page title resolving 'she' as Lois Lane."
+  },
+  {
+    "item_id": "SA-000386",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The evidence places Tijuana in Baja California and on the Baja California Peninsula but never states the country."
+  },
+  {
+    "item_id": "SA-000387",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence says the film is based on the television series created by Rick Rosner; it neither calls the series popular nor says he wrote it."
+  },
+  {
+    "item_id": "SA-000388",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states the soundtrack was by Richard Rodney Bennett."
+  },
+  {
+    "item_id": "SA-000389",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Mirny was the second ship of the First Russian Antarctic Expedition, not of a television show."
+  },
+  {
+    "item_id": "SA-000390",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence calls Vic Mensa a Grammy-nominated American rapper."
+  },
+  {
+    "item_id": "SA-000391",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The $160 million budget matches, but grossing $181,674,817 does not settle whether the film failed to make a profit."
+  },
+  {
+    "item_id": "SA-000392",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says that as of 2013 the tournament was switched to odd-numbered years, and 2013 is itself an odd-numbered year."
+  },
+  {
+    "item_id": "SA-000393",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says the Turnpike has 12 ft lanes but does not specify that as lane length rather than lane width."
+  },
+  {
+    "item_id": "SA-000394",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says the film was also dubbed into Hindi, satisfying 'at least one language dubbed over it'."
+  },
+  {
+    "item_id": "SA-000395",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states China is the world's second-largest economy by nominal GDP and the largest by purchasing power parity."
+  },
+  {
+    "item_id": "SA-000396",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 70,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Vince Vaughn and Ben Stiller star in the film, not that they merely have cameos."
+  },
+  {
+    "item_id": "SA-000397",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 60,
+    "issue_flags": ["other"],
+    "brief_reason": "The evidence says the song topped charts in Canada, South Africa and Australia, which entails appearing on ranked lists in countries, though the claim is oddly vague."
+  },
+  {
+    "item_id": "SA-000398",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says the novel was adapted for the film by John Hodge, not John Denver."
+  },
+  {
+    "item_id": "SA-000399",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The comprising-all-of-Indonesian-New-Guinea part is directly supported, but the evidence says nothing about Papua being 'cultured'."
+  },
+  {
+    "item_id": "SA-000400",
+    "judge_id": "judge_4",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states the show was awarded nine Tony Awards, one of which was for Best Musical."
+  }
+]

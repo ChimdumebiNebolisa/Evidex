@@ -30,6 +30,25 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def load_batch_file(path: Path) -> list:
+    """Read a judge/resolver batch file as a list of records.
+
+    Canonical format is a single JSON array. Line-per-object JSONL is also
+    accepted: one judge agent wrote split batches that way (records valid,
+    container differs; see ADJUDICATION_LOG 2026-08-22). Raises ValueError
+    if neither format parses."""
+    content = path.read_text(encoding="utf-8").strip()
+    if not content:
+        return []
+    try:
+        arr = json.loads(content)
+    except ValueError:
+        arr = [json.loads(l) for l in content.splitlines() if l.strip()]
+    if not isinstance(arr, list):
+        raise ValueError(f"{path.name}: top-level JSON is not a list")
+    return arr
+
+
 def expected_items(stage: str):
     src = config.BLINDED_DIR / STAGE_FILE[stage]
     items = [json.loads(l)["item_id"]
@@ -70,8 +89,7 @@ def judge_status(stage: str, judge: str):
     outdir = config.JUDGMENTS_DIR / f"stage_{stage.lower()}"
     for p in sorted(outdir.glob(f"{judge}_batch_*.jsonl")):
         try:
-            content = p.read_text(encoding="utf-8").strip()
-            arr = json.loads(content) if content else []
+            arr = load_batch_file(p)
         except ValueError:
             malformed.append(p.name)
             continue

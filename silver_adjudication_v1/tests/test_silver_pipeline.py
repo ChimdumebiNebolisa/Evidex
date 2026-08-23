@@ -33,7 +33,7 @@ class TestCohort(unittest.TestCase):
         enr = pd.read_parquet(config.PAIRED_ENRICHED)
         reg = enr[(enr["gpt-5.4_transition"] == config.T_REGRESSION) |
                   (enr["gpt-5.4-mini_transition"] == config.T_REGRESSION)]
-        self.assertEqual(set(reg["claim_id"]) <= set(self.c["claim_id"]))
+        self.assertTrue(set(reg["claim_id"]) <= set(self.c["claim_id"]))
         self.assertEqual((self.c["cohort"] == "regression").sum(), len(reg))
 
     def test_cohort_exclusive(self):
@@ -99,6 +99,23 @@ class TestJudgeSchema(unittest.TestCase):
              "confidence": 90, "issue_flags": ["none"], "brief_reason": "ok"}
         self.assertTrue(run_judges.valid_record(r, "A", "judge_1"))
 
+    def test_load_batch_file_formats(self):
+        import tempfile
+        rec = {"item_id": "SA-000001", "judge_id": "judge_1", "stage": "A",
+               "verdict": "Supported", "evidence_sufficiency": "clearly_sufficient",
+               "confidence": 90, "issue_flags": ["none"], "brief_reason": "ok"}
+        with tempfile.TemporaryDirectory() as td:
+            p = Path(td) / "a.jsonl"
+            p.write_text(json.dumps([rec, rec]), encoding="utf-8")
+            self.assertEqual(run_judges.load_batch_file(p), [rec, rec])
+            p.write_text(json.dumps(rec) + "\n" + json.dumps(rec) + "\n", encoding="utf-8")
+            self.assertEqual(run_judges.load_batch_file(p), [rec, rec])
+            p.write_text("", encoding="utf-8")
+            self.assertEqual(run_judges.load_batch_file(p), [])
+            p.write_text('{"not": "a list"}', encoding="utf-8")
+            with self.assertRaises(ValueError):
+                run_judges.load_batch_file(p)
+
     def test_confidence_range(self):
         for bad in (-1, 101, 100.5, "90"):
             r = {"item_id": "x", "judge_id": "judge_1", "stage": "A",
@@ -152,20 +169,20 @@ class TestConsensus(unittest.TestCase):
 
 class TestUnblindingGate(unittest.TestCase):
     def test_freeze_required(self):
-        # join must refuse without manifests (indirect: verify_frozen raises)
-        with self.assertRaises(SystemExit):
-            import os
-            from types import SimpleNamespace
-            # Simulate missing manifest by pointing at stage without freeze
-            run_judgers_probe()
+        # The gate must refuse verification when a freeze manifest is absent.
+        import tempfile
+        from unittest import mock
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(config, "DERIVED_DIR", Path(td)), \
+                 mock.patch.object(config, "JUDGMENTS_DIR", Path(td)):
+                with self.assertRaises(SystemExit):
+                    run_judges.verify_frozen("A")
 
-
-def run_judgers_probe():
-    import run_judges
-    # If all freezes exist this passes; the real gate is exercised end-to-end.
-    run_judges.verify_frozen("A")
-    run_judgers.verify_frozen("B")
-    run_judgers.verify_frozen("C")
+    def test_frozen_stages_verify(self):
+        # Every freeze manifest that exists must still match on-disk bytes.
+        for stage in config.STAGES:
+            if (config.DERIVED_DIR / f"freeze_stage_{stage}.json").exists():
+                run_judges.verify_frozen(stage)  # must not raise
 
 
 class TestStageChanges(unittest.TestCase):

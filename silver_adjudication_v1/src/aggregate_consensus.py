@@ -30,8 +30,7 @@ def load_judgments(stage: str):
     outdir = config.JUDGMENTS_DIR / f"stage_{stage.lower()}"
     for judge in config.JUDGES:
         for p in sorted(outdir.glob(f"{judge}_batch_*.jsonl")):
-            arr = json.loads(p.read_text(encoding="utf-8").strip() or "[]")
-            for r in arr:
+            for r in run_judges.load_batch_file(p):
                 if run_judges.valid_record(r, stage, judge):
                     rows.append({"item_id": r["item_id"], "judge": judge,
                                  "verdict": r["verdict"],

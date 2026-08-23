@@ -33,7 +33,8 @@ findings — anti-cherry-picking documentation.
 
 ## Stage freezes
 
-- (pending)
+- Stage A: FROZEN 2026-08-22 (all 5 judges x 1060 items valid; manifest
+  `data/derived/freeze_stage_A.json`; integrity re-verified in this session).
 
 ## Deviations from protocol
 
@@ -41,6 +42,12 @@ findings — anti-cherry-picking documentation.
   wiki archive (fever.ai, https-only, host-validated) per user decision;
   alternative-set sentence text recovered for 506/508 referenced sentences
   (2 pointer-only due to missing pages in the archive).
+- Item SA-000352 excluded (provider-side content filter causes an empty
+  model response in every GLM subagent request that includes it, isolated
+  by bisection). Excluded from expected items in run_judges; never judged in
+  any stage; consensus computed over the remaining 1060 items; documented in
+  `data/derived/provider_filtered.json`; unblinding joins its cohort
+  metadata only (no silver label). Recorded as a deviation on 2026-08-22.
 
 ## Null findings / notes
 
@@ -53,3 +60,38 @@ findings — anti-cherry-picking documentation.
 - judge_3 batch_04 (SA-000401..0500): FAILED (provider "Model request failed", empty response). Retry 1 launched with same blinded range + two-part write guidance.
 - judge_4 batch_04 (SA-000401..0500): launched.
 - judge_5 batch_04 (SA-000401..0500): launched.
+
+## Judging session 3 (Stage B, 2026-08-22 evening)
+
+- Resumed Stage B at 13/55 batch files (judges 1-3 at 300/1060, judges 4-5
+  at 200/1060).
+- DISCOVERED: a second orchestrating session is concurrently working the
+  same Stage B queue (batch_04a/b split files appeared for judges this
+  session never launched). Coordination: this session works backward from
+  batch 11 using `_s2`-suffixed output filenames; the shared
+  `judgments/stage_b/*_missing.json` files (written by
+  `run_judges.py status`) are the coordination channel. No file collisions;
+  item-level dedupe in aggregation handles any overlap.
+- Launch retries this session (concurrency-limit failures, no judgment
+  state consumed): judge_4 b03 x2, judge_1 b04 x2.
+- judge_5 batch_03: agent reported "Model request failed" AFTER writing a
+  complete valid file (100 records) — file kept, batch complete.
+- judge_2 batch_04b appeared as malformed mid-write from the concurrent
+  session; left alone to complete.
+
+## Infrastructure fixes (pre-aggregation, 2026-08-22)
+
+- Fixed 2 broken unit tests (missing assertEqual arg; run_judgers typo);
+  rewrote the unblinding-gate test to be deterministic (temp-dir manifest
+  absence must raise; existing manifests must verify).
+- Implemented missing `src/verify_headlines.py` (independent recomputation
+  of headline numbers from frozen artifacts + presence check in reports +
+  freeze-hash recheck; registry `reports/HEADLINES.json`).
+- `src/join_analysis_v2.py`: implemented `--freeze-only`; freeze_silver now
+  refuses to freeze until resolver outputs are complete for all stages and
+  agreement tables exist; manifest extended to hash agreement tables;
+  unblind_join now enforces the resolver-completeness gate.
+- `src/resolve_disagreements.py`: fixed `validate` CLI invocation (was
+  treating the subcommand as a stage name).
+- `run_all.py`: agreement stage moved before freeze_silver.
+- No changes to prompts/, blinded data, or any frozen artifact.

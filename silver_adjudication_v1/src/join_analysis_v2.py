@@ -29,7 +29,12 @@ def sha256(path: Path) -> str:
 
 
 def freeze_silver():
-    """Final freeze over consensus + resolver outputs (after stages frozen)."""
+    """Final freeze over consensus + resolver + agreement outputs.
+
+    Refuses to freeze until resolver outputs are complete for all stages
+    (freezing an incomplete resolver set would permanently block the
+    append-only manifest once the missing outputs arrive)."""
+    _require_resolver_complete()
     entries = {}
     for stage in config.STAGES:
         p = config.DERIVED_DIR / f"consensus_stage_{stage}.parquet"
@@ -42,6 +47,14 @@ def freeze_silver():
         total += 1
     entries["resolver_combined"] = h.hexdigest()
     entries["resolver_file_count"] = total
+    for name in ("agreement_all_stages.csv", "agreement_stage_A.csv",
+                 "agreement_stage_B.csv", "agreement_stage_C.csv",
+                 "judge_behavior.csv", "judge_verdict_distributions.csv"):
+        p = config.TABLES_DIR / name
+        if not p.exists():
+            raise SystemExit(f"agreement output missing: {name}; "
+                             "run agreement analysis before the silver freeze")
+        entries[f"table_{name}"] = sha256(p)
     if config.FREEZE_MANIFEST.exists():
         prev = json.loads(config.FREEZE_MANIFEST.read_text(encoding="utf-8"))
         if prev != entries:
@@ -53,11 +66,25 @@ def freeze_silver():
     return entries
 
 
+def _require_resolver_complete():
+    """Refuse to unblind until resolver outputs are complete for all stages."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from resolve_disagreements import validate_resolver_outputs
+    for stage in config.STAGES:
+        if not (config.DERIVED_DIR / f"resolver_inputs_stage_{stage}.jsonl").exists():
+            raise SystemExit(f"resolver inputs missing for stage {stage}; not unblinding")
+        missing, bad = validate_resolver_outputs(stage)
+        if missing or bad:
+            raise SystemExit(f"resolver incomplete for stage {stage} "
+                             f"(missing {len(missing)}, malformed {bad}); not unblinding")
+
+
 def unblind_join():
     # --- Gate: verify every freeze ---
     for stage in config.STAGES:
         run_judges.verify_frozen(stage)
     freeze_silver()
+    _require_resolver_complete()
 
     id_map = pd.read_csv(config.ID_MAP_CSV)
     cohort = pd.read_parquet(config.COHORT_PARQUET).set_index("claim_id")
@@ -144,4 +171,7 @@ def unblind_join():
 
 
 if __name__ == "__main__":
-    unblind_join()
+    if "--freeze-only" in sys.argv:
+        freeze_silver()
+    else:
+        unblind_join()

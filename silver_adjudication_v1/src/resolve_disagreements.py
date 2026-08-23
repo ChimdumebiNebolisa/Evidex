@@ -74,7 +74,7 @@ def validate_resolver_outputs(stage: str):
     got, bad = set(), []
     for p in sorted(outdir.glob(f"resolver_stage_{stage}_*.jsonl")):
         try:
-            arr = json.loads(p.read_text(encoding="utf-8").strip() or "[]")
+            arr = run_judges.load_batch_file(p)
         except ValueError:
             bad.append(p.name)
             continue
@@ -94,10 +94,18 @@ def validate_resolver_outputs(stage: str):
 
 
 if __name__ == "__main__":
-    stage = sys.argv[1].upper()
-    if sys.argv[1] == "inputs":
+    cmd = sys.argv[1]
+    if cmd == "inputs":
         for s in config.STAGES:
             if (config.DERIVED_DIR / f"consensus_stage_{s}.parquet").exists():
                 build_resolver_inputs(s)
-    elif sys.argv[1] == "validate":
-        validate_resolver_outputs(stage)
+    elif cmd == "validate":
+        ok = True
+        for s in config.STAGES:
+            if (config.DERIVED_DIR / f"resolver_inputs_stage_{s}.jsonl").exists():
+                missing, bad = validate_resolver_outputs(s)
+                ok = ok and not missing and not bad
+        if not ok:
+            raise SystemExit("resolver outputs incomplete or malformed")
+    else:
+        raise SystemExit(f"usage: {sys.argv[0]} inputs|validate")
