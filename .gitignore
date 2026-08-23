@@ -1,9 +1,13 @@
 wiki-pages/
+wiki-pages.zip
+**/wiki-pages.zip
 .env
 .venv/
 .vscode/
 __pycache__/
 *.pyc
+*.gguf
+*.safetensors
 
 # Local API smoke-test outputs (optional; do not commit)
 *_smoke_test.csv
