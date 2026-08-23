@@ -1,0 +1,1002 @@
+[
+  {
+    "item_id": "SA-000101",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Resident Evil is the first installment in the film series, not the second."
+  },
+  {
+    "item_id": "SA-000102",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence says 23 percent of inhabitants live on South Island, so it does not lack that share."
+  },
+  {
+    "item_id": "SA-000103",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence gives David Marvin Blake as DJ Quik's name, but does not establish that this is a maiden name."
+  },
+  {
+    "item_id": "SA-000104",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence identifies Practical Magic as a 1998 film, not an event."
+  },
+  {
+    "item_id": "SA-000105",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence directly calls AMGTV an American family-oriented television network."
+  },
+  {
+    "item_id": "SA-000106",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence describes GLOW as an upcoming American comedy-drama television series."
+  },
+  {
+    "item_id": "SA-000107",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence states the competition is annual, not merely almost annual."
+  },
+  {
+    "item_id": "SA-000108",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence names the third creator as Jim Mooney, not Jim Morrison."
+  },
+  {
+    "item_id": "SA-000109",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["partial_warrant", "numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence confirms Villa Park hosted the 2012 FA Community Shield but does not say it was the 90th."
+  },
+  {
+    "item_id": "SA-000110",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence presents IIMB's postgraduate programme as its flagship offering, not something it refuses to provide."
+  },
+  {
+    "item_id": "SA-000111",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says Wilk co-founded Rage with Tom Morello and Zack de la Rocha."
+  },
+  {
+    "item_id": "SA-000112",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence identifies Zac Efron as an American actor and singer, which makes him a performer."
+  },
+  {
+    "item_id": "SA-000113",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 52,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Evidence supports the mainland nickname among residents but says nothing about South Island being a cultured place."
+  },
+  {
+    "item_id": "SA-000114",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence says Oscar Isaac appeared in X-Men: Apocalypse as Apocalypse."
+  },
+  {
+    "item_id": "SA-000115",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 48,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "Evidence places the last of three major windstorms in 2006 but does not specify May or that no later windstorm occurred."
+  },
+  {
+    "item_id": "SA-000116",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence calls Discovery the first Star Trek series since Star Trek: Enterprise concluded."
+  },
+  {
+    "item_id": "SA-000117",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 50,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Evidence gives the full name Christopher Michael Benoit, so Michael is a middle name rather than shown as his name."
+  },
+  {
+    "item_id": "SA-000118",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states it is the first installment in the Resident Evil film series."
+  },
+  {
+    "item_id": "SA-000119",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 72,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Evidence says the National Board of Review selected the film as the best of 2007."
+  },
+  {
+    "item_id": "SA-000120",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence identifies Despicable Me 2 as a 2013 film and does not place production in 2014."
+  },
+  {
+    "item_id": "SA-000121",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states the movie was dubbed into Korean under the same name."
+  },
+  {
+    "item_id": "SA-000122",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence says Great Britain defeated France early in George III's reign, so he did experience that defeat."
+  },
+  {
+    "item_id": "SA-000123",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 45,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "Evidence gives Shah Rukh Khan's birth as November 1965, not April, and supplies no birth dates for the other billed stars."
+  },
+  {
+    "item_id": "SA-000124",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 48,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence calls Keith Stanfield an actor and rapper, which does not settle whether he is a singer."
+  },
+  {
+    "item_id": "SA-000125",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence presents Matoaka as the name she was born with, not as a middle name."
+  },
+  {
+    "item_id": "SA-000126",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["partial_warrant", "entity_or_attribute_confusion"],
+    "brief_reason": "Evidence gives the name Salvador Guerrero Quesada, so Salvador Guerrero is only part of the stated full name."
+  },
+  {
+    "item_id": "SA-000127",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says the 1974 crime drama was co-written by Steven Spielberg, not completely written by Sylvester Stallone."
+  },
+  {
+    "item_id": "SA-000128",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence states Skopje was the Bulgarian Empire's capital between 972 and 992, not barely a capital."
+  },
+  {
+    "item_id": "SA-000129",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["negation_or_scope", "multi_sentence_integration"],
+    "brief_reason": "Evidence says Canadian director Norman Jewison directed The Cincinnati Kid, so he did not reject all offers to direct it."
+  },
+  {
+    "item_id": "SA-000130",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Daredevil is based on the Marvel Comics character of the same name."
+  },
+  {
+    "item_id": "SA-000131",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence identifies Elizabeth's parents as Henry VIII and Anne Boleyn, not a salesman."
+  },
+  {
+    "item_id": "SA-000132",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 50,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Evidence confirms the first season has ten episodes but does not mention Jason Bateman."
+  },
+  {
+    "item_id": "SA-000133",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says The Daily Show describes itself as a fake news program, not a sports news program."
+  },
+  {
+    "item_id": "SA-000134",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 40,
+    "issue_flags": ["multi_sentence_integration", "partial_warrant"],
+    "brief_reason": "Evidence calls him an actor, RJ, and TV anchor and defines journalism, but does not show he works in journalism."
+  },
+  {
+    "item_id": "SA-000135",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence describes French Indochina as a grouping of French colonial territories, not British ones."
+  },
+  {
+    "item_id": "SA-000136",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says Cate Blanchett played the socialite, not that she directed Blue Jasmine."
+  },
+  {
+    "item_id": "SA-000137",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence gives Mike Friedrich's birth date as March 27, 1949, not May 27."
+  },
+  {
+    "item_id": "SA-000138",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence states Tim Roth is an English actor and director."
+  },
+  {
+    "item_id": "SA-000139",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence describes Melilla as a Spanish autonomous city, matching the claim aside from the Mellila spelling."
+  },
+  {
+    "item_id": "SA-000140",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 74,
+    "issue_flags": ["partial_warrant", "entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "Evidence supports succession by Henry IV as first French Bourbon king, but says the house originated in 1268, not that he founded it."
+  },
+  {
+    "item_id": "SA-000141",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence says Dulquer Salmaan appears predominantly in Malayalam films."
+  },
+  {
+    "item_id": "SA-000142",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence gives Bessie Smith's birth as April 15, 1894, and September 26, 1937 as her death date."
+  },
+  {
+    "item_id": "SA-000143",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says the 2009 Broadway revival of Hair won the Drama Desk Award for best revival of a musical."
+  },
+  {
+    "item_id": "SA-000144",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says Brazilian Jiu-Jitsu was formed from Kodokan judo ground-fighting fundamentals."
+  },
+  {
+    "item_id": "SA-000145",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 38,
+    "issue_flags": ["partial_warrant", "possible_missing_surrounding_context"],
+    "brief_reason": "Evidence says the Group of 15 was established in Belgrade, Yugoslavia, but lists members as countries from Latin America, Africa, and Asia."
+  },
+  {
+    "item_id": "SA-000146",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence attributes Mormon population growth to high birth and conversion rates, not conversion pizzas."
+  },
+  {
+    "item_id": "SA-000147",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says the song was released for digital download on 3 November 2013, not in October."
+  },
+  {
+    "item_id": "SA-000148",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence describes a 1,441-seat thrust stage, not a 1,441-window stage."
+  },
+  {
+    "item_id": "SA-000149",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence gives her name as Yvonne Jaqueline Strzechowski and Strahovski as her professional name."
+  },
+  {
+    "item_id": "SA-000150",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence credits him with ABC and CBS sitcoms, not an HBO sitcom."
+  },
+  {
+    "item_id": "SA-000151",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says the film is based on Victor Hugo's 1831 novel of the same name."
+  },
+  {
+    "item_id": "SA-000152",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Jack Falahee was born February 20, 1989."
+  },
+  {
+    "item_id": "SA-000153",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion", "numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence gives May 13, 1922 as Bea Arthur's birth date, not her conception date."
+  },
+  {
+    "item_id": "SA-000154",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Evidence says Murdoch formed the British broadcaster BSkyB in 1990."
+  },
+  {
+    "item_id": "SA-000155",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 35,
+    "issue_flags": ["partial_warrant", "possible_missing_surrounding_context"],
+    "brief_reason": "Evidence links The Beatles to Liverpool tourism and Merseybeat but does not say they came together there."
+  },
+  {
+    "item_id": "SA-000156",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence quotes Matt Fowler of IGN calling the episode very surprising and satisfying."
+  },
+  {
+    "item_id": "SA-000157",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says bonobos live south of the river, not south of a statue."
+  },
+  {
+    "item_id": "SA-000158",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 48,
+    "issue_flags": ["partial_warrant", "numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says he won the Australian Open men's doubles championship but does not give the year 2011."
+  },
+  {
+    "item_id": "SA-000159",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence identifies Awkward Black Girl as a comedy web series, not a web forum."
+  },
+  {
+    "item_id": "SA-000160",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Evidence calls Padua the provincial capital and the economic and communications hub, not the political hub."
+  },
+  {
+    "item_id": "SA-000161",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence lists Pride & Prejudice among films in which Talulah Riley has appeared."
+  },
+  {
+    "item_id": "SA-000162",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence describes more than 700 Atlantic islands, cays, and islets, which contradicts a series of landlocked areas."
+  },
+  {
+    "item_id": "SA-000163",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence credits appropriation with a role in literary arts, not literacy arts."
+  },
+  {
+    "item_id": "SA-000164",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence describes evolution from a small Eohippus into today's large single-toed horse."
+  },
+  {
+    "item_id": "SA-000165",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 40,
+    "issue_flags": ["partial_warrant", "negation_or_scope"],
+    "brief_reason": "Evidence reports 15 million copies sold worldwide but does not say those copies were only digital."
+  },
+  {
+    "item_id": "SA-000166",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says he spent the remaining years of his life on his ranch, the Whispering Wind."
+  },
+  {
+    "item_id": "SA-000167",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence mentions prestigious academic and writing awards, not film awards."
+  },
+  {
+    "item_id": "SA-000168",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence places the wedding at St Paul's Cathedral in London, not Puerto Rico."
+  },
+  {
+    "item_id": "SA-000169",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion", "negation_or_scope"],
+    "brief_reason": "Evidence calls Australia an epic historical romantic drama, not solely a romantic comedy."
+  },
+  {
+    "item_id": "SA-000170",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 74,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Evidence defines internet access as connecting using computer terminals, computers, and mobile devices."
+  },
+  {
+    "item_id": "SA-000171",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence says Dawkins makes regular radio appearances."
+  },
+  {
+    "item_id": "SA-000172",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says martial arts films are a subgenre of the action film, not the reverse."
+  },
+  {
+    "item_id": "SA-000173",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says Australia stars Hugh Jackman and Nicole Kidman."
+  },
+  {
+    "item_id": "SA-000174",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence states Tim Roth was born 14 May 1961."
+  },
+  {
+    "item_id": "SA-000175",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says the series' traditional character assists have been removed."
+  },
+  {
+    "item_id": "SA-000176",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Evidence says he shared an Academy Award for Best Original Screenplay, which is a Best Screenplay award."
+  },
+  {
+    "item_id": "SA-000177",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 36,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence concerns Byron Howard's Golden Globe nomination, not a clearly identified Bryan Howd."
+  },
+  {
+    "item_id": "SA-000178",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence reports a combined 2.85 percent Romani and Egyptians, not 2.66 percent Romani."
+  },
+  {
+    "item_id": "SA-000179",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence lists Richard Alf among the founders of the convention."
+  },
+  {
+    "item_id": "SA-000180",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence identifies Charles Howard Hinton as a British mathematician."
+  },
+  {
+    "item_id": "SA-000181",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence lists chest pain as a PE symptom, not national pain."
+  },
+  {
+    "item_id": "SA-000182",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 30,
+    "issue_flags": ["possible_missing_surrounding_context", "partial_warrant"],
+    "brief_reason": "Evidence mentions filming in Colombia and Challenge alumni but does not establish a U.S. television-series season."
+  },
+  {
+    "item_id": "SA-000183",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence credits Franklin with early and indefatigable campaigning for colonial unity."
+  },
+  {
+    "item_id": "SA-000184",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says Augustus Prew is the son of Wendy Dagworthy, a fashion designer."
+  },
+  {
+    "item_id": "SA-000185",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says the film premiered and was theatrically released in 2016, so it was not halted indefinitely in pre-production."
+  },
+  {
+    "item_id": "SA-000186",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence says the great white is responsible for the largest number of fatal unprovoked shark attacks on humans."
+  },
+  {
+    "item_id": "SA-000187",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence defines the ABC islands as three islands, so an island is part of that group."
+  },
+  {
+    "item_id": "SA-000188",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says the novel was adapted for the film by John Hodge."
+  },
+  {
+    "item_id": "SA-000189",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 50,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence places the song on the 2000 album Hybrid Theory but dates the single release to 9 October 2001."
+  },
+  {
+    "item_id": "SA-000190",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says Heaven Can Wait was preceded by Here Comes Mr. Jordan (1941)."
+  },
+  {
+    "item_id": "SA-000191",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence has the Tenth Doctor continue through later specials after Journey's End, ending in The End of Time."
+  },
+  {
+    "item_id": "SA-000192",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 32,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The named members do not include John Perry Barlow, and the lists are not shown as complete."
+  },
+  {
+    "item_id": "SA-000193",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 24,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The cast list includes Geraldine Chaplin but does not identify anyone as Charlie Chaplin's fourth stepchild."
+  },
+  {
+    "item_id": "SA-000194",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence identifies Danger UXB as a 1979 British ITV television series, not a radio-station program."
+  },
+  {
+    "item_id": "SA-000195",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 72,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence presents Night of the Living Dead as a single 1968 horror film, not a series of seven films."
+  },
+  {
+    "item_id": "SA-000196",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says pharmacology characterizes chemicals with biological effects, not turnips."
+  },
+  {
+    "item_id": "SA-000197",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence says Omar Epps holds the record for most wins of that award with three, which is inconsistent with rejecting it."
+  },
+  {
+    "item_id": "SA-000198",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence gives the legal name Luis Alfonso Rodríguez López-Cepero, so he does not only go by Luis Fonsi."
+  },
+  {
+    "item_id": "SA-000199",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Evidence says heavy metal developed largely in the United Kingdom and the United States."
+  },
+  {
+    "item_id": "SA-000200",
+    "judge_id": "cursor_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says A&E is the flagship television property of A&E Networks, not of America."
+  }
+]

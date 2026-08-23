@@ -120,3 +120,21 @@ findings — anti-cherry-picking documentation.
   agreement 0.855. Cursor Stage A is more ambiguous (29.1% vs GLM 22.3%).
   Regression ambiguity is similar (GLM 41.6% vs Cursor 45.6%). Partial GLM
   Stage B was not used.
+
+## Cursor Stage B (2026-08-23)
+
+- Stage B complete after Stage A freeze: 5 judges x 1060 items, schema-valid,
+  frozen at `cursor_panel/freezes/freeze_stage_B.json`.
+- Same locked model `cursor-grok-4.6-high-fast`. No GLM Stage A chaining.
+- Consensus (pre-computed): Refuted 423 / Supported 375 / Ambiguous 241 /
+  Unresolved 21.
+
+## Cursor Stage C (2026-08-23)
+
+- Stage C launched only after Stage B freeze. Packets used existing
+  reconstructed structured evidence only (no Wikipedia browse, no new
+  retrieval). Pointer-only archive gaps remain as already reconstructed.
+- Stage C complete: 5 judges x 1060 items, schema-valid on first write
+  (batches 01-11; batch 11 = 60 items). Frozen at
+  `cursor_panel/freezes/freeze_stage_C.json`. Integrity re-verified.
+- Model lock unchanged. GLM Stage B partial outputs were not used.

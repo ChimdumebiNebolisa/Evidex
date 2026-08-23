@@ -1,0 +1,1002 @@
+[
+  {
+    "item_id": "SA-000802",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives 12 June 1919 as Hagen's lifespan start, not a college graduation date."
+  },
+  {
+    "item_id": "SA-000803",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Kuklinski led a double life unknown to his family."
+  },
+  {
+    "item_id": "SA-000804",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Ned was introduced in 1996's A Game of Thrones, not A Storm of Swords."
+  },
+  {
+    "item_id": "SA-000805",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states the 2010 census city population of Syracuse was 145,170."
+  },
+  {
+    "item_id": "SA-000806",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says the movie was adapted from the 1965 novel by John Nichols."
+  },
+  {
+    "item_id": "SA-000807",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says a solo pop version and a salsa version were released on March 17, 2017."
+  },
+  {
+    "item_id": "SA-000808",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence identifies I Kissed a Girl as a song recorded by Katy Perry, not a horse."
+  },
+  {
+    "item_id": "SA-000809",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["partial_warrant", "possible_missing_surrounding_context"],
+    "brief_reason": "The evidence calls Ferrer an actor and a film director but does not say he acted in movies."
+  },
+  {
+    "item_id": "SA-000810",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says the Hunger Games films are based on Suzanne Collins's trilogy of novels."
+  },
+  {
+    "item_id": "SA-000811",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence lists Guillermo del Toro as a novelist."
+  },
+  {
+    "item_id": "SA-000812",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence lists West among the song's producers."
+  },
+  {
+    "item_id": "SA-000813",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 48,
+    "issue_flags": ["partial_warrant", "entity_or_attribute_confusion"],
+    "brief_reason": "The evidence mentions nightshades, ornamental flowers, and fruit, but not that Solanum contains vegetables."
+  },
+  {
+    "item_id": "SA-000814",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says principal photography of the film began on December 8, 2015."
+  },
+  {
+    "item_id": "SA-000815",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence places the song on Katy Perry's second studio album, not her first."
+  },
+  {
+    "item_id": "SA-000816",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 56,
+    "issue_flags": ["partial_warrant", "possible_missing_surrounding_context"],
+    "brief_reason": "The evidence gives a 1982 New Zealand chart placing but does not say the song was released in the Southern Hemisphere."
+  },
+  {
+    "item_id": "SA-000817",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "The evidence says the song was written in reply to Neil Young's Southern Man."
+  },
+  {
+    "item_id": "SA-000818",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence identifies See You on the Other Side as a studio album by Korn."
+  },
+  {
+    "item_id": "SA-000819",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 91,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence lists the series' stars as Park Hae-jin, Kim Go-eun, Seo Kang-joon, and Lee Sung-kyung, not Batman."
+  },
+  {
+    "item_id": "SA-000820",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says Private Lives is a 1930 comedy of manners by Noël Coward."
+  },
+  {
+    "item_id": "SA-000821",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 91,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence identifies Loretta Sanchez as an American politician, not as only German."
+  },
+  {
+    "item_id": "SA-000822",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence places the Salt River Valley in central Arizona, not northern Arizona."
+  },
+  {
+    "item_id": "SA-000823",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives Ding Yanyuhang's birth date as August 20, 1993, not April 1993."
+  },
+  {
+    "item_id": "SA-000824",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence has Aristotle at the Academy from about age 17–18 until 37, roughly twenty years rather than almost forty."
+  },
+  {
+    "item_id": "SA-000825",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says Kajol received numerous accolades including six Filmfare Awards."
+  },
+  {
+    "item_id": "SA-000826",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says the President awards it in Congress's name, not on behalf of the Senate."
+  },
+  {
+    "item_id": "SA-000827",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["negation_or_scope", "partial_warrant"],
+    "brief_reason": "The evidence says the last of three major windstorms in 100 years was in 2006, not that 2006 was the last windstorm of any kind."
+  },
+  {
+    "item_id": "SA-000828",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 91,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence identifies Brian De Palma as a screenwriter."
+  },
+  {
+    "item_id": "SA-000829",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence dates Virginia's agricultural-to-industrial shift to the 1960s and 1970s, not the Civil War."
+  },
+  {
+    "item_id": "SA-000830",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 54,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence calls the Crips a gang, which does not settle whether they are a mob."
+  },
+  {
+    "item_id": "SA-000831",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says Cervantes wrote Don Quixote in 1605, so the author cannot have been born in 1616."
+  },
+  {
+    "item_id": "SA-000832",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 68,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence identifies Carbonell as an American actor but does not establish that he is famous."
+  },
+  {
+    "item_id": "SA-000833",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says the series twice ranked as the number one series of the year, which is among the top 10."
+  },
+  {
+    "item_id": "SA-000834",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The evidence says Libya is the 16th largest country but does not date that ranking to 2017."
+  },
+  {
+    "item_id": "SA-000835",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 82,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The evidence describes the 2011 film Rio and does not mention a sequel or its release date."
+  },
+  {
+    "item_id": "SA-000836",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says Bradman rose to the Australian Test team."
+  },
+  {
+    "item_id": "SA-000837",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence lists named actors starring in the Scream films, so the franchise used people."
+  },
+  {
+    "item_id": "SA-000838",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["partial_warrant", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence reports 4.7 million U.S. copies as of April 2016 and calls it a best-selling digital album."
+  },
+  {
+    "item_id": "SA-000839",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["numerical_or_temporal_reasoning", "negation_or_scope"],
+    "brief_reason": "The evidence states two Grammy nominations, which may not count as several."
+  },
+  {
+    "item_id": "SA-000840",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says the undergraduate college became coeducational after its 1977 merger with Radcliffe College."
+  },
+  {
+    "item_id": "SA-000841",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["negation_or_scope", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says the film won all five major Academy Awards, not only one."
+  },
+  {
+    "item_id": "SA-000842",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence identifies X-Men: Apocalypse as a 2016 film, so it was not cancelled in 2013."
+  },
+  {
+    "item_id": "SA-000843",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Robertson headlined the Netflix television series Girlboss, not a film series."
+  },
+  {
+    "item_id": "SA-000844",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says St. Anger was released on June 5, 2003, not June 3."
+  },
+  {
+    "item_id": "SA-000845",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says Toy Story 2 was released by Walt Disney Pictures, not North Korea."
+  },
+  {
+    "item_id": "SA-000846",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 91,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says Deighton was forced to pursue other lines of work because of health problems."
+  },
+  {
+    "item_id": "SA-000847",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence says Lost aired from September 22, 2004, to May 23, 2010."
+  },
+  {
+    "item_id": "SA-000848",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Papua was formerly called Irian Jaya, West Irian, or Irian Barat, not West Iran."
+  },
+  {
+    "item_id": "SA-000849",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives heights of 554 ft or 555 ft, both below the claimed 560–575 ft range."
+  },
+  {
+    "item_id": "SA-000850",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["negation_or_scope", "entity_or_attribute_confusion"],
+    "brief_reason": "The evidence describes Papua as an Indonesian province comprising most of western New Guinea, not all of a country."
+  },
+  {
+    "item_id": "SA-000851",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence says Mary of Teck became queen mother when Edward ascended the throne in 1936."
+  },
+  {
+    "item_id": "SA-000852",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence identifies X-Men: Apocalypse as a 2016 superhero film, not only a comic book."
+  },
+  {
+    "item_id": "SA-000853",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 70,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The evidence gives overlapping subset knockout counts and does not state a career total of 30 KOs."
+  },
+  {
+    "item_id": "SA-000854",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 74,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence identifies Overexposed as a studio album, which implies it contains a song."
+  },
+  {
+    "item_id": "SA-000855",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The evidence states that the series finale aired August 28, 2013."
+  },
+  {
+    "item_id": "SA-000856",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence identifies Melilla as a Spanish autonomous city, not a Spanish dish."
+  },
+  {
+    "item_id": "SA-000857",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives Sanchez's birth date as January 7, 1960, not January 27."
+  },
+  {
+    "item_id": "SA-000858",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 52,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The evidence lists films in 2005 through 2008 but does not clearly establish two consecutive years each with two films."
+  },
+  {
+    "item_id": "SA-000859",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence says SpongeBob SquarePants is the most distributed property of MTV Networks."
+  },
+  {
+    "item_id": "SA-000860",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence says Samsung entered the electronics industry in the late 1960s and that this drove later growth."
+  },
+  {
+    "item_id": "SA-000861",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence identifies Bendis as a comic book writer and artist, which is work in media."
+  },
+  {
+    "item_id": "SA-000862",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states that the cinematography was by Nicolas Roeg."
+  },
+  {
+    "item_id": "SA-000863",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says the show was awarded nine Tony Awards, including Best Musical."
+  },
+  {
+    "item_id": "SA-000864",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says Ronaldinho scored 33 goals for the Brazil national team."
+  },
+  {
+    "item_id": "SA-000865",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence identifies Jackie as a 2016 biographical drama film."
+  },
+  {
+    "item_id": "SA-000866",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 57,
+    "issue_flags": ["partial_warrant", "entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says the film is based on Lynn Barber's memoir, not that she created the film itself."
+  },
+  {
+    "item_id": "SA-000867",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 64,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The evidence gives February 10, 1894 as Macmillan's birth date but does not state that the day was a Monday."
+  },
+  {
+    "item_id": "SA-000868",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says Starrcade was created and spread on closed-circuit television in 1983, not 1988."
+  },
+  {
+    "item_id": "SA-000869",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence states that Pakistan is officially the Islamic Republic of Pakistan."
+  },
+  {
+    "item_id": "SA-000870",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence says the KGB was a military service governed by army laws and regulations."
+  },
+  {
+    "item_id": "SA-000871",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["entity_or_attribute_confusion", "negation_or_scope"],
+    "brief_reason": "The evidence says the film was directed by John Glen, not only by Chris Columbus."
+  },
+  {
+    "item_id": "SA-000872",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence identifies The Dark Tower as an upcoming American film."
+  },
+  {
+    "item_id": "SA-000873",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says Taft declined repeated offers of appointment to the Supreme Court."
+  },
+  {
+    "item_id": "SA-000874",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says Angelsberg is a small town in central Luxembourg."
+  },
+  {
+    "item_id": "SA-000875",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Michaela Watkins was born December 14, 1971."
+  },
+  {
+    "item_id": "SA-000876",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence describes the lead as an expert marksman, not an expert cowboy."
+  },
+  {
+    "item_id": "SA-000877",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence lists named actors as the film's stars."
+  },
+  {
+    "item_id": "SA-000878",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Tilda Swinton was born 5 November 1960."
+  },
+  {
+    "item_id": "SA-000879",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says filtering may pass a message through unchanged, not unchanged frogs."
+  },
+  {
+    "item_id": "SA-000880",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence says Tata Motors is a constituent of the BSE SENSEX index, not excluded from it."
+  },
+  {
+    "item_id": "SA-000881",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 56,
+    "issue_flags": ["partial_warrant", "entity_or_attribute_confusion"],
+    "brief_reason": "The evidence lists many roles for Franklin but does not call him a spokesman."
+  },
+  {
+    "item_id": "SA-000882",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 85,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says A Milli is a song by American artist Lil Wayne, a person from a country."
+  },
+  {
+    "item_id": "SA-000883",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says Elizabeth was the daughter of Henry VIII and Anne Boleyn, not Vladimir Putin."
+  },
+  {
+    "item_id": "SA-000884",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence states Yemen occupies 203,850 square miles."
+  },
+  {
+    "item_id": "SA-000885",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 87,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence places the theatre opposite Victoria Station, not on the same side as that terminus."
+  },
+  {
+    "item_id": "SA-000886",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence gives the 2010 metropolitan population as 662,577, which is more than 600,000."
+  },
+  {
+    "item_id": "SA-000887",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says the film is directed by Danny Boyle, an English director, not a man from Scotland's capital."
+  },
+  {
+    "item_id": "SA-000888",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence says Otto defeated the Magyars at Lechfeld in 955, rather than being defeated by them."
+  },
+  {
+    "item_id": "SA-000889",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says the dodo has been depicted with a grey naked head, not a naked arm."
+  },
+  {
+    "item_id": "SA-000890",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence calls Williams the second inmate in California executed in 2005."
+  },
+  {
+    "item_id": "SA-000891",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Mercedes-Benz is a division of Daimler AG, not BMW."
+  },
+  {
+    "item_id": "SA-000892",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives Mukherjee's dates as 19 June 1943 to 10 April 2008, so April 10, 2008 is his death date."
+  },
+  {
+    "item_id": "SA-000893",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says Asylum Records was founded in 1971, not 1979."
+  },
+  {
+    "item_id": "SA-000894",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence identifies An Education as a 2009 drama film, not a commercial."
+  },
+  {
+    "item_id": "SA-000895",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Jayasudha starred in the Telugu remake Vichitra Jeevitham, not in Daag."
+  },
+  {
+    "item_id": "SA-000896",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says the KGB was governed by army laws and regulations."
+  },
+  {
+    "item_id": "SA-000897",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 90,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence gives Uta Hagen's lifespan starting 12 June 1919, i.e., her birth date."
+  },
+  {
+    "item_id": "SA-000898",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence attributes Mormon population growth to high birth and conversion rates, not high death rates."
+  },
+  {
+    "item_id": "SA-000899",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence identifies The Big Country as a 1958 film, not a 1984 film."
+  },
+  {
+    "item_id": "SA-000900",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says the series began its seventh and final season, not an eighth season."
+  },
+  {
+    "item_id": "SA-000901",
+    "judge_id": "cursor_judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence locates the monument almost due east of the Lincoln Memorial, not north of it."
+  }
+]
