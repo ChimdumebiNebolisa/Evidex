@@ -1,0 +1,1002 @@
+[
+  {
+    "item_id": "SA-000001",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The title identifies Emperor Norton, and the sentence says Norton is the basis of characters in many authors' books."
+  },
+  {
+    "item_id": "SA-000002",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The sentence states the A380 entered commercial service on 25 October 2007 with Singapore Airlines."
+  },
+  {
+    "item_id": "SA-000003",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Season two is described as a prequel to the first season, not a sequel."
+  },
+  {
+    "item_id": "SA-000004",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Saw is a horror media franchise of films and related works, not a collection of bugs."
+  },
+  {
+    "item_id": "SA-000005",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The sentence says the Patriots are tied with the 49ers and Cowboys for the second most Super Bowl wins."
+  },
+  {
+    "item_id": "SA-000006",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 74,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Nine Super Bowl appearances entail that the Patriots did get to seven, including seven since 2000."
+  },
+  {
+    "item_id": "SA-000007",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "Season 2 originally aired on USA Network beginning July 13, 2007."
+  },
+  {
+    "item_id": "SA-000008",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "Delhi is listed among the film's filming locations, so it was partly filmed there."
+  },
+  {
+    "item_id": "SA-000009",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The single is released as the second single from the album Nextlevelism."
+  },
+  {
+    "item_id": "SA-000010",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 72,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "January 7, 1960 is given as her birth date, but the weekday Monday is not established."
+  },
+  {
+    "item_id": "SA-000011",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "The sentence states Emma Watson was born on 15 April 1990."
+  },
+  {
+    "item_id": "SA-000012",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 68,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "partial_warrant"],
+    "brief_reason": "The title-linked subject is the creator of Awkward Black Girl, which does not say she stars in it."
+  },
+  {
+    "item_id": "SA-000013",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 91,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The film was followed by a series of young adult novels, not a single novel."
+  },
+  {
+    "item_id": "SA-000014",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 64,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Rumors that wife Livia poisoned him are stated, but evidence does not identify Livia as Augustus' marble."
+  },
+  {
+    "item_id": "SA-000015",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 70,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The character Steve Sloan is the son of a doctor; that does not establish Barry Van Dyke himself is."
+  },
+  {
+    "item_id": "SA-000016",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The page-titled subject is described as a form of strategic use of information, implying military use."
+  },
+  {
+    "item_id": "SA-000017",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "Ashley Cole plays as a left-back for Los Angeles Galaxy in Major League Soccer."
+  },
+  {
+    "item_id": "SA-000018",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The Bassoon King is explicitly identified as a non-fiction book."
+  },
+  {
+    "item_id": "SA-000019",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "YouTube is ranked second most popular, not fourth."
+  },
+  {
+    "item_id": "SA-000020",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The episode is said to have received universal acclaim, contradicting the denial."
+  },
+  {
+    "item_id": "SA-000021",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Virginia is to the southeast, but Ohio is to the northwest, so both are not southeast borders."
+  },
+  {
+    "item_id": "SA-000022",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "12 June 1919 is her birth date; she died on 14 January 2004."
+  },
+  {
+    "item_id": "SA-000023",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Nymphomaniac is the final Depression Trilogy installment and was preceded by Antichrist."
+  },
+  {
+    "item_id": "SA-000024",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The film is set in the desert landscape of 1980 West Texas, which is the 1980s West Texas desert."
+  },
+  {
+    "item_id": "SA-000025",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The premiere on May 24, 2016 was in Paris, not a global premiere."
+  },
+  {
+    "item_id": "SA-000026",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 74,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Sources give 554 ft or 555 ft, not the claimed 554.5 ft."
+  },
+  {
+    "item_id": "SA-000027",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["none"],
+    "brief_reason": "Kesha is identified as an American singer, songwriter, and rapper, which supports those occupations."
+  },
+  {
+    "item_id": "SA-000028",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "March 12, 1911 is his birth date; he died August 28, 1990."
+  },
+  {
+    "item_id": "SA-000029",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The show was taped in New York City's Hell's Kitchen, so it has been taped."
+  },
+  {
+    "item_id": "SA-000030",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 91,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The show is set at the Pasadena Recovery Center, not a warehouse."
+  },
+  {
+    "item_id": "SA-000031",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The Colosseum is in the centre of Rome, Italy, which is a city in Italy."
+  },
+  {
+    "item_id": "SA-000032",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Revolution Studios produced the film; Columbia Pictures distributed it."
+  },
+  {
+    "item_id": "SA-000033",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 83,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "He is named Bruce Middleton Hope Shand, so Shand is the surname rather than Middleton Hope."
+  },
+  {
+    "item_id": "SA-000034",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 61,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The evidence calls him Canadian but does not state that he is from North America."
+  },
+  {
+    "item_id": "SA-000035",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Chile is described as one of South America's most stable nations."
+  },
+  {
+    "item_id": "SA-000036",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence identifies it as an Indian television series, which warrants calling it a serial."
+  },
+  {
+    "item_id": "SA-000037",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The first flight was on 27 April 2005, not 2015."
+  },
+  {
+    "item_id": "SA-000038",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The title subject starred as Meredith Kane on Boss."
+  },
+  {
+    "item_id": "SA-000039",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "German forces occupied Paris, not English forces."
+  },
+  {
+    "item_id": "SA-000040",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The source by John Nichols is a 1965 novel, not a biography."
+  },
+  {
+    "item_id": "SA-000041",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 66,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "Worldwide gross exceeded the stated budget, but that alone does not settle whether the film lost money."
+  },
+  {
+    "item_id": "SA-000042",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Dirty 30 is a season of The Challenge, not a contestant."
+  },
+  {
+    "item_id": "SA-000043",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 81,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "It is a political alliance partner, not a trades partner."
+  },
+  {
+    "item_id": "SA-000044",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 58,
+    "issue_flags": ["partial_warrant", "possible_missing_surrounding_context"],
+    "brief_reason": "The university is in Beijing, China, but the evidence does not state a unitary East Asian sovereign state."
+  },
+  {
+    "item_id": "SA-000045",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["none"],
+    "brief_reason": "DNA is identified as a studio album, which is a collection of songs."
+  },
+  {
+    "item_id": "SA-000046",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 67,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_missing_surrounding_context"],
+    "brief_reason": "The scheduled June 2, 2017 date is for season two, so a 2015 series premiere is not settled."
+  },
+  {
+    "item_id": "SA-000047",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Samsung entered electronics in the late 1960s, not the late 1970s."
+  },
+  {
+    "item_id": "SA-000048",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The track is a song by the band Nine Inch Nails."
+  },
+  {
+    "item_id": "SA-000049",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Jason Blum is named as a producer through Blumhouse Productions."
+  },
+  {
+    "item_id": "SA-000050",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "North Vietnam was officially the Democratic Republic of Vietnam and existed from 1945 to 1976."
+  },
+  {
+    "item_id": "SA-000051",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 71,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "SZA is called a Neo Soul singer, but American nationality is not stated."
+  },
+  {
+    "item_id": "SA-000052",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 66,
+    "issue_flags": ["numerical_or_temporal_reasoning", "negation_or_scope", "partial_warrant"],
+    "brief_reason": "He attempts to travel alone in the 2008–2010 specials but is later accompanied, and 2009–2010 is not isolated."
+  },
+  {
+    "item_id": "SA-000053",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "He served as Prime Minister in two separate periods, not once."
+  },
+  {
+    "item_id": "SA-000054",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 63,
+    "issue_flags": ["partial_warrant", "possible_missing_surrounding_context"],
+    "brief_reason": "He was drafted by the 49ers, but the evidence does not say he is their quarterback."
+  },
+  {
+    "item_id": "SA-000055",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["none"],
+    "brief_reason": "Warming is expected to continue the retreat of sea ice, i.e., reduced sea ice."
+  },
+  {
+    "item_id": "SA-000056",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 70,
+    "issue_flags": ["negation_or_scope", "partial_warrant"],
+    "brief_reason": "Andrew Stanton directed it, but Angus MacLane co-directed, so excluding MacLane is unsettled."
+  },
+  {
+    "item_id": "SA-000057",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Compared to voice, Morse code is less sensitive to poor signal conditions, not more."
+  },
+  {
+    "item_id": "SA-000058",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 69,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "partial_warrant"],
+    "brief_reason": "The record won the singer a first Grammy, but Michael Jackson is not identified in the evidence."
+  },
+  {
+    "item_id": "SA-000059",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 70,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "His library was among Europe's largest, but the Renaissance 1450s dating is not given."
+  },
+  {
+    "item_id": "SA-000060",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 91,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Dharmesh Darshan directed the film, but it is a 1996 film, not 1995."
+  },
+  {
+    "item_id": "SA-000061",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Paul Dini wrote the series; DC Comics published it."
+  },
+  {
+    "item_id": "SA-000062",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 60,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "It was developed for the Family Computer Disk System, which is not identified as a Nintendo console."
+  },
+  {
+    "item_id": "SA-000063",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "More than 80% of active defence personnel entails more than 70%."
+  },
+  {
+    "item_id": "SA-000064",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 64,
+    "issue_flags": ["partial_warrant", "possible_missing_surrounding_context"],
+    "brief_reason": "Orci worked with Abrams on Star Trek, which does not establish that he wrote it."
+  },
+  {
+    "item_id": "SA-000065",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The Uranium-235 page says it was discovered in 1935."
+  },
+  {
+    "item_id": "SA-000066",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "The film is based on the novel of the same name, which warrants modeled after that novel."
+  },
+  {
+    "item_id": "SA-000067",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["negation_or_scope", "multi_sentence_integration"],
+    "brief_reason": "A monk practices asceticism, which is abstinence from worldly pleasures, rather than avoiding that lifestyle."
+  },
+  {
+    "item_id": "SA-000068",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The Wizards have won four conference titles."
+  },
+  {
+    "item_id": "SA-000069",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "Mullin played with the Indiana Pacers, a professional basketball team, not baseball."
+  },
+  {
+    "item_id": "SA-000070",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The dodo is depicted with yellow feet; green applies to the beak, not the feet."
+  },
+  {
+    "item_id": "SA-000071",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The follow-ups are a sitcom and young adult novels, not organizations."
+  },
+  {
+    "item_id": "SA-000072",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 91,
+    "issue_flags": ["entity_or_attribute_confusion", "numerical_or_temporal_reasoning"],
+    "brief_reason": "11 January 1975 is his birth date, not his conception date."
+  },
+  {
+    "item_id": "SA-000073",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "Marco Polo is a Netflix television series, not a book series."
+  },
+  {
+    "item_id": "SA-000074",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 73,
+    "issue_flags": ["numerical_or_temporal_reasoning", "negation_or_scope", "possible_missing_surrounding_context"],
+    "brief_reason": "April 17, 1790 is attached unlabeled, so whether he was born that day cannot be decided."
+  },
+  {
+    "item_id": "SA-000075",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "The film is based on a 1995 novel of the same name, so that novel has a name."
+  },
+  {
+    "item_id": "SA-000076",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "They won four conference titles, with the first listed in 1971."
+  },
+  {
+    "item_id": "SA-000077",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 91,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Pearl projects a holographic body, not a holographic butterfly."
+  },
+  {
+    "item_id": "SA-000078",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 68,
+    "issue_flags": ["partial_warrant", "entity_or_attribute_confusion"],
+    "brief_reason": "Wildfang features tomboyish clothing, but hats are not mentioned."
+  },
+  {
+    "item_id": "SA-000079",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 76,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "Loss of territory to Sweden does not say whether Danish is spoken in Sweden."
+  },
+  {
+    "item_id": "SA-000080",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 83,
+    "issue_flags": ["multi_sentence_integration"],
+    "brief_reason": "Neefe was an opera composer, and a composer writes music, including opera."
+  },
+  {
+    "item_id": "SA-000081",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 89,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "On the Battle of France page, German forces occupied Paris on 14 June."
+  },
+  {
+    "item_id": "SA-000082",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "A floppy disk uses a magnetic storage medium, not a transmission medium."
+  },
+  {
+    "item_id": "SA-000083",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Herculaneum's ruins are in the immediate vicinity of Naples, not two hundred miles away."
+  },
+  {
+    "item_id": "SA-000084",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["numerical_or_temporal_reasoning", "multi_sentence_integration"],
+    "brief_reason": "Mayweather finished with 26 wins and no losses in world title fights."
+  },
+  {
+    "item_id": "SA-000085",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Ann Richards is stated to have been the 45th Governor of Texas."
+  },
+  {
+    "item_id": "SA-000086",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 91,
+    "issue_flags": ["none"],
+    "brief_reason": "Raabta is a Hindi song from the 2012 film Agent Vinod."
+  },
+  {
+    "item_id": "SA-000087",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The bio calls him an actor but never mentions Mac or It's Always Sunny in Philadelphia."
+  },
+  {
+    "item_id": "SA-000088",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The title subject was in the main cast of the Netflix series Marco Polo."
+  },
+  {
+    "item_id": "SA-000089",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 91,
+    "issue_flags": ["none"],
+    "brief_reason": "Several named actors were featured in the film, so a person appeared in it."
+  },
+  {
+    "item_id": "SA-000090",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Helmand is one of the 34 provinces of Afghanistan, not outside it."
+  },
+  {
+    "item_id": "SA-000091",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Villa Park hosted the 2012 FA Community Shield rather than being declined that role."
+  },
+  {
+    "item_id": "SA-000092",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Goethe published Wilhelm Meister's Apprenticeship, so he did not fail to publish it."
+  },
+  {
+    "item_id": "SA-000093",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 88,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The film description does not mention a corpse exhibition or any such setting."
+  },
+  {
+    "item_id": "SA-000094",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 70,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "He is called a political figure, which does not establish that he is a political leader."
+  },
+  {
+    "item_id": "SA-000095",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Charlotte hosts Wells Fargo's east coast operations, not west coast operations."
+  },
+  {
+    "item_id": "SA-000096",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Key & Peele has been nominated for a Writers Guild Award."
+  },
+  {
+    "item_id": "SA-000097",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Saturn Corporation was established on January 7, not January 8."
+  },
+  {
+    "item_id": "SA-000098",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The film is based on a Tarantino screenplay, not a Truman Capote true-crime novel."
+  },
+  {
+    "item_id": "SA-000099",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 72,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Pages are described as static or dynamic, which does not settle static or interactive."
+  },
+  {
+    "item_id": "SA-000100",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "On the Mel B page, Brown released I Want You Back with Missy Elliott."
+  }
+]

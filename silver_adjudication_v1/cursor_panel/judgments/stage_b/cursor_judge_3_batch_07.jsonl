@@ -1,0 +1,1002 @@
+[
+  {
+    "item_id": "SA-000602",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence says monsters are usually found in legends or horror fiction, which contradicts being only found in reality."
+  },
+  {
+    "item_id": "SA-000603",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence places Super Bowl XLV at Cowboys Stadium in Arlington, Texas, not in outer space."
+  },
+  {
+    "item_id": "SA-000604",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence identifies Soyuz as a series of spacecraft designed to fly in outer space, not as aircraft."
+  },
+  {
+    "item_id": "SA-000605",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Beatty was nominated for writing Heaven Can Wait, which the evidence says was co-written by Elaine May, implying he was a co-writer."
+  },
+  {
+    "item_id": "SA-000606",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 68,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The name includes Gaona, but the evidence does not identify Gaona as a middle name rather than another surname."
+  },
+  {
+    "item_id": "SA-000607",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Ashley Cole plays as a left-back for Los Angeles Galaxy."
+  },
+  {
+    "item_id": "SA-000608",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning", "negation_or_scope"],
+    "brief_reason": "Evidence says Saxony is the sixth most populous German state, not the sixth least populous."
+  },
+  {
+    "item_id": "SA-000609",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence has Jayasudha starring in the remake Vichitra Jeevitham, not Daag starring in Jayasudha."
+  },
+  {
+    "item_id": "SA-000610",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence reports worldwide box-office of over $348 million, which probably warrants the 348 million American dollars claim."
+  },
+  {
+    "item_id": "SA-000611",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Regina King played Erika Murphy on The Leftovers."
+  },
+  {
+    "item_id": "SA-000612",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Evidence gives the full book title as The Bassoon King: My Life in Art, Faith, and Idiocy, not merely The Bassoon King."
+  },
+  {
+    "item_id": "SA-000613",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says Christopher Columbus gave the country its name in 1493."
+  },
+  {
+    "item_id": "SA-000614",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 72,
+    "issue_flags": ["negation_or_scope", "partial_warrant", "multi_sentence_integration"],
+    "brief_reason": "Evidence supports official selection at Sundance in Park City but does not warrant the qualifier barely."
+  },
+  {
+    "item_id": "SA-000615",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence locates the theatre in Victoria Street, not outside it."
+  },
+  {
+    "item_id": "SA-000616",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 74,
+    "issue_flags": ["possible_missing_surrounding_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The Larry the Cable Guy page states the series finale aired August 28, 2013, though the series itself is unnamed."
+  },
+  {
+    "item_id": "SA-000617",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence explicitly refers to her early career in musical theatre."
+  },
+  {
+    "item_id": "SA-000618",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says the first season premiered on October 2, 2016, which is in October."
+  },
+  {
+    "item_id": "SA-000619",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence describes Melilla, not Mellila, as a Spanish autonomous city rather than a town."
+  },
+  {
+    "item_id": "SA-000620",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says Samsung entered construction in the mid-1970s."
+  },
+  {
+    "item_id": "SA-000621",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Elizabeth Olsen was born on February 16, 1989."
+  },
+  {
+    "item_id": "SA-000622",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence names writer-director Rawson Marshall Thurber, matching the claimed Rawson Marshall."
+  },
+  {
+    "item_id": "SA-000623",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says the song reached number 6, not number 8, on the New Zealand singles chart."
+  },
+  {
+    "item_id": "SA-000624",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states the film was produced by Revolution Studios and New Line Cinema."
+  },
+  {
+    "item_id": "SA-000625",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence identifies TV Choice as a weekly magazine, not a monthly one."
+  },
+  {
+    "item_id": "SA-000626",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 64,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Evidence places yin and yang in Taoist metaphysics and treats moral judgments as perceptual, not as identifying yin-yang itself as a moral concept."
+  },
+  {
+    "item_id": "SA-000627",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 70,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The show ran from 1962 to 1971, so it aired into the 1970s but originated in the 1960s, leaving from the 70s unsettled."
+  },
+  {
+    "item_id": "SA-000628",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence calls Vedic Sanskrit the ancient language of the Vedas."
+  },
+  {
+    "item_id": "SA-000629",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence lists Matthew Gray Gubler as a fashion model."
+  },
+  {
+    "item_id": "SA-000630",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says the latest Logie Awards ceremony was held at the Crown Casino."
+  },
+  {
+    "item_id": "SA-000631",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 72,
+    "issue_flags": ["entity_or_attribute_confusion", "numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence attributes 39 counties to the Combined Statistical Area, not clearly to the metropolitan area itself."
+  },
+  {
+    "item_id": "SA-000632",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says the final season averaged over 11 million U.S. viewers per episode."
+  },
+  {
+    "item_id": "SA-000633",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence describes Marco Polo journeying to Asia, not being an Asia."
+  },
+  {
+    "item_id": "SA-000634",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states the film premiered at the Sundance Film Festival on January 23, 2016."
+  },
+  {
+    "item_id": "SA-000635",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence says Manchester United was the world's highest-earning football club for 2015-16."
+  },
+  {
+    "item_id": "SA-000636",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Evidence describes an investigation of power effects focused on the struggle between prisoners and guards, which probably warrants the claim."
+  },
+  {
+    "item_id": "SA-000637",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 70,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Being the sixth main series entry does not settle whether the game is standalone."
+  },
+  {
+    "item_id": "SA-000638",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "Evidence defines the ice sheet as a mass of glacier ice, not as something made up mostly of snow."
+  },
+  {
+    "item_id": "SA-000639",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says the Cretaceous ended with the Cretaceous-Paleogene extinction event, not that the Cretaceous is that activity."
+  },
+  {
+    "item_id": "SA-000640",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states the 2003 tournament used single-elimination play, not triple-elimination."
+  },
+  {
+    "item_id": "SA-000641",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence has Vanisri starring in the remake Vichitra Jeevitham, not in Daag."
+  },
+  {
+    "item_id": "SA-000642",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence directly states benzodiazepines can be taken in overdoses."
+  },
+  {
+    "item_id": "SA-000643",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 66,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "Biennial staging since 1968 does not by itself establish that the tournament occurs in odd-numbered years."
+  },
+  {
+    "item_id": "SA-000644",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence cites forced labour as a common purpose of trafficking, not unforced labor."
+  },
+  {
+    "item_id": "SA-000645",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence identifies the 2015 film as French-Italian 3D animation, not Canadian."
+  },
+  {
+    "item_id": "SA-000646",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "The funder described is the Office of Naval Research, which covers the U.S. Navy and Marine Corps, not the Army and Marine Corps."
+  },
+  {
+    "item_id": "SA-000647",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says that as of 2014 electrocution was optional in Alabama, Florida, South Carolina, and Virginia."
+  },
+  {
+    "item_id": "SA-000648",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says the series is loosely based on the life and writings of Kathy Reichs, a real novelist and forensic anthropologist."
+  },
+  {
+    "item_id": "SA-000649",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "February 2014 to December 2016 is under three years, so the three-year tenure claim is not warranted."
+  },
+  {
+    "item_id": "SA-000650",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence describes Edgar Wright as a born English director, screenwriter, producer, and actor."
+  },
+  {
+    "item_id": "SA-000651",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says it was founded as the Golden State Comic Book Convention, not the Lone Star State Comic Book Convention."
+  },
+  {
+    "item_id": "SA-000652",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Trollhunters was created for Netflix."
+  },
+  {
+    "item_id": "SA-000653",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says Andrea Pirlo plays for the Italy national team."
+  },
+  {
+    "item_id": "SA-000654",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence calls The End of Time the Tenth Doctor's final adventure."
+  },
+  {
+    "item_id": "SA-000655",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence identifies Girl as an album by singer Pharrell Williams."
+  },
+  {
+    "item_id": "SA-000656",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says Raven-Symoné joined the primetime drama Empire in a recurring role."
+  },
+  {
+    "item_id": "SA-000657",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 76,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution", "multi_sentence_integration"],
+    "brief_reason": "Frederik Du Chau is named as director, but only Jason Lee is identified as American, so the director's nationality is unsettled."
+  },
+  {
+    "item_id": "SA-000658",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says the album's first official single was released on May 13, 2008."
+  },
+  {
+    "item_id": "SA-000659",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence states Cléopâtre is one of three posthumous Massenet operas, not that it is rarely one of three."
+  },
+  {
+    "item_id": "SA-000660",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 70,
+    "issue_flags": ["partial_warrant", "entity_or_attribute_confusion"],
+    "brief_reason": "A naked head is attested, but the evidence does not mention an arm."
+  },
+  {
+    "item_id": "SA-000661",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says the world premiere took place at the Residenztheater in Munich."
+  },
+  {
+    "item_id": "SA-000662",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 80,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The described lethal-injection rule is about Kentucky inmates, so the Florida claim remains unsettled."
+  },
+  {
+    "item_id": "SA-000663",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 68,
+    "issue_flags": ["partial_warrant", "entity_or_attribute_confusion"],
+    "brief_reason": "Evidence mentions online and mobile banking platforms, not computer banking platforms."
+  },
+  {
+    "item_id": "SA-000664",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning", "negation_or_scope"],
+    "brief_reason": "Evidence says the series premiered on July 20, 2005, not before that date."
+  },
+  {
+    "item_id": "SA-000665",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence states she died in a car crash in Paris on 31 August 1997."
+  },
+  {
+    "item_id": "SA-000666",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 60,
+    "issue_flags": ["partial_warrant", "entity_or_attribute_confusion"],
+    "brief_reason": "Webcam model and former pornographic actress roles do not explicitly establish that she was photographed."
+  },
+  {
+    "item_id": "SA-000667",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence identifies Angela Lafever and Gavin Grazer as his parents, not his grandparents."
+  },
+  {
+    "item_id": "SA-000668",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says all animal species are multicellular, which includes most animals among multicellular organisms."
+  },
+  {
+    "item_id": "SA-000669",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says Super Bowl XLV was the first time, not the second, the Super Bowl was played in the Dallas-Fort Worth area."
+  },
+  {
+    "item_id": "SA-000670",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says the show is hosted by comedian Jeong Hyeong-don and rapper Defconn."
+  },
+  {
+    "item_id": "SA-000671",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence says microbiologist research commonly promotes immunology information, not that it challenges it."
+  },
+  {
+    "item_id": "SA-000672",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says they started as R&B backing singers for record producer Phil Spector."
+  },
+  {
+    "item_id": "SA-000673",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says Islamabad is home to sixteen universities, not fifteen."
+  },
+  {
+    "item_id": "SA-000674",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says she starred in The Cat in the Hat, Old Dogs, and Broken Bridges."
+  },
+  {
+    "item_id": "SA-000675",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says Mary-Kate and Ashley Olsen are also known as the Olsen twins collectively."
+  },
+  {
+    "item_id": "SA-000676",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence describes a rich Manhattan socialite, not a Bostonian one."
+  },
+  {
+    "item_id": "SA-000677",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence names writer-director Rawson Marshall Thurber, matching the claimed Rawson Marshall."
+  },
+  {
+    "item_id": "SA-000678",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 85,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence identifies DNA as a studio album, which is a work."
+  },
+  {
+    "item_id": "SA-000679",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence locates Tiber as a deepwater offshore field in the Gulf of Mexico, not a landlocked field."
+  },
+  {
+    "item_id": "SA-000680",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence identifies him as a British mathematician who died in Washington, D.C., United States."
+  },
+  {
+    "item_id": "SA-000681",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence attributes the single to DJ Fresh, with no mention of author Bob Stanley."
+  },
+  {
+    "item_id": "SA-000682",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 68,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Evidence says Zeus married her to Hephaestus but does not identify him as the god of blacksmiths or describe dating."
+  },
+  {
+    "item_id": "SA-000683",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning", "negation_or_scope"],
+    "brief_reason": "Discoverer Arthur Jeffrey Dempster was born on August 14, which is in August, not after August."
+  },
+  {
+    "item_id": "SA-000684",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 72,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_missing_surrounding_context"],
+    "brief_reason": "Evidence says he formed Blink-182 during high school but does not give the year 1992."
+  },
+  {
+    "item_id": "SA-000685",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence says he was accompanied by Wilfred Mott on his final adventure in The End of Time, not traveling alone."
+  },
+  {
+    "item_id": "SA-000686",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states that in the 1990s the 767 became the most frequently used airliner for those transatlantic flights."
+  },
+  {
+    "item_id": "SA-000687",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence identifies Weill Cornell Medicine as the medical school of Cornell University."
+  },
+  {
+    "item_id": "SA-000688",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says Smriti Mandhana is an Indian cricketer born on 18 July 1996."
+  },
+  {
+    "item_id": "SA-000689",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says granite is granular in texture, not that granular is granite."
+  },
+  {
+    "item_id": "SA-000690",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence says registered users can submit material and edit existing entries, so IMDb is user-edited."
+  },
+  {
+    "item_id": "SA-000691",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says Universal Pictures released Warcraft in the United States."
+  },
+  {
+    "item_id": "SA-000692",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 68,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Evidence supports eventual pay-per-view television broadcast but does not mention a pay-per-view umbrella."
+  },
+  {
+    "item_id": "SA-000693",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says Christopher Columbus gave the country its name, not Isabella I of Castile."
+  },
+  {
+    "item_id": "SA-000694",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says the serial was nominated for Best Weekend Show."
+  },
+  {
+    "item_id": "SA-000695",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence gives Scotty Moore's lifespan as December 27, 1931 to June 28, 2016, warranting that birth date."
+  },
+  {
+    "item_id": "SA-000696",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Victoria Palace Theatre is opposite Victoria Station."
+  },
+  {
+    "item_id": "SA-000697",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence lists Ian Brennan as a director, which warrants that he directs."
+  },
+  {
+    "item_id": "SA-000698",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says the 1974 crime drama The Sugarland Express was co-written and directed by Steven Spielberg."
+  },
+  {
+    "item_id": "SA-000699",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence places the Knicks in the NBA Atlantic Division of the Eastern Conference, not the National Press Club's Eastern Conference."
+  },
+  {
+    "item_id": "SA-000700",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["partial_warrant", "entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says pharmacology deals with research, discovery, and characterization of bioactive chemicals, close enough to warrant development, discovery, and characterization."
+  },
+  {
+    "item_id": "SA-000701",
+    "judge_id": "cursor_judge_3",
+    "stage": "B",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 72,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "Evidence supports Mary McGee as the first woman to compete in the Baja 1000 but does not establish the year 1975."
+  }
+]
