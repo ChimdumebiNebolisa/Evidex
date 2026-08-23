@@ -167,6 +167,26 @@ class TestConsensus(unittest.TestCase):
         self.assertEqual(label2, "Unresolved")
 
 
+class TestEolTolerantFreezeHashes(unittest.TestCase):
+    def test_digest_matches_lf_vs_crlf(self):
+        from eolhash import digest_matches, sha256_hex
+        lf = b'{"a": 1}\n{"b": 2}\n'
+        crlf = lf.replace(b"\n", b"\r\n")
+        expect = sha256_hex(lf)
+        self.assertTrue(digest_matches(expect, [crlf]))
+        self.assertTrue(digest_matches(expect, [lf]))
+        self.assertFalse(digest_matches(expect, [b"tampered\n"]))
+
+    def test_digest_matches_mixed_file_endings(self):
+        from eolhash import digest_matches, sha256_hex
+        a_crlf = b"one\r\n"
+        b_lf = b"two\n"
+        expect = sha256_hex(a_crlf + b_lf)
+        # Uniform checkout of the same records should still match.
+        self.assertTrue(digest_matches(expect, [b"one\n", b"two\n"]))
+        self.assertTrue(digest_matches(expect, [b"one\r\n", b"two\r\n"]))
+
+
 class TestUnblindingGate(unittest.TestCase):
     def test_freeze_required(self):
         # The gate must refuse verification when a freeze manifest is absent.

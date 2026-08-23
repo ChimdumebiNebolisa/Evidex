@@ -16,8 +16,10 @@ from pathlib import Path
 
 import pandas as pd
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import config  # noqa: E402
+from eolhash import path_digest_matches, paths_digest_matches  # noqa: E402
 
 BATCH_DIR = config.BLINDED_DIR / "batches"
 # Constant per-stage file locations (no caller-controlled path components).
@@ -158,14 +160,10 @@ def freeze_stage(stage: str):
             h.update(p.read_bytes())
         entries["judges"][judge] = h.hexdigest()
     if manifest_path.exists():
-        prev = json.loads(manifest_path.read_text(encoding="utf-8"))
-        if prev != entries:
-            raise SystemExit(f"Stage {stage} already frozen with different content; "
-                             "frozen outputs are append-only")
-        print(f"Stage {stage}: freeze verified (unchanged)")
-    else:
-        manifest_path.write_text(json.dumps(entries, indent=2), encoding="utf-8")
-        print(f"Stage {stage}: FROZEN -> {manifest_path}")
+        verify_frozen(stage)
+        return json.loads(manifest_path.read_text(encoding="utf-8"))
+    manifest_path.write_text(json.dumps(entries, indent=2), encoding="utf-8")
+    print(f"Stage {stage}: FROZEN -> {manifest_path}")
     return entries
 
 
@@ -175,13 +173,12 @@ def verify_frozen(stage: str):
         raise SystemExit(f"Stage {stage} not frozen")
     entries = json.loads(manifest_path.read_text(encoding="utf-8"))
     outdir = config.JUDGMENTS_DIR / f"stage_{stage.lower()}"
-    if sha256(config.BLINDED_DIR / f"stage_{stage.lower()}.jsonl") != entries["blinded"]:
+    blinded = config.BLINDED_DIR / f"stage_{stage.lower()}.jsonl"
+    if not path_digest_matches(entries["blinded"], blinded):
         raise SystemExit(f"Stage {stage} blinded file changed after freeze")
     for judge in config.JUDGES:
-        h = hashlib.sha256()
-        for p in sorted(outdir.glob(f"{judge}_batch_*.jsonl")):
-            h.update(p.read_bytes())
-        if h.hexdigest() != entries["judges"][judge]:
+        parts = sorted(outdir.glob(f"{judge}_batch_*.jsonl"))
+        if not paths_digest_matches(entries["judges"][judge], parts):
             raise SystemExit(f"Stage {stage} judge outputs changed after freeze ({judge})")
     print(f"Stage {stage}: freeze integrity verified")
 

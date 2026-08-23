@@ -20,7 +20,9 @@ import numpy as np
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 import config  # noqa: E402
+from eolhash import path_digest_matches, paths_digest_matches  # noqa: E402
 
 HEADLINES_JSON = config.REPORTS_DIR / "HEADLINES.json"
 
@@ -406,14 +408,13 @@ def verify_freezes():
             failures.append(f"freeze manifest missing: {mp.name}")
             continue
         entries = json.loads(mp.read_text(encoding="utf-8"))
-        if sha256(config.BLINDED_DIR / f"stage_{stage.lower()}.jsonl") != entries["blinded"]:
+        blinded = config.BLINDED_DIR / f"stage_{stage.lower()}.jsonl"
+        if not path_digest_matches(entries["blinded"], blinded):
             failures.append(f"stage {stage}: blinded file drifted from freeze")
         for judge, expect in entries["judges"].items():
-            h = hashlib.sha256()
-            for p in sorted((config.JUDGMENTS_DIR / f"stage_{stage.lower()}")
-                            .glob(f"{judge}_batch_*.jsonl")):
-                h.update(p.read_bytes())
-            if h.hexdigest() != expect:
+            parts = sorted((config.JUDGMENTS_DIR / f"stage_{stage.lower()}")
+                           .glob(f"{judge}_batch_*.jsonl"))
+            if not paths_digest_matches(expect, parts):
                 failures.append(f"stage {stage}: judge outputs drifted ({judge})")
     if config.FREEZE_MANIFEST.exists():
         silver = json.loads(config.FREEZE_MANIFEST.read_text(encoding="utf-8"))
@@ -426,13 +427,11 @@ def verify_freezes():
                     }.get(key)
             if path is not None and sha256(path) != expect:
                 failures.append(f"silver freeze drift: {key}")
-        h = hashlib.sha256()
-        n = 0
-        for p in sorted((config.JUDGMENTS_DIR / "resolver").glob("resolver_stage_*.jsonl")):
-            h.update(p.read_bytes())
-            n += 1
+        resolver_paths = sorted(
+            (config.JUDGMENTS_DIR / "resolver").glob("resolver_stage_*.jsonl"))
+        n = len(resolver_paths)
         if silver.get("resolver_combined") and n:
-            if h.hexdigest() != silver["resolver_combined"]:
+            if not paths_digest_matches(silver["resolver_combined"], resolver_paths):
                 failures.append("silver freeze drift: resolver outputs")
     return failures
 
