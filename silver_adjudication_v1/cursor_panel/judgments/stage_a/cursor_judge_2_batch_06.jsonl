@@ -1,0 +1,1002 @@
+[
+  {
+    "item_id": "SA-000502",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "negation_or_scope"],
+    "brief_reason": "Evidence says he is openly gay, which contradicts the claim that Roland Emmerich is closeted."
+  },
+  {
+    "item_id": "SA-000503",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 90,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The film is stated to have won eight Goya Awards including Best Film."
+  },
+  {
+    "item_id": "SA-000504",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "partial_warrant"],
+    "brief_reason": "Vital munitions work is not evidence that Benjamin Franklin led the American Revolution."
+  },
+  {
+    "item_id": "SA-000505",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence directly states Honeymoon is Lana Del Rey's third major-label record."
+  },
+  {
+    "item_id": "SA-000506",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence directly identifies Telemundo as an American Spanish-language television network."
+  },
+  {
+    "item_id": "SA-000507",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says the award is given by the President, not the First Lady."
+  },
+  {
+    "item_id": "SA-000508",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["multi_sentence_integration", "negation_or_scope", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "They mainly speak Balochi, but evidence does not settle that this is a branch existing since Old Persian or that they barely speak it."
+  },
+  {
+    "item_id": "SA-000509",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence places Prague's historic centre on the UNESCO list, not UNIDO's."
+  },
+  {
+    "item_id": "SA-000510",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 91,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence reports over 1.8 million annual visitors, not over 18 million."
+  },
+  {
+    "item_id": "SA-000511",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 48,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "numerical_or_temporal_reasoning", "entity_or_attribute_confusion"],
+    "brief_reason": "Evidence never names Kojol and only ties a 2010 film to a group of awards, not an award received in 2010."
+  },
+  {
+    "item_id": "SA-000512",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 87,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "negation_or_scope"],
+    "brief_reason": "Being a former bond trader from New Jersey contradicts never having been there."
+  },
+  {
+    "item_id": "SA-000513",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence defines an NEO as a body whose orbit brings it into proximity with Earth, not away from it."
+  },
+  {
+    "item_id": "SA-000514",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence states Siegel took her name from actress Lola Lane."
+  },
+  {
+    "item_id": "SA-000515",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 64,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The nickname Nick is given, but evidence does not say most characters use that name."
+  },
+  {
+    "item_id": "SA-000516",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence states Wish Upon is a supernatural horror thriller film."
+  },
+  {
+    "item_id": "SA-000517",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 55,
+    "issue_flags": ["partial_warrant", "negation_or_scope"],
+    "brief_reason": "Being a discontinued web browser does not settle whether Netscape Navigator is unable to access the internet."
+  },
+  {
+    "item_id": "SA-000518",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 52,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Evidence names Eugène Ionesco as author but does not establish that the author is a man."
+  },
+  {
+    "item_id": "SA-000519",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The given lifespan ends on January 5, 1998, which warrants that Sonny Bono died that day."
+  },
+  {
+    "item_id": "SA-000520",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence directly states Marcus Bentley is a British voice-over artist."
+  },
+  {
+    "item_id": "SA-000521",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Premiere on Fox does not establish that Fox Broadcasting Company created Fringe."
+  },
+  {
+    "item_id": "SA-000522",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Poseidon had a budget of $160 million."
+  },
+  {
+    "item_id": "SA-000523",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence places the Battle of France during the Second World War."
+  },
+  {
+    "item_id": "SA-000524",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Identifying Roberto Orci as a screenwriter warrants that he wrote."
+  },
+  {
+    "item_id": "SA-000525",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence locates the receptors in membranes of neurons and other cells, not codes."
+  },
+  {
+    "item_id": "SA-000526",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 50,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_missing_surrounding_context"],
+    "brief_reason": "A 2017 release year does not by itself establish that the film is 8 years old."
+  },
+  {
+    "item_id": "SA-000527",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 83,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence calls it one of the leading U.S. states for recreational boating."
+  },
+  {
+    "item_id": "SA-000528",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says the album involved the production team named The Matrix."
+  },
+  {
+    "item_id": "SA-000529",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "negation_or_scope"],
+    "brief_reason": "Evidence lists the sole-currency uses as the U.S. and two Caribbean territories, not China."
+  },
+  {
+    "item_id": "SA-000530",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 90,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence says he is former chairman of Polyus Gold, Russia's largest gold producer."
+  },
+  {
+    "item_id": "SA-000531",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 57,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Evidence gives that full name but does not establish it as a maiden name."
+  },
+  {
+    "item_id": "SA-000532",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 91,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence states Northwestern remains the only private university in the Big Ten."
+  },
+  {
+    "item_id": "SA-000533",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence ranks Pakistan 24th in purchasing power, not 25th."
+  },
+  {
+    "item_id": "SA-000534",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence says he played DS Sam Casey in Law & Order: UK."
+  },
+  {
+    "item_id": "SA-000535",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["partial_warrant", "numerical_or_temporal_reasoning"],
+    "brief_reason": "Exclusivity at Staples Center from 2009 to 2014 does not establish that SummerSlam ended there."
+  },
+  {
+    "item_id": "SA-000536",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "Evidence dates the film to 2013, not 2008, and does not name John Moore."
+  },
+  {
+    "item_id": "SA-000537",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "Evidence says appropriation played a significant role in the arts, including musical arts."
+  },
+  {
+    "item_id": "SA-000538",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 91,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence ranks it third-highest-grossing original film, not second."
+  },
+  {
+    "item_id": "SA-000539",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states the show was later called Rehab with Dr. Drew."
+  },
+  {
+    "item_id": "SA-000540",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 68,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Evidence that George III had recurrent mental illness warrants that he had experiences."
+  },
+  {
+    "item_id": "SA-000541",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 66,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "Six weeks atop Billboard Top LPs is stated, but the year 1965 is not."
+  },
+  {
+    "item_id": "SA-000542",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says Awkward Black Girl was created by Issa Rae."
+  },
+  {
+    "item_id": "SA-000543",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 90,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says the 318.9 m structure was the world's tallest building for 11 months."
+  },
+  {
+    "item_id": "SA-000544",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence identifies The Monster as a song, which is a work of art."
+  },
+  {
+    "item_id": "SA-000545",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "multi_sentence_integration", "negation_or_scope"],
+    "brief_reason": "An all-volunteer force is defined as drawing manpower from volunteers rather than conscription."
+  },
+  {
+    "item_id": "SA-000546",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 89,
+    "issue_flags": ["numerical_or_temporal_reasoning", "negation_or_scope"],
+    "brief_reason": "July 20, 2005 is given as the premiere date, not a cancellation."
+  },
+  {
+    "item_id": "SA-000547",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 54,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant", "possible_missing_surrounding_context"],
+    "brief_reason": "Evidence calls it a song and does not mention a lyric poem or a reply to Neil Young."
+  },
+  {
+    "item_id": "SA-000548",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 85,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence identifies Louie's first season as a comedy series, not a romance-disaster series."
+  },
+  {
+    "item_id": "SA-000549",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["possible_missing_title_context", "entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "Nicolas Roeg is identified as an English director and cinematographer, not a film critic."
+  },
+  {
+    "item_id": "SA-000550",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 46,
+    "issue_flags": ["possible_missing_surrounding_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Tongan is listed among 'these' languages, but the category is not given as Polynesian."
+  },
+  {
+    "item_id": "SA-000551",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_missing_title_context", "entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says the screenplay was heavily revised by Richard Rutowski, among others."
+  },
+  {
+    "item_id": "SA-000552",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 90,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence says it has been depicted with a black, yellow, and green beak."
+  },
+  {
+    "item_id": "SA-000553",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 90,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says he was born in Des Moines, Iowa, not Ohio."
+  },
+  {
+    "item_id": "SA-000554",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 92,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "negation_or_scope"],
+    "brief_reason": "Evidence says she played a role in the BBC science fiction series Doctor Who."
+  },
+  {
+    "item_id": "SA-000555",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 52,
+    "issue_flags": ["possible_missing_title_context", "possible_missing_surrounding_context", "partial_warrant"],
+    "brief_reason": "They met filming an unnamed series and later married, which does not establish that Fortunes of War caused the marriage."
+  },
+  {
+    "item_id": "SA-000556",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence directly states Omar Khadr was detained at Guantanamo Bay."
+  },
+  {
+    "item_id": "SA-000557",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 91,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence defines a working animal as kept and trained by humans, not released by them."
+  },
+  {
+    "item_id": "SA-000558",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says Chagatai remained the shared literary language until the early 20th century, not the 19th."
+  },
+  {
+    "item_id": "SA-000559",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "possible_missing_title_context"],
+    "brief_reason": "Evidence states AFI listed it as an AFI Movie of the Year."
+  },
+  {
+    "item_id": "SA-000560",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence identifies Tony Curtis as her father and Janet Leigh as her mother."
+  },
+  {
+    "item_id": "SA-000561",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 90,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence states it is located on the east coast of the Jutland peninsula."
+  },
+  {
+    "item_id": "SA-000562",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence places it 187 km northwest of Copenhagen, which is north and west."
+  },
+  {
+    "item_id": "SA-000563",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["negation_or_scope", "entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Evidence says his mother had to erase pages of drawings, not that she only had to erase notes."
+  },
+  {
+    "item_id": "SA-000564",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Turkish is listed among languages available as of 2013, so availability did not begin in July 2015."
+  },
+  {
+    "item_id": "SA-000565",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Beaverton is a city in Oregon."
+  },
+  {
+    "item_id": "SA-000566",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning", "negation_or_scope"],
+    "brief_reason": "Evidence describes him as a former boxer who competed through 2015 and now works as a promoter."
+  },
+  {
+    "item_id": "SA-000567",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence defines personality as a set of individual differences, not a unit."
+  },
+  {
+    "item_id": "SA-000568",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "negation_or_scope"],
+    "brief_reason": "Remaining in syndication on MeTV contradicts having lost the chance to appear on television."
+  },
+  {
+    "item_id": "SA-000569",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 91,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence says he spent the remaining years of his life on his ranch."
+  },
+  {
+    "item_id": "SA-000570",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 45,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_missing_surrounding_context"],
+    "brief_reason": "A birth date of 18 April 1974 is given, but evidence never mentions Gemini."
+  },
+  {
+    "item_id": "SA-000571",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["multi_sentence_integration", "entity_or_attribute_confusion"],
+    "brief_reason": "Chest pain is listed as a PE symptom and is a chest sensation."
+  },
+  {
+    "item_id": "SA-000572",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says Chumlee was born on September 8, not the 10th."
+  },
+  {
+    "item_id": "SA-000573",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence dates the first tenure from November 1963 to July 1969, not from November 1968."
+  },
+  {
+    "item_id": "SA-000574",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence directly states Winter's Tale is a 1983 novel."
+  },
+  {
+    "item_id": "SA-000575",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence describes abandonment of populated areas due to rising seas, not an influx into them."
+  },
+  {
+    "item_id": "SA-000576",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence lists Fast Times at Ridgemont High among Penn's film roles."
+  },
+  {
+    "item_id": "SA-000577",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence gives Murda Beatz's birth date as February 11, 1994, not February 21."
+  },
+  {
+    "item_id": "SA-000578",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 91,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence says it has been depicted with a grey, naked head."
+  },
+  {
+    "item_id": "SA-000579",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Pocahontas was the daughter of Powhatan, the paramount chief."
+  },
+  {
+    "item_id": "SA-000580",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states the film was written and directed by Rawson Marshall Thurber."
+  },
+  {
+    "item_id": "SA-000581",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "A death date of 85 BC is before 30 BC."
+  },
+  {
+    "item_id": "SA-000582",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["possible_missing_surrounding_context", "partial_warrant"],
+    "brief_reason": "Evidence says the debates took place in Alton, among other cities."
+  },
+  {
+    "item_id": "SA-000583",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_coreference_or_entity_resolution", "partial_warrant"],
+    "brief_reason": "The song is on a 2000 album but was released as a single on October 9, 2001."
+  },
+  {
+    "item_id": "SA-000584",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence gives Bruce Shand's birth date as 22 January 1917, not September 22."
+  },
+  {
+    "item_id": "SA-000585",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence directly states French Indochina was a grouping of French colonial territories."
+  },
+  {
+    "item_id": "SA-000586",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_missing_title_context"],
+    "brief_reason": "Evidence says Lincoln Borglum was Gutzon Borglum's son, not his nephew."
+  },
+  {
+    "item_id": "SA-000587",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence says Collins became the first woman major-party nominee for Governor of Maine."
+  },
+  {
+    "item_id": "SA-000588",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 85,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence states the F-35 first flew on 15 December 2006."
+  },
+  {
+    "item_id": "SA-000589",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "partial_warrant"],
+    "brief_reason": "Evidence says Johnson was a part-owner of the Lakers for several years."
+  },
+  {
+    "item_id": "SA-000590",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence places Prowler's first appearance in The Amazing Spider-Man #78, not #68."
+  },
+  {
+    "item_id": "SA-000591",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 92,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "entity_or_attribute_confusion"],
+    "brief_reason": "Evidence places the game at Cowboys Stadium in Arlington, Texas, not Springfield, Massachusetts."
+  },
+  {
+    "item_id": "SA-000592",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "Luc Besson produced the film, but evidence dates Colombiana to 2011, not 2001."
+  },
+  {
+    "item_id": "SA-000593",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "multi_sentence_integration"],
+    "brief_reason": "He directed Precious, which received a Best Director nomination."
+  },
+  {
+    "item_id": "SA-000594",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "Identifying Oscar Isaac as an actor warrants that he acted."
+  },
+  {
+    "item_id": "SA-000595",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 48,
+    "issue_flags": ["partial_warrant", "entity_or_attribute_confusion"],
+    "brief_reason": "A birthplace and occupations are given, but evidence does not say he worked in a place."
+  },
+  {
+    "item_id": "SA-000596",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence reports 56% of American adults drank in the last month in 2015, not 44%."
+  },
+  {
+    "item_id": "SA-000597",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence dates Let Me In to 2010, not 2011."
+  },
+  {
+    "item_id": "SA-000598",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 50,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "A 2001 Hall of Fame induction is not the same as being written on an official roster."
+  },
+  {
+    "item_id": "SA-000599",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration", "partial_warrant"],
+    "brief_reason": "The film is about Ed Wood, who is also identified as an actor."
+  },
+  {
+    "item_id": "SA-000600",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Lovecraft depicts Cthulhu as worshipped by cultists."
+  },
+  {
+    "item_id": "SA-000601",
+    "judge_id": "cursor_judge_2",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence directly states Jiang Wen is a Chinese film actor."
+  }
+]

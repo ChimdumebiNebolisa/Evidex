@@ -1,0 +1,1002 @@
+[
+  {
+    "item_id": "SA-000301",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence places Maryland to the northeast but Ohio to the northwest, so both are not northeast borders."
+  },
+  {
+    "item_id": "SA-000302",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "entity_or_attribute_confusion"],
+    "brief_reason": "Evidence identifies As the World Turns as a television soap opera, not a film, though an unnamed she appeared in it."
+  },
+  {
+    "item_id": "SA-000303",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 58,
+    "issue_flags": ["possible_missing_title_context", "negation_or_scope"],
+    "brief_reason": "Evidence says Chris Froome won a 21-stage race but never identifies it as the 2016 Tour de France."
+  },
+  {
+    "item_id": "SA-000304",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Ian Gillan is an English singer and songwriter."
+  },
+  {
+    "item_id": "SA-000305",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence describes The Road to El Dorado as an animated musical fantasy comedy film, which is an artistic work."
+  },
+  {
+    "item_id": "SA-000306",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says Linklater's daughter Lorelei, not a goose, plays Mason's sister."
+  },
+  {
+    "item_id": "SA-000307",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence identifies Meteora as a studio album by an American rock band, which contradicts calling it not a rock album."
+  },
+  {
+    "item_id": "SA-000308",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence gives the name Uta Thyra Hagen, which includes a middle name."
+  },
+  {
+    "item_id": "SA-000309",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Evidence says Sky UK serves the United Kingdom, which includes London, though London is not named."
+  },
+  {
+    "item_id": "SA-000310",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Murda Beatz was born February 11, 1994."
+  },
+  {
+    "item_id": "SA-000311",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 74,
+    "issue_flags": ["multi_sentence_integration", "numerical_or_temporal_reasoning", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence places Sean Gunn in Guardians of the Galaxy and describes that Marvel film as 2014, not 2015."
+  },
+  {
+    "item_id": "SA-000312",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 72,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Evidence says Tyler, The Creator and Odd Future created and host the carnival, which warrants that they attend it."
+  },
+  {
+    "item_id": "SA-000313",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "partial_warrant"],
+    "brief_reason": "Evidence says she appeared in more than sixty television and film productions but does not establish multiple television shows."
+  },
+  {
+    "item_id": "SA-000314",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Gotham City Sirens is an American comic book series, not Argentinian."
+  },
+  {
+    "item_id": "SA-000315",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says Boyhood was filmed from 2002 to 2013, not carved."
+  },
+  {
+    "item_id": "SA-000316",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence says a group of teens are among the first from the Ark to return to Earth, not that adults were first."
+  },
+  {
+    "item_id": "SA-000317",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence gives the name Kesha Rose Sebert, not Kesha Rosa Sebert, and does not mention parents naming her."
+  },
+  {
+    "item_id": "SA-000318",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states dark matter is distinct from neutrinos."
+  },
+  {
+    "item_id": "SA-000319",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence reports 53,879 people counted as Romani in the Republic of Macedonia."
+  },
+  {
+    "item_id": "SA-000320",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence states Cage teams up with Iron Fist as Power Man and Iron Fist."
+  },
+  {
+    "item_id": "SA-000321",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence describes Wales as a country that is part of the island of Great Britain, not an island itself."
+  },
+  {
+    "item_id": "SA-000322",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["possible_missing_title_context", "negation_or_scope"],
+    "brief_reason": "Evidence says the first season will be released on Netflix, which contradicts being incapable of release."
+  },
+  {
+    "item_id": "SA-000323",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence states Samsung entered the shipbuilding industries in the mid-1970s."
+  },
+  {
+    "item_id": "SA-000324",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "Evidence says it incorporates knowledge and research in linguistics, computer science, and electrical engineering, which are science-related fields."
+  },
+  {
+    "item_id": "SA-000325",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["possible_missing_title_context", "numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says it was established on June 4, 1992, which is in June."
+  },
+  {
+    "item_id": "SA-000326",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "Evidence says faithful members adhere to church laws of fasting."
+  },
+  {
+    "item_id": "SA-000327",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "Evidence says the hotel opened as a casino with 200 rooms."
+  },
+  {
+    "item_id": "SA-000328",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence identifies The Beach as an adventure drama film based on a novel, not as an adventure drama novel."
+  },
+  {
+    "item_id": "SA-000329",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 70,
+    "issue_flags": ["possible_missing_title_context", "partial_warrant"],
+    "brief_reason": "Evidence states it was first performed at the Opéra de Monte-Carlo, which is a premiere in some manner."
+  },
+  {
+    "item_id": "SA-000330",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 52,
+    "issue_flags": ["possible_missing_title_context", "partial_warrant"],
+    "brief_reason": "Evidence gives student origins and sex percentages but no enrollment figure for the student body."
+  },
+  {
+    "item_id": "SA-000331",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence says Deighton developed swelling of the legs and feet."
+  },
+  {
+    "item_id": "SA-000332",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence identifies Night of the Living Dead as a single 1968 horror film, not a series of works."
+  },
+  {
+    "item_id": "SA-000333",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence identifies Awkward Black Girl as a comedy web series, not a television series."
+  },
+  {
+    "item_id": "SA-000334",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_missing_title_context"],
+    "brief_reason": "Evidence says Columbia Pictures distributed the film and is an American film studio, not a television studio."
+  },
+  {
+    "item_id": "SA-000335",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "partial_warrant"],
+    "brief_reason": "Evidence says he was a major advocate of a single parliament for England and Scotland, which includes England."
+  },
+  {
+    "item_id": "SA-000336",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence states he is ranked 3rd all-time in both rebounds and blocks."
+  },
+  {
+    "item_id": "SA-000337",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 74,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says the championship was created and promoted on WWE's developmental brand NXT, implying NXT already existed."
+  },
+  {
+    "item_id": "SA-000338",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_missing_title_context"],
+    "brief_reason": "Evidence says the field was discovered in September 2009, not September 1909."
+  },
+  {
+    "item_id": "SA-000339",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "Evidence identifies it as the second single from a 1976 album, which warrants that it was released."
+  },
+  {
+    "item_id": "SA-000340",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 64,
+    "issue_flags": ["partial_warrant", "entity_or_attribute_confusion"],
+    "brief_reason": "Evidence specifies a strict lifelong gluten-free diet, which is a diet but not the same as a general healthy diet."
+  },
+  {
+    "item_id": "SA-000341",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence calls A View to a Kill the fourteenth James Bond film and does not mention John Glen or an eighth film."
+  },
+  {
+    "item_id": "SA-000342",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence says she is Billy Ray Cyrus's youngest daughter, not his youngest adviser."
+  },
+  {
+    "item_id": "SA-000343",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence says Harrison married Pattie Boyd in 1966 and divorced in 1977, so they were married in 1970."
+  },
+  {
+    "item_id": "SA-000344",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["negation_or_scope", "possible_missing_title_context"],
+    "brief_reason": "Evidence says it incorporates elements of soul, so it is not devoid of soul."
+  },
+  {
+    "item_id": "SA-000345",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence gives the middle name Chester, not Chester-Jason."
+  },
+  {
+    "item_id": "SA-000346",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence locates Victoria Palace Theatre opposite Victoria Station, not on the same side."
+  },
+  {
+    "item_id": "SA-000347",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence lists several borders and names Pennsylvania, not Maine, to the north."
+  },
+  {
+    "item_id": "SA-000348",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says Chumlee was born September 8, 1982, not in December."
+  },
+  {
+    "item_id": "SA-000349",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 56,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "Evidence lists overlapping KO counts in title categories but does not establish 30 career knockouts in special-event fights."
+  },
+  {
+    "item_id": "SA-000350",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence identifies Ghost as a 1990 American film, which warrants a 1990 release."
+  },
+  {
+    "item_id": "SA-000351",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_missing_title_context"],
+    "brief_reason": "Evidence says the album's themes are positive changes, anxiety, and emotional drives, not isolation and addiction."
+  },
+  {
+    "item_id": "SA-000353",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says a floppy disk uses thin flexible magnetic storage, not an electronic storage medium."
+  },
+  {
+    "item_id": "SA-000354",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Mani Ratnam is widely credited with altering the profile of Indian cinema."
+  },
+  {
+    "item_id": "SA-000355",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 54,
+    "issue_flags": ["possible_missing_surrounding_context", "numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence gives a Paris premiere date of May 24, 2016, but does not mention the Rio Olympics."
+  },
+  {
+    "item_id": "SA-000356",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "Evidence says the event had no pre-show, which warrants that the pre-show was skipped."
+  },
+  {
+    "item_id": "SA-000357",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 50,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "Evidence lists abandonment from rising sea levels as a human effect but never names global warming as the cause."
+  },
+  {
+    "item_id": "SA-000358",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 42,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "Evidence recounts the 1949 founding of the PRC and ROC relocation and gives no membership counts."
+  },
+  {
+    "item_id": "SA-000359",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_missing_title_context"],
+    "brief_reason": "Evidence says it was built in 1915, which is in the 1910s."
+  },
+  {
+    "item_id": "SA-000360",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 44,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "Evidence only identifies Sweet Home Alabama as a 1974 Lynyrd Skynyrd song and mentions neither Neil Young nor Harvest."
+  },
+  {
+    "item_id": "SA-000361",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence says Salmaan received a Filmfare Award for Best Male Debut, so he was not unqualified to be nominated."
+  },
+  {
+    "item_id": "SA-000362",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 58,
+    "issue_flags": ["partial_warrant", "possible_missing_title_context"],
+    "brief_reason": "Evidence says the founders previously worked at Nike in Portland, not that the company was established there."
+  },
+  {
+    "item_id": "SA-000363",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence says she implemented policies known as Thatcherism, not windows."
+  },
+  {
+    "item_id": "SA-000364",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence gives Macmillan's death date as 29 December 1986, not December 19."
+  },
+  {
+    "item_id": "SA-000365",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence names him Shane Lee Lindstrom, so Shane and Lindstrom are not his middle names."
+  },
+  {
+    "item_id": "SA-000366",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["numerical_or_temporal_reasoning", "negation_or_scope"],
+    "brief_reason": "Evidence says Eric Church was born May 3, 1977, and describes a later recording career, not a death on that date."
+  },
+  {
+    "item_id": "SA-000367",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Nawaz Sharif is the 20th Prime Minister of Pakistan."
+  },
+  {
+    "item_id": "SA-000368",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence says Howard played James Rhodes, which is not the same as impersonating him."
+  },
+  {
+    "item_id": "SA-000369",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Tool has performed worldwide tours."
+  },
+  {
+    "item_id": "SA-000370",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence presents mAChRs as the standard alternate name, not a barely used one."
+  },
+  {
+    "item_id": "SA-000371",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 72,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Evidence says heavy metal developed largely in the United Kingdom and the United States, so it was developed in Europe among other places."
+  },
+  {
+    "item_id": "SA-000372",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says Fantastic Four was released on July 8, 2005, and July is the seventh month."
+  },
+  {
+    "item_id": "SA-000373",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence says Eddie Murphy starred in The Adventures of Pluto Nash, so he did not reject all starring offers."
+  },
+  {
+    "item_id": "SA-000374",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["possible_missing_title_context", "numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says the series began its seventh season on July 11, 2011."
+  },
+  {
+    "item_id": "SA-000375",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Evidence identifies Roberto Orci as a film and television screenwriter, which warrants that he wrote."
+  },
+  {
+    "item_id": "SA-000376",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence says Tourette described symptoms of Tourette's syndrome in nine patients in 1884."
+  },
+  {
+    "item_id": "SA-000377",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 60,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence gives Karen Lucille Hale as the actress's own name and does not identify her mother's name."
+  },
+  {
+    "item_id": "SA-000378",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 64,
+    "issue_flags": ["partial_warrant", "numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence supports that he was Prime Minister from 2004 to 2014, including 2009, but does not mention the first Prime Minister of India."
+  },
+  {
+    "item_id": "SA-000379",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence states Lyon had a population of 506,615 in 2014, which is over 500,000."
+  },
+  {
+    "item_id": "SA-000380",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence identifies Raja Hindustani as a Hindi-language Indian film, not a Russian-language film."
+  },
+  {
+    "item_id": "SA-000381",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "Evidence says the site was launched in February 2007 by Community Connect Inc."
+  },
+  {
+    "item_id": "SA-000382",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 66,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_coreference_or_entity_resolution", "partial_warrant"],
+    "brief_reason": "Evidence attributes $16 million to Hill from June 2014 to June 2015, not to calendar year 2014."
+  },
+  {
+    "item_id": "SA-000383",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states Chris Bosh is a professional basketball player for the Miami Heat of the NBA."
+  },
+  {
+    "item_id": "SA-000384",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says Same Old Love is a song by Selena Gomez, not Demi Lovato."
+  },
+  {
+    "item_id": "SA-000385",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence says she was influenced by real-life journalist Nellie Bly."
+  },
+  {
+    "item_id": "SA-000386",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 52,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "Evidence locates Tijuana in Baja California but never states that it is in Mexico."
+  },
+  {
+    "item_id": "SA-000387",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 64,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Evidence says the film is based on a TV series created by Rick Rosner, not that he wrote a popular series."
+  },
+  {
+    "item_id": "SA-000388",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "Evidence states the soundtrack was by Richard Rodney Bennett."
+  },
+  {
+    "item_id": "SA-000389",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says Mirny was the second ship of the First Russian Antarctic Expedition, not of a television show."
+  },
+  {
+    "item_id": "SA-000390",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence describes Vic Mensa as a Grammy-nominated American rapper."
+  },
+  {
+    "item_id": "SA-000391",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "Evidence confirms a $160 million budget and $181 million worldwide gross but does not settle whether the film made a profit."
+  },
+  {
+    "item_id": "SA-000392",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_missing_title_context"],
+    "brief_reason": "Evidence says as of 2013 the tournament was switched to odd-numbered years, and 2013 is odd-numbered."
+  },
+  {
+    "item_id": "SA-000393",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_missing_title_context"],
+    "brief_reason": "Evidence says the Turnpike has 12 ft lanes, meaning width, not that the lanes are 12 feet long."
+  },
+  {
+    "item_id": "SA-000394",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "Evidence says the film was dubbed into Hindi as Rowdy Baadshah."
+  },
+  {
+    "item_id": "SA-000395",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["multi_sentence_integration"],
+    "brief_reason": "Evidence says China is the world's largest economy by purchasing power parity."
+  },
+  {
+    "item_id": "SA-000396",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says Vince Vaughn and Ben Stiller star in the film, which is not the same as cameo appearances."
+  },
+  {
+    "item_id": "SA-000397",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["possible_missing_title_context", "partial_warrant"],
+    "brief_reason": "Evidence says the song topped charts in Canada, South Africa, and Australia, which are lists in countries."
+  },
+  {
+    "item_id": "SA-000398",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says The Beach was adapted for film by John Hodge, not exclusively by John Denver."
+  },
+  {
+    "item_id": "SA-000399",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["partial_warrant", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence supports that it comprised all of Indonesian New Guinea but does not say it was cultured."
+  },
+  {
+    "item_id": "SA-000400",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "Evidence says the show won a Tony Award for Best Musical among nine Tonys."
+  },
+  {
+    "item_id": "SA-000401",
+    "judge_id": "cursor_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence identifies The Fly as a 1986 American film, which warrants a 1986 release."
+  }
+]

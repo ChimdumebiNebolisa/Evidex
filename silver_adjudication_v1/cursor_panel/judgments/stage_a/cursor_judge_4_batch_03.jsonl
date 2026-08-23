@@ -1,0 +1,1002 @@
+[
+  {
+    "item_id": "SA-000201",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence names Christopher Michael Benoit, so the middle name is Michael."
+  },
+  {
+    "item_id": "SA-000202",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution", "entity_or_attribute_confusion"],
+    "brief_reason": "It is unnamed and the evidence says the document was signed there, not completed."
+  },
+  {
+    "item_id": "SA-000203",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 40,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution", "negation_or_scope"],
+    "brief_reason": "The subject is unnamed and publishing scripts does not settle whether Huxley barely published them."
+  },
+  {
+    "item_id": "SA-000204",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The definition describes connecting to the Internet using computers and similar devices."
+  },
+  {
+    "item_id": "SA-000205",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Phoenix is a city of the U.S. state of Arizona, not a state itself."
+  },
+  {
+    "item_id": "SA-000206",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Navigator was succeeded by Communicator, described as a release in the Netscape line of browsers."
+  },
+  {
+    "item_id": "SA-000207",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence says Ted Cruz has served as a United States Senator since 2013."
+  },
+  {
+    "item_id": "SA-000208",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 45,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "She is unnamed, so the appearance in The Boat That Rocked cannot be tied to Talulah Riley."
+  },
+  {
+    "item_id": "SA-000209",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly calls Civilization IV a turn-based strategy computer game."
+  },
+  {
+    "item_id": "SA-000210",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 42,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution", "negation_or_scope"],
+    "brief_reason": "His is unnamed, so Everyday Robots cannot be tied to Damon Albarn or settle the denial."
+  },
+  {
+    "item_id": "SA-000211",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "Northwestern remains the only private university in the Big Ten, but 1968 is never mentioned."
+  },
+  {
+    "item_id": "SA-000212",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Happiness in Slavery is a song by American band Nine Inch Nails."
+  },
+  {
+    "item_id": "SA-000213",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 40,
+    "issue_flags": ["possible_missing_title_context", "negation_or_scope"],
+    "brief_reason": "The film is unnamed, so a marijuana-dealer character cannot be assigned to Bongwater."
+  },
+  {
+    "item_id": "SA-000214",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 48,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The couple is unnamed, so R&B backing-singer work cannot be attributed to Sonny and Cher."
+  },
+  {
+    "item_id": "SA-000215",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 38,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution", "entity_or_attribute_confusion"],
+    "brief_reason": "Noah Cyrus is never named, so Trace cannot be judged a younger sibling of Noah."
+  },
+  {
+    "item_id": "SA-000216",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 50,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "It is unnamed, so a Germany top-10 charting cannot be assigned to Blank Space."
+  },
+  {
+    "item_id": "SA-000217",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence gives Gaius Julius Caesar a lifespan ending in 85 BC, though two men share the name."
+  },
+  {
+    "item_id": "SA-000218",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 42,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution", "negation_or_scope"],
+    "brief_reason": "He is unnamed and the sons, not he, are said to have helped spark the religious wars."
+  },
+  {
+    "item_id": "SA-000219",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 48,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution", "entity_or_attribute_confusion"],
+    "brief_reason": "She is unnamed and Richard III is called her uncle, not her cousin."
+  },
+  {
+    "item_id": "SA-000220",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 40,
+    "issue_flags": ["possible_missing_title_context", "entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Baker narrated video games, not that Tom Baker reviewed them."
+  },
+  {
+    "item_id": "SA-000221",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says I Kissed a Girl is from a second studio album, not a sandwich."
+  },
+  {
+    "item_id": "SA-000222",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 50,
+    "issue_flags": ["possible_missing_title_context", "negation_or_scope"],
+    "brief_reason": "The film is unnamed and the Tarantino screenplay is described as heavily revised."
+  },
+  {
+    "item_id": "SA-000223",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 45,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "This movie is unnamed, so a Japanese dub cannot be tied to Baadshah."
+  },
+  {
+    "item_id": "SA-000224",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 52,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "The evidence places Palestine in the Middle East as a state, not as claiming territory in Western Asia."
+  },
+  {
+    "item_id": "SA-000225",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says GM divested many non-automotive brands in the 1980s through 2000s."
+  },
+  {
+    "item_id": "SA-000226",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 44,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "The movie is unnamed, so Sargent's adaptation cannot be assigned to The Sterile Cuckoo."
+  },
+  {
+    "item_id": "SA-000227",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 91,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says the yin yang shows a balance between two opposites."
+  },
+  {
+    "item_id": "SA-000228",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 50,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "The club is unnamed, so the 1983-84 second-place finish cannot be assigned to Southampton."
+  },
+  {
+    "item_id": "SA-000229",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 40,
+    "issue_flags": ["possible_missing_title_context", "entity_or_attribute_confusion"],
+    "brief_reason": "It is unnamed and the evidence says established after the split, not named after it."
+  },
+  {
+    "item_id": "SA-000230",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 35,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Kathleen Erin Walsh is identified as an actress, with no mention of a television show."
+  },
+  {
+    "item_id": "SA-000231",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["multi_sentence_integration", "partial_warrant"],
+    "brief_reason": "Origin from Colchis on the Black Sea is supported, but that Georgians are significant is not."
+  },
+  {
+    "item_id": "SA-000232",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Mary-Kate Olsen and Ashley Olsen were born June 13, 1986."
+  },
+  {
+    "item_id": "SA-000233",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly calls House of Balloons a mixtape."
+  },
+  {
+    "item_id": "SA-000234",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 45,
+    "issue_flags": ["possible_missing_title_context", "negation_or_scope"],
+    "brief_reason": "The film is unnamed and concerns Wood's filmmaking life, which does not settle the denial."
+  },
+  {
+    "item_id": "SA-000235",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives Valencia about 800,000 inhabitants in the administrative centre, not 100,000."
+  },
+  {
+    "item_id": "SA-000236",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "The evidence says advertising can sell an idea, which is not the same as an ideology."
+  },
+  {
+    "item_id": "SA-000237",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 48,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The couple is unnamed and the given start is mid-1960s, not mid-1930s."
+  },
+  {
+    "item_id": "SA-000238",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["negation_or_scope", "numerical_or_temporal_reasoning"],
+    "brief_reason": "Topman has Ireland outlets in six cities and towns, which does not settle a claim of one city."
+  },
+  {
+    "item_id": "SA-000239",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says the victims were mostly Ottoman citizens, not Turkish citizens."
+  },
+  {
+    "item_id": "SA-000240",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 50,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "The evidence says Bloch created Norman Bates in a novel, not that he published the character."
+  },
+  {
+    "item_id": "SA-000241",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says the Resident Evil film series is loosely based on the games, not an exact adaptation."
+  },
+  {
+    "item_id": "SA-000242",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 83,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says Collins became founding director of the Center for Family Business after 1994."
+  },
+  {
+    "item_id": "SA-000243",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 45,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution", "negation_or_scope"],
+    "brief_reason": "She is unnamed, so a debut studio album cannot settle that Jennifer Lopez only made non-studio albums."
+  },
+  {
+    "item_id": "SA-000244",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly states Libya is the 16th largest country in the world."
+  },
+  {
+    "item_id": "SA-000245",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says dark matter is distinct from neutrinos."
+  },
+  {
+    "item_id": "SA-000246",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 42,
+    "issue_flags": ["possible_missing_title_context", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The field is unnamed, operated by BP, and discovered in 2009, so operation as of 2008 is unsettled."
+  },
+  {
+    "item_id": "SA-000247",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly calls The Cry of the Owl a 2009 thriller film."
+  },
+  {
+    "item_id": "SA-000248",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "The evidence says she directed an Academy Award-nominated film, not that she is award-winning."
+  },
+  {
+    "item_id": "SA-000249",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 40,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "He is unnamed, so Paul Nicholls cannot be identified as the actor who plays Joe Wicks."
+  },
+  {
+    "item_id": "SA-000250",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "entity_or_attribute_confusion"],
+    "brief_reason": "Deighton is said to have developed swelling of the legs and feet, not the hands."
+  },
+  {
+    "item_id": "SA-000251",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says Japan won the AFC Asian Cup four times, not five."
+  },
+  {
+    "item_id": "SA-000252",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 40,
+    "issue_flags": ["possible_missing_title_context", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The group is unnamed and the 1971 membership figure is 3,090,953, not 953."
+  },
+  {
+    "item_id": "SA-000253",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says Jefferson helped organize the Democratic-Republican Party."
+  },
+  {
+    "item_id": "SA-000254",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 91,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says The Invisible Man is based on Wells's novel, not a short story."
+  },
+  {
+    "item_id": "SA-000255",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence identifies Nicholas Brody as a fictional character, which does not settle whether he is a person."
+  },
+  {
+    "item_id": "SA-000256",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 25,
+    "issue_flags": ["possible_missing_title_context", "possible_missing_surrounding_context"],
+    "brief_reason": "The evidence mentions air traffic controllers but never mentions Morse Code."
+  },
+  {
+    "item_id": "SA-000257",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence identifies Swordfish as a 2001 film, not a television show."
+  },
+  {
+    "item_id": "SA-000258",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says Excuse My French is the debut studio album of rapper French Montana."
+  },
+  {
+    "item_id": "SA-000259",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence identifies The Pelican Brief as a 1993 thriller film, not a Supreme Court decision."
+  },
+  {
+    "item_id": "SA-000260",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 38,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution", "entity_or_attribute_confusion"],
+    "brief_reason": "He is unnamed and was designated Eternal General Secretary after death, not said to work for that post."
+  },
+  {
+    "item_id": "SA-000261",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Camden is a city in Camden County, New Jersey."
+  },
+  {
+    "item_id": "SA-000262",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 35,
+    "issue_flags": ["possible_missing_title_context", "numerical_or_temporal_reasoning"],
+    "brief_reason": "It is unnamed and the American Revolution is never mentioned."
+  },
+  {
+    "item_id": "SA-000263",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says Wish Upon was directed by John R. Leonetti, not John F. Kennedy."
+  },
+  {
+    "item_id": "SA-000264",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Capitol Nashville released the album titled Keith Urban."
+  },
+  {
+    "item_id": "SA-000265",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["multi_sentence_integration"],
+    "brief_reason": "The evidence defines Java as an island and an island as a piece of land surrounded by water."
+  },
+  {
+    "item_id": "SA-000266",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 42,
+    "issue_flags": ["possible_missing_title_context", "negation_or_scope"],
+    "brief_reason": "The film is unnamed and centers on a computer hacker, which does not settle the Swordfish denial."
+  },
+  {
+    "item_id": "SA-000267",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence identifies Veeru Devgan as a film director."
+  },
+  {
+    "item_id": "SA-000268",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says Watertown is a city in Middlesex County, Massachusetts."
+  },
+  {
+    "item_id": "SA-000269",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence describes Keith Stanfield as an American actor and rapper, which warrants that he is a person."
+  },
+  {
+    "item_id": "SA-000270",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence identifies Guillermo del Toro as a film director, screenwriter, and producer."
+  },
+  {
+    "item_id": "SA-000271",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Simon Cowell is a reality television judge, not a science-fiction television judge."
+  },
+  {
+    "item_id": "SA-000272",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence matches the claim, calling Wildfang a US-based women's apparel company with tomboyish clothing."
+  },
+  {
+    "item_id": "SA-000273",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "negation_or_scope", "multi_sentence_integration"],
+    "brief_reason": "The evidence has Patel starring in Chappie, which Neill Blomkamp directed."
+  },
+  {
+    "item_id": "SA-000274",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 40,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Girl is stylized as G I R L, not that it is criticized as such."
+  },
+  {
+    "item_id": "SA-000275",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 45,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "She is unnamed, so an appearance in The Boat That Rocked cannot be assigned to Talulah Riley."
+  },
+  {
+    "item_id": "SA-000276",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 28,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_missing_surrounding_context"],
+    "brief_reason": "The evidence identifies Duane Lee Dog Chapman I but does not say he is anyone's father."
+  },
+  {
+    "item_id": "SA-000277",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives Ambedkar's birth date as 14 April 1891, which is not in the 20th century."
+  },
+  {
+    "item_id": "SA-000278",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 40,
+    "issue_flags": ["possible_missing_title_context", "numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The movie is unnamed and no 2 p.m. release time is given."
+  },
+  {
+    "item_id": "SA-000279",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly states Tennessee was the last state to leave the Union."
+  },
+  {
+    "item_id": "SA-000280",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence says Issa Rae stars in Awkward Black Girl but does not say she plays Amber."
+  },
+  {
+    "item_id": "SA-000281",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 45,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution", "numerical_or_temporal_reasoning"],
+    "brief_reason": "It is unnamed and the population given is 5.7 million, not 5.5 million."
+  },
+  {
+    "item_id": "SA-000282",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "The evidence places Wilhelmina Slater in Ugly Betty, a comedy-drama, not a period romance."
+  },
+  {
+    "item_id": "SA-000283",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says Ronaldinho has played 97 matches, not 90."
+  },
+  {
+    "item_id": "SA-000284",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 50,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "It is unnamed, so sole-currency use in those territories cannot be tied to the United States dollar."
+  },
+  {
+    "item_id": "SA-000285",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 32,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The evidence names Gordon Chan as director and does not mention a remake or John Woo."
+  },
+  {
+    "item_id": "SA-000286",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 52,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "partial_warrant"],
+    "brief_reason": "Singh is implied to be a later prime minister than Nehru, but Manmohan and India's first PM are not identified."
+  },
+  {
+    "item_id": "SA-000287",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 30,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution", "entity_or_attribute_confusion"],
+    "brief_reason": "He is unnamed and the nomination is for a SAG ensemble award, not a dead body."
+  },
+  {
+    "item_id": "SA-000288",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence says they are also known as the Olsen twins, so not only by those given names."
+  },
+  {
+    "item_id": "SA-000289",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly calls Cheese in the Trap a South Korean television series."
+  },
+  {
+    "item_id": "SA-000290",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 42,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "He is unnamed, so being an active campaigner cannot be assigned to Roland Emmerich."
+  },
+  {
+    "item_id": "SA-000291",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states there are Danish-speaking communities in Spain."
+  },
+  {
+    "item_id": "SA-000292",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 91,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence says superhuman abilities may result from nanotechnology enhancement, not be impeded by it."
+  },
+  {
+    "item_id": "SA-000293",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 48,
+    "issue_flags": ["possible_missing_title_context", "entity_or_attribute_confusion"],
+    "brief_reason": "The evidence attributes the Josh Thurlow novels to Hickam, not Homer Hickman."
+  },
+  {
+    "item_id": "SA-000294",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 30,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence describes the father's work and does not say Rupert Murdoch has worked."
+  },
+  {
+    "item_id": "SA-000295",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Happiness in Slavery is from the EP Broken, not an album."
+  },
+  {
+    "item_id": "SA-000296",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 48,
+    "issue_flags": ["possible_missing_title_context", "entity_or_attribute_confusion"],
+    "brief_reason": "The series is unnamed and described as Japanese drama, not a Korean science-fiction miniseries."
+  },
+  {
+    "item_id": "SA-000297",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 83,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "negation_or_scope", "multi_sentence_integration"],
+    "brief_reason": "The evidence has Kutcher appearing in No Strings Attached, which Ivan Reitman directed."
+  },
+  {
+    "item_id": "SA-000298",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says Yale has graduated many notable alumni."
+  },
+  {
+    "item_id": "SA-000299",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["numerical_or_temporal_reasoning", "multi_sentence_integration"],
+    "brief_reason": "The 1933 Pre-Code film predates Code enforcement in mid-1934, so it did not come out after enforcement."
+  },
+  {
+    "item_id": "SA-000300",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 48,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "His widow Elizabeth matches the burial date, but Henry Condell is not named."
+  }
+]

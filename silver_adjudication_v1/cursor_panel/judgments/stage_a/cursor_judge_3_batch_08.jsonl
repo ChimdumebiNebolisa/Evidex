@@ -1,0 +1,1002 @@
+[
+  {
+    "item_id": "SA-000702",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 70,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "entity_or_attribute_confusion"],
+    "brief_reason": "Evidence says he was nominated for an Academy Award, which does not establish that Liam Neeson was passed over."
+  },
+  {
+    "item_id": "SA-000703",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly states that Edgar Howard Wright is an English director."
+  },
+  {
+    "item_id": "SA-000704",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 65,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Scaramouche is given as an alternate name for Scaramuccia, not as a translation of that character or term."
+  },
+  {
+    "item_id": "SA-000705",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["multi_sentence_integration", "entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Composing the two sentences could support a centralized government for Japan, but the evidence never says that government is federal."
+  },
+  {
+    "item_id": "SA-000706",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 90,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Evidence states Buffy was portrayed by Kristy Swanson in the film."
+  },
+  {
+    "item_id": "SA-000707",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly states the Cordilleran ice sheet was a major ice sheet."
+  },
+  {
+    "item_id": "SA-000708",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 86,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Jane Espenson is listed among six later co-executive producers, so she was not one of three."
+  },
+  {
+    "item_id": "SA-000709",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence calls A United Kingdom a biographical romantic drama, not a comedy."
+  },
+  {
+    "item_id": "SA-000710",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 70,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Jack Ryan Falahee supports the middle name Ryan, but the evidence identifying him as an American actor does not establish that he is unknown."
+  },
+  {
+    "item_id": "SA-000711",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 50,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "possible_missing_surrounding_context"],
+    "brief_reason": "The sentence never names House or Hugh Laurie and mentions another character, so it cannot settle that House is a one-man show starring him."
+  },
+  {
+    "item_id": "SA-000712",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 72,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "Sancho Panza is a fictional character in a Spanish author's novel, but the evidence gives a 1605 publication date and does not say the writer was born in 1616."
+  },
+  {
+    "item_id": "SA-000713",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Petyr Baelish is a fictional character, which warrants that he is not a real character."
+  },
+  {
+    "item_id": "SA-000714",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 75,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The film is set in a beach town, but the evidence does not mention any fighting on a beach."
+  },
+  {
+    "item_id": "SA-000715",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 85,
+    "issue_flags": ["negation_or_scope", "entity_or_attribute_confusion"],
+    "brief_reason": "The competition is organized for top clubs in North America, Central America, and the Caribbean, not for football unions in Central America alone."
+  },
+  {
+    "item_id": "SA-000716",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence identifies John Fogerty as the band's lead vocalist and lead guitarist, though the band is not named Creedence Clearwater Revival."
+  },
+  {
+    "item_id": "SA-000717",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly states SpongeBob SquarePants is an American animated television series."
+  },
+  {
+    "item_id": "SA-000718",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 78,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Exhuming corpses from local graveyards does not establish that Ed Gein worked at those graveyards."
+  },
+  {
+    "item_id": "SA-000719",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["negation_or_scope", "numerical_or_temporal_reasoning", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says the second season premiered on January 2, 2017, contradicting the claim that it did not begin in January 2017."
+  },
+  {
+    "item_id": "SA-000720",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 74,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The dates match his reign as King of Hungary, but the evidence never mentions a royal theater troupe."
+  },
+  {
+    "item_id": "SA-000721",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 48,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "possible_missing_surrounding_context"],
+    "brief_reason": "Popularity in many African countries is not tied to Firefox by name and does not settle a general claim that it is one of the most popular browsers."
+  },
+  {
+    "item_id": "SA-000722",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence states Highmore was twice nominated for the Critics' Choice Television Award."
+  },
+  {
+    "item_id": "SA-000723",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "A cameo as Professor Normal is not starring in Dr. Horrible's Sing-Along Blog."
+  },
+  {
+    "item_id": "SA-000724",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 68,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Listed films are not described as based on real people, and the evidence does not support that those are his only appearances."
+  },
+  {
+    "item_id": "SA-000725",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence defines human trafficking as the trade of humans, not animals."
+  },
+  {
+    "item_id": "SA-000726",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly states Happiness in Slavery is a song by Nine Inch Nails."
+  },
+  {
+    "item_id": "SA-000727",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Having released eleven solo albums contradicts the claim that Frusciante was incapable of doing so."
+  },
+  {
+    "item_id": "SA-000728",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning", "negation_or_scope", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says his status was still recognized more than 50 years after retirement, not only 50 years before it."
+  },
+  {
+    "item_id": "SA-000729",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "partial_warrant"],
+    "brief_reason": "West is listed among the song's producers, though the song is unnamed and he is not the sole producer."
+  },
+  {
+    "item_id": "SA-000730",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Walsh was inducted into the Vocal Group Hall of Fame in 2001."
+  },
+  {
+    "item_id": "SA-000731",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly states Veeram was produced by Vijaya Productions."
+  },
+  {
+    "item_id": "SA-000732",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says the award is presented to the best film in the fantasy genre."
+  },
+  {
+    "item_id": "SA-000733",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Treatment is at the Pasadena Recovery Center in Pasadena, California, not the Pasadena Civic Center."
+  },
+  {
+    "item_id": "SA-000734",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Practical Magic is based on a 1995 novel of the same name, not a dog."
+  },
+  {
+    "item_id": "SA-000735",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Season 2 originally aired from July 13, 2007, not September 13, 2007."
+  },
+  {
+    "item_id": "SA-000736",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Kuching is the most populous city in Sarawak."
+  },
+  {
+    "item_id": "SA-000737",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The series is described as a media franchise and the most distributed property of MTV Networks, though it is not named SpongeBob SquarePants."
+  },
+  {
+    "item_id": "SA-000738",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence states the KGB was a military service."
+  },
+  {
+    "item_id": "SA-000739",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "possible_missing_surrounding_context"],
+    "brief_reason": "He initially won two named races, but the evidence does not identify Alberto Contador or which single competition the claim means."
+  },
+  {
+    "item_id": "SA-000740",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "Scandal is identified as an American rock band, which warrants that it plays rock music."
+  },
+  {
+    "item_id": "SA-000741",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 80,
+    "issue_flags": ["entity_or_attribute_confusion", "numerical_or_temporal_reasoning"],
+    "brief_reason": "November 22, 1968 is given as her birth date, and the evidence does not mention graduation."
+  },
+  {
+    "item_id": "SA-000742",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence ranks Vietnam as the world's 14th-most-populous country, not the 8th."
+  },
+  {
+    "item_id": "SA-000743",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 45,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The listed actors are not identified as American and the film is not named Mud."
+  },
+  {
+    "item_id": "SA-000744",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 70,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence mentions distinctive hand signs, not that the Bloods have ambiguous hand signs."
+  },
+  {
+    "item_id": "SA-000745",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence states the sitcom is produced by Neela Tele Films Private Limited."
+  },
+  {
+    "item_id": "SA-000746",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 40,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "Air dates are given, but the evidence does not say how many seasons The Office ran."
+  },
+  {
+    "item_id": "SA-000747",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Benjamin Walker is stated to have been born on June 21, 1982, not in 1989."
+  },
+  {
+    "item_id": "SA-000748",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly calls Charles Manson a former cult leader."
+  },
+  {
+    "item_id": "SA-000749",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Saturn Corporation was established as a subsidiary of General Motors."
+  },
+  {
+    "item_id": "SA-000750",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Bernice Frankel is given as her birth name, so she was not renamed Bernice Frankel."
+  },
+  {
+    "item_id": "SA-000751",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Bush is the second son of George H. W. Bush and the younger brother of George W. Bush, not the eldest son."
+  },
+  {
+    "item_id": "SA-000752",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 64,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "Commodore is above captain and below rear admiral, but the evidence does not establish that the rank is halfway between them."
+  },
+  {
+    "item_id": "SA-000753",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The series is called the highest rated series to ever air on Nickelodeon, though it is not named SpongeBob SquarePants."
+  },
+  {
+    "item_id": "SA-000754",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning", "multi_sentence_integration"],
+    "brief_reason": "Pink Floyd formed in London, but the evidence says they were founded in 1965, not 1966."
+  },
+  {
+    "item_id": "SA-000755",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "NEO is shown as the short form of near-Earth object, not a lengthening of the term."
+  },
+  {
+    "item_id": "SA-000756",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "partial_warrant"],
+    "brief_reason": "Voice work is given for a video game and an animated film, but not for TV shows, and she is not named Yvonne Strahovski."
+  },
+  {
+    "item_id": "SA-000757",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["entity_or_attribute_confusion", "numerical_or_temporal_reasoning"],
+    "brief_reason": "Warcraft premiered in Paris on May 24, 2016, and was released in the United States on June 10, 2016."
+  },
+  {
+    "item_id": "SA-000758",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["negation_or_scope", "partial_warrant"],
+    "brief_reason": "Georgians arose from Colchian and Iberian civilizations, but the evidence does not support the qualifier barely."
+  },
+  {
+    "item_id": "SA-000759",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence locates UIC in Chicago, Illinois, not Buffalo, New York."
+  },
+  {
+    "item_id": "SA-000760",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 72,
+    "issue_flags": ["possible_missing_title_context", "entity_or_attribute_confusion"],
+    "brief_reason": "Chart positions are given for the UK Singles Chart, not Billboard, and the song is not named."
+  },
+  {
+    "item_id": "SA-000761",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["none"],
+    "brief_reason": "Amanda Leigh Moore is identified as a singer-songwriter, which warrants that she is a writer."
+  },
+  {
+    "item_id": "SA-000762",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 60,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "She is identified as Texas state treasurer, which does not establish that she headed Texas's executive branch."
+  },
+  {
+    "item_id": "SA-000763",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Numb was released in a Linkin Park DLC pack for Rock Band 3."
+  },
+  {
+    "item_id": "SA-000764",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_missing_title_context"],
+    "brief_reason": "Principal photography commenced in June 2016, so it could not have ended in January 2016."
+  },
+  {
+    "item_id": "SA-000765",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "The primary responsibility given is acting as spokesperson, not being a father."
+  },
+  {
+    "item_id": "SA-000766",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "possible_missing_title_context"],
+    "brief_reason": "The show is said to have won a Grammy Award for Best Musical Theater Album, though it is not named The Book of Mormon."
+  },
+  {
+    "item_id": "SA-000767",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "possible_missing_title_context"],
+    "brief_reason": "The movie was dubbed into three languages under the same name, though it is not named Baadshah."
+  },
+  {
+    "item_id": "SA-000768",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says he was assassinated in 681 BCE, which is not a fatal accident."
+  },
+  {
+    "item_id": "SA-000769",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "He is described as playing Mac on the FX/FXX comedy series It's Always Sunny in Philadelphia."
+  },
+  {
+    "item_id": "SA-000770",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["negation_or_scope", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Brian Fee storyboarded Cars and Cars 2 and is directing this film, so the evidence treats it as his third Cars movie."
+  },
+  {
+    "item_id": "SA-000771",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Rice was born in New Orleans."
+  },
+  {
+    "item_id": "SA-000772",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 48,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The album is said to include specific songs, but it is not identified as DNA."
+  },
+  {
+    "item_id": "SA-000773",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "The album was originally released on 2 April 1990 by Columbia Records, though it is not named Unison."
+  },
+  {
+    "item_id": "SA-000774",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "Geraldine Chaplin is identified as Charlie Chaplin's child, not his grandchild."
+  },
+  {
+    "item_id": "SA-000775",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives his death date as 28 January 1798, not February 1798."
+  },
+  {
+    "item_id": "SA-000776",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["negation_or_scope", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Her roles include Annie James in The Motel Life, so she was not incapable of that involvement."
+  },
+  {
+    "item_id": "SA-000777",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Dan Brown wrote the 2003 bestselling novel The Da Vinci Code."
+  },
+  {
+    "item_id": "SA-000778",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The NXT Tag Team Championship is a professional wrestling title, not a singing talent competition."
+  },
+  {
+    "item_id": "SA-000779",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 70,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Hawn is nominated for an Academy Award, and the evidence does not mention a Grammy nomination."
+  },
+  {
+    "item_id": "SA-000780",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["negation_or_scope", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "A cameo as Professor Normal shows he did appear in Dr. Horrible's Sing-Along Blog."
+  },
+  {
+    "item_id": "SA-000781",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says it was officially the Indochinese Federation after 1947, not after 1955."
+  },
+  {
+    "item_id": "SA-000782",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "Appropriation is said to have played a significant role in the history of the arts, including the performing arts."
+  },
+  {
+    "item_id": "SA-000783",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 85,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The cast nomination given is for Screen Actors Guild Awards, not an Academy Award."
+  },
+  {
+    "item_id": "SA-000784",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Danger UXB is a British ITV television series, which does not settle whether it aired on a commercial film network."
+  },
+  {
+    "item_id": "SA-000785",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["numerical_or_temporal_reasoning", "multi_sentence_integration"],
+    "brief_reason": "Hourglass is identified as Taylor's first studio album in six years, which is more than half a decade."
+  },
+  {
+    "item_id": "SA-000786",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 42,
+    "issue_flags": ["possible_missing_surrounding_context", "multi_sentence_integration", "numerical_or_temporal_reasoning"],
+    "brief_reason": "His March 12 birth date is given, but the zodiac transit ranges are not identified as Gemini."
+  },
+  {
+    "item_id": "SA-000787",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 45,
+    "issue_flags": ["possible_missing_title_context", "partial_warrant"],
+    "brief_reason": "The plot centers on a computer hacker, which is too vague to settle that Swordfish is a film about a type of person."
+  },
+  {
+    "item_id": "SA-000788",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "The awards show is held inside a tent on the beach in Santa Monica, not in a parking lot."
+  },
+  {
+    "item_id": "SA-000789",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence says the Latvian Soviet Socialist Republic was also known as Latvia."
+  },
+  {
+    "item_id": "SA-000790",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "The film follows journalists who were captured and killed, which does not clearly establish that it is about an investigation of crimes."
+  },
+  {
+    "item_id": "SA-000791",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_coreference_or_entity_resolution", "partial_warrant"],
+    "brief_reason": "A Virgin Records release is mentioned, but the evidence does not give a 2007 date or name Mel B."
+  },
+  {
+    "item_id": "SA-000792",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 72,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Mount Hood is called Oregon's highest mountain, which does not establish that it is the sixth highest point in its range."
+  },
+  {
+    "item_id": "SA-000793",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "Black Canary appears in DC Comics, an American publisher, which does not establish publication by an American entrepreneur."
+  },
+  {
+    "item_id": "SA-000794",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly states the Eurotas is one of the major rivers of the Peloponnese."
+  },
+  {
+    "item_id": "SA-000795",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "possible_missing_title_context"],
+    "brief_reason": "It received a People's Choice Award nomination for Favorite Dramatic Movie, though the film is not named The Giver."
+  },
+  {
+    "item_id": "SA-000796",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["negation_or_scope", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "He is best known for playing DS Sam Casey, which contradicts the claim that he did not play Sam Casey."
+  },
+  {
+    "item_id": "SA-000797",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["negation_or_scope", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The gang is widely known for its rivalry with the Crips, not narrowly known."
+  },
+  {
+    "item_id": "SA-000798",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "It is called the largest library association in the world, though the organization is not named."
+  },
+  {
+    "item_id": "SA-000799",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Publication for more than a century entails publication for more than a decade."
+  },
+  {
+    "item_id": "SA-000800",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 40,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The evidence discusses Assyrians and Ottoman Greeks and does not address extermination of Armenians who were mostly Ottoman citizens."
+  },
+  {
+    "item_id": "SA-000801",
+    "judge_id": "cursor_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Yale alumni include five U.S. Presidents, which are notable people, along with many other notable graduates."
+  }
+]

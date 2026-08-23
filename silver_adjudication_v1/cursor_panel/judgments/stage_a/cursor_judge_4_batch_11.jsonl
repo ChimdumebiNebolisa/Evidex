@@ -1,0 +1,602 @@
+[
+  {
+    "item_id": "SA-001002",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 78,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Evidence says horse domestication was widespread by 3000 BC, which does not settle the more specific date 3103 BC."
+  },
+  {
+    "item_id": "SA-001003",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "possible_missing_title_context"],
+    "brief_reason": "The twin towers opened on April 4, 1973, which warrants that the World Trade Center opened in April if the unnamed 'It' is that complex."
+  },
+  {
+    "item_id": "SA-001004",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly states that Emilia Clarke is an English actress."
+  },
+  {
+    "item_id": "SA-001005",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 88,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence identifies Aarhus as Denmark's second-largest city but says nothing about a geographical edge."
+  },
+  {
+    "item_id": "SA-001006",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence states Arijit Singh is an Indian musician, matching the claim aside from the Arjit/Arijit spelling difference."
+  },
+  {
+    "item_id": "SA-001007",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "possible_missing_title_context"],
+    "brief_reason": "The document was signed in San Francisco, United States, not New York City."
+  },
+  {
+    "item_id": "SA-001008",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["possible_missing_title_context", "entity_or_attribute_confusion"],
+    "brief_reason": "The film received nine 1995 Filmfare nominations, and Filmfare is identified as a magazine rather than a newspaper."
+  },
+  {
+    "item_id": "SA-001009",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "numerical_or_temporal_reasoning"],
+    "brief_reason": "Gagliardi died on May 11, 2014, not April 11, 2014."
+  },
+  {
+    "item_id": "SA-001010",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence says Yale alumni include five U.S. Presidents, not zero."
+  },
+  {
+    "item_id": "SA-001011",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The 1928–2004 medal design used the Roman Colosseum, not the Parthenon."
+  },
+  {
+    "item_id": "SA-001012",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The Pakistan Movement is attributed to transformations in Pakistani society, not Iraq."
+  },
+  {
+    "item_id": "SA-001013",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 74,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Evidence identifies Tool as an American rock band, which is a musical artist."
+  },
+  {
+    "item_id": "SA-001014",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Anne Rice was born on October 4, 1941, not in the 1970s, and New Orleans is not mentioned."
+  },
+  {
+    "item_id": "SA-001015",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["possible_missing_title_context", "negation_or_scope"],
+    "brief_reason": "Victor Manuelle featured on a released salsa version, so he was not uninvolved with every version."
+  },
+  {
+    "item_id": "SA-001016",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_missing_title_context", "numerical_or_temporal_reasoning"],
+    "brief_reason": "Inherited cases start around age 50 versus about 60 usually, so they start earlier, not later."
+  },
+  {
+    "item_id": "SA-001017",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The 2015 Little Prince is identified as a 3D animated film, not a television show."
+  },
+  {
+    "item_id": "SA-001018",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states T2 Trainspotting is set in and around Edinburgh, Scotland, which is a Scottish city."
+  },
+  {
+    "item_id": "SA-001019",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 72,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Kentucky is said to be known for the historic site My Old Kentucky Home, but that does not locate the site outside Kentucky."
+  },
+  {
+    "item_id": "SA-001020",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 85,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence calls the song a power ballad and does not say it is a single."
+  },
+  {
+    "item_id": "SA-001021",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "possible_missing_title_context"],
+    "brief_reason": "The unnamed album debuted at number one on the U.S. Billboard 200, making him the first openly gay artist to top the album charts."
+  },
+  {
+    "item_id": "SA-001022",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 70,
+    "issue_flags": ["partial_warrant", "entity_or_attribute_confusion"],
+    "brief_reason": "Evidence credits him with altering the profile of Indian cinema, not films produced across generations."
+  },
+  {
+    "item_id": "SA-001023",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "The sentence describes blood flow through the heart and does not address motion or heart health."
+  },
+  {
+    "item_id": "SA-001024",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 68,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution", "possible_missing_title_context"],
+    "brief_reason": "Evidence says an unnamed 'It' was discovered in 1935, which does not establish that Uranium-235 was founded."
+  },
+  {
+    "item_id": "SA-001025",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Bea Arthur's birth name is given as Bernice Frankel, not Bea Arthur."
+  },
+  {
+    "item_id": "SA-001026",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 76,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_missing_title_context"],
+    "brief_reason": "The 3,090,953 member count is given for 1971, which does not establish mid-20th-century Mormon membership."
+  },
+  {
+    "item_id": "SA-001027",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["negation_or_scope", "entity_or_attribute_confusion"],
+    "brief_reason": "Stripes is listed as starring several actors including Bill Murray and John Candy, not only John Denver."
+  },
+  {
+    "item_id": "SA-001028",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The fragmentary evidence calls an unnamed group a pop music group formed in 1958, not music producers."
+  },
+  {
+    "item_id": "SA-001029",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "numerical_or_temporal_reasoning", "possible_missing_title_context"],
+    "brief_reason": "The vice presidency is dated 1801–1805, so the final year is 1805 rather than 1804."
+  },
+  {
+    "item_id": "SA-001030",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 72,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Evidence says mAChRs form G protein-receptor complexes in cell membranes, not that they form cell complexes."
+  },
+  {
+    "item_id": "SA-001031",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "Tennessee left the Union and joined the Confederacy at the outbreak of the Civil War."
+  },
+  {
+    "item_id": "SA-001032",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The Pakistani economy is given as 24th-largest by purchasing power, not 25th, and 2017 is not stated."
+  },
+  {
+    "item_id": "SA-001033",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["possible_missing_title_context", "negation_or_scope"],
+    "brief_reason": "The structure was the world's tallest building for 11 months, not always the world's shortest."
+  },
+  {
+    "item_id": "SA-001034",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 74,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Season 1 is identified as an American television comedy series, not a comedy-drama."
+  },
+  {
+    "item_id": "SA-001035",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Murray was on the Great Britain team that won the Davis Cup in 2015."
+  },
+  {
+    "item_id": "SA-001036",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "numerical_or_temporal_reasoning", "possible_missing_title_context"],
+    "brief_reason": "His widow Elizabeth was buried on 3 October 1635, which is the tenth calendar month."
+  },
+  {
+    "item_id": "SA-001037",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence describes Bank of America as providing products and services through many channels, not withholding them."
+  },
+  {
+    "item_id": "SA-001038",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "possible_missing_title_context"],
+    "brief_reason": "The company sells apparel, footwear, and accessories designed for teens and young adults."
+  },
+  {
+    "item_id": "SA-001039",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 80,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The Latvian SSR is also known as Soviet Latvia, but the 'since 2016' restriction is not evidenced."
+  },
+  {
+    "item_id": "SA-001040",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Mononoke is said to have a darker and more violent tone, so it has at least one type of tone."
+  },
+  {
+    "item_id": "SA-001041",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 78,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Pocahontas is the daughter of Powhatan, paramount chief of Tsenacommacah, not of Wahunsenacah."
+  },
+  {
+    "item_id": "SA-001042",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 70,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Sacré-Cœur is publicly dedicated to the Sacred Heart of Jesus, a Catholic devotion, which is not shown to be a cult."
+  },
+  {
+    "item_id": "SA-001043",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 80,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The building was located at 200 N.W. 5th Street, but demolition there is not stated."
+  },
+  {
+    "item_id": "SA-001044",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Wish Upon is listed as starring Ryan Phillipe, contradicting the claim that he did not star."
+  },
+  {
+    "item_id": "SA-001045",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states the Cretaceous ended with a large mass extinction."
+  },
+  {
+    "item_id": "SA-001046",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 74,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "The Qin dynasty introduced several reforms of currency, measures, and writing, not several pieces of legislation."
+  },
+  {
+    "item_id": "SA-001047",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states rates of endometrial cancer have risen in a number of countries."
+  },
+  {
+    "item_id": "SA-001048",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Faye Resnick is described as a born human television personality, author, and designer, so she is a person."
+  },
+  {
+    "item_id": "SA-001049",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Miranda is identified as the sister of actress Gracie Otto, not her aunt."
+  },
+  {
+    "item_id": "SA-001050",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["negation_or_scope", "multi_sentence_integration"],
+    "brief_reason": "The Colbert Report was taped and broadcast and aired on Comedy Central from 2005 to 2014."
+  },
+  {
+    "item_id": "SA-001051",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_missing_title_context"],
+    "brief_reason": "The album's platinum certification is dated March 16, 2006, not March 2016."
+  },
+  {
+    "item_id": "SA-001052",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence discusses speech-recognition history and industry players but never mentions online gaming."
+  },
+  {
+    "item_id": "SA-001053",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "Agent Raghav -- Crime Branch is identified as an Indian television series."
+  },
+  {
+    "item_id": "SA-001054",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 76,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "The building is called a United States federal government complex, which does not establish a unitary government complex."
+  },
+  {
+    "item_id": "SA-001055",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "Evidence treats absinthe as having psychoactive properties, including alcohol, even while saying they were exaggerated."
+  },
+  {
+    "item_id": "SA-001056",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Gotham premiered on Fox, not on USA."
+  },
+  {
+    "item_id": "SA-001057",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 80,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Brazzers is based in Montreal, Canada; Quebec is not mentioned."
+  },
+  {
+    "item_id": "SA-001058",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 78,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Jones missed the playoffs once, which is not the same as missing the NBA Finals once."
+  },
+  {
+    "item_id": "SA-001059",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "Evidence states The Paper is a 1994 film directed by Ron Howard."
+  },
+  {
+    "item_id": "SA-001060",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Bea Arthur is given as born Bernice Frankel, a different name."
+  },
+  {
+    "item_id": "SA-001061",
+    "judge_id": "cursor_judge_4",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The unnamed film was announced by Singer in December 2013."
+  }
+]

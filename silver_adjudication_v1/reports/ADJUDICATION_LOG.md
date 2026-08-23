@@ -107,3 +107,16 @@ findings — anti-cherry-picking documentation.
   `cursor-grok-4.6-high-fast` for all five Cursor judges, all stages, and the
   resolver. `--panel cursor` remaps outputs; GLM `judgments/` is never written.
 - Do not chain GLM Stage A into Cursor Stage B/C.
+
+## Cursor Stage A (2026-08-23)
+
+- Model lock: `cursor-grok-4.6-high-fast` for all five isolated judges.
+- Stage A complete: 5 judges x 1060 items, schema-valid, frozen at
+  `cursor_panel/freezes/freeze_stage_A.json`.
+- Within-Cursor-panel Stage A: pairwise agreement 89.8%, Fleiss kappa 0.846,
+  consensus Refuted 403 / Supported 349 / Ambiguous 277 / Unresolved 31.
+- Cross-panel Stage A replication (GLM vs Cursor; not human validation):
+  modal verdict agreement 0.862, consensus agreement 0.831, ambiguity
+  agreement 0.855. Cursor Stage A is more ambiguous (29.1% vs GLM 22.3%).
+  Regression ambiguity is similar (GLM 41.6% vs Cursor 45.6%). Partial GLM
+  Stage B was not used.
