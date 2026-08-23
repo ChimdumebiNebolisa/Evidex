@@ -13,13 +13,31 @@
 
 ## Judging
 
-- Batch 01 (77): all five judges OK, first-try valid.
-- Batch 02 (77): all five judges OK, first-try valid.
-- Batch 03 (77): **not launched**. Locked model unavailable
-  (usage limit). Offered fallback grok-4.6 was refused.
+- Batch 01 (77): all five judges OK, first-try valid (first Cursor account).
+- Batch 02 (77): all five judges OK, first-try valid (first Cursor account).
+- Batch 03 (77): first account hit “Other Models usage limit reached”.
+  Offered fallback `grok-4.6` was refused. No substitution.
+- Batch 03 resumed under a **second Cursor account** because the first
+  account exhausted its Claude usage allowance. Existing blinded packets
+  (`cache/packets/claude_judge_*_batch_03.json`), rubric, judge IDs,
+  model slug, and inference settings were unchanged. Batches 01–02 were
+  not rerun. All five judges completed 77/77 on first-try valid schema.
+
+## Completeness
+
+- Each judge 231/231. Raw judgments 1,155. Schema retries: 0.
+- Judge freeze: `freezes/freeze_judgments.json`.
+- Pre-unblinding manifest: `freezes/freeze_manifest.json`.
+
+## Consensus and analysis
+
+- Raw consensus: Ambiguous 130 / Supported 63 / Refuted 34 / Unresolved 4.
+- No resolver (primary result is raw consensus).
+- Unblind and stats only after freeze verification.
 
 ## Retries
 
 - Schema retries: 0
-- Launch refusals (model lock): batch 03 wave, then one single-judge
-  retry of judge 1 batch 03 — both hit the same usage limit.
+- Launch refusals (model lock, first account): batch 03 wave, then one
+  single-judge retry of judge 1 batch 03 — both hit the usage limit.
+- Second-account batch 03 launches: completed; no model substitution.

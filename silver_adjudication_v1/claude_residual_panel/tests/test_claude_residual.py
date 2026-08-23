@@ -88,6 +88,92 @@ class TestFreezeBeforeUnblind(unittest.TestCase):
         with self.assertRaises(SystemExit):
             analyze.verify_manifest()
 
+    def test_manifest_and_judgment_freeze_exist(self):
+        self.assertTrue(cfg.FREEZE_JUDGES.exists())
+        self.assertTrue(cfg.FREEZE_MANIFEST.exists())
+        import verify_headlines
+        self.assertEqual(verify_headlines.verify_freezes(), [])
+
+    def test_unblinded_exists_only_with_manifest(self):
+        self.assertTrue(cfg.FREEZE_MANIFEST.exists())
+        self.assertTrue(cfg.UNBLINDED_PARQUET.exists())
+
+
+class TestRawJudgmentCompleteness(unittest.TestCase):
+    def test_each_judge_231(self):
+        expected = set(run_judges.expected_items())
+        self.assertEqual(len(expected), 231)
+        for judge in cfg.JUDGES:
+            done, malformed = run_judges.judge_status(judge)
+            self.assertEqual(malformed, [])
+            self.assertEqual(done, expected)
+            batches = sorted((cfg.JUDGMENTS_DIR / judge).glob(f"{judge}_batch_*.jsonl"))
+            self.assertEqual(
+                [p.name for p in batches],
+                [f"{judge}_batch_01.jsonl", f"{judge}_batch_02.jsonl",
+                 f"{judge}_batch_03.jsonl"],
+            )
+
+    def test_no_unblind_fields_in_raw_records(self):
+        banned = {"gold_label", "cohort", "cursor_consensus_C", "nli_disagrees",
+                  "gpt54_transition", "regression_type"}
+        for judge in cfg.JUDGES:
+            for p in (cfg.JUDGMENTS_DIR / judge).glob(f"{judge}_batch_*.jsonl"):
+                for r in run_judges.load_batch_file(p):
+                    self.assertTrue(banned.isdisjoint(r.keys()), p.name)
+
+
+class TestCrossFamilyJoin(unittest.TestCase):
+    def test_unique_item_counts(self):
+        df = pd.read_parquet(cfg.UNBLINDED_PARQUET)
+        self.assertEqual(len(df), 231)
+        self.assertEqual(df["claude_item_id"].nunique(), 231)
+        self.assertEqual(df["source_item_id"].nunique(), 231)
+        self.assertEqual(df["item_id"].nunique(), 231)
+        self.assertTrue(df["item_id"].str.startswith("CR-").all())
+        self.assertTrue(df["source_item_id"].str.startswith("SA-").all())
+        self.assertEqual(set(df["cursor_consensus_C"]), {"Ambiguous", "Unresolved"})
+        self.assertEqual((df["cursor_consensus_C"] == "Ambiguous").sum(), 212)
+        self.assertEqual((df["cursor_consensus_C"] == "Unresolved").sum(), 19)
+
+    def test_subgroup_counts(self):
+        df = pd.read_parquet(cfg.UNBLINDED_PARQUET)
+        self.assertEqual((df["cohort"] == "regression").sum(), 86)
+        self.assertEqual((df["cohort"] == "resistant").sum(), 112)
+        self.assertEqual((df["cohort"] == "rescue").sum(), 24)
+        self.assertEqual((df["cohort"] == "robust").sum(), 9)
+        self.assertEqual((df["regression_type"] == "both").sum(), 24)
+        self.assertEqual(
+            ((df["cohort"] == "regression") & (df["regression_type"] != "both")).sum(), 62)
+
+    def test_primary_taxonomy_partition(self):
+        df = pd.read_parquet(cfg.UNBLINDED_PARQUET)
+        tax = df["cross_family_taxonomy"].value_counts().to_dict()
+        self.assertEqual(tax.get("cross_family_persistent_ambiguity"), 134)
+        self.assertEqual(tax.get("grok_only_ambiguity"), 97)
+        self.assertEqual(tax.get("claude_internal_disagreement", 0), 0)
+        self.assertEqual(sum(tax.values()), 231)
+        stats = pd.read_csv(cfg.TABLES_DIR / "statistical_tests.csv")
+        names = set(stats["analysis"])
+        for n in ("persistent_ambiguity", "claude_resolved", "grok_only_ambiguity",
+                  "claude_decisive_agrees_fever", "persistent_amb_shared_regression"):
+            self.assertIn(n, names)
+
+
+class TestHeadlineVerification(unittest.TestCase):
+    def test_registry_and_script(self):
+        p = cfg.REPORTS_DIR / "HEADLINES.json"
+        self.assertTrue(p.exists())
+        reg = json.loads(p.read_text(encoding="utf-8"))
+        self.assertEqual(reg["model"], "claude-opus-5-thinking-high")
+        self.assertGreaterEqual(len(reg["headlines"]), 20)
+        findings = (cfg.REPORTS_DIR / "CLAUDE_FINDINGS.md").read_text(encoding="utf-8")
+        self.assertIn("claude-opus-5-thinking-high", findings)
+        self.assertIn("independent human", findings.lower())
+        self.assertIn("mixed", findings.lower())
+        import verify_headlines
+        self.assertEqual(verify_headlines.main(), 0)
+
 
 class TestJudgeSchema(unittest.TestCase):
     def test_valid_record(self):

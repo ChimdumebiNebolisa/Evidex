@@ -156,8 +156,24 @@ findings — anti-cherry-picking documentation.
   failure; representation-sensitive is smaller). One next experiment
   recommended, not run.
 
+## Claude residual Stage C (2026-08-23)
+
+- Branch `research/evidex-claude-residual-stagec-v1`. Model lock
+  `claude-opus-5-thinking-high`. Residual n=231 independently
+  reconstructed from frozen Cursor Stage C consensus.
+- Batches 01–02 (770 judgments) on the first Cursor account. Batch 03
+  (385) resumed on a second Cursor account after a Claude usage-limit
+  stop. No model substitution. Schema retries: 0. Completeness 231/231
+  × 5 = 1,155.
+- Raw consensus (no resolver): Ambiguous 130 / Supported 63 / Refuted 34
+  / Unresolved 4. Persistent 58.0%; high-consensus resolved 42.0%.
+- Final mechanism on the residual set: mixed. Evidex strengthening
+  experiment sequence is complete; no further family is planned.
+
 ## Report caveats (required)
 
 - Cursor A/B/C is one model family (`cursor-grok-4.6-high-fast`).
 - GLM contributes only the separate Stage A replication panel.
+- Claude residual validation is a second generative family, not human
+  ground truth.
 - This is not independent human validation.
