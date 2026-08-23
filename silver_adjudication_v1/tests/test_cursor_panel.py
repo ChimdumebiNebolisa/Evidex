@@ -58,36 +58,68 @@ class TestStageOrdering(unittest.TestCase):
     def tearDown(self):
         config.apply_panel("glm")
 
+    def _hide(self, path: Path):
+        hidden = path.with_suffix(path.suffix + ".hidden_test")
+        self.assertTrue(path.exists(), f"expected existing freeze at {path}")
+        path.rename(hidden)
+        return hidden
+
+    def _restore(self, path: Path, hidden: Path):
+        if hidden.exists() and not path.exists():
+            hidden.rename(path)
+
     def test_cursor_freeze_b_requires_a(self):
         config.apply_panel("cursor")
-        with self.assertRaises(SystemExit):
-            run_judges.freeze_stage("B")
+        pred = config.DERIVED_DIR / "freeze_stage_A.json"
+        hidden = self._hide(pred)
+        try:
+            with self.assertRaises(SystemExit):
+                run_judges.freeze_stage("B")
+        finally:
+            self._restore(pred, hidden)
 
     def test_cursor_freeze_c_requires_b(self):
         config.apply_panel("cursor")
-        with self.assertRaises(SystemExit):
-            run_judges.freeze_stage("C")
+        pred = config.DERIVED_DIR / "freeze_stage_B.json"
+        hidden = self._hide(pred)
+        try:
+            with self.assertRaises(SystemExit):
+                run_judges.freeze_stage("C")
+        finally:
+            self._restore(pred, hidden)
 
     def test_cursor_verify_unfrozen_raises(self):
         config.apply_panel("cursor")
-        with self.assertRaises(SystemExit):
-            run_judges.verify_frozen("A")
+        pred = config.DERIVED_DIR / "freeze_stage_A.json"
+        hidden = self._hide(pred)
+        try:
+            with self.assertRaises(SystemExit):
+                run_judges.verify_frozen("A")
+        finally:
+            self._restore(pred, hidden)
 
 
 class TestFreezeBeforeUnblind(unittest.TestCase):
     def tearDown(self):
         config.apply_panel("glm")
 
-    def test_cursor_manifest_absent(self):
+    def test_cursor_manifest_is_namespaced(self):
         config.apply_panel("cursor")
-        self.assertFalse(config.FREEZE_MANIFEST.exists())
         self.assertIn("cursor_panel", str(config.FREEZE_MANIFEST).replace("\\", "/"))
+        self.assertEqual(config.FREEZE_MANIFEST.name, "freeze_manifest.json")
 
     def test_unblind_refuses_without_cursor_stage_freezes(self):
         config.apply_panel("cursor")
         import join_analysis_v2
-        with self.assertRaises(SystemExit):
-            join_analysis_v2.unblind_join()
+        pred = config.DERIVED_DIR / "freeze_stage_A.json"
+        hidden = pred.with_suffix(".json.hidden_test")
+        pred.rename(hidden)
+        try:
+            with self.assertRaises(SystemExit):
+                join_analysis_v2.unblind_join()
+        finally:
+            if hidden.exists() and not pred.exists():
+                hidden.rename(pred)
 
 
 class TestUniqueClaimCounts(unittest.TestCase):
@@ -185,6 +217,41 @@ class TestRunAllUnblindGate(unittest.TestCase):
         self.assertIn("build_cohort", run_all.CURSOR_SKIP_REBUILD)
         self.assertTrue(any(n == "unblind_join" for n, _, _ in run_all.STAGES))
         self.assertTrue(any(n == "cross_panel_stage_a" for n, _, _ in run_all.STAGES))
+
+
+class TestCursorUnblindAndQuestions(unittest.TestCase):
+    def tearDown(self):
+        config.apply_panel("glm")
+
+    def test_unblinded_judged_n(self):
+        config.apply_panel("cursor")
+        df = pd.read_parquet(config.UNBLINDED_PARQUET)
+        self.assertEqual(len(df), 1060)
+        self.assertNotIn("SA-000352", set(df["item_id"]))
+        self.assertEqual((df["cohort"] == "regression").sum(), 226)
+
+    def test_q11_q12_rows_exist(self):
+        config.apply_panel("cursor")
+        stats = pd.read_csv(config.TABLES_DIR / "statistical_tests.csv")
+        names = set(stats["analysis"])
+        self.assertTrue(any(n.startswith("Q11") for n in names))
+        self.assertTrue(any(n.startswith("Q12") for n in names))
+        self.assertTrue(any(n.startswith("Q6") for n in names))
+        self.assertTrue(any(n.startswith("Q7") for n in names))
+        self.assertTrue(any(n.startswith("Q8") for n in names))
+
+    def test_headline_registry_present(self):
+        config.apply_panel("cursor")
+        p = config.REPORTS_DIR / "HEADLINES.json"
+        self.assertTrue(p.exists())
+        reg = json.loads(p.read_text(encoding="utf-8"))
+        self.assertEqual(reg["report"], "SILVER_FINDINGS.md")
+        self.assertGreaterEqual(len(reg["headlines"]), 20)
+        findings = (config.REPORTS_DIR / "SILVER_FINDINGS.md").read_text(encoding="utf-8")
+        self.assertIn("cursor-grok-4.6-high-fast", findings)
+        self.assertIn("independent human validation", findings.lower())
+        self.assertIn("not", findings.lower())
+        self.assertIn("replication panel", findings.lower())
 
 
 if __name__ == "__main__":

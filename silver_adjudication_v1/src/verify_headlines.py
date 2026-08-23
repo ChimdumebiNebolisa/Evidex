@@ -312,6 +312,90 @@ def a2_total_claims_n():
     return int(len(pd.read_parquet(config.PAIRED_ENRICHED)))
 
 
+@verifier
+def consensus_A_refuted_n():
+    return int((_consensus("A")["consensus"] == "Refuted").sum())
+
+
+@verifier
+def consensus_A_supported_n():
+    return int((_consensus("A")["consensus"] == "Supported").sum())
+
+
+@verifier
+def consensus_A_ambiguous_n():
+    return int((_consensus("A")["consensus"] == "Ambiguous").sum())
+
+
+@verifier
+def consensus_A_unresolved_n():
+    return int((_consensus("A")["consensus"] == "Unresolved").sum())
+
+
+@verifier
+def consensus_C_refuted_n():
+    return int((_consensus("C")["consensus"] == "Refuted").sum())
+
+
+@verifier
+def consensus_C_supported_n():
+    return int((_consensus("C")["consensus"] == "Supported").sum())
+
+
+@verifier
+def consensus_C_ambiguous_n():
+    return int((_consensus("C")["consensus"] == "Ambiguous").sum())
+
+
+@verifier
+def consensus_C_unresolved_n():
+    return int((_consensus("C")["consensus"] == "Unresolved").sum())
+
+
+@verifier
+def cursor_stageA_amb_unresolved_pct():
+    c = _consensus("A")
+    return 100.0 * c["consensus"].isin(["Ambiguous", "Unresolved"]).mean()
+
+
+@verifier
+def cursor_stageC_amb_unresolved_pct():
+    c = _consensus("C")
+    return 100.0 * c["consensus"].isin(["Ambiguous", "Unresolved"]).mean()
+
+
+@verifier
+def q7_consensus_change_A_to_B_pct():
+    df = _unblinded()
+    return 100.0 * (df["consensus_A"] != df["consensus_B"]).mean()
+
+
+@verifier
+def q8_consensus_change_B_to_C_pct():
+    df = _unblinded()
+    return 100.0 * (df["consensus_B"] != df["consensus_C"]).mean()
+
+
+@verifier
+def q9_reg_clearly_warranted_pct():
+    df = _unblinded()
+    reg = df[df["cohort"] == "regression"]
+    return 100.0 * (reg["consensus_C"].isin(["Supported", "Refuted"])
+                    & (reg["rule_C"] == "high_consensus")).mean()
+
+
+@verifier
+def cross_panel_modal_verdict_agree():
+    tab = pd.read_csv(config.TABLES_DIR / "cross_panel_stage_a_replication.csv")
+    return float(tab["verdict_modal_agreement"].iloc[0])
+
+
+@verifier
+def glm_stageA_amb_rate():
+    tab = pd.read_csv(config.TABLES_DIR / "cross_panel_stage_a_replication.csv")
+    return 100.0 * float(tab["glm_ambiguous_rate"].iloc[0])
+
+
 # --- Freeze integrity (recomputed from disk bytes) ----------------------------
 
 def verify_freezes():

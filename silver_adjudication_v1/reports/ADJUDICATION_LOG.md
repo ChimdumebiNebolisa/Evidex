@@ -138,3 +138,26 @@ findings — anti-cherry-picking documentation.
   (batches 01-11; batch 11 = 60 items). Frozen at
   `cursor_panel/freezes/freeze_stage_C.json`. Integrity re-verified.
 - Model lock unchanged. GLM Stage B partial outputs were not used.
+- Stage C consensus: Refuted 437 / Supported 392 / Ambiguous 212 /
+  Unresolved 19. Pairwise 95.4%, Fleiss kappa 0.928.
+
+## Cursor consensus, resolver, unblind (2026-08-23)
+
+- Within-Cursor consensus computed for A/B/C after each stage freeze.
+- Agreement labeled `within-Cursor-panel`. Krippendorff alpha tracked
+  Fleiss kappa (0.846 A; 0.928 B/C).
+- Resolver: same locked model; non-high-consensus only (A 308, B 262,
+  C 231); anonymized r1..r5; blinded to FEVER/GPT/cohort/NLI/GLM.
+  All 801 resolver records schema-valid.
+- Pre-unblinding manifest `cursor_panel/freezes/freeze_manifest.json`
+  hashes stage freezes, consensus, resolver, and agreement tables.
+  Verified before unblind. Unblinded join n=1060 (SA-000352 excluded).
+- Mechanism decision: mixed (warrant ambiguity + evidence-utilization
+  failure; representation-sensitive is smaller). One next experiment
+  recommended, not run.
+
+## Report caveats (required)
+
+- Cursor A/B/C is one model family (`cursor-grok-4.6-high-fast`).
+- GLM contributes only the separate Stage A replication panel.
+- This is not independent human validation.

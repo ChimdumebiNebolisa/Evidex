@@ -1,0 +1,205 @@
+{
+  "report": "SILVER_FINDINGS.md",
+  "panel": "cursor",
+  "model": "cursor-grok-4.6-high-fast",
+  "headlines": [
+    {
+      "id": "cohort_total_n",
+      "expected": 1061,
+      "tol": 0,
+      "display": "1,061"
+    },
+    {
+      "id": "cohort_regression_n",
+      "expected": 226,
+      "tol": 0,
+      "display": "226 regressions"
+    },
+    {
+      "id": "cohort_resistant_n",
+      "expected": 335,
+      "tol": 0,
+      "display": "335 resistant"
+    },
+    {
+      "id": "cohort_rescue_n",
+      "expected": 250,
+      "tol": 0,
+      "display": "250 rescue"
+    },
+    {
+      "id": "cohort_robust_n",
+      "expected": 250,
+      "tol": 0,
+      "display": "250 robust"
+    },
+    {
+      "id": "judged_items_n",
+      "expected": 1060,
+      "tol": 0,
+      "display": "1,060"
+    },
+    {
+      "id": "pairwise_agreement_A_pct",
+      "expected": 89.82075471698113,
+      "tol": 0.051,
+      "display": "89.8%"
+    },
+    {
+      "id": "fleiss_kappa_A",
+      "expected": 0.8457993363118473,
+      "tol": 0.051,
+      "display": "0.846"
+    },
+    {
+      "id": "pairwise_agreement_B_pct",
+      "expected": 95.33962264150944,
+      "tol": 0.051,
+      "display": "95.3%"
+    },
+    {
+      "id": "pairwise_agreement_C_pct",
+      "expected": 95.39622641509433,
+      "tol": 0.051,
+      "display": "95.4%"
+    },
+    {
+      "id": "consensus_A_refuted_n",
+      "expected": 403,
+      "tol": 0,
+      "display": "403"
+    },
+    {
+      "id": "consensus_A_supported_n",
+      "expected": 349,
+      "tol": 0,
+      "display": "349"
+    },
+    {
+      "id": "consensus_A_ambiguous_n",
+      "expected": 277,
+      "tol": 0,
+      "display": "277"
+    },
+    {
+      "id": "consensus_A_unresolved_n",
+      "expected": 31,
+      "tol": 0,
+      "display": "31"
+    },
+    {
+      "id": "consensus_C_refuted_n",
+      "expected": 437,
+      "tol": 0,
+      "display": "437"
+    },
+    {
+      "id": "consensus_C_supported_n",
+      "expected": 392,
+      "tol": 0,
+      "display": "392"
+    },
+    {
+      "id": "consensus_C_ambiguous_n",
+      "expected": 212,
+      "tol": 0,
+      "display": "212"
+    },
+    {
+      "id": "consensus_C_unresolved_n",
+      "expected": 19,
+      "tol": 0,
+      "display": "19"
+    },
+    {
+      "id": "cursor_stageA_amb_unresolved_pct",
+      "expected": 29.056603773584904,
+      "tol": 0.051,
+      "display": "29.1%"
+    },
+    {
+      "id": "cursor_stageC_amb_unresolved_pct",
+      "expected": 21.79245283018868,
+      "tol": 0.051,
+      "display": "21.8%"
+    },
+    {
+      "id": "reg_stageA_ambiguous_pct",
+      "expected": 45.57522123893805,
+      "tol": 0.051,
+      "display": "45.6%"
+    },
+    {
+      "id": "robust_stageA_ambiguous_pct",
+      "expected": 9.6,
+      "tol": 0.051,
+      "display": "9.6%"
+    },
+    {
+      "id": "reg_stageC_ambiguous_pct",
+      "expected": 38.05309734513274,
+      "tol": 0.051,
+      "display": "38.1%"
+    },
+    {
+      "id": "reg_resolved_by_titles_pct",
+      "expected": 7.079646017699115,
+      "tol": 0.051,
+      "display": "7.1%"
+    },
+    {
+      "id": "reg_resolved_only_by_structure_pct",
+      "expected": 5.3097345132743365,
+      "tol": 0.051,
+      "display": "5.3%"
+    },
+    {
+      "id": "reg_still_ambiguous_after_C_pct",
+      "expected": 38.05309734513274,
+      "tol": 0.051,
+      "display": "38.1%"
+    },
+    {
+      "id": "reg_representation_sensitive_pct",
+      "expected": 11.946902654867257,
+      "tol": 0.051,
+      "display": "11.9%"
+    },
+    {
+      "id": "reg_clear_evidence_utilization_failure_pct",
+      "expected": 50.0,
+      "tol": 0.051,
+      "display": "50.0%"
+    },
+    {
+      "id": "q7_consensus_change_A_to_B_pct",
+      "expected": 9.716981132075473,
+      "tol": 0.051,
+      "display": "9.7%"
+    },
+    {
+      "id": "q8_consensus_change_B_to_C_pct",
+      "expected": 6.132075471698113,
+      "tol": 0.051,
+      "display": "6.1%"
+    },
+    {
+      "id": "q9_reg_clearly_warranted_pct",
+      "expected": 61.94690265486725,
+      "tol": 0.051,
+      "display": "61.9%"
+    },
+    {
+      "id": "cross_panel_modal_verdict_agree",
+      "expected": 0.8622641509433963,
+      "tol": 0.051,
+      "display": "0.862"
+    },
+    {
+      "id": "glm_stageA_amb_rate",
+      "expected": 22.264150943396217,
+      "tol": 0.051,
+      "display": "22.3%"
+    }
+  ]
+}

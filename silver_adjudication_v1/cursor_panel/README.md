@@ -8,6 +8,8 @@ all five judges, all three stages, and the resolver.
 - This is one model family. It is **not** independent human validation.
 - GLM-5.3 contributes only the separate frozen Stage A replication panel.
   Partial GLM Stage B is provenance only and is excluded from these analyses.
+- Findings: `reports/SILVER_FINDINGS.md`, `reports/LIMITATIONS.md`,
+  `reports/HEADLINES.json`. Mechanism decision: mixed.
 
 ## Layout
 

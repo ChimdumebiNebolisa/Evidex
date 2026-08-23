@@ -37,6 +37,11 @@ def freeze_silver():
     _require_resolver_complete()
     entries = {}
     for stage in config.STAGES:
+        freeze_p = config.DERIVED_DIR / f"freeze_stage_{stage}.json"
+        if not freeze_p.exists():
+            raise SystemExit(f"Stage {stage} freeze missing; not writing silver freeze")
+        run_judges.verify_frozen(stage)
+        entries[f"freeze_stage_{stage}"] = sha256(freeze_p)
         p = config.DERIVED_DIR / f"consensus_stage_{stage}.parquet"
         entries[f"consensus_{stage}"] = sha256(p)
     total = 0
@@ -89,17 +94,24 @@ def unblind_join():
     id_map = pd.read_csv(config.ID_MAP_CSV)
     cohort = pd.read_parquet(config.COHORT_PARQUET).set_index("claim_id")
     enriched = pd.read_parquet(config.PAIRED_ENRICHED).set_index("claim_id")
+    excluded = set()
+    if config.PROVIDER_FILTERED.exists():
+        excluded = set(json.loads(config.PROVIDER_FILTERED.read_text(encoding="utf-8"))["items"])
+
+    cons_tables = {
+        stage: pd.read_parquet(config.DERIVED_DIR / f"consensus_stage_{stage}.parquet")
+        .set_index("item_id")
+        for stage in config.STAGES
+    }
 
     rows = []
     for _, m in id_map.iterrows():
         cid, item_id = int(m["claim_id"]), m["item_id"]
+        if item_id in excluded:
+            continue
         c = cohort.loc[cid]
         e = enriched.loc[cid]
-        cons = {}
-        for stage in config.STAGES:
-            cc = pd.read_parquet(config.DERIVED_DIR / f"consensus_stage_{stage}.parquet"
-                                 ).set_index("item_id").loc[item_id]
-            cons[stage] = cc
+        cons = {stage: cons_tables[stage].loc[item_id] for stage in config.STAGES}
         rows.append({
             "item_id": item_id, "claim_id": cid,
             "cohort": c["cohort"], "regression_type": c["regression_type"],
@@ -126,7 +138,7 @@ def unblind_join():
     res_rows = []
     for stage in config.STAGES:
         for p in sorted((config.JUDGMENTS_DIR / "resolver").glob(f"resolver_stage_{stage}_*.jsonl")):
-            arr = json.loads(p.read_text(encoding="utf-8").strip() or "[]")
+            arr = run_judges.load_batch_file(p)
             for r in arr:
                 res_rows.append({"item_id": r["item_id"], "stage": stage,
                                  "resolver_outcome": r["resolver_outcome"],

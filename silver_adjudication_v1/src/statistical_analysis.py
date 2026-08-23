@@ -54,10 +54,12 @@ def compare_cohorts():
     rows = []
 
     def rate_row(tag, mask, feature, seed_offset=0, family="confirmatory"):
-        sub = df[mask]
-        m, lo, hi = boot_rate_ci(sub[feature], seed_offset)
-        rows.append({"analysis": tag, "family": family, "n": len(sub), "rate_pct": m,
-                     "ci_low": lo, "ci_high": hi})
+        feat = feature if isinstance(feature, pd.Series) else df[feature]
+        feat = feat.reindex(df.index)
+        sub_feat = feat.loc[mask]
+        m, lo, hi = boot_rate_ci(sub_feat.astype(bool), seed_offset)
+        rows.append({"analysis": tag, "family": family, "n": int(mask.sum()),
+                     "rate_pct": m, "ci_low": lo, "ci_high": hi})
 
     reg = df["cohort"] == "regression"
     res = df["cohort"] == "resistant"
