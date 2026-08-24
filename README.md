@@ -2,6 +2,23 @@
 
 Evidex investigates when external evidence helps or harms large-language-model fact-checking, and what mechanisms explain evidence-induced failures. The primary experiment evaluates GPT-5.4 and GPT-5.4-mini on 10,000 balanced FEVER Supported/Refuted claims under two paired conditions, claim-only versus claim plus designated gold evidence, producing 40,000 predictions. Gold evidence raises accuracy substantially, but a small cohort of claims that were correct without evidence become wrong after it is provided. [`analysis_v2/`](analysis_v2/) decomposes those paired transitions with confirmatory statistics and exploratory diagnostics. [`silver_adjudication_v1/`](silver_adjudication_v1/) then tests mechanism hypotheses with blinded progressive disclosure and isolated multi-judge panels. A Cursor/Grok panel finds a mixed mechanism involving evidence-utilization failure, warrant ambiguity, and a smaller representation-sensitive component. A Claude-family residual Stage C panel provides cross-family validation of the remaining ambiguous cases and further separates persistent warrant difficulty from model-family-specific conservatism. These panels are model-based silver labels, not human annotation, and they do not relabel FEVER gold.
 
+The diagram below summarizes how the main Evidex layers build on one another.
+
+```mermaid
+flowchart TD
+    A[FEVER balanced_10000_v1<br/>10,000 claims<br/>Supported and Refuted only] --> B[Primary paired experiment<br/>GPT-5.4 and GPT-5.4-mini<br/>claim_only vs claim_plus_evidence<br/>40,000 predictions]
+
+    B --> C[Transition decomposition<br/>rescue<br/>robust<br/>resistant<br/>regression]
+
+    C --> D[Analysis v2<br/>paired statistics<br/>feature analysis<br/>local NLI diagnostics<br/>predictive modeling<br/>verification]
+
+    D --> E[Silver adjudication v1<br/>1,061-claim cohort<br/>blinded Stage A, B, C<br/>Cursor/Grok panel]
+
+    E --> F[Claude residual validation<br/>231 Stage C residual items<br/>cross-family adjudication]
+
+    F --> G[Main conclusion<br/>mixed mechanism<br/>evidence-utilization failure<br/>warrant ambiguity<br/>smaller representation-sensitive share]
+```
+
 ## Research Question
 
 When does designated gold evidence help or harm LLM fact-checking on FEVER, and what mechanisms explain the cases where a model is correct without evidence and wrong after receiving that evidence?
@@ -219,7 +236,7 @@ Figures: six Analysis v2 plots in `analysis_v2/figures/`; Cursor panel figures i
 
 ## Limitations
 
-- **Not human validation.** Cursor/Grok, GLM, and Claude panels are automated judges. Same-family agreement can overstate independence. Cross-family agreement is stronger than same-family agreement, not a substitute for expert adjudication.
+- **Not human validation.** Cursor/Grok, GLM, and Claude panels are automated judges. Same-family agreement can overstate independence. Cross-family replication reduces the risk that findings reflect one judge family, but it is not a substitute for expert human adjudication.
 - **FEVER is the gold standard used here.** NLI disagreement and model-judge disagreement flag candidate ambiguity. They do not establish that a FEVER label is incorrect.
 - **No causal claim about GPT internals.** Progressive disclosure locates where a judge panel's warrant changes. It does not prove why GPT-5.4 or GPT-5.4-mini transitioned. Original runs recorded labels only, so confidence and calibration cannot be reconstructed.
 - **Sentence-only evidence in the original prompt.** Page titles, sentence indices, and alternative evidence sets were dropped by the resolver. Silver Stage B/C can flag representation effects but cannot rerun GPT under those conditions.
