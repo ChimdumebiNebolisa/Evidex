@@ -120,16 +120,16 @@ Committed summaries, tables, freezes, and reports are enough to verify the paper
 python -m pip install pandas numpy scipy statsmodels pyarrow
 python analysis_v2/src/verify_headlines.py
 python silver_adjudication_v1/src/verify_headlines.py --panel cursor
-python silver_adjudication_v1/src/cross_panel_stage_a.py
+python silver_adjudication_v1/src/verify_glm_stage_a.py
 python silver_adjudication_v1/claude_residual_panel/src/verify_headlines.py
 python silver_adjudication_v1/claude_full_regression_panel/src/verify_headlines.py
 ```
 
 The Cursor command **requires** `--panel cursor`. Without that flag the shared verifier defaults to the incomplete GLM namespace.
 
-`cross_panel_stage_a.py` recomputes the GLM–Cursor Stage A comparison from frozen judgments (1,060 items; modal agreement 0.862; consensus agreement 0.831). It may rewrite the supporting table and report with the same numbers; do not treat that rewrite as new science.
+`verify_glm_stage_a.py` recomputes the GLM–Cursor Stage A comparison from frozen judgments (1,060 items; modal agreement 0.862; consensus agreement 0.831) and does not write files.
 
-Or: `python scripts/verify_all_headlines.py`
+Or: `python scripts/verify_all_headlines.py` — reads the research record and exits pass/fail. It does not mutate anything.
 
 Level 2 analysis reproduction and optional Level 3 model inference are in [`REPRODUCING.md`](REPRODUCING.md). Re-running GPT or judges is not required and will not reproduce the frozen record bit-for-bit.
 

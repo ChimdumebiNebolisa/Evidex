@@ -86,7 +86,7 @@ def _rate_agreement(a: pd.Series, b: pd.Series):
     return float((a[m] == b[m]).mean())
 
 
-def replicate_stage_a():
+def replicate_stage_a(*, write: bool = True):
     cursor_a = config.CURSOR_PANEL_ROOT / "freezes" / "freeze_stage_A.json"
     glm_a = config.GLM_DERIVED_DIR / "freeze_stage_A.json"
     if not cursor_a.exists():
@@ -164,42 +164,44 @@ def replicate_stage_a():
     rows["consensus_cramers_v"] = float(np.sqrt(chi2 / (n * (k - 1)))) if n and k > 1 else 0.0
     rows["consensus_chi2_p"] = float(p)
 
-    out_dir = config.CURSOR_PANEL_ROOT / "tables"
-    out_dir.mkdir(parents=True, exist_ok=True)
-    pd.DataFrame([rows]).to_csv(out_dir / "cross_panel_stage_a_replication.csv", index=False)
-    tab.to_csv(out_dir / "cross_panel_stage_a_consensus_crosstab.csv")
+    if write:
+        out_dir = config.CURSOR_PANEL_ROOT / "tables"
+        out_dir.mkdir(parents=True, exist_ok=True)
+        pd.DataFrame([rows]).to_csv(out_dir / "cross_panel_stage_a_replication.csv", index=False)
+        tab.to_csv(out_dir / "cross_panel_stage_a_consensus_crosstab.csv")
 
-    report = config.CURSOR_PANEL_ROOT / "reports"
-    report.mkdir(parents=True, exist_ok=True)
-    lines = [
-        "# Cross-panel Stage A replication",
-        "",
-        "This compares frozen GLM-5.3 Stage A to frozen Cursor-model Stage A.",
-        "It is a **replication analysis**, not independent human validation.",
-        "Cursor judges never saw GLM outputs. Partial GLM Stage B is excluded.",
-        "",
-        f"- Items compared: {rows['n_items_compared']}",
-        f"- Modal verdict agreement: {rows['verdict_modal_agreement']:.3f}",
-        f"- Consensus agreement: {rows['consensus_agreement']:.3f}",
-        f"- Ambiguity agreement: {rows['ambiguity_agreement']:.3f}",
-        f"- Sufficiency (modal) agreement: {rows['sufficiency_modal_agreement']:.3f}",
-        f"- GLM Stage A ambiguous/unresolved rate: {rows['glm_ambiguous_rate']:.3f}",
-        f"- Cursor Stage A ambiguous/unresolved rate: {rows['cursor_ambiguous_rate']:.3f}",
-        f"- Cramér's V (consensus table): {rows['consensus_cramers_v']:.3f}",
-        "",
-        "Cohort-level ambiguity rates (GLM vs Cursor):",
-    ]
-    for name in ("regression", "resistant", "rescue", "robust"):
-        lines.append(
-            f"- {name}: GLM {rows[f'{name}_glm_amb_rate']:.3f} vs "
-            f"Cursor {rows[f'{name}_cursor_amb_rate']:.3f} "
-            f"(abs diff {rows[f'{name}_amb_rate_abs_diff']:.3f})"
-        )
-    (report / "CROSS_PANEL_STAGE_A_REPLICATION.md").write_text(
-        "\n".join(lines) + "\n", encoding="utf-8")
+        report = config.CURSOR_PANEL_ROOT / "reports"
+        report.mkdir(parents=True, exist_ok=True)
+        lines = [
+            "# Cross-panel Stage A replication",
+            "",
+            "This compares frozen GLM-5.3 Stage A to frozen Cursor-model Stage A.",
+            "It is a **replication analysis**, not independent human validation.",
+            "Cursor judges never saw GLM outputs. Partial GLM Stage B is excluded.",
+            "",
+            f"- Items compared: {rows['n_items_compared']}",
+            f"- Modal verdict agreement: {rows['verdict_modal_agreement']:.3f}",
+            f"- Consensus agreement: {rows['consensus_agreement']:.3f}",
+            f"- Ambiguity agreement: {rows['ambiguity_agreement']:.3f}",
+            f"- Sufficiency (modal) agreement: {rows['sufficiency_modal_agreement']:.3f}",
+            f"- GLM Stage A ambiguous/unresolved rate: {rows['glm_ambiguous_rate']:.3f}",
+            f"- Cursor Stage A ambiguous/unresolved rate: {rows['cursor_ambiguous_rate']:.3f}",
+            f"- Cramér's V (consensus table): {rows['consensus_cramers_v']:.3f}",
+            "",
+            "Cohort-level ambiguity rates (GLM vs Cursor):",
+        ]
+        for name in ("regression", "resistant", "rescue", "robust"):
+            lines.append(
+                f"- {name}: GLM {rows[f'{name}_glm_amb_rate']:.3f} vs "
+                f"Cursor {rows[f'{name}_cursor_amb_rate']:.3f} "
+                f"(abs diff {rows[f'{name}_amb_rate_abs_diff']:.3f})"
+            )
+        (report / "CROSS_PANEL_STAGE_A_REPLICATION.md").write_text(
+            "\n".join(lines) + "\n", encoding="utf-8")
     print(json.dumps(rows, indent=2))
     return rows
 
 
 if __name__ == "__main__":
-    replicate_stage_a()
+    write = "--no-write" not in sys.argv and "--verify-only" not in sys.argv
+    replicate_stage_a(write=write)

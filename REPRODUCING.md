@@ -38,7 +38,7 @@ From the repository root, with the Level 1 packages installed:
 ```powershell
 python analysis_v2/src/verify_headlines.py
 python silver_adjudication_v1/src/verify_headlines.py --panel cursor
-python silver_adjudication_v1/src/cross_panel_stage_a.py
+python silver_adjudication_v1/src/verify_glm_stage_a.py
 python silver_adjudication_v1/claude_residual_panel/src/verify_headlines.py
 python silver_adjudication_v1/claude_full_regression_panel/src/verify_headlines.py
 ```
@@ -49,23 +49,19 @@ Or:
 python scripts/verify_all_headlines.py
 ```
 
+`python scripts/verify_all_headlines.py` reads the research record and exits pass/fail. It does not write reports, tables, or judgments, and it does not run git.
+
 | Check | What it recomputes | Expected |
 |---|---|---|
 | Analysis v2 | Accuracies, transitions, unique-regression counts from committed CSVs/parquets | 69/69 in `analysis_v2/tables/verification.md` |
 | Cursor/Grok | Consensus, taxonomy, freeze hashes from frozen judgments | `ALL HEADLINES VERIFIED`; includes Grok 50.0% / 11.9% / 38.1% and GLM modal **0.862** |
-| GLM Stage A | Frozen GLM Stage A vs frozen Cursor Stage A | 1,060 items; modal **0.862**; consensus **0.831**; GLM ambiguity **0.223**; report `CROSS_PANEL_STAGE_A_REPLICATION.md` |
+| GLM Stage A | Frozen GLM Stage A vs frozen Cursor Stage A (read-only) | 1,060 items; modal **0.862**; consensus **0.831**; GLM ambiguity **0.223** |
 | Claude residual | 231-item Stage C panel | persistent **58.0%** (134/231) |
 | Claude full | 226-regression A→B→C + Grok comparison | 3,390 judgments; Claude 65.9% / 5.3% / 28.8%; agreement **74.3%** |
 
 `verify_headlines.py` **defaults to the GLM panel namespace**. Always pass `--panel cursor` for the completed Grok study.
 
-`cross_panel_stage_a.py` reads only frozen Stage A judgments. Partial GLM Stage B is excluded by construction. The script **rewrites** three supporting files with the same numbers:
-
-- `silver_adjudication_v1/cursor_panel/tables/cross_panel_stage_a_replication.csv`
-- `silver_adjudication_v1/cursor_panel/tables/cross_panel_stage_a_consensus_crosstab.csv`
-- `silver_adjudication_v1/cursor_panel/reports/CROSS_PANEL_STAGE_A_REPLICATION.md`
-
-That rewrite is recomputation, not new adjudication. Discard incidental diffs; do not treat them as a reason to edit freeze manifests.
+`verify_glm_stage_a.py` reads only frozen Stage A judgments. Partial GLM Stage B is excluded by construction. It does not rewrite the supporting table or report. Regenerating those files is a Level 2 step (`python src/cross_panel_stage_a.py`) and is not part of headline verification.
 
 `STOPPING_POINT.json` in the Claude full panel is a historical capacity-stop snapshot. Completeness is `freezes/missing_work_manifest.json` (`complete: true`) plus `freeze_stage_{A,B,C}.json`.
 
@@ -85,7 +81,9 @@ python -m pytest tests -q
 cd silver_adjudication_v1
 python -m pip install -r requirements.txt
 python src/verify_headlines.py --panel cursor
-python src/cross_panel_stage_a.py
+python src/verify_glm_stage_a.py
+# optional: regenerate the supporting GLM report/tables (writes files)
+# python src/cross_panel_stage_a.py
 ```
 
 Claude panels (recompute consensus/taxonomy only after freeze verification; do not unblind as if it were a first look):

@@ -36,7 +36,7 @@ Limitations: [`docs/LIMITATIONS.md`](../docs/LIMITATIONS.md) and each panel's
 
 ```bash
 python src/verify_headlines.py --panel cursor
-python src/cross_panel_stage_a.py
+python src/verify_glm_stage_a.py
 python claude_residual_panel/src/verify_headlines.py
 python claude_full_regression_panel/src/verify_headlines.py
 ```
