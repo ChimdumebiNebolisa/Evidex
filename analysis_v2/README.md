@@ -35,14 +35,16 @@ python run_all.py            # full pipeline (stages are cached)
 python -m pytest tests/ -q   # or: python -m unittest discover -s tests
 ```
 
-Optional stages (NLI, clustering) degrade gracefully if their models or
-libraries are unavailable; the rest of the pipeline still completes.
+Optional stages (`nli_analysis`, `semantic_features`, `clustering_analysis`)
+degrade if their models or libraries are unavailable. `linguistic_features`
+is currently a required stage and needs `en_core_web_sm`.
+
+Study-level reproduction, including headline verification without optional
+models, is in the repository [`REPRODUCING.md`](../REPRODUCING.md).
 
 ## Data protection
 
-Everything under the repository root outside `analysis_v2/` is treated as an
-immutable source artifact and is unchanged from `main`. All derived data lives
-in `analysis_v2/data/`. During development, CWE-22 output-path guards were
-briefly added to three original analysis scripts to appease the environment's
-security scanner; they were reverted to pristine upstream form in the cleanup
-pass because the analysis does not depend on them.
+Analysis v2 treats the committed 10K experiment files at the repository root
+as immutable inputs (`experiment_results_balanced_10000_v1.csv` and related
+files). It writes only under `analysis_v2/`. The study-level map of later
+adjudication layers is the repository root README, not this file.

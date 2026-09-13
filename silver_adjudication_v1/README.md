@@ -1,51 +1,47 @@
 # Evidex Silver Adjudication v1
 
-A blinded, GLM-only silver-adjudication layer over the Evidex Analysis v2
-findings. Five isolated GLM-5.3 judges adjudicate ~1,100 matched claims
-through three progressive-disclosure stages (sentence-only evidence → +page
-titles → +structured FEVER evidence), a GLM resolver handles non-consensus
-items, and outputs are frozen and hashed before any unblinding join to
-Analysis v2 transitions, FEVER labels, and NLI diagnostics.
+Blinded, progressive-disclosure silver adjudication over the Analysis v2
+diagnostic cohort. This directory holds **four** judge-family artifacts.
+They are not interchangeable.
 
-**What this is:** a GLM-family silver adjudication — a reproducible,
-blinded second opinion that helps decompose why designated gold evidence
-sometimes fails to produce the expected verdict (model utilization vs
-evidence representation vs claim-evidence ambiguity).
+| Artifact | Role | Location |
+|---|---|---|
+| Cursor/Grok five-judge A→B→C | **Primary mechanism study** | `cursor_panel/` |
+| GLM-5.3 Stage A | **Supporting** replication vs Cursor Stage A | `judgments/stage_a/` + `cursor_panel/reports/CROSS_PANEL_STAGE_A_REPLICATION.md` |
+| Claude residual Stage C | **Supporting** test on 231 Grok leftovers | `claude_residual_panel/` |
+| Claude full A→B→C | **Main cross-family replication** on 226 regressions | `claude_full_regression_panel/` |
 
-**What this is not:** human ground truth, independent model-family
-validation, or proof that FEVER labels are wrong. All generative judges are
-GLM-5.3 from the same family; within-family agreement may overstate truly
-independent agreement. See `reports/LIMITATIONS.md`.
+**What this is:** model-based silver labels that decompose why designated gold
+evidence sometimes fails to produce the expected verdict (utilization vs
+representation vs residual ambiguity).
 
-## Layout
+**What this is not:** human ground truth, or proof that FEVER labels are wrong.
+Within-family agreement overstates how much separate human raters would agree.
 
-- `config.py` / `run_all.py` — configuration and resumable orchestrator
-- `prompts/` — judge rubric, resolver rubric, disclosure protocol (versioned)
-- `src/` — one module per pipeline stage
-- `data/blinded/` — judge-facing stage files (leak-validated)
-- `data/derived/` — cohort manifest, ID map, freeze manifest, unblinded joins
-- `data/cache/` — wiki archive + extracted pages (gitignored)
-- `judgments/` — raw per-judge/stage outputs (append-only after freeze)
-- `tables/`, `figures/`, `reports/`, `tests/`
+Study-level entry: repository [`README.md`](../README.md).
+Limitations: [`docs/LIMITATIONS.md`](../docs/LIMITATIONS.md) and each panel's
+`reports/LIMITATIONS.md`.
 
-## Reproduce
+## Shared layout
+
+- `prompts/` — judge rubric and disclosure protocol (do not edit after the fact)
+- `data/blinded/` — shared blinded stage files
+- `data/derived/` — cohort, ID map, GLM Stage A freeze
+- `judgments/` — GLM outputs (Stage A complete; later stages provenance only)
+- `src/` — Cursor/GLM pipeline, including `cross_panel_stage_a.py`
+- `cursor_panel/`, `claude_residual_panel/`, `claude_full_regression_panel/`
+- `blind_io/` — Claude-full judge-facing packets (neutral paths)
+
+## Reproduce (no new judging)
 
 ```bash
-python run_all.py                 # validates prerequisites; builds cohort,
-                                  # blinded stages; reports judge gaps.
-                                  # Judge/resolver subagent execution is driven
-                                  # by src/run_judges.py batch files; completed
-                                  # judgments are cached and reused.
-python -m unittest discover -s tests
-python src/verify_headlines.py
+python src/verify_headlines.py --panel cursor
+python src/cross_panel_stage_a.py
+python claude_residual_panel/src/verify_headlines.py
+python claude_full_regression_panel/src/verify_headlines.py
 ```
 
-## Protections
+`--panel cursor` is required for the Grok verifier. The default panel name is
+GLM. GLM Stages B/C were never completed and are not part of A→B→C math.
 
-- Analysis v2 artifacts and original experiment outputs are read-only.
-- Blinding is machine-validated before judging (prohibited fields absent,
-  opaque IDs carry no cohort/label signal).
-- An unblinding gate refuses to join outcomes unless the freeze manifest
-  exists and every hash matches.
-- All new GLM inference is confined to the blinded adjudication and
-  disagreement resolution defined in `prompts/`.
+Judge inference is finished. Frozen judgment files are the record.

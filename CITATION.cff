@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: Evidex
+message: If you use this repository, please cite it and the upstream FEVER dataset.
+type: software
+authors:
+  - family-names: Nebolisa
+    given-names: Chimdumebi
+    alias: ChimdumebiNebolisa
+license: MIT
+repository-code: https://github.com/ChimdumebiNebolisa/Evidex
+abstract: >
+  Evidex studies when designated gold evidence helps or harms LLM fact-checking
+  on a 10,000-claim balanced FEVER sample, then decomposes evidence-induced
+  regressions with blinded progressive-disclosure silver adjudication.
+  Project code is MIT-licensed. FEVER and Wikipedia-derived data files are
+  third-party material and are not relicensed by the MIT license.
+  See docs/DATA_PROVENANCE.md.
+keywords:
+  - fact verification
+  - FEVER
+  - large language models
+  - evidence utilization
+  - silver adjudication

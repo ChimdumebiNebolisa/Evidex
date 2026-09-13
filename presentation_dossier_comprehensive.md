@@ -1,5 +1,7 @@
 # FEVER Evidence-Aware Fact-Checking: Presentation Dossier
 
+> **Historical project note.** This document predates the final Evidex experiments and is retained for provenance. It covers the 10,000-claim GPT behavioral layer only. See the root README for current results.
+
 ## Abstract
 This project asks a simple question: if we give an AI model the claim plus trusted evidence, does it fact-check better than when it sees the claim alone?
 

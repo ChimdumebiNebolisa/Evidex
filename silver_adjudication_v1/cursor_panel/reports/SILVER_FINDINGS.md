@@ -105,6 +105,8 @@ same-family conservatism repeating under full disclosure.
 
 ## One next experiment (not run)
 
+> **Historical note.** This section records the experiment as proposed at the time this report was frozen. The 231-item Claude residual Stage C panel was subsequently run (`../claude_residual_panel/`). A later Claude A→B→C panel on all 226 regressions is the main cross-family replication (`../claude_full_regression_panel/`). Do not read the heading as current project status. The original text below is unchanged.
+
 Run a **locked different-model-family Stage C panel on the 231 residual
 Ambiguous/Unresolved items only**, same blinded reconstructed evidence,
 same rubric, no GLM or Cursor outputs shown. That is the cheapest test of

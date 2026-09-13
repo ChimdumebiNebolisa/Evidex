@@ -1,5 +1,7 @@
 # Professor Update (1000-Claim Migration Status)
 
+> **Historical project note.** This document predates the final Evidex experiments and is retained for provenance. See the root README for current results.
+
 Date: 2026-04-05
 Repo: research-symposium-etamu-2026 (branch: main)
 

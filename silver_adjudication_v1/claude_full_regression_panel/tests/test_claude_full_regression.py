@@ -268,14 +268,21 @@ class TestFreezeIntegrity(unittest.TestCase):
 
 
 class TestOldExperimentsUntouched(unittest.TestCase):
+    # Frozen scientific artifacts only. Panel reports and analysis_v2 README
+    # may receive status banners during documentation packaging.
     PROTECTED = [
-        "silver_adjudication_v1/cursor_panel",
-        "silver_adjudication_v1/claude_residual_panel",
+        "silver_adjudication_v1/cursor_panel/judgments",
+        "silver_adjudication_v1/cursor_panel/freezes",
+        "silver_adjudication_v1/claude_residual_panel/judgments",
+        "silver_adjudication_v1/claude_residual_panel/freezes",
+        "silver_adjudication_v1/claude_residual_panel/data",
         "silver_adjudication_v1/judgments",
         "silver_adjudication_v1/data",
         "silver_adjudication_v1/prompts",
-        "silver_adjudication_v1/src",
-        "analysis_v2",
+        "analysis_v2/data",
+        "analysis_v2/tables",
+        "analysis_v2/src",
+        "analysis_v2/figures",
     ]
 
     def test_no_uncommitted_changes_to_frozen_experiments(self):

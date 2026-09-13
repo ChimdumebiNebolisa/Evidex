@@ -1,5 +1,7 @@
 # Final Evidex strengthening synthesis
 
+> **Intermediate synthesis.** This document was the layer-by-layer write-up after the Claude residual Stage C panel. A subsequent Claude five-judge A→B→C panel on all 226 unique regressions is now the main cross-family replication. The canonical final synthesis is [`../../claude_full_regression_panel/reports/CROSS_FAMILY_SYNTHESIS.md`](../../claude_full_regression_panel/reports/CROSS_FAMILY_SYNTHESIS.md). Numbers in this file are unchanged and remain valid for the residual experiment.
+
 Evidex now has six automated layers. They answer different questions.
 Do not collapse them into one validation percentage.
 
