@@ -1,0 +1,29 @@
+{
+  "panel": "claude_full_regression",
+  "model": "claude-opus-5-thinking-high",
+  "required_model": "claude-opus-5-thinking-high",
+  "judges": [
+    "claude_full_judge_1",
+    "claude_full_judge_2",
+    "claude_full_judge_3",
+    "claude_full_judge_4",
+    "claude_full_judge_5"
+  ],
+  "resolver": null,
+  "stages": ["A", "B", "C"],
+  "date": "2026-09-13",
+  "cursor_version": "Cursor agent session; model slug claude-opus-5-thinking-high",
+  "batch_size": 77,
+  "max_retries": 2,
+  "expected_cohort_n": 226,
+  "expected_judgments_per_stage": 1130,
+  "expected_judgments_total": 3390,
+  "inference": {
+    "temperature": "provider_default",
+    "auto": false,
+    "inherit": false,
+    "web_browse": false,
+    "external_retrieval": false
+  },
+  "notes": "If claude-opus-5-thinking-high becomes unavailable, stop. Do not substitute and never fall back to Grok or GLM. This panel replicates the full Cursor/Grok A-B-C progressive-disclosure protocol on all 226 unique GPT regressions. Judges are never told the items are regressions, and never see FEVER labels, GPT predictions, NLI diagnostics, Grok/GLM judgments, prior Claude judgments, or existing taxonomy labels."
+}
