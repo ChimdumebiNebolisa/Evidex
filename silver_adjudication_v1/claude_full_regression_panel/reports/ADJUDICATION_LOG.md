@@ -50,7 +50,25 @@ anti-cherry-picking documentation.
 
 ## Judging
 
-(appended as waves complete)
+### Stage A (sentence-level evidence only) — complete, frozen
+
+- 15 packets (5 judges × 3 batches of 77/77/72), one fresh Task subagent each,
+  all on `claude-opus-5-thinking-high`.
+- Launched in three waves of five to stay inside the background-subagent
+  concurrency limit. Wave order was judge-major only for scheduling; item order
+  inside every packet is the same fixed shuffled cohort order for all judges.
+- Delivered: 226/226 valid records per judge, 1130 total. No malformed files,
+  no schema rejections, no retries needed, no missing items.
+- Exact launch text for every packet archived under
+  `blind_io/launch_prompts/stage_a/`.
+- Frozen to `freezes/freeze_stage_A.json`; integrity re-verified after writing.
+
+### Stage B (adds page titles) — launched after Stage A freeze
+
+- Stage B packets were generated only after `freeze_stage_A.json` verified, so
+  no judge could see Stage B evidence before Stage A was locked.
+- Fresh subagents again: no judge context carries over from Stage A, matching
+  the Cursor/Grok convention of fresh contexts between stages.
 
 ## Completeness
 

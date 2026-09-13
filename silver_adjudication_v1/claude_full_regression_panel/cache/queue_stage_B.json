@@ -1,0 +1,122 @@
+[
+  {
+    "judge": "claude_full_judge_1",
+    "batch": "claude_full_judge_1_batch_01",
+    "stage": "B",
+    "n": 77,
+    "packet": "silver_adjudication_v1/blind_io/packets/stage_b/claude_full_judge_1_batch_01.json",
+    "output": "silver_adjudication_v1/blind_io/inbox/stage_b/claude_full_judge_1_batch_01.jsonl"
+  },
+  {
+    "judge": "claude_full_judge_1",
+    "batch": "claude_full_judge_1_batch_02",
+    "stage": "B",
+    "n": 77,
+    "packet": "silver_adjudication_v1/blind_io/packets/stage_b/claude_full_judge_1_batch_02.json",
+    "output": "silver_adjudication_v1/blind_io/inbox/stage_b/claude_full_judge_1_batch_02.jsonl"
+  },
+  {
+    "judge": "claude_full_judge_1",
+    "batch": "claude_full_judge_1_batch_03",
+    "stage": "B",
+    "n": 72,
+    "packet": "silver_adjudication_v1/blind_io/packets/stage_b/claude_full_judge_1_batch_03.json",
+    "output": "silver_adjudication_v1/blind_io/inbox/stage_b/claude_full_judge_1_batch_03.jsonl"
+  },
+  {
+    "judge": "claude_full_judge_2",
+    "batch": "claude_full_judge_2_batch_01",
+    "stage": "B",
+    "n": 77,
+    "packet": "silver_adjudication_v1/blind_io/packets/stage_b/claude_full_judge_2_batch_01.json",
+    "output": "silver_adjudication_v1/blind_io/inbox/stage_b/claude_full_judge_2_batch_01.jsonl"
+  },
+  {
+    "judge": "claude_full_judge_2",
+    "batch": "claude_full_judge_2_batch_02",
+    "stage": "B",
+    "n": 77,
+    "packet": "silver_adjudication_v1/blind_io/packets/stage_b/claude_full_judge_2_batch_02.json",
+    "output": "silver_adjudication_v1/blind_io/inbox/stage_b/claude_full_judge_2_batch_02.jsonl"
+  },
+  {
+    "judge": "claude_full_judge_2",
+    "batch": "claude_full_judge_2_batch_03",
+    "stage": "B",
+    "n": 72,
+    "packet": "silver_adjudication_v1/blind_io/packets/stage_b/claude_full_judge_2_batch_03.json",
+    "output": "silver_adjudication_v1/blind_io/inbox/stage_b/claude_full_judge_2_batch_03.jsonl"
+  },
+  {
+    "judge": "claude_full_judge_3",
+    "batch": "claude_full_judge_3_batch_01",
+    "stage": "B",
+    "n": 77,
+    "packet": "silver_adjudication_v1/blind_io/packets/stage_b/claude_full_judge_3_batch_01.json",
+    "output": "silver_adjudication_v1/blind_io/inbox/stage_b/claude_full_judge_3_batch_01.jsonl"
+  },
+  {
+    "judge": "claude_full_judge_3",
+    "batch": "claude_full_judge_3_batch_02",
+    "stage": "B",
+    "n": 77,
+    "packet": "silver_adjudication_v1/blind_io/packets/stage_b/claude_full_judge_3_batch_02.json",
+    "output": "silver_adjudication_v1/blind_io/inbox/stage_b/claude_full_judge_3_batch_02.jsonl"
+  },
+  {
+    "judge": "claude_full_judge_3",
+    "batch": "claude_full_judge_3_batch_03",
+    "stage": "B",
+    "n": 72,
+    "packet": "silver_adjudication_v1/blind_io/packets/stage_b/claude_full_judge_3_batch_03.json",
+    "output": "silver_adjudication_v1/blind_io/inbox/stage_b/claude_full_judge_3_batch_03.jsonl"
+  },
+  {
+    "judge": "claude_full_judge_4",
+    "batch": "claude_full_judge_4_batch_01",
+    "stage": "B",
+    "n": 77,
+    "packet": "silver_adjudication_v1/blind_io/packets/stage_b/claude_full_judge_4_batch_01.json",
+    "output": "silver_adjudication_v1/blind_io/inbox/stage_b/claude_full_judge_4_batch_01.jsonl"
+  },
+  {
+    "judge": "claude_full_judge_4",
+    "batch": "claude_full_judge_4_batch_02",
+    "stage": "B",
+    "n": 77,
+    "packet": "silver_adjudication_v1/blind_io/packets/stage_b/claude_full_judge_4_batch_02.json",
+    "output": "silver_adjudication_v1/blind_io/inbox/stage_b/claude_full_judge_4_batch_02.jsonl"
+  },
+  {
+    "judge": "claude_full_judge_4",
+    "batch": "claude_full_judge_4_batch_03",
+    "stage": "B",
+    "n": 72,
+    "packet": "silver_adjudication_v1/blind_io/packets/stage_b/claude_full_judge_4_batch_03.json",
+    "output": "silver_adjudication_v1/blind_io/inbox/stage_b/claude_full_judge_4_batch_03.jsonl"
+  },
+  {
+    "judge": "claude_full_judge_5",
+    "batch": "claude_full_judge_5_batch_01",
+    "stage": "B",
+    "n": 77,
+    "packet": "silver_adjudication_v1/blind_io/packets/stage_b/claude_full_judge_5_batch_01.json",
+    "output": "silver_adjudication_v1/blind_io/inbox/stage_b/claude_full_judge_5_batch_01.jsonl"
+  },
+  {
+    "judge": "claude_full_judge_5",
+    "batch": "claude_full_judge_5_batch_02",
+    "stage": "B",
+    "n": 77,
+    "packet": "silver_adjudication_v1/blind_io/packets/stage_b/claude_full_judge_5_batch_02.json",
+    "output": "silver_adjudication_v1/blind_io/inbox/stage_b/claude_full_judge_5_batch_02.jsonl"
+  },
+  {
+    "judge": "claude_full_judge_5",
+    "batch": "claude_full_judge_5_batch_03",
+    "stage": "B",
+    "n": 72,
+    "packet": "silver_adjudication_v1/blind_io/packets/stage_b/claude_full_judge_5_batch_03.json",
+    "output": "silver_adjudication_v1/blind_io/inbox/stage_b/claude_full_judge_5_batch_03.jsonl"
+  }
+]

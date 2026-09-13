@@ -1,0 +1,14 @@
+{
+  "stage": "A",
+  "model": "claude-opus-5-thinking-high",
+  "n_items": 226,
+  "n_judgments": 1130,
+  "blinded": "369673381f72cd709d594e5da02b41097b021cfcbe72c625500e682da19fd585",
+  "judges": {
+    "claude_full_judge_1": "f1788b4244d591b3b02714e9d8fa9b278f3bc6e39f197abfbe39f51586f67a87",
+    "claude_full_judge_2": "2b45fd76cee2e1d785a2a47ea2186650319a487609f405c0e683d3af38916bdf",
+    "claude_full_judge_3": "549e4d8b5494658462c1fb3ca0131bcf6f53292cec6b1cdb6289383fcdf371a3",
+    "claude_full_judge_4": "363a66844c4b81e76510a0eda628541721865d3d357b3a006798359756eb2e01",
+    "claude_full_judge_5": "e276afaacf5f2d4956a3a059cb30a4ca15c85fcf38a4b64f4567dc5d16e9680e"
+  }
+}

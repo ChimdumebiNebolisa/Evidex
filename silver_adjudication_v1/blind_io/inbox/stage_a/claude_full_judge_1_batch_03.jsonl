@@ -1,0 +1,722 @@
+[
+  {
+    "item_id": "CF-000155",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["numerical_or_temporal_reasoning", "multi_sentence_integration"],
+    "brief_reason": "The song appeared on a 2000 album but was released as a single in October 2001, so \"released in 2000\" is not settled by the evidence."
+  },
+  {
+    "item_id": "CF-000156",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 65,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence confirms publication for more than a century but says nothing about the guides being definitive or restaurant-focused."
+  },
+  {
+    "item_id": "CF-000157",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence describes a film following journalists who were captured and killed, but does not say it concerns an investigation of crimes."
+  },
+  {
+    "item_id": "CF-000158",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The evidence lists knockout counts only for overlapping subsets of fights and never gives a career knockout total."
+  },
+  {
+    "item_id": "CF-000159",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence states the KGB was a military service governed by army laws, directly contradicting the claim."
+  },
+  {
+    "item_id": "CF-000160",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 58,
+    "issue_flags": ["partial_warrant", "other"],
+    "brief_reason": "The evidence gives a release date and box office figures but says nothing about any release format."
+  },
+  {
+    "item_id": "CF-000161",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says the song reached number one on the US Billboard Hot 100, which is a chart list in a country."
+  },
+  {
+    "item_id": "CF-000162",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 70,
+    "issue_flags": ["numerical_or_temporal_reasoning", "multi_sentence_integration"],
+    "brief_reason": "The discoverer Arthur Jeffrey Dempster was born on August 14, 1886, that is within August rather than after it."
+  },
+  {
+    "item_id": "CF-000163",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence states Arijit Singh is an Indian musician, matching the claim apart from a minor spelling difference."
+  },
+  {
+    "item_id": "CF-000164",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["entity_or_attribute_confusion", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives 22 November 1968 as her birth date, not a graduation date."
+  },
+  {
+    "item_id": "CF-000165",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives his birth date as March 27, 1949, not May 27, 1949."
+  },
+  {
+    "item_id": "CF-000166",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 68,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence places these receptors in the cell membranes of certain neurons and other cells, not of \"codes\"."
+  },
+  {
+    "item_id": "CF-000167",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 68,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The evidence gives only Aarhus's size rank and municipal seat status, with nothing about its geographical position within Denmark."
+  },
+  {
+    "item_id": "CF-000168",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "partial_warrant"],
+    "brief_reason": "The evidence implies a deity via the Roman equivalent goddess Venus but does not settle whether the subject counts as a person."
+  },
+  {
+    "item_id": "CF-000169",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence lists research, discovery, and characterization, so the claim's \"development\" element is neither stated nor excluded."
+  },
+  {
+    "item_id": "CF-000170",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 72,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The evidence covers the PRC's founding and the ROC's relocation but provides no membership numbers to compare."
+  },
+  {
+    "item_id": "CF-000171",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 65,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence attributes the growth to high birth and conversion rates, not to \"pizzas\"."
+  },
+  {
+    "item_id": "CF-000172",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 72,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says the two actors met while filming the TV series and married, though the series is only referred to by pronoun."
+  },
+  {
+    "item_id": "CF-000173",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence calls him a political figure, which does not establish that he is a political leader."
+  },
+  {
+    "item_id": "CF-000174",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The evidence states exactly two Grammy nominations, leaving it unsettled whether that qualifies as \"several\"."
+  },
+  {
+    "item_id": "CF-000175",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence defines internet access as connecting using computer terminals, computers, and mobile devices."
+  },
+  {
+    "item_id": "CF-000176",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "The distributor Columbia Pictures is described as an American film studio and film distributor, not a television studio."
+  },
+  {
+    "item_id": "CF-000177",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 62,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence says the carnival is created and hosted by Tyler, The Creator and Odd Future, which implies their attendance without stating it."
+  },
+  {
+    "item_id": "CF-000178",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["possible_missing_title_context", "other"],
+    "brief_reason": "The evidence records a first performance at the Opéra de Monte-Carlo in 1914, which loosely satisfies the vague claim of premiering \"in a manner\"."
+  },
+  {
+    "item_id": "CF-000179",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 62,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence attributes the $16 million to the span June 2014 to June 2015, not to the single month of June 2014."
+  },
+  {
+    "item_id": "CF-000180",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Paul Dini wrote the series and DC Comics published it."
+  },
+  {
+    "item_id": "CF-000181",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 72,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says he was first secretary of the American Philosophical Society and elected president, both titles."
+  },
+  {
+    "item_id": "CF-000182",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "The evidence identifies the source as a 1965 novel by John Nichols, not a biography."
+  },
+  {
+    "item_id": "CF-000183",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 70,
+    "issue_flags": ["numerical_or_temporal_reasoning", "multi_sentence_integration"],
+    "brief_reason": "The evidence has him appearing through the 2008-2010 specials after Journey's End, ending with The End of Time, so Journey's End is not his penultimate appearance."
+  },
+  {
+    "item_id": "CF-000184",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence gives his full name as David Chester Gibbons, so the middle name is Chester alone."
+  },
+  {
+    "item_id": "CF-000185",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence states over 1.8 million annual visitors, not over 18 million."
+  },
+  {
+    "item_id": "CF-000186",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 85,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "The funding body, the Office of Naval Research, coordinates programs of the U.S. Navy and Marine Corps, not the Army."
+  },
+  {
+    "item_id": "CF-000187",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence says the chair has been retired except for that group, inverting the claim that it was kept in operation except for them."
+  },
+  {
+    "item_id": "CF-000188",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence dates 12 June 1919 as her birth and 14 January 2004 as her death."
+  },
+  {
+    "item_id": "CF-000189",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["partial_warrant", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says she appeared in over sixty television and film productions but names only films and does not establish starring roles in television shows."
+  },
+  {
+    "item_id": "CF-000190",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["entity_or_attribute_confusion", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives 12 June 1919 as her birth date, which cannot be a college graduation date."
+  },
+  {
+    "item_id": "CF-000191",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence describes him as a former boxer who competed only from 1996 to 2015 and now works as a promoter."
+  },
+  {
+    "item_id": "CF-000192",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 70,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says it was signed at the San Francisco War Memorial and Performing Arts Center in June 1945."
+  },
+  {
+    "item_id": "CF-000193",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 85,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence states martial arts films are a subgenre of the action film, reversing the claimed relationship."
+  },
+  {
+    "item_id": "CF-000194",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 72,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "The evidence gives her name as Kesha Rose Sebert rather than Kesha Rosa Sebert, and says nothing about who gave the name."
+  },
+  {
+    "item_id": "CF-000195",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence dates the album to 2000 but the song's single release to October 2001, so the claimed 2000 release is unsettled."
+  },
+  {
+    "item_id": "CF-000196",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["partial_warrant", "possible_missing_title_context"],
+    "brief_reason": "The evidence mentions nightshades, horse nettles, and plants grown for ornamental flowers and fruit, but not vegetables."
+  },
+  {
+    "item_id": "CF-000197",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 65,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence states Georgians arose from the Colchian and Iberian civilizations without any hedge, contradicting \"barely\"."
+  },
+  {
+    "item_id": "CF-000198",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 65,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence supports the \"mainland\" usage by South Island residents but says nothing about it being a cultured place."
+  },
+  {
+    "item_id": "CF-000199",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 72,
+    "issue_flags": ["multi_sentence_integration"],
+    "brief_reason": "The evidence has him nominated for writing Heaven Can Wait, a film it says was co-written by Elaine May."
+  },
+  {
+    "item_id": "CF-000200",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence places Akkineni Nageswara Rao in the 1978 Telugu remake and says nothing about the cast of the original film."
+  },
+  {
+    "item_id": "CF-000201",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 65,
+    "issue_flags": ["possible_missing_surrounding_context", "partial_warrant"],
+    "brief_reason": "The evidence links The Beatles to Liverpool's tourism status but does not say the band formed there."
+  },
+  {
+    "item_id": "CF-000202",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence places widespread domestication by 3000 BC, which does not settle whether it was already widespread by the earlier date of 3103 BC."
+  },
+  {
+    "item_id": "CF-000203",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence records his induction into the Vocal Group Hall of Fame in 2001."
+  },
+  {
+    "item_id": "CF-000204",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says she was born Bernice Frankel and known as Bea Arthur, reversing the claimed direction of the renaming."
+  },
+  {
+    "item_id": "CF-000205",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "The evidence names Janet Leigh as her mother and Tony Curtis as her father."
+  },
+  {
+    "item_id": "CF-000206",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 68,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The evidence mentions territory lost to Sweden and a nationalist language movement but never says Danish is spoken in Sweden."
+  },
+  {
+    "item_id": "CF-000207",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 75,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "The evidence says the poem is historically inaccurate and mentions events that never happened."
+  },
+  {
+    "item_id": "CF-000208",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence calls Louie a television comedy series, leaving the claimed comedy-drama classification unestablished."
+  },
+  {
+    "item_id": "CF-000209",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 65,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence states it is an annual continental football club competition, without the claim's \"almost\" hedge."
+  },
+  {
+    "item_id": "CF-000210",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 70,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "The evidence defines an ice sheet as a mass of glacier ice, not mostly snow."
+  },
+  {
+    "item_id": "CF-000211",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 62,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence says Murdoch formed the British broadcaster BSkyB in 1990, though it applies the label \"broadcaster\" to BSkyB itself."
+  },
+  {
+    "item_id": "CF-000212",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence credits him with altering the profile of Indian cinema but says nothing about films produced across generations."
+  },
+  {
+    "item_id": "CF-000213",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 68,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "The evidence lists abandonment of populated areas from rising sea levels among the effects, though the causing phenomenon is unnamed in the sentence."
+  },
+  {
+    "item_id": "CF-000214",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 62,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence describes TV Choice as a weekly print listings magazine, which is not broadcast at a set time."
+  },
+  {
+    "item_id": "CF-000215",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "The cinematographer Nicolas Roeg is described as an English film director and cinematographer, not a film critic."
+  },
+  {
+    "item_id": "CF-000216",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 65,
+    "issue_flags": ["possible_missing_surrounding_context", "partial_warrant"],
+    "brief_reason": "The evidence describes the polar bear's carnivorous diet and Arctic range but says nothing about the ocean being its main food source."
+  },
+  {
+    "item_id": "CF-000217",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence dates this Gaius Julius Caesar's death to 85 BC, which precedes 30 BC."
+  },
+  {
+    "item_id": "CF-000218",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["negation_or_scope", "multi_sentence_integration"],
+    "brief_reason": "The evidence says he was accompanied by Wilfred Mott on his final adventure in The End of Time, so he does not travel alone there."
+  },
+  {
+    "item_id": "CF-000219",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The evidence gives knockout counts only for overlapping fight categories and never states a career knockout total."
+  },
+  {
+    "item_id": "CF-000220",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 62,
+    "issue_flags": ["negation_or_scope", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence states the town was the Bulgarian Empire's capital between 972 and 992 without the claim's \"barely\" hedge."
+  },
+  {
+    "item_id": "CF-000221",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence attributes the growth to high birth and conversion rates, not high death rates."
+  },
+  {
+    "item_id": "CF-000222",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 75,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "The evidence calls Recovery Eminem's seventh studio album, not a song."
+  },
+  {
+    "item_id": "CF-000223",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["negation_or_scope", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives Yemen's area as 527,970 km2, that is 203,850 sq mi, contradicting the negated claim."
+  },
+  {
+    "item_id": "CF-000224",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence places Ohio to the northwest and only Maryland to the northeast."
+  },
+  {
+    "item_id": "CF-000225",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 72,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says she implemented policies known as Thatcherism, not \"windows\"."
+  },
+  {
+    "item_id": "CF-000226",
+    "judge_id": "claude_full_judge_1",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 70,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The evidence only describes the 2011 film Rio and gives no information about any sequel or its release date."
+  }
+]
