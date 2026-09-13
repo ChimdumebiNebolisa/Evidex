@@ -1,0 +1,27 @@
+{
+  "stage": "B",
+  "reason_tag": "duplicate_rerun_superseded",
+  "quarantined_at": "2026-09-13T21:12:29.769830+00:00",
+  "locked_model": "claude-opus-5-thinking-high",
+  "reason": "Cursor reported 'Other Models usage limit reached; switched to grok-4.6' for the subagent that produced this file. Model provenance cannot be established, and the panel model lock forbids any non-Claude judgment, so the whole (judge, batch) unit is discarded unread rather than ingested. Verdicts were not inspected before or after quarantine.",
+  "files": [
+    {
+      "file": "claude_full_judge_4_batch_01.jsonl",
+      "sha256": "745e472dae45e8c7ef15f29f784cc50aa6e00a44cdcc24bb21e8d92718f4c242",
+      "bytes": 28750,
+      "status": "quarantined"
+    },
+    {
+      "file": "claude_full_judge_4_batch_02.jsonl",
+      "sha256": "adfcdb185f8cf7c2b6b9f2eabc00c16c781730f131fa1f3981737faa6889a8a1",
+      "bytes": 28096,
+      "status": "quarantined"
+    },
+    {
+      "file": "claude_full_judge_4_batch_03.jsonl",
+      "sha256": "497da0e9a9355f39c1634c1d8ee0aff8d10a0f093ce79e1963add07a0405504d",
+      "bytes": 25090,
+      "status": "quarantined"
+    }
+  ]
+}

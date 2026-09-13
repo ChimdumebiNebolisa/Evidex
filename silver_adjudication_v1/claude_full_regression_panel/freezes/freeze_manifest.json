@@ -1,0 +1,39 @@
+{
+  "model": "claude-opus-5-thinking-high",
+  "cohort_n": 226,
+  "judges": 5,
+  "stages": [
+    "A",
+    "B",
+    "C"
+  ],
+  "judgments_total": 3390,
+  "files": {
+    "id_map.csv": "5ad1e7fadaf7a1d00b670b95bc7911653199efb3c2f5e92cb97fa5ecc1b2e08e",
+    "cohort_source.json": "c15b578cb2b9e793d0262e1116e5e8ce76d479997fc6b631357d04f7df020600",
+    "consensus_changes.parquet": "f357488d53705bba9a342a1a97f58c7088e8c33c81944caef632a3b4bd92ac51",
+    "verdict_changes.parquet": "71ea826c17e3e101bd0068cbf11ad7db8b9f3b6f10fc9062782ff42ea0dc446d",
+    "judge_behavior.csv": "b77e13142ec52d82c7b21e446458087cd1ee38c33a02cd61c7f7e1e12dc1619c",
+    "representation_sensitivity.csv": "04c33d97a2e00942b7302f4c123a36d3ee3f72a1150ec1c6d8663715d06c3a8a",
+    "stage_transition_counts.csv": "02a405c8885f1407c918f0af973fd597efc6547715813cfddc240ee296c73b9c",
+    "blinded_stage_a.jsonl": "369673381f72cd709d594e5da02b41097b021cfcbe72c625500e682da19fd585",
+    "freeze_stage_A.json": "82e4dd0746f57af20ac0acb17521d165149a64fed0ac1bd74aed51d344be07c5",
+    "consensus_stage_A.parquet": "d51ad4608ad68579bf97e51037fb971ed89ef2c81d040ec3bbcfda32b18a66f4",
+    "consensus_stage_A.csv": "5a237f470854238ffcb2981a52a2fcfa39d69696145ed87a565cad1ee662d83f",
+    "agreement_stage_A.csv": "9cb75b34243dddcd55c8bd95bf0c1f4c0673eb81cfbde638233104832c59c98b",
+    "judgment_completeness_stage_A.csv": "ce998a24d886021460edcd5813eb8ecc8dc06cbc63a13044702d7a8b2883df04",
+    "blinded_stage_b.jsonl": "9d642adf5507e770bc542a52ed0055af94adee071a4296f41d6c3b612e878c08",
+    "freeze_stage_B.json": "d1538f4b72d7055c5e8bd51ea432dc540d159e8020b743b0eaa5a37a74c49758",
+    "consensus_stage_B.parquet": "87ae5c35a3967fc28a0d2e0bcc4caa9ebaaaac964ab4b9371fa7823c367c4177",
+    "consensus_stage_B.csv": "994c5c8074b97ee9715750725c51833edd73b9d67e240cc941f49c38c417a729",
+    "agreement_stage_B.csv": "7fe04edba7eccde4ca63bc104e0a7a2f3ad8d525b59a6495975cfebfdd3876d1",
+    "judgment_completeness_stage_B.csv": "4cf2acd1021e1954f0cea6b1d81bcb22665452a42948eac853d8d43c10bab1a3",
+    "blinded_stage_c.jsonl": "3a163fdf5d1ce3f8e5ea26a3b6de6630a7f0143d13b4729cb9ca4eda8cc27ebe",
+    "freeze_stage_C.json": "26cd069e26b1c196bacebdea5e66c35f6d3b5ab0d751d30bdc88ca581ac26b4a",
+    "consensus_stage_C.parquet": "2031069454b349b4408f4ef546b5f80c80832741cfa169bb363850a5776f2941",
+    "consensus_stage_C.csv": "82a2c4d6d89189b24dbf7bab839808dc27398b07c0f7f0c6e08f07e15333cba1",
+    "agreement_stage_C.csv": "166ed8f696850fc28beb12dc6c0d4c41b7a5c9a72f5f2d06023e2fefe3b01c20",
+    "judgment_completeness_stage_C.csv": "15ac324ee64a123c8217e540527e53bcbace582842d2195af289e166ad9ebaa4"
+  },
+  "commit": "27eb71a377e93b46737707723758c2505283ff7d"
+}

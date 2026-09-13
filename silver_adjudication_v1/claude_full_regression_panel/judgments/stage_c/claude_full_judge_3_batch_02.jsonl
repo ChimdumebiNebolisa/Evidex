@@ -1,0 +1,772 @@
+[
+  {
+    "item_id": "CF-000078",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["partial_warrant", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "Being the most popular desktop browser in many African countries indicates broad popularity, but the sentence relies on the title for the referent of \"It\" and covers only one region."
+  },
+  {
+    "item_id": "CF-000079",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence states 8 escalators (and 57 elevators), not 65 escalators."
+  },
+  {
+    "item_id": "CF-000080",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 72,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence shows the song rose from #86 to #38 and peaked at #23, so it climbed to 23 rather than falling to it."
+  },
+  {
+    "item_id": "CF-000081",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 60,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence calls it a power ballad by Foreigner but says nothing about a single release."
+  },
+  {
+    "item_id": "CF-000082",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 60,
+    "issue_flags": ["negation_or_scope", "other"],
+    "brief_reason": "The evidence states categorically that Cléopâtre is one of three posthumously premiered Massenet operas, with no frequency qualifier such as \"rarely\"."
+  },
+  {
+    "item_id": "CF-000083",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives the founding year as 1971, not 1979."
+  },
+  {
+    "item_id": "CF-000084",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence places the theatre in Victoria Street, contradicting the claim that it is outside it."
+  },
+  {
+    "item_id": "CF-000085",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence gives the base as Montreal, Canada, but does not itself state that Montreal is in Quebec."
+  },
+  {
+    "item_id": "CF-000086",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Linklater's daughter Lorelei plays Mason's sister, not a goose."
+  },
+  {
+    "item_id": "CF-000087",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 60,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says a monk lives alone or with other monks, not with other types of people."
+  },
+  {
+    "item_id": "CF-000088",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 70,
+    "issue_flags": ["partial_warrant", "multi_sentence_integration"],
+    "brief_reason": "The evidence lists chest pain upon breathing in among PE symptoms, which is a chest sensation, though the term is looser than the evidence wording."
+  },
+  {
+    "item_id": "CF-000089",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 74,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence states the album was released by Capitol Nashville, though it does not explicitly call it a record label."
+  },
+  {
+    "item_id": "CF-000090",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 66,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence places Virginia to the southeast but Ohio to the northwest."
+  },
+  {
+    "item_id": "CF-000091",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 68,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The evidence identifies her as an actress and businesswoman but mentions no television show."
+  },
+  {
+    "item_id": "CF-000092",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence describes swelling of the legs and feet, not the hands."
+  },
+  {
+    "item_id": "CF-000093",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 68,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence describes EA Black Box as a video game developer, not a picture game developer."
+  },
+  {
+    "item_id": "CF-000094",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence calls her the youngest daughter of Billy Ray Cyrus, not his adviser."
+  },
+  {
+    "item_id": "CF-000095",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence states he is known for playing DS Sam Casey in Law & Order: UK, with the subject supplied by the page title."
+  },
+  {
+    "item_id": "CF-000096",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "The evidence shows his character is the son of a doctor character, not that Van Dyke himself is a doctor's son."
+  },
+  {
+    "item_id": "CF-000097",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 60,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence says only that he is an American actor, which does not establish fame."
+  },
+  {
+    "item_id": "CF-000098",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 66,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence describes a thin and flexible magnetic storage medium, not an electronic one."
+  },
+  {
+    "item_id": "CF-000099",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["multi_sentence_integration", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence dates the film to 1933 as Pre-Code and places Code enforcement in mid-1934, so the film preceded enforcement."
+  },
+  {
+    "item_id": "CF-000100",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 70,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence says mAChRs form G protein-receptor complexes in cell membranes."
+  },
+  {
+    "item_id": "CF-000101",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["entity_or_attribute_confusion", "negation_or_scope"],
+    "brief_reason": "The evidence mentions only the Kingdom of Norway and says nothing about Mercia."
+  },
+  {
+    "item_id": "CF-000102",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "The evidence describes Marco Polo as a Netflix drama web television series, not a book series."
+  },
+  {
+    "item_id": "CF-000103",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 68,
+    "issue_flags": ["entity_or_attribute_confusion", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives December 1, 1985 as her birth date, which is not a conception date."
+  },
+  {
+    "item_id": "CF-000104",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 86,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence states Mercedes-Benz is a division of Daimler AG, reversing the relationship in the claim."
+  },
+  {
+    "item_id": "CF-000105",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 68,
+    "issue_flags": ["negation_or_scope", "multi_sentence_integration"],
+    "brief_reason": "The evidence says the Baloch mainly speak Balochi, contradicting the claim that they barely speak that branch."
+  },
+  {
+    "item_id": "CF-000106",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states the album Keith Urban was released by Capitol Nashville."
+  },
+  {
+    "item_id": "CF-000107",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 68,
+    "issue_flags": ["entity_or_attribute_confusion", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives May 13, 1922 as her birth date, not a conception date."
+  },
+  {
+    "item_id": "CF-000108",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives 19 June 1943 as his birth date and 10 April 2008 as his death date."
+  },
+  {
+    "item_id": "CF-000109",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 62,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_missing_surrounding_context"],
+    "brief_reason": "The evidence reports only UK Singles Chart placements and says nothing about Billboard."
+  },
+  {
+    "item_id": "CF-000110",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence identifies it as a song by Eminem featuring Rihanna, which counts as a creative work but is not described as art."
+  },
+  {
+    "item_id": "CF-000111",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["partial_warrant", "possible_missing_surrounding_context"],
+    "brief_reason": "The evidence ties Portland, Oregon to the founders' prior jobs at Nike, not explicitly to where Wildfang was founded."
+  },
+  {
+    "item_id": "CF-000112",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 52,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence gives the full name Amancio Ortega Gaona but does not indicate whether Gaona is a middle name or a second surname."
+  },
+  {
+    "item_id": "CF-000113",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 62,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence presents NEO as the abbreviation of near-Earth object, i.e. a shortening rather than a lengthening."
+  },
+  {
+    "item_id": "CF-000114",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 72,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence calls the 1998 DiCaprio film an action drama, not a romantic comedy."
+  },
+  {
+    "item_id": "CF-000115",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 85,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence dates the premiere to July 20, 2005, not before that date."
+  },
+  {
+    "item_id": "CF-000116",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 66,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The evidence only dates the song to Second Helping (1974) and says nothing about Neil Young or Harvest."
+  },
+  {
+    "item_id": "CF-000117",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence confirms she is a film director and cites an Academy Award-nominated film, but a nomination does not establish an award win."
+  },
+  {
+    "item_id": "CF-000118",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence states the series is the most distributed property of MTV Networks, contradicting the negated claim."
+  },
+  {
+    "item_id": "CF-000119",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "The evidence names several actors featured in the film, with the film identified by the page title."
+  },
+  {
+    "item_id": "CF-000120",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 56,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence says the only effective treatment is a strict gluten-free diet, which is a dietary regimen but is not described as simply a healthy diet."
+  },
+  {
+    "item_id": "CF-000121",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 70,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence calls it a 2009 coming-of-age drama film, not a commercial."
+  },
+  {
+    "item_id": "CF-000122",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 56,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence describes several state-imposed reforms standardizing currency, measures, and writing, though it does not call them legislation."
+  },
+  {
+    "item_id": "CF-000123",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["multi_sentence_integration", "negation_or_scope"],
+    "brief_reason": "The evidence shows Patel starred in Chappie, which Neill Blomkamp directed."
+  },
+  {
+    "item_id": "CF-000124",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["multi_sentence_integration"],
+    "brief_reason": "The evidence says the film centers on Ed Wood, who is described as an American filmmaker and actor."
+  },
+  {
+    "item_id": "CF-000125",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says Kajol has received six Filmfare Awards, with the claim's spelling differing slightly."
+  },
+  {
+    "item_id": "CF-000126",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 68,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence describes it as an Indian crime fiction anthology television series with regular weekend episodes."
+  },
+  {
+    "item_id": "CF-000127",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 60,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence places Jayasudha in the 1978 Telugu remake Vichitra Jeevitham rather than in Daag itself."
+  },
+  {
+    "item_id": "CF-000128",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 68,
+    "issue_flags": ["entity_or_attribute_confusion", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives March 1, 1987 as her birth date, not a conception date."
+  },
+  {
+    "item_id": "CF-000129",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence describes Arijit Singh as an Indian musician, with only a spelling difference from the claim."
+  },
+  {
+    "item_id": "CF-000130",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 64,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Aarhus is the second-largest city in Denmark, not in anything called a flag."
+  },
+  {
+    "item_id": "CF-000131",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 56,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence confirms the 200 N.W. 5th Street location but does not state that the building was demolished."
+  },
+  {
+    "item_id": "CF-000132",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 72,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says Topman has outlets in six Irish cities and towns, not one."
+  },
+  {
+    "item_id": "CF-000133",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 72,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says A&E is the flagship property of A&E Networks, not of America."
+  },
+  {
+    "item_id": "CF-000134",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 86,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives onset around 60 generally but around 50 in inherited cases, i.e. earlier rather than later."
+  },
+  {
+    "item_id": "CF-000135",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["multi_sentence_integration"],
+    "brief_reason": "The evidence says Navigator was succeeded by Netscape Communicator, described as the fourth major release in the Netscape line of browsers."
+  },
+  {
+    "item_id": "CF-000136",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 66,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "The evidence credits Kerner Entertainment and Avnet-Kerner as producers, with the Disney subsidiary Walt Disney Pictures only distributing."
+  },
+  {
+    "item_id": "CF-000137",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 70,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence identifies Tool as an American rock band, which is a musical artist."
+  },
+  {
+    "item_id": "CF-000138",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 86,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence dates the Indochinese Federation name to after 1947, not after 1955."
+  },
+  {
+    "item_id": "CF-000139",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 70,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence says the song topped charts in Canada, South Africa, and Australia."
+  },
+  {
+    "item_id": "CF-000140",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "possible_missing_surrounding_context"],
+    "brief_reason": "The evidence calls it one of the leading U.S. states for recreational boating, with the referent supplied by the page title."
+  },
+  {
+    "item_id": "CF-000141",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence has him at the Academy from about age seventeen or eighteen until thirty-seven, roughly twenty years."
+  },
+  {
+    "item_id": "CF-000142",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 62,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence mentions an Academy Award nomination and says nothing about a Grammy."
+  },
+  {
+    "item_id": "CF-000143",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives his death date as May 11, 2014, not April 11."
+  },
+  {
+    "item_id": "CF-000144",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 66,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence lists chest pain among PE symptoms, with nothing corresponding to \"national pain\"."
+  },
+  {
+    "item_id": "CF-000145",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states it was the second single from the album Nextlevelism."
+  },
+  {
+    "item_id": "CF-000146",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 74,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence says monsters are usually found in legends or horror fiction, closely matching the claim's \"myths\"."
+  },
+  {
+    "item_id": "CF-000147",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence calls Melilla a Spanish autonomous city, though it is located on the African coast rather than in mainland Spain."
+  },
+  {
+    "item_id": "CF-000148",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 64,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence describes the career of his father, Sir Keith Murdoch, not Rupert Murdoch's own work."
+  },
+  {
+    "item_id": "CF-000149",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 56,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence supports the US-based tomboyish women's apparel description but refers to clothing generally, not hats."
+  },
+  {
+    "item_id": "CF-000150",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 56,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The evidence confirms the 10 February 1894 birth date but says nothing about the day of the week."
+  },
+  {
+    "item_id": "CF-000151",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says Noah is the younger sister of Trace Cyrus, making Trace the older sibling."
+  },
+  {
+    "item_id": "CF-000152",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_missing_title_context"],
+    "brief_reason": "The evidence says the film is based on Victor Hugo's 1831 novel of the same name."
+  },
+  {
+    "item_id": "CF-000153",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 60,
+    "issue_flags": ["partial_warrant", "possible_missing_surrounding_context"],
+    "brief_reason": "The evidence lists Geraldine Chaplin among the cast but says nothing about any relationship to Charlie Chaplin."
+  },
+  {
+    "item_id": "CF-000154",
+    "judge_id": "claude_full_judge_3",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence calls it a biographical romantic drama film, not a comedy."
+  }
+]
