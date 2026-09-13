@@ -63,16 +63,38 @@ anti-cherry-picking documentation.
   `blind_io/launch_prompts/stage_a/`.
 - Frozen to `freezes/freeze_stage_A.json`; integrity re-verified after writing.
 
-### Stage B (adds page titles) — launched after Stage A freeze
+### Stage B (adds page titles) — in progress after Stage A freeze
 
 - Stage B packets were generated only after `freeze_stage_A.json` verified, so
   no judge could see Stage B evidence before Stage A was locked.
 - Fresh subagents again: no judge context carries over from Stage A, matching
   the Cursor/Grok convention of fresh contexts between stages.
+- First Stage B wave (15 packets) launched from the prior session. Several
+  packets completed a Claude `Write` of the inbox file and then the parent
+  session hit `Other Models usage limit reached / Switched to grok-4.6`.
+  **No Grok (or other) substitution was accepted.** Packets that never wrote
+  an inbox file were left missing. Packets whose Claude write landed before
+  the limit error were kept.
+- Ingested 8 valid Stage B files (schema-valid, expected counts):
+  judges 1 and 2 complete (226/226 each); judge 3 batches 02+03 (149/226);
+  judges 4 and 5 empty.
+- Resume (this session) relaunched five remaining packets on
+  `claude-opus-5-thinking-high` only. All five failed immediately with
+  `Other Models usage limit reached / Switched to grok-4.6`. **Grok was
+  refused.** No inbox file was written for any of those five packets.
+  Judge 5 batches 02 and 03 were never relaunched.
+- **STOP.** Capacity exhausted. Valid completed judgments preserved.
+  Compact remainder: `freezes/STOPPING_POINT.json`. Full item-id lists:
+  `freezes/missing_work_manifest.json`.
 
-## Completeness
+## Completeness (stopped 2026-09-13)
 
-(appended after freezes)
+- Stage A: 1,130/1,130 valid, frozen, integrity re-verified.
+- Stage B: 601/1,130 valid ingested; 529 missing. Not frozen.
+- Stage C: 0/1,130 (not launched; predecessor not frozen).
+- Panel total: 1,731/3,390 valid.
+- Stage B and C are incomplete, so consensus, taxonomy, and Grok comparison
+  are **not** run. No unblinding.
 
 ## Null findings / notes
 

@@ -15,9 +15,11 @@ from pathlib import Path
 import pandas as pd
 
 SRC = Path(__file__).resolve().parents[1] / "src"
-SV_SRC = Path(__file__).resolve().parents[2] / "src"
+SV_ROOT = Path(__file__).resolve().parents[2]
+SV_SRC = SV_ROOT / "src"
 sys.path.insert(0, str(SRC))
 sys.path.insert(0, str(SV_SRC))
+sys.path.insert(0, str(SV_ROOT))
 
 import analyze  # noqa: E402
 import consensus_agreement as ca  # noqa: E402

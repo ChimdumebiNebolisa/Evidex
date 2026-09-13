@@ -1,0 +1,53 @@
+{
+  "stopped_at": "2026-09-13T20:50:00Z",
+  "reason": "Cursor Claude usage exhausted (Other Models usage limit reached). Offered fallback grok-4.6 was refused. No model substitution.",
+  "model_lock": "claude-opus-5-thinking-high",
+  "substitution": "none",
+  "cohort_n": 226,
+  "expected_total_judgments": 3390,
+  "n_valid_total": 1731,
+  "n_missing_total": 1659,
+  "freeze_status": {
+    "A": "frozen_1130",
+    "B": "incomplete_not_frozen",
+    "C": "not_started_predecessor_not_frozen",
+    "pre_unblinding_manifest": "not_written",
+    "unblinded": false
+  },
+  "stage_B": {
+    "n_valid": 601,
+    "n_missing": 529,
+    "complete_judges": ["claude_full_judge_1", "claude_full_judge_2"],
+    "partial_judges": {
+      "claude_full_judge_3": {
+        "n_valid": 149,
+        "delivered_batches": ["02", "03"],
+        "missing_batch": "01",
+        "n_missing": 77
+      }
+    },
+    "empty_judges": ["claude_full_judge_4", "claude_full_judge_5"],
+    "remaining_packets": [
+      {"packet": "claude_full_judge_3_batch_01", "n": 77},
+      {"packet": "claude_full_judge_4_batch_01", "n": 77},
+      {"packet": "claude_full_judge_4_batch_02", "n": 77},
+      {"packet": "claude_full_judge_4_batch_03", "n": 72},
+      {"packet": "claude_full_judge_5_batch_01", "n": 77},
+      {"packet": "claude_full_judge_5_batch_02", "n": 77},
+      {"packet": "claude_full_judge_5_batch_03", "n": 72}
+    ]
+  },
+  "stage_C": {
+    "n_valid": 0,
+    "n_missing": 1130,
+    "note": "Do not generate Stage C packets until Stage B is frozen and verified."
+  },
+  "resume_when_claude_available": [
+    "Launch the seven remaining Stage B packets on claude-opus-5-thinking-high only, using the archived prompts in silver_adjudication_v1/blind_io/launch_prompts/stage_b/",
+    "Ingest, completeness-check, freeze Stage B",
+    "Then packets -> judges -> ingest -> freeze Stage C",
+    "Then consensus_agreement.py all, analyze.py freeze, verify freeze, then unblind/compare/stats",
+    "Do not unblind or compare with Grok until all 3390 judgments are frozen"
+  ],
+  "item_ids": "see missing_work_manifest.json"
+}
