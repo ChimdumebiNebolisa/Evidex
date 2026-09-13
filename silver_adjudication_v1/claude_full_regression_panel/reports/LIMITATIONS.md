@@ -83,3 +83,9 @@ The panel is bounded by Cursor Claude usage. If capacity is exhausted the
 protocol is to stop, preserve all valid judgments, and emit an exact
 missing-work manifest — never to substitute another model. Any incompleteness
 is recorded in `freezes/missing_work_manifest.json`.
+
+That path was exercised: Stage B was interrupted at 601/1,130 by a usage limit
+and the offered Grok fallback was refused. The panel was resumed on the locked
+Claude model once capacity returned, and the manifest now reports
+`complete: true` with 0 missing. The 601 pre-interruption judgments were kept
+as delivered, not rerun, so no case was re-judged for convenience.

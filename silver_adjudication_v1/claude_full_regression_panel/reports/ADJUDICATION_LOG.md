@@ -100,18 +100,50 @@ anti-cherry-picking documentation.
   valid Claude work would itself violate the no-discard rule. The restored
   files are byte-identical to the ingested copies (`ingest` refuses any file
   that differs from an already-ingested one, and reported no change).
-- **STOP.** Capacity exhausted. Valid completed judgments preserved.
-  Compact remainder: `freezes/STOPPING_POINT.json`. Full item-id lists:
-  `freezes/missing_work_manifest.json`.
+- **Interim STOP.** Capacity exhausted at 601/1,130. Valid completed judgments
+  preserved; remainder recorded in `freezes/STOPPING_POINT.json` and
+  `freezes/missing_work_manifest.json`. Nothing was discarded and no model was
+  substituted.
+- **Resumed same day once Claude capacity returned.** The seven outstanding
+  packets (judge 3 batch 01; judge 4 batches 01–03; judge 5 batches 01–03)
+  were relaunched on `claude-opus-5-thinking-high` from the archived prompts
+  in `blind_io/launch_prompts/stage_b/`. All seven delivered full counts.
+  The 601 judgments carried over from the interrupted wave were not rerun and
+  not re-inspected; they are the same files ingested before the stop.
+- Stage B complete: 226/226 valid per judge, 1,130 total, no malformed files.
+  Frozen to `freezes/freeze_stage_B.json`; integrity re-verified.
 
-## Completeness (stopped 2026-09-13)
+### Stage C (adds reconstructed structured evidence) — complete, frozen
+
+- Stage C packets were generated only after `freeze_stage_B.json` verified.
+  `write_packets` refuses to build a stage whose predecessor is unfrozen, so
+  the progressive-disclosure ordering is enforced in code, not by convention.
+- 15 packets, fresh Task subagent each, all `claude-opus-5-thinking-high`.
+  Launch text archived under `blind_io/launch_prompts/stage_c/`.
+- Delivered: 226/226 valid per judge, 1,130 total. No malformed files, no
+  schema rejections, no retries, no missing items.
+- Frozen to `freezes/freeze_stage_C.json`; integrity re-verified.
+
+## Completeness (complete 2026-09-13)
 
 - Stage A: 1,130/1,130 valid, frozen, integrity re-verified.
-- Stage B: 601/1,130 valid ingested; 529 missing. Not frozen.
-- Stage C: 0/1,130 (not launched; predecessor not frozen).
-- Panel total: 1,731/3,390 valid.
-- Stage B and C are incomplete, so consensus, taxonomy, and Grok comparison
-  are **not** run. No unblinding.
+- Stage B: 1,130/1,130 valid, frozen, integrity re-verified.
+- Stage C: 1,130/1,130 valid, frozen, integrity re-verified.
+- Panel total: **3,390/3,390 valid**; `missing_work_manifest.json` reports
+  `complete: true`, 0 missing.
+- Pre-unblinding manifest `freezes/freeze_manifest.json` written and verified
+  unchanged *before* any join to regression, GPT, FEVER or Grok metadata.
+  Pre-unblinding commit: `adb104f`.
+- Consensus for all three stages was computed under blinding, before unblinding.
+
+## Post-unblinding
+
+- Unblinding performed only after freeze verification passed. Taxonomy applied
+  programmatically by the shared rule function; no manual classification, no
+  rule edits after seeing results.
+- `STOPPING_POINT.json` is retained as a record of the interruption. It
+  describes the interim state and is superseded by the completeness section
+  above.
 
 ## Null findings / notes
 

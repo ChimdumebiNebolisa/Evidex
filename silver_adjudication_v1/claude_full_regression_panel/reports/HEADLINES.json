@@ -1,0 +1,32 @@
+{
+  "reports": ["CLAUDE_FINDINGS.md", "CROSS_FAMILY_SYNTHESIS.md"],
+  "panel": "claude_full_regression",
+  "model": "claude-opus-5-thinking-high",
+  "headlines": [
+    {"id": "cohort_n", "expected": 226, "tol": 0, "display": "226 unique"},
+    {"id": "judges_n", "expected": 5, "tol": 0, "display": "five isolated judges"},
+    {"id": "judgments_per_stage", "expected": 1130, "tol": 0, "display": "**1,130** per stage"},
+    {"id": "judgments_total", "expected": 3390, "tol": 0, "display": "**3,390** total"},
+
+    {"id": "claude_stage_A_ambiguous_pct", "expected": 29.20353982300885, "tol": 0.051, "display": "Stage A non-decisive: **29.2%**"},
+    {"id": "claude_stage_B_ambiguous_pct", "expected": 28.31858407079646, "tol": 0.051, "display": "Stage B non-decisive: **28.3%**"},
+    {"id": "claude_stage_C_ambiguous_pct", "expected": 28.761061946902654, "tol": 0.051, "display": "Stage C non-decisive: **28.8%**"},
+    {"id": "claude_stage_C_high_consensus_pct", "expected": 71.23893805309734, "tol": 0.051, "display": "Stage C high-consensus rate: **71.2%**"},
+
+    {"id": "claude_utilization_failure_n", "expected": 149, "tol": 0, "display": "| 149 | 65.9% |"},
+    {"id": "claude_representation_sensitive_n", "expected": 12, "tol": 0, "display": "| 12 | 5.3% |"},
+    {"id": "claude_residual_ambiguity_n", "expected": 65, "tol": 0, "display": "| 65 | 28.8% |"},
+    {"id": "claude_utilization_failure_pct", "expected": 65.929203539823, "tol": 0.051, "display": "65.9%"},
+    {"id": "claude_representation_sensitive_pct", "expected": 5.3097345132743365, "tol": 0.051, "display": "5.3%"},
+    {"id": "claude_residual_ambiguity_pct", "expected": 28.761061946902654, "tol": 0.051, "display": "28.8%"},
+
+    {"id": "grok_utilization_failure_n", "expected": 113, "tol": 0, "display": "| 113 | 50.0% |"},
+    {"id": "grok_representation_sensitive_n", "expected": 27, "tol": 0, "display": "| 27 | 11.9% |"},
+    {"id": "grok_residual_ambiguity_n", "expected": 86, "tol": 0, "display": "| 86 | 38.1% |"},
+    {"id": "grok_stage_A_ambiguous_pct", "expected": 45.57522123893805, "tol": 0.051, "display": "| Stage A ambiguity | 45.6% |"},
+    {"id": "grok_stage_C_ambiguous_pct", "expected": 38.05309734513274, "tol": 0.051, "display": "| Stage C ambiguity | 38.1% |"},
+
+    {"id": "taxonomy_exact_agreement_pct", "expected": 74.33628318584071, "tol": 0.051, "display": "Exact taxonomy agreement: **74.3%** (168/226)"},
+    {"id": "taxonomy_broad_agreement_pct", "expected": 74.33628318584071, "tol": 0.051, "display": "Broad-category agreement: **74.3%**"}
+  ]
+}

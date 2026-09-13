@@ -1,0 +1,18 @@
+{
+  "n": 226,
+  "exact_taxonomy_agreement": 0.7433628318584071,
+  "broad_category_agreement": 0.7433628318584071,
+  "broad_cohen_kappa": 0.5372285966460725,
+  "claude": {
+    "evidence_utilization_failure": 149,
+    "representation_sensitive": 12,
+    "residual_ambiguity": 65,
+    "other": 0
+  },
+  "grok": {
+    "evidence_utilization_failure": 113,
+    "representation_sensitive": 27,
+    "residual_ambiguity": 86,
+    "other": 0
+  }
+}
