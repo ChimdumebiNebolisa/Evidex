@@ -25,7 +25,13 @@ TABLES_DIR = ROOT / "tables"
 FIGURES_DIR = ROOT / "figures"
 REPORTS_DIR = ROOT / "reports"
 CACHE_DIR = ROOT / "cache"
-PACKETS_DIR = CACHE_DIR / "packets"
+DISCARDED_DIR = CACHE_DIR / "discarded"
+
+# Judge-facing I/O lives under a neutrally-named directory. Judges are given
+# only paths inside it, so no path component can hint that the cohort is a
+# regression set (the panel directory name would otherwise leak that).
+BLIND_IO = SV_ROOT / "blind_io"
+BLIND_IO_REL = "silver_adjudication_v1/blind_io"
 
 STAGES = ["A", "B", "C"]
 STAGE_PREDECESSOR = {"B": "A", "C": "B"}
@@ -126,7 +132,21 @@ def stage_judgments_dir(stage: str) -> Path:
 
 
 def stage_packets_dir(stage: str) -> Path:
-    return PACKETS_DIR / f"stage_{stage.lower()}"
+    """Judge-facing packet directory (neutral path)."""
+    return BLIND_IO / "packets" / f"stage_{stage.lower()}"
+
+
+def stage_inbox_dir(stage: str) -> Path:
+    """Judge-facing output directory (neutral path); ingested into judgments/."""
+    return BLIND_IO / "inbox" / f"stage_{stage.lower()}"
+
+
+def stage_packets_rel(stage: str) -> str:
+    return f"{BLIND_IO_REL}/packets/stage_{stage.lower()}"
+
+
+def stage_inbox_rel(stage: str) -> str:
+    return f"{BLIND_IO_REL}/inbox/stage_{stage.lower()}"
 
 
 def stage_freeze(stage: str) -> Path:
@@ -139,7 +159,14 @@ def consensus_path(stage: str) -> Path:
 
 def ensure_dirs() -> None:
     for d in (DATA_DIR, FREEZES_DIR, TABLES_DIR, FIGURES_DIR, REPORTS_DIR,
-              CACHE_DIR, PACKETS_DIR,
+              CACHE_DIR,
               *[stage_judgments_dir(s) for s in STAGES],
-              *[stage_packets_dir(s) for s in STAGES]):
+              *[stage_packets_dir(s) for s in STAGES],
+              *[stage_inbox_dir(s) for s in STAGES]):
         d.mkdir(parents=True, exist_ok=True)
+
+
+def blinding_text_errors(text: str) -> list[str]:
+    """Tokens that must never appear in judge-facing metadata."""
+    low = text.lower()
+    return [t for t in PROHIBITED_TEXT if t in low]

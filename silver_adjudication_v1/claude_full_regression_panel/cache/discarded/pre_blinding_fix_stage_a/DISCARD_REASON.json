@@ -1,0 +1,28 @@
+{
+  "reason": "Judge-facing packet path and output path contained the panel directory name, which names the cohort selection criterion. Discarded before any verdict was inspected; batch re-run under neutral blind_io paths so the blinding condition is uniform for all 226 items.",
+  "decided_at": "2026-09-13",
+  "stage": "A",
+  "batch": "batch_01",
+  "files": {
+    "claude_full_judge_1_batch_01.jsonl": {
+      "sha256": "68f581e43d812c186084bd185e7a65bfb50a367c68d26b16d58a65c84cef1c95",
+      "bytes": 29434
+    },
+    "claude_full_judge_2_batch_01.jsonl": {
+      "sha256": "e4bf006e22db377685e3544656180fd12a606b3870807d5dc4be6ca9620213c4",
+      "bytes": 29452
+    },
+    "claude_full_judge_3_batch_01.jsonl": {
+      "sha256": "1ffdfdf922ce953498ea52ac58606c307c2fc2f0ce790e4c97517c5ebc8d5a19",
+      "bytes": 28854
+    },
+    "claude_full_judge_4_batch_01.jsonl": {
+      "sha256": "ce2b7f27a14fb5607c4d8940c0a8561765e0c181da82c6451840a773aec001f1",
+      "bytes": 29877
+    },
+    "claude_full_judge_5_batch_01.jsonl": {
+      "sha256": "317ec635b298712a67961fee3df5e0b75b830f5cbf15106661a7a560b921f34b",
+      "bytes": 29769
+    }
+  }
+}

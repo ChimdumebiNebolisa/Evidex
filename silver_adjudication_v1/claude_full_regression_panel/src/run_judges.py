@@ -129,8 +129,7 @@ def write_packets(stage: str):
         for i, start in enumerate(range(0, len(missing), cfg.BATCH_SIZE), start=1):
             chunk = missing[start:start + cfg.BATCH_SIZE]
             name = f"{judge}_batch_{i:02d}"
-            out_rel = ("silver_adjudication_v1/claude_full_regression_panel/judgments/"
-                       f"stage_{stage.lower()}/{name}.jsonl")
+            out_rel = f"{cfg.stage_inbox_rel(stage)}/{name}.jsonl"
             packet = {
                 "judge_id": judge,
                 "stage": stage,
@@ -145,16 +144,47 @@ def write_packets(stage: str):
                     "Do not browse, look up facts, or read other repository files."
                 ),
             }
+            meta = json.dumps({k: v for k, v in packet.items() if k != "items"})
+            leaks = cfg.blinding_text_errors(meta)
+            if leaks:
+                raise SystemExit(f"packet metadata would leak {leaks} to {judge}")
             path = outdir / f"{name}.json"
             path.write_text(json.dumps(packet, ensure_ascii=False), encoding="utf-8")
             written.append({"judge": judge, "batch": name, "stage": stage,
-                            "n": len(chunk), "packet": path.as_posix(),
+                            "n": len(chunk),
+                            "packet": f"{cfg.stage_packets_rel(stage)}/{name}.json",
                             "output": out_rel})
             print(f"stage {stage} {name} n={len(chunk)}")
     (cfg.CACHE_DIR / f"queue_stage_{stage}.json").write_text(
         json.dumps(written, indent=2), encoding="utf-8")
     print(f"stage {stage}: wrote {len(written)} packets -> {outdir}")
     return written
+
+
+def ingest(stage: str) -> list[str]:
+    """Copy judge outputs from the neutral inbox into the panel judgments dir.
+
+    Copies are byte-identical. A file already ingested may not change (frozen
+    judgments are append-only), so a differing re-delivery is a hard stop.
+    """
+    cfg.ensure_dirs()
+    moved = []
+    dest_dir = cfg.stage_judgments_dir(stage)
+    for src in sorted(cfg.stage_inbox_dir(stage).glob("*_batch_*.jsonl")):
+        dest = dest_dir / src.name
+        data = src.read_bytes()
+        if dest.exists():
+            if dest.read_bytes() != data:
+                raise SystemExit(f"{dest.name} already ingested with different bytes; "
+                                 "judgments are append-only")
+            continue
+        dest.write_bytes(data)
+        moved.append(dest.name)
+    if moved:
+        print(f"stage {stage}: ingested {len(moved)} file(s): {', '.join(moved)}")
+    else:
+        print(f"stage {stage}: nothing new to ingest")
+    return moved
 
 
 def freeze_stage(stage: str):
@@ -244,6 +274,10 @@ if __name__ == "__main__":
     stage_arg = sys.argv[2].upper() if len(sys.argv) > 2 else None
     if cmd == "packets":
         write_packets(stage_arg or "A")
+    elif cmd == "ingest":
+        for s in ([stage_arg] if stage_arg else cfg.STAGES):
+            ingest(s)
+            completeness_report(s)
     elif cmd == "status":
         for s in ([stage_arg] if stage_arg else cfg.STAGES):
             completeness_report(s)
@@ -255,4 +289,5 @@ if __name__ == "__main__":
     elif cmd == "missing":
         missing_work_manifest()
     else:
-        raise SystemExit("usage: run_judges.py packets|status|freeze|verify|missing [STAGE]")
+        raise SystemExit(
+            "usage: run_judges.py packets|ingest|status|freeze|verify|missing [STAGE]")
