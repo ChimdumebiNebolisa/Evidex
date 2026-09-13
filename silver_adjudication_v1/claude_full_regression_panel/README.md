@@ -18,6 +18,29 @@ decomposition.
 The earlier 231-item Claude residual panel is a separate, frozen experiment.
 None of its judgments are spliced into this one.
 
+## Result
+
+Complete: 3,390/3,390 judgments, all three stages frozen and verified before
+unblinding. Applying the unchanged Evidex taxonomy to Claude's own consensus:
+
+| Mechanism | Grok | Claude |
+|---|---|---|
+| evidence-utilization failure | 113 (50.0%) | 149 (65.9%) |
+| representation-sensitive | 27 (11.9%) | 12 (5.3%) |
+| residual ambiguity | 86 (38.1%) | 65 (28.8%) |
+
+The mixed-mechanism picture replicates qualitatively — all three mechanisms are
+present in both families, in the same rank order — but the proportions shift by
+up to 16 pp, and the two families disagree on the mechanism for about one
+regression in four (74.3% agreement, κ = 0.54). Read the specific percentages as
+judge-family-dependent.
+
+- `reports/CLAUDE_FINDINGS.md` — Claude's own A/B/C results and decomposition
+- `reports/CROSS_FAMILY_SYNTHESIS.md` — Grok-vs-Claude comparison and the
+  conclusions sorted by how well they survive the family swap
+- `reports/ADJUDICATION_LOG.md` — execution record and protocol deviations
+- `reports/LIMITATIONS.md`, `reports/METHODS.md`, `figures/`
+
 ## Layout
 
 - `config.json` — model lock (do not change mid-run)

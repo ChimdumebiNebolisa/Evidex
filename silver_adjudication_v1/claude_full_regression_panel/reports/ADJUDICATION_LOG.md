@@ -47,6 +47,18 @@ anti-cherry-picking documentation.
    resolver on non-high-consensus items; its consensus labels — which are what
    the taxonomy consumes — are unaffected by that resolver, so the taxonomy
    comparison remains like-for-like. Recorded as a deliberate scope choice.
+4. **Duplicate Stage B runs, resolved by a content-independent tie-break.**
+   Recovery from the capacity interruption overlapped, so three `(judge, batch)`
+   units — `claude_full_judge_4` batches 01, 02 and 03 — were adjudicated twice
+   by two independent `claude-opus-5-thinking-high` subagent runs. Both copies
+   are legitimate Claude output, but the design permits exactly one judgment per
+   `(stage, judge_id, item_id)`. The rule applied was **first ingested wins**:
+   purely temporal, decided without reading either copy's verdicts and without
+   comparing them, so it cannot express a preference for one result over the
+   other. The superseded bytes are preserved with hashes and a written reason in
+   `cache/discarded/duplicate_rerun_superseded_stage_b/`. The duplication was
+   caught rather than silently absorbed because `run_judges.ingest` refuses to
+   overwrite an already-ingested file whose bytes differ.
 
 ## Judging
 
@@ -147,4 +159,20 @@ anti-cherry-picking documentation.
 
 ## Null findings / notes
 
-(appended)
+- **Neither judge family ever reversed a decisive consensus** under additional
+  disclosure: 0/226 reversals after titles and 0/226 after structured evidence,
+  in both the Claude and the Grok panel. Progressive disclosure resolves
+  ambiguity; it does not flip Supported↔Refuted. Reported because it is a clean
+  null that constrains how the representation-sensitive category should be read.
+- **Claude produced zero `silver_title_context_sensitive` items, and so did Grok
+  on this cohort.** Both panels' representation-sensitive slices are entirely
+  structured-evidence-sensitive. The finer title-context category is retained in
+  the taxonomy for comparability with the shared pipeline but is empty here in
+  both families, so no title-specific claim can be made either way.
+- **No item landed in `other`/`silver_unresolved` in either family.**
+- **The panel is not internally noisy**, so the cross-family gap cannot be
+  attributed to Claude judge instability: Fleiss κ = 0.897/0.904/0.884 at
+  A/B/C, and per-judge Ambiguous rates span only 22.1–30.1% at Stage A.
+- The retained `STOPPING_POINT.json` and the interim capacity stop are recorded
+  above rather than deleted, so the interruption remains auditable even though
+  the panel later completed.
