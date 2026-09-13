@@ -1,5 +1,14 @@
 # Adjudication Log (silver v1)
 
+> **Historical log through Claude residual Stage C.** This file records the
+> silver sequence only through the 231-item Claude residual Stage C experiment
+> (2026-08-23). Statements such as “next experiment not run” and “sequence is
+> complete” were historically true at that point. A later Claude five-judge
+> A→B→C replication on all 226 regressions was completed afterward; that
+> execution is documented in
+> [`../claude_full_regression_panel/reports/ADJUDICATION_LOG.md`](../claude_full_regression_panel/reports/ADJUDICATION_LOG.md).
+> Dated entries below are unchanged.
+
 Running record of panel setup, execution, retries, deviations, and null
 findings — anti-cherry-picking documentation.
 

@@ -2,6 +2,8 @@
 
 > **Intermediate synthesis.** This document was the layer-by-layer write-up after the Claude residual Stage C panel. A subsequent Claude five-judge A→B→C panel on all 226 unique regressions is now the main cross-family replication. The canonical final synthesis is [`../../claude_full_regression_panel/reports/CROSS_FAMILY_SYNTHESIS.md`](../../claude_full_regression_panel/reports/CROSS_FAMILY_SYNTHESIS.md). Numbers in this file are unchanged and remain valid for the residual experiment.
 
+> **Scope of later body language.** Phrases such as “last planned experiment” describe the study state when this residual write-up was frozen. “Claude does not re-open” the Grok 50.0/11.9 shares referred only to this residual-conditioned design (Claude judged the 231 leftovers, not the already-decisive Grok regressions). Those sentences are not study-level conclusions after the later full Claude A→B→C replication. The historical body below is unchanged.
+
 Evidex now has six automated layers. They answer different questions.
 Do not collapse them into one validation percentage.
 

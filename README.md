@@ -70,7 +70,7 @@ Denominators are not interchangeable. Claude residual Stage C and Claude full A�
 | Claude full-panel mechanism split | **65.9%** utilization · **5.3%** representation-sensitive · **28.8%** residual ambiguity | same 226 regressions |
 | Cross-family taxonomy agreement | **74.3%** exact and broad (κ = 0.537) | 226 paired assignments |
 | GLM Stage A replication | modal verdict agreement **0.862** | 1,060 judged items |
-| Claude residual split | **58.0%** persistent (134/231) · **42.0%** Grok-only (97/231) | 231 Stage C leftovers; supporting |
+| Claude residual split | **58.0%** persistent (134/231) · **42.0%** Claude-resolved Grok residuals (97/231) | 231 Stage C leftovers; supporting |
 
 ```mermaid
 flowchart LR

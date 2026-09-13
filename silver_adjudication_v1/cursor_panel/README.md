@@ -22,8 +22,19 @@ Shared blinded cohort and stage files remain in `../data/`.
 
 ## Reproduce
 
+Run these from `silver_adjudication_v1/`, not from `cursor_panel/`.
+
+Level 1 (read-only headline verification):
+
+```bash
+python src/verify_headlines.py --panel cursor
+python -m unittest discover -s tests
+```
+
+`--panel cursor` is required. The default panel name is GLM.
+
+Optional Level 2 orchestrator (not the public verification path):
+
 ```bash
 python run_all.py --panel cursor
-python -m unittest discover -s tests
-python src/verify_headlines.py --panel cursor
 ```

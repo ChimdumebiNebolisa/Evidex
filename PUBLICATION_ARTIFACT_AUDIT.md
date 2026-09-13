@@ -5,6 +5,13 @@
 **Scope:** read-only inspection. No frozen judgments, freeze manifests, prompts, taxonomy definitions, or experimental outputs were modified.
 **Assumption:** Phase 2 should add a publication-facing navigation layer rather than relocating frozen experiment directories.
 
+> **Snapshot.** This report audited commit `9a4ee4e`. Later commits
+> (`eca7b38`, `7129bd5`, and subsequent documentation patches) implemented
+> many of its recommendations. Present-tense statements such as “not
+> publication-ready” or “README is stale” describe that earlier snapshot,
+> not the current repository state. Scientific headline numbers in this
+> audit remain valid.
+
 ---
 
 ## 1. Executive assessment of repository readiness

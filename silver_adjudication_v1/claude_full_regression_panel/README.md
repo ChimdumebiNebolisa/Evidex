@@ -13,7 +13,7 @@ decomposition.
 - Expected totals: 226 items × 5 judges × 3 stages = **3,390 judgments**
 - Rubric, verdict vocabulary, consensus rules, and taxonomy rules are the
   existing Evidex ones, reused unchanged
-- This is **cross-family silver validation, not human ground truth**
+- This is **cross-family silver replication, not human ground truth**
 
 The earlier 231-item Claude residual panel is a separate, frozen experiment.
 None of its judgments are spliced into this one.
@@ -32,7 +32,7 @@ unblinding. Applying the unchanged Evidex taxonomy to Claude's own consensus:
 The mixed-mechanism picture replicates qualitatively — all three mechanisms are
 present in both families, in the same rank order — but the proportions shift by
 up to 16 pp, and the two families disagree on the mechanism for about one
-regression in four (74.3% agreement, κ = 0.54). Read the specific percentages as
+regression in four (74.3% agreement, κ = 0.537). Read the specific percentages as
 judge-family-dependent.
 
 - `reports/CLAUDE_FINDINGS.md` — Claude's own A/B/C results and decomposition
@@ -57,8 +57,20 @@ reveal how the cohort was selected.
 
 ## Reproduce
 
+From `silver_adjudication_v1/claude_full_regression_panel/`. Read-only
+verification; no new judging:
+
 ```bash
-cd silver_adjudication_v1/claude_full_regression_panel
+python src/verify_headlines.py
+python -m unittest discover -s tests
+```
+
+### Historical execution protocol / do not rerun judging
+
+Frozen judgment files are the research record. The commands below document
+how the panel was executed. Do not rerun them as a public reproduction path.
+
+```bash
 python src/derive_and_blind.py all          # 226-item cohort + blinded stages
 python src/run_judges.py packets A          # then run one subagent per packet
 python src/launch_prompts.py A              # exact wrapper prompt per packet
@@ -69,8 +81,4 @@ python src/analyze.py freeze
 python src/analyze.py unblind
 python src/analyze.py compare
 python src/analyze.py stats
-python src/verify_headlines.py
-python -m unittest discover -s tests
 ```
-
-Judging is not rerunnable: frozen judgment files are the record.

@@ -1,9 +1,9 @@
 # Claude residual Stage C findings
 
 Panel: **five isolated judges**, all `claude-opus-5-thinking-high`.
-This is **cross-family residual validation**, not independent human
-validation. Judges never saw Cursor/Grok, GLM, FEVER, GPT, NLI, cohort,
-or prior Claude outputs.
+This is a **cross-family residual Stage C robustness test**, not
+independent human validation. Judges never saw Cursor/Grok, GLM, FEVER, GPT,
+NLI, cohort, or prior Claude outputs.
 
 Primary result: **raw five-judge consensus**. No resolver was run.
 
@@ -54,7 +54,7 @@ Ambiguous/Unresolved mismatches (6) plus the 97 Claude-decisive items.
 Cross-family taxonomy:
 
 - `cross_family_persistent_ambiguity` **134/231** (58.0%)
-- `grok_only_ambiguity` **97/231** (42.0%; all high-consensus)
+- `grok_only_ambiguity` **97/231** (42.0%; all high-consensus) — Claude-resolved Grok residuals
 - `claude_internal_disagreement` 0
 
 After FEVER unblinding of Claude-decisive items: **62/97** ( **63.9%** )

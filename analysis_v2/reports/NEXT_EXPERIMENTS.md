@@ -1,5 +1,11 @@
 # Evidex Analysis v2 — Next Experiments (ranked)
 
+> **Historical pre-silver planning document.** This ranked wishlist was written
+> before silver adjudication. Some proposed representation-disclosure work was
+> later implemented through automated Grok and Claude A→B→C panels, not as
+> human adjudication. Do not read this file as the current project roadmap.
+> The original items below are unchanged.
+
 Ranked by scientific value × directness of mechanism test; inference needs noted.
 
 ## 1. Human adjudication + controlled representation rerun of the regression cohort

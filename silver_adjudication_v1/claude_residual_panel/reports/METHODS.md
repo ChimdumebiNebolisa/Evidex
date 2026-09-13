@@ -2,7 +2,7 @@
 
 ## Design
 
-Narrow validation of the frozen Cursor/Grok Stage C residual
+Narrow robustness test of the frozen Cursor/Grok Stage C residual
 (Ambiguous/Unresolved; expected n = 231). Same blinded reconstructed
 Stage C evidence and the same judge rubric as the Cursor panel. No new
 retrieval. No cohort expansion.

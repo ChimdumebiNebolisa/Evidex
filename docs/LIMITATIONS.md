@@ -4,7 +4,7 @@ Layer-specific lists remain authoritative. This page only states limits that app
 
 ## Silver, not human
 
-Cursor/Grok, GLM, and Claude judgments are model-based. Agreement across families is cross-family silver validation. It is not expert human adjudication and does not create a new gold standard.
+Cursor/Grok, GLM, and Claude judgments are model-based. Agreement across families is a cross-family silver replication signal. It is not expert human adjudication and does not create a new gold standard.
 
 ## FEVER is not on trial
 

@@ -1,5 +1,9 @@
 # Cross-family residual synthesis
 
+> This is the residual-conditioned cross-family comparison (n = 231). It is
+> **not** the study-level final synthesis. That file is
+> [`../../claude_full_regression_panel/reports/CROSS_FAMILY_SYNTHESIS.md`](../../claude_full_regression_panel/reports/CROSS_FAMILY_SYNTHESIS.md).
+
 Question: among the 231 Cursor/Grok Stage C residual Ambiguous/Unresolved
 items, how often does an independent Claude Opus panel also find Stage C
 evidence insufficient for a decisive Supported/Refuted verdict?
@@ -17,7 +21,7 @@ were selected as residuals.
 ## Result
 
 - Persistent cross-family ambiguity: **58.0%** (134/231; CI 51.5–64.1).
-- Grok-only ambiguity (Claude high-consensus decisive): **42.0%** (97/231).
+- Claude-resolved Grok residuals (high-consensus decisive): **42.0%** (97/231).
 - Claude-internal disagreement at the consensus-taxonomy level: **0**.
 - Exact consensus-label agreement: **56.3%**. Cursor labels on this set
   are only Ambiguous/Unresolved, so agreement is mostly shared Ambiguous
@@ -44,4 +48,4 @@ The Grok residual is **not** purely family-specific conservatism, and it
 is **not** purely intrinsic warrant ambiguity. It is a mixture: most of
 the residual still looks underdetermined to a second generative family,
 while a large high-consensus slice does not. That mixture is the
-cross-family result.
+residual-panel cross-family result.
