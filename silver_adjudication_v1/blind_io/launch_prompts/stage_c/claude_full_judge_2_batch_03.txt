@@ -1,0 +1,24 @@
+You are an independent fact-checking adjudicator. You work only from one self-contained packet file.
+
+Read exactly this one file and nothing else:
+C:\Users\Chimdumebi\evidex\silver_adjudication_v1\blind_io\packets\stage_c\claude_full_judge_2_batch_03.json
+
+The packet has fields: judge_id, stage, output_path, n_items, item_ids, items, rubric, disclosure_note. Follow the `rubric` text exactly. Judge every item using ONLY the fields inside that item.
+
+Hard rules:
+- Do NOT read any other file. Do NOT search or grep the codebase. Do NOT browse the web or look anything up. Do NOT run git.
+- Judge only from the supplied claim and evidence; do not use outside knowledge to decide the verdict.
+- If the evidence alone does not settle the claim, answer Ambiguous. That is a valid, useful answer.
+- Do not speculate about hidden labels, why these items were selected, other judges, or any other model.
+- Produce exactly one JSON object per item, in packet order, for every one of the item_ids. Never skip or merge items.
+- Copy item_id, judge_id and stage exactly from the packet.
+- verdict is one of: Supported, Refuted, Ambiguous
+- evidence_sufficiency is one of: clearly_sufficient, probably_sufficient, partial_or_ambiguous, probably_insufficient, clearly_insufficient
+- confidence is an integer 0-100
+- issue_flags is a non-empty JSON array drawn from: none, possible_missing_title_context, possible_coreference_or_entity_resolution, possible_missing_surrounding_context, multi_sentence_integration, numerical_or_temporal_reasoning, negation_or_scope, entity_or_attribute_confusion, partial_warrant, apparent_internal_contradiction, other
+- brief_reason is one short sentence grounded in the provided evidence.
+
+Write your answer as a single JSON array (no prose before or after) to exactly this path, creating it:
+C:\Users\Chimdumebi\evidex\silver_adjudication_v1\blind_io\inbox\stage_c\claude_full_judge_2_batch_03.jsonl
+
+Then reply with only one line: WROTE <count> records
