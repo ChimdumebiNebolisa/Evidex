@@ -1,0 +1,772 @@
+[
+  {
+    "item_id": "CF-000001",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence says he is openly gay, which contradicts being closeted."
+  },
+  {
+    "item_id": "CF-000002",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence states the film earned over $348 million worldwide, matching the claimed figure."
+  },
+  {
+    "item_id": "CF-000003",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 74,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence says 23 percent of New Zealand's inhabitants do live in the South Island, rather than that it lacks them."
+  },
+  {
+    "item_id": "CF-000004",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 70,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence says Sky UK serves the United Kingdom, which covers London but does not name it."
+  },
+  {
+    "item_id": "CF-000005",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 72,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence identifies it as a single 1992 drama film, i.e. one picture."
+  },
+  {
+    "item_id": "CF-000006",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_missing_title_context"],
+    "brief_reason": "The evidence describes a Combined Statistical Area spanning 'up to' 39 counties, not an Atlanta metropolitan area covering 39."
+  },
+  {
+    "item_id": "CF-000007",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 72,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says its listings run from Saturday to Friday, though the subject is only a pronoun."
+  },
+  {
+    "item_id": "CF-000008",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "The evidence shows the host was Late Night's host, but says nothing about who invented Late Night."
+  },
+  {
+    "item_id": "CF-000009",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The long list of Franklin's roles does not include spokesman, and none clearly establishes that role."
+  },
+  {
+    "item_id": "CF-000010",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence states the second season premiered on January 2, 2017, contradicting the negated claim."
+  },
+  {
+    "item_id": "CF-000011",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "The evidence says Bloch created the character in his 1959 novel, which loosely matches 'published by' but is not the same relation."
+  },
+  {
+    "item_id": "CF-000012",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 68,
+    "issue_flags": ["numerical_or_temporal_reasoning", "entity_or_attribute_confusion"],
+    "brief_reason": "The evidence gives 11 January 1975 as his birth date, which cannot also be his conception date."
+  },
+  {
+    "item_id": "CF-000013",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 74,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence states an NEO is a Solar System body whose orbit brings it near Earth, which entails the claim's trivial addition."
+  },
+  {
+    "item_id": "CF-000014",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["negation_or_scope", "partial_warrant"],
+    "brief_reason": "The evidence says he published scripts but gives no quantity, so 'barely' cannot be settled."
+  },
+  {
+    "item_id": "CF-000015",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 58,
+    "issue_flags": ["possible_missing_surrounding_context", "other"],
+    "brief_reason": "The evidence gives origins and gender percentages but no student body total."
+  },
+  {
+    "item_id": "CF-000016",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["negation_or_scope", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence shows Fee worked on Cars and Cars 2, making Cars 3 his third such film."
+  },
+  {
+    "item_id": "CF-000017",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["numerical_or_temporal_reasoning", "entity_or_attribute_confusion"],
+    "brief_reason": "The evidence gives 2.85% for Romani and Egyptians combined, which neither confirms nor excludes 2.66% Romani alone."
+  },
+  {
+    "item_id": "CF-000018",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 68,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence says the film is based on the television series created by Rick Rosner, though 'popular' is not stated."
+  },
+  {
+    "item_id": "CF-000019",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence dates show March 12, 1911 as his birth and August 28, 1990 as his death."
+  },
+  {
+    "item_id": "CF-000020",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 58,
+    "issue_flags": ["possible_missing_surrounding_context", "partial_warrant"],
+    "brief_reason": "The evidence discusses applications of physics advances but never mentions equations."
+  },
+  {
+    "item_id": "CF-000021",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence gives his full name as Christopher Michael Benoit, which includes Michael."
+  },
+  {
+    "item_id": "CF-000022",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence describes her as a webcam model and former pornographic film actress, which implies being filmed or photographed."
+  },
+  {
+    "item_id": "CF-000023",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence explicitly states Greenland is not seen as part of Scandinavia."
+  },
+  {
+    "item_id": "CF-000024",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The evidence confirms the birth date 12 October 1875 but says nothing about the day of the week."
+  },
+  {
+    "item_id": "CF-000025",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "The evidence names Yugoslavia only as the founding meeting's location and lists members as Latin American, African and Asian countries."
+  },
+  {
+    "item_id": "CF-000026",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence attributes the $16 million to a June 2014 to June 2015 window, not to the year 2014."
+  },
+  {
+    "item_id": "CF-000027",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 86,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence states he received 16 Primetime Emmy nominations, not eight."
+  },
+  {
+    "item_id": "CF-000028",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 68,
+    "issue_flags": ["numerical_or_temporal_reasoning", "multi_sentence_integration"],
+    "brief_reason": "The only cast member dated in the evidence, Columbus Short, was born September 19, 1982, not in October."
+  },
+  {
+    "item_id": "CF-000029",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 65,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_missing_surrounding_context"],
+    "brief_reason": "The evidence mentions only her 1968 debut album and says nothing about 2007."
+  },
+  {
+    "item_id": "CF-000030",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence confirms she is a Neo Soul singer but does not state her nationality."
+  },
+  {
+    "item_id": "CF-000031",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence describes him as a physician and educationist, occupations necessarily practised somewhere."
+  },
+  {
+    "item_id": "CF-000032",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence places the studio in North Hollywood, California, not outside it."
+  },
+  {
+    "item_id": "CF-000033",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 70,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The evidence lists his professions but never mentions the show or the character Mac."
+  },
+  {
+    "item_id": "CF-000034",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence confirms a Virgin Records single but gives no release year."
+  },
+  {
+    "item_id": "CF-000035",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence identifies Overexposed as a studio album, which by definition contains songs, though none is named."
+  },
+  {
+    "item_id": "CF-000036",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["negation_or_scope", "entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says his mother erased pages of his drawings but does not address the claim's 'only' restriction or 'notes'."
+  },
+  {
+    "item_id": "CF-000037",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence says Saxony is the sixth most populous state, not the sixth least populous."
+  },
+  {
+    "item_id": "CF-000038",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 70,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The evidence covers the field's history and industry players with no mention of online gaming."
+  },
+  {
+    "item_id": "CF-000039",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence places Vanisri in a 1978 Telugu remake and never names Daag."
+  },
+  {
+    "item_id": "CF-000040",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 86,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence describes Melilla as a Spanish autonomous city in North Africa, not a dish."
+  },
+  {
+    "item_id": "CF-000041",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 70,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence calls Aarhus the seat of Aarhus municipality, not its 'ball'."
+  },
+  {
+    "item_id": "CF-000042",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives September 26, 1937 as her death date and April 15, 1894 as her birth."
+  },
+  {
+    "item_id": "CF-000043",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["partial_warrant", "possible_missing_title_context"],
+    "brief_reason": "The evidence says they were a pop music group, which loosely covers producing music but not a producer role."
+  },
+  {
+    "item_id": "CF-000044",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 86,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states it opened in 1952 as a casino with 200 rooms."
+  },
+  {
+    "item_id": "CF-000045",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says bonobos live south of the river, not south of a statue."
+  },
+  {
+    "item_id": "CF-000046",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_missing_surrounding_context"],
+    "brief_reason": "The evidence makes it the opening number of the Fearless Tour and says nothing about a birthday party."
+  },
+  {
+    "item_id": "CF-000047",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 68,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence defines a polynomial as a mathematical expression, which is an entity in the claim's loose sense."
+  },
+  {
+    "item_id": "CF-000048",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 65,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence describes a cameo as 'Professor Normal', which contradicts starring in the film."
+  },
+  {
+    "item_id": "CF-000049",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence says he shared the Academy Award for Best Original Screenplay for Patton."
+  },
+  {
+    "item_id": "CF-000050",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 60,
+    "issue_flags": ["possible_missing_title_context", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence only says 'It is currently a licensed software' without naming Adobe Photoshop."
+  },
+  {
+    "item_id": "CF-000051",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["entity_or_attribute_confusion", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives 4.7 million US copies overall as of April 2016, not specifically digital copies."
+  },
+  {
+    "item_id": "CF-000052",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["negation_or_scope", "multi_sentence_integration"],
+    "brief_reason": "The evidence says a monk practises asceticism, which it defines as abstinence from worldly pleasures."
+  },
+  {
+    "item_id": "CF-000053",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says the song reached Number 6, not number 8, in New Zealand."
+  },
+  {
+    "item_id": "CF-000054",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence lists Annie James in The Motel Life (2013) among her roles."
+  },
+  {
+    "item_id": "CF-000055",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 70,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The evidence describes blood flow through the heart and says nothing about motion or exercise."
+  },
+  {
+    "item_id": "CF-000056",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says he was born in Des Moines, Iowa, not Ohio."
+  },
+  {
+    "item_id": "CF-000057",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "The evidence says the film was followed by a series of young adult novels, not organizations."
+  },
+  {
+    "item_id": "CF-000058",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence calls it a deepwater offshore field in the Gulf of Mexico, which is not landlocked."
+  },
+  {
+    "item_id": "CF-000059",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 70,
+    "issue_flags": ["numerical_or_temporal_reasoning", "negation_or_scope"],
+    "brief_reason": "The evidence gives a Paris premiere on May 24, 2016 but a separate US release on June 10, 2016, so the release was not global on that date."
+  },
+  {
+    "item_id": "CF-000060",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives heights of 554 or 555 ft, below the claimed 560-575 ft range."
+  },
+  {
+    "item_id": "CF-000061",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_missing_title_context"],
+    "brief_reason": "The evidence shows Jayasudha starring in a 1978 Telugu remake and never names Daag, and the claim reverses film and actor."
+  },
+  {
+    "item_id": "CF-000062",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 65,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence gives his full name as Bruce Middleton Hope Shand, where Middleton Hope are middle names and Shand is the surname."
+  },
+  {
+    "item_id": "CF-000063",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence states the serial was nominated for Best Weekend Show."
+  },
+  {
+    "item_id": "CF-000064",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["numerical_or_temporal_reasoning", "possible_missing_title_context"],
+    "brief_reason": "The evidence gives 1785 and 1788 dates but nothing about when the American Revolution occurred."
+  },
+  {
+    "item_id": "CF-000065",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["partial_warrant", "entity_or_attribute_confusion"],
+    "brief_reason": "The evidence credits journalist Lynn Barber with the same-titled memoir, not with creating the film itself."
+  },
+  {
+    "item_id": "CF-000066",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 68,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says the album is stylized as G I R L, not criticized as such."
+  },
+  {
+    "item_id": "CF-000067",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 65,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives 'Soviet Latvia' as an alternate name of a former Soviet republic, with no 2016 starting point."
+  },
+  {
+    "item_id": "CF-000068",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["possible_missing_title_context", "partial_warrant"],
+    "brief_reason": "The evidence says Branagh and Thompson met filming the TV series and married, but the series is unnamed."
+  },
+  {
+    "item_id": "CF-000069",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence describes Duane Lee 'Dog' Chapman I himself and states no father-son relationship."
+  },
+  {
+    "item_id": "CF-000070",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "The evidence establishes only that she was state treasurer, not head of Texas's executive branch."
+  },
+  {
+    "item_id": "CF-000071",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The evidence says he attempted to travel alone through the 2008-2010 specials, which spans the claimed period apart from his final adventure."
+  },
+  {
+    "item_id": "CF-000072",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states the film received generally negative reviews."
+  },
+  {
+    "item_id": "CF-000073",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence's February 2014 to December 2016 tenure is under three years."
+  },
+  {
+    "item_id": "CF-000074",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence lists linguistics, computer science and electrical engineering, which are science-related fields."
+  },
+  {
+    "item_id": "CF-000075",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 65,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "The evidence names Frederik Du Chau as director without a nationality; the American credited is voice actor Jason Lee."
+  },
+  {
+    "item_id": "CF-000076",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 65,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence calls her a singer-songwriter, which involves writing songs."
+  },
+  {
+    "item_id": "CF-000077",
+    "judge_id": "claude_full_judge_3",
+    "stage": "A",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 74,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence identifies him as a comic book writer and artist, which is work in a media form."
+  }
+]
