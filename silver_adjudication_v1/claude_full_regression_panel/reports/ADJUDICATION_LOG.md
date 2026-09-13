@@ -83,6 +83,23 @@ anti-cherry-picking documentation.
   `Other Models usage limit reached / Switched to grok-4.6`. **Grok was
   refused.** No inbox file was written for any of those five packets.
   Judge 5 batches 02 and 03 were never relaunched.
+- **Model provenance of the limit-error packets was verified from evidence, not
+  assumed.** Three delivered files (`judge_2` batches 01 and 03, `judge_3` batch
+  03) came from subagents whose run *ended* with
+  `Other Models usage limit reached / Switched to grok-4.6`, which raised the
+  question of whether the fallback model had written any of those bytes. Their
+  subagent transcripts were inspected: each contains only Claude assistant
+  turns — read packet, adjudicate, `Write` the inbox file with full contents —
+  followed by `turn_ended status=error` carrying the limit message. No
+  `grok-4.6` turn exists in any of the three transcripts, so the switch applied
+  to a continuation that never happened and every byte was written by
+  `claude-opus-5-thinking-high`. The files were therefore kept.
+  These three were briefly quarantined under a precautionary
+  "unverifiable provenance" tag before that check was run; the quarantine was
+  reverted once the transcripts established Claude authorship, since discarding
+  valid Claude work would itself violate the no-discard rule. The restored
+  files are byte-identical to the ingested copies (`ingest` refuses any file
+  that differs from an already-ingested one, and reported no change).
 - **STOP.** Capacity exhausted. Valid completed judgments preserved.
   Compact remainder: `freezes/STOPPING_POINT.json`. Full item-id lists:
   `freezes/missing_work_manifest.json`.
