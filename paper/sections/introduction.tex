@@ -1,0 +1,40 @@
+\section{Introduction}
+\label{sec:intro}
+
+Evidence grounding is a standard recipe for making language-model fact verification more trustworthy.
+If a model is shown the same designated evidence that a benchmark treats as sufficient, aggregate accuracy should rise, and remaining errors should look like residual retrieval or coverage problems rather than failures to use gold evidence.
+That picture is incomplete.
+Aggregate improvements can hide a second phenomenon: claims the model already answered correctly without evidence, then answered incorrectly after the designated evidence was added.
+
+This paper studies that phenomenon on FEVER \citep{thorne-etal-2018-fever}.
+We evaluate GPT-5.4 and GPT-5.4-mini on a balanced 10{,}000-claim Supported/Refuted sample under two paired conditions: claim only, and claim plus FEVER-designated gold evidence.
+Evidence helps in aggregate (Table~\ref{tab:accuracy}).
+It also induces 226 unique correct-to-wrong regressions.
+Those regressions are rare relative to the 10{,}000-claim sample, but they are not unstructured noise.
+They concentrate on claim--evidence pairs that local NLI models treat as weakly warranted, and they are only partly shared across the two GPT models.
+
+Counting regressions is not enough.
+The same behavioral pattern can arise from at least three diagnostic situations: the model fails to use evidence that a later adjudicator finds decisive; the evidence representation (sentence text versus titles versus structured provenance) changes the warrant; or the claim--evidence pair remains underdetermined after full designated evidence is shown.
+We therefore run blinded progressive-disclosure silver adjudication.
+Five isolated judges see sentence evidence (Stage~A), then page titles (Stage~B), then reconstructed structured FEVER evidence (Stage~C).
+A rule-based taxonomy maps consensus transitions onto three broad diagnostic categories: evidence-utilization failure, representation-sensitive behavior, and residual ambiguity.
+The primary panel uses one locked Cursor/Grok model.
+Supporting checks include a GLM-5.3 Stage~A replication and a Claude Stage~C test on 231 Grok leftovers.
+The decisive robustness experiment is a complete Claude A$\rightarrow$B$\rightarrow$C panel on all 226 regressions.
+
+The resulting claim is two-part.
+First, designated gold evidence improves overall accuracy while creating a measurable set of localized regressions whose diagnostic picture is mixed rather than single-cause.
+Second, that mixed picture is qualitatively stable across judge families, but exact category prevalences are not.
+Automated diagnostic decompositions therefore carry measurement uncertainty of their own.
+
+\paragraph{Contributions.}
+We (i)~quantify paired evidence gains and evidence-induced regressions on a verified 10{,}000-claim FEVER experiment;
+(ii)~characterize regressions with confirmatory statistics, two local NLI diagnostics, and a 1{,}061-claim diagnostic cohort;
+(iii)~decompose the 226 unique regressions with blinded progressive-disclosure silver adjudication; and
+(iv)~show, with a 3{,}390-judgment Claude replication, which parts of that decomposition survive a change of adjudicating family.
+
+We ask four research questions, restated in Section~\ref{sec:rqs}.
+RQ1 asks whether designated gold evidence improves aggregate accuracy.
+RQ2 asks how frequent and cross-model-consistent the regressions are.
+RQ3 asks which diagnostic failure modes appear under progressive disclosure.
+RQ4 asks which of those conclusions survive a change in judge family.

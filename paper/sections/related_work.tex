@@ -1,0 +1,35 @@
+\section{Related Work}
+\label{sec:related}
+
+\subsection{Evidence-based fact verification}
+Automated fact verification is commonly decomposed into claim detection, evidence retrieval, and verdict prediction \citep{guo-etal-2022-survey}.
+FEVER \citep{thorne-etal-2018-fever} made the last two stages measurable at scale by pairing Wikipedia-derived claims with annotator-selected evidence sentences and ternary labels (Supported, Refuted, NotEnoughInfo).
+The first shared task already showed that retrieval and verification are both hard even when the evidence corpus is Wikipedia \citep{thorne-etal-2018-fact}.
+Later datasets extend the setting to scientific abstracts \citep{wadden-etal-2020-fact}, contrastive evidence revisions \citep{schuster-etal-2021-get}, many-hop Wikipedia evidence \citep{jiang-etal-2020-hover}, and mixed sentence/table evidence \citep{aly-etal-2021-feverous}.
+Claim-only artifacts are also documented: models can exploit label cues that survive without evidence \citep{schuster-etal-2019-towards}.
+Our experiment holds retrieval fixed: we supply FEVER-designated gold evidence and ask how an LLM uses it.
+That isolates utilization and representation from open retrieval, at the cost of studying a 2017-era, Wikipedia-centric, binary Supported/Refuted slice of the original task.
+
+\subsection{LLM reasoning with external evidence}
+LLMs do not treat supplied context as an oracle.
+Knowledge-conflict studies show that parametric memory can override or ignore contradictory context \citep{longpre-etal-2021-entity}.
+Even when the relevant span is present, models are sensitive to where and how it is written \citep{liu-etal-2024-lost} and can be pulled off-task by irrelevant material \citep{shi2023distracted}.
+Wan et al.\ \citep{wan-etal-2024-evidence} show that models overweight surface relevance relative to credibility cues that humans treat as important.
+Mamta and Cocarascu \citep{mamta-cocarascu-2025-facteval} find that LLM fact verification on FEVER is brittle under small input perturbations.
+These results motivate a paired no-evidence versus gold-evidence design: if designated evidence still produces regressions, the failure is not missing retrieval.
+
+\subsection{Evidence sufficiency and ambiguity}
+Presence of evidence is not sufficiency.
+Atanasova et al.\ \citep{atanasova-etal-2022-fact} show that fact-checking models often fail to detect when remaining evidence is insufficient.
+Glockner et al.\ \citep{glockner-etal-2024-ambifc} document claim--evidence pairs that admit conflicting but valid interpretations and argue against forcing a single hard label.
+Our residual-ambiguity category is a silver-adjudicator analogue of that problem: after full designated evidence, a panel still withholds Supported/Refuted.
+We do not treat that disagreement as proof that a FEVER label is wrong.
+
+\subsection{LLM-as-judge and evaluator sensitivity}
+Using LLMs as judges scales evaluation but imports judge-specific biases, including position, verbosity, and self-preference effects \citep{zheng2023judging,liu-etal-2023-g,chen-etal-2024-humans}.
+Position bias itself varies by judge and task rather than appearing as a uniform artifact \citep{shi-etal-2025-judging}.
+Huang et al.\ \citep{huang-etal-2025-empirical} show that judge models are not interchangeable substitutes for one another.
+We therefore treat judge-family disagreement as a result.
+Cursor/Grok and Claude are two silver instruments applied to the same blinded packets.
+Agreement supports robustness of the qualitative taxonomy; disagreement bounds how precisely any one family can estimate category prevalence.
+Neither panel is human ground truth.

@@ -1,0 +1,38 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Evidence helps globally but can hurt locally}
+The practical headline is not that gold evidence fails.
+It succeeds on average, and it rescues far more claim-only errors than it creates.
+The scientific headline is that those averages are the wrong unit for reliability engineering.
+A 1.15--1.51\% regression rate is small in a 10{,}000-claim table and large if each regression is a previously correct decision that evidence reversed.
+Evaluation reports that publish only condition-wise accuracy will miss that reversal.
+
+\subsection{Evidence availability versus evidence utilization}
+Half or more of the 226 regressions are labeled utilization failures by at least one complete panel.
+On those items a blinded adjudicator finds the designated evidence decisive after Stage~C, while the original GPT model flipped away from the correct label when that evidence was added.
+This is closer to a use failure than to a missing-evidence failure.
+It sits next to work showing that models can ignore, mishandle, or be distracted by context they were given \citep{longpre-etal-2021-entity,shi2023distracted,wan-etal-2024-evidence}.
+We still cannot say \emph{why} GPT flipped: the original runs stored labels only.
+
+\subsection{Ambiguity and representation sensitivity}
+Residual ambiguity is the second category in both families.
+That is expected given prior evidence that sufficiency and ambiguity are first-class problems in fact verification \citep{atanasova-etal-2022-fact,glockner-etal-2024-ambifc}.
+We do not interpret residual silver ambiguity as a FEVER annotation error.
+Representation-sensitive cases are the smallest bucket in both families, and the item-level set is unstable (4 shared of 27 Grok cases).
+Titles and structure help some items and never reverse a decisive consensus.
+That supports a cautious claim: representation matters, but it is not the main quantitative story, and it is the least portable category across judge families.
+
+\subsection{Judge-family dependence as measurement uncertainty}
+The Claude-versus-Grok gap is the second contribution, not a defect to be explained away.
+LLM-as-judge work already shows that evaluators have family-specific biases and are not drop-in substitutes \citep{zheng2023judging,liu-etal-2023-g,chen-etal-2024-humans,huang-etal-2025-empirical}.
+Here the same packets, rubric, and taxonomy produce a 16-point swing in utilization share and disagreement on one regression in four.
+The honest interval for utilization failure on this cohort is approximately 50--66\%, not either endpoint.
+A paper that quoted only 50.0/11.9/38.1, or only 65.9/5.3/28.8, as ``the'' decomposition would overfit the first instrument it ran.
+
+\subsection{Implications for evidence-grounded LLM evaluation}
+Three implications follow.
+First, paired no-evidence versus gold-evidence evaluation should be standard whenever a benchmark supplies designated evidence; otherwise regressions are invisible.
+Second, automated failure-mode taxonomies need a second judge family before prevalence estimates are treated as stable.
+Third, residual ambiguity should remain a first-class output of adjudication rather than being forced into Supported/Refuted.
+Human review of the 58 claim-level Grok--Claude disagreements would be the natural next measurement, not another automated family.

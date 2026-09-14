@@ -1,0 +1,28 @@
+\section{Limitations}
+\label{sec:limitations}
+
+All adjudication is automated silver labeling.
+Cursor/Grok, GLM, and Claude judgments are not expert human annotation and do not create a new gold standard.
+Within-family agreement overstates how much independent human raters would agree, because the five judges are isolated contexts of one locked model.
+
+Exact category prevalences are judge-family-sensitive.
+We report both complete panels and refuse a single point estimate.
+
+FEVER labels remain the behavioral gold standard.
+NLI disagreement and judge--FEVER disagreement mark candidate ambiguity; they do not prove an annotation is wrong.
+
+The study is binary Supported/Refuted FEVER, 2017-era Wikipedia claims, and designated gold evidence rather than retrieved open-web context.
+\texttt{NOT ENOUGH INFO} is excluded by design.
+
+Both evaluated systems are GPT-5.4 variants.
+Transition concordance can reflect family-correlated errors.
+
+Progressive disclosure locates where a judge panel's warrant changes.
+It does not observe GPT-internal causal mechanisms.
+
+The full Claude replication covers the 226 regressions, not the 1{,}060-item judged diagnostic cohort.
+GLM is Stage~A only.
+The Claude residual panel is conditioned on 231 Grok leftovers, not on 226 regressions.
+
+Claude full execution included a quarantined path-leak rerun, a usage-limit pause, and a content-independent duplicate-batch tie-break (Appendix~\ref{app:deviations}).
+Those events are documented; they are not a license to treat the frozen judgments as optional.

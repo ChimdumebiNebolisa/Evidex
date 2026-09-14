@@ -1,0 +1,82 @@
+\section{Study Design}
+\label{sec:design}
+
+\subsection{Research questions}
+\label{sec:rqs}
+\begin{description}
+\item[RQ1] How does providing FEVER-designated gold evidence affect aggregate LLM fact-verification accuracy?
+\item[RQ2] When evidence changes a previously correct prediction into an incorrect one, how frequent and consistent are those regressions across models?
+\item[RQ3] What observable diagnostic failure modes characterize evidence-induced regressions under progressive disclosure?
+\item[RQ4] Do those diagnostic conclusions survive a change in adjudicating model family?
+\end{description}
+
+\subsection{FEVER dataset and sampling}
+We sample from the FEVER development set \citep{thorne-etal-2018-fever}.
+The manuscript experiment is a balanced 10{,}000-claim extract: 5{,}000 Supported and 5{,}000 Refuted, seed 42, \texttt{NOT ENOUGH INFO} excluded.
+Gold evidence is resolved from official FEVER Wikipedia shards into the text shown to the models.
+Sampling and validation artifacts are committed with the frozen repository; third-party FEVER and Wikipedia text are not relicensed by the project MIT license.
+
+\subsection{Models and paired evidence conditions}
+Each claim is evaluated four times: GPT-5.4 and GPT-5.4-mini, each under \texttt{claim\_only} and \texttt{claim\_plus\_evidence}.
+That yields 40{,}000 predictions.
+The evidence condition uses the designated FEVER evidence, not an open-web retrieval step.
+Original GPT runs stored labels only, so later analysis cannot recover confidence or token-level attributions.
+
+\subsection{Transition definitions}
+For each model, a claim has one of four paired transitions:
+\emph{robust} (correct without and with evidence),
+\emph{rescue} (wrong without, correct with),
+\emph{resistant} (wrong in both),
+or \emph{regression} (correct without, wrong with).
+A unique-claim regression is a claim that regresses for at least one of the two GPT models.
+Unique-claim counts are never treated as model-observations: 115 GPT-5.4 regressions and 151 mini regressions are 226 unique claims, not 266.
+
+\subsection{Analysis v2}
+Analysis v2 treats the 40{,}000-row experiment file as immutable source data.
+It rebuilds the paired dataset, runs McNemar tests and bootstrap confidence intervals, extracts linguistic and evidence-structure features, embeds claim--evidence pairs, and applies two local NLI models (nli-deberta-v3-small and distilbert-base-uncased-mnli) as diagnostics, not as ground truth.
+Leakage audits and an independent 69-check headline verifier are part of the frozen record.
+Confirmatory tests were pre-specified; NLI and feature analyses are exploratory.
+
+\subsection{Diagnostic cohort}
+The adjudication cohort contains 1{,}061 unique claims: all 226 unique regressions, 335 resistant, 250 rescue, and 250 robust.
+One item (\texttt{SA-000352}) is provider-filtered, so judged $N=1{,}060$.
+The Claude full panel judges only the 226 regressions.
+The Claude residual panel judges only the 231 Cursor/Grok Stage~C leftovers.
+Those three samples answer different questions and are not interchangeable.
+
+\subsection{Progressive-disclosure adjudication}
+\label{sec:protocol}
+Five isolated judges see nested evidence representations:
+Stage~A, gold evidence sentences only;
+Stage~B, Stage~A plus page titles;
+Stage~C, reconstructed structured FEVER evidence (chosen set, alternatives, archive flags).
+Judges do not browse, retrieve new pages, or see FEVER labels, GPT predictions, cohort tags, NLI scores, or other judges.
+Stages are frozen before the next packets are built.
+Consensus and the three-way taxonomy are computed by code.
+We call the categories \emph{diagnostic failure modes}: they describe where a blinded panel's warrant changes, not a causal mechanism inside GPT.
+
+The primary panel locks \texttt{cursor-grok-4.6-high-fast} for all judges and a same-family resolver on non-high-consensus items.
+Taxonomy comparison with Claude uses consensus labels, which are computed identically across panels.
+
+\subsection{Cross-family replication}
+\label{sec:cross-family-design}
+GLM-5.3 contributes a completed Stage~A panel compared to frozen Cursor Stage~A ($n=1{,}060$).
+Partial GLM Stages~B and~C exist only as provenance and are excluded from A$\rightarrow$B$\rightarrow$C mathematics.
+
+The Claude residual experiment is a Stage~C robustness test on the 231 Cursor/Grok Ambiguous/Unresolved leftovers (\texttt{claude-opus-5-thinking-high}, five judges, 1{,}155 judgments, no resolver).
+It is selection-conditioned on Grok leftovers.
+
+The main Claude experiment independently reruns A$\rightarrow$B$\rightarrow$C on all 226 unique regressions (226$\times$5$\times$3 $= 3{,}390$ judgments), with fresh opaque IDs and no splicing of residual-panel judgments.
+During execution, the first Stage~A batch-01 wave used judge-facing paths that named the panel directory and therefore the cohort-selection criterion.
+Those 385 judgments were quarantined unread, paths were replaced with a neutral \texttt{blind\_io} namespace, and the batch was rerun under the same locked model, rubric, and evidence packets.
+A later usage-limit interruption paused Stage~B; work resumed on the same Claude slug, and already-valid judgments were retained.
+Overlapping recovery produced three duplicate Stage~B judge-batches; a content-independent first-ingested-wins rule kept one copy.
+Details are in Appendix~\ref{app:deviations}.
+
+\subsection{Statistical analysis and verification}
+Paired accuracy uses McNemar tests.
+Regression and rescue rates use bootstrap confidence intervals.
+Cross-family taxonomy agreement is reported as exact match, broad-category match, and Cohen's $\kappa$.
+Stage-wise ambiguity differences use McNemar tests on the paired 226-item sample.
+The frozen artifact verifies Analysis~v2 (69/69), Cursor/Grok (33/33), read-only GLM Stage~A, Claude residual (38/38), and Claude full (21/21).
+Cohen's $\kappa=0.537$ is taken from the canonical synthesis, not from the Claude \texttt{HEADLINES.json} registry.

@@ -1,0 +1,65 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath,amssymb}
+\usepackage{natbib}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+
+\setstretch{1.08}
+\bibliographystyle{plainnat}
+
+\title{Evidence Helps on Average, but Sometimes Hurts:\\
+Diagnosing Evidence-Induced Regressions in LLM Fact Verification}
+
+\author{
+Chimdumebi Mitchell Nebolisa\\
+\textit{Affiliation TODO}\\
+\and
+Jessica Udry\\
+\textit{Affiliation TODO}
+}
+
+\date{Manuscript draft for internal review\\[0.4em]
+\small Frozen artifact: \texttt{evidex-artifact-v1} (\texttt{29102c3})\\
+Venue-neutral first draft. Not a submission.}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\input{sections/abstract}
+\end{abstract}
+
+\noindent\textit{Keywords:} fact verification, FEVER, large language models, evidence utilization, silver adjudication, LLM-as-judge
+
+\input{sections/introduction}
+\input{sections/related_work}
+\input{sections/study_design}
+
+\input{tables/tab_accuracy}
+\input{tables/tab_mechanism}
+\input{tables/tab_cross_family}
+\input{tables/tab_shared}
+
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/limitations}
+\input{sections/conclusion}
+
+\section*{Data and code}
+The frozen research record is tag \texttt{evidex-artifact-v1} at commit \texttt{29102c3}.
+Headline verifiers and the four test suites pass on that tag.
+Project code is MIT-licensed; FEVER and Wikipedia-derived files are third-party material.
+
+\bibliography{references}
+
+\input{appendix}
+
+\end{document}

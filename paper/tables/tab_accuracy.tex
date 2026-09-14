@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Paired behavioral results on 10{,}000 balanced FEVER Supported/Refuted claims (40{,}000 predictions). Accuracies and transition counts are from the verified Analysis~v2 tables. Unique-claim regression counts treat a claim as one unit even if both models regress.}
+\label{tab:accuracy}
+\begin{tabular}{lrrrrr}
+\toprule
+Model & Claim-only & +Gold ev. & $\Delta$ (pp) & Regressions & Rescues \\
+\midrule
+GPT-5.4 & 88.69\% & 96.04\% & $+7.35$ & 115 (1.15\%) & 850 (8.5\%) \\
+GPT-5.4-mini & 84.67\% & 95.54\% & $+10.87$ & 151 (1.51\%) & 1{,}238 (12.4\%) \\
+\midrule
+\multicolumn{6}{l}{Unique claims that regress for at least one model: 226 (40 both; 186 exactly one).} \\
+\bottomrule
+\end{tabular}
+\end{table}
