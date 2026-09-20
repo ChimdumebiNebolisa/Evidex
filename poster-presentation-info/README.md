@@ -25,8 +25,6 @@ The documented workflow was:
 3. Evaluate the same claims using `gpt-5.4` and `gpt-5.4-mini`, each under `claim_only` and `claim_plus_evidence` conditions.
 4. Score 40,000 model-condition decisions against the FEVER labels and examine remaining errors.
 
-The historical dossier also documents a 50-claim, 200-decision pilot before the full run. That pilot is distinct from the full 10,000-claim experiment.
-
 Source: the unedited [April presentation dossier](presentation_dossier_comprehensive.md).
 
 ## Results already documented before the presentation
