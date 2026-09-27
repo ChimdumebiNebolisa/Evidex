@@ -1,0 +1,2382 @@
+{
+  "judge_id": "judge_2",
+  "stage": "C",
+  "output_path": "corrections_v2/blind_io/p03/stage_c/p03_C_j2_b01.output.json",
+  "n_items": 77,
+  "item_ids": [
+    "CR-000001",
+    "CR-000002",
+    "CR-000003",
+    "CR-000004",
+    "CR-000005",
+    "CR-000006",
+    "CR-000007",
+    "CR-000008",
+    "CR-000009",
+    "CR-000010",
+    "CR-000011",
+    "CR-000012",
+    "CR-000013",
+    "CR-000014",
+    "CR-000015",
+    "CR-000016",
+    "CR-000017",
+    "CR-000018",
+    "CR-000019",
+    "CR-000020",
+    "CR-000021",
+    "CR-000022",
+    "CR-000023",
+    "CR-000024",
+    "CR-000025",
+    "CR-000026",
+    "CR-000027",
+    "CR-000028",
+    "CR-000029",
+    "CR-000030",
+    "CR-000031",
+    "CR-000032",
+    "CR-000033",
+    "CR-000034",
+    "CR-000035",
+    "CR-000036",
+    "CR-000037",
+    "CR-000038",
+    "CR-000039",
+    "CR-000040",
+    "CR-000041",
+    "CR-000042",
+    "CR-000043",
+    "CR-000044",
+    "CR-000045",
+    "CR-000046",
+    "CR-000047",
+    "CR-000048",
+    "CR-000049",
+    "CR-000050",
+    "CR-000051",
+    "CR-000052",
+    "CR-000053",
+    "CR-000054",
+    "CR-000055",
+    "CR-000056",
+    "CR-000057",
+    "CR-000058",
+    "CR-000059",
+    "CR-000060",
+    "CR-000061",
+    "CR-000062",
+    "CR-000063",
+    "CR-000064",
+    "CR-000065",
+    "CR-000066",
+    "CR-000067",
+    "CR-000068",
+    "CR-000069",
+    "CR-000070",
+    "CR-000071",
+    "CR-000072",
+    "CR-000073",
+    "CR-000074",
+    "CR-000075",
+    "CR-000076",
+    "CR-000077"
+  ],
+  "items": [
+    {
+      "item_id": "CR-000001",
+      "claim": "Mellila is a Spanish town.",
+      "evidence_sentences": "Melilla -LRB- -LSB- məˈliːjə -RSB- ; -LSB- meˈliʎa -RSB- , -LSB- meˈliʝa -RSB- ; Mřič -LSB- , Maliliyyah -RRB- is a Spanish autonomous city located on the north coast of Africa , sharing a border with Morocco with an area of 12.3 km2 .",
+      "page_titles": [
+        "Melilla"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Melilla",
+            "line_index": 0,
+            "sentence": "Melilla -LRB- -LSB- məˈliːjə -RSB- ; -LSB- meˈliʎa -RSB- , -LSB- meˈliʝa -RSB- ; Mřič -LSB- , Maliliyyah -RRB- is a Spanish autonomous city located on the north coast of Africa , sharing a border with Morocco with an area of 12.3 km2 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000002",
+      "claim": "Saw II was released in a format.",
+      "evidence_sentences": "Saw II was released on October 28 , 2005 and , despite mixed reviews from critics , was a financial success , with opening takings of $ 31.9 million and grossing $ 88 million in the United States and Canada .",
+      "page_titles": [
+        "Saw II"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Saw II",
+            "line_index": 17,
+            "sentence": "Saw II was released on October 28 , 2005 and , despite mixed reviews from critics , was a financial success , with opening takings of $ 31.9 million and grossing $ 88 million in the United States and Canada ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Saw II",
+              "line_index": 20,
+              "sentence": "Saw II was released to DVD on and topped charts its first week , selling more than 3 million units ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000003",
+      "claim": "DJ Quik's maiden name is David Marvin Blake.",
+      "evidence_sentences": "David Marvin Blake -LRB- born January 18 , 1970 -RRB- , better known by his stage name DJ Quik , is an American hip hop recording artist , DJ and record producer .",
+      "page_titles": [
+        "DJ Quik"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "DJ Quik",
+            "line_index": 0,
+            "sentence": "David Marvin Blake -LRB- born January 18 , 1970 -RRB- , better known by his stage name DJ Quik , is an American hip hop recording artist , DJ and record producer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000004",
+      "claim": "There are rumors that Augustus' marble, Livia, poisoned him.",
+      "evidence_sentences": "He probably died from natural causes , although there were unconfirmed rumors that his wife Livia poisoned him .",
+      "page_titles": [
+        "Augustus"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Augustus",
+            "line_index": 42,
+            "sentence": "He probably died from natural causes , although there were unconfirmed rumors that his wife Livia poisoned him ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000005",
+      "claim": "The Stanford prison experiment was an examination of the causes of troubles between guards and prisoners.",
+      "evidence_sentences": "The Stanford prison experiment -LRB- SPE -RRB- was an attempt to investigate the psychological effects of perceived power , focusing on the struggle between prisoners and prison guards .",
+      "page_titles": [
+        "Stanford prison experiment"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Stanford prison experiment",
+            "line_index": 0,
+            "sentence": "The Stanford prison experiment -LRB- SPE -RRB- was an attempt to investigate the psychological effects of perceived power , focusing on the struggle between prisoners and prison guards ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000006",
+      "claim": "There are 30 knockouts part of the career boxing record of Floyd Mayweather Jr.",
+      "evidence_sentences": "He finished his career with a record of 26 wins without a loss or draw in world title fights -LRB- 10 by KO -RRB- ; 23 wins -LRB- 9 KOs -RRB- in lineal title fights ; 24 wins -LRB- 7 KOs -RRB- against former or current world titlists ; 12 wins -LRB- 3 KOs -RRB- against former or current lineal champions ; and 2 wins -LRB- 1 KO -RRB- against International Boxing Hall of Fame inductees .",
+      "page_titles": [
+        "Floyd Mayweather Jr."
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Floyd Mayweather Jr.",
+            "line_index": 10,
+            "sentence": "He finished his career with a record of 26 wins without a loss or draw in world title fights -LRB- 10 by KO -RRB- ; 23 wins -LRB- 9 KOs -RRB- in lineal title fights ; 24 wins -LRB- 7 KOs -RRB- against former or current world titlists ; 12 wins -LRB- 3 KOs -RRB- against former or current lineal champions ; and 2 wins -LRB- 1 KO -RRB- against International Boxing Hall of Fame inductees ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000007",
+      "claim": "The television series Fringe was created by the Fox Broadcasting Company.",
+      "evidence_sentences": "It premiered on the Fox Broadcasting network on September 9 , 2008 , and concluded on January 18 , 2013 , after five seasons and 100 episodes .",
+      "page_titles": [
+        "Fringe -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Fringe -LRB-TV series-RRB-",
+            "line_index": 1,
+            "sentence": "It premiered on the Fox Broadcasting network on September 9 , 2008 , and concluded on January 18 , 2013 , after five seasons and 100 episodes ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000008",
+      "claim": "The Josh Thurlow historical fiction novels were written by Homer Hickman.",
+      "evidence_sentences": "Hickam has also written a number of best-selling memoirs and novels including the `` Josh Thurlow '' historical fiction novels .",
+      "page_titles": [
+        "Homer Hickam"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Homer Hickam",
+            "line_index": 2,
+            "sentence": "Hickam has also written a number of best-selling memoirs and novels including the `` Josh Thurlow '' historical fiction novels ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000009",
+      "claim": "Rio's sequel was released on a date during the 21st century.",
+      "evidence_sentences": "Rio is a 2011 American 3D computer-animated adventure film-produced by Blue Sky Studios and directed by Carlos Saldanha .",
+      "page_titles": [
+        "Rio -LRB-2011 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Rio -LRB-2011 film-RRB-",
+            "line_index": 0,
+            "sentence": "Rio is a 2011 American 3D computer-animated adventure film-produced by Blue Sky Studios and directed by Carlos Saldanha ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Rio -LRB-2011 film-RRB-",
+              "line_index": 15,
+              "sentence": "Rio premiered on March 22 , 2011 , in Lagoa , Rio de Janeiro , and had its general release on April 15 , 2011 , in North America ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000010",
+      "claim": "Sean Penn has acted in 13 films.",
+      "evidence_sentences": "Following his film debut in the drama Taps -LRB- 1981 -RRB- and a diverse range of film roles in the 1980s , including Fast Times at Ridgemont High -LRB- 1982 -RRB- , Penn garnered critical attention for his roles in the crime dramas At Close Range -LRB- 1986 -RRB- , State of Grace -LRB- 1990 -RRB- , and Carlito 's Way -LRB- 1993 -RRB- . He became known as a prominent leading actor with the drama Dead Man Walking -LRB- 1995 -RRB- , for which he earned his first Academy Award nomination and the Best Actor Award at the Berlin Film Festival . Penn received another two Oscar nominations for Woody Allen 's comedy-drama Sweet and Lowdown -LRB- 1999 -RRB- and the drama I Am Sam -LRB- 2001 -RRB- , before winning his first Academy Award for Best Actor in 2003 for Mystic River and a second one in 2008 for Milk . He has also won a Best Actor Award of the Cannes Film Festival for the Nick Cassavetes-directed She 's So Lovely -LRB- 1997 -RRB- , and two Best Actor Awards at the Venice Film Festival for the indie film Hurlyburly -LRB- 1998 -RRB- and the drama 21 Grams -LRB- 2003 -RRB- . Penn made his feature film directorial debut with The Indian Runner -LRB- 1991 -RRB- , followed by the drama film The Crossing Guard -LRB- 1995 -RRB- and the mystery film The Pledge -LRB- 2001 -RRB- .",
+      "page_titles": [
+        "Sean Penn",
+        "Sean Penn",
+        "Sean Penn",
+        "Sean Penn",
+        "Sean Penn"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sean Penn",
+            "line_index": 5,
+            "sentence": "Following his film debut in the drama Taps -LRB- 1981 -RRB- and a diverse range of film roles in the 1980s , including Fast Times at Ridgemont High -LRB- 1982 -RRB- , Penn garnered critical attention for his roles in the crime dramas At Close Range -LRB- 1986 -RRB- , State of Grace -LRB- 1990 -RRB- , and Carlito 's Way -LRB- 1993 -RRB- ."
+          },
+          {
+            "page_title": "Sean Penn",
+            "line_index": 6,
+            "sentence": "He became known as a prominent leading actor with the drama Dead Man Walking -LRB- 1995 -RRB- , for which he earned his first Academy Award nomination and the Best Actor Award at the Berlin Film Festival ."
+          },
+          {
+            "page_title": "Sean Penn",
+            "line_index": 7,
+            "sentence": "Penn received another two Oscar nominations for Woody Allen 's comedy-drama Sweet and Lowdown -LRB- 1999 -RRB- and the drama I Am Sam -LRB- 2001 -RRB- , before winning his first Academy Award for Best Actor in 2003 for Mystic River and a second one in 2008 for Milk ."
+          },
+          {
+            "page_title": "Sean Penn",
+            "line_index": 8,
+            "sentence": "He has also won a Best Actor Award of the Cannes Film Festival for the Nick Cassavetes-directed She 's So Lovely -LRB- 1997 -RRB- , and two Best Actor Awards at the Venice Film Festival for the indie film Hurlyburly -LRB- 1998 -RRB- and the drama 21 Grams -LRB- 2003 -RRB- ."
+          },
+          {
+            "page_title": "Sean Penn",
+            "line_index": 11,
+            "sentence": "Penn made his feature film directorial debut with The Indian Runner -LRB- 1991 -RRB- , followed by the drama film The Crossing Guard -LRB- 1995 -RRB- and the mystery film The Pledge -LRB- 2001 -RRB- ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Sean Penn",
+              "line_index": 5,
+              "sentence": "Following his film debut in the drama Taps -LRB- 1981 -RRB- and a diverse range of film roles in the 1980s , including Fast Times at Ridgemont High -LRB- 1982 -RRB- , Penn garnered critical attention for his roles in the crime dramas At Close Range -LRB- 1986 -RRB- , State of Grace -LRB- 1990 -RRB- , and Carlito 's Way -LRB- 1993 -RRB- ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 6,
+              "sentence": "He became known as a prominent leading actor with the drama Dead Man Walking -LRB- 1995 -RRB- , for which he earned his first Academy Award nomination and the Best Actor Award at the Berlin Film Festival ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 7,
+              "sentence": "Penn received another two Oscar nominations for Woody Allen 's comedy-drama Sweet and Lowdown -LRB- 1999 -RRB- and the drama I Am Sam -LRB- 2001 -RRB- , before winning his first Academy Award for Best Actor in 2003 for Mystic River and a second one in 2008 for Milk ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 8,
+              "sentence": "He has also won a Best Actor Award of the Cannes Film Festival for the Nick Cassavetes-directed She 's So Lovely -LRB- 1997 -RRB- , and two Best Actor Awards at the Venice Film Festival for the indie film Hurlyburly -LRB- 1998 -RRB- and the drama 21 Grams -LRB- 2003 -RRB- ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 11,
+              "sentence": "Penn made his feature film directorial debut with The Indian Runner -LRB- 1991 -RRB- , followed by the drama film The Crossing Guard -LRB- 1995 -RRB- and the mystery film The Pledge -LRB- 2001 -RRB- ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 12,
+              "sentence": "Penn directed one of the 11 segments of 11 ' 09 `` 01 September 11 -LRB- 2002 -RRB- , a compilation film made in response to the September 11 attacks ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 13,
+              "sentence": "His fourth feature film , the biographical drama survival movie Into the Wild -LRB- 2007 -RRB- , garnered critical acclaim and two Academy Award nominations ."
+            }
+          ],
+          [
+            {
+              "page_title": "Sean Penn",
+              "line_index": 5,
+              "sentence": "Following his film debut in the drama Taps -LRB- 1981 -RRB- and a diverse range of film roles in the 1980s , including Fast Times at Ridgemont High -LRB- 1982 -RRB- , Penn garnered critical attention for his roles in the crime dramas At Close Range -LRB- 1986 -RRB- , State of Grace -LRB- 1990 -RRB- , and Carlito 's Way -LRB- 1993 -RRB- ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 6,
+              "sentence": "He became known as a prominent leading actor with the drama Dead Man Walking -LRB- 1995 -RRB- , for which he earned his first Academy Award nomination and the Best Actor Award at the Berlin Film Festival ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 7,
+              "sentence": "Penn received another two Oscar nominations for Woody Allen 's comedy-drama Sweet and Lowdown -LRB- 1999 -RRB- and the drama I Am Sam -LRB- 2001 -RRB- , before winning his first Academy Award for Best Actor in 2003 for Mystic River and a second one in 2008 for Milk ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 8,
+              "sentence": "He has also won a Best Actor Award of the Cannes Film Festival for the Nick Cassavetes-directed She 's So Lovely -LRB- 1997 -RRB- , and two Best Actor Awards at the Venice Film Festival for the indie film Hurlyburly -LRB- 1998 -RRB- and the drama 21 Grams -LRB- 2003 -RRB- ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 11,
+              "sentence": "Penn made his feature film directorial debut with The Indian Runner -LRB- 1991 -RRB- , followed by the drama film The Crossing Guard -LRB- 1995 -RRB- and the mystery film The Pledge -LRB- 2001 -RRB- ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000011",
+      "claim": "The Tracey Fragments played at the 2007 Toronto International Film Festival.",
+      "evidence_sentences": "The film was selected to open the Panorama section of the 57th Berlin International Film Festival and had its world premiere February 8 , 2007 .",
+      "page_titles": [
+        "The Tracey Fragments -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Tracey Fragments -LRB-film-RRB-",
+            "line_index": 4,
+            "sentence": "The film was selected to open the Panorama section of the 57th Berlin International Film Festival and had its world premiere February 8 , 2007 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000012",
+      "claim": "Aleister Crowley was born on Tuesday, October 12, 1875.",
+      "evidence_sentences": "Aleister Crowley -LRB- -LSB- ˈkroʊli -RSB- born Edward Alexander Crowley ; 12 October 1875 -- 1 December 1947 -RRB- was an English occultist , ceremonial magician , poet , painter , novelist , and mountaineer .",
+      "page_titles": [
+        "Aleister Crowley"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Aleister Crowley",
+            "line_index": 0,
+            "sentence": "Aleister Crowley -LRB- -LSB- ˈkroʊli -RSB- born Edward Alexander Crowley ; 12 October 1875 -- 1 December 1947 -RRB- was an English occultist , ceremonial magician , poet , painter , novelist , and mountaineer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000013",
+      "claim": "Wildfang is a US-based women's apparel company featuring hats that are tomboyish in style.",
+      "evidence_sentences": "Wildfang is a US-based women 's apparel company featuring clothing that is tomboyish in style .",
+      "page_titles": [
+        "Wildfang"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Wildfang",
+            "line_index": 0,
+            "sentence": "Wildfang is a US-based women 's apparel company featuring clothing that is tomboyish in style ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000014",
+      "claim": "Joe Walsh was written on the official roster of an organization in 2001.",
+      "evidence_sentences": "As a member of the Eagles , Walsh was inducted into the Rock and Roll Hall of Fame in 1998 , and into the Vocal Group Hall of Fame in 2001 .",
+      "page_titles": [
+        "Joe Walsh"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Joe Walsh",
+            "line_index": 24,
+            "sentence": "As a member of the Eagles , Walsh was inducted into the Rock and Roll Hall of Fame in 1998 , and into the Vocal Group Hall of Fame in 2001 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000015",
+      "claim": "Bryan Howd was a Golden Globe nominee.",
+      "evidence_sentences": "He was nominated for a Golden Globe Award for Tangled and won for Zootopia .",
+      "page_titles": [
+        "Byron Howard"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Byron Howard",
+            "line_index": 2,
+            "sentence": "He was nominated for a Golden Globe Award for Tangled and won for Zootopia ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Byron Howard",
+              "line_index": 2,
+              "sentence": "He was nominated for a Golden Globe Award for Tangled and won for Zootopia ."
+            }
+          ],
+          [
+            {
+              "page_title": "Byron Howard",
+              "line_index": 2,
+              "sentence": "He was nominated for a Golden Globe Award for Tangled and won for Zootopia ."
+            }
+          ],
+          [
+            {
+              "page_title": "Byron Howard",
+              "line_index": 2,
+              "sentence": "He was nominated for a Golden Globe Award for Tangled and won for Zootopia ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000016",
+      "claim": "Aarhus is in the geographical edge of Denmark.",
+      "evidence_sentences": "Aarhus -LRB- -LSB- ˈɒːhuːˀs -RSB- ; officially spelled Århus from 1948 until 31 December 2010 -RRB- is the second-largest city in Denmark and the seat of Aarhus municipality .",
+      "page_titles": [
+        "Aarhus"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Aarhus",
+            "line_index": 0,
+            "sentence": "Aarhus -LRB- -LSB- ˈɒːhuːˀs -RSB- ; officially spelled Århus from 1948 until 31 December 2010 -RRB- is the second-largest city in Denmark and the seat of Aarhus municipality ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000017",
+      "claim": "TV Choice is on at 3 pm weekly.",
+      "evidence_sentences": "TV Choice is a British weekly TV listings magazine published by H. Bauer Publishing , the UK subsidiary of family-run German company Bauer Media Group .",
+      "page_titles": [
+        "TV Choice"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "TV Choice",
+            "line_index": 0,
+            "sentence": "TV Choice is a British weekly TV listings magazine published by H. Bauer Publishing , the UK subsidiary of family-run German company Bauer Media Group ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000018",
+      "claim": "French Indochina was officially known as the Indochinese Federation after 1955.",
+      "evidence_sentences": "French Indochina -LRB- previously spelled as French Indo-China -RRB- -LRB- Indochine française សហភ ពឥណ ឌ ច ន Đông Dương thuộc Pháp , -LSB- ɗə̄wŋm jɨ̄əŋ tʰûək fǎp -RSB- , frequently abbreviated to Đông Pháp ; ຝຣັ່ງແຫຼັມອິນດູຈີນ Cantonese : -RRB- , officially known as the Indochinese Union -LRB- Union indochinoise -RRB- after 1887 and the Indochinese Federation -LRB- Fédération indochinoise -RRB- after 1947 , was a grouping of French colonial territories in Southeast Asia .",
+      "page_titles": [
+        "French Indochina"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "French Indochina",
+            "line_index": 0,
+            "sentence": "French Indochina -LRB- previously spelled as French Indo-China -RRB- -LRB- Indochine française សហភ ពឥណ ឌ ច ន Đông Dương thuộc Pháp , -LSB- ɗə̄wŋm jɨ̄əŋ tʰûək fǎp -RSB- , frequently abbreviated to Đông Pháp ; ຝຣັ່ງແຫຼັມອິນດູຈີນ Cantonese : -RRB- , officially known as the Indochinese Union -LRB- Union indochinoise -RRB- after 1887 and the Indochinese Federation -LRB- Fédération indochinoise -RRB- after 1947 , was a grouping of French colonial territories in Southeast Asia ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000019",
+      "claim": "James, Viscount Severn is the only ally of Prince Edward and Sophie, Countess of Wessex.",
+      "evidence_sentences": "James , Viscount Severn -LRB- James Alexander Philip Theo Mountbatten-Windsor ; born 17 December 2007 -RRB- is the younger child and only son of Prince Edward , Earl of Wessex , and Sophie , Countess of Wessex , and the youngest grandchild of Queen Elizabeth II and Prince Philip , Duke of Edinburgh .",
+      "page_titles": [
+        "James, Viscount Severn"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "James, Viscount Severn",
+            "line_index": 0,
+            "sentence": "James , Viscount Severn -LRB- James Alexander Philip Theo Mountbatten-Windsor ; born 17 December 2007 -RRB- is the younger child and only son of Prince Edward , Earl of Wessex , and Sophie , Countess of Wessex , and the youngest grandchild of Queen Elizabeth II and Prince Philip , Duke of Edinburgh ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000020",
+      "claim": "Warcraft premiered in America on June 10, 2016.",
+      "evidence_sentences": "Warcraft premiered in Paris on May 24 , 2016 , and was released by Universal Pictures in the United States on June 10 , 2016 .",
+      "page_titles": [
+        "Warcraft -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Warcraft -LRB-film-RRB-",
+            "line_index": 7,
+            "sentence": "Warcraft premiered in Paris on May 24 , 2016 , and was released by Universal Pictures in the United States on June 10 , 2016 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000021",
+      "claim": "The United Nations Charter was completed at the San Francisco War Memorial and Performing Arts Center.",
+      "evidence_sentences": "It was signed at the San Francisco War Memorial and Performing Arts Center in San Francisco , United States , on 26 June 1945 , by 50 of the 51 original member countries -LRB- Poland , the other original member , which was not represented at the conference , signed it two months later -RRB- .",
+      "page_titles": [
+        "United Nations Charter"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "United Nations Charter",
+            "line_index": 1,
+            "sentence": "It was signed at the San Francisco War Memorial and Performing Arts Center in San Francisco , United States , on 26 June 1945 , by 50 of the 51 original member countries -LRB- Poland , the other original member , which was not represented at the conference , signed it two months later -RRB- ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "United Nations Charter",
+              "line_index": 1,
+              "sentence": "It was signed at the San Francisco War Memorial and Performing Arts Center in San Francisco , United States , on 26 June 1945 , by 50 of the 51 original member countries -LRB- Poland , the other original member , which was not represented at the conference , signed it two months later -RRB- ."
+            }
+          ],
+          [
+            {
+              "page_title": "United Nations Charter",
+              "line_index": 1,
+              "sentence": "It was signed at the San Francisco War Memorial and Performing Arts Center in San Francisco , United States , on 26 June 1945 , by 50 of the 51 original member countries -LRB- Poland , the other original member , which was not represented at the conference , signed it two months later -RRB- ."
+            }
+          ],
+          [
+            {
+              "page_title": "United Nations Charter",
+              "line_index": 1,
+              "sentence": "It was signed at the San Francisco War Memorial and Performing Arts Center in San Francisco , United States , on 26 June 1945 , by 50 of the 51 original member countries -LRB- Poland , the other original member , which was not represented at the conference , signed it two months later -RRB- ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000022",
+      "claim": "The Bloods have ambiguous hand signs.",
+      "evidence_sentences": "They are identified by the red color worn by their members and by particular gang symbols , including distinctive hand signs .",
+      "page_titles": [
+        "Bloods"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Bloods",
+            "line_index": 2,
+            "sentence": "They are identified by the red color worn by their members and by particular gang symbols , including distinctive hand signs ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000023",
+      "claim": "Off the Wall gained critical acclaim and recognition, as well as a Grammy for Michael Jackson.",
+      "evidence_sentences": "The record gained critical acclaim and recognition , and won the singer his first Grammy Award .",
+      "page_titles": [
+        "Off the Wall"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Off the Wall",
+            "line_index": 14,
+            "sentence": "The record gained critical acclaim and recognition , and won the singer his first Grammy Award ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000024",
+      "claim": "Chris Benoit's name is Michael.",
+      "evidence_sentences": "Christopher Michael Benoit -LRB- -LSB- bəˈnwa -RSB- ; May 21 , 1967 -- June 24 , 2007 -RRB- was a Canadian professional wrestler .",
+      "page_titles": [
+        "Chris Benoit"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Chris Benoit",
+            "line_index": 0,
+            "sentence": "Christopher Michael Benoit -LRB- -LSB- bəˈnwa -RSB- ; May 21 , 1967 -- June 24 , 2007 -RRB- was a Canadian professional wrestler ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000025",
+      "claim": "The Tenth Doctor travels alone during the time period 2009-2010.",
+      "evidence_sentences": "He eventually parts ways with them all by the end of the 2008 series finale , `` Journey 's End '' , after which he attempts to travel alone for the duration of the 2008 -- 2010 specials before being accompanied by Donna Noble 's grandfather Wilfred Mott on his final adventure in The End of Time .",
+      "page_titles": [
+        "Tenth Doctor"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tenth Doctor",
+            "line_index": 8,
+            "sentence": "He eventually parts ways with them all by the end of the 2008 series finale , `` Journey 's End '' , after which he attempts to travel alone for the duration of the 2008 -- 2010 specials before being accompanied by Donna Noble 's grandfather Wilfred Mott on his final adventure in The End of Time ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000026",
+      "claim": "A polynomial is an entity.",
+      "evidence_sentences": "In mathematics , a polynomial is an expression consisting of variables -LRB- or indeterminates -RRB- and coefficients , that involves only the operations of addition , subtraction , multiplication , and non-negative integer exponents .",
+      "page_titles": [
+        "Polynomial"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Polynomial",
+            "line_index": 0,
+            "sentence": "In mathematics , a polynomial is an expression consisting of variables -LRB- or indeterminates -RRB- and coefficients , that involves only the operations of addition , subtraction , multiplication , and non-negative integer exponents ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Polynomial",
+              "line_index": 5,
+              "sentence": "Polynomials appear in a wide variety of areas of mathematics and science ."
+            }
+          ],
+          [
+            {
+              "page_title": "Polynomial",
+              "line_index": 7,
+              "sentence": "In advanced mathematics , polynomials are used to construct polynomial rings and algebraic varieties , central concepts in algebra and algebraic geometry ."
+            }
+          ],
+          [
+            {
+              "page_title": "Polynomial",
+              "line_index": 0,
+              "sentence": "In mathematics , a polynomial is an expression consisting of variables -LRB- or indeterminates -RRB- and coefficients , that involves only the operations of addition , subtraction , multiplication , and non-negative integer exponents ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000027",
+      "claim": "Rob McElhenney plays the character Mac on It's Always Sunny in Philadelphia.",
+      "evidence_sentences": "Robert Dale `` Rob '' McElhenney -LRB- born April 14 , 1977 -RRB- is an American actor , director , producer , and screenwriter .",
+      "page_titles": [
+        "Rob McElhenney"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Rob McElhenney",
+            "line_index": 0,
+            "sentence": "Robert Dale `` Rob '' McElhenney -LRB- born April 14 , 1977 -RRB- is an American actor , director , producer , and screenwriter ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Rob McElhenney",
+              "line_index": 3,
+              "sentence": "He is best known for playing Mac on the FX/FXX comedy series It 's Always Sunny in Philadelphia ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000028",
+      "claim": "Aphrodite is dating the god of blacksmiths.",
+      "evidence_sentences": "In Greek myth , the other gods feared that Aphrodite 's beauty might lead to conflict and war , through rivalry for her favours ; so Zeus married her off to Hephaestus .",
+      "page_titles": [
+        "Aphrodite"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Aphrodite",
+            "line_index": 13,
+            "sentence": "In Greek myth , the other gods feared that Aphrodite 's beauty might lead to conflict and war , through rivalry for her favours ; so Zeus married her off to Hephaestus ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000029",
+      "claim": "The American Revolution was lead by Benjamin Franklin.",
+      "evidence_sentences": "His efforts proved vital for the American Revolution in securing shipments of crucial munitions from France .",
+      "page_titles": [
+        "Benjamin Franklin"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Benjamin Franklin",
+            "line_index": 23,
+            "sentence": "His efforts proved vital for the American Revolution in securing shipments of crucial munitions from France ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000030",
+      "claim": "Heavy Metal music was developed in Europe.",
+      "evidence_sentences": "Heavy metal -LRB- or simply metal -RRB- is a genre of rock music that developed in the late 1960s and early 1970s , largely in the United Kingdom and the United States .",
+      "page_titles": [
+        "Heavy metal music"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Heavy metal music",
+            "line_index": 0,
+            "sentence": "Heavy metal -LRB- or simply metal -RRB- is a genre of rock music that developed in the late 1960s and early 1970s , largely in the United Kingdom and the United States ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000031",
+      "claim": "The Tenth Doctor recruits Wilfred Mott to assist him throughout The End of Time.",
+      "evidence_sentences": "He eventually parts ways with them all by the end of the 2008 series finale , `` Journey 's End '' , after which he attempts to travel alone for the duration of the 2008 -- 2010 specials before being accompanied by Donna Noble 's grandfather Wilfred Mott on his final adventure in The End of Time .",
+      "page_titles": [
+        "Tenth Doctor"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tenth Doctor",
+            "line_index": 8,
+            "sentence": "He eventually parts ways with them all by the end of the 2008 series finale , `` Journey 's End '' , after which he attempts to travel alone for the duration of the 2008 -- 2010 specials before being accompanied by Donna Noble 's grandfather Wilfred Mott on his final adventure in The End of Time ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000032",
+      "claim": "Black Canary is a character in comic books published by an American entrepreneur.",
+      "evidence_sentences": "Black Canary is a fictional superheroine in comic books published by DC Comics . DC Comics , Inc. is an American comic book publisher .",
+      "page_titles": [
+        "Black Canary",
+        "DC Comics"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Black Canary",
+            "line_index": 0,
+            "sentence": "Black Canary is a fictional superheroine in comic books published by DC Comics ."
+          },
+          {
+            "page_title": "DC Comics",
+            "line_index": 0,
+            "sentence": "DC Comics , Inc. is an American comic book publisher ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000033",
+      "claim": "Matthias Corvinus, King of Hungary, established a royal theater troupe between 1458 and 1490.",
+      "evidence_sentences": "Matthias Corvinus , also called Matthias I -LRB- Hunyadi Mátyás , Matija Korvin , Matia Corvin , Matej Korvín , Matyáš Korvín 23 February 1443 -- 6 April 1490 -RRB- , was King of Hungary and Croatia from 1458 to 1490 .",
+      "page_titles": [
+        "Matthias Corvinus"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Matthias Corvinus",
+            "line_index": 0,
+            "sentence": "Matthias Corvinus , also called Matthias I -LRB- Hunyadi Mátyás , Matija Korvin , Matia Corvin , Matej Korvín , Matyáš Korvín 23 February 1443 -- 6 April 1490 -RRB- , was King of Hungary and Croatia from 1458 to 1490 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000034",
+      "claim": "Mel B released a song on Virgin Records in 2007.",
+      "evidence_sentences": "Brown began her solo career when she released `` I Want You Back '' with Missy Elliott on Virgin Records .",
+      "page_titles": [
+        "Mel B"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mel B",
+            "line_index": 5,
+            "sentence": "Brown began her solo career when she released `` I Want You Back '' with Missy Elliott on Virgin Records ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000035",
+      "claim": "The Disaster Artist (film) is 8 years old.",
+      "evidence_sentences": "The Disaster Artist is a 2017 American biographical comedy film directed , produced by , and starring James Franco .",
+      "page_titles": [
+        "The Disaster Artist -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Disaster Artist -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "The Disaster Artist is a 2017 American biographical comedy film directed , produced by , and starring James Franco ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Disaster Artist -LRB-film-RRB-",
+              "line_index": 6,
+              "sentence": "It had its world premiere at South by Southwest on March 12 , 2017 ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Disaster Artist -LRB-film-RRB-",
+              "line_index": 7,
+              "sentence": "It is scheduled to be released in a limited release on December 1 , 2017 , by A24 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000036",
+      "claim": "Kelly Preston starred in multiple television shows.",
+      "evidence_sentences": "She has appeared in more than sixty television and film productions , most notably including Mischief , Twins and Jerry Maguire .",
+      "page_titles": [
+        "Kelly Preston"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kelly Preston",
+            "line_index": 1,
+            "sentence": "She has appeared in more than sixty television and film productions , most notably including Mischief , Twins and Jerry Maguire ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000037",
+      "claim": "Coeliac disease is treated by maintaining a healthy diet.",
+      "evidence_sentences": "The only known effective treatment is a strict lifelong gluten-free diet , which leads to recovery of the intestinal mucosa , improves symptoms , and reduces risk of developing complications in most people .",
+      "page_titles": [
+        "Coeliac disease"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Coeliac disease",
+            "line_index": 26,
+            "sentence": "The only known effective treatment is a strict lifelong gluten-free diet , which leads to recovery of the intestinal mucosa , improves symptoms , and reduces risk of developing complications in most people ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000038",
+      "claim": "Kojol received an award in 2010.",
+      "evidence_sentences": "Her acclaimed portrayal of a conservative NRI in the blockbuster romance Dilwale Dulhania Le Jayenge -LRB- 1995 -RRB- , a tomboy in the blockbuster romance Kuch Kuch Hota Hai -LRB- 1998 -RRB- , a lower middle class Punjabi woman in the blockbuster melodrama Kabhi Khushi Kabhie Gham ... -LRB- 2001 -RRB- , a blind Kashmiri woman in the romantic thriller Fanaa -LRB- 2006 -RRB- and a divorced , single mother in the drama My Name Is Khan -LRB- 2010 -RRB- garnered her five Filmfare Awards for Best Actress .",
+      "page_titles": [
+        "Kajol"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kajol",
+            "line_index": 9,
+            "sentence": "Her acclaimed portrayal of a conservative NRI in the blockbuster romance Dilwale Dulhania Le Jayenge -LRB- 1995 -RRB- , a tomboy in the blockbuster romance Kuch Kuch Hota Hai -LRB- 1998 -RRB- , a lower middle class Punjabi woman in the blockbuster melodrama Kabhi Khushi Kabhie Gham ... -LRB- 2001 -RRB- , a blind Kashmiri woman in the romantic thriller Fanaa -LRB- 2006 -RRB- and a divorced , single mother in the drama My Name Is Khan -LRB- 2010 -RRB- garnered her five Filmfare Awards for Best Actress ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000039",
+      "claim": "Mary McGee was the first woman to compete in the Baja 1000, in 1975.",
+      "evidence_sentences": "From 1967 to 1972 , the race was organized by the National Off-Road Racing Association -LRB- NORRA -RRB- and grew in popularity with ABC 's `` Wide World of Sports '' sending Jim McKay to cover the 1968 event , and attracting new participants like the late Mickey Thompson , Indy 500 winner Parnelli Jones , movie actor James Garner , and Mary McGee , the first woman to compete in the event .",
+      "page_titles": [
+        "Baja 1000"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Baja 1000",
+            "line_index": 14,
+            "sentence": "From 1967 to 1972 , the race was organized by the National Off-Road Racing Association -LRB- NORRA -RRB- and grew in popularity with ABC 's `` Wide World of Sports '' sending Jim McKay to cover the 1968 event , and attracting new participants like the late Mickey Thompson , Indy 500 winner Parnelli Jones , movie actor James Garner , and Mary McGee , the first woman to compete in the event ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000040",
+      "claim": "Liam Neeson was passed over for an Academy Award.",
+      "evidence_sentences": "He has been nominated for a number of awards , including an Academy Award for Best Actor , a BAFTA Award for Best Actor in a Leading Role and three Golden Globe Awards for Best Actor in a Motion Picture Drama .",
+      "page_titles": [
+        "Liam Neeson"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Liam Neeson",
+            "line_index": 11,
+            "sentence": "He has been nominated for a number of awards , including an Academy Award for Best Actor , a BAFTA Award for Best Actor in a Leading Role and three Golden Globe Awards for Best Actor in a Motion Picture Drama ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000041",
+      "claim": "Japan is represented by one centralized federal government.",
+      "evidence_sentences": "Japan -LRB- 日本 Nippon -LSB- ɲip̚poɴ -RSB- or Nihon -LSB- ɲihoɴ -RSB- formally or Nihon-koku , meaning `` State of Japan '' -RRB- is a sovereign island nation in East Asia . A sovereign state is , in international law , a nonphysical juridical entity that is represented by one centralized government that has sovereignty over a geographic area .",
+      "page_titles": [
+        "Japan",
+        "Sovereign state"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Japan",
+            "line_index": 0,
+            "sentence": "Japan -LRB- 日本 Nippon -LSB- ɲip̚poɴ -RSB- or Nihon -LSB- ɲihoɴ -RSB- formally or Nihon-koku , meaning `` State of Japan '' -RRB- is a sovereign island nation in East Asia ."
+          },
+          {
+            "page_title": "Sovereign state",
+            "line_index": 0,
+            "sentence": "A sovereign state is , in international law , a nonphysical juridical entity that is represented by one centralized government that has sovereignty over a geographic area ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000042",
+      "claim": "Norman Bates was published by Robert Bloch.",
+      "evidence_sentences": "Norman Bates is a fictional character created by Robert Bloch as the main antagonist in his 1959 novel Psycho , and portrayed by Anthony Perkins in the 1960 film of the same name directed by Alfred Hitchcock and its sequels , and by Freddie Highmore in the television series Bates Motel .",
+      "page_titles": [
+        "Norman Bates"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Norman Bates",
+            "line_index": 0,
+            "sentence": "Norman Bates is a fictional character created by Robert Bloch as the main antagonist in his 1959 novel Psycho , and portrayed by Anthony Perkins in the 1960 film of the same name directed by Alfred Hitchcock and its sequels , and by Freddie Highmore in the television series Bates Motel ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000043",
+      "claim": "Motion is good for heart health.",
+      "evidence_sentences": "The heart receives blood low in oxygen from the systemic circulation , which enters the right atrium from the superior and inferior venae cavae and passes to the right ventricle .",
+      "page_titles": [
+        "Heart"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Heart",
+            "line_index": 15,
+            "sentence": "The heart receives blood low in oxygen from the systemic circulation , which enters the right atrium from the superior and inferior venae cavae and passes to the right ventricle ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000044",
+      "claim": "The Challenge XXX: Dirty 30 is a season in a television series from the United States.",
+      "evidence_sentences": "The rumored individual format was filmed in Colombia , with alumni from Real World , Road Rules , The Challenge -LRB- Spring Break Challenge , Fresh Meat II , and Battle of the Bloodlines -RRB- , and Are You the One ?",
+      "page_titles": [
+        "The Challenge XXX-COLON- Dirty 30"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Challenge XXX-COLON- Dirty 30",
+            "line_index": 1,
+            "sentence": "The rumored individual format was filmed in Colombia , with alumni from Real World , Road Rules , The Challenge -LRB- Spring Break Challenge , Fresh Meat II , and Battle of the Bloodlines -RRB- , and Are You the One ?"
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000045",
+      "claim": "The last windstorm in Stanley Park was in May of 2006.",
+      "evidence_sentences": "Thousands of trees were lost -LRB- and many replanted -RRB- after three major windstorms that took place in the past 100 years , the last in 2006 .",
+      "page_titles": [
+        "Stanley Park"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Stanley Park",
+            "line_index": 16,
+            "sentence": "Thousands of trees were lost -LRB- and many replanted -RRB- after three major windstorms that took place in the past 100 years , the last in 2006 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000046",
+      "claim": "The CONCACAF Champions League is almost an annual continental football club competition.",
+      "evidence_sentences": "The CONCACAF Champions League is an annual continental football club competition organized by CONCACAF for the top football clubs in North America , Central America and the Caribbean .",
+      "page_titles": [
+        "CONCACAF Champions League"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "CONCACAF Champions League",
+            "line_index": 0,
+            "sentence": "The CONCACAF Champions League is an annual continental football club competition organized by CONCACAF for the top football clubs in North America , Central America and the Caribbean ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000047",
+      "claim": "Osamu Tezuka's mother only had to erase notes in his notebook.",
+      "evidence_sentences": "As a young child Tezuka began to practice drawing so much that his mother would have to erase pages in his notebook in order to keep up with his output .",
+      "page_titles": [
+        "Osamu Tezuka"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Osamu Tezuka",
+            "line_index": 6,
+            "sentence": "As a young child Tezuka began to practice drawing so much that his mother would have to erase pages in his notebook in order to keep up with his output ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000048",
+      "claim": "South Island is referred to as the \"mainland\" by South Island residents and it is a cultured place.",
+      "evidence_sentences": "It has a 32 percent larger landmass than the North Island so is sometimes referred to as the `` mainland '' of New Zealand , especially by South Island residents , but only 23 percent of New Zealand 's million inhabitants live there .",
+      "page_titles": [
+        "South Island"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "South Island",
+            "line_index": 5,
+            "sentence": "It has a 32 percent larger landmass than the North Island so is sometimes referred to as the `` mainland '' of New Zealand , especially by South Island residents , but only 23 percent of New Zealand 's million inhabitants live there ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000049",
+      "claim": "A monster is usually found in myths or horror fiction.",
+      "evidence_sentences": "A monster is any creature , usually found in legends or horror fiction , that is often hideous and may produce fear or physical harm by its appearance or its actions .",
+      "page_titles": [
+        "Monster"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Monster",
+            "line_index": 0,
+            "sentence": "A monster is any creature , usually found in legends or horror fiction , that is often hideous and may produce fear or physical harm by its appearance or its actions ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000050",
+      "claim": "Sidse Babett Knudsen graduated on November 22nd, 1968.",
+      "evidence_sentences": "Sidse Babett Knudsen -LRB- -LSB- ˈsisə b̥ab̥ɛd̥ ˈkʰnusn̩ -RSB- ; born 22 November 1968 -RRB- is a Danish actress who works in theatre , television , and film .",
+      "page_titles": [
+        "Sidse Babett Knudsen"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sidse Babett Knudsen",
+            "line_index": 0,
+            "sentence": "Sidse Babett Knudsen -LRB- -LSB- ˈsisə b̥ab̥ɛd̥ ˈkʰnusn̩ -RSB- ; born 22 November 1968 -RRB- is a Danish actress who works in theatre , television , and film ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000051",
+      "claim": "Keith Stanfield is a singer.",
+      "evidence_sentences": "LaKeith Lee `` Keith '' Stanfield -LRB- born August 12 , 1991 -RRB- is an American actor and rapper .",
+      "page_titles": [
+        "Keith Stanfield"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Keith Stanfield",
+            "line_index": 0,
+            "sentence": "LaKeith Lee `` Keith '' Stanfield -LRB- born August 12 , 1991 -RRB- is an American actor and rapper ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000052",
+      "claim": "Simón Bolívar's maiden name is Simón José Antonio de la Santísima Trinidad Bolívar y Palacios.",
+      "evidence_sentences": "Simón José Antonio de la Santísima Trinidad Bolívar y Palacios -LRB- -LSB- siˈmon boˈliβar -RSB- ; 24 July 1783 -- 17 December 1830 -RRB- , known as El Libertador , was a Venezuelan military and political leader who played a leading role in the establishment of Venezuela , Bolivia , Colombia , Ecuador , Peru and Panama as sovereign states , independent of Spanish rule .",
+      "page_titles": [
+        "Simón Bolívar"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Simón Bolívar",
+            "line_index": 0,
+            "sentence": "Simón José Antonio de la Santísima Trinidad Bolívar y Palacios -LRB- -LSB- siˈmon boˈliβar -RSB- ; 24 July 1783 -- 17 December 1830 -RRB- , known as El Libertador , was a Venezuelan military and political leader who played a leading role in the establishment of Venezuela , Bolivia , Colombia , Ecuador , Peru and Panama as sovereign states , independent of Spanish rule ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000053",
+      "claim": "Part of The Last Song (film) was fought on a beach.",
+      "evidence_sentences": "The Last Song stars Miley Cyrus , Liam Hemsworth , and Greg Kinnear and follows a troubled teenager as she reconnects with her estranged father and falls in love during a summer in a quiet Southern United States beach town .",
+      "page_titles": [
+        "The Last Song -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Last Song -LRB-film-RRB-",
+            "line_index": 2,
+            "sentence": "The Last Song stars Miley Cyrus , Liam Hemsworth , and Greg Kinnear and follows a troubled teenager as she reconnects with her estranged father and falls in love during a summer in a quiet Southern United States beach town ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000054",
+      "claim": "The PRC has more members in China than the ROC.",
+      "evidence_sentences": "The Communist Party established the People 's Republic of China in Beijing on 1 October 1949 , while the ROC government relocated to Taiwan with its present de facto temporary capital in Taipei .",
+      "page_titles": [
+        "China"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "China",
+            "line_index": 10,
+            "sentence": "The Communist Party established the People 's Republic of China in Beijing on 1 October 1949 , while the ROC government relocated to Taiwan with its present de facto temporary capital in Taipei ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000055",
+      "claim": "Aldous Huxley barely published scripts.",
+      "evidence_sentences": "Mid career and later , he published travel writing , film stories , and scripts .",
+      "page_titles": [
+        "Aldous Huxley"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Aldous Huxley",
+            "line_index": 6,
+            "sentence": "Mid career and later , he published travel writing , film stories , and scripts ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000056",
+      "claim": "Liverpool was where The Beatles came together.",
+      "evidence_sentences": "The popularity of The Beatles and other groups from the Merseybeat era contributes to Liverpool 's status as a tourist destination .",
+      "page_titles": [
+        "Liverpool"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Liverpool",
+            "line_index": 13,
+            "sentence": "The popularity of The Beatles and other groups from the Merseybeat era contributes to Liverpool 's status as a tourist destination ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000057",
+      "claim": "William Cohen is from Bangor, Maine.",
+      "evidence_sentences": "William Sebastian Cohen -LRB- born August 28 , 1940 -RRB- is an American politician and author from the U.S. state of Maine .",
+      "page_titles": [
+        "William Cohen"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "William Cohen",
+            "line_index": 0,
+            "sentence": "William Sebastian Cohen -LRB- born August 28 , 1940 -RRB- is an American politician and author from the U.S. state of Maine ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "William Cohen",
+              "line_index": 0,
+              "sentence": "William Sebastian Cohen -LRB- born August 28 , 1940 -RRB- is an American politician and author from the U.S. state of Maine ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000058",
+      "claim": "Floyd Mayweather Jr. has made 30 career boxing knockouts.",
+      "evidence_sentences": "He finished his career with a record of 26 wins without a loss or draw in world title fights -LRB- 10 by KO -RRB- ; 23 wins -LRB- 9 KOs -RRB- in lineal title fights ; 24 wins -LRB- 7 KOs -RRB- against former or current world titlists ; 12 wins -LRB- 3 KOs -RRB- against former or current lineal champions ; and 2 wins -LRB- 1 KO -RRB- against International Boxing Hall of Fame inductees .",
+      "page_titles": [
+        "Floyd Mayweather Jr."
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Floyd Mayweather Jr.",
+            "line_index": 10,
+            "sentence": "He finished his career with a record of 26 wins without a loss or draw in world title fights -LRB- 10 by KO -RRB- ; 23 wins -LRB- 9 KOs -RRB- in lineal title fights ; 24 wins -LRB- 7 KOs -RRB- against former or current world titlists ; 12 wins -LRB- 3 KOs -RRB- against former or current lineal champions ; and 2 wins -LRB- 1 KO -RRB- against International Boxing Hall of Fame inductees ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000059",
+      "claim": "Sacre-Coeur, Paris is publicly dedicated to a cult.",
+      "evidence_sentences": "Sacré-Cœur is a double monument , political and cultural , both a national penance for the defeat of France in the 1870 Franco-Prussian War and the socialist Paris Commune of 1871 crowning its most rebellious neighborhood , and an embodiment of conservative moral order , publicly dedicated to the Sacred Heart of Jesus , which was an increasingly popular vision of a loving and sympathetic Christ . The devotion to the Sacred Heart -LRB- also known as the Most Sacred Heart of Jesus , Sacratissimi Cordis Iesu in Latin -RRB- is one of the most widely practiced and well-known Roman Catholic devotions , taking Jesus Christ 's physical heart as the representation of his divine love for humanity .",
+      "page_titles": [
+        "Sacré-Cœur, Paris",
+        "Sacred Heart"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sacré-Cœur, Paris",
+            "line_index": 2,
+            "sentence": "Sacré-Cœur is a double monument , political and cultural , both a national penance for the defeat of France in the 1870 Franco-Prussian War and the socialist Paris Commune of 1871 crowning its most rebellious neighborhood , and an embodiment of conservative moral order , publicly dedicated to the Sacred Heart of Jesus , which was an increasingly popular vision of a loving and sympathetic Christ ."
+          },
+          {
+            "page_title": "Sacred Heart",
+            "line_index": 0,
+            "sentence": "The devotion to the Sacred Heart -LRB- also known as the Most Sacred Heart of Jesus , Sacratissimi Cordis Iesu in Latin -RRB- is one of the most widely practiced and well-known Roman Catholic devotions , taking Jesus Christ 's physical heart as the representation of his divine love for humanity ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000060",
+      "claim": "Physics includes equations.",
+      "evidence_sentences": "For example , advances in the understanding of electromagnetism or nuclear physics led directly to the development of new products that have dramatically transformed modern-day society , such as television , computers , domestic appliances , and nuclear weapons ; advances in thermodynamics led to the development of industrialization , and advances in mechanics inspired the development of calculus .",
+      "page_titles": [
+        "Physics"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Physics",
+            "line_index": 11,
+            "sentence": "For example , advances in the understanding of electromagnetism or nuclear physics led directly to the development of new products that have dramatically transformed modern-day society , such as television , computers , domestic appliances , and nuclear weapons ; advances in thermodynamics led to the development of industrialization , and advances in mechanics inspired the development of calculus ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000061",
+      "claim": "Harold Macmillan was born on Monday February 10, 1894.",
+      "evidence_sentences": "Maurice Harold Macmillan , 1st Earl of Stockton , -LRB- 10 February 1894 -- 29 December 1986 -RRB- was a British Conservative politician and statesman who served as the Prime Minister of the United Kingdom from 10 January 1957 to 19 October 1963 .",
+      "page_titles": [
+        "Harold Macmillan"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Harold Macmillan",
+            "line_index": 0,
+            "sentence": "Maurice Harold Macmillan , 1st Earl of Stockton , -LRB- 10 February 1894 -- 29 December 1986 -RRB- was a British Conservative politician and statesman who served as the Prime Minister of the United Kingdom from 10 January 1957 to 19 October 1963 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000062",
+      "claim": "Issa Rae stars in Awkward Black Girl.",
+      "evidence_sentences": "She is best known as the creator of the YouTube web series Awkward Black Girl .",
+      "page_titles": [
+        "Issa Rae"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Issa Rae",
+            "line_index": 1,
+            "sentence": "She is best known as the creator of the YouTube web series Awkward Black Girl ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Issa Rae",
+              "line_index": 1,
+              "sentence": "She is best known as the creator of the YouTube web series Awkward Black Girl ."
+            },
+            {
+              "page_title": "Awkward Black Girl",
+              "line_index": 0,
+              "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+            }
+          ],
+          [
+            {
+              "page_title": "Issa Rae",
+              "line_index": 2,
+              "sentence": "Since the premiere of Awkward Black Girl , Rae has developed her own YouTube platform where she features various content created by people of color ."
+            },
+            {
+              "page_title": "Awkward Black Girl",
+              "line_index": 0,
+              "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+            }
+          ],
+          [
+            {
+              "page_title": "Issa Rae",
+              "line_index": 1,
+              "sentence": "She is best known as the creator of the YouTube web series Awkward Black Girl ."
+            },
+            {
+              "page_title": "Awkward Black Girl",
+              "line_index": 0,
+              "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+            }
+          ],
+          [
+            {
+              "page_title": "Issa Rae",
+              "line_index": 1,
+              "sentence": "She is best known as the creator of the YouTube web series Awkward Black Girl ."
+            }
+          ],
+          [
+            {
+              "page_title": "Issa Rae",
+              "line_index": 1,
+              "sentence": "She is best known as the creator of the YouTube web series Awkward Black Girl ."
+            },
+            {
+              "page_title": "Awkward Black Girl",
+              "line_index": 0,
+              "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+            }
+          ],
+          [
+            {
+              "page_title": "Issa Rae",
+              "line_index": 1,
+              "sentence": "She is best known as the creator of the YouTube web series Awkward Black Girl ."
+            },
+            {
+              "page_title": "Awkward Black Girl",
+              "line_index": 0,
+              "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 7,
+        "chosen_annotation_index": 3,
+        "alternative_annotation_indices": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000063",
+      "claim": "Tijuana is in Mexico.",
+      "evidence_sentences": "Tijuana -LRB- -LSB- tiːˈwɑːnə -RSB- ; -LSB- tiˈxwana -RSB- -RRB- is the largest city in Baja California and on the Baja California Peninsula and center of the Tijuana metropolitan area , part of the international San Diego -- Tijuana metropolitan area .",
+      "page_titles": [
+        "Tijuana"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tijuana",
+            "line_index": 0,
+            "sentence": "Tijuana -LRB- -LSB- tiːˈwɑːnə -RSB- ; -LSB- tiˈxwana -RSB- -RRB- is the largest city in Baja California and on the Baja California Peninsula and center of the Tijuana metropolitan area , part of the international San Diego -- Tijuana metropolitan area ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000064",
+      "claim": "Sky UK serves London.",
+      "evidence_sentences": "Sky UK Limited -LRB- formerly British Sky Broadcasting and BSkyB -RRB- is a telecommunications company which serves the United Kingdom .",
+      "page_titles": [
+        "Sky UK"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sky UK",
+            "line_index": 0,
+            "sentence": "Sky UK Limited -LRB- formerly British Sky Broadcasting and BSkyB -RRB- is a telecommunications company which serves the United Kingdom ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Sky UK",
+              "line_index": 0,
+              "sentence": "Sky UK Limited -LRB- formerly British Sky Broadcasting and BSkyB -RRB- is a telecommunications company which serves the United Kingdom ."
+            },
+            {
+              "page_title": "United Kingdom",
+              "line_index": 13,
+              "sentence": "The capital of the United Kingdom and its largest city is London , a global city and financial centre with an urban area population of 10.3 million , the fourth-largest in Europe and second-largest in the European Union ."
+            }
+          ],
+          [
+            {
+              "page_title": "Sky UK",
+              "line_index": 1,
+              "sentence": "Sky provides television and broadband internet services , fixed line and mobile telephone services to consumers and businesses in the United Kingdom ."
+            },
+            {
+              "page_title": "United Kingdom",
+              "line_index": 13,
+              "sentence": "The capital of the United Kingdom and its largest city is London , a global city and financial centre with an urban area population of 10.3 million , the fourth-largest in Europe and second-largest in the European Union ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000065",
+      "claim": "Yin and yang is a Taoist moral concept.",
+      "evidence_sentences": "In Taoist metaphysics , distinctions between good and bad , along with other dichotomous moral judgments , are perceptual , not real ; so , the duality of yin and yang is an indivisible whole .",
+      "page_titles": [
+        "Yin and yang"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Yin and yang",
+            "line_index": 13,
+            "sentence": "In Taoist metaphysics , distinctions between good and bad , along with other dichotomous moral judgments , are perceptual , not real ; so , the duality of yin and yang is an indivisible whole ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000066",
+      "claim": "Yugoslavia was part of the Group of 15.",
+      "evidence_sentences": "It was established at the Ninth Non-Aligned Movement Summit Meeting in Belgrade , Yugoslavia , in September 1989 , and is composed of countries from Latin America , Africa , and Asia with a common goal of enhanced growth and prosperity .",
+      "page_titles": [
+        "Group of 15"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Group of 15",
+            "line_index": 1,
+            "sentence": "It was established at the Ninth Non-Aligned Movement Summit Meeting in Belgrade , Yugoslavia , in September 1989 , and is composed of countries from Latin America , Africa , and Asia with a common goal of enhanced growth and prosperity ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Group of 15",
+              "line_index": 1,
+              "sentence": "It was established at the Ninth Non-Aligned Movement Summit Meeting in Belgrade , Yugoslavia , in September 1989 , and is composed of countries from Latin America , Africa , and Asia with a common goal of enhanced growth and prosperity ."
+            }
+          ],
+          [
+            {
+              "page_title": "Group of 15",
+              "line_index": 4,
+              "sentence": "Chile , Iran and Kenya have since joined the Group of 15 , whereas Yugoslavia is no longer part of the group ; Peru , a founding member-state , decided to leave the G-15 in 2011 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000067",
+      "claim": "Ed Gein had worked at several local graveyards.",
+      "evidence_sentences": "His crimes , committed around his hometown of Plainfield , Wisconsin , gathered widespread notoriety after authorities discovered that Gein had exhumed corpses from local graveyards and fashioned trophies and keepsakes from their bones and skin .",
+      "page_titles": [
+        "Ed Gein"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ed Gein",
+            "line_index": 1,
+            "sentence": "His crimes , committed around his hometown of Plainfield , Wisconsin , gathered widespread notoriety after authorities discovered that Gein had exhumed corpses from local graveyards and fashioned trophies and keepsakes from their bones and skin ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000068",
+      "claim": "Tom Baker has reviewed video games.",
+      "evidence_sentences": "In addition to performing acting roles , Baker has narrated commercials , video games , audiobooks and television series .",
+      "page_titles": [
+        "Tom Baker -LRB-English actor-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tom Baker -LRB-English actor-RRB-",
+            "line_index": 15,
+            "sentence": "In addition to performing acting roles , Baker has narrated commercials , video games , audiobooks and television series ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000069",
+      "claim": "James Jones missed the finals once.",
+      "evidence_sentences": "Jones has never been on an NBA team with a losing record and has only missed the playoffs once -- with the Trail Blazers in 2007 -- 08 . The National Basketball Association -LRB- NBA -RRB- playoffs are a best-of-seven elimination tournament among 16 teams in the Eastern Conference and Western Conference -LRB- called divisions , pre-1970 -RRB- , ultimately deciding the league 's season champion in the NBA Finals .",
+      "page_titles": [
+        "James Jones -LRB-basketball player-RRB-",
+        "NBA playoffs"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "James Jones -LRB-basketball player-RRB-",
+            "line_index": 15,
+            "sentence": "Jones has never been on an NBA team with a losing record and has only missed the playoffs once -- with the Trail Blazers in 2007 -- 08 ."
+          },
+          {
+            "page_title": "NBA playoffs",
+            "line_index": 0,
+            "sentence": "The National Basketball Association -LRB- NBA -RRB- playoffs are a best-of-seven elimination tournament among 16 teams in the Eastern Conference and Western Conference -LRB- called divisions , pre-1970 -RRB- , ultimately deciding the league 's season champion in the NBA Finals ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000070",
+      "claim": "Prescott, Arizona is in northern Yavapai County.",
+      "evidence_sentences": "Prescott -LRB- -LSB- ˈprɛskət -RSB- ; ʼWi : kwatha Ksikʼita -RRB- is a city in Yavapai County , Arizona , United States .",
+      "page_titles": [
+        "Prescott, Arizona"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Prescott, Arizona",
+            "line_index": 0,
+            "sentence": "Prescott -LRB- -LSB- ˈprɛskət -RSB- ; ʼWi : kwatha Ksikʼita -RRB- is a city in Yavapai County , Arizona , United States ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000071",
+      "claim": "Web pages can be either static or interactive.",
+      "evidence_sentences": "A static web page is delivered exactly as stored , as web content in the web server 's file system , while a dynamic web page is generated by a web application that is driven by server-side software or client-side scripting .",
+      "page_titles": [
+        "Web page"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Web page",
+            "line_index": 14,
+            "sentence": "A static web page is delivered exactly as stored , as web content in the web server 's file system , while a dynamic web page is generated by a web application that is driven by server-side software or client-side scripting ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000072",
+      "claim": "Revolver topped America's Billboard Top LP's list for six weeks in 1965.",
+      "evidence_sentences": "The record topped the UK Albums Chart for seven weeks and America 's Billboard Top LPs list for six weeks .",
+      "page_titles": [
+        "Revolver -LRB-Beatles album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Revolver -LRB-Beatles album-RRB-",
+            "line_index": 16,
+            "sentence": "The record topped the UK Albums Chart for seven weeks and America 's Billboard Top LPs list for six weeks ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000073",
+      "claim": "The Beverly Hillbillies is a television show from the 70s.",
+      "evidence_sentences": "The Beverly Hillbillies is an American sitcom originally broadcast on CBS for nine seasons , from September 26 , 1962 , to March 23 , 1971 .",
+      "page_titles": [
+        "The Beverly Hillbillies"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Beverly Hillbillies",
+            "line_index": 0,
+            "sentence": "The Beverly Hillbillies is an American sitcom originally broadcast on CBS for nine seasons , from September 26 , 1962 , to March 23 , 1971 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000074",
+      "claim": "Libya is the 16th largest country in the world in 2017.",
+      "evidence_sentences": "With an area of almost 1.8 e6km2 , Libya is the fourth largest country in Africa , and is the 16th largest country in the world .",
+      "page_titles": [
+        "Libya"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Libya",
+            "line_index": 2,
+            "sentence": "With an area of almost 1.8 e6km2 , Libya is the fourth largest country in Africa , and is the 16th largest country in the world ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000075",
+      "claim": "The marriage of two actors was caused by Fortunes of War.",
+      "evidence_sentences": "Kenneth Branagh and Emma Thompson met filming the TV series and married in real life .",
+      "page_titles": [
+        "Fortunes of War -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Fortunes of War -LRB-TV series-RRB-",
+            "line_index": 2,
+            "sentence": "Kenneth Branagh and Emma Thompson met filming the TV series and married in real life ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000076",
+      "claim": "Georgians arose from an ancient kingdom on the coast of the Black Sea and they are significant.",
+      "evidence_sentences": "Georgians arose from the ancient Colchian and Iberian civilizations . Colchis -LRB- -LSB- ˈkɒlkɪs -RSB- კოლხეთი Kolkheti ; Greek Κολχίς Kolkhis -RRB- was an ancient kingdom and region on the coast of the Black Sea , centered in present-day western Georgia . The Georgians or Kartvelians -LRB- -LSB- ქართველები , tr -RSB- -RRB- are a nation and ethnic group who constitute a majority of the population in Georgia .",
+      "page_titles": [
+        "Georgians",
+        "Colchis",
+        "Georgians"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Georgians",
+            "line_index": 4,
+            "sentence": "Georgians arose from the ancient Colchian and Iberian civilizations ."
+          },
+          {
+            "page_title": "Colchis",
+            "line_index": 0,
+            "sentence": "Colchis -LRB- -LSB- ˈkɒlkɪs -RSB- კოლხეთი Kolkheti ; Greek Κολχίς Kolkhis -RRB- was an ancient kingdom and region on the coast of the Black Sea , centered in present-day western Georgia ."
+          },
+          {
+            "page_title": "Georgians",
+            "line_index": 0,
+            "sentence": "The Georgians or Kartvelians -LRB- -LSB- ქართველები , tr -RSB- -RRB- are a nation and ethnic group who constitute a majority of the population in Georgia ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000077",
+      "claim": "For two years in a row, Josh Hutcherson was in two different films.",
+      "evidence_sentences": "Hutcherson 's other early film appearances include Little Manhattan , Zathura -LRB- both 2005 -RRB- , RV -LRB- 2006 -RRB- , Bridge to Terabithia -LRB- 2007 -RRB- , Journey to the Center of the Earth -LRB- 2008 -RRB- , and The Kids Are All Right -LRB- 2010 -RRB- .",
+      "page_titles": [
+        "Josh Hutcherson"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Josh Hutcherson",
+            "line_index": 5,
+            "sentence": "Hutcherson 's other early film appearances include Little Manhattan , Zathura -LRB- both 2005 -RRB- , RV -LRB- 2006 -RRB- , Bridge to Terabithia -LRB- 2007 -RRB- , Journey to the Center of the Earth -LRB- 2008 -RRB- , and The Kids Are All Right -LRB- 2010 -RRB- ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Josh Hutcherson",
+              "line_index": 7,
+              "sentence": "During the same period he also played a lead role in Journey 2 : The Mysterious Island -LRB- 2012 -RRB- and a voice role in the animated film Epic -LRB- 2013 -RRB- ."
+            }
+          ],
+          [
+            {
+              "page_title": "Josh Hutcherson",
+              "line_index": 2,
+              "sentence": "His first film role was in Miracle Dogs -LRB- 2003 -RRB- on Animal Planet , followed by a motion-capture performance in The Polar Express -LRB- 2004 -RRB- and a voice-acting role in Howl 's Moving Castle -LRB- 2005 -RRB- ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    }
+  ],
+  "rubric": "# Judge Rubric (silver adjudication, v1)\n\nYou are an independent fact-checking adjudicator. You will see a batch of\nitems. Each item contains a **claim** and **evidence** (what is included\ndepends on the disclosure stage, stated in the batch header). For EVERY item\nyou must judge **only from the information provided**.\n\n## Task\n\nDecide whether the provided evidence **warrants** the claim:\n\n- `Supported` — the evidence clearly or probably establishes the claim is true.\n- `Refuted` — the evidence clearly or probably establishes the claim is false.\n- `Ambiguous` — the evidence is insufficient, partial, or mixed; you cannot\n  responsibly decide true or false from what is provided.\n\nAlso rate how sufficient the evidence is for deciding the claim\n(`clearly_sufficient | probably_sufficient | partial_or_ambiguous |\nprobably_insufficient | clearly_insufficient`), your confidence (integer\n0–100), and any issue flags that apply (see list).\n\n## Hard rules\n\n- Judge ONLY from the supplied claim and evidence. Do NOT use outside\n  knowledge to decide the verdict.\n- Do NOT browse the web or look anything up.\n- Do NOT speculate about hidden labels, other models, or why the item was\n  selected.\n- If the evidence alone does not settle the claim, say `Ambiguous` — that is a\n  valid, useful answer, not a failure.\n- `confidence` MUST be an integer from 0 to 100.\n- `brief_reason` must be short (one sentence) and grounded in the evidence.\n- Select issue flags only when the evidence shows that problem; use `none`\n  otherwise. Do not pad flags.\n\n## Issue flags\n\n`none`, `possible_missing_title_context`, `possible_coreference_or_entity_resolution`,\n`possible_missing_surrounding_context`, `multi_sentence_integration`,\n`numerical_or_temporal_reasoning`, `negation_or_scope`,\n`entity_or_attribute_confusion`, `partial_warrant`,\n`apparent_internal_contradiction`, `other`\n\n## Output format\n\nReturn ONLY a JSON array (no prose before or after), one object per item, in\nthe same order as the input:\n\n```json\n[\n  {\n    \"item_id\": \"SA-000001\",\n    \"judge_id\": \"judge_1\",\n    \"stage\": \"A\",\n    \"verdict\": \"Supported\",\n    \"evidence_sufficiency\": \"probably_sufficient\",\n    \"confidence\": 80,\n    \"issue_flags\": [\"none\"],\n    \"brief_reason\": \"The evidence sentence directly states the claim.\"\n  }\n]\n```\n\n`item_id`, `judge_id`, and `stage` must be copied exactly from the batch file.\nProduce exactly one object for every item in the batch — never skip or merge\nitems. If an item's evidence is empty or unreadable, verdict `Ambiguous`,\nsufficiency `clearly_insufficient`, confidence as you see fit, flag `other`.\n",
+  "disclosure_note": "Stage C. Judge only supplied fields. Null text means unavailable; do not fill it using outside knowledge."
+}

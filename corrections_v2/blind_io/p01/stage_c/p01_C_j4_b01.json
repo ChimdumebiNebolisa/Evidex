@@ -1,0 +1,3574 @@
+{
+  "judge_id": "judge_4",
+  "stage": "C",
+  "output_path": "corrections_v2/blind_io/p01/stage_c/p01_C_j4_b01.output.json",
+  "n_items": 100,
+  "item_ids": [
+    "SA-000001",
+    "SA-000002",
+    "SA-000003",
+    "SA-000004",
+    "SA-000005",
+    "SA-000006",
+    "SA-000007",
+    "SA-000008",
+    "SA-000009",
+    "SA-000010",
+    "SA-000011",
+    "SA-000012",
+    "SA-000013",
+    "SA-000014",
+    "SA-000015",
+    "SA-000016",
+    "SA-000017",
+    "SA-000018",
+    "SA-000019",
+    "SA-000020",
+    "SA-000021",
+    "SA-000022",
+    "SA-000023",
+    "SA-000024",
+    "SA-000025",
+    "SA-000026",
+    "SA-000027",
+    "SA-000028",
+    "SA-000029",
+    "SA-000030",
+    "SA-000031",
+    "SA-000032",
+    "SA-000033",
+    "SA-000034",
+    "SA-000035",
+    "SA-000036",
+    "SA-000037",
+    "SA-000038",
+    "SA-000039",
+    "SA-000040",
+    "SA-000041",
+    "SA-000042",
+    "SA-000043",
+    "SA-000044",
+    "SA-000045",
+    "SA-000046",
+    "SA-000047",
+    "SA-000048",
+    "SA-000049",
+    "SA-000050",
+    "SA-000051",
+    "SA-000052",
+    "SA-000053",
+    "SA-000054",
+    "SA-000055",
+    "SA-000056",
+    "SA-000057",
+    "SA-000058",
+    "SA-000059",
+    "SA-000060",
+    "SA-000061",
+    "SA-000062",
+    "SA-000063",
+    "SA-000064",
+    "SA-000065",
+    "SA-000066",
+    "SA-000067",
+    "SA-000068",
+    "SA-000069",
+    "SA-000070",
+    "SA-000071",
+    "SA-000072",
+    "SA-000073",
+    "SA-000074",
+    "SA-000075",
+    "SA-000076",
+    "SA-000077",
+    "SA-000078",
+    "SA-000079",
+    "SA-000080",
+    "SA-000081",
+    "SA-000082",
+    "SA-000083",
+    "SA-000084",
+    "SA-000085",
+    "SA-000086",
+    "SA-000087",
+    "SA-000088",
+    "SA-000089",
+    "SA-000090",
+    "SA-000091",
+    "SA-000092",
+    "SA-000093",
+    "SA-000094",
+    "SA-000095",
+    "SA-000096",
+    "SA-000097",
+    "SA-000098",
+    "SA-000099",
+    "SA-000100"
+  ],
+  "items": [
+    {
+      "item_id": "SA-000001",
+      "claim": "The basis of characters in many authors' books in Emperor Norton.",
+      "evidence_sentences": "Norton has been immortalized as the basis of characters in the literature of writers Mark Twain , Robert Louis Stevenson , Christopher Moore , Morris and Goscinny , Selma Lagerlöf , and Neil Gaiman .",
+      "page_titles": [
+        "Emperor Norton"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Emperor Norton",
+            "line_index": 19,
+            "sentence": "Norton has been immortalized as the basis of characters in the literature of writers Mark Twain , Robert Louis Stevenson , Christopher Moore , Morris and Goscinny , Selma Lagerlöf , and Neil Gaiman ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000002",
+      "claim": "The Airbus A380 entered commercial service in 2007 with Singapore Airlines.",
+      "evidence_sentences": "The A380 made its first flight on 27 April 2005 and entered commercial service on 25 October 2007 with Singapore Airlines .",
+      "page_titles": [
+        "Airbus A380"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Airbus A380",
+            "line_index": 3,
+            "sentence": "The A380 made its first flight on 27 April 2005 and entered commercial service on 25 October 2007 with Singapore Airlines ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000003",
+      "claim": "Season 2 of Fargo is a sequel to the events in the first season.",
+      "evidence_sentences": "A prequel to the events in its first season , season two of Fargo takes place in the Midwestern United States in March 1979 .",
+      "page_titles": [
+        "Fargo -LRB-season 2-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Fargo -LRB-season 2-RRB-",
+            "line_index": 6,
+            "sentence": "A prequel to the events in its first season , season two of Fargo takes place in the Midwestern United States in March 1979 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000004",
+      "claim": "The Saw franchise is a collection of bugs.",
+      "evidence_sentences": "Saw is an American horror franchise distributed by Lions Gate Entertainment , produced by Twisted Pictures and created by two Australians , director James Wan and screenwriter Leigh Whannell , that consists of seven feature films and additional media . A media franchise is a collection of related media in which several derivative works have been produced from an original creative work , such as a film , a work of literature , a television program or a video game .",
+      "page_titles": [
+        "Saw -LRB-franchise-RRB-",
+        "Media franchise"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Saw -LRB-franchise-RRB-",
+            "line_index": 0,
+            "sentence": "Saw is an American horror franchise distributed by Lions Gate Entertainment , produced by Twisted Pictures and created by two Australians , director James Wan and screenwriter Leigh Whannell , that consists of seven feature films and additional media ."
+          },
+          {
+            "page_title": "Media franchise",
+            "line_index": 0,
+            "sentence": "A media franchise is a collection of related media in which several derivative works have been produced from an original creative work , such as a film , a work of literature , a television program or a video game ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000005",
+      "claim": "The New England Patriots are even with the 49ers and Cowboys for the second most Super Bowl wins.",
+      "evidence_sentences": "The Patriots are tied with the 49ers and Cowboys for the second most Super Bowl wins with five .",
+      "page_titles": [
+        "New England Patriots"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "New England Patriots",
+            "line_index": 16,
+            "sentence": "The Patriots are tied with the 49ers and Cowboys for the second most Super Bowl wins with five ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000006",
+      "claim": "The New England Patriots got to seven Super Bowls.",
+      "evidence_sentences": "The Patriots have appeared in the Super Bowl nine times in franchise history , the most of any team , seven of them since the arrival of head coach Bill Belichick and quarterback Tom Brady in 2000 .",
+      "page_titles": [
+        "New England Patriots"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "New England Patriots",
+            "line_index": 12,
+            "sentence": "The Patriots have appeared in the Super Bowl nine times in franchise history , the most of any team , seven of them since the arrival of head coach Bill Belichick and quarterback Tom Brady in 2000 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "New England Patriots",
+              "line_index": 15,
+              "sentence": "The team owns the record for most Super Bowls reached -LRB- seven -RRB- and won -LRB- five -RRB- by a head coach -- quarterback tandem ."
+            }
+          ],
+          [
+            {
+              "page_title": "New England Patriots",
+              "line_index": 15,
+              "sentence": "The team owns the record for most Super Bowls reached -LRB- seven -RRB- and won -LRB- five -RRB- by a head coach -- quarterback tandem ."
+            }
+          ],
+          [
+            {
+              "page_title": "New England Patriots",
+              "line_index": 12,
+              "sentence": "The Patriots have appeared in the Super Bowl nine times in franchise history , the most of any team , seven of them since the arrival of head coach Bill Belichick and quarterback Tom Brady in 2000 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000007",
+      "claim": "Psych (season 2) began on the USA Network.",
+      "evidence_sentences": "The second season of Psych originally aired in the United States on USA Network from July 13 , 2007 to February 15 , 2008 .",
+      "page_titles": [
+        "Psych -LRB-season 2-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Psych -LRB-season 2-RRB-",
+            "line_index": 0,
+            "sentence": "The second season of Psych originally aired in the United States on USA Network from July 13 , 2007 to February 15 , 2008 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000008",
+      "claim": "Half Girlfriend was partially filmed in Delhi.",
+      "evidence_sentences": "Principal photography commenced in June 2016 and filming locations include Delhi , Mumbai , Patna , Dumraon , Varanasi , New York City and Cape Town .",
+      "page_titles": [
+        "Half Girlfriend -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Half Girlfriend -LRB-film-RRB-",
+            "line_index": 4,
+            "sentence": "Principal photography commenced in June 2016 and filming locations include Delhi , Mumbai , Patna , Dumraon , Varanasi , New York City and Cape Town ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000009",
+      "claim": "Hot Right Now is from Nextlevelism.",
+      "evidence_sentences": "`` Hot Right Now '' is a single by British drum and bass producer DJ Fresh , released as the second single from his third studio album , Nextlevelism .",
+      "page_titles": [
+        "Hot Right Now"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Hot Right Now",
+            "line_index": 0,
+            "sentence": "`` Hot Right Now '' is a single by British drum and bass producer DJ Fresh , released as the second single from his third studio album , Nextlevelism ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000010",
+      "claim": "Loretta Sanchez was born on Monday January 7, 1960.",
+      "evidence_sentences": "Loretta L. Sánchez -LRB- born January 7 , 1960 -RRB- is an American politician who served in the United States House of Representatives from 1997 to 2017 .",
+      "page_titles": [
+        "Loretta Sanchez"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Loretta Sanchez",
+            "line_index": 0,
+            "sentence": "Loretta L. Sánchez -LRB- born January 7 , 1960 -RRB- is an American politician who served in the United States House of Representatives from 1997 to 2017 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000011",
+      "claim": "Emma Watson was born.",
+      "evidence_sentences": "Emma Charlotte Duerre Watson -LRB- born 15 April 1990 -RRB- is a French-British actress , model , and activist .",
+      "page_titles": [
+        "Emma Watson"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Emma Watson",
+            "line_index": 0,
+            "sentence": "Emma Charlotte Duerre Watson -LRB- born 15 April 1990 -RRB- is a French-British actress , model , and activist ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Emma Watson",
+              "line_index": 1,
+              "sentence": "Born in Paris and brought up in Oxfordshire , Watson attended the Dragon School and trained as an actress at the Oxford branch of Stagecoach Theatre Arts ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000012",
+      "claim": "Issa Rae stars in Awkward Black Girl.",
+      "evidence_sentences": "She is best known as the creator of the YouTube web series Awkward Black Girl .",
+      "page_titles": [
+        "Issa Rae"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Issa Rae",
+            "line_index": 1,
+            "sentence": "She is best known as the creator of the YouTube web series Awkward Black Girl ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Issa Rae",
+              "line_index": 1,
+              "sentence": "She is best known as the creator of the YouTube web series Awkward Black Girl ."
+            },
+            {
+              "page_title": "Awkward Black Girl",
+              "line_index": 0,
+              "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+            }
+          ],
+          [
+            {
+              "page_title": "Issa Rae",
+              "line_index": 2,
+              "sentence": "Since the premiere of Awkward Black Girl , Rae has developed her own YouTube platform where she features various content created by people of color ."
+            },
+            {
+              "page_title": "Awkward Black Girl",
+              "line_index": 0,
+              "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+            }
+          ],
+          [
+            {
+              "page_title": "Issa Rae",
+              "line_index": 1,
+              "sentence": "She is best known as the creator of the YouTube web series Awkward Black Girl ."
+            },
+            {
+              "page_title": "Awkward Black Girl",
+              "line_index": 0,
+              "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+            }
+          ],
+          [
+            {
+              "page_title": "Issa Rae",
+              "line_index": 1,
+              "sentence": "She is best known as the creator of the YouTube web series Awkward Black Girl ."
+            }
+          ],
+          [
+            {
+              "page_title": "Issa Rae",
+              "line_index": 1,
+              "sentence": "She is best known as the creator of the YouTube web series Awkward Black Girl ."
+            },
+            {
+              "page_title": "Awkward Black Girl",
+              "line_index": 0,
+              "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+            }
+          ],
+          [
+            {
+              "page_title": "Issa Rae",
+              "line_index": 1,
+              "sentence": "She is best known as the creator of the YouTube web series Awkward Black Girl ."
+            },
+            {
+              "page_title": "Awkward Black Girl",
+              "line_index": 0,
+              "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 7,
+        "chosen_annotation_index": 3,
+        "alternative_annotation_indices": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000013",
+      "claim": "Clueless (film) was followed by one young adult novel.",
+      "evidence_sentences": "The film was followed by a spin-off television sitcom and series of books . The Clueless series is a series of young adult novels , mainly written by H. B. Gilmour and Randi Reisfeld .",
+      "page_titles": [
+        "Clueless -LRB-film-RRB-",
+        "Clueless -LRB-novels-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Clueless -LRB-film-RRB-",
+            "line_index": 7,
+            "sentence": "The film was followed by a spin-off television sitcom and series of books ."
+          },
+          {
+            "page_title": "Clueless -LRB-novels-RRB-",
+            "line_index": 0,
+            "sentence": "The Clueless series is a series of young adult novels , mainly written by H. B. Gilmour and Randi Reisfeld ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000014",
+      "claim": "There are rumors that Augustus' marble, Livia, poisoned him.",
+      "evidence_sentences": "He probably died from natural causes , although there were unconfirmed rumors that his wife Livia poisoned him .",
+      "page_titles": [
+        "Augustus"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Augustus",
+            "line_index": 42,
+            "sentence": "He probably died from natural causes , although there were unconfirmed rumors that his wife Livia poisoned him ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000015",
+      "claim": "Barry Van Dyke is an actor and the son of a doctor.",
+      "evidence_sentences": "He was best known to audiences as Lieutenant Detective Steve Sloan , a homicide detective and the son of Dr. Mark Sloan -LRB- played by Dick Van Dyke -RRB- on Diagnosis : Murder .",
+      "page_titles": [
+        "Barry Van Dyke"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Barry Van Dyke",
+            "line_index": 1,
+            "sentence": "He was best known to audiences as Lieutenant Detective Steve Sloan , a homicide detective and the son of Dr. Mark Sloan -LRB- played by Dick Van Dyke -RRB- on Diagnosis : Murder ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000016",
+      "claim": "Military deception is a form of strategic use of information used by the military.",
+      "evidence_sentences": "As a form of strategic use of information -LRB- disinformation -RRB- , it overlaps with psychological warfare .",
+      "page_titles": [
+        "Military deception"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Military deception",
+            "line_index": 2,
+            "sentence": "As a form of strategic use of information -LRB- disinformation -RRB- , it overlaps with psychological warfare ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000017",
+      "claim": "Ashley Cole plays Major League Soccer for the Los Angeles Galaxy.",
+      "evidence_sentences": "Ashley Cole -LRB- born 20 December 1980 -RRB- is an English professional footballer who plays as a left-back for Los Angeles Galaxy in Major League Soccer .",
+      "page_titles": [
+        "Ashley Cole"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ashley Cole",
+            "line_index": 0,
+            "sentence": "Ashley Cole -LRB- born 20 December 1980 -RRB- is an English professional footballer who plays as a left-back for Los Angeles Galaxy in Major League Soccer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000018",
+      "claim": "The Bassoon King is fiction.",
+      "evidence_sentences": "The Bassoon King : My Life in Art , Faith , and Idiocy is a non-fiction book authored by American actor Rainn Wilson .",
+      "page_titles": [
+        "The Bassoon King"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Bassoon King",
+            "line_index": 0,
+            "sentence": "The Bassoon King : My Life in Art , Faith , and Idiocy is a non-fiction book authored by American actor Rainn Wilson ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Bassoon King",
+              "line_index": 0,
+              "sentence": "The Bassoon King : My Life in Art , Faith , and Idiocy is a non-fiction book authored by American actor Rainn Wilson ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000019",
+      "claim": "Youtube is ranked as the fourth most popular site in the world.",
+      "evidence_sentences": ", the website is ranked as the second most popular site in the world by Alexa Internet , a web traffic analysis company .",
+      "page_titles": [
+        "YouTube"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "YouTube",
+            "line_index": 15,
+            "sentence": ", the website is ranked as the second most popular site in the world by Alexa Internet , a web traffic analysis company ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000020",
+      "claim": "The Winds of Winter did not receive universal acclaim from critics.",
+      "evidence_sentences": "`` The Winds of Winter '' received universal acclaim from critics , listing it as one of the series ' best episodes , with Matt Fowler of IGN calling it `` very surprising and satisfying . ''",
+      "page_titles": [
+        "The Winds of Winter -LRB-Game of Thrones-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Winds of Winter -LRB-Game of Thrones-RRB-",
+            "line_index": 12,
+            "sentence": "`` The Winds of Winter '' received universal acclaim from critics , listing it as one of the series ' best episodes , with Matt Fowler of IGN calling it `` very surprising and satisfying . ''"
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000021",
+      "claim": "West Virginia borders Ohio and Virginia to the southeast.",
+      "evidence_sentences": "It is bordered by Virginia to the southeast , Kentucky to the southwest , Ohio to the northwest , Pennsylvania to the north -LRB- and , slightly , east -RRB- , and Maryland to the northeast .",
+      "page_titles": [
+        "West Virginia"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "West Virginia",
+            "line_index": 1,
+            "sentence": "It is bordered by Virginia to the southeast , Kentucky to the southwest , Ohio to the northwest , Pennsylvania to the north -LRB- and , slightly , east -RRB- , and Maryland to the northeast ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000022",
+      "claim": "Uta Hagan passed away on June 12th, 1919.",
+      "evidence_sentences": "Uta Thyra Hagen -LRB- 12 June 1919 -- 14 January 2004 -RRB- was an American actress and theatre practitioner .",
+      "page_titles": [
+        "Uta Hagen"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Uta Hagen",
+            "line_index": 0,
+            "sentence": "Uta Thyra Hagen -LRB- 12 June 1919 -- 14 January 2004 -RRB- was an American actress and theatre practitioner ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Uta Hagen",
+              "line_index": 1,
+              "sentence": "She originated the role of Martha in the 1962 Broadway premiere of Who 's Afraid of Virginia Woolf ?"
+            }
+          ],
+          [
+            {
+              "page_title": "Uta Hagen",
+              "line_index": 0,
+              "sentence": "Uta Thyra Hagen -LRB- 12 June 1919 -- 14 January 2004 -RRB- was an American actress and theatre practitioner ."
+            }
+          ],
+          [
+            {
+              "page_title": "Uta Hagen",
+              "line_index": 1,
+              "sentence": "She originated the role of Martha in the 1962 Broadway premiere of Who 's Afraid of Virginia Woolf ?"
+            }
+          ],
+          [
+            {
+              "page_title": "Uta Hagen",
+              "line_index": 10,
+              "sentence": "She was elected to the American Theatre Hall of Fame in 1981 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Uta Hagen",
+              "line_index": 11,
+              "sentence": "She twice won the Tony Award for Best Actress in a Play and received a Special Tony Award for Lifetime Achievement in 1999 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Uta Hagen",
+              "line_index": 0,
+              "sentence": "Uta Thyra Hagen -LRB- 12 June 1919 -- 14 January 2004 -RRB- was an American actress and theatre practitioner ."
+            }
+          ],
+          [
+            {
+              "page_title": "Uta Hagen",
+              "line_index": 1,
+              "sentence": "She originated the role of Martha in the 1962 Broadway premiere of Who 's Afraid of Virginia Woolf ?"
+            }
+          ],
+          [
+            {
+              "page_title": "Uta Hagen",
+              "line_index": 6,
+              "sentence": "She later became a highly influential acting teacher at New York 's Herbert Berghof Studio and authored best-selling acting texts , Respect for Acting , with Haskel Frankel , and A Challenge for the Actor ."
+            },
+            {
+              "page_title": "Respect for Acting",
+              "line_index": 0,
+              "sentence": "Respect for Acting by actress and teacher Uta Hagen -LRB- Wiley Publishing , 1973 -RRB- is a textbook used in many acting classes ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 9,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000023",
+      "claim": "Nymphomaniac (film) is part of the \"Depression Trilogy\" along with Antichrist.",
+      "evidence_sentences": "Nymphomaniac is the third and final installment in von Trier 's unofficially titled `` Depression Trilogy '' , having been preceded by Antichrist and Melancholia .",
+      "page_titles": [
+        "Nymphomaniac -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Nymphomaniac -LRB-film-RRB-",
+            "line_index": 13,
+            "sentence": "Nymphomaniac is the third and final installment in von Trier 's unofficially titled `` Depression Trilogy '' , having been preceded by Antichrist and Melancholia ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Nymphomaniac -LRB-film-RRB-",
+              "line_index": 13,
+              "sentence": "Nymphomaniac is the third and final installment in von Trier 's unofficially titled `` Depression Trilogy '' , having been preceded by Antichrist and Melancholia ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000024",
+      "claim": "The setting of No Country for Old Men is the 1980's West Texas desert.",
+      "evidence_sentences": "A cat-and-mouse drama starring Tommy Lee Jones , Javier Bardem , and Josh Brolin , it follows a Texas welder and Vietnam veteran in the desert landscape of 1980 West Texas .",
+      "page_titles": [
+        "No Country for Old Men -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "No Country for Old Men -LRB-film-RRB-",
+            "line_index": 1,
+            "sentence": "A cat-and-mouse drama starring Tommy Lee Jones , Javier Bardem , and Josh Brolin , it follows a Texas welder and Vietnam veteran in the desert landscape of 1980 West Texas ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000025",
+      "claim": "Warcraft premiered globally on May 24th, 2016.",
+      "evidence_sentences": "Warcraft premiered in Paris on May 24 , 2016 , and was released by Universal Pictures in the United States on June 10 , 2016 .",
+      "page_titles": [
+        "Warcraft -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Warcraft -LRB-film-RRB-",
+            "line_index": 7,
+            "sentence": "Warcraft premiered in Paris on May 24 , 2016 , and was released by Universal Pictures in the United States on June 10 , 2016 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000026",
+      "claim": "The Washington Monument is 554.5 ft tall.",
+      "evidence_sentences": "Located almost due east of the Reflecting Pool and the Lincoln Memorial , the monument , made of marble , granite , and bluestone gneiss , is both the world 's tallest stone structure and the world 's tallest obelisk , standing 554 ft tall according to the National Geodetic Survey -LRB- measured 2013 -- 14 -RRB- or 555 ft tall according to the National Park Service -LRB- measured 1884 -RRB- .",
+      "page_titles": [
+        "Washington Monument"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Washington Monument",
+            "line_index": 1,
+            "sentence": "Located almost due east of the Reflecting Pool and the Lincoln Memorial , the monument , made of marble , granite , and bluestone gneiss , is both the world 's tallest stone structure and the world 's tallest obelisk , standing 554 ft tall according to the National Geodetic Survey -LRB- measured 2013 -- 14 -RRB- or 555 ft tall according to the National Park Service -LRB- measured 1884 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000027",
+      "claim": "Kesha sings, writes songs, and raps for a living.",
+      "evidence_sentences": "Kesha Rose Sebert -LRB- -LSB- ˈkɛʃə_roʊz_ˈsɛbərt -RSB- ; born March 1 , 1987 ; formerly stylized as Ke $ ha -RRB- is an American singer , songwriter , and rapper .",
+      "page_titles": [
+        "Kesha"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kesha",
+            "line_index": 0,
+            "sentence": "Kesha Rose Sebert -LRB- -LSB- ˈkɛʃə_roʊz_ˈsɛbərt -RSB- ; born March 1 , 1987 ; formerly stylized as Ke $ ha -RRB- is an American singer , songwriter , and rapper ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000028",
+      "claim": "Edmund H. North died March 12, 1911.",
+      "evidence_sentences": "Edmund Hall North -LRB- March 12 , 1911 -- August 28 , 1990 -RRB- , was an American screenwriter who shared an Academy Award for Best Original Screenplay with Francis Ford Coppola in 1970 for their script for Patton .",
+      "page_titles": [
+        "Edmund H. North"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Edmund H. North",
+            "line_index": 0,
+            "sentence": "Edmund Hall North -LRB- March 12 , 1911 -- August 28 , 1990 -RRB- , was an American screenwriter who shared an Academy Award for Best Original Screenplay with Francis Ford Coppola in 1970 for their script for Patton ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000029",
+      "claim": "The Colbert Report has not been taped.",
+      "evidence_sentences": "The show was taped in New York City 's Hell 's Kitchen neighborhood , and the program 's set is `` hyper-American '' , epitomizing the character 's ego .",
+      "page_titles": [
+        "The Colbert Report"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Colbert Report",
+            "line_index": 10,
+            "sentence": "The show was taped in New York City 's Hell 's Kitchen neighborhood , and the program 's set is `` hyper-American '' , epitomizing the character 's ego ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Colbert Report",
+              "line_index": 11,
+              "sentence": "The show was taped and broadcast Monday through Thursday , with weeks taken off at multiple points in a given year for breaks ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000030",
+      "claim": "Celebrity Rehab with Dr. Drew was set in a warehouse.",
+      "evidence_sentences": "Celebrity Rehab with Dr. Drew , later called simply Rehab with Dr. Drew , is a reality television show that aired on the cable network VH1 in which many of the episodes chronicle a group of well-known people as they are treated for alcohol and drug addiction by Dr. Drew Pinsky and his staff at the Pasadena Recovery Center in Pasadena , California .",
+      "page_titles": [
+        "Celebrity Rehab with Dr. Drew"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Celebrity Rehab with Dr. Drew",
+            "line_index": 0,
+            "sentence": "Celebrity Rehab with Dr. Drew , later called simply Rehab with Dr. Drew , is a reality television show that aired on the cable network VH1 in which many of the episodes chronicle a group of well-known people as they are treated for alcohol and drug addiction by Dr. Drew Pinsky and his staff at the Pasadena Recovery Center in Pasadena , California ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000031",
+      "claim": "The Colosseum is in a city in Italy.",
+      "evidence_sentences": "The Colosseum or Coliseum -LRB- -LSB- kɒləˈsiːəm -RSB- -RRB- , also known as the Flavian Amphitheatre -LRB- Latin : Amphitheatrum Flavium ; Italian : Anfiteatro Flavio -LSB- aŋfiteˈaːtro ˈflaːvjo -RSB- or Colosseo -LSB- kolosˈsɛːo -RSB- -RRB- , is an oval amphitheatre in the centre of the city of Rome , Italy .",
+      "page_titles": [
+        "Colosseum"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Colosseum",
+            "line_index": 0,
+            "sentence": "The Colosseum or Coliseum -LRB- -LSB- kɒləˈsiːəm -RSB- -RRB- , also known as the Flavian Amphitheatre -LRB- Latin : Amphitheatrum Flavium ; Italian : Anfiteatro Flavio -LSB- aŋfiteˈaːtro ˈflaːvjo -RSB- or Colosseo -LSB- kolosˈsɛːo -RSB- -RRB- , is an oval amphitheatre in the centre of the city of Rome , Italy ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000032",
+      "claim": "Punch-Drunk Love was distributed by Revolution Studios.",
+      "evidence_sentences": "The film was produced by Revolution Studios and New Line Cinema , and distributed by Columbia Pictures ; it features the video art of Jeremy Blake in the form of visual interludes .",
+      "page_titles": [
+        "Punch-Drunk Love"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Punch-Drunk Love",
+            "line_index": 4,
+            "sentence": "The film was produced by Revolution Studios and New Line Cinema , and distributed by Columbia Pictures ; it features the video art of Jeremy Blake in the form of visual interludes ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000033",
+      "claim": "Bruce Shand's last names are Middleton Hope.",
+      "evidence_sentences": "Major Bruce Middleton Hope Shand MC and bar -LRB- 22 January 1917 -- 11 June 2006 -RRB- was an officer in the British Army .",
+      "page_titles": [
+        "Bruce Shand"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Bruce Shand",
+            "line_index": 0,
+            "sentence": "Major Bruce Middleton Hope Shand MC and bar -LRB- 22 January 1917 -- 11 June 2006 -RRB- was an officer in the British Army ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000034",
+      "claim": "Chris Benoit is from North America.",
+      "evidence_sentences": "Christopher Michael Benoit -LRB- -LSB- bəˈnwa -RSB- ; May 21 , 1967 -- June 24 , 2007 -RRB- was a Canadian professional wrestler .",
+      "page_titles": [
+        "Chris Benoit"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Chris Benoit",
+            "line_index": 0,
+            "sentence": "Christopher Michael Benoit -LRB- -LSB- bəˈnwa -RSB- ; May 21 , 1967 -- June 24 , 2007 -RRB- was a Canadian professional wrestler ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000035",
+      "claim": "Chile is not a stable nation.",
+      "evidence_sentences": "Chile is today one of South America 's most stable and prosperous nations .",
+      "page_titles": [
+        "Chile"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Chile",
+            "line_index": 20,
+            "sentence": "Chile is today one of South America 's most stable and prosperous nations ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000036",
+      "claim": "Agent Raghav – Crime Branch is a serial.",
+      "evidence_sentences": "Agent Raghav -- Crime Branch is an Indian crime fiction anthology television series , which premiered on & TV from 5 September 2015 to 10 April 2016 for one hour at Saturday and Sunday nights .",
+      "page_titles": [
+        "Agent Raghav – Crime Branch"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Agent Raghav – Crime Branch",
+            "line_index": 0,
+            "sentence": "Agent Raghav -- Crime Branch is an Indian crime fiction anthology television series , which premiered on & TV from 5 September 2015 to 10 April 2016 for one hour at Saturday and Sunday nights ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000037",
+      "claim": "The Airbus A380 made its first flight on April 27, 2015.",
+      "evidence_sentences": "The A380 made its first flight on 27 April 2005 and entered commercial service on 25 October 2007 with Singapore Airlines .",
+      "page_titles": [
+        "Airbus A380"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Airbus A380",
+            "line_index": 3,
+            "sentence": "The A380 made its first flight on 27 April 2005 and entered commercial service on 25 October 2007 with Singapore Airlines ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000038",
+      "claim": "Connie Nielsen played the role of Meredith Kane.",
+      "evidence_sentences": "She starred as Meredith Kane on the Starz TV series Boss -LRB- 2011 -- 2012 -RRB- and was a lead character in the second season of The Following .",
+      "page_titles": [
+        "Connie Nielsen"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Connie Nielsen",
+            "line_index": 2,
+            "sentence": "She starred as Meredith Kane on the Starz TV series Boss -LRB- 2011 -- 2012 -RRB- and was a lead character in the second season of The Following ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000039",
+      "claim": "During the Battle of France, English forces occupied Paris.",
+      "evidence_sentences": "German forces occupied Paris unopposed on 14 June after a chaotic period of flight of the French government that led to a collapse of the French army .",
+      "page_titles": [
+        "Battle of France"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Battle of France",
+            "line_index": 13,
+            "sentence": "German forces occupied Paris unopposed on 14 June after a chaotic period of flight of the French government that led to a collapse of the French army ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000040",
+      "claim": "The Sterile Cuckoo was adapted from a biography by John Nichols.",
+      "evidence_sentences": "The movie was adapted by Alvin Sargent from the 1965 novel by John Nichols , and directed by Alan J. Pakula , in his directing debut . The Sterile Cuckoo , is the 1965 novel by John Nichols .",
+      "page_titles": [
+        "The Sterile Cuckoo",
+        "The Sterile Cuckoo -LRB-novel-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Sterile Cuckoo",
+            "line_index": 3,
+            "sentence": "The movie was adapted by Alvin Sargent from the 1965 novel by John Nichols , and directed by Alan J. Pakula , in his directing debut ."
+          },
+          {
+            "page_title": "The Sterile Cuckoo -LRB-novel-RRB-",
+            "line_index": 0,
+            "sentence": "The Sterile Cuckoo , is the 1965 novel by John Nichols ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000041",
+      "claim": "Poseidon lost money at the worldwide box office.",
+      "evidence_sentences": "Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million .",
+      "page_titles": [
+        "Poseidon -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Poseidon -LRB-film-RRB-",
+            "line_index": 6,
+            "sentence": "Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000042",
+      "claim": "The Challenge XXX: Dirty 30 is a contestant in a reality game show.",
+      "evidence_sentences": "The Challenge XXX : Dirty 30 is the thirtieth season of the MTV reality competition series , The Challenge .",
+      "page_titles": [
+        "The Challenge XXX-COLON- Dirty 30"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Challenge XXX-COLON- Dirty 30",
+            "line_index": 0,
+            "sentence": "The Challenge XXX : Dirty 30 is the thirtieth season of the MTV reality competition series , The Challenge ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000043",
+      "claim": "South African Communist Party is a trades partner.",
+      "evidence_sentences": "It is a partner of the Tripartite Alliance with the African National Congress and the Congress of South African Trade Unions -LRB- COSATU -RRB- and through this it influences the South African government .",
+      "page_titles": [
+        "South African Communist Party"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "South African Communist Party",
+            "line_index": 2,
+            "sentence": "It is a partner of the Tripartite Alliance with the African National Congress and the Congress of South African Trade Unions -LRB- COSATU -RRB- and through this it influences the South African government ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000044",
+      "claim": "Peking University is in a unitary sovereign state that's located in East Asia.",
+      "evidence_sentences": "Peking University -LRB- abbreviated PKU and colloquially known in Chinese as Běidà 北大 Chinese : 北京大学 , pinyin : Běijīng Dàxué -RRB- , is a major Chinese research university located in Beijing and a member of the C9 League .",
+      "page_titles": [
+        "Peking University"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Peking University",
+            "line_index": 0,
+            "sentence": "Peking University -LRB- abbreviated PKU and colloquially known in Chinese as Běidà 北大 Chinese : 北京大学 , pinyin : Běijīng Dàxué -RRB- , is a major Chinese research university located in Beijing and a member of the C9 League ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Peking University",
+              "line_index": 1,
+              "sentence": "It is the first modern national university established in China , founded as the Imperial University of Peking in 1898 as a replacement of the ancient Taixue or Guozijian , or Imperial Academy ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000045",
+      "claim": "DNA is a collection of songs.",
+      "evidence_sentences": "DNA is the debut studio album by British girl group Little Mix .",
+      "page_titles": [
+        "DNA -LRB-Little Mix album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "DNA -LRB-Little Mix album-RRB-",
+            "line_index": 0,
+            "sentence": "DNA is the debut studio album by British girl group Little Mix ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000046",
+      "claim": "Flaked is scheduled to premiere in June 2015.",
+      "evidence_sentences": "In July 2016 , the series was renewed for a six-episode second season , which is scheduled to premiere on June 2 , 2017 .",
+      "page_titles": [
+        "Flaked"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Flaked",
+            "line_index": 2,
+            "sentence": "In July 2016 , the series was renewed for a six-episode second season , which is scheduled to premiere on June 2 , 2017 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000047",
+      "claim": "Samsung entered the electronics industry in the late 1970s.",
+      "evidence_sentences": "Samsung entered the electronics industry in the late 1960s and the construction and shipbuilding industries in the mid-1970s ; these areas would drive its subsequent growth .",
+      "page_titles": [
+        "Samsung"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Samsung",
+            "line_index": 6,
+            "sentence": "Samsung entered the electronics industry in the late 1960s and the construction and shipbuilding industries in the mid-1970s ; these areas would drive its subsequent growth ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000048",
+      "claim": "Happiness in Slavery is not a song by a band.",
+      "evidence_sentences": "`` Happiness in Slavery '' is a song by American industrial rock band Nine Inch Nails from their debut extended play -LRB- EP -RRB- , Broken -LRB- 1992 -RRB- .",
+      "page_titles": [
+        "Happiness in Slavery"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Happiness in Slavery",
+            "line_index": 0,
+            "sentence": "`` Happiness in Slavery '' is a song by American industrial rock band Nine Inch Nails from their debut extended play -LRB- EP -RRB- , Broken -LRB- 1992 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000049",
+      "claim": "Hush (2016 film) was produced by Jason Blum.",
+      "evidence_sentences": "The film was produced by Trevor Macy , through Intrepid Pictures , and Jason Blum through his Blumhouse Productions banner .",
+      "page_titles": [
+        "Hush -LRB-2016 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Hush -LRB-2016 film-RRB-",
+            "line_index": 2,
+            "sentence": "The film was produced by Trevor Macy , through Intrepid Pictures , and Jason Blum through his Blumhouse Productions banner ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000050",
+      "claim": "North Vietnam was officially called the Democratic Republic of Vietnam between 1945 and 1976.",
+      "evidence_sentences": "North Vietnam , officially the Democratic Republic of Vietnam -LRB- DRV -RRB- , was a state in Southeast Asia which existed from 1945 to 1976 .",
+      "page_titles": [
+        "North Vietnam"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "North Vietnam",
+            "line_index": 0,
+            "sentence": "North Vietnam , officially the Democratic Republic of Vietnam -LRB- DRV -RRB- , was a state in Southeast Asia which existed from 1945 to 1976 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000051",
+      "claim": "SZA is an American Neo Soul singer.",
+      "evidence_sentences": "SZA is a Neo Soul singer whose music is described as Alternative R&B , with elements of soul , hip hop , minimalist R&B , cloud rap , ethereal R&B , witch house and chillwave .",
+      "page_titles": [
+        "SZA -LRB-singer-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "SZA -LRB-singer-RRB-",
+            "line_index": 6,
+            "sentence": "SZA is a Neo Soul singer whose music is described as Alternative R&B , with elements of soul , hip hop , minimalist R&B , cloud rap , ethereal R&B , witch house and chillwave ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 0,
+              "sentence": "Solána Rowe -LRB- born November 8 , 1990 -RRB- , better known by her stage name SZA -LRB- -LSB- ˈsɪzə -RSB- -RRB- , is an American singer-songwriter ."
+            },
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 6,
+              "sentence": "SZA is a Neo Soul singer whose music is described as Alternative R&B , with elements of soul , hip hop , minimalist R&B , cloud rap , ethereal R&B , witch house and chillwave ."
+            }
+          ],
+          [
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 6,
+              "sentence": "SZA is a Neo Soul singer whose music is described as Alternative R&B , with elements of soul , hip hop , minimalist R&B , cloud rap , ethereal R&B , witch house and chillwave ."
+            }
+          ],
+          [
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 6,
+              "sentence": "SZA is a Neo Soul singer whose music is described as Alternative R&B , with elements of soul , hip hop , minimalist R&B , cloud rap , ethereal R&B , witch house and chillwave ."
+            },
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 0,
+              "sentence": "Solána Rowe -LRB- born November 8 , 1990 -RRB- , better known by her stage name SZA -LRB- -LSB- ˈsɪzə -RSB- -RRB- , is an American singer-songwriter ."
+            }
+          ],
+          [
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 0,
+              "sentence": "Solána Rowe -LRB- born November 8 , 1990 -RRB- , better known by her stage name SZA -LRB- -LSB- ˈsɪzə -RSB- -RRB- , is an American singer-songwriter ."
+            },
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 6,
+              "sentence": "SZA is a Neo Soul singer whose music is described as Alternative R&B , with elements of soul , hip hop , minimalist R&B , cloud rap , ethereal R&B , witch house and chillwave ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000052",
+      "claim": "The Tenth Doctor travels alone during the time period 2009-2010.",
+      "evidence_sentences": "He eventually parts ways with them all by the end of the 2008 series finale , `` Journey 's End '' , after which he attempts to travel alone for the duration of the 2008 -- 2010 specials before being accompanied by Donna Noble 's grandfather Wilfred Mott on his final adventure in The End of Time .",
+      "page_titles": [
+        "Tenth Doctor"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tenth Doctor",
+            "line_index": 8,
+            "sentence": "He eventually parts ways with them all by the end of the 2008 series finale , `` Journey 's End '' , after which he attempts to travel alone for the duration of the 2008 -- 2010 specials before being accompanied by Donna Noble 's grandfather Wilfred Mott on his final adventure in The End of Time ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000053",
+      "claim": "Jens Stoltenberg was Prime Minister of Norway once.",
+      "evidence_sentences": "Stoltenberg served as Prime Minister of Norway from 2000 to 2001 and from 2005 to 2013 .",
+      "page_titles": [
+        "Jens Stoltenberg"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Jens Stoltenberg",
+            "line_index": 4,
+            "sentence": "Stoltenberg served as Prime Minister of Norway from 2000 to 2001 and from 2005 to 2013 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000054",
+      "claim": "Colin Kaepernick is quarterback for the 49ers.",
+      "evidence_sentences": "Kaepernick was selected by the San Francisco 49ers in the second round of the 2011 NFL Draft .",
+      "page_titles": [
+        "Colin Kaepernick"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Colin Kaepernick",
+            "line_index": 2,
+            "sentence": "Kaepernick was selected by the San Francisco 49ers in the second round of the 2011 NFL Draft ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 7,
+              "sentence": "During the 2013 season , his first full season as a starter , Kaepernick helped the 49ers reach the NFC Championship , losing to the Seattle Seahawks ."
+            }
+          ],
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 8,
+              "sentence": "In the following seasons , Kaepernick lost and won back his starting job , with the 49ers missing the playoffs for three years consecutively ."
+            }
+          ],
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 6,
+              "sentence": "He remained the team 's starting quarterback for the rest of the season and went on to lead the 49ers to their first Super Bowl appearance since 1994 , losing to the Baltimore Ravens ."
+            }
+          ],
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 5,
+              "sentence": "Kaepernick began his professional career as a backup to Alex Smith , but became the 49ers ' starter in the middle of the 2012 season after Smith suffered a concussion ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000055",
+      "claim": "Global warming is projected to result in reduced levels of sea ice.",
+      "evidence_sentences": "Warming is expected to be greater over land than over the oceans and greatest in the Arctic , with the continuing retreat of glaciers , permafrost and sea ice .",
+      "page_titles": [
+        "Global warming"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Global warming",
+            "line_index": 13,
+            "sentence": "Warming is expected to be greater over land than over the oceans and greatest in the Arctic , with the continuing retreat of glaciers , permafrost and sea ice ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000056",
+      "claim": "Finding Dory was directed by anyone except Angus MacLane.",
+      "evidence_sentences": "Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse .",
+      "page_titles": [
+        "Finding Dory"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Finding Dory",
+            "line_index": 1,
+            "sentence": "Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000057",
+      "claim": "Morse code is more sensitive to poor signal conditions.",
+      "evidence_sentences": "Compared to voice , Morse code is less sensitive to poor signal conditions , yet still comprehensible to humans without a decoding device .",
+      "page_titles": [
+        "Morse code"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Morse code",
+            "line_index": 18,
+            "sentence": "Compared to voice , Morse code is less sensitive to poor signal conditions , yet still comprehensible to humans without a decoding device ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000058",
+      "claim": "Off the Wall gained critical acclaim and recognition, as well as a Grammy for Michael Jackson.",
+      "evidence_sentences": "The record gained critical acclaim and recognition , and won the singer his first Grammy Award .",
+      "page_titles": [
+        "Off the Wall"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Off the Wall",
+            "line_index": 14,
+            "sentence": "The record gained critical acclaim and recognition , and won the singer his first Grammy Award ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000059",
+      "claim": "Matthias Corvinus had one of the largest collections of books in Europe during the Renaissance in the 1450's.",
+      "evidence_sentences": "Matthias patronized art and science ; his royal library , the Bibliotheca Corviniana , was one of the largest collections of books in Europe .",
+      "page_titles": [
+        "Matthias Corvinus"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Matthias Corvinus",
+            "line_index": 31,
+            "sentence": "Matthias patronized art and science ; his royal library , the Bibliotheca Corviniana , was one of the largest collections of books in Europe ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000060",
+      "claim": "Raja Hindustani was directed by Dharmesh Darshan in 1995.",
+      "evidence_sentences": "Raja Hindustani -LRB- translation : Indian King -RRB- is a 1996 Indian blockbuster Hindi-language drama romance film directed by Dharmesh Darshan .",
+      "page_titles": [
+        "Raja Hindustani"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Raja Hindustani",
+            "line_index": 0,
+            "sentence": "Raja Hindustani -LRB- translation : Indian King -RRB- is a 1996 Indian blockbuster Hindi-language drama romance film directed by Dharmesh Darshan ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000061",
+      "claim": "Gotham City Sirens was published by Paul Dini.",
+      "evidence_sentences": "Gotham City Sirens is an American comic book series was written by Paul Dini with art by Guillem March and published by DC Comics .",
+      "page_titles": [
+        "Gotham City Sirens"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Gotham City Sirens",
+            "line_index": 0,
+            "sentence": "Gotham City Sirens is an American comic book series was written by Paul Dini with art by Guillem March and published by DC Comics ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000062",
+      "claim": "Castlevania was developed for a Nintendo console.",
+      "evidence_sentences": "Castlevania , known in Japan as , is an action-platformer video game developed and published by Konami for the Family Computer Disk System video game console in Japan in September 1986 .",
+      "page_titles": [
+        "Castlevania -LRB-1986 video game-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Castlevania -LRB-1986 video game-RRB-",
+            "line_index": 0,
+            "sentence": "Castlevania , known in Japan as , is an action-platformer video game developed and published by Konami for the Family Computer Disk System video game console in Japan in September 1986 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Castlevania -LRB-1986 video game-RRB-",
+              "line_index": 1,
+              "sentence": "It was ported to cartridge format and released in North America for the Nintendo Entertainment System -LRB- NES -RRB- in May 1987 followed by a European release in 1988 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000063",
+      "claim": "The Indian Army comprises more than 70% of the country's active defense personnel.",
+      "evidence_sentences": "It is an all-volunteer force and comprises more than 80 % of the country 's active defence personnel .",
+      "page_titles": [
+        "Indian Army"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Indian Army",
+            "line_index": 16,
+            "sentence": "It is an all-volunteer force and comprises more than 80 % of the country 's active defence personnel ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000064",
+      "claim": "Star Trek was written by Roberto Orci.",
+      "evidence_sentences": "He and Kurtzman since returned to working with Abrams on Mission : Impossible III and both Star Trek and Star Trek Into Darkness .",
+      "page_titles": [
+        "Roberto Orci"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Roberto Orci",
+            "line_index": 9,
+            "sentence": "He and Kurtzman since returned to working with Abrams on Mission : Impossible III and both Star Trek and Star Trek Into Darkness ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Roberto Orci",
+              "line_index": 11,
+              "sentence": "In April 2014 , Orci and Kurtzman announced that they would only collaborate in television projects , and Orci worked on the third Star Trek film , Star Trek Beyond , until being replaced the following December ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000065",
+      "claim": "In 1935, Uranium-235 was discovered.",
+      "evidence_sentences": "It was discovered in 1935 by Arthur Jeffrey Dempster .",
+      "page_titles": [
+        "Uranium-235"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Uranium-235",
+            "line_index": 6,
+            "sentence": "It was discovered in 1935 by Arthur Jeffrey Dempster ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Uranium-235",
+              "line_index": 6,
+              "sentence": "It was discovered in 1935 by Arthur Jeffrey Dempster ."
+            },
+            {
+              "page_title": "Arthur Jeffrey Dempster",
+              "line_index": 0,
+              "sentence": "Arthur Jeffrey Dempster -LRB- August 14 , 1886 -- March 11 , 1950 -RRB- was a Canadian-American physicist best known for his work in mass spectrometry and his discovery of the uranium isotope 235U ."
+            }
+          ],
+          [
+            {
+              "page_title": "Uranium-235",
+              "line_index": 6,
+              "sentence": "It was discovered in 1935 by Arthur Jeffrey Dempster ."
+            }
+          ],
+          [
+            {
+              "page_title": "Uranium-235",
+              "line_index": 6,
+              "sentence": "It was discovered in 1935 by Arthur Jeffrey Dempster ."
+            }
+          ],
+          [
+            {
+              "page_title": "Uranium-235",
+              "line_index": 6,
+              "sentence": "It was discovered in 1935 by Arthur Jeffrey Dempster ."
+            }
+          ],
+          [
+            {
+              "page_title": "Uranium-235",
+              "line_index": 6,
+              "sentence": "It was discovered in 1935 by Arthur Jeffrey Dempster ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 6,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000066",
+      "claim": "The Pelican Brief is modeled after a novel of the same name.",
+      "evidence_sentences": "The Pelican Brief is a 1993 American legal political thriller based on the novel of the same name by John Grisham .",
+      "page_titles": [
+        "The Pelican Brief -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Pelican Brief -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "The Pelican Brief is a 1993 American legal political thriller based on the novel of the same name by John Grisham ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000067",
+      "claim": "A monk completely avoids practicing a lifestyle characterized by abstinence from worldly pleasures.",
+      "evidence_sentences": "A monk -LRB- -LSB- mʌŋk -RSB- , from μοναχός , monachos , `` single , solitary '' and Latin monachus -RRB- is a person who practices religious asceticism by monastic living , either alone or with any number of other monks . Asceticism -LRB- -LSB- əˈsɛtɪsɪzəm -RSB- from the -LSB- Wiktionary : ἄσκησις , ἄσκησις -RSB- áskesis , `` exercise '' or `` training '' -RRB- is a lifestyle characterized by abstinence from worldly pleasures , often for the purpose of pursuing spiritual goals .",
+      "page_titles": [
+        "Monk",
+        "Asceticism"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Monk",
+            "line_index": 0,
+            "sentence": "A monk -LRB- -LSB- mʌŋk -RSB- , from μοναχός , monachos , `` single , solitary '' and Latin monachus -RRB- is a person who practices religious asceticism by monastic living , either alone or with any number of other monks ."
+          },
+          {
+            "page_title": "Asceticism",
+            "line_index": 0,
+            "sentence": "Asceticism -LRB- -LSB- əˈsɛtɪsɪzəm -RSB- from the -LSB- Wiktionary : ἄσκησις , ἄσκησις -RSB- áskesis , `` exercise '' or `` training '' -RRB- is a lifestyle characterized by abstinence from worldly pleasures , often for the purpose of pursuing spiritual goals ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000068",
+      "claim": "The Washington Wizards were the winners of four conference titles.",
+      "evidence_sentences": "They have won four conference titles -LRB- 1971 , 1975 , 1978 , 1979 -RRB- , and seven division titles -LRB- 1971 , 1972 , 1973 , 1974 , 1975 , 1979 , 2017 -RRB- .",
+      "page_titles": [
+        "Washington Wizards"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Washington Wizards",
+            "line_index": 12,
+            "sentence": "They have won four conference titles -LRB- 1971 , 1975 , 1978 , 1979 -RRB- , and seven division titles -LRB- 1971 , 1972 , 1973 , 1974 , 1975 , 1979 , 2017 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000069",
+      "claim": "Chris Mullin played with a professional baseball team.",
+      "evidence_sentences": "Thereafter , Mullin played with the Indiana Pacers from 1997 until the 1999 -- 2000 season . The Indiana Pacers are an American professional basketball team based in Indianapolis .",
+      "page_titles": [
+        "Chris Mullin -LRB-basketball-RRB-",
+        "Indiana Pacers"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Chris Mullin -LRB-basketball-RRB-",
+            "line_index": 11,
+            "sentence": "Thereafter , Mullin played with the Indiana Pacers from 1997 until the 1999 -- 2000 season ."
+          },
+          {
+            "page_title": "Indiana Pacers",
+            "line_index": 0,
+            "sentence": "The Indiana Pacers are an American professional basketball team based in Indianapolis ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000070",
+      "claim": "The Dodo has been depicted with green feet.",
+      "evidence_sentences": "It has been depicted with brownish-grey plumage , yellow feet , a tuft of tail feathers , a grey , naked head , and a black , yellow , and green beak .",
+      "page_titles": [
+        "Dodo"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Dodo",
+            "line_index": 10,
+            "sentence": "It has been depicted with brownish-grey plumage , yellow feet , a tuft of tail feathers , a grey , naked head , and a black , yellow , and green beak ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000071",
+      "claim": "Clueless (film) was followed by a series of young adult organizations.",
+      "evidence_sentences": "The film was followed by a spin-off television sitcom and series of books . The Clueless series is a series of young adult novels , mainly written by H. B. Gilmour and Randi Reisfeld .",
+      "page_titles": [
+        "Clueless -LRB-film-RRB-",
+        "Clueless -LRB-novels-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Clueless -LRB-film-RRB-",
+            "line_index": 7,
+            "sentence": "The film was followed by a spin-off television sitcom and series of books ."
+          },
+          {
+            "page_title": "Clueless -LRB-novels-RRB-",
+            "line_index": 0,
+            "sentence": "The Clueless series is a series of young adult novels , mainly written by H. B. Gilmour and Randi Reisfeld ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000072",
+      "claim": "Matteo Renzi was conceived on January 11th, 1975.",
+      "evidence_sentences": "Matteo Renzi -LRB- -LSB- matˈtɛːo ˈrɛntsi -RSB- ; born 11 January 1975 -RRB- is an Italian politician who served as the Prime Minister of Italy from February 2014 until December 2016 .",
+      "page_titles": [
+        "Matteo Renzi"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Matteo Renzi",
+            "line_index": 0,
+            "sentence": "Matteo Renzi -LRB- -LSB- matˈtɛːo ˈrɛntsi -RSB- ; born 11 January 1975 -RRB- is an Italian politician who served as the Prime Minister of Italy from February 2014 until December 2016 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000073",
+      "claim": "Rick Yune was in a book series called Marco Polo.",
+      "evidence_sentences": "He was part of the main cast of the Netflix original series Marco Polo until the series was cancelled on December 12 , 2016 . Marco Polo was an American drama web television series inspired by Marco Polo 's early years in the court of Kublai Khan , the Khagan of the Mongol Empire and the founder of the Yuan dynasty -LRB- 1271 -- 1368 -RRB- .",
+      "page_titles": [
+        "Rick Yune",
+        "Marco Polo -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Rick Yune",
+            "line_index": 2,
+            "sentence": "He was part of the main cast of the Netflix original series Marco Polo until the series was cancelled on December 12 , 2016 ."
+          },
+          {
+            "page_title": "Marco Polo -LRB-TV series-RRB-",
+            "line_index": 0,
+            "sentence": "Marco Polo was an American drama web television series inspired by Marco Polo 's early years in the court of Kublai Khan , the Khagan of the Mongol Empire and the founder of the Yuan dynasty -LRB- 1271 -- 1368 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000074",
+      "claim": "Benjamin Franklin was not born on April 17th, 1790.",
+      "evidence_sentences": "Benjamin Franklin FRS , FRSE -LRB- April 17 , 1790 -RRB- was one of the Founding Fathers of the United States .",
+      "page_titles": [
+        "Benjamin Franklin"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Benjamin Franklin",
+            "line_index": 0,
+            "sentence": "Benjamin Franklin FRS , FRSE -LRB- April 17 , 1790 -RRB- was one of the Founding Fathers of the United States ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000075",
+      "claim": "Practical Magic is based on a novel that has a name.",
+      "evidence_sentences": "Practical Magic is a 1998 American romantic comedy film based on the 1995 novel of the same name by Alice Hoffman .",
+      "page_titles": [
+        "Practical Magic"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Practical Magic",
+            "line_index": 0,
+            "sentence": "Practical Magic is a 1998 American romantic comedy film based on the 1995 novel of the same name by Alice Hoffman ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000076",
+      "claim": "The Washington Wizards have won four conference titles beginning in 1971.",
+      "evidence_sentences": "They have won four conference titles -LRB- 1971 , 1975 , 1978 , 1979 -RRB- , and seven division titles -LRB- 1971 , 1972 , 1973 , 1974 , 1975 , 1979 , 2017 -RRB- .",
+      "page_titles": [
+        "Washington Wizards"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Washington Wizards",
+            "line_index": 12,
+            "sentence": "They have won four conference titles -LRB- 1971 , 1975 , 1978 , 1979 -RRB- , and seven division titles -LRB- 1971 , 1972 , 1973 , 1974 , 1975 , 1979 , 2017 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000077",
+      "claim": "Pearl (Steven Universe) projects a holographic butterfly.",
+      "evidence_sentences": "She is a `` Gem '' , a fictional alien being that exists as a magical gemstone projecting a holographic body .",
+      "page_titles": [
+        "Pearl -LRB-Steven Universe-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Pearl -LRB-Steven Universe-RRB-",
+            "line_index": 1,
+            "sentence": "She is a `` Gem '' , a fictional alien being that exists as a magical gemstone projecting a holographic body ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000078",
+      "claim": "Wildfang is a US-based women's apparel company featuring hats that are tomboyish in style.",
+      "evidence_sentences": "Wildfang is a US-based women 's apparel company featuring clothing that is tomboyish in style .",
+      "page_titles": [
+        "Wildfang"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Wildfang",
+            "line_index": 0,
+            "sentence": "Wildfang is a US-based women 's apparel company featuring clothing that is tomboyish in style ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000079",
+      "claim": "The Danish language is spoken in Sweden.",
+      "evidence_sentences": "Following the loss of territory to Germany and Sweden , a nationalist movement adopted the language as a token of Danish identity , and the language experienced a strong surge in use and popularity with major works of literature produced in the 18th and 19th centuries .",
+      "page_titles": [
+        "Danish language"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Danish language",
+            "line_index": 13,
+            "sentence": "Following the loss of territory to Germany and Sweden , a nationalist movement adopted the language as a token of Danish identity , and the language experienced a strong surge in use and popularity with major works of literature produced in the 18th and 19th centuries ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Danish language",
+              "line_index": 1,
+              "sentence": "There are also minor Danish-speaking communities in Norway , Sweden , Spain , the United States , Canada , Brazil and Argentina ."
+            },
+            {
+              "page_title": "Sweden",
+              "line_index": 0,
+              "sentence": "Sweden -LRB- Konungariket Sverige -RRB- , is a Scandinavian country in Northern Europe ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 1,
+        "alternative_annotation_indices": [
+          0
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000080",
+      "claim": "Christian Gottlob Neefe was an opera writer.",
+      "evidence_sentences": "Christian Gottlob Neefe -LRB- -LSB- ˈneːfə -RSB- ; 5 February 1748 -- 28 January 1798 -RRB- was a German opera composer and conductor . A composer -LRB- Latin compono ; literally `` one who puts together '' -RRB- is a person who creates or writes music , which can be vocal music -LRB- for a singer or choir -RRB- , instrumental music -LRB- e.g. , for solo piano , string quartet , wind quintet or orchestra -RRB- or music which combines both instruments and voices -LRB- e.g. , opera or art song , which is a singer accompanied by a pianist -RRB- .",
+      "page_titles": [
+        "Christian Gottlob Neefe",
+        "Composer"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Christian Gottlob Neefe",
+            "line_index": 0,
+            "sentence": "Christian Gottlob Neefe -LRB- -LSB- ˈneːfə -RSB- ; 5 February 1748 -- 28 January 1798 -RRB- was a German opera composer and conductor ."
+          },
+          {
+            "page_title": "Composer",
+            "line_index": 0,
+            "sentence": "A composer -LRB- Latin compono ; literally `` one who puts together '' -RRB- is a person who creates or writes music , which can be vocal music -LRB- for a singer or choir -RRB- , instrumental music -LRB- e.g. , for solo piano , string quartet , wind quintet or orchestra -RRB- or music which combines both instruments and voices -LRB- e.g. , opera or art song , which is a singer accompanied by a pianist -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000081",
+      "claim": "During the Battle of France, on June 14, German forces occupied Paris.",
+      "evidence_sentences": "German forces occupied Paris unopposed on 14 June after a chaotic period of flight of the French government that led to a collapse of the French army .",
+      "page_titles": [
+        "Battle of France"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Battle of France",
+            "line_index": 13,
+            "sentence": "German forces occupied Paris unopposed on 14 June after a chaotic period of flight of the French government that led to a collapse of the French army ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000082",
+      "claim": "A Floppy disk is composed of a thin and flexible magnetic transmission medium.",
+      "evidence_sentences": "A floppy disk , also called a floppy , diskette or just disk , is a type of disk storage composed of a disk of thin and flexible magnetic storage medium , sealed in a rectangular plastic enclosure lined with fabric that removes dust particles .",
+      "page_titles": [
+        "Floppy disk"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Floppy disk",
+            "line_index": 0,
+            "sentence": "A floppy disk , also called a floppy , diskette or just disk , is a type of disk storage composed of a disk of thin and flexible magnetic storage medium , sealed in a rectangular plastic enclosure lined with fabric that removes dust particles ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000083",
+      "claim": "The ruins of the ancient Roman town of Herculaneum lie two hundred miles from Naples.",
+      "evidence_sentences": "In the immediate vicinity of Naples are numerous culturally and historically significant sites , including the Palace of Caserta and the Roman ruins of Pompeii and Herculaneum .",
+      "page_titles": [
+        "Naples"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Naples",
+            "line_index": 34,
+            "sentence": "In the immediate vicinity of Naples are numerous culturally and historically significant sites , including the Palace of Caserta and the Roman ruins of Pompeii and Herculaneum ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000084",
+      "claim": "There are 26 world title wins and 0 loss record under Floyd Mayweather Jr.",
+      "evidence_sentences": "Widely considered to be one of the greatest boxers of all time , undefeated as a professional , and a five-division world champion , Mayweather won fifteen world titles and the lineal championship in four different weight classes -LRB- twice at welterweight -RRB- . He finished his career with a record of 26 wins without a loss or draw in world title fights -LRB- 10 by KO -RRB- ; 23 wins -LRB- 9 KOs -RRB- in lineal title fights ; 24 wins -LRB- 7 KOs -RRB- against former or current world titlists ; 12 wins -LRB- 3 KOs -RRB- against former or current lineal champions ; and 2 wins -LRB- 1 KO -RRB- against International Boxing Hall of Fame inductees . Champions recognized by sanctioning bodies such as the World Boxing Association -LRB- WBA -RRB- or World Boxing Council -LRB- WBC -RRB- , or the Ultimate Fighting Championship -LRB- UFC -RRB- may vacate their title voluntarily , or be stripped of the title for breaching the sanctioning body 's regulations or contracts .",
+      "page_titles": [
+        "Floyd Mayweather Jr.",
+        "Floyd Mayweather Jr.",
+        "Lineal championship"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Floyd Mayweather Jr.",
+            "line_index": 1,
+            "sentence": "Widely considered to be one of the greatest boxers of all time , undefeated as a professional , and a five-division world champion , Mayweather won fifteen world titles and the lineal championship in four different weight classes -LRB- twice at welterweight -RRB- ."
+          },
+          {
+            "page_title": "Floyd Mayweather Jr.",
+            "line_index": 10,
+            "sentence": "He finished his career with a record of 26 wins without a loss or draw in world title fights -LRB- 10 by KO -RRB- ; 23 wins -LRB- 9 KOs -RRB- in lineal title fights ; 24 wins -LRB- 7 KOs -RRB- against former or current world titlists ; 12 wins -LRB- 3 KOs -RRB- against former or current lineal champions ; and 2 wins -LRB- 1 KO -RRB- against International Boxing Hall of Fame inductees ."
+          },
+          {
+            "page_title": "Lineal championship",
+            "line_index": 2,
+            "sentence": "Champions recognized by sanctioning bodies such as the World Boxing Association -LRB- WBA -RRB- or World Boxing Council -LRB- WBC -RRB- , or the Ultimate Fighting Championship -LRB- UFC -RRB- may vacate their title voluntarily , or be stripped of the title for breaching the sanctioning body 's regulations or contracts ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000085",
+      "claim": "Ann Richards was the 45th Governor of Texas.",
+      "evidence_sentences": "Dorothy Ann Willis Richards -LRB- September 1 , 1933 -- September 13 , 2006 -RRB- was an American politician and the 45th Governor of Texas from 1991 to 1995 .",
+      "page_titles": [
+        "Ann Richards"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ann Richards",
+            "line_index": 0,
+            "sentence": "Dorothy Ann Willis Richards -LRB- September 1 , 1933 -- September 13 , 2006 -RRB- was an American politician and the 45th Governor of Texas from 1991 to 1995 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Ann Richards",
+              "line_index": 2,
+              "sentence": "Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000086",
+      "claim": "Rabbta (song) is a Hindi song from a 2012 film.",
+      "evidence_sentences": "`` Raabta '' -LRB- English : Relation -RRB- is a romantic Hindi song from the 2012 Bollywood film , Agent Vinod .",
+      "page_titles": [
+        "Raabta -LRB-song-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Raabta -LRB-song-RRB-",
+            "line_index": 0,
+            "sentence": "`` Raabta '' -LRB- English : Relation -RRB- is a romantic Hindi song from the 2012 Bollywood film , Agent Vinod ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Raabta -LRB-song-RRB-",
+              "line_index": 0,
+              "sentence": "`` Raabta '' -LRB- English : Relation -RRB- is a romantic Hindi song from the 2012 Bollywood film , Agent Vinod ."
+            }
+          ],
+          [
+            {
+              "page_title": "Raabta -LRB-song-RRB-",
+              "line_index": 0,
+              "sentence": "`` Raabta '' -LRB- English : Relation -RRB- is a romantic Hindi song from the 2012 Bollywood film , Agent Vinod ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000087",
+      "claim": "Rob McElhenney plays the character Mac on It's Always Sunny in Philadelphia.",
+      "evidence_sentences": "Robert Dale `` Rob '' McElhenney -LRB- born April 14 , 1977 -RRB- is an American actor , director , producer , and screenwriter .",
+      "page_titles": [
+        "Rob McElhenney"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Rob McElhenney",
+            "line_index": 0,
+            "sentence": "Robert Dale `` Rob '' McElhenney -LRB- born April 14 , 1977 -RRB- is an American actor , director , producer , and screenwriter ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Rob McElhenney",
+              "line_index": 3,
+              "sentence": "He is best known for playing Mac on the FX/FXX comedy series It 's Always Sunny in Philadelphia ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000088",
+      "claim": "Rick Yune was on a Netflix show.",
+      "evidence_sentences": "He was part of the main cast of the Netflix original series Marco Polo until the series was cancelled on December 12 , 2016 .",
+      "page_titles": [
+        "Rick Yune"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Rick Yune",
+            "line_index": 2,
+            "sentence": "He was part of the main cast of the Netflix original series Marco Polo until the series was cancelled on December 12 , 2016 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000089",
+      "claim": "Stripes had a person appear in it.",
+      "evidence_sentences": "Several actors including John Larroquette , John Diehl , Conrad Dunn and Judge Reinhold were featured in their first significant film roles .",
+      "page_titles": [
+        "Stripes -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Stripes -LRB-film-RRB-",
+            "line_index": 1,
+            "sentence": "Several actors including John Larroquette , John Diehl , Conrad Dunn and Judge Reinhold were featured in their first significant film roles ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Stripes -LRB-film-RRB-",
+              "line_index": 0,
+              "sentence": "Stripes is a 1981 American buddy military comedy film directed by Ivan Reitman , starring Bill Murray , Harold Ramis , Warren Oates , P. J. Soles , Sean Young , and John Candy ."
+            },
+            {
+              "page_title": "Bill Murray",
+              "line_index": 0,
+              "sentence": "William James Murray -LRB- born September 21 , 1950 -RRB- is an American actor , comedian , and writer ."
+            }
+          ],
+          [
+            {
+              "page_title": "Stripes -LRB-film-RRB-",
+              "line_index": 1,
+              "sentence": "Several actors including John Larroquette , John Diehl , Conrad Dunn and Judge Reinhold were featured in their first significant film roles ."
+            },
+            {
+              "page_title": "Conrad Dunn",
+              "line_index": 0,
+              "sentence": "Conrad Dunn is an American actor ."
+            }
+          ],
+          [
+            {
+              "page_title": "Stripes -LRB-film-RRB-",
+              "line_index": 2,
+              "sentence": "Joe Flaherty , Dave Thomas , Timothy Busfield and Bill Paxton also appeared early in their careers ."
+            },
+            {
+              "page_title": "Bill Paxton",
+              "line_index": 0,
+              "sentence": "William `` Bill '' Paxton -LRB- May 17 , 1955 -- February 25 , 2017 -RRB- was an American actor and film director ."
+            }
+          ],
+          [
+            {
+              "page_title": "Stripes -LRB-film-RRB-",
+              "line_index": 0,
+              "sentence": "Stripes is a 1981 American buddy military comedy film directed by Ivan Reitman , starring Bill Murray , Harold Ramis , Warren Oates , P. J. Soles , Sean Young , and John Candy ."
+            },
+            {
+              "page_title": "Bill Murray",
+              "line_index": 0,
+              "sentence": "William James Murray -LRB- born September 21 , 1950 -RRB- is an American actor , comedian , and writer ."
+            },
+            {
+              "page_title": "Bill Murray",
+              "line_index": 1,
+              "sentence": "He first gained exposure on Saturday Night Live , a role that earned him his first Emmy Award , and later starred in comedy films -- including Meatballs -LRB- 1979 -RRB- , Caddyshack -LRB- 1980 -RRB- , Stripes -LRB- 1981 -RRB- , Tootsie -LRB- 1982 -RRB- , Ghostbusters -LRB- 1984 -RRB- , Scrooged -LRB- 1988 -RRB- , Ghostbusters II -LRB- 1989 -RRB- , What About Bob ?"
+            },
+            {
+              "page_title": "Bill Murray",
+              "line_index": 3,
+              "sentence": "He also co-directed Quick Change -LRB- 1990 -RRB- ."
+            },
+            {
+              "page_title": "Bill Murray",
+              "line_index": 6,
+              "sentence": "Murray garnered additional critical acclaim later in his career , starring in Lost in Translation -LRB- 2003 -RRB- , which earned him a Golden Globe and a BAFTA Award for Best Actor , as well as an Academy Award nomination for Best Actor ."
+            },
+            {
+              "page_title": "Bill Murray",
+              "line_index": 7,
+              "sentence": "He also received Golden Globe nominations for his roles in Ghostbusters , Rushmore -LRB- 1998 -RRB- , Hyde Park on Hudson -LRB- 2012 -RRB- , St. Vincent -LRB- 2014 -RRB- , and the HBO miniseries Olive Kitteridge -LRB- 2014 -RRB- , for which he later won his second Primetime Emmy Award ."
+            },
+            {
+              "page_title": "Bill Murray",
+              "line_index": 10,
+              "sentence": "Murray received the Mark Twain Prize for American Humor in 2016 ."
+            },
+            {
+              "page_title": "Harold Ramis",
+              "line_index": 0,
+              "sentence": "Harold Allen Ramis -LRB- November 21 , 1944 -- February 24 , 2014 -RRB- was an American actor , director , writer , and comedian ."
+            },
+            {
+              "page_title": "Harold Ramis",
+              "line_index": 1,
+              "sentence": "His best-known film acting roles were as Egon Spengler in Ghostbusters -LRB- 1984 -RRB- and Ghostbusters II -LRB- 1989 -RRB- and Russell Ziskey in Stripes -LRB- 1981 -RRB- ; he also co-wrote those films ."
+            },
+            {
+              "page_title": "Harold Ramis",
+              "line_index": 2,
+              "sentence": "As a director , his films include the comedies Caddyshack -LRB- 1980 -RRB- , National Lampoon 's Vacation -LRB- 1983 -RRB- , Groundhog Day -LRB- 1993 -RRB- , and Analyze This -LRB- 1999 -RRB- ."
+            },
+            {
+              "page_title": "Harold Ramis",
+              "line_index": 3,
+              "sentence": "Ramis was the original head writer of the television series SCTV , on which he also performed , as well as a co-writer of Groundhog Day and National Lampoon 's Animal House -LRB- 1978 -RRB- ."
+            },
+            {
+              "page_title": "Harold Ramis",
+              "line_index": 4,
+              "sentence": "His final film that he wrote , produced , directed and acted in was the critical and commercial failure Year one -LRB- 2009 -RRB- ."
+            },
+            {
+              "page_title": "Harold Ramis",
+              "line_index": 9,
+              "sentence": "He won the BAFTA Award for Best Original Screenplay for Groundhog Day ."
+            },
+            {
+              "page_title": "Ivan Reitman",
+              "line_index": 0,
+              "sentence": "Ivan Reitman , OC -LRB- born October 27 , 1946 -RRB- is a Canadian film producer and director , best known for his comedy work , especially in the 1980s and 1990s ."
+            },
+            {
+              "page_title": "Ivan Reitman",
+              "line_index": 1,
+              "sentence": "He is the owner of The Montecito Picture Company , founded in 2000 ."
+            },
+            {
+              "page_title": "John Candy",
+              "line_index": 0,
+              "sentence": "John Franklin Candy -LRB- October 31 , 1950 -- March 4 , 1994 -RRB- was a Canadian actor and comedian known mainly for his work in Hollywood films ."
+            },
+            {
+              "page_title": "John Candy",
+              "line_index": 1,
+              "sentence": "Candy rose to fame as a member of the Toronto branch of the Second City and its related Second City Television series , and through his appearances in such comedy films as Stripes , Splash , Cool Runnings , Summer Rental , The Great Outdoors , Spaceballs , and Uncle Buck , as well as more dramatic roles in Only the Lonely and JFK ."
+            },
+            {
+              "page_title": "John Candy",
+              "line_index": 2,
+              "sentence": "One of his most renowned onscreen performances was as Del Griffith , the loquacious , on-the-move shower-curtain ring salesman in the John Hughes comedy Planes , Trains and Automobiles ."
+            },
+            {
+              "page_title": "John Candy",
+              "line_index": 6,
+              "sentence": ", Candy died of a heart attack in Durango , Mexico , on March 4 , 1994 , aged 43 ."
+            },
+            {
+              "page_title": "P. J. Soles",
+              "line_index": 0,
+              "sentence": "P.J. Soles -LRB- born Pamela Jayne Hardon ; July 17 , 1950 -RRB- is an American film and television actress , known for her roles as Lynda van der Klok in Halloween , Riff Randell in"
+            },
+            {
+              "page_title": "P. J. Soles",
+              "line_index": 2,
+              "sentence": "Rock 'n' Roll High School , Norma Watson in Carrie and Bill Murray 's military girlfriend Stella in Stripes ."
+            },
+            {
+              "page_title": "Sean Young",
+              "line_index": 0,
+              "sentence": "Mary Sean Young -LRB- born November 20 , 1959 -RRB- is an American actress ."
+            },
+            {
+              "page_title": "Warren Oates",
+              "line_index": 0,
+              "sentence": "Warren Mercer Oates -LRB- July 5 , 1928 -- April 3 , 1982 -RRB- was an American actor best known for his performances in several films directed by Sam Peckinpah , including The Wild Bunch -LRB- 1969 -RRB- and Bring Me the Head of Alfredo Garcia -LRB- 1974 -RRB- ."
+            },
+            {
+              "page_title": "Warren Oates",
+              "line_index": 1,
+              "sentence": "He starred in numerous films during the early 1970s that have since achieved cult status , such as The Hired Hand -LRB- 1971 -RRB- , Two-Lane Blacktop -LRB- 1971 -RRB- , and Race with the Devil -LRB- 1975 -RRB- ."
+            },
+            {
+              "page_title": "Warren Oates",
+              "line_index": 2,
+              "sentence": "Oates also portrayed John Dillinger in the biopic Dillinger -LRB- 1973 -RRB- and Sgt. Hulka in the comedy Stripes -LRB- 1981 -RRB- ."
+            }
+          ],
+          [
+            {
+              "page_title": "Stripes -LRB-film-RRB-",
+              "line_index": 1,
+              "sentence": "Several actors including John Larroquette , John Diehl , Conrad Dunn and Judge Reinhold were featured in their first significant film roles ."
+            },
+            {
+              "page_title": "Conrad Dunn",
+              "line_index": 0,
+              "sentence": "Conrad Dunn is an American actor ."
+            },
+            {
+              "page_title": "Conrad Dunn",
+              "line_index": 1,
+              "sentence": "He began his screen career with the role of Francis `` Psycho '' Soyer in Stripes -LRB- 1981 -RRB- ."
+            },
+            {
+              "page_title": "Conrad Dunn",
+              "line_index": 2,
+              "sentence": "Working for some ten years under the name George Jenesky , he achieved soap-opera stardom in Days of Our Lives as Nick Corelli , a misogynistic pimp who evolved from bad guy to romantic lead ."
+            },
+            {
+              "page_title": "Conrad Dunn",
+              "line_index": 3,
+              "sentence": "He returned to the name Conrad Dunn and began working extensively in Canadian as well as U.S. film and television ."
+            },
+            {
+              "page_title": "Conrad Dunn",
+              "line_index": 4,
+              "sentence": "He excels as a villain , and has found depth in such TV films as We the Jury -LRB- 1996 -RRB- and the miniseries The Last Don -LRB- 1997 -- 98 -RRB- ."
+            },
+            {
+              "page_title": "Conrad Dunn",
+              "line_index": 5,
+              "sentence": "For two seasons he portrayed the freelance detective Saul Panzer in the A&E TV series A Nero Wolfe Mystery -LRB- 2001 -- 02 -RRB- ."
+            },
+            {
+              "page_title": "John Diehl",
+              "line_index": 0,
+              "sentence": "John Henry Diehl -LRB- born May 1 , 1950 -RRB- is an American film , television , and stage actor ."
+            },
+            {
+              "page_title": "John Diehl",
+              "line_index": 1,
+              "sentence": "Noted for his work in avant-garde theater , Diehl has performed in more than 140 films and television shows , including Land of Plenty , Stripes , Nixon , Jurassic Park III and the TV serieses Miami Vice and The Shield ."
+            },
+            {
+              "page_title": "John Diehl",
+              "line_index": 4,
+              "sentence": "Described by the Los Angeles Times as a `` versatile and immediately recognizable '' character actor , Diehl has `` largely avoided the typecasting that is an accepted part of most character actors ' careers . ''"
+            },
+            {
+              "page_title": "John Diehl",
+              "line_index": 5,
+              "sentence": "He has been a member of The Actors Studio since 2004 ."
+            },
+            {
+              "page_title": "John Larroquette",
+              "line_index": 0,
+              "sentence": "John Bernard Larroquette -LRB- born November 25 , 1947 -RRB- is an American actor ."
+            },
+            {
+              "page_title": "John Larroquette",
+              "line_index": 1,
+              "sentence": "His roles include Dan Fielding on the 1984 -- 1992 sitcom Night Court -LRB- winning a then-unprecedented four consecutive Emmy Awards for his role -RRB- , Mike McBride in the Hallmark Channel series McBride , John Hemingway on The John Larroquette Show , and Carl Sack in Boston Legal ."
+            },
+            {
+              "page_title": "John Larroquette",
+              "line_index": 2,
+              "sentence": "He is currently playing Jenkins/Galahad in TNT 's The Librarians ."
+            },
+            {
+              "page_title": "Judge Reinhold",
+              "line_index": 0,
+              "sentence": "Edward Ernest `` Judge '' Reinhold Jr. -LRB- born May 21 , 1957 -RRB- is an American actor who has starred in several Hollywood movies , such as Beverly Hills Cop , Ruthless People , Fast Times at Ridgemont High , Gremlins and The Santa Clause trilogy ."
+            }
+          ],
+          [
+            {
+              "page_title": "Stripes -LRB-film-RRB-",
+              "line_index": 2,
+              "sentence": "Joe Flaherty , Dave Thomas , Timothy Busfield and Bill Paxton also appeared early in their careers ."
+            },
+            {
+              "page_title": "Bill Paxton",
+              "line_index": 0,
+              "sentence": "William `` Bill '' Paxton -LRB- May 17 , 1955 -- February 25 , 2017 -RRB- was an American actor and film director ."
+            },
+            {
+              "page_title": "Bill Paxton",
+              "line_index": 2,
+              "sentence": "Paxton also starred in the HBO drama series Big Love -LRB- 2006 -- 2011 -RRB- ."
+            },
+            {
+              "page_title": "Bill Paxton",
+              "line_index": 3,
+              "sentence": "In 2013 , he received an Emmy Award nomination for his performance in the miniseries Hatfields & McCoys ."
+            },
+            {
+              "page_title": "Dave Thomas -LRB-actor-RRB-",
+              "line_index": 0,
+              "sentence": "David William Thomas -LRB- born May 20 , 1949 -RRB- is a Canadian comedian , actor and television writer ."
+            },
+            {
+              "page_title": "Dave Thomas -LRB-actor-RRB-",
+              "line_index": 1,
+              "sentence": "He is best known for portraying Doug McKenzie on SCTV as well as in the film Strange Brew , which he also directed ."
+            },
+            {
+              "page_title": "Joe Flaherty",
+              "line_index": 0,
+              "sentence": "Joe Flaherty -LRB- born June 21 , 1941 -RRB- is an American actor and comedian ."
+            },
+            {
+              "page_title": "Joe Flaherty",
+              "line_index": 1,
+              "sentence": "He is best known for his work on the Canadian sketch comedy SCTV from 1976 to 1984 -LRB- on which he also served as a writer -RRB- , and as Harold Weir on Freaks and Geeks ."
+            },
+            {
+              "page_title": "Timothy Busfield",
+              "line_index": 0,
+              "sentence": "Timothy `` Timmy B '' Busfield -LRB- born June 12 , 1957 -RRB- is an American actor and director ."
+            },
+            {
+              "page_title": "Timothy Busfield",
+              "line_index": 1,
+              "sentence": "He has played Elliot Weston on the television series thirtysomething ; Mark , Kevin Costner 's brother-in-law in Field of Dreams ; and Danny Concannon on the television series The West Wing ."
+            },
+            {
+              "page_title": "Timothy Busfield",
+              "line_index": 2,
+              "sentence": "In 1991 he received a Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series for Thirtysomething ."
+            },
+            {
+              "page_title": "Timothy Busfield",
+              "line_index": 3,
+              "sentence": "He is also the founder of the 501 -LRB- c -RRB- -LRB- 3 -RRB- non-profit children 's theatre Fantasy Theatre for Children and B Street Theatre ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 7,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000090",
+      "claim": "Helmand Province is outside of Afghanistan.",
+      "evidence_sentences": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country .",
+      "page_titles": [
+        "Helmand Province"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Helmand Province",
+            "line_index": 0,
+            "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Helmand Province",
+              "line_index": 0,
+              "sentence": "Helmand -LRB- -LSB- ˈhɛlmənd -RSB- ; Pashto/Dari : هلمند -RRB- , also known as Hillmand , and , in ancient times , as Hermand and Hethumand is one of the 34 provinces of Afghanistan , in the south of the country ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 23,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000091",
+      "claim": "Villa Park was declined the responsibility of hosting the 2012 FA Community Shield.",
+      "evidence_sentences": "Villa Park also hosted the 2012 FA Community Shield , as Wembley Stadium was in use for the final of the Olympic football tournament .",
+      "page_titles": [
+        "Villa Park"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Villa Park",
+            "line_index": 14,
+            "sentence": "Villa Park also hosted the 2012 FA Community Shield , as Wembley Stadium was in use for the final of the Olympic football tournament ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000092",
+      "claim": "Johann Wolfgang von Goethe failed to publish Wilhelm Meister's Apprenticeship.",
+      "evidence_sentences": "During this period , Goethe published his second novel , Wilhelm Meister 's Apprenticeship , the verse epic Hermann and Dorothea , and , in 1808 , the first part of his most celebrated drama , Faust .",
+      "page_titles": [
+        "Johann Wolfgang von Goethe"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Johann Wolfgang von Goethe",
+            "line_index": 13,
+            "sentence": "During this period , Goethe published his second novel , Wilhelm Meister 's Apprenticeship , the verse epic Hermann and Dorothea , and , in 1808 , the first part of his most celebrated drama , Faust ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000093",
+      "claim": "Garden State was at a corpse exhibition.",
+      "evidence_sentences": "Garden State is a 2004 American romantic comedy-drama film , written and directed by Zach Braff and starring Braff , Natalie Portman , Peter Sarsgaard , and Ian Holm .",
+      "page_titles": [
+        "Garden State -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Garden State -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "Garden State is a 2004 American romantic comedy-drama film , written and directed by Zach Braff and starring Braff , Natalie Portman , Peter Sarsgaard , and Ian Holm ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000094",
+      "claim": "Anthony Scaramucci is a political leader.",
+      "evidence_sentences": "Anthony Scaramucci -LRB- born January 6 , 1964 -RRB- is an American entrepreneur , financier , political figure , and author .",
+      "page_titles": [
+        "Anthony Scaramucci"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Anthony Scaramucci",
+            "line_index": 0,
+            "sentence": "Anthony Scaramucci -LRB- born January 6 , 1964 -RRB- is an American entrepreneur , financier , political figure , and author ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000095",
+      "claim": "Charlotte, North Carolina is home to the west coast operations of Wells Fargo.",
+      "evidence_sentences": "Charlotte is home to the corporate headquarters of Bank of America and the east coast operations of Wells Fargo , which along with other financial institutions made it the second-largest banking center in the United States from 1995 to 2017 and the third-largest from 2017 to present .",
+      "page_titles": [
+        "Charlotte, North Carolina"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Charlotte, North Carolina",
+            "line_index": 10,
+            "sentence": "Charlotte is home to the corporate headquarters of Bank of America and the east coast operations of Wells Fargo , which along with other financial institutions made it the second-largest banking center in the United States from 1995 to 2017 and the third-largest from 2017 to present ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000096",
+      "claim": "Key & Peele has yet to be nominated for a Writers Guild Award.",
+      "evidence_sentences": "Key & Peele won a Peabody Award and two Primetime Emmy Awards and has been nominated for various other awards , including Writers Guild Award , NAACP Image Award and 16 additional Primetime Emmy Awards in various categories .",
+      "page_titles": [
+        "Key & Peele"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Key & Peele",
+            "line_index": 10,
+            "sentence": "Key & Peele won a Peabody Award and two Primetime Emmy Awards and has been nominated for various other awards , including Writers Guild Award , NAACP Image Award and 16 additional Primetime Emmy Awards in various categories ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000097",
+      "claim": "Saturn Corporation was established on January 8.",
+      "evidence_sentences": "The Saturn Corporation , also known as Saturn LLC , is a registered trademark established on January 7 , 1985 , as a subsidiary of General Motors .",
+      "page_titles": [
+        "Saturn Corporation"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Saturn Corporation",
+            "line_index": 0,
+            "sentence": "The Saturn Corporation , also known as Saturn LLC , is a registered trademark established on January 7 , 1985 , as a subsidiary of General Motors ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000098",
+      "claim": "Natural Born Killers was based upon a true crime novel by Truman Capote.",
+      "evidence_sentences": "The film is based on an original screenplay by Quentin Tarantino that was heavily revised by writer David Veloz , associate producer Richard Rutowski , and director Stone ; Tarantino received story credit .",
+      "page_titles": [
+        "Natural Born Killers"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Natural Born Killers",
+            "line_index": 5,
+            "sentence": "The film is based on an original screenplay by Quentin Tarantino that was heavily revised by writer David Veloz , associate producer Richard Rutowski , and director Stone ; Tarantino received story credit ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000099",
+      "claim": "Web pages can be either static or interactive.",
+      "evidence_sentences": "A static web page is delivered exactly as stored , as web content in the web server 's file system , while a dynamic web page is generated by a web application that is driven by server-side software or client-side scripting .",
+      "page_titles": [
+        "Web page"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Web page",
+            "line_index": 14,
+            "sentence": "A static web page is delivered exactly as stored , as web content in the web server 's file system , while a dynamic web page is generated by a web application that is driven by server-side software or client-side scripting ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000100",
+      "claim": "\"I Want You Back\" was released by Mel B.",
+      "evidence_sentences": "Brown began her solo career when she released `` I Want You Back '' with Missy Elliott on Virgin Records .",
+      "page_titles": [
+        "Mel B"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mel B",
+            "line_index": 5,
+            "sentence": "Brown began her solo career when she released `` I Want You Back '' with Missy Elliott on Virgin Records ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  ],
+  "rubric": "# Judge Rubric (silver adjudication, v1)\n\nYou are an independent fact-checking adjudicator. You will see a batch of\nitems. Each item contains a **claim** and **evidence** (what is included\ndepends on the disclosure stage, stated in the batch header). For EVERY item\nyou must judge **only from the information provided**.\n\n## Task\n\nDecide whether the provided evidence **warrants** the claim:\n\n- `Supported` — the evidence clearly or probably establishes the claim is true.\n- `Refuted` — the evidence clearly or probably establishes the claim is false.\n- `Ambiguous` — the evidence is insufficient, partial, or mixed; you cannot\n  responsibly decide true or false from what is provided.\n\nAlso rate how sufficient the evidence is for deciding the claim\n(`clearly_sufficient | probably_sufficient | partial_or_ambiguous |\nprobably_insufficient | clearly_insufficient`), your confidence (integer\n0–100), and any issue flags that apply (see list).\n\n## Hard rules\n\n- Judge ONLY from the supplied claim and evidence. Do NOT use outside\n  knowledge to decide the verdict.\n- Do NOT browse the web or look anything up.\n- Do NOT speculate about hidden labels, other models, or why the item was\n  selected.\n- If the evidence alone does not settle the claim, say `Ambiguous` — that is a\n  valid, useful answer, not a failure.\n- `confidence` MUST be an integer from 0 to 100.\n- `brief_reason` must be short (one sentence) and grounded in the evidence.\n- Select issue flags only when the evidence shows that problem; use `none`\n  otherwise. Do not pad flags.\n\n## Issue flags\n\n`none`, `possible_missing_title_context`, `possible_coreference_or_entity_resolution`,\n`possible_missing_surrounding_context`, `multi_sentence_integration`,\n`numerical_or_temporal_reasoning`, `negation_or_scope`,\n`entity_or_attribute_confusion`, `partial_warrant`,\n`apparent_internal_contradiction`, `other`\n\n## Output format\n\nReturn ONLY a JSON array (no prose before or after), one object per item, in\nthe same order as the input:\n\n```json\n[\n  {\n    \"item_id\": \"SA-000001\",\n    \"judge_id\": \"judge_1\",\n    \"stage\": \"A\",\n    \"verdict\": \"Supported\",\n    \"evidence_sufficiency\": \"probably_sufficient\",\n    \"confidence\": 80,\n    \"issue_flags\": [\"none\"],\n    \"brief_reason\": \"The evidence sentence directly states the claim.\"\n  }\n]\n```\n\n`item_id`, `judge_id`, and `stage` must be copied exactly from the batch file.\nProduce exactly one object for every item in the batch — never skip or merge\nitems. If an item's evidence is empty or unreadable, verdict `Ambiguous`,\nsufficiency `clearly_insufficient`, confidence as you see fit, flag `other`.\n",
+  "disclosure_note": "Stage C. Judge only supplied fields. Null text means unavailable; do not fill it using outside knowledge."
+}

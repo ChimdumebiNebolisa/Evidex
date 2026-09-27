@@ -1,0 +1,33 @@
+{
+  "grok": {
+    "regressions": 226,
+    "legacy_utilization": 113,
+    "legacy_utilization_disagrees_fever": 36,
+    "legacy_title_resolutions_absorbed": 15,
+    "proposed_rule_only_on_old_inputs": {
+      "sentence_only_gold_agreeing": 77,
+      "final_nondecisive": 86,
+      "decisive_judge_fever_disagreement": 47,
+      "title_disclosure_gold_agreeing": 9,
+      "structured_disclosure_gold_agreeing": 3,
+      "additional_evidence_gold_agreeing": 2,
+      "nonmonotonic_judge_path": 2
+    },
+    "sentence_only_utilization_compatible": 86
+  },
+  "claude": {
+    "regressions": 226,
+    "legacy_utilization": 149,
+    "legacy_utilization_disagrees_fever": 46,
+    "legacy_title_resolutions_absorbed": 5,
+    "proposed_rule_only_on_old_inputs": {
+      "sentence_only_gold_agreeing": 103,
+      "decisive_judge_fever_disagreement": 51,
+      "title_disclosure_gold_agreeing": 3,
+      "final_nondecisive": 65,
+      "nonmonotonic_judge_path": 2,
+      "structured_disclosure_gold_agreeing": 2
+    },
+    "sentence_only_utilization_compatible": 110
+  }
+}

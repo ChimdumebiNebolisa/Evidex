@@ -1,0 +1,2128 @@
+{
+  "judge_id": "judge_5",
+  "stage": "C",
+  "output_path": "corrections_v2/blind_io/p01/stage_c/p01_C_j5_b11.output.json",
+  "n_items": 60,
+  "item_ids": [
+    "SA-001002",
+    "SA-001003",
+    "SA-001004",
+    "SA-001005",
+    "SA-001006",
+    "SA-001007",
+    "SA-001008",
+    "SA-001009",
+    "SA-001010",
+    "SA-001011",
+    "SA-001012",
+    "SA-001013",
+    "SA-001014",
+    "SA-001015",
+    "SA-001016",
+    "SA-001017",
+    "SA-001018",
+    "SA-001019",
+    "SA-001020",
+    "SA-001021",
+    "SA-001022",
+    "SA-001023",
+    "SA-001024",
+    "SA-001025",
+    "SA-001026",
+    "SA-001027",
+    "SA-001028",
+    "SA-001029",
+    "SA-001030",
+    "SA-001031",
+    "SA-001032",
+    "SA-001033",
+    "SA-001034",
+    "SA-001035",
+    "SA-001036",
+    "SA-001037",
+    "SA-001038",
+    "SA-001039",
+    "SA-001040",
+    "SA-001041",
+    "SA-001042",
+    "SA-001043",
+    "SA-001044",
+    "SA-001045",
+    "SA-001046",
+    "SA-001047",
+    "SA-001048",
+    "SA-001049",
+    "SA-001050",
+    "SA-001051",
+    "SA-001052",
+    "SA-001053",
+    "SA-001054",
+    "SA-001055",
+    "SA-001056",
+    "SA-001057",
+    "SA-001058",
+    "SA-001059",
+    "SA-001060",
+    "SA-001061"
+  ],
+  "items": [
+    {
+      "item_id": "SA-001002",
+      "claim": "The horse was domesticated on a broad scale by 3103 BC.",
+      "evidence_sentences": "Humans began to domesticate horses around 4000 BC , and their domestication is believed to have been widespread by 3000 BC .",
+      "page_titles": [
+        "Horse"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Horse",
+            "line_index": 3,
+            "sentence": "Humans began to domesticate horses around 4000 BC , and their domestication is believed to have been widespread by 3000 BC ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001003",
+      "claim": "The World Trade Center opened in April.",
+      "evidence_sentences": "It featured landmark twin towers , which opened on April 4 , 1973 , and were destroyed as a result of the September 11 attacks .",
+      "page_titles": [
+        "World Trade Center -LRB-1973–2001-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "World Trade Center -LRB-1973–2001-RRB-",
+            "line_index": 1,
+            "sentence": "It featured landmark twin towers , which opened on April 4 , 1973 , and were destroyed as a result of the September 11 attacks ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001004",
+      "claim": "Emilia Clarke is an actress.",
+      "evidence_sentences": "Emilia Isabelle Euphemia Rose Clarke -LRB- born 23 October 1986 -RRB- is an English actress .",
+      "page_titles": [
+        "Emilia Clarke"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Emilia Clarke",
+            "line_index": 0,
+            "sentence": "Emilia Isabelle Euphemia Rose Clarke -LRB- born 23 October 1986 -RRB- is an English actress ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Emilia Clarke",
+              "line_index": 4,
+              "sentence": "She was educated at Rye St Antony School , Headington and graduated from secondary school at St. Edward 's in Oxford , where she appeared in two plays , before studying at the Drama Centre London , where she graduated from in 2009 , and appeared in ten different stage productions ."
+            }
+          ],
+          [
+            {
+              "page_title": "Emilia Clarke",
+              "line_index": 5,
+              "sentence": "Some of her earliest work following graduation included a role in a play by the Company of Angels , two commercials for Samaritans , and a University of London students ' short film ."
+            }
+          ],
+          [
+            {
+              "page_title": "Emilia Clarke",
+              "line_index": 6,
+              "sentence": "Her television debut came with a guest appearance in an episode of the British soap opera Doctors and she was named as one of the UK Stars of Tomorrow by Screen International magazine for her role in Syfy 's film Triassic Attack -LRB- 2010 -RRB- ."
+            }
+          ],
+          [
+            {
+              "page_title": "Emilia Clarke",
+              "line_index": 9,
+              "sentence": "Clarke rose to prominence in 2011 for her breakthrough role as Daenerys Targaryen in the HBO series Game of Thrones , a performance that has gained her both critical and popular acclaim ."
+            }
+          ],
+          [
+            {
+              "page_title": "Emilia Clarke",
+              "line_index": 11,
+              "sentence": "In 2017 , Clarke became one of the highest paid actors on television for earnings of # 2 million per episode of Game of Thrones ."
+            }
+          ],
+          [
+            {
+              "page_title": "Emilia Clarke",
+              "line_index": 10,
+              "sentence": "She has been nominated for three Primetime Emmy Awards for Outstanding Supporting Actress in a Drama Series -LRB- 2013 , 2015-2016 -RRB- , four Screen Actors Guild Awards -LRB- 2012 , 2014-2016 -RRB- , and two Critics Choice Television Awards for Best Supporting Actress in a Drama Series -LRB- 2013 , 2016 -RRB- , among other numerous accolades ."
+            }
+          ],
+          [
+            {
+              "page_title": "Emilia Clarke",
+              "line_index": 14,
+              "sentence": "Clarke made her Broadway debut as Holly Golightly in a production of Breakfast at Tiffany 's in March 2013 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Emilia Clarke",
+              "line_index": 17,
+              "sentence": "In November 2016 she was cast as the female lead in the upcoming Star Wars Han Solo anthology film ."
+            }
+          ],
+          [
+            {
+              "page_title": "Emilia Clarke",
+              "line_index": 16,
+              "sentence": "She is also known for her starring roles as Sarah Connor in the science fiction film Terminator Genisys -LRB- 2015 -RRB- and as Louisa Clark in the romance film Me Before You -LRB- 2016 -RRB- ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 10,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-001005",
+      "claim": "Aarhus is in the geographical edge of Denmark.",
+      "evidence_sentences": "Aarhus -LRB- -LSB- ˈɒːhuːˀs -RSB- ; officially spelled Århus from 1948 until 31 December 2010 -RRB- is the second-largest city in Denmark and the seat of Aarhus municipality .",
+      "page_titles": [
+        "Aarhus"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Aarhus",
+            "line_index": 0,
+            "sentence": "Aarhus -LRB- -LSB- ˈɒːhuːˀs -RSB- ; officially spelled Århus from 1948 until 31 December 2010 -RRB- is the second-largest city in Denmark and the seat of Aarhus municipality ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001006",
+      "claim": "Arjit Singh is Indian.",
+      "evidence_sentences": "Arijit Singh is an Indian Musician , singer , composer , music producer , recordist , and music programmer .",
+      "page_titles": [
+        "Arijit Singh"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Arijit Singh",
+            "line_index": 0,
+            "sentence": "Arijit Singh is an Indian Musician , singer , composer , music producer , recordist , and music programmer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001007",
+      "claim": "The United Nations Charter was signed in New York City, United States.",
+      "evidence_sentences": "It was signed at the San Francisco War Memorial and Performing Arts Center in San Francisco , United States , on 26 June 1945 , by 50 of the 51 original member countries -LRB- Poland , the other original member , which was not represented at the conference , signed it two months later -RRB- .",
+      "page_titles": [
+        "United Nations Charter"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "United Nations Charter",
+            "line_index": 1,
+            "sentence": "It was signed at the San Francisco War Memorial and Performing Arts Center in San Francisco , United States , on 26 June 1945 , by 50 of the 51 original member countries -LRB- Poland , the other original member , which was not represented at the conference , signed it two months later -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001008",
+      "claim": "Mohra got nine nominations from a newspaper in 1995.",
+      "evidence_sentences": "The film got nine Filmfare nominations in 1995 . Filmfare is an English-language , tabloid-sized magazine about Hindi-language cinema , popularly known as Bollywood .",
+      "page_titles": [
+        "Mohra",
+        "Filmfare"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mohra",
+            "line_index": 4,
+            "sentence": "The film got nine Filmfare nominations in 1995 ."
+          },
+          {
+            "page_title": "Filmfare",
+            "line_index": 0,
+            "sentence": "Filmfare is an English-language , tabloid-sized magazine about Hindi-language cinema , popularly known as Bollywood ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001009",
+      "claim": "Ed Gagliardi died on April 11, 2014.",
+      "evidence_sentences": "Gagliardi died of cancer on May 11 , 2014 , after battling cancer for eight years .",
+      "page_titles": [
+        "Ed Gagliardi"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ed Gagliardi",
+            "line_index": 13,
+            "sentence": "Gagliardi died of cancer on May 11 , 2014 , after battling cancer for eight years ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001010",
+      "claim": "Yale University's alumni includes zero U.S. Presidents.",
+      "evidence_sentences": "Yale has graduated many notable alumni , including five U.S. Presidents , 19 U.S. Supreme Court Justices , 20 living billionaires , and many heads of state .",
+      "page_titles": [
+        "Yale University"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Yale University",
+            "line_index": 23,
+            "sentence": "Yale has graduated many notable alumni , including five U.S. Presidents , 19 U.S. Supreme Court Justices , 20 living billionaires , and many heads of state ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001011",
+      "claim": "Olympic medals displayed the Parthenon from 1928 to 2004.",
+      "evidence_sentences": "A standard obverse -LRB- front -RRB- design of the medals for the Summer Olympic Games began in 1928 and remained for many years , until its replacement at the 2004 Games as the result of controversy surrounding the use of the Roman Colosseum rather than a building representing the Games ' Greek roots .",
+      "page_titles": [
+        "Olympic medal"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Olympic medal",
+            "line_index": 6,
+            "sentence": "A standard obverse -LRB- front -RRB- design of the medals for the Summer Olympic Games began in 1928 and remained for many years , until its replacement at the 2004 Games as the result of controversy surrounding the use of the Roman Colosseum rather than a building representing the Games ' Greek roots ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001012",
+      "claim": "The Pakistan Movement was the result of a series of transformations in Iraq.",
+      "evidence_sentences": "The Pakistan Movement was the result of a series of social , political , and intellectual transformations in Pakistani society , government , and ways of thinking .",
+      "page_titles": [
+        "Pakistan Movement"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Pakistan Movement",
+            "line_index": 13,
+            "sentence": "The Pakistan Movement was the result of a series of social , political , and intellectual transformations in Pakistani society , government , and ways of thinking ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001013",
+      "claim": "Tool is an artist.",
+      "evidence_sentences": "Tool is an American rock band from Los Angeles , California .",
+      "page_titles": [
+        "Tool -LRB-band-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tool -LRB-band-RRB-",
+            "line_index": 0,
+            "sentence": "Tool is an American rock band from Los Angeles , California ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001014",
+      "claim": "Anne Rice was born in New Orleans in the 70's.",
+      "evidence_sentences": "Anne Rice -LRB- born Howard Allen Frances O'Brien ; October 4 , 1941 -RRB- is an American author of gothic fiction , Christian literature , and erotica .",
+      "page_titles": [
+        "Anne Rice"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Anne Rice",
+            "line_index": 0,
+            "sentence": "Anne Rice -LRB- born Howard Allen Frances O'Brien ; October 4 , 1941 -RRB- is an American author of gothic fiction , Christian literature , and erotica ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001015",
+      "claim": "Victor Manuelle was uninvolved with every version of Despacito.",
+      "evidence_sentences": "On March 17 , 2017 , both a solo pop version and a salsa version featuring Puerto Rican musician Victor Manuelle were released .",
+      "page_titles": [
+        "Despacito"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Despacito",
+            "line_index": 12,
+            "sentence": "On March 17 , 2017 , both a solo pop version and a salsa version featuring Puerto Rican musician Victor Manuelle were released ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001016",
+      "claim": "Amyotrophic lateral sclerosis starts later in inherited cases.",
+      "evidence_sentences": "The disease usually starts around the age of 60 and in inherited cases around the age of 50 .",
+      "page_titles": [
+        "Amyotrophic lateral sclerosis"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Amyotrophic lateral sclerosis",
+            "line_index": 15,
+            "sentence": "The disease usually starts around the age of 60 and in inherited cases around the age of 50 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001017",
+      "claim": "The Little Prince (2015 film) is a 3D animated television show.",
+      "evidence_sentences": "The Little Prince is a 2015 English-language French-Italian 3D animated fantasy adventure family drama film directed by Mark Osborne and based on the 1943 novel of the same name by Antoine de Saint-Exupéry .",
+      "page_titles": [
+        "The Little Prince -LRB-2015 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Little Prince -LRB-2015 film-RRB-",
+            "line_index": 0,
+            "sentence": "The Little Prince is a 2015 English-language French-Italian 3D animated fantasy adventure family drama film directed by Mark Osborne and based on the 1943 novel of the same name by Antoine de Saint-Exupéry ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001018",
+      "claim": "T2 Trainspotting is set in and around a city in Scotland.",
+      "evidence_sentences": "T2 Trainspotting is a 2017 British comedy drama film , set in and around Edinburgh , Scotland .",
+      "page_titles": [
+        "T2 Trainspotting"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "T2 Trainspotting",
+            "line_index": 0,
+            "sentence": "T2 Trainspotting is a 2017 British comedy drama film , set in and around Edinburgh , Scotland ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001019",
+      "claim": "My Old Kentucky Home is outside of Kentucky.",
+      "evidence_sentences": "Kentucky is also known for horse racing , bourbon distilleries , coal , the historic site My Old Kentucky Home , automobile manufacturing , tobacco , bluegrass music , college basketball , and Kentucky Fried Chicken .",
+      "page_titles": [
+        "Kentucky"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kentucky",
+            "line_index": 11,
+            "sentence": "Kentucky is also known for horse racing , bourbon distilleries , coal , the historic site My Old Kentucky Home , automobile manufacturing , tobacco , bluegrass music , college basketball , and Kentucky Fried Chicken ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001020",
+      "claim": "I Want to Know What Love Is is a single.",
+      "evidence_sentences": "`` I Want to Know What Love Is '' is a power ballad by the British-American rock band Foreigner .",
+      "page_titles": [
+        "I Want to Know What Love Is"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "I Want to Know What Love Is",
+            "line_index": 0,
+            "sentence": "`` I Want to Know What Love Is '' is a power ballad by the British-American rock band Foreigner ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "I Want to Know What Love Is",
+              "line_index": 1,
+              "sentence": "It was released in November 1984 as the lead single from their fifth album , Agent Provocateur ."
+            }
+          ],
+          [
+            {
+              "page_title": "I Want to Know What Love Is",
+              "line_index": 4,
+              "sentence": "`` I Want to Know What Love Is '' has continued to garner critical acclaim , and is listed as one of Rolling Stone Magazine 's greatest songs of all time at # 479 ."
+            }
+          ],
+          [
+            {
+              "page_title": "I Want to Know What Love Is",
+              "line_index": 3,
+              "sentence": "It remains one of the band 's best-known songs and most enduring radio hits , charting in the top 25 in 2000 , 2001 , and 2002 on the Billboard Hot Adult Contemporary Recurrents chart ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-001021",
+      "claim": "Adam Lambert was the first openly gay artist to top the U.S. Billboard 200.",
+      "evidence_sentences": "The album premiered at number one on the U.S. Billboard 200 , making him the first openly gay artist to top the album charts .",
+      "page_titles": [
+        "Adam Lambert"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Adam Lambert",
+            "line_index": 10,
+            "sentence": "The album premiered at number one on the U.S. Billboard 200 , making him the first openly gay artist to top the album charts ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Adam Lambert",
+              "line_index": 10,
+              "sentence": "The album premiered at number one on the U.S. Billboard 200 , making him the first openly gay artist to top the album charts ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-001022",
+      "claim": "Mani Ratnam is widely credited with altering the profile of films produced across generations.",
+      "evidence_sentences": "Cited by the media as one of India 's influential filmmakers , Mani Ratnam is widely credited with revolutionising the Tamil film industry and altering the profile of Indian cinema .",
+      "page_titles": [
+        "Mani Ratnam"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mani Ratnam",
+            "line_index": 1,
+            "sentence": "Cited by the media as one of India 's influential filmmakers , Mani Ratnam is widely credited with revolutionising the Tamil film industry and altering the profile of Indian cinema ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001023",
+      "claim": "Motion is good for heart health.",
+      "evidence_sentences": "The heart receives blood low in oxygen from the systemic circulation , which enters the right atrium from the superior and inferior venae cavae and passes to the right ventricle .",
+      "page_titles": [
+        "Heart"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Heart",
+            "line_index": 15,
+            "sentence": "The heart receives blood low in oxygen from the systemic circulation , which enters the right atrium from the superior and inferior venae cavae and passes to the right ventricle ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001024",
+      "claim": "Uranium-235 was founded in 1935.",
+      "evidence_sentences": "It was discovered in 1935 by Arthur Jeffrey Dempster .",
+      "page_titles": [
+        "Uranium-235"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Uranium-235",
+            "line_index": 6,
+            "sentence": "It was discovered in 1935 by Arthur Jeffrey Dempster ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001025",
+      "claim": "Bea Arthur's birth name was Bea Arthur.",
+      "evidence_sentences": "Bea Arthur -LRB- born Bernice Frankel ; May 13 , 1922 -- April 25 , 2009 -RRB- was an American actress , comedian , singer , and animal rights activist .",
+      "page_titles": [
+        "Bea Arthur"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Bea Arthur",
+            "line_index": 0,
+            "sentence": "Bea Arthur -LRB- born Bernice Frankel ; May 13 , 1922 -- April 25 , 2009 -RRB- was an American actress , comedian , singer , and animal rights activist ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001026",
+      "claim": "There were 3,090,953 Mormon members in the mid 20th century.",
+      "evidence_sentences": "The number of members in 1971 was 3,090,953 and now in 2017 based on the Annual Report , there are 15,882,417 worldwide .",
+      "page_titles": [
+        "Mormons"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mormons",
+            "line_index": 24,
+            "sentence": "The number of members in 1971 was 3,090,953 and now in 2017 based on the Annual Report , there are 15,882,417 worldwide ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001027",
+      "claim": "Stripes featured only John Denver in a role.",
+      "evidence_sentences": "Stripes is a 1981 American buddy military comedy film directed by Ivan Reitman , starring Bill Murray , Harold Ramis , Warren Oates , P. J. Soles , Sean Young , and John Candy .",
+      "page_titles": [
+        "Stripes -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Stripes -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "Stripes is a 1981 American buddy military comedy film directed by Ivan Reitman , starring Bill Murray , Harold Ramis , Warren Oates , P. J. Soles , Sean Young , and John Candy ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Stripes -LRB-film-RRB-",
+              "line_index": 1,
+              "sentence": "Several actors including John Larroquette , John Diehl , Conrad Dunn and Judge Reinhold were featured in their first significant film roles ."
+            }
+          ],
+          [
+            {
+              "page_title": "Stripes -LRB-film-RRB-",
+              "line_index": 2,
+              "sentence": "Joe Flaherty , Dave Thomas , Timothy Busfield and Bill Paxton also appeared early in their careers ."
+            }
+          ],
+          [
+            {
+              "page_title": "Stripes -LRB-film-RRB-",
+              "line_index": 0,
+              "sentence": "Stripes is a 1981 American buddy military comedy film directed by Ivan Reitman , starring Bill Murray , Harold Ramis , Warren Oates , P. J. Soles , Sean Young , and John Candy ."
+            }
+          ],
+          [
+            {
+              "page_title": "Stripes -LRB-film-RRB-",
+              "line_index": 1,
+              "sentence": "Several actors including John Larroquette , John Diehl , Conrad Dunn and Judge Reinhold were featured in their first significant film roles ."
+            }
+          ],
+          [
+            {
+              "page_title": "Stripes -LRB-film-RRB-",
+              "line_index": 2,
+              "sentence": "Joe Flaherty , Dave Thomas , Timothy Busfield and Bill Paxton also appeared early in their careers ."
+            }
+          ],
+          [
+            {
+              "page_title": "Stripes -LRB-film-RRB-",
+              "line_index": 1,
+              "sentence": "Several actors including John Larroquette , John Diehl , Conrad Dunn and Judge Reinhold were featured in their first significant film roles ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 7,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-001028",
+      "claim": "The Bee Gees were producers of music.",
+      "evidence_sentences": "were a pop music group formed in 1958 .",
+      "page_titles": [
+        "Bee Gees"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Bee Gees",
+            "line_index": 2,
+            "sentence": "were a pop music group formed in 1958 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Bee Gees",
+              "line_index": 3,
+              "sentence": "Their line-up consisted of brothers Barry , Robin and Maurice Gibb ."
+            },
+            {
+              "page_title": "Barry Gibb",
+              "line_index": 0,
+              "sentence": "Barry Alan Crompton Gibb , -LRB- born 1 September 1946 -RRB- is a British singer , songwriter and record producer who rose to worldwide fame as a co-founder of the group Bee Gees , one of the most commercially successful and critically acclaimed groups in the history of popular music ."
+            },
+            {
+              "page_title": "Maurice Gibb",
+              "line_index": 0,
+              "sentence": "Maurice Ernest Gibb , CBE -LRB- -LSB- ˈmɔrɪs -RSB- 22 December 1949 -- 12 January 2003 -RRB- was a British singer , songwriter , multi-instrumentalist , and record producer , who achieved fame as a member of the British pop group the Bee Gees ."
+            },
+            {
+              "page_title": "Robin Gibb",
+              "line_index": 0,
+              "sentence": "Robin Hugh Gibb -LRB- 22 December 1949 -- 20 May 2012 -RRB- was a British singer , songwriter and record producer , who gained worldwide fame as a member of the pop group the Bee Gees ."
+            }
+          ],
+          [
+            {
+              "page_title": "Bee Gees",
+              "line_index": 4,
+              "sentence": "The trio were successful for most of their decades of recording music , but they had two distinct periods of exceptional success ; as a popular music act in the late 1960s and early 1970s , and as prominent performers of the disco music era in the mid-to-late 1970s ."
+            }
+          ],
+          [
+            {
+              "page_title": "Bee Gees",
+              "line_index": 5,
+              "sentence": "The group sang recognisable three-part tight harmonies ; Robin 's clear vibrato lead vocals were a hallmark of their earlier hits , while Barry 's R&B falsetto became their signature sound during the mid-to-late 1970s and 1980s ."
+            }
+          ],
+          [
+            {
+              "page_title": "Bee Gees",
+              "line_index": 6,
+              "sentence": "The Bee Gees wrote all of their own hits , as well as writing and producing several major hits for other artists ."
+            }
+          ],
+          [
+            {
+              "page_title": "Bee Gees",
+              "line_index": 9,
+              "sentence": "Born on the Isle of Man to English parents , the Gibb brothers lived in Chorlton , Manchester , England , until the late 1950s where they formed the Rattlesnakes ."
+            },
+            {
+              "page_title": "The Rattlesnakes -LRB-1955 band-RRB-",
+              "line_index": 0,
+              "sentence": "The Rattlesnakes were a British skiffle/rock and roll group , formed by Barry Gibb in Manchester in 1955 , which eventually evolved into the Bee Gees in 1958 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Bee Gees",
+              "line_index": 11,
+              "sentence": "After achieving their first chart success in Australia as the Bee Gees with `` Spicks and Specks '' -LRB- their 12th single -RRB- , they returned to the UK in January 1967 where producer Robert Stigwood began promoting them to a worldwide audience ."
+            },
+            {
+              "page_title": "Spicks and Specks -LRB-song-RRB-",
+              "line_index": 0,
+              "sentence": "`` Spicks and Specks '' is a song by the Bee Gees , written by Barry Gibb ."
+            }
+          ],
+          [
+            {
+              "page_title": "Bee Gees",
+              "line_index": 14,
+              "sentence": "The Bee Gees have sold more than 220 million records worldwide , making them one of the world 's best-selling music artists of all time ."
+            }
+          ],
+          [
+            {
+              "page_title": "Bee Gees",
+              "line_index": 15,
+              "sentence": "They were inducted into the Rock and Roll Hall of Fame in 1997 ; the presenter of the award to `` Britain 's first family of harmony '' was Brian Wilson , historical leader of the Beach Boys , a `` family act '' also featuring three harmonising brothers ."
+            }
+          ],
+          [
+            {
+              "page_title": "Bee Gees",
+              "line_index": 16,
+              "sentence": "The Bee Gees ' Hall of Fame citation says `` Only Elvis Presley , the Beatles , Michael Jackson , Garth Brooks and Paul McCartney have outsold the Bee Gees . ''"
+            }
+          ]
+        ],
+        "n_annotation_sets": 10,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-001029",
+      "claim": "Aaron Burr's final year of vice presidency was 1804.",
+      "evidence_sentences": "He was the third Vice President of the United States -LRB- 1801 -- 1805 -RRB- , serving during Thomas Jefferson 's first term .",
+      "page_titles": [
+        "Aaron Burr"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Aaron Burr",
+            "line_index": 1,
+            "sentence": "He was the third Vice President of the United States -LRB- 1801 -- 1805 -RRB- , serving during Thomas Jefferson 's first term ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001030",
+      "claim": "Muscarinic acetylcholine receptors form cell complexes.",
+      "evidence_sentences": "Muscarinic acetylcholine receptors , or mAChRs , are acetylcholine receptors that form G protein-receptor complexes in the cell membranes of certain neurons and other cells .",
+      "page_titles": [
+        "Muscarinic acetylcholine receptor"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Muscarinic acetylcholine receptor",
+            "line_index": 0,
+            "sentence": "Muscarinic acetylcholine receptors , or mAChRs , are acetylcholine receptors that form G protein-receptor complexes in the cell membranes of certain neurons and other cells ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001031",
+      "claim": "Tennessee was a member of the Union during the Civil War.",
+      "evidence_sentences": "Tennessee was the last state to leave the Union and join the Confederacy at the outbreak of the American Civil War in 1861 .",
+      "page_titles": [
+        "Tennessee"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tennessee",
+            "line_index": 11,
+            "sentence": "Tennessee was the last state to leave the Union and join the Confederacy at the outbreak of the American Civil War in 1861 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001032",
+      "claim": "Pakistan's semi-industrialized economy is the 25th largest in the world in purchasing power parity in 2017.",
+      "evidence_sentences": "The Pakistani economy is the 24th-largest in the world in terms of purchasing power and the 41st-largest in terms of nominal GDP -LRB- World Bank -RRB- .",
+      "page_titles": [
+        "Pakistan"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Pakistan",
+            "line_index": 22,
+            "sentence": "The Pakistani economy is the 24th-largest in the world in terms of purchasing power and the 41st-largest in terms of nominal GDP -LRB- World Bank -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001033",
+      "claim": "The Chrysler Building was always the world's shortest building.",
+      "evidence_sentences": "At 318.9 m , the structure was the world 's tallest building for 11 months before it was surpassed by the Empire State Building in 1931 .",
+      "page_titles": [
+        "Chrysler Building"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Chrysler Building",
+            "line_index": 1,
+            "sentence": "At 318.9 m , the structure was the world 's tallest building for 11 months before it was surpassed by the Empire State Building in 1931 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Chrysler Building",
+              "line_index": 4,
+              "sentence": "It is the tallest brick building in the world , with a steel structure ."
+            }
+          ],
+          [
+            {
+              "page_title": "Chrysler Building",
+              "line_index": 5,
+              "sentence": "After the destruction of the World Trade Center , it was again the second-tallest building in New York City until December 2007 , when the spire was raised onto the 1,200-foot -LRB- 365.8 m -RRB- Bank of America Tower , making the Chrysler building the third tallest building in New York ."
+            }
+          ],
+          [
+            {
+              "page_title": "Chrysler Building",
+              "line_index": 6,
+              "sentence": "In addition , The New York Times Building , which opened in 2007 , is exactly level with the Chrysler Building in height ."
+            }
+          ],
+          [
+            {
+              "page_title": "Chrysler Building",
+              "line_index": 7,
+              "sentence": "Both buildings were then demoted to fourth tallest building in the city , when the under-construction One World Trade Center surpassed their height , and then to fifth position by 432 Park Avenue , which was completed in 2015 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Chrysler Building",
+              "line_index": 1,
+              "sentence": "At 318.9 m , the structure was the world 's tallest building for 11 months before it was surpassed by the Empire State Building in 1931 ."
+            },
+            {
+              "page_title": "Chrysler Building",
+              "line_index": 0,
+              "sentence": "The Chrysler Building is an Art Deco-style skyscraper located on the East Side of Midtown Manhattan in New York City , at the intersection of 42nd Street and Lexington Avenue in the Turtle Bay neighborhood ."
+            }
+          ],
+          [
+            {
+              "page_title": "Chrysler Building",
+              "line_index": 4,
+              "sentence": "It is the tallest brick building in the world , with a steel structure ."
+            }
+          ],
+          [
+            {
+              "page_title": "Chrysler Building",
+              "line_index": 1,
+              "sentence": "At 318.9 m , the structure was the world 's tallest building for 11 months before it was surpassed by the Empire State Building in 1931 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Chrysler Building",
+              "line_index": 4,
+              "sentence": "It is the tallest brick building in the world , with a steel structure ."
+            }
+          ],
+          [
+            {
+              "page_title": "Chrysler Building",
+              "line_index": 5,
+              "sentence": "After the destruction of the World Trade Center , it was again the second-tallest building in New York City until December 2007 , when the spire was raised onto the 1,200-foot -LRB- 365.8 m -RRB- Bank of America Tower , making the Chrysler building the third tallest building in New York ."
+            }
+          ],
+          [
+            {
+              "page_title": "Chrysler Building",
+              "line_index": 7,
+              "sentence": "Both buildings were then demoted to fourth tallest building in the city , when the under-construction One World Trade Center surpassed their height , and then to fifth position by 432 Park Avenue , which was completed in 2015 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Chrysler Building",
+              "line_index": 1,
+              "sentence": "At 318.9 m , the structure was the world 's tallest building for 11 months before it was surpassed by the Empire State Building in 1931 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Chrysler Building",
+              "line_index": 1,
+              "sentence": "At 318.9 m , the structure was the world 's tallest building for 11 months before it was surpassed by the Empire State Building in 1931 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Chrysler Building",
+              "line_index": 1,
+              "sentence": "At 318.9 m , the structure was the world 's tallest building for 11 months before it was surpassed by the Empire State Building in 1931 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 14,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-001034",
+      "claim": "Louie (season 1) is a comedy-drama television show.",
+      "evidence_sentences": "The first season of the American television comedy series Louie premiered on June 29 , 2010 and concluded on September 7 , 2010 .",
+      "page_titles": [
+        "Louie -LRB-season 1-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Louie -LRB-season 1-RRB-",
+            "line_index": 0,
+            "sentence": "The first season of the American television comedy series Louie premiered on June 29 , 2010 and concluded on September 7 , 2010 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001035",
+      "claim": "Jamie Murray is the Davis Cup champion of 2015.",
+      "evidence_sentences": "Murray was in the Great Britain team that won the Davis Cup in 2015 , the nation 's first success in the tournament for 79 years .",
+      "page_titles": [
+        "Jamie Murray"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Jamie Murray",
+            "line_index": 15,
+            "sentence": "Murray was in the Great Britain team that won the Davis Cup in 2015 , the nation 's first success in the tournament for 79 years ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001036",
+      "claim": "Henry Condell had a widow that was buried on the tenth month of the calendar year.",
+      "evidence_sentences": "His widow , Elizabeth , was buried there on 3 October 1635 .",
+      "page_titles": [
+        "Henry Condell"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Henry Condell",
+            "line_index": 55,
+            "sentence": "His widow , Elizabeth , was buried there on 3 October 1635 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001037",
+      "claim": "Bank of America withholds products and services.",
+      "evidence_sentences": "Bank of America provides its products and services through 4,600 retail financial centers , approximately 15,900 automated teller machines , call centers , and online and mobile banking platforms .",
+      "page_titles": [
+        "Bank of America"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Bank of America",
+            "line_index": 16,
+            "sentence": "Bank of America provides its products and services through 4,600 retail financial centers , approximately 15,900 automated teller machines , call centers , and online and mobile banking platforms ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001038",
+      "claim": "PacSun vends items made for teens.",
+      "evidence_sentences": "The company sells lifestyle apparel , along with footwear and accessories designed for teens and young adults .",
+      "page_titles": [
+        "PacSun"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "PacSun",
+            "line_index": 1,
+            "sentence": "The company sells lifestyle apparel , along with footwear and accessories designed for teens and young adults ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001039",
+      "claim": "The Latvian Soviet Socialist Republic is also known as Soviet Latvia since 2016.",
+      "evidence_sentences": "The Latvian Soviet Socialist Republic -LRB- Latvian SSR ; Latvijas Padomju Sociālistiskā Republika Латвийская Советская Социалистическая Республика , Latviyskaya Sovetskaya Sotsialisticheskaya Respublika -RRB- , also known as Soviet Latvia or Latvia , was a republic of the Soviet Union . Latvia -LRB- -LSB- ˈlætviə -RSB- Latvija -LSB- ˈlatvija -RSB- -RRB- , officially the Republic of Latvia -LRB- -LSB- Latvijas Republika , links = no -RSB- -RRB- , is a country in the Baltic region of Northern Europe , one of the three Baltic states .",
+      "page_titles": [
+        "Latvian Soviet Socialist Republic",
+        "Latvia"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Latvian Soviet Socialist Republic",
+            "line_index": 0,
+            "sentence": "The Latvian Soviet Socialist Republic -LRB- Latvian SSR ; Latvijas Padomju Sociālistiskā Republika Латвийская Советская Социалистическая Республика , Latviyskaya Sovetskaya Sotsialisticheskaya Respublika -RRB- , also known as Soviet Latvia or Latvia , was a republic of the Soviet Union ."
+          },
+          {
+            "page_title": "Latvia",
+            "line_index": 0,
+            "sentence": "Latvia -LRB- -LSB- ˈlætviə -RSB- Latvija -LSB- ˈlatvija -RSB- -RRB- , officially the Republic of Latvia -LRB- -LSB- Latvijas Republika , links = no -RSB- -RRB- , is a country in the Baltic region of Northern Europe , one of the three Baltic states ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001040",
+      "claim": "Princess Mononoke has at least one type of tone.",
+      "evidence_sentences": "Unlike other Ghibli films , Mononoke has a darker and more violent setting and tone .",
+      "page_titles": [
+        "Princess Mononoke"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Princess Mononoke",
+            "line_index": 7,
+            "sentence": "Unlike other Ghibli films , Mononoke has a darker and more violent setting and tone ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001041",
+      "claim": "Pocahontas was the daughter of the paramount chief of Wahunsenacah.",
+      "evidence_sentences": "Pocahontas was the daughter of Powhatan , the paramount chief of a network of tributary tribal nations in the Tsenacommacah , encompassing the Tidewater region of Virginia .",
+      "page_titles": [
+        "Pocahontas"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Pocahontas",
+            "line_index": 1,
+            "sentence": "Pocahontas was the daughter of Powhatan , the paramount chief of a network of tributary tribal nations in the Tsenacommacah , encompassing the Tidewater region of Virginia ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001042",
+      "claim": "Sacre-Coeur, Paris is publicly dedicated to a cult.",
+      "evidence_sentences": "Sacré-Cœur is a double monument , political and cultural , both a national penance for the defeat of France in the 1870 Franco-Prussian War and the socialist Paris Commune of 1871 crowning its most rebellious neighborhood , and an embodiment of conservative moral order , publicly dedicated to the Sacred Heart of Jesus , which was an increasingly popular vision of a loving and sympathetic Christ . The devotion to the Sacred Heart -LRB- also known as the Most Sacred Heart of Jesus , Sacratissimi Cordis Iesu in Latin -RRB- is one of the most widely practiced and well-known Roman Catholic devotions , taking Jesus Christ 's physical heart as the representation of his divine love for humanity .",
+      "page_titles": [
+        "Sacré-Cœur, Paris",
+        "Sacred Heart"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sacré-Cœur, Paris",
+            "line_index": 2,
+            "sentence": "Sacré-Cœur is a double monument , political and cultural , both a national penance for the defeat of France in the 1870 Franco-Prussian War and the socialist Paris Commune of 1871 crowning its most rebellious neighborhood , and an embodiment of conservative moral order , publicly dedicated to the Sacred Heart of Jesus , which was an increasingly popular vision of a loving and sympathetic Christ ."
+          },
+          {
+            "page_title": "Sacred Heart",
+            "line_index": 0,
+            "sentence": "The devotion to the Sacred Heart -LRB- also known as the Most Sacred Heart of Jesus , Sacratissimi Cordis Iesu in Latin -RRB- is one of the most widely practiced and well-known Roman Catholic devotions , taking Jesus Christ 's physical heart as the representation of his divine love for humanity ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001043",
+      "claim": "The Alfred P. Murrah Federal Building was demolished at 200 N.W. 5th Street.",
+      "evidence_sentences": "The Alfred P. Murrah Federal Building was a United States federal government complex located at 200 N.W. 5th Street in Downtown Oklahoma City , Oklahoma , United States .",
+      "page_titles": [
+        "Alfred P. Murrah Federal Building"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Alfred P. Murrah Federal Building",
+            "line_index": 0,
+            "sentence": "The Alfred P. Murrah Federal Building was a United States federal government complex located at 200 N.W. 5th Street in Downtown Oklahoma City , Oklahoma , United States ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Alfred P. Murrah Federal Building",
+              "line_index": 3,
+              "sentence": "The remains were imploded a month after the attack , and the Oklahoma City National Memorial was built on the site ."
+            },
+            {
+              "page_title": "Alfred P. Murrah Federal Building",
+              "line_index": 0,
+              "sentence": "The Alfred P. Murrah Federal Building was a United States federal government complex located at 200 N.W. 5th Street in Downtown Oklahoma City , Oklahoma , United States ."
+            }
+          ],
+          [
+            {
+              "page_title": "Alfred P. Murrah Federal Building",
+              "line_index": 3,
+              "sentence": "The remains were imploded a month after the attack , and the Oklahoma City National Memorial was built on the site ."
+            },
+            {
+              "page_title": "Alfred P. Murrah Federal Building",
+              "line_index": 0,
+              "sentence": "The Alfred P. Murrah Federal Building was a United States federal government complex located at 200 N.W. 5th Street in Downtown Oklahoma City , Oklahoma , United States ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-001044",
+      "claim": "Wish Upon did not star Ryan Phillipe.",
+      "evidence_sentences": "Wish Upon is a 2017 supernatural horror thriller film directed by John R. Leonetti and starring Joey King , Ryan Phillipe , Ki Hong Lee , Shannon Purser , Sydney Park and Sherilyn Fenn .",
+      "page_titles": [
+        "Wish Upon"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Wish Upon",
+            "line_index": 0,
+            "sentence": "Wish Upon is a 2017 supernatural horror thriller film directed by John R. Leonetti and starring Joey King , Ryan Phillipe , Ki Hong Lee , Shannon Purser , Sydney Park and Sherilyn Fenn ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Wish Upon",
+              "line_index": 0,
+              "sentence": "Wish Upon is a 2017 supernatural horror thriller film directed by John R. Leonetti and starring Joey King , Ryan Phillipe , Ki Hong Lee , Shannon Purser , Sydney Park and Sherilyn Fenn ."
+            }
+          ],
+          [
+            {
+              "page_title": "Wish Upon",
+              "line_index": 0,
+              "sentence": "Wish Upon is a 2017 supernatural horror thriller film directed by John R. Leonetti and starring Joey King , Ryan Phillipe , Ki Hong Lee , Shannon Purser , Sydney Park and Sherilyn Fenn ."
+            }
+          ],
+          [
+            {
+              "page_title": "Wish Upon",
+              "line_index": 0,
+              "sentence": "Wish Upon is a 2017 supernatural horror thriller film directed by John R. Leonetti and starring Joey King , Ryan Phillipe , Ki Hong Lee , Shannon Purser , Sydney Park and Sherilyn Fenn ."
+            }
+          ],
+          [
+            {
+              "page_title": "Wish Upon",
+              "line_index": 0,
+              "sentence": "Wish Upon is a 2017 supernatural horror thriller film directed by John R. Leonetti and starring Joey King , Ryan Phillipe , Ki Hong Lee , Shannon Purser , Sydney Park and Sherilyn Fenn ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-001045",
+      "claim": "The Cretaceous finished with a large mass extinction.",
+      "evidence_sentences": "The Cretaceous ended with a large mass extinction , the Cretaceous -- Paleogene extinction event , in which many groups , including non-avian dinosaurs , pterosaurs and large marine reptiles died out .",
+      "page_titles": [
+        "Cretaceous"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Cretaceous",
+            "line_index": 8,
+            "sentence": "The Cretaceous ended with a large mass extinction , the Cretaceous -- Paleogene extinction event , in which many groups , including non-avian dinosaurs , pterosaurs and large marine reptiles died out ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001046",
+      "claim": "Qin dynasty introduced several legislation.",
+      "evidence_sentences": "The Qin dynasty introduced several reforms : currency , weights and measures were standardized , and a uniform system of writing was established .",
+      "page_titles": [
+        "Qin dynasty"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Qin dynasty",
+            "line_index": 21,
+            "sentence": "The Qin dynasty introduced several reforms : currency , weights and measures were standardized , and a uniform system of writing was established ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001047",
+      "claim": "The rate of endometrial cancer has gone up in a number of countries.",
+      "evidence_sentences": "Rates of endometrial cancer have risen in a number of countries between the 1980s and 2010 .",
+      "page_titles": [
+        "Endometrial cancer"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Endometrial cancer",
+            "line_index": 26,
+            "sentence": "Rates of endometrial cancer have risen in a number of countries between the 1980s and 2010 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001048",
+      "claim": "Faye Resnick is a person.",
+      "evidence_sentences": "Faye Denise Resnick -LRB- born July 3 , 1957 -RRB- is an American television personality , author , and interior designer .",
+      "page_titles": [
+        "Faye Resnick"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Faye Resnick",
+            "line_index": 0,
+            "sentence": "Faye Denise Resnick -LRB- born July 3 , 1957 -RRB- is an American television personality , author , and interior designer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001049",
+      "claim": "Miranda Otto is the aunt of actress Gracie Otto.",
+      "evidence_sentences": "The daughter of actors Barry and Lindsay Otto , and the sister of actress Gracie Otto , Brisbane-born Miranda began her acting career at age 18 in 1986 , and has appeared in a variety of independent and major studio films .",
+      "page_titles": [
+        "Miranda Otto"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Miranda Otto",
+            "line_index": 1,
+            "sentence": "The daughter of actors Barry and Lindsay Otto , and the sister of actress Gracie Otto , Brisbane-born Miranda began her acting career at age 18 in 1986 , and has appeared in a variety of independent and major studio films ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001050",
+      "claim": "The Colbert Report has not been broadcast.",
+      "evidence_sentences": "The show was taped and broadcast Monday through Thursday , with weeks taken off at multiple points in a given year for breaks . The Colbert Report -LRB- -LSB- koʊlˈbɛr_rəˈpɔr -RSB- -RRB- is an American late-night talk and news satire television program hosted by Stephen Colbert that aired four days a week on Comedy Central from October 17 , 2005 to December 18 , 2014 for 1,447 episodes .",
+      "page_titles": [
+        "The Colbert Report",
+        "The Colbert Report"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Colbert Report",
+            "line_index": 11,
+            "sentence": "The show was taped and broadcast Monday through Thursday , with weeks taken off at multiple points in a given year for breaks ."
+          },
+          {
+            "page_title": "The Colbert Report",
+            "line_index": 0,
+            "sentence": "The Colbert Report -LRB- -LSB- koʊlˈbɛr_rəˈpɔr -RSB- -RRB- is an American late-night talk and news satire television program hosted by Stephen Colbert that aired four days a week on Comedy Central from October 17 , 2005 to December 18 , 2014 for 1,447 episodes ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001051",
+      "claim": "See You on the Other Side was certified platinum in March 2016.",
+      "evidence_sentences": "The album was first certified gold in the United States on January 12 , 2006 ; a subsequent platinum record certification was awarded on March 16 , 2006 .",
+      "page_titles": [
+        "See You on the Other Side -LRB-Korn album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "See You on the Other Side -LRB-Korn album-RRB-",
+            "line_index": 3,
+            "sentence": "The album was first certified gold in the United States on January 12 , 2006 ; a subsequent platinum record certification was awarded on March 16 , 2006 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001052",
+      "claim": "Speech recognition is popular in online gaming.",
+      "evidence_sentences": "From the technology perspective , speech recognition has a long history with several waves of major innovations . These speech industry players include Google , Microsoft , IBM , Baidu , Apple , Amazon , Nuance , SoundHound , IflyTek , CDAC many of which have publicized the core technology in their speech recognition systems as being based on deep learning .",
+      "page_titles": [
+        "Speech recognition",
+        "Speech recognition"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Speech recognition",
+            "line_index": 18,
+            "sentence": "From the technology perspective , speech recognition has a long history with several waves of major innovations ."
+          },
+          {
+            "page_title": "Speech recognition",
+            "line_index": 21,
+            "sentence": "These speech industry players include Google , Microsoft , IBM , Baidu , Apple , Amazon , Nuance , SoundHound , IflyTek , CDAC many of which have publicized the core technology in their speech recognition systems as being based on deep learning ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001053",
+      "claim": "Agent Raghav – Crime Branch is a television serial.",
+      "evidence_sentences": "Agent Raghav -- Crime Branch is an Indian crime fiction anthology television series , which premiered on & TV from 5 September 2015 to 10 April 2016 for one hour at Saturday and Sunday nights .",
+      "page_titles": [
+        "Agent Raghav – Crime Branch"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Agent Raghav – Crime Branch",
+            "line_index": 0,
+            "sentence": "Agent Raghav -- Crime Branch is an Indian crime fiction anthology television series , which premiered on & TV from 5 September 2015 to 10 April 2016 for one hour at Saturday and Sunday nights ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001054",
+      "claim": "The Alfred P. Murrah Federal Building was a United States unitary government complex.",
+      "evidence_sentences": "The Alfred P. Murrah Federal Building was a United States federal government complex located at 200 N.W. 5th Street in Downtown Oklahoma City , Oklahoma , United States .",
+      "page_titles": [
+        "Alfred P. Murrah Federal Building"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Alfred P. Murrah Federal Building",
+            "line_index": 0,
+            "sentence": "The Alfred P. Murrah Federal Building was a United States federal government complex located at 200 N.W. 5th Street in Downtown Oklahoma City , Oklahoma , United States ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001055",
+      "claim": "Absinthe has psychoactive effects.",
+      "evidence_sentences": "Recent studies have shown that absinthe 's psychoactive properties -LRB- apart from that of the alcohol -RRB- have been exaggerated .",
+      "page_titles": [
+        "Absinthe"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Absinthe",
+            "line_index": 18,
+            "sentence": "Recent studies have shown that absinthe 's psychoactive properties -LRB- apart from that of the alcohol -RRB- have been exaggerated ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Absinthe",
+              "line_index": 18,
+              "sentence": "Recent studies have shown that absinthe 's psychoactive properties -LRB- apart from that of the alcohol -RRB- have been exaggerated ."
+            }
+          ],
+          [
+            {
+              "page_title": "Absinthe",
+              "line_index": 18,
+              "sentence": "Recent studies have shown that absinthe 's psychoactive properties -LRB- apart from that of the alcohol -RRB- have been exaggerated ."
+            }
+          ],
+          [
+            {
+              "page_title": "Absinthe",
+              "line_index": 14,
+              "sentence": "Absinthe has often been portrayed as a dangerously addictive psychoactive drug and hallucinogen ."
+            }
+          ],
+          [
+            {
+              "page_title": "Absinthe",
+              "line_index": 14,
+              "sentence": "Absinthe has often been portrayed as a dangerously addictive psychoactive drug and hallucinogen ."
+            }
+          ],
+          [
+            {
+              "page_title": "Absinthe",
+              "line_index": 18,
+              "sentence": "Recent studies have shown that absinthe 's psychoactive properties -LRB- apart from that of the alcohol -RRB- have been exaggerated ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 6,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-001056",
+      "claim": "Gotham premiered on USA.",
+      "evidence_sentences": "Gotham premiered on Fox on September 22 , 2014 . The network is headquartered at the 20th Century Fox studio lot on Pico Boulevard in the Century City section of Los Angeles , with additional major offices and production facilities at the Fox Television Center in nearby West Los Angeles and the Fox Broadcasting Center in the Yorkville neighborhood of Manhattan , New York City .",
+      "page_titles": [
+        "Gotham -LRB-TV series-RRB-",
+        "Fox Broadcasting Company"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Gotham -LRB-TV series-RRB-",
+            "line_index": 7,
+            "sentence": "Gotham premiered on Fox on September 22 , 2014 ."
+          },
+          {
+            "page_title": "Fox Broadcasting Company",
+            "line_index": 1,
+            "sentence": "The network is headquartered at the 20th Century Fox studio lot on Pico Boulevard in the Century City section of Los Angeles , with additional major offices and production facilities at the Fox Television Center in nearby West Los Angeles and the Fox Broadcasting Center in the Yorkville neighborhood of Manhattan , New York City ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001057",
+      "claim": "Brazzers is based in Quebec.",
+      "evidence_sentences": "Brazzers -LRB- -LSB- ˈbræzərz -RSB- -RRB- is a pornographic production company based in Montreal , Canada .",
+      "page_titles": [
+        "Brazzers"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Brazzers",
+            "line_index": 0,
+            "sentence": "Brazzers -LRB- -LSB- ˈbræzərz -RSB- -RRB- is a pornographic production company based in Montreal , Canada ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001058",
+      "claim": "James Jones missed the finals once.",
+      "evidence_sentences": "Jones has never been on an NBA team with a losing record and has only missed the playoffs once -- with the Trail Blazers in 2007 -- 08 . The National Basketball Association -LRB- NBA -RRB- playoffs are a best-of-seven elimination tournament among 16 teams in the Eastern Conference and Western Conference -LRB- called divisions , pre-1970 -RRB- , ultimately deciding the league 's season champion in the NBA Finals .",
+      "page_titles": [
+        "James Jones -LRB-basketball player-RRB-",
+        "NBA playoffs"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "James Jones -LRB-basketball player-RRB-",
+            "line_index": 15,
+            "sentence": "Jones has never been on an NBA team with a losing record and has only missed the playoffs once -- with the Trail Blazers in 2007 -- 08 ."
+          },
+          {
+            "page_title": "NBA playoffs",
+            "line_index": 0,
+            "sentence": "The National Basketball Association -LRB- NBA -RRB- playoffs are a best-of-seven elimination tournament among 16 teams in the Eastern Conference and Western Conference -LRB- called divisions , pre-1970 -RRB- , ultimately deciding the league 's season champion in the NBA Finals ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001059",
+      "claim": "The Paper was directed by Ron Howard.",
+      "evidence_sentences": "The Paper is a 1994 American comedy-drama film directed by Ron Howard and starring Michael Keaton , Glenn Close , Marisa Tomei , Randy Quaid and Robert Duvall .",
+      "page_titles": [
+        "The Paper -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Paper -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "The Paper is a 1994 American comedy-drama film directed by Ron Howard and starring Michael Keaton , Glenn Close , Marisa Tomei , Randy Quaid and Robert Duvall ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001060",
+      "claim": "Bea Arthur was born under a different name.",
+      "evidence_sentences": "Bea Arthur -LRB- born Bernice Frankel ; May 13 , 1922 -- April 25 , 2009 -RRB- was an American actress , comedian , singer , and animal rights activist .",
+      "page_titles": [
+        "Bea Arthur"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Bea Arthur",
+            "line_index": 0,
+            "sentence": "Bea Arthur -LRB- born Bernice Frankel ; May 13 , 1922 -- April 25 , 2009 -RRB- was an American actress , comedian , singer , and animal rights activist ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001061",
+      "claim": "X-Men: Apocalypse was announced in 2013.",
+      "evidence_sentences": "The film was announced by Singer in December 2013 , with Kinberg , Dougherty , and Harris attached to develop the story .",
+      "page_titles": [
+        "X-Men-COLON- Apocalypse"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "X-Men-COLON- Apocalypse",
+            "line_index": 6,
+            "sentence": "The film was announced by Singer in December 2013 , with Kinberg , Dougherty , and Harris attached to develop the story ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "X-Men-COLON- Apocalypse",
+              "line_index": 6,
+              "sentence": "The film was announced by Singer in December 2013 , with Kinberg , Dougherty , and Harris attached to develop the story ."
+            }
+          ],
+          [
+            {
+              "page_title": "X-Men-COLON- Apocalypse",
+              "line_index": 6,
+              "sentence": "The film was announced by Singer in December 2013 , with Kinberg , Dougherty , and Harris attached to develop the story ."
+            }
+          ],
+          [
+            {
+              "page_title": "X-Men-COLON- Apocalypse",
+              "line_index": 6,
+              "sentence": "The film was announced by Singer in December 2013 , with Kinberg , Dougherty , and Harris attached to develop the story ."
+            }
+          ],
+          [
+            {
+              "page_title": "X-Men-COLON- Apocalypse",
+              "line_index": 6,
+              "sentence": "The film was announced by Singer in December 2013 , with Kinberg , Dougherty , and Harris attached to develop the story ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    }
+  ],
+  "rubric": "# Judge Rubric (silver adjudication, v1)\n\nYou are an independent fact-checking adjudicator. You will see a batch of\nitems. Each item contains a **claim** and **evidence** (what is included\ndepends on the disclosure stage, stated in the batch header). For EVERY item\nyou must judge **only from the information provided**.\n\n## Task\n\nDecide whether the provided evidence **warrants** the claim:\n\n- `Supported` — the evidence clearly or probably establishes the claim is true.\n- `Refuted` — the evidence clearly or probably establishes the claim is false.\n- `Ambiguous` — the evidence is insufficient, partial, or mixed; you cannot\n  responsibly decide true or false from what is provided.\n\nAlso rate how sufficient the evidence is for deciding the claim\n(`clearly_sufficient | probably_sufficient | partial_or_ambiguous |\nprobably_insufficient | clearly_insufficient`), your confidence (integer\n0–100), and any issue flags that apply (see list).\n\n## Hard rules\n\n- Judge ONLY from the supplied claim and evidence. Do NOT use outside\n  knowledge to decide the verdict.\n- Do NOT browse the web or look anything up.\n- Do NOT speculate about hidden labels, other models, or why the item was\n  selected.\n- If the evidence alone does not settle the claim, say `Ambiguous` — that is a\n  valid, useful answer, not a failure.\n- `confidence` MUST be an integer from 0 to 100.\n- `brief_reason` must be short (one sentence) and grounded in the evidence.\n- Select issue flags only when the evidence shows that problem; use `none`\n  otherwise. Do not pad flags.\n\n## Issue flags\n\n`none`, `possible_missing_title_context`, `possible_coreference_or_entity_resolution`,\n`possible_missing_surrounding_context`, `multi_sentence_integration`,\n`numerical_or_temporal_reasoning`, `negation_or_scope`,\n`entity_or_attribute_confusion`, `partial_warrant`,\n`apparent_internal_contradiction`, `other`\n\n## Output format\n\nReturn ONLY a JSON array (no prose before or after), one object per item, in\nthe same order as the input:\n\n```json\n[\n  {\n    \"item_id\": \"SA-000001\",\n    \"judge_id\": \"judge_1\",\n    \"stage\": \"A\",\n    \"verdict\": \"Supported\",\n    \"evidence_sufficiency\": \"probably_sufficient\",\n    \"confidence\": 80,\n    \"issue_flags\": [\"none\"],\n    \"brief_reason\": \"The evidence sentence directly states the claim.\"\n  }\n]\n```\n\n`item_id`, `judge_id`, and `stage` must be copied exactly from the batch file.\nProduce exactly one object for every item in the batch — never skip or merge\nitems. If an item's evidence is empty or unreadable, verdict `Ambiguous`,\nsufficiency `clearly_insufficient`, confidence as you see fit, flag `other`.\n",
+  "disclosure_note": "Stage C. Judge only supplied fields. Null text means unavailable; do not fill it using outside knowledge."
+}

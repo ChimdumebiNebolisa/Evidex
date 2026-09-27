@@ -1,0 +1,3248 @@
+{
+  "judge_id": "judge_1",
+  "stage": "C",
+  "output_path": "corrections_v2/blind_io/p01/stage_c/p01_C_j1_b04.output.json",
+  "n_items": 100,
+  "item_ids": [
+    "SA-000301",
+    "SA-000302",
+    "SA-000303",
+    "SA-000304",
+    "SA-000305",
+    "SA-000306",
+    "SA-000307",
+    "SA-000308",
+    "SA-000309",
+    "SA-000310",
+    "SA-000311",
+    "SA-000312",
+    "SA-000313",
+    "SA-000314",
+    "SA-000315",
+    "SA-000316",
+    "SA-000317",
+    "SA-000318",
+    "SA-000319",
+    "SA-000320",
+    "SA-000321",
+    "SA-000322",
+    "SA-000323",
+    "SA-000324",
+    "SA-000325",
+    "SA-000326",
+    "SA-000327",
+    "SA-000328",
+    "SA-000329",
+    "SA-000330",
+    "SA-000331",
+    "SA-000332",
+    "SA-000333",
+    "SA-000334",
+    "SA-000335",
+    "SA-000336",
+    "SA-000337",
+    "SA-000338",
+    "SA-000339",
+    "SA-000340",
+    "SA-000341",
+    "SA-000342",
+    "SA-000343",
+    "SA-000344",
+    "SA-000345",
+    "SA-000346",
+    "SA-000347",
+    "SA-000348",
+    "SA-000349",
+    "SA-000350",
+    "SA-000351",
+    "SA-000353",
+    "SA-000354",
+    "SA-000355",
+    "SA-000356",
+    "SA-000357",
+    "SA-000358",
+    "SA-000359",
+    "SA-000360",
+    "SA-000361",
+    "SA-000362",
+    "SA-000363",
+    "SA-000364",
+    "SA-000365",
+    "SA-000366",
+    "SA-000367",
+    "SA-000368",
+    "SA-000369",
+    "SA-000370",
+    "SA-000371",
+    "SA-000372",
+    "SA-000373",
+    "SA-000374",
+    "SA-000375",
+    "SA-000376",
+    "SA-000377",
+    "SA-000378",
+    "SA-000379",
+    "SA-000380",
+    "SA-000381",
+    "SA-000382",
+    "SA-000383",
+    "SA-000384",
+    "SA-000385",
+    "SA-000386",
+    "SA-000387",
+    "SA-000388",
+    "SA-000389",
+    "SA-000390",
+    "SA-000391",
+    "SA-000392",
+    "SA-000393",
+    "SA-000394",
+    "SA-000395",
+    "SA-000396",
+    "SA-000397",
+    "SA-000398",
+    "SA-000399",
+    "SA-000400",
+    "SA-000401"
+  ],
+  "items": [
+    {
+      "item_id": "SA-000301",
+      "claim": "West Virginia borders Maryland and Ohio to the northeast.",
+      "evidence_sentences": "It is bordered by Virginia to the southeast , Kentucky to the southwest , Ohio to the northwest , Pennsylvania to the north -LRB- and , slightly , east -RRB- , and Maryland to the northeast .",
+      "page_titles": [
+        "West Virginia"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "West Virginia",
+            "line_index": 1,
+            "sentence": "It is bordered by Virginia to the southeast , Kentucky to the southwest , Ohio to the northwest , Pennsylvania to the north -LRB- and , slightly , east -RRB- , and Maryland to the northeast ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000302",
+      "claim": "Julianne Moore was in the film As the World Turns.",
+      "evidence_sentences": "From 1985 to 1988 , she was a regular in the soap opera As the World Turns , earning a Daytime Emmy for her performance . As the World Turns -LRB- often referred to as ATWT -RRB- is an American television soap opera that aired on CBS for 54 years from April 2 , 1956 , to September 17 , 2010 .",
+      "page_titles": [
+        "Julianne Moore",
+        "As the World Turns"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Julianne Moore",
+            "line_index": 5,
+            "sentence": "From 1985 to 1988 , she was a regular in the soap opera As the World Turns , earning a Daytime Emmy for her performance ."
+          },
+          {
+            "page_title": "As the World Turns",
+            "line_index": 0,
+            "sentence": "As the World Turns -LRB- often referred to as ATWT -RRB- is an American television soap opera that aired on CBS for 54 years from April 2 , 1956 , to September 17 , 2010 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000303",
+      "claim": "2016 Tour de France was not won by Chris Froome.",
+      "evidence_sentences": "A total of 198 riders from 22 teams entered the 21-stage race , which was won by Chris Froome of .",
+      "page_titles": [
+        "2016 Tour de France"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "2016 Tour de France",
+            "line_index": 2,
+            "sentence": "A total of 198 riders from 22 teams entered the 21-stage race , which was won by Chris Froome of ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000304",
+      "claim": "Ian Gillan is from England.",
+      "evidence_sentences": "Ian Gillan -LRB- born 19 August 1945 -RRB- is an English singer and songwriter .",
+      "page_titles": [
+        "Ian Gillan"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ian Gillan",
+            "line_index": 0,
+            "sentence": "Ian Gillan -LRB- born 19 August 1945 -RRB- is an English singer and songwriter ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000305",
+      "claim": "The Road to El Dorado is an artistic work.",
+      "evidence_sentences": "The Road to El Dorado is a 2000 American animated adventure musical fantasy comedy film produced by DreamWorks Animation .",
+      "page_titles": [
+        "The Road to El Dorado"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Road to El Dorado",
+            "line_index": 0,
+            "sentence": "The Road to El Dorado is a 2000 American animated adventure musical fantasy comedy film produced by DreamWorks Animation ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Road to El Dorado",
+              "line_index": 0,
+              "sentence": "The Road to El Dorado is a 2000 American animated adventure musical fantasy comedy film produced by DreamWorks Animation ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000306",
+      "claim": "Richard Linklater's goose plays Mason's sister.",
+      "evidence_sentences": "Richard Linklater 's daughter Lorelei plays Mason 's sister , Samantha .",
+      "page_titles": [
+        "Boyhood -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Boyhood -LRB-film-RRB-",
+            "line_index": 2,
+            "sentence": "Richard Linklater 's daughter Lorelei plays Mason 's sister , Samantha ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000307",
+      "claim": "Meteora is not a rock album.",
+      "evidence_sentences": "Meteora is the second studio album by American rock band Linkin Park .",
+      "page_titles": [
+        "Meteora -LRB-album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Meteora -LRB-album-RRB-",
+            "line_index": 0,
+            "sentence": "Meteora is the second studio album by American rock band Linkin Park ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000308",
+      "claim": "Uta Hagan has a middle name.",
+      "evidence_sentences": "Uta Thyra Hagen -LRB- 12 June 1919 -- 14 January 2004 -RRB- was an American actress and theatre practitioner .",
+      "page_titles": [
+        "Uta Hagen"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Uta Hagen",
+            "line_index": 0,
+            "sentence": "Uta Thyra Hagen -LRB- 12 June 1919 -- 14 January 2004 -RRB- was an American actress and theatre practitioner ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000309",
+      "claim": "Sky UK serves London.",
+      "evidence_sentences": "Sky UK Limited -LRB- formerly British Sky Broadcasting and BSkyB -RRB- is a telecommunications company which serves the United Kingdom .",
+      "page_titles": [
+        "Sky UK"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sky UK",
+            "line_index": 0,
+            "sentence": "Sky UK Limited -LRB- formerly British Sky Broadcasting and BSkyB -RRB- is a telecommunications company which serves the United Kingdom ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Sky UK",
+              "line_index": 0,
+              "sentence": "Sky UK Limited -LRB- formerly British Sky Broadcasting and BSkyB -RRB- is a telecommunications company which serves the United Kingdom ."
+            },
+            {
+              "page_title": "United Kingdom",
+              "line_index": 13,
+              "sentence": "The capital of the United Kingdom and its largest city is London , a global city and financial centre with an urban area population of 10.3 million , the fourth-largest in Europe and second-largest in the European Union ."
+            }
+          ],
+          [
+            {
+              "page_title": "Sky UK",
+              "line_index": 1,
+              "sentence": "Sky provides television and broadband internet services , fixed line and mobile telephone services to consumers and businesses in the United Kingdom ."
+            },
+            {
+              "page_title": "United Kingdom",
+              "line_index": 13,
+              "sentence": "The capital of the United Kingdom and its largest city is London , a global city and financial centre with an urban area population of 10.3 million , the fourth-largest in Europe and second-largest in the European Union ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000310",
+      "claim": "Murda Beatz was born in 1994.",
+      "evidence_sentences": "Shane Lee Lindstrom -LRB- born February 11 , 1994 -RRB- , professionally known as Murda Beatz , is a Canadian hip hop record producer from Fort Erie , Ontario .",
+      "page_titles": [
+        "Murda Beatz"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Murda Beatz",
+            "line_index": 0,
+            "sentence": "Shane Lee Lindstrom -LRB- born February 11 , 1994 -RRB- , professionally known as Murda Beatz , is a Canadian hip hop record producer from Fort Erie , Ontario ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000311",
+      "claim": "Sean Gunn was in Guardians of the Galaxy in 2015.",
+      "evidence_sentences": "Sean Gunn is an American actor , best known for his role as Kirk Gleason on the television show Gilmore Girls -LRB- 2000 -- 2007 -RRB- and Kraglin in Guardians of the Galaxy . 1 -RRB- is a 2014 American superhero film based on the Marvel Comics superhero team of the same name , produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures .",
+      "page_titles": [
+        "Sean Gunn",
+        "Guardians of the Galaxy -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sean Gunn",
+            "line_index": 0,
+            "sentence": "Sean Gunn is an American actor , best known for his role as Kirk Gleason on the television show Gilmore Girls -LRB- 2000 -- 2007 -RRB- and Kraglin in Guardians of the Galaxy ."
+          },
+          {
+            "page_title": "Guardians of the Galaxy -LRB-film-RRB-",
+            "line_index": 1,
+            "sentence": "1 -RRB- is a 2014 American superhero film based on the Marvel Comics superhero team of the same name , produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000312",
+      "claim": "Camp Flog Gnaw is attended by Tyler, The Creator and Odd Future.",
+      "evidence_sentences": "Camp Flog Gnaw is an annual carnival created and hosted by Tyler , The Creator and Odd Future .",
+      "page_titles": [
+        "Camp Flog Gnaw"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Camp Flog Gnaw",
+            "line_index": 0,
+            "sentence": "Camp Flog Gnaw is an annual carnival created and hosted by Tyler , The Creator and Odd Future ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000313",
+      "claim": "Kelly Preston starred in multiple television shows.",
+      "evidence_sentences": "She has appeared in more than sixty television and film productions , most notably including Mischief , Twins and Jerry Maguire .",
+      "page_titles": [
+        "Kelly Preston"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kelly Preston",
+            "line_index": 1,
+            "sentence": "She has appeared in more than sixty television and film productions , most notably including Mischief , Twins and Jerry Maguire ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000314",
+      "claim": "Gotham City Sirens is an Argentinian comic book series.",
+      "evidence_sentences": "Gotham City Sirens is an American comic book series was written by Paul Dini with art by Guillem March and published by DC Comics .",
+      "page_titles": [
+        "Gotham City Sirens"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Gotham City Sirens",
+            "line_index": 0,
+            "sentence": "Gotham City Sirens is an American comic book series was written by Paul Dini with art by Guillem March and published by DC Comics ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000315",
+      "claim": "Boyhood was carved from 2002 to 2013.",
+      "evidence_sentences": "Filmed from 2002 to 2013 , Boyhood depicts the childhood and adolescence of Mason Evans , Jr. -LRB- Coltrane -RRB- from ages six to eighteen as he grows up in Texas with divorced parents -LRB- Arquette and Hawke -RRB- .",
+      "page_titles": [
+        "Boyhood -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Boyhood -LRB-film-RRB-",
+            "line_index": 1,
+            "sentence": "Filmed from 2002 to 2013 , Boyhood depicts the childhood and adolescence of Mason Evans , Jr. -LRB- Coltrane -RRB- from ages six to eighteen as he grows up in Texas with divorced parents -LRB- Arquette and Hawke -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000316",
+      "claim": "In The 100, adults are the first to return to Earth after a devastating nuclear apocalypse.",
+      "evidence_sentences": "The series follows a group of teens : Clarke Griffin -LRB- Eliza Taylor -RRB- , Bellamy Blake -LRB- Bob Morley -RRB- , Octavia Blake -LRB- Marie Avgeropoulos -RRB- , Jasper Jordan -LRB- Devon Bostick -RRB- , Monty Green -LRB- Christopher Larkin -RRB- , Raven Reyes -LRB- Lindsey Morgan -RRB- , Finn Collins -LRB- Thomas McDonell -RRB- , John Murphy -LRB- Richard Harmon -RRB- , and Wells Jaha -LRB- Eli Goree -RRB- as they are among the first people from a space habitat , `` The Ark '' , to return to Earth after a devastating nuclear apocalypse ; the series also focuses on Dr. Abby Griffin -LRB- Paige Turco -RRB- , Clarke 's mother ; Marcus Kane -LRB- Henry Ian Cusick -RRB- , a council member on the Ark ; and Thelonious Jaha -LRB- Isaiah Washington -RRB- , the Chancellor of the Ark and Wells ' father .",
+      "page_titles": [
+        "The 100 -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The 100 -LRB-TV series-RRB-",
+            "line_index": 4,
+            "sentence": "The series follows a group of teens : Clarke Griffin -LRB- Eliza Taylor -RRB- , Bellamy Blake -LRB- Bob Morley -RRB- , Octavia Blake -LRB- Marie Avgeropoulos -RRB- , Jasper Jordan -LRB- Devon Bostick -RRB- , Monty Green -LRB- Christopher Larkin -RRB- , Raven Reyes -LRB- Lindsey Morgan -RRB- , Finn Collins -LRB- Thomas McDonell -RRB- , John Murphy -LRB- Richard Harmon -RRB- , and Wells Jaha -LRB- Eli Goree -RRB- as they are among the first people from a space habitat , `` The Ark '' , to return to Earth after a devastating nuclear apocalypse ; the series also focuses on Dr. Abby Griffin -LRB- Paige Turco -RRB- , Clarke 's mother ; Marcus Kane -LRB- Henry Ian Cusick -RRB- , a council member on the Ark ; and Thelonious Jaha -LRB- Isaiah Washington -RRB- , the Chancellor of the Ark and Wells ' father ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000317",
+      "claim": "Kesha's full name is Kesha Rosa Sebert, a name given to her by her parents.",
+      "evidence_sentences": "Kesha Rose Sebert -LRB- -LSB- ˈkɛʃə_roʊz_ˈsɛbərt -RSB- ; born March 1 , 1987 ; formerly stylized as Ke $ ha -RRB- is an American singer , songwriter , and rapper .",
+      "page_titles": [
+        "Kesha"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kesha",
+            "line_index": 0,
+            "sentence": "Kesha Rose Sebert -LRB- -LSB- ˈkɛʃə_roʊz_ˈsɛbərt -RSB- ; born March 1 , 1987 ; formerly stylized as Ke $ ha -RRB- is an American singer , songwriter , and rapper ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000318",
+      "claim": "Dark matter is different from neutrinos.",
+      "evidence_sentences": "Dark matter is a hypothetical type of matter distinct from baryonic matter -LRB- ordinary matter such as protons and neutrons -RRB- , neutrinos and dark energy .",
+      "page_titles": [
+        "Dark matter"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Dark matter",
+            "line_index": 0,
+            "sentence": "Dark matter is a hypothetical type of matter distinct from baryonic matter -LRB- ordinary matter such as protons and neutrons -RRB- , neutrinos and dark energy ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000319",
+      "claim": "There are people in the Republic of Macedonia.",
+      "evidence_sentences": "According to the last census from 2002 , there were 53 879 people counted as Romani in the Republic of Macedonia '' ' , or 2.66 % of the population .",
+      "page_titles": [
+        "Romani people in the Republic of Macedonia"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Romani people in the Republic of Macedonia",
+            "line_index": 0,
+            "sentence": "According to the last census from 2002 , there were 53 879 people counted as Romani in the Republic of Macedonia '' ' , or 2.66 % of the population ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000320",
+      "claim": "Luke Cage did not team up with Iron Fist.",
+      "evidence_sentences": "Once freed , Cage becomes a `` hero for hire '' and teams up with fellow superhero Iron Fist as part of the duo , Power Man and Iron Fist .",
+      "page_titles": [
+        "Luke Cage"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Luke Cage",
+            "line_index": 6,
+            "sentence": "Once freed , Cage becomes a `` hero for hire '' and teams up with fellow superhero Iron Fist as part of the duo , Power Man and Iron Fist ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000321",
+      "claim": "Wales is an island.",
+      "evidence_sentences": "Wales -LRB- -LSB- ˈweɪlz -RSB- Cymru -LSB- ˈkəm.rɨ -RSB- -RRB- is a country that is part of the United Kingdom and the island of Great Britain .",
+      "page_titles": [
+        "Wales"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Wales",
+            "line_index": 0,
+            "sentence": "Wales -LRB- -LSB- ˈweɪlz -RSB- Cymru -LSB- ˈkəm.rɨ -RSB- -RRB- is a country that is part of the United Kingdom and the island of Great Britain ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000322",
+      "claim": "GLOW (TV series) is incapable of being released.",
+      "evidence_sentences": "The first season will be released on Netflix on June 23 , 2017 .",
+      "page_titles": [
+        "GLOW -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "GLOW -LRB-TV series-RRB-",
+            "line_index": 3,
+            "sentence": "The first season will be released on Netflix on June 23 , 2017 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000323",
+      "claim": "In the 1970's, Samsung entered the shipbuilding industries.",
+      "evidence_sentences": "Samsung entered the electronics industry in the late 1960s and the construction and shipbuilding industries in the mid-1970s ; these areas would drive its subsequent growth .",
+      "page_titles": [
+        "Samsung"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Samsung",
+            "line_index": 6,
+            "sentence": "Samsung entered the electronics industry in the late 1960s and the construction and shipbuilding industries in the mid-1970s ; these areas would drive its subsequent growth ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000324",
+      "claim": "Speech recognition incorporates knowledge and research into science-related fields.",
+      "evidence_sentences": "It incorporates knowledge and research in the linguistics , computer science , and electrical engineering fields .",
+      "page_titles": [
+        "Speech recognition"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Speech recognition",
+            "line_index": 2,
+            "sentence": "It incorporates knowledge and research in the linguistics , computer science , and electrical engineering fields ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Speech recognition",
+              "line_index": 2,
+              "sentence": "It incorporates knowledge and research in the linguistics , computer science , and electrical engineering fields ."
+            },
+            {
+              "page_title": "Linguistics",
+              "line_index": 0,
+              "sentence": "Linguistics is the scientific study of language , and involves an analysis of language form , language meaning , and language in context ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000325",
+      "claim": "Ingushetia was established on June.",
+      "evidence_sentences": "It was established on June 4 , 1992 after the Chechen-Ingush Autonomous Soviet Socialist Republic was split in two .",
+      "page_titles": [
+        "Ingushetia"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ingushetia",
+            "line_index": 5,
+            "sentence": "It was established on June 4 , 1992 after the Chechen-Ingush Autonomous Soviet Socialist Republic was split in two ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000326",
+      "claim": "The Church of Jesus Christ of Latter-day Saints has a fasting law.",
+      "evidence_sentences": "Faithful members adhere to church laws of sexual purity , health , fasting , and Sabbath observance , and contribute ten percent of their income to the church in tithing .",
+      "page_titles": [
+        "The Church of Jesus Christ of Latter-day Saints"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Church of Jesus Christ of Latter-day Saints",
+            "line_index": 24,
+            "sentence": "Faithful members adhere to church laws of sexual purity , health , fasting , and Sabbath observance , and contribute ten percent of their income to the church in tithing ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000327",
+      "claim": "Sands Hotel and Casino was originally a casino with 200 rooms.",
+      "evidence_sentences": "The hotel was opened on December 15 , 1952 as a casino with 200 rooms , and was established less than three months after the opening of another notable landmark , Sahara Hotel and Casino .",
+      "page_titles": [
+        "Sands Hotel and Casino"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sands Hotel and Casino",
+            "line_index": 6,
+            "sentence": "The hotel was opened on December 15 , 1952 as a casino with 200 rooms , and was established less than three months after the opening of another notable landmark , Sahara Hotel and Casino ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000328",
+      "claim": "The Beach is an adventure drama novel.",
+      "evidence_sentences": "The Beach is a 2000 adventure drama film directed by Danny Boyle and based on the 1996 novel of the same name by Alex Garland , which was adapted for the film by John Hodge .",
+      "page_titles": [
+        "The Beach -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Beach -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "The Beach is a 2000 adventure drama film directed by Danny Boyle and based on the 1996 novel of the same name by Alex Garland , which was adapted for the film by John Hodge ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Beach -LRB-film-RRB-",
+              "line_index": 1,
+              "sentence": "The film stars Leonardo DiCaprio , Virginie Ledoyen , Guillaume Canet , Robert Carlyle , Tilda Swinton , and Paterson Joseph ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Beach -LRB-film-RRB-",
+              "line_index": 2,
+              "sentence": "It was filmed on the Thai island Koh Phi Phi ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000329",
+      "claim": "Cleopatre premiered in a manner.",
+      "evidence_sentences": "It was first performed at the Opéra de Monte-Carlo on 23 February 1914 , nearly two years after Massenet 's death . The Opéra de Monte-Carlo is an opera house , which is part of the Monte Carlo Casino located in the principality of Monaco .",
+      "page_titles": [
+        "Cléopâtre",
+        "Opéra de Monte-Carlo"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Cléopâtre",
+            "line_index": 1,
+            "sentence": "It was first performed at the Opéra de Monte-Carlo on 23 February 1914 , nearly two years after Massenet 's death ."
+          },
+          {
+            "page_title": "Opéra de Monte-Carlo",
+            "line_index": 0,
+            "sentence": "The Opéra de Monte-Carlo is an opera house , which is part of the Monte Carlo Casino located in the principality of Monaco ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000330",
+      "claim": "Ripon College's student body stood at a number.",
+      "evidence_sentences": "Students come from 14 nations and 33 states , and 53 % are female while 47 % are male .",
+      "page_titles": [
+        "Ripon College -LRB-Wisconsin-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ripon College -LRB-Wisconsin-RRB-",
+            "line_index": 2,
+            "sentence": "Students come from 14 nations and 33 states , and 53 % are female while 47 % are male ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Ripon College -LRB-Wisconsin-RRB-",
+              "line_index": 3,
+              "sentence": "More than 95 % of students receive financial aid ."
+            }
+          ],
+          [
+            {
+              "page_title": "Ripon College -LRB-Wisconsin-RRB-",
+              "line_index": 1,
+              "sentence": "As of 2015 , Ripon College 's student body stood at around 840 , the majority of whom live on campus ."
+            }
+          ],
+          [
+            {
+              "page_title": "Ripon College -LRB-Wisconsin-RRB-",
+              "line_index": 2,
+              "sentence": "Students come from 14 nations and 33 states , and 53 % are female while 47 % are male ."
+            }
+          ],
+          [
+            {
+              "page_title": "Ripon College -LRB-Wisconsin-RRB-",
+              "line_index": 3,
+              "sentence": "More than 95 % of students receive financial aid ."
+            }
+          ],
+          [
+            {
+              "page_title": "Ripon College -LRB-Wisconsin-RRB-",
+              "line_index": 1,
+              "sentence": "As of 2015 , Ripon College 's student body stood at around 840 , the majority of whom live on campus ."
+            }
+          ],
+          [
+            {
+              "page_title": "Ripon College -LRB-Wisconsin-RRB-",
+              "line_index": 1,
+              "sentence": "As of 2015 , Ripon College 's student body stood at around 840 , the majority of whom live on campus ."
+            }
+          ],
+          [
+            {
+              "page_title": "Ripon College -LRB-Wisconsin-RRB-",
+              "line_index": 1,
+              "sentence": "As of 2015 , Ripon College 's student body stood at around 840 , the majority of whom live on campus ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 8,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000331",
+      "claim": "John Deighton experienced swelling in his legs.",
+      "evidence_sentences": "By 1864 , Deighton was forced to pursue other lines of work as he developed health problems -LRB- swelling of the legs and feet -RRB- .",
+      "page_titles": [
+        "John Deighton"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "John Deighton",
+            "line_index": 24,
+            "sentence": "By 1864 , Deighton was forced to pursue other lines of work as he developed health problems -LRB- swelling of the legs and feet -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000332",
+      "claim": "Night of the Living Dead is a a series of works of art.",
+      "evidence_sentences": "Night of the Living Dead is a 1968 American independent horror film , directed by George A. Romero , starring Duane Jones and Judith O'Dea .",
+      "page_titles": [
+        "Night of the Living Dead"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Night of the Living Dead",
+            "line_index": 0,
+            "sentence": "Night of the Living Dead is a 1968 American independent horror film , directed by George A. Romero , starring Duane Jones and Judith O'Dea ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000333",
+      "claim": "Awkward Black Girl is a television series.",
+      "evidence_sentences": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae .",
+      "page_titles": [
+        "Awkward Black Girl"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Awkward Black Girl",
+            "line_index": 0,
+            "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000334",
+      "claim": "Punch-Drunk Love was distributed by an American television studio.",
+      "evidence_sentences": "The film was produced by Revolution Studios and New Line Cinema , and distributed by Columbia Pictures ; it features the video art of Jeremy Blake in the form of visual interludes . Columbia Pictures Industries , Inc. -LRB- known as Columbia Pictures and Columbia , and formerly CBC Film Sales Corporation -RRB- is an American film studio , production company and film distributor that is a member of the Sony Pictures Motion Picture Group , a division of Sony Entertainment 's Sony Pictures subsidiary of the Japanese conglomerate Sony .",
+      "page_titles": [
+        "Punch-Drunk Love",
+        "Columbia Pictures"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Punch-Drunk Love",
+            "line_index": 4,
+            "sentence": "The film was produced by Revolution Studios and New Line Cinema , and distributed by Columbia Pictures ; it features the video art of Jeremy Blake in the form of visual interludes ."
+          },
+          {
+            "page_title": "Columbia Pictures",
+            "line_index": 0,
+            "sentence": "Columbia Pictures Industries , Inc. -LRB- known as Columbia Pictures and Columbia , and formerly CBC Film Sales Corporation -RRB- is an American film studio , production company and film distributor that is a member of the Sony Pictures Motion Picture Group , a division of Sony Entertainment 's Sony Pictures subsidiary of the Japanese conglomerate Sony ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Punch-Drunk Love",
+              "line_index": 4,
+              "sentence": "The film was produced by Revolution Studios and New Line Cinema , and distributed by Columbia Pictures ; it features the video art of Jeremy Blake in the form of visual interludes ."
+            },
+            {
+              "page_title": "Columbia Pictures",
+              "line_index": 0,
+              "sentence": "Columbia Pictures Industries , Inc. -LRB- known as Columbia Pictures and Columbia , and formerly CBC Film Sales Corporation -RRB- is an American film studio , production company and film distributor that is a member of the Sony Pictures Motion Picture Group , a division of Sony Entertainment 's Sony Pictures subsidiary of the Japanese conglomerate Sony ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000335",
+      "claim": "James VI and I was a major advocate of a single parliament for England.",
+      "evidence_sentences": "He was a major advocate of a single parliament for England and Scotland .",
+      "page_titles": [
+        "James VI and I"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "James VI and I",
+            "line_index": 10,
+            "sentence": "He was a major advocate of a single parliament for England and Scotland ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000336",
+      "claim": "Kareem Abdul-Jabbar is ranked 3rd all-time in blocks and rebounds.",
+      "evidence_sentences": "He is ranked 3rd all-time in both rebounds and blocks .",
+      "page_titles": [
+        "Kareem Abdul-Jabbar"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kareem Abdul-Jabbar",
+            "line_index": 18,
+            "sentence": "He is ranked 3rd all-time in both rebounds and blocks ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000337",
+      "claim": "The WWE created it's developmental brand NXT after the start of the NXT Tag Team Championship.",
+      "evidence_sentences": "The NXT Tag Team Championship is a professional wrestling tag team championship created and promoted by the American professional wrestling promotion WWE on their developmental brand , NXT .",
+      "page_titles": [
+        "NXT Tag Team Championship"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "NXT Tag Team Championship",
+            "line_index": 0,
+            "sentence": "The NXT Tag Team Championship is a professional wrestling tag team championship created and promoted by the American professional wrestling promotion WWE on their developmental brand , NXT ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000338",
+      "claim": "Tiber Oil Field was discovered in September 1909.",
+      "evidence_sentences": "The deepwater field -LRB- defined as water depth 1300 to , -RRB- was discovered in September 2009 and it is operated by BP .",
+      "page_titles": [
+        "Tiber Oil Field"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tiber Oil Field",
+            "line_index": 1,
+            "sentence": "The deepwater field -LRB- defined as water depth 1300 to , -RRB- was discovered in September 2009 and it is operated by BP ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Tiber Oil Field",
+              "line_index": 1,
+              "sentence": "The deepwater field -LRB- defined as water depth 1300 to , -RRB- was discovered in September 2009 and it is operated by BP ."
+            }
+          ],
+          [
+            {
+              "page_title": "Tiber Oil Field",
+              "line_index": 1,
+              "sentence": "The deepwater field -LRB- defined as water depth 1300 to , -RRB- was discovered in September 2009 and it is operated by BP ."
+            }
+          ],
+          [
+            {
+              "page_title": "Tiber Oil Field",
+              "line_index": 1,
+              "sentence": "The deepwater field -LRB- defined as water depth 1300 to , -RRB- was discovered in September 2009 and it is operated by BP ."
+            }
+          ],
+          [
+            {
+              "page_title": "Tiber Oil Field",
+              "line_index": 1,
+              "sentence": "The deepwater field -LRB- defined as water depth 1300 to , -RRB- was discovered in September 2009 and it is operated by BP ."
+            },
+            {
+              "page_title": "Tiber Oil Field",
+              "line_index": 0,
+              "sentence": "The Tiber Oil Field is a deepwater offshore oil field located in the Keathley Canyon block 102 of the United States sector of the Gulf of Mexico ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000339",
+      "claim": "Tie Your Mother Down was released.",
+      "evidence_sentences": "It is the opening track and the second single from their 1976 album A Day at the Races .",
+      "page_titles": [
+        "Tie Your Mother Down"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tie Your Mother Down",
+            "line_index": 1,
+            "sentence": "It is the opening track and the second single from their 1976 album A Day at the Races ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Tie Your Mother Down",
+              "line_index": 2,
+              "sentence": "On its original release as a single in 1977 the song peaked at 31 in the UK Singles Chart , however more than 20 years later it was released as a double a-side to `` No-One But You -LRB- Only the Good Die Young -RRB- '' where it reached 13 in UK Singles Chart ."
+            }
+          ],
+          [
+            {
+              "page_title": "Tie Your Mother Down",
+              "line_index": 6,
+              "sentence": "After its release in 1976 , it was played by Queen on every subsequent tour ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000340",
+      "claim": "Coeliac disease is treated by maintaining a healthy diet.",
+      "evidence_sentences": "The only known effective treatment is a strict lifelong gluten-free diet , which leads to recovery of the intestinal mucosa , improves symptoms , and reduces risk of developing complications in most people .",
+      "page_titles": [
+        "Coeliac disease"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Coeliac disease",
+            "line_index": 26,
+            "sentence": "The only known effective treatment is a strict lifelong gluten-free diet , which leads to recovery of the intestinal mucosa , improves symptoms , and reduces risk of developing complications in most people ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000341",
+      "claim": "A View to a Kill is the eighth James Bond film directed by John Glen.",
+      "evidence_sentences": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond .",
+      "page_titles": [
+        "A View to a Kill"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "A View to a Kill",
+            "line_index": 0,
+            "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ],
+          [
+            {
+              "page_title": "A View to a Kill",
+              "line_index": 0,
+              "sentence": "A View to a Kill -LRB- 1985 -RRB- is the fourteenth spy film of the James Bond series , and the seventh and last to star Roger Moore as the fictional MI6 agent James Bond ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 21,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000342",
+      "claim": "Noah Cyrus is the youngest adviser of Billy Ray Cyrus.",
+      "evidence_sentences": "She is the youngest daughter of Billy Ray Cyrus and younger sister of Miley Cyrus and Trace Cyrus .",
+      "page_titles": [
+        "Noah Cyrus"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Noah Cyrus",
+            "line_index": 4,
+            "sentence": "She is the youngest daughter of Billy Ray Cyrus and younger sister of Miley Cyrus and Trace Cyrus ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000343",
+      "claim": "George Harrison was married to Pattie Boyd in 1970.",
+      "evidence_sentences": "Harrison 's first marriage , to model Pattie Boyd in 1966 , ended in divorce in 1977 .",
+      "page_titles": [
+        "George Harrison"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "George Harrison",
+            "line_index": 20,
+            "sentence": "Harrison 's first marriage , to model Pattie Boyd in 1966 , ended in divorce in 1977 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000344",
+      "claim": "Paris (Paris Hilton album) is devoid of elements of soul.",
+      "evidence_sentences": "It also incorporates elements of other genres , such as reggae , soul and pop rock , in its production .",
+      "page_titles": [
+        "Paris -LRB-Paris Hilton album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Paris -LRB-Paris Hilton album-RRB-",
+            "line_index": 9,
+            "sentence": "It also incorporates elements of other genres , such as reggae , soul and pop rock , in its production ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000345",
+      "claim": "Dave Gibbons's middle name is Chester-Jason.",
+      "evidence_sentences": "David Chester `` Dave '' Gibbons -LRB- born 14 April 1949 -RRB- is an English comic book artist , writer and sometimes letterer .",
+      "page_titles": [
+        "Dave Gibbons"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Dave Gibbons",
+            "line_index": 0,
+            "sentence": "David Chester `` Dave '' Gibbons -LRB- born 14 April 1949 -RRB- is an English comic book artist , writer and sometimes letterer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000346",
+      "claim": "Victoria Palace Theatre is on the same side of Victoria Station.",
+      "evidence_sentences": "Victoria Palace Theatre is a West End theatre in Victoria Street , in the City of Westminster , opposite Victoria Station .",
+      "page_titles": [
+        "Victoria Palace Theatre"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Victoria Palace Theatre",
+            "line_index": 0,
+            "sentence": "Victoria Palace Theatre is a West End theatre in Victoria Street , in the City of Westminster , opposite Victoria Station ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000347",
+      "claim": "West Virginia only borders Maine to the north.",
+      "evidence_sentences": "It is bordered by Virginia to the southeast , Kentucky to the southwest , Ohio to the northwest , Pennsylvania to the north -LRB- and , slightly , east -RRB- , and Maryland to the northeast .",
+      "page_titles": [
+        "West Virginia"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "West Virginia",
+            "line_index": 1,
+            "sentence": "It is bordered by Virginia to the southeast , Kentucky to the southwest , Ohio to the northwest , Pennsylvania to the north -LRB- and , slightly , east -RRB- , and Maryland to the northeast ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "West Virginia",
+              "line_index": 12,
+              "sentence": "The northern panhandle extends adjacent to Pennsylvania and Ohio , with the West Virginia cities of Wheeling and Weirton just across the border from the Pittsburgh metropolitan area , while Bluefield is less than 70 mi from North Carolina ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000348",
+      "claim": "The American actor that plays Chumlee was born on December.",
+      "evidence_sentences": "Austin Lee Russell -LRB- born September 8 , 1982 -RRB- , better known by his stage name of Chumlee , is an American actor , businessman and reality television personality , known as a cast member on the History Channel television show Pawn Stars , which depicts the daily business at the Gold and Silver Pawn Shop in Las Vegas where Russell works as an employee .",
+      "page_titles": [
+        "Chumlee"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Chumlee",
+            "line_index": 0,
+            "sentence": "Austin Lee Russell -LRB- born September 8 , 1982 -RRB- , better known by his stage name of Chumlee , is an American actor , businessman and reality television personality , known as a cast member on the History Channel television show Pawn Stars , which depicts the daily business at the Gold and Silver Pawn Shop in Las Vegas where Russell works as an employee ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000349",
+      "claim": "Floyd Mayweather Jr. has made 30 career boxing knockouts in different special event professional boxing fights.",
+      "evidence_sentences": "He finished his career with a record of 26 wins without a loss or draw in world title fights -LRB- 10 by KO -RRB- ; 23 wins -LRB- 9 KOs -RRB- in lineal title fights ; 24 wins -LRB- 7 KOs -RRB- against former or current world titlists ; 12 wins -LRB- 3 KOs -RRB- against former or current lineal champions ; and 2 wins -LRB- 1 KO -RRB- against International Boxing Hall of Fame inductees .",
+      "page_titles": [
+        "Floyd Mayweather Jr."
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Floyd Mayweather Jr.",
+            "line_index": 10,
+            "sentence": "He finished his career with a record of 26 wins without a loss or draw in world title fights -LRB- 10 by KO -RRB- ; 23 wins -LRB- 9 KOs -RRB- in lineal title fights ; 24 wins -LRB- 7 KOs -RRB- against former or current world titlists ; 12 wins -LRB- 3 KOs -RRB- against former or current lineal champions ; and 2 wins -LRB- 1 KO -RRB- against International Boxing Hall of Fame inductees ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000350",
+      "claim": "The year 1990 saw the release of the movie Ghost.",
+      "evidence_sentences": "Ghost is a 1990 American romantic fantasy thriller film starring Patrick Swayze , Demi Moore , Whoopi Goldberg , Tony Goldwyn , and Rick Aviles .",
+      "page_titles": [
+        "Ghost -LRB-1990 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ghost -LRB-1990 film-RRB-",
+            "line_index": 0,
+            "sentence": "Ghost is a 1990 American romantic fantasy thriller film starring Patrick Swayze , Demi Moore , Whoopi Goldberg , Tony Goldwyn , and Rick Aviles ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Ghost -LRB-1990 film-RRB-",
+              "line_index": 8,
+              "sentence": "It was the highest-grossing film of 1990 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000351",
+      "claim": "Recovery is an album focusing on themes of isolation and addiction.",
+      "evidence_sentences": "Recovery featured more introspective and emotional content than its predecessor and the theme of the album revolved around his positive changes , anxiety , and emotional drives .",
+      "page_titles": [
+        "Recovery -LRB-Eminem album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Recovery -LRB-Eminem album-RRB-",
+            "line_index": 7,
+            "sentence": "Recovery featured more introspective and emotional content than its predecessor and the theme of the album revolved around his positive changes , anxiety , and emotional drives ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000353",
+      "claim": "A Floppy disk is composed of a thin and flexible electronic storage medium.",
+      "evidence_sentences": "A floppy disk , also called a floppy , diskette or just disk , is a type of disk storage composed of a disk of thin and flexible magnetic storage medium , sealed in a rectangular plastic enclosure lined with fabric that removes dust particles .",
+      "page_titles": [
+        "Floppy disk"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Floppy disk",
+            "line_index": 0,
+            "sentence": "A floppy disk , also called a floppy , diskette or just disk , is a type of disk storage composed of a disk of thin and flexible magnetic storage medium , sealed in a rectangular plastic enclosure lined with fabric that removes dust particles ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000354",
+      "claim": "Mani Ratnam is widely credited with altering the profile of Indian cinema.",
+      "evidence_sentences": "Cited by the media as one of India 's influential filmmakers , Mani Ratnam is widely credited with revolutionising the Tamil film industry and altering the profile of Indian cinema .",
+      "page_titles": [
+        "Mani Ratnam"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mani Ratnam",
+            "line_index": 1,
+            "sentence": "Cited by the media as one of India 's influential filmmakers , Mani Ratnam is widely credited with revolutionising the Tamil film industry and altering the profile of Indian cinema ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000355",
+      "claim": "Warcraft premiered in Paris before the Rio Olympics.",
+      "evidence_sentences": "Warcraft premiered in Paris on May 24 , 2016 , and was released by Universal Pictures in the United States on June 10 , 2016 .",
+      "page_titles": [
+        "Warcraft -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Warcraft -LRB-film-RRB-",
+            "line_index": 7,
+            "sentence": "Warcraft premiered in Paris on May 24 , 2016 , and was released by Universal Pictures in the United States on June 10 , 2016 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000356",
+      "claim": "SummerSlam skipped the pre-show.",
+      "evidence_sentences": "Ten matches were contested at the event , with no pre-show .",
+      "page_titles": [
+        "SummerSlam -LRB-2015-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "SummerSlam -LRB-2015-RRB-",
+            "line_index": 8,
+            "sentence": "Ten matches were contested at the event , with no pre-show ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000357",
+      "claim": "The abandonment of populated areas due to rising sea levels is caused by Global warming.",
+      "evidence_sentences": "Effects significant to humans include the threat to food security from decreasing crop yields and the abandonment of populated areas due to rising sea levels .",
+      "page_titles": [
+        "Global warming"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Global warming",
+            "line_index": 15,
+            "sentence": "Effects significant to humans include the threat to food security from decreasing crop yields and the abandonment of populated areas due to rising sea levels ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000358",
+      "claim": "The PRC has more members in China than the ROC.",
+      "evidence_sentences": "The Communist Party established the People 's Republic of China in Beijing on 1 October 1949 , while the ROC government relocated to Taiwan with its present de facto temporary capital in Taipei .",
+      "page_titles": [
+        "China"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "China",
+            "line_index": 10,
+            "sentence": "The Communist Party established the People 's Republic of China in Beijing on 1 October 1949 , while the ROC government relocated to Taiwan with its present de facto temporary capital in Taipei ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000359",
+      "claim": "Bill Graham Civic Auditorium was built in the 1910s.",
+      "evidence_sentences": "It was designed by renowned Bay Area architect John Galen Howard and built in 1915 as part of the Panama -- Pacific International Exposition .",
+      "page_titles": [
+        "Bill Graham Civic Auditorium"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Bill Graham Civic Auditorium",
+            "line_index": 2,
+            "sentence": "It was designed by renowned Bay Area architect John Galen Howard and built in 1915 as part of the Panama -- Pacific International Exposition ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000360",
+      "claim": "In reply to two songs from Neil Young's album Harvest, Lynyrd Skynyrd wrote Sweet Home Alabama.",
+      "evidence_sentences": "`` Sweet Home Alabama '' is a song by Southern rock band Lynyrd Skynyrd that first appeared in 1974 on their second album , Second Helping .",
+      "page_titles": [
+        "Sweet Home Alabama"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sweet Home Alabama",
+            "line_index": 0,
+            "sentence": "`` Sweet Home Alabama '' is a song by Southern rock band Lynyrd Skynyrd that first appeared in 1974 on their second album , Second Helping ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Sweet Home Alabama",
+              "line_index": 4,
+              "sentence": "The song was written in reply to `` Southern Man '' and `` Alabama '' by Neil Young ; Young is name-checked in the song 's lyrics ."
+            },
+            {
+              "page_title": "Harvest -LRB-Neil Young album-RRB-",
+              "line_index": 0,
+              "sentence": "Harvest is the fourth album by Canadian musician Neil Young , released on February 1 , 1972 , on Reprise Records , catalogue MS 2032 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000361",
+      "claim": "Dulquer Salmaan was unqualified to ever receive a Filmfare Award nomination.",
+      "evidence_sentences": "Salmaan made his acting debut in the 2012 action drama Second Show , for which he received the Filmfare Award for Best Male Debut .",
+      "page_titles": [
+        "Dulquer Salmaan"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Dulquer Salmaan",
+            "line_index": 4,
+            "sentence": "Salmaan made his acting debut in the 2012 action drama Second Show , for which he received the Filmfare Award for Best Male Debut ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Dulquer Salmaan",
+              "line_index": 5,
+              "sentence": "He received his first Filmfare Award for Best Actor nomination for his performance in Ustad Hotel -LRB- 2012 -RRB- ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000362",
+      "claim": "Wildfang was established in Portland, Oregon.",
+      "evidence_sentences": "The company was founded in 2010 by Emma Mcilroy and Julia Parsley , who previously worked at Nike , Inc. in Portland , Oregon .",
+      "page_titles": [
+        "Wildfang"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Wildfang",
+            "line_index": 1,
+            "sentence": "The company was founded in 2010 by Emma Mcilroy and Julia Parsley , who previously worked at Nike , Inc. in Portland , Oregon ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000363",
+      "claim": "Margaret Thatcher implemented windows that have come to be known as Thatcherism.",
+      "evidence_sentences": "As Prime Minister , she implemented policies that have come to be known as Thatcherism .",
+      "page_titles": [
+        "Margaret Thatcher"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Margaret Thatcher",
+            "line_index": 3,
+            "sentence": "As Prime Minister , she implemented policies that have come to be known as Thatcherism ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Margaret Thatcher",
+              "line_index": 25,
+              "sentence": "Always a controversial figure , she has been lauded as one of the greatest and most influential politicians in British history , even as arguments over Thatcherism persist ."
+            },
+            {
+              "page_title": "Thatcherism",
+              "line_index": 0,
+              "sentence": "Thatcherism describes the conviction politics , economic , social policy and political style of the British Conservative Party politician Margaret Thatcher , who was leader of her party from 1975 to 1990 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000364",
+      "claim": "Harold Macmillan died on December 19, 1986.",
+      "evidence_sentences": "Maurice Harold Macmillan , 1st Earl of Stockton , -LRB- 10 February 1894 -- 29 December 1986 -RRB- was a British Conservative politician and statesman who served as the Prime Minister of the United Kingdom from 10 January 1957 to 19 October 1963 .",
+      "page_titles": [
+        "Harold Macmillan"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Harold Macmillan",
+            "line_index": 0,
+            "sentence": "Maurice Harold Macmillan , 1st Earl of Stockton , -LRB- 10 February 1894 -- 29 December 1986 -RRB- was a British Conservative politician and statesman who served as the Prime Minister of the United Kingdom from 10 January 1957 to 19 October 1963 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000365",
+      "claim": "Murda Beatz's real middle names are Shane Lindstrom.",
+      "evidence_sentences": "Shane Lee Lindstrom -LRB- born February 11 , 1994 -RRB- , professionally known as Murda Beatz , is a Canadian hip hop record producer from Fort Erie , Ontario .",
+      "page_titles": [
+        "Murda Beatz"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Murda Beatz",
+            "line_index": 0,
+            "sentence": "Shane Lee Lindstrom -LRB- born February 11 , 1994 -RRB- , professionally known as Murda Beatz , is a Canadian hip hop record producer from Fort Erie , Ontario ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000366",
+      "claim": "Eric Church died on May 3, 1977.",
+      "evidence_sentences": "Kenneth Eric Church -LRB- born May 3 , 1977 -RRB- is an American country music singer and songwriter . Signed to Capitol Nashville since 2005 , he has since released a total of five studio albums for that label . His debut album , 2006 's Sinners Like Me , '' produced three singles on the Billboard country charts including the top 20 hits `` How ` Bout You , '' `` Two Pink Lines , '' and `` Guys Like Me '' . His second album , 2009 's Carolina , produced three more singles : `` Smoke a Little Smoke '' and his first top 10 hits , `` Love Your Love the Most '' and `` Hell on the Heart . '' 2011 's Chief , his first No. 1 album , gave him his first two No. 1 singles , `` Drink in My Hand '' and `` Springsteen , '' and the hits `` Homeboy , '' `` Creepin ' , '' and `` Like Jesus Does . '' His third No. 1 single was `` The Only Way I Know , '' which he , Jason Aldean , and Luke Bryan recorded for Aldean 's album Night Train . '' Eric Church got his sixth No. 1 hit with Keith Urban in May 2015 with the single `` Raise 'Em Up . '' He released his fifth studio album , Mr. Misunderstood , '' on November 3 , 2015 .",
+      "page_titles": [
+        "Eric Church",
+        "Eric Church",
+        "Eric Church",
+        "Eric Church",
+        "Eric Church",
+        "Eric Church",
+        "Eric Church",
+        "Eric Church"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Eric Church",
+            "line_index": 0,
+            "sentence": "Kenneth Eric Church -LRB- born May 3 , 1977 -RRB- is an American country music singer and songwriter ."
+          },
+          {
+            "page_title": "Eric Church",
+            "line_index": 1,
+            "sentence": "Signed to Capitol Nashville since 2005 , he has since released a total of five studio albums for that label ."
+          },
+          {
+            "page_title": "Eric Church",
+            "line_index": 2,
+            "sentence": "His debut album , 2006 's Sinners Like Me , '' produced three singles on the Billboard country charts including the top 20 hits `` How ` Bout You , '' `` Two Pink Lines , '' and `` Guys Like Me '' ."
+          },
+          {
+            "page_title": "Eric Church",
+            "line_index": 5,
+            "sentence": "His second album , 2009 's Carolina , produced three more singles : `` Smoke a Little Smoke '' and his first top 10 hits , `` Love Your Love the Most '' and `` Hell on the Heart . ''"
+          },
+          {
+            "page_title": "Eric Church",
+            "line_index": 6,
+            "sentence": "2011 's Chief , his first No. 1 album , gave him his first two No. 1 singles , `` Drink in My Hand '' and `` Springsteen , '' and the hits `` Homeboy , '' `` Creepin ' , '' and `` Like Jesus Does . ''"
+          },
+          {
+            "page_title": "Eric Church",
+            "line_index": 7,
+            "sentence": "His third No. 1 single was `` The Only Way I Know , '' which he , Jason Aldean , and Luke Bryan recorded for Aldean 's album Night Train . ''"
+          },
+          {
+            "page_title": "Eric Church",
+            "line_index": 11,
+            "sentence": "Eric Church got his sixth No. 1 hit with Keith Urban in May 2015 with the single `` Raise 'Em Up . ''"
+          },
+          {
+            "page_title": "Eric Church",
+            "line_index": 12,
+            "sentence": "He released his fifth studio album , Mr. Misunderstood , '' on November 3 , 2015 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000367",
+      "claim": "Nawaz Sharif is the 20th Prime Minister of Pakistan.",
+      "evidence_sentences": "Mian Muhammad Nawaz Sharif , is a Pakistani politician who is the 20th and current Prime Minister of Pakistan , in office since June 2013 .",
+      "page_titles": [
+        "Nawaz Sharif"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Nawaz Sharif",
+            "line_index": 0,
+            "sentence": "Mian Muhammad Nawaz Sharif , is a Pakistani politician who is the 20th and current Prime Minister of Pakistan , in office since June 2013 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000368",
+      "claim": "Howard impersonated James Rhodes.",
+      "evidence_sentences": "Howard played James Rhodes in Iron Man and reprised the role in the video game adaptation .",
+      "page_titles": [
+        "Terrence Howard"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Terrence Howard",
+            "line_index": 4,
+            "sentence": "Howard played James Rhodes in Iron Man and reprised the role in the video game adaptation ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Terrence Howard",
+              "line_index": 4,
+              "sentence": "Howard played James Rhodes in Iron Man and reprised the role in the video game adaptation ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000369",
+      "claim": "Tool has performed tours.",
+      "evidence_sentences": "Tool has won three Grammy Awards , performed worldwide tours , and produced albums topping the charts in several countries .",
+      "page_titles": [
+        "Tool -LRB-band-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tool -LRB-band-RRB-",
+            "line_index": 3,
+            "sentence": "Tool has won three Grammy Awards , performed worldwide tours , and produced albums topping the charts in several countries ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000370",
+      "claim": "Muscarinic acetylcholine receptors are barely known as mAChRs.",
+      "evidence_sentences": "Muscarinic acetylcholine receptors , or mAChRs , are acetylcholine receptors that form G protein-receptor complexes in the cell membranes of certain neurons and other cells .",
+      "page_titles": [
+        "Muscarinic acetylcholine receptor"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Muscarinic acetylcholine receptor",
+            "line_index": 0,
+            "sentence": "Muscarinic acetylcholine receptors , or mAChRs , are acetylcholine receptors that form G protein-receptor complexes in the cell membranes of certain neurons and other cells ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000371",
+      "claim": "Heavy Metal music was developed in Europe.",
+      "evidence_sentences": "Heavy metal -LRB- or simply metal -RRB- is a genre of rock music that developed in the late 1960s and early 1970s , largely in the United Kingdom and the United States .",
+      "page_titles": [
+        "Heavy metal music"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Heavy metal music",
+            "line_index": 0,
+            "sentence": "Heavy metal -LRB- or simply metal -RRB- is a genre of rock music that developed in the late 1960s and early 1970s , largely in the United Kingdom and the United States ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000372",
+      "claim": "Fantastic Four (2005 film) was released on the 7th month of the calendar year.",
+      "evidence_sentences": "Fantastic Four was released in the United States on July 8 , 2005 .",
+      "page_titles": [
+        "Fantastic Four -LRB-2005 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Fantastic Four -LRB-2005 film-RRB-",
+            "line_index": 7,
+            "sentence": "Fantastic Four was released in the United States on July 8 , 2005 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000373",
+      "claim": "Eddie Murphy rejected all offers to star in The Adventures of Pluto Nash.",
+      "evidence_sentences": "The Adventures of Pluto Nash is a 2002 Australian-American science fiction action comedy film starring Eddie Murphy -LRB- in a dual role -RRB- and directed by Ron Underwood .",
+      "page_titles": [
+        "The Adventures of Pluto Nash"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Adventures of Pluto Nash",
+            "line_index": 0,
+            "sentence": "The Adventures of Pluto Nash is a 2002 Australian-American science fiction action comedy film starring Eddie Murphy -LRB- in a dual role -RRB- and directed by Ron Underwood ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000374",
+      "claim": "The Closer's seventh season began in July 2011.",
+      "evidence_sentences": "On Monday , July 11 , 2011 , the series began its seventh and final season , having finished its sixth season as cable 's highest rated drama .",
+      "page_titles": [
+        "The Closer"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Closer",
+            "line_index": 8,
+            "sentence": "On Monday , July 11 , 2011 , the series began its seventh and final season , having finished its sixth season as cable 's highest rated drama ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000375",
+      "claim": "Roberto Orci wrote.",
+      "evidence_sentences": "Roberto Gaston Orci -LRB- born July 20 , 1973 -RRB- is a Mexican-American film and television screenwriter and producer .",
+      "page_titles": [
+        "Roberto Orci"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Roberto Orci",
+            "line_index": 0,
+            "sentence": "Roberto Gaston Orci -LRB- born July 20 , 1973 -RRB- is a Mexican-American film and television screenwriter and producer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000376",
+      "claim": "Georges Gilles de la Tourette described symptoms.",
+      "evidence_sentences": "Tourette described the symptoms of Tourette 's syndrome in nine patients in 1884 , using the name `` maladie des tics '' .",
+      "page_titles": [
+        "Georges Gilles de la Tourette"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Georges Gilles de la Tourette",
+            "line_index": 11,
+            "sentence": "Tourette described the symptoms of Tourette 's syndrome in nine patients in 1884 , using the name `` maladie des tics '' ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000377",
+      "claim": "Lucy Hale's mother's name is Karen.",
+      "evidence_sentences": "Karen Lucille Hale -LRB- born June 14 , 1989 -RRB- is an American actress and singer .",
+      "page_titles": [
+        "Lucy Hale"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Lucy Hale",
+            "line_index": 0,
+            "sentence": "Karen Lucille Hale -LRB- born June 14 , 1989 -RRB- is an American actress and singer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000378",
+      "claim": "Manmohan Singh was a prime minister in 2009 after the first Prime Minister of India.",
+      "evidence_sentences": "Manmohan Singh -LRB- -LSB- mənˈmoːɦən ˈsɪ́ŋɡ -RSB- ; born 26 September 1932 -RRB- is an Indian economist and politician who served as the Prime Minister of India from 2004 to 2014 .",
+      "page_titles": [
+        "Manmohan Singh"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Manmohan Singh",
+            "line_index": 0,
+            "sentence": "Manmohan Singh -LRB- -LSB- mənˈmoːɦən ˈsɪ́ŋɡ -RSB- ; born 26 September 1932 -RRB- is an Indian economist and politician who served as the Prime Minister of India from 2004 to 2014 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000379",
+      "claim": "Lyon had a population of over 500,000 in 2014.",
+      "evidence_sentences": "Lyon had a population of 506,615 in 2014 and is France 's third-largest city after Paris and Marseille .",
+      "page_titles": [
+        "Lyon"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Lyon",
+            "line_index": 4,
+            "sentence": "Lyon had a population of 506,615 in 2014 and is France 's third-largest city after Paris and Marseille ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Lyon",
+              "line_index": 4,
+              "sentence": "Lyon had a population of 506,615 in 2014 and is France 's third-largest city after Paris and Marseille ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000380",
+      "claim": "Raja Hindustani is a Russian language film.",
+      "evidence_sentences": "Raja Hindustani -LRB- translation : Indian King -RRB- is a 1996 Indian blockbuster Hindi-language drama romance film directed by Dharmesh Darshan .",
+      "page_titles": [
+        "Raja Hindustani"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Raja Hindustani",
+            "line_index": 0,
+            "sentence": "Raja Hindustani -LRB- translation : Indian King -RRB- is a 1996 Indian blockbuster Hindi-language drama romance film directed by Dharmesh Darshan ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000381",
+      "claim": "Glee.com was launched by Community Connect Inc. in 2007.",
+      "evidence_sentences": "The site was launched in February 2007 by Community Connect Inc. .",
+      "page_titles": [
+        "Glee.com"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Glee.com",
+            "line_index": 1,
+            "sentence": "The site was launched in February 2007 by Community Connect Inc. ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000382",
+      "claim": "Jonah Hill made $16 million dollars in 2014.",
+      "evidence_sentences": "Hill ranked 28th on Forbes magazine 's ranking of world 's highest paid actors from June 2014 to June 2015 , bringing in $ 16million .",
+      "page_titles": [
+        "Jonah Hill"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Jonah Hill",
+            "line_index": 4,
+            "sentence": "Hill ranked 28th on Forbes magazine 's ranking of world 's highest paid actors from June 2014 to June 2015 , bringing in $ 16million ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000383",
+      "claim": "Chris Bosh plays in the National Basketball Association as a professional basketball player.",
+      "evidence_sentences": "Christopher Wesson Bosh -LRB- born March 24 , 1984 -RRB- is an American professional basketball player for the Miami Heat of the National Basketball Association -LRB- NBA -RRB- .",
+      "page_titles": [
+        "Chris Bosh"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Chris Bosh",
+            "line_index": 0,
+            "sentence": "Christopher Wesson Bosh -LRB- born March 24 , 1984 -RRB- is an American professional basketball player for the Miami Heat of the National Basketball Association -LRB- NBA -RRB- ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Chris Bosh",
+              "line_index": 1,
+              "sentence": "A high school `` Mr. Basketball '' in Texas , Bosh left college at Georgia Tech after one season with the Georgia Tech Yellow Jackets men 's basketball team to enter the 2003 NBA draft ."
+            }
+          ],
+          [
+            {
+              "page_title": "Chris Bosh",
+              "line_index": 2,
+              "sentence": "He was selected fourth overall by the Toronto Raptors in a draft class that included multiple future NBA superstars such as LeBron James , Dwyane Wade and Carmelo Anthony ."
+            }
+          ],
+          [
+            {
+              "page_title": "Chris Bosh",
+              "line_index": 3,
+              "sentence": "While at Toronto , Bosh emerged as one of the young stars in the league ; he became a five-time NBA All-Star , was named to the All-NBA Second Team once , appeared for the U.S. national team -LRB- with whom he won a gold medal at the 2008 Summer Olympics -RRB- , and supplanted former fan-favorite Vince Carter as the face and leader of the Raptors franchise ."
+            }
+          ],
+          [
+            {
+              "page_title": "Chris Bosh",
+              "line_index": 6,
+              "sentence": "In the 2006 -- 07 season , Bosh led the Raptors to their first NBA Playoffs berth in five years , and their first ever division title ."
+            }
+          ],
+          [
+            {
+              "page_title": "Chris Bosh",
+              "line_index": 8,
+              "sentence": "Bosh won his first NBA title after Miami defeated the Oklahoma City Thunder 4 -- 1 in the 2012 NBA Finals ."
+            }
+          ],
+          [
+            {
+              "page_title": "Chris Bosh",
+              "line_index": 9,
+              "sentence": "He won his second title in 2013 as the Heat defeated the San Antonio Spurs in the 2013 NBA Finals ."
+            }
+          ],
+          [
+            {
+              "page_title": "Chris Bosh",
+              "line_index": 12,
+              "sentence": "Bosh was nicknamed `` CB4 '' by then-Toronto Raptors play-by-play commentator Chuck Swirsky , a combination of Bosh 's initials and then jersey number ."
+            },
+            {
+              "page_title": "Toronto Raptors",
+              "line_index": 1,
+              "sentence": "The Raptors compete in the National Basketball Association -LRB- NBA -RRB- , as a member club of the league 's Eastern Conference Atlantic Division ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 8,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000384",
+      "claim": "Same Old Love is by Demi Lovato.",
+      "evidence_sentences": "`` Same Old Love '' is a song by American singer Selena Gomez from her second studio album , Revival -LRB- 2015 -RRB- .",
+      "page_titles": [
+        "Same Old Love"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Same Old Love",
+            "line_index": 0,
+            "sentence": "`` Same Old Love '' is a song by American singer Selena Gomez from her second studio album , Revival -LRB- 2015 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000385",
+      "claim": "Lois Lane was influenced by real-life journalist Nellie Bly.",
+      "evidence_sentences": "She was also influenced by the real-life journalist Nellie Bly .",
+      "page_titles": [
+        "Lois Lane"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Lois Lane",
+            "line_index": 8,
+            "sentence": "She was also influenced by the real-life journalist Nellie Bly ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000386",
+      "claim": "Tijuana is in Mexico.",
+      "evidence_sentences": "Tijuana -LRB- -LSB- tiːˈwɑːnə -RSB- ; -LSB- tiˈxwana -RSB- -RRB- is the largest city in Baja California and on the Baja California Peninsula and center of the Tijuana metropolitan area , part of the international San Diego -- Tijuana metropolitan area .",
+      "page_titles": [
+        "Tijuana"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tijuana",
+            "line_index": 0,
+            "sentence": "Tijuana -LRB- -LSB- tiːˈwɑːnə -RSB- ; -LSB- tiˈxwana -RSB- -RRB- is the largest city in Baja California and on the Baja California Peninsula and center of the Tijuana metropolitan area , part of the international San Diego -- Tijuana metropolitan area ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000387",
+      "claim": "CHiPs is based on a popular TV series written by Rick Rosner.",
+      "evidence_sentences": "CHiPs is a 2017 American action comedy buddy cop film written and directed by Dax Shepard , based on the 1977 -- 1983 television series of the same name created by Rick Rosner .",
+      "page_titles": [
+        "CHiPs -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "CHiPs -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "CHiPs is a 2017 American action comedy buddy cop film written and directed by Dax Shepard , based on the 1977 -- 1983 television series of the same name created by Rick Rosner ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000388",
+      "claim": "The soundtrack of Far from the Madding Crowd was by Richard Rodney Bennett.",
+      "evidence_sentences": "The cinematography was by Nicolas Roeg and the soundtrack was by Richard Rodney Bennett .",
+      "page_titles": [
+        "Far from the Madding Crowd -LRB-1967 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Far from the Madding Crowd -LRB-1967 film-RRB-",
+            "line_index": 3,
+            "sentence": "The cinematography was by Nicolas Roeg and the soundtrack was by Richard Rodney Bennett ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000389",
+      "claim": "The Mirny (sloop-of-war) was the second ship of a television show.",
+      "evidence_sentences": "Mirny was a 20-gun sloop-of-war of the Imperial Russian Navy , the second ship of the First Russian Antarctic Expedition in 1819 -- 1821 , during which Faddey Bellingshausen -LRB- commander of the lead ship Vostok -RRB- and Mikhail Lazarev -LRB- commanding Mirny -RRB- circumnavigated the globe , discovered the continent of Antarctica and twice circumnavigated it , and discovered a number of islands and archipelagos in the Southern Ocean and the Pacific .",
+      "page_titles": [
+        "Mirny -LRB-sloop-of-war-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mirny -LRB-sloop-of-war-RRB-",
+            "line_index": 0,
+            "sentence": "Mirny was a 20-gun sloop-of-war of the Imperial Russian Navy , the second ship of the First Russian Antarctic Expedition in 1819 -- 1821 , during which Faddey Bellingshausen -LRB- commander of the lead ship Vostok -RRB- and Mikhail Lazarev -LRB- commanding Mirny -RRB- circumnavigated the globe , discovered the continent of Antarctica and twice circumnavigated it , and discovered a number of islands and archipelagos in the Southern Ocean and the Pacific ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Mirny -LRB-sloop-of-war-RRB-",
+              "line_index": 0,
+              "sentence": "Mirny was a 20-gun sloop-of-war of the Imperial Russian Navy , the second ship of the First Russian Antarctic Expedition in 1819 -- 1821 , during which Faddey Bellingshausen -LRB- commander of the lead ship Vostok -RRB- and Mikhail Lazarev -LRB- commanding Mirny -RRB- circumnavigated the globe , discovered the continent of Antarctica and twice circumnavigated it , and discovered a number of islands and archipelagos in the Southern Ocean and the Pacific ."
+            }
+          ],
+          [
+            {
+              "page_title": "Mirny -LRB-sloop-of-war-RRB-",
+              "line_index": 0,
+              "sentence": "Mirny was a 20-gun sloop-of-war of the Imperial Russian Navy , the second ship of the First Russian Antarctic Expedition in 1819 -- 1821 , during which Faddey Bellingshausen -LRB- commander of the lead ship Vostok -RRB- and Mikhail Lazarev -LRB- commanding Mirny -RRB- circumnavigated the globe , discovered the continent of Antarctica and twice circumnavigated it , and discovered a number of islands and archipelagos in the Southern Ocean and the Pacific ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000390",
+      "claim": "Vic Mensa has been nominated for a Grammy Award.",
+      "evidence_sentences": "Victor Kwesi Mensah -LRB- born June 6 , 1993 -RRB- , better known by his stage name Vic Mensa , is a Grammy-nominated American rapper from Chicago , Illinois .",
+      "page_titles": [
+        "Vic Mensa"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Vic Mensa",
+            "line_index": 0,
+            "sentence": "Victor Kwesi Mensah -LRB- born June 6 , 1993 -RRB- , better known by his stage name Vic Mensa , is a Grammy-nominated American rapper from Chicago , Illinois ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000391",
+      "claim": "Poseidon had a budget of $160 million and did not make a profit.",
+      "evidence_sentences": "Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million .",
+      "page_titles": [
+        "Poseidon -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Poseidon -LRB-film-RRB-",
+            "line_index": 6,
+            "sentence": "Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Poseidon -LRB-film-RRB-",
+              "line_index": 6,
+              "sentence": "Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000392",
+      "claim": "The 2013 Africa Cup of Nations was held in an odd-numbered year.",
+      "evidence_sentences": "As of 2013 , the tournament was switched to being held in odd-numbered years so as not to clash with the FIFA World Cup .",
+      "page_titles": [
+        "Africa Cup of Nations"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Africa Cup of Nations",
+            "line_index": 17,
+            "sentence": "As of 2013 , the tournament was switched to being held in odd-numbered years so as not to clash with the FIFA World Cup ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000393",
+      "claim": "The New Jersey Turnpike has lanes that are 12 feet long.",
+      "evidence_sentences": "The Turnpike has 12 ft lanes , 10 ft shoulders , 13 rest areas named after notable residents of New Jersey , and unusual exit signage that was considered the pinnacle of highway building in the 1950s .",
+      "page_titles": [
+        "New Jersey Turnpike"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "New Jersey Turnpike",
+            "line_index": 15,
+            "sentence": "The Turnpike has 12 ft lanes , 10 ft shoulders , 13 rest areas named after notable residents of New Jersey , and unusual exit signage that was considered the pinnacle of highway building in the 1950s ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "New Jersey Turnpike",
+              "line_index": 15,
+              "sentence": "The Turnpike has 12 ft lanes , 10 ft shoulders , 13 rest areas named after notable residents of New Jersey , and unusual exit signage that was considered the pinnacle of highway building in the 1950s ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000394",
+      "claim": "Baadshah had at least one language dubbed over it.",
+      "evidence_sentences": "The film was also dubbed into Hindi under the title Rowdy Baadshah by Goldmines TeleFilms .",
+      "page_titles": [
+        "Baadshah -LRB-2013 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Baadshah -LRB-2013 film-RRB-",
+            "line_index": 15,
+            "sentence": "The film was also dubbed into Hindi under the title Rowdy Baadshah by Goldmines TeleFilms ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000395",
+      "claim": "The world's largest economy by purchasing power parity is China.",
+      "evidence_sentences": "Since the introduction of economic reforms in 1978 , China has become one of the world 's fastest-growing major economies . , it is the world 's second-largest economy by nominal GDP and largest by purchasing power parity -LRB- PPP -RRB- .",
+      "page_titles": [
+        "China",
+        "China"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "China",
+            "line_index": 15,
+            "sentence": "Since the introduction of economic reforms in 1978 , China has become one of the world 's fastest-growing major economies ."
+          },
+          {
+            "page_title": "China",
+            "line_index": 16,
+            "sentence": ", it is the world 's second-largest economy by nominal GDP and largest by purchasing power parity -LRB- PPP -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000396",
+      "claim": "DodgeBall: A True Underdog Story includes cameos by Vince Vaughn and Ben Stiller.",
+      "evidence_sentences": "DodgeBall : A True Underdog Story is a 2004 American sports comedy film written and directed by Rawson Marshall Thurber and starring Vince Vaughn and Ben Stiller .",
+      "page_titles": [
+        "DodgeBall-COLON- A True Underdog Story"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "DodgeBall-COLON- A True Underdog Story",
+            "line_index": 0,
+            "sentence": "DodgeBall : A True Underdog Story is a 2004 American sports comedy film written and directed by Rawson Marshall Thurber and starring Vince Vaughn and Ben Stiller ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000397",
+      "claim": "Blank Space is on a list in a country.",
+      "evidence_sentences": "The song has also topped charts in Canada , South Africa and Australia .",
+      "page_titles": [
+        "Blank Space"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Blank Space",
+            "line_index": 9,
+            "sentence": "The song has also topped charts in Canada , South Africa and Australia ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Blank Space",
+              "line_index": 10,
+              "sentence": "It also charted in the top 10 in numerous countries , such as Austria , Czech Republic , Germany , New Zealand , Spain , and the United Kingdom ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000398",
+      "claim": "The Beach was adapted for film by John Denver exclusively.",
+      "evidence_sentences": "The Beach is a 2000 adventure drama film directed by Danny Boyle and based on the 1996 novel of the same name by Alex Garland , which was adapted for the film by John Hodge .",
+      "page_titles": [
+        "The Beach -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Beach -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "The Beach is a 2000 adventure drama film directed by Danny Boyle and based on the 1996 novel of the same name by Alex Garland , which was adapted for the film by John Hodge ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000399",
+      "claim": "Papua comprised all of Indonesian New Guinea and it was cultured.",
+      "evidence_sentences": "It was formerly called Irian Jaya -LRB- before that West Irian or Irian Barat -RRB- and comprised all of Indonesian New Guinea .",
+      "page_titles": [
+        "Papua -LRB-province-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Papua -LRB-province-RRB-",
+            "line_index": 3,
+            "sentence": "It was formerly called Irian Jaya -LRB- before that West Irian or Irian Barat -RRB- and comprised all of Indonesian New Guinea ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000400",
+      "claim": "The Book of Mormon was the winner of a Tony Award for Best Musical.",
+      "evidence_sentences": "The show was awarded nine Tony Awards , one of which was for Best Musical , and a Grammy Award for Best Musical Theater Album .",
+      "page_titles": [
+        "The Book of Mormon -LRB-musical-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Book of Mormon -LRB-musical-RRB-",
+            "line_index": 19,
+            "sentence": "The show was awarded nine Tony Awards , one of which was for Best Musical , and a Grammy Award for Best Musical Theater Album ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000401",
+      "claim": "The Fly was released in 1986.",
+      "evidence_sentences": "The Fly is a 1986 American science fiction horror film directed and co-written by David Cronenberg .",
+      "page_titles": [
+        "The Fly -LRB-1986 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Fly -LRB-1986 film-RRB-",
+            "line_index": 0,
+            "sentence": "The Fly is a 1986 American science fiction horror film directed and co-written by David Cronenberg ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Fly -LRB-1986 film-RRB-",
+              "line_index": 6,
+              "sentence": "The film was released on August 15 , 1986 to massive acclaim by critics and audiences , with praise mainly regarding the special effects and Goldblum 's performance ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Fly -LRB-1986 film-RRB-",
+              "line_index": 0,
+              "sentence": "The Fly is a 1986 American science fiction horror film directed and co-written by David Cronenberg ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Fly -LRB-1986 film-RRB-",
+              "line_index": 6,
+              "sentence": "The film was released on August 15 , 1986 to massive acclaim by critics and audiences , with praise mainly regarding the special effects and Goldblum 's performance ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    }
+  ],
+  "rubric": "# Judge Rubric (silver adjudication, v1)\n\nYou are an independent fact-checking adjudicator. You will see a batch of\nitems. Each item contains a **claim** and **evidence** (what is included\ndepends on the disclosure stage, stated in the batch header). For EVERY item\nyou must judge **only from the information provided**.\n\n## Task\n\nDecide whether the provided evidence **warrants** the claim:\n\n- `Supported` — the evidence clearly or probably establishes the claim is true.\n- `Refuted` — the evidence clearly or probably establishes the claim is false.\n- `Ambiguous` — the evidence is insufficient, partial, or mixed; you cannot\n  responsibly decide true or false from what is provided.\n\nAlso rate how sufficient the evidence is for deciding the claim\n(`clearly_sufficient | probably_sufficient | partial_or_ambiguous |\nprobably_insufficient | clearly_insufficient`), your confidence (integer\n0–100), and any issue flags that apply (see list).\n\n## Hard rules\n\n- Judge ONLY from the supplied claim and evidence. Do NOT use outside\n  knowledge to decide the verdict.\n- Do NOT browse the web or look anything up.\n- Do NOT speculate about hidden labels, other models, or why the item was\n  selected.\n- If the evidence alone does not settle the claim, say `Ambiguous` — that is a\n  valid, useful answer, not a failure.\n- `confidence` MUST be an integer from 0 to 100.\n- `brief_reason` must be short (one sentence) and grounded in the evidence.\n- Select issue flags only when the evidence shows that problem; use `none`\n  otherwise. Do not pad flags.\n\n## Issue flags\n\n`none`, `possible_missing_title_context`, `possible_coreference_or_entity_resolution`,\n`possible_missing_surrounding_context`, `multi_sentence_integration`,\n`numerical_or_temporal_reasoning`, `negation_or_scope`,\n`entity_or_attribute_confusion`, `partial_warrant`,\n`apparent_internal_contradiction`, `other`\n\n## Output format\n\nReturn ONLY a JSON array (no prose before or after), one object per item, in\nthe same order as the input:\n\n```json\n[\n  {\n    \"item_id\": \"SA-000001\",\n    \"judge_id\": \"judge_1\",\n    \"stage\": \"A\",\n    \"verdict\": \"Supported\",\n    \"evidence_sufficiency\": \"probably_sufficient\",\n    \"confidence\": 80,\n    \"issue_flags\": [\"none\"],\n    \"brief_reason\": \"The evidence sentence directly states the claim.\"\n  }\n]\n```\n\n`item_id`, `judge_id`, and `stage` must be copied exactly from the batch file.\nProduce exactly one object for every item in the batch — never skip or merge\nitems. If an item's evidence is empty or unreadable, verdict `Ambiguous`,\nsufficiency `clearly_insufficient`, confidence as you see fit, flag `other`.\n",
+  "disclosure_note": "Stage C. Judge only supplied fields. Null text means unavailable; do not fill it using outside knowledge."
+}

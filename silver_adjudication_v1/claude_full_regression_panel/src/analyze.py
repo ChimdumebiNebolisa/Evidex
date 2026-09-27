@@ -30,6 +30,8 @@ from scipy import stats
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import panel_config as cfg  # noqa: E402
 import run_judges  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+from taxonomy_legacy_v1 import taxonomy_row as legacy_taxonomy_row
 
 TAX_RESIDUAL = "silver_partial_or_ambiguous_warrant"
 TAX_STRUCTURE = "silver_structured_evidence_sensitive"
@@ -63,18 +65,7 @@ def taxonomy_row(r, cohort: str = "regression") -> str:
     The original had an NLI sub-branch inside the residual case that returned
     the same label on both paths, so no NLI field is consulted here.
     """
-    if r["still_ambiguous_after_C"]:
-        return TAX_RESIDUAL
-    if r["resolved_only_by_structure"] or r["reversed_after_structure"] or \
-            (r["consensus_A"] in ("Ambiguous", "Unresolved") and
-             r["consensus_C"] in ("Supported", "Refuted")):
-        return TAX_STRUCTURE
-    if r["reversed_after_titles"] or r["resolved_by_titles"]:
-        return TAX_TITLE
-    if cohort in ("regression", "resistant") and \
-            r["consensus_C"] in ("Supported", "Refuted"):
-        return TAX_UTILIZATION
-    return TAX_OTHER
+    return legacy_taxonomy_row(r, cohort)
 
 
 # --- 1. freeze ---------------------------------------------------------------

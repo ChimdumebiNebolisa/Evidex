@@ -1,0 +1,15 @@
+{
+  "corrections_v2/audit_freezes.py": "6f48b908b625da9a8da646f77a7a85d24e4bfe189656ed3c1a0481a32bb31708",
+  "corrections_v2/build_report_data.py": "a559541bcc5320fc58b2597036495a2901ec1856db351fef74f6aef43a417a5f",
+  "corrections_v2/reproduce.py": "68cd17a120326a0f66e9e51c4ce42f61de26c04d7bce3fdf8718ff9ab543a9ba",
+  "corrections_v2/rerun.py": "ae2b87bf12355442eb5e17ca2f9d5d6585966d7f4e178d8d876ea37915631727",
+  "corrections_v2/tests/test_corrections.py": "9720c80a581e1d3d6b7e03f7f5d493dfa76ddacd050d6f3cf891639a8c84d612",
+  "corrections_v2/verify_outputs.py": "88d8159407cd736025690a3de4862418a8fe754c0a84ca5a7aa3a0c062688ec7",
+  "fever_evidence.py": "69f0fd327b7966ba0f8214738f37dc596fbcc46b545d29aa7758364cf5c175f2",
+  "resolve_gold_evidence.py": "68a3d06a2bf539bfcd15bd8c76cf4186ae0dcdfa95e80974422a96abd64be671",
+  "silver_adjudication_v1/claude_full_regression_panel/src/analyze.py": "a63b842efd6de1809265717cc3863d9372b4bacd9d177e379eae5afc577c7261",
+  "silver_adjudication_v1/src/join_analysis_v2.py": "7a395359c927863404bb6f616faa48000163aaa7b83746ba2663edba28d0134a",
+  "silver_adjudication_v1/src/reconstruct_evidence.py": "b258a98cc0f0ecff32a517fe40e9649651d5dabe9c453bba9b641c19eb74b1bf",
+  "silver_adjudication_v1/src/taxonomy_legacy_v1.py": "29eeef5afcd3a1eb73cf7118f234811952ea2f66db0d4d29a101171b51030c41",
+  "silver_adjudication_v1/src/taxonomy_v2.py": "25b27e076a3f3d3fd0dd5872e6606e20d333fd8b86e6c7ec57e5dd8937180cba"
+}

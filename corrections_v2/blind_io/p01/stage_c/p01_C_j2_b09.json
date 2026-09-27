@@ -1,0 +1,3144 @@
+{
+  "judge_id": "judge_2",
+  "stage": "C",
+  "output_path": "corrections_v2/blind_io/p01/stage_c/p01_C_j2_b09.output.json",
+  "n_items": 100,
+  "item_ids": [
+    "SA-000802",
+    "SA-000803",
+    "SA-000804",
+    "SA-000805",
+    "SA-000806",
+    "SA-000807",
+    "SA-000808",
+    "SA-000809",
+    "SA-000810",
+    "SA-000811",
+    "SA-000812",
+    "SA-000813",
+    "SA-000814",
+    "SA-000815",
+    "SA-000816",
+    "SA-000817",
+    "SA-000818",
+    "SA-000819",
+    "SA-000820",
+    "SA-000821",
+    "SA-000822",
+    "SA-000823",
+    "SA-000824",
+    "SA-000825",
+    "SA-000826",
+    "SA-000827",
+    "SA-000828",
+    "SA-000829",
+    "SA-000830",
+    "SA-000831",
+    "SA-000832",
+    "SA-000833",
+    "SA-000834",
+    "SA-000835",
+    "SA-000836",
+    "SA-000837",
+    "SA-000838",
+    "SA-000839",
+    "SA-000840",
+    "SA-000841",
+    "SA-000842",
+    "SA-000843",
+    "SA-000844",
+    "SA-000845",
+    "SA-000846",
+    "SA-000847",
+    "SA-000848",
+    "SA-000849",
+    "SA-000850",
+    "SA-000851",
+    "SA-000852",
+    "SA-000853",
+    "SA-000854",
+    "SA-000855",
+    "SA-000856",
+    "SA-000857",
+    "SA-000858",
+    "SA-000859",
+    "SA-000860",
+    "SA-000861",
+    "SA-000862",
+    "SA-000863",
+    "SA-000864",
+    "SA-000865",
+    "SA-000866",
+    "SA-000867",
+    "SA-000868",
+    "SA-000869",
+    "SA-000870",
+    "SA-000871",
+    "SA-000872",
+    "SA-000873",
+    "SA-000874",
+    "SA-000875",
+    "SA-000876",
+    "SA-000877",
+    "SA-000878",
+    "SA-000879",
+    "SA-000880",
+    "SA-000881",
+    "SA-000882",
+    "SA-000883",
+    "SA-000884",
+    "SA-000885",
+    "SA-000886",
+    "SA-000887",
+    "SA-000888",
+    "SA-000889",
+    "SA-000890",
+    "SA-000891",
+    "SA-000892",
+    "SA-000893",
+    "SA-000894",
+    "SA-000895",
+    "SA-000896",
+    "SA-000897",
+    "SA-000898",
+    "SA-000899",
+    "SA-000900",
+    "SA-000901"
+  ],
+  "items": [
+    {
+      "item_id": "SA-000802",
+      "claim": "Uta Hagan graduated from college on June 12th, 1919.",
+      "evidence_sentences": "Uta Thyra Hagen -LRB- 12 June 1919 -- 14 January 2004 -RRB- was an American actress and theatre practitioner .",
+      "page_titles": [
+        "Uta Hagen"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Uta Hagen",
+            "line_index": 0,
+            "sentence": "Uta Thyra Hagen -LRB- 12 June 1919 -- 14 January 2004 -RRB- was an American actress and theatre practitioner ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000803",
+      "claim": "Richard Kuklinski led other lives.",
+      "evidence_sentences": "His family was apparently unaware of Kuklinski 's double life and crimes .",
+      "page_titles": [
+        "Richard Kuklinski"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Richard Kuklinski",
+            "line_index": 6,
+            "sentence": "His family was apparently unaware of Kuklinski 's double life and crimes ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000804",
+      "claim": "Ned Stark was introduced in 1996's A Storm of Swords.",
+      "evidence_sentences": "Introduced in 1996 's A Game of Thrones , Ned is the honorable lord of Winterfell , an ancient fortress in the North of the fictional continent of Westeros .",
+      "page_titles": [
+        "Ned Stark"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ned Stark",
+            "line_index": 1,
+            "sentence": "Introduced in 1996 's A Game of Thrones , Ned is the honorable lord of Winterfell , an ancient fortress in the North of the fictional continent of Westeros ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000805",
+      "claim": "The 2010 population of Syracuse, New York, was 145,170.",
+      "evidence_sentences": "At the 2010 census , the city population was 145,170 , and its metropolitan area had a population of 662,577 .",
+      "page_titles": [
+        "Syracuse, New York"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Syracuse, New York",
+            "line_index": 2,
+            "sentence": "At the 2010 census , the city population was 145,170 , and its metropolitan area had a population of 662,577 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000806",
+      "claim": "The Sterile Cuckoo was adapted from a novel written by John Nichols.",
+      "evidence_sentences": "The movie was adapted by Alvin Sargent from the 1965 novel by John Nichols , and directed by Alan J. Pakula , in his directing debut .",
+      "page_titles": [
+        "The Sterile Cuckoo"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Sterile Cuckoo",
+            "line_index": 3,
+            "sentence": "The movie was adapted by Alvin Sargent from the 1965 novel by John Nichols , and directed by Alan J. Pakula , in his directing debut ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000807",
+      "claim": "Despacito had a salsa as well as a pop version as of March 17, 2017.",
+      "evidence_sentences": "On March 17 , 2017 , both a solo pop version and a salsa version featuring Puerto Rican musician Victor Manuelle were released .",
+      "page_titles": [
+        "Despacito"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Despacito",
+            "line_index": 12,
+            "sentence": "On March 17 , 2017 , both a solo pop version and a salsa version featuring Puerto Rican musician Victor Manuelle were released ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000808",
+      "claim": "I Kissed a Girl is a horse.",
+      "evidence_sentences": "`` I Kissed a Girl '' is a song recorded by American singer Katy Perry for her second studio album , One of the Boys -LRB- 2008 -RRB- .",
+      "page_titles": [
+        "I Kissed a Girl"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "I Kissed a Girl",
+            "line_index": 0,
+            "sentence": "`` I Kissed a Girl '' is a song recorded by American singer Katy Perry for her second studio album , One of the Boys -LRB- 2008 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000809",
+      "claim": "José Ferrer was an actor in movies.",
+      "evidence_sentences": "José Vicente Ferrer de Otero y Cintrón -LRB- January 8 , 1912 -- January 26 , 1992 -RRB- , known as José Ferrer , was an American actor and theatre and film director .",
+      "page_titles": [
+        "José Ferrer"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "José Ferrer",
+            "line_index": 0,
+            "sentence": "José Vicente Ferrer de Otero y Cintrón -LRB- January 8 , 1912 -- January 26 , 1992 -RRB- , known as José Ferrer , was an American actor and theatre and film director ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "José Ferrer",
+              "line_index": 4,
+              "sentence": "In 1947 , Ferrer won the Tony Award for his theatrical performance of Cyrano de Bergerac , and in 1952 , he won the Distinguished Dramatic Actor Award for The Shrike , and also the Outstanding Director Award for directing the plays The Shrike , The Fourposter , and Stalag 17 ."
+            },
+            {
+              "page_title": "Tony Award",
+              "line_index": 0,
+              "sentence": "The Antoinette Perry Award for Excellence in Broadway Theatre , more commonly known as Tony Award , recognizes the excellence in live Broadway theatre ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000810",
+      "claim": "The Hunger Games are based on a novel.",
+      "evidence_sentences": "The Hunger Games film series consists of four science fiction dystopian adventure films based on The Hunger Games trilogy of novels , by the American author Suzanne Collins .",
+      "page_titles": [
+        "The Hunger Games -LRB-film series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Hunger Games -LRB-film series-RRB-",
+            "line_index": 0,
+            "sentence": "The Hunger Games film series consists of four science fiction dystopian adventure films based on The Hunger Games trilogy of novels , by the American author Suzanne Collins ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000811",
+      "claim": "Guillermo del Toro is not a novelist.",
+      "evidence_sentences": "Guillermo del Toro Gómez -LRB- -LSB- ɡiˈʝeɾmo ðel ˈtoɾo -RSB- ; born October 9 , 1964 -RRB- is a Mexican film director , screenwriter , producer , and novelist .",
+      "page_titles": [
+        "Guillermo del Toro"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Guillermo del Toro",
+            "line_index": 0,
+            "sentence": "Guillermo del Toro Gómez -LRB- -LSB- ɡiˈʝeɾmo ðel ˈtoɾo -RSB- ; born October 9 , 1964 -RRB- is a Mexican film director , screenwriter , producer , and novelist ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000812",
+      "claim": "Birthday Song (2 Chainz song) was produced by Kanye West.",
+      "evidence_sentences": "The song , which features fellow American rapper Kanye West , was produced by Sonny Digital , West , BWheezy , Anthony Kilhoffer , Lifted and Mike Dean .",
+      "page_titles": [
+        "Birthday Song -LRB-2 Chainz song-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Birthday Song -LRB-2 Chainz song-RRB-",
+            "line_index": 1,
+            "sentence": "The song , which features fellow American rapper Kanye West , was produced by Sonny Digital , West , BWheezy , Anthony Kilhoffer , Lifted and Mike Dean ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000813",
+      "claim": "Solanum contains plants with vegetables.",
+      "evidence_sentences": "It also contains the nightshades and horse nettles , as well as numerous plants cultivated for their ornamental flowers and fruit .",
+      "page_titles": [
+        "Solanum"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Solanum",
+            "line_index": 1,
+            "sentence": "It also contains the nightshades and horse nettles , as well as numerous plants cultivated for their ornamental flowers and fruit ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Solanum",
+              "line_index": 0,
+              "sentence": "Solanum is a large and diverse genus of flowering plants , which include two food crops of high economic importance , the potato and the tomato ."
+            },
+            {
+              "page_title": "Tomato",
+              "line_index": 15,
+              "sentence": "While tomatoes are botanically berry-type fruits , they are considered culinary vegetables , being ingredients of savory meals ."
+            }
+          ],
+          [
+            {
+              "page_title": "Solanum",
+              "line_index": 0,
+              "sentence": "Solanum is a large and diverse genus of flowering plants , which include two food crops of high economic importance , the potato and the tomato ."
+            }
+          ],
+          [
+            {
+              "page_title": "Solanum",
+              "line_index": 0,
+              "sentence": "Solanum is a large and diverse genus of flowering plants , which include two food crops of high economic importance , the potato and the tomato ."
+            }
+          ],
+          [
+            {
+              "page_title": "Solanum",
+              "line_index": 0,
+              "sentence": "Solanum is a large and diverse genus of flowering plants , which include two food crops of high economic importance , the potato and the tomato ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 1,
+        "alternative_annotation_indices": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000814",
+      "claim": "2015 was the year when the principal photography of The Disaster Aritst (film) started.",
+      "evidence_sentences": "Principal photography of the film began on December 8 , 2015 .",
+      "page_titles": [
+        "The Disaster Artist -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Disaster Artist -LRB-film-RRB-",
+            "line_index": 5,
+            "sentence": "Principal photography of the film began on December 8 , 2015 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000815",
+      "claim": "I Kissed a Girl is part of Katy Perry's first studio album.",
+      "evidence_sentences": "`` I Kissed a Girl '' is a song recorded by American singer Katy Perry for her second studio album , One of the Boys -LRB- 2008 -RRB- .",
+      "page_titles": [
+        "I Kissed a Girl"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "I Kissed a Girl",
+            "line_index": 0,
+            "sentence": "`` I Kissed a Girl '' is a song recorded by American singer Katy Perry for her second studio album , One of the Boys -LRB- 2008 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000816",
+      "claim": "Victoria (Dance Exponents song) was released in the Southern Hemisphere in 1982.",
+      "evidence_sentences": "Released in 1982 it reached Number 6 on the New Zealand singles chart .",
+      "page_titles": [
+        "Victoria -LRB-Dance Exponents song-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Victoria -LRB-Dance Exponents song-RRB-",
+            "line_index": 1,
+            "sentence": "Released in 1982 it reached Number 6 on the New Zealand singles chart ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000817",
+      "claim": "Lynyrd Skynyrd's song Sweet Home Alabama is a song that was written in reply to Neil Young's song Southern Man.",
+      "evidence_sentences": "The song was written in reply to `` Southern Man '' and `` Alabama '' by Neil Young ; Young is name-checked in the song 's lyrics .",
+      "page_titles": [
+        "Sweet Home Alabama"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sweet Home Alabama",
+            "line_index": 4,
+            "sentence": "The song was written in reply to `` Southern Man '' and `` Alabama '' by Neil Young ; Young is name-checked in the song 's lyrics ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000818",
+      "claim": "See You on the Other Side was released by Korn.",
+      "evidence_sentences": "See You on the Other Side is the seventh studio album by Korn .",
+      "page_titles": [
+        "See You on the Other Side -LRB-Korn album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "See You on the Other Side -LRB-Korn album-RRB-",
+            "line_index": 0,
+            "sentence": "See You on the Other Side is the seventh studio album by Korn ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000819",
+      "claim": "Cheese in the Trap (TV series) stars Batman.",
+      "evidence_sentences": "Cheese in the Trap is a South Korean television series starring Park Hae-jin , Kim Go-eun , Seo Kang-joon and Lee Sung-kyung .",
+      "page_titles": [
+        "Cheese in the Trap -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Cheese in the Trap -LRB-TV series-RRB-",
+            "line_index": 0,
+            "sentence": "Cheese in the Trap is a South Korean television series starring Park Hae-jin , Kim Go-eun , Seo Kang-joon and Lee Sung-kyung ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000820",
+      "claim": "Noel Coward made a comedy of manners called Private Lives.",
+      "evidence_sentences": "Private Lives is a 1930 comedy of manners in three acts by Noël Coward .",
+      "page_titles": [
+        "Private Lives"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Private Lives",
+            "line_index": 0,
+            "sentence": "Private Lives is a 1930 comedy of manners in three acts by Noël Coward ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000821",
+      "claim": "Loretta Sanchez is only German.",
+      "evidence_sentences": "Loretta L. Sánchez -LRB- born January 7 , 1960 -RRB- is an American politician who served in the United States House of Representatives from 1997 to 2017 .",
+      "page_titles": [
+        "Loretta Sanchez"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Loretta Sanchez",
+            "line_index": 0,
+            "sentence": "Loretta L. Sánchez -LRB- born January 7 , 1960 -RRB- is an American politician who served in the United States House of Representatives from 1997 to 2017 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000822",
+      "claim": "Salt River Valley is in northern Arizona.",
+      "evidence_sentences": "The Salt River Valley is an extensive valley on the Salt River in central Arizona , which contains the Phoenix Metropolitan Area .",
+      "page_titles": [
+        "Salt River Valley"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Salt River Valley",
+            "line_index": 0,
+            "sentence": "The Salt River Valley is an extensive valley on the Salt River in central Arizona , which contains the Phoenix Metropolitan Area ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000823",
+      "claim": "Ding Yanyuhang was born in April of 1993.",
+      "evidence_sentences": "Ding Yanyuhang -LRB- alternate spelling : Yan Yu Hang -RRB- -LRB- , born August 20 , 1993 -RRB- is a Chinese professional basketball player .",
+      "page_titles": [
+        "Ding Yanyuhang"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ding Yanyuhang",
+            "line_index": 0,
+            "sentence": "Ding Yanyuhang -LRB- alternate spelling : Yan Yu Hang -RRB- -LRB- , born August 20 , 1993 -RRB- is a Chinese professional basketball player ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000824",
+      "claim": "Aristotle spent almost 40 years at the Academy.",
+      "evidence_sentences": "At seventeen or eighteen years of age , he joined Plato 's Academy in Athens and remained there until the age of thirty-seven -LRB- c. 347 BC -RRB- .",
+      "page_titles": [
+        "Aristotle"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Aristotle",
+            "line_index": 2,
+            "sentence": "At seventeen or eighteen years of age , he joined Plato 's Academy in Athens and remained there until the age of thirty-seven -LRB- c. 347 BC -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000825",
+      "claim": "Kojol received an award.",
+      "evidence_sentences": "Regarded as one of India 's most successful and highest-paid actresses , Kajol is the recipient of numerous accolades , including six Filmfare Awards , among twelve nominations .",
+      "page_titles": [
+        "Kajol"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kajol",
+            "line_index": 2,
+            "sentence": "Regarded as one of India 's most successful and highest-paid actresses , Kajol is the recipient of numerous accolades , including six Filmfare Awards , among twelve nominations ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Kajol",
+              "line_index": 4,
+              "sentence": "In 2011 , the Government of India awarded her with the Padma Shri , the fourth highest civilian honour of the country ."
+            }
+          ],
+          [
+            {
+              "page_title": "Kajol",
+              "line_index": 8,
+              "sentence": "She rose to prominence by featuring as the female lead in four of India 's annually top-grossing romances -- Yeh Dillagi -LRB- 1994 -RRB- , Pyaar Kiya To Darna Kya -LRB- 1998 -RRB- , Pyaar To Hona Hi Tha -LRB- 1998 -RRB- and Hum Aapke Dil Mein Rehte Hain -LRB- 1999 -RRB- -- and received wide critical recognition for playing against type in the 1997 mystery film Gupt : The Hidden Truth , that earned her a Filmfare Award for Best Villain , and the 1998 psychological thriller Dushman ."
+            }
+          ],
+          [
+            {
+              "page_title": "Kajol",
+              "line_index": 9,
+              "sentence": "Her acclaimed portrayal of a conservative NRI in the blockbuster romance Dilwale Dulhania Le Jayenge -LRB- 1995 -RRB- , a tomboy in the blockbuster romance Kuch Kuch Hota Hai -LRB- 1998 -RRB- , a lower middle class Punjabi woman in the blockbuster melodrama Kabhi Khushi Kabhie Gham ... -LRB- 2001 -RRB- , a blind Kashmiri woman in the romantic thriller Fanaa -LRB- 2006 -RRB- and a divorced , single mother in the drama My Name Is Khan -LRB- 2010 -RRB- garnered her five Filmfare Awards for Best Actress ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000826",
+      "claim": "Congressional Space Medal of Honor is awarded by the President on behalf of the Senate.",
+      "evidence_sentences": "The highest award given by NASA , it is awarded by the President of the United States in Congress 's name on recommendations from the Administrator of the National Aeronautics and Space Administration .",
+      "page_titles": [
+        "Congressional Space Medal of Honor"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Congressional Space Medal of Honor",
+            "line_index": 1,
+            "sentence": "The highest award given by NASA , it is awarded by the President of the United States in Congress 's name on recommendations from the Administrator of the National Aeronautics and Space Administration ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000827",
+      "claim": "2006 had the last windstorm to hit Stanley Park.",
+      "evidence_sentences": "Thousands of trees were lost -LRB- and many replanted -RRB- after three major windstorms that took place in the past 100 years , the last in 2006 .",
+      "page_titles": [
+        "Stanley Park"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Stanley Park",
+            "line_index": 16,
+            "sentence": "Thousands of trees were lost -LRB- and many replanted -RRB- after three major windstorms that took place in the past 100 years , the last in 2006 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000828",
+      "claim": "Brian De Palma is a writer.",
+      "evidence_sentences": "Brian Russell De Palma -LRB- born September 11 , 1940 -RRB- is an American film director and screenwriter .",
+      "page_titles": [
+        "Brian De Palma"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Brian De Palma",
+            "line_index": 0,
+            "sentence": "Brian Russell De Palma -LRB- born September 11 , 1940 -RRB- is an American film director and screenwriter ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000829",
+      "claim": "Virginia transitioned from an agricultural to industrial economy during the Civil War.",
+      "evidence_sentences": "Virginia 's economy changed from primarily agricultural to industrial during the 1960s and 1970s , and in 2002 computer chips became the state 's leading export by monetary value .",
+      "page_titles": [
+        "Virginia"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Virginia",
+            "line_index": 19,
+            "sentence": "Virginia 's economy changed from primarily agricultural to industrial during the 1960s and 1970s , and in 2002 computer chips became the state 's leading export by monetary value ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000830",
+      "claim": "The Crips are a mob.",
+      "evidence_sentences": "The Crips are a primarily African-American gang .",
+      "page_titles": [
+        "Crips"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Crips",
+            "line_index": 3,
+            "sentence": "The Crips are a primarily African-American gang ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000831",
+      "claim": "Sancho Panza is a fictional character in a novel written by a Spanish writer born in 1616.",
+      "evidence_sentences": "Sancho Panza -LSB- ˈsantʃo ˈpanθa -RSB- is a fictional character in the novel Don Quixote written by Spanish author Don Miguel de Cervantes Saavedra in 1605 .",
+      "page_titles": [
+        "Sancho Panza"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sancho Panza",
+            "line_index": 0,
+            "sentence": "Sancho Panza -LSB- ˈsantʃo ˈpanθa -RSB- is a fictional character in the novel Don Quixote written by Spanish author Don Miguel de Cervantes Saavedra in 1605 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000832",
+      "claim": "Nestor Carbonell is famous.",
+      "evidence_sentences": "Néstor Gastón Carbonell -LRB- -LSB- ˈnestor ɣasˈtoŋ karβoˈneʎ -RSB- ; born December 1 , 1967 -RRB- is an American actor .",
+      "page_titles": [
+        "Nestor Carbonell"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Nestor Carbonell",
+            "line_index": 0,
+            "sentence": "Néstor Gastón Carbonell -LRB- -LSB- ˈnestor ɣasˈtoŋ karβoˈneʎ -RSB- ; born December 1 , 1967 -RRB- is an American actor ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Nestor Carbonell",
+              "line_index": 1,
+              "sentence": "He is perhaps most famous for his roles as Richard Alpert in ABC 's drama series Lost , and Mayor Anthony Garcia in the Christopher Nolan films The Dark Knight and The Dark Knight Rises ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000833",
+      "claim": "The Beverly Hillbillies ranked among the top 10 most watched programs on television.",
+      "evidence_sentences": "The Beverly Hillbillies ranked among the top 20 most-watched programs on television for eight of its nine seasons , twice ranking as the number one series of the year , with a number of episodes that remain among the most-watched television episodes in history .",
+      "page_titles": [
+        "The Beverly Hillbillies"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Beverly Hillbillies",
+            "line_index": 6,
+            "sentence": "The Beverly Hillbillies ranked among the top 20 most-watched programs on television for eight of its nine seasons , twice ranking as the number one series of the year , with a number of episodes that remain among the most-watched television episodes in history ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000834",
+      "claim": "Libya is the 16th largest country in the world in 2017.",
+      "evidence_sentences": "With an area of almost 1.8 e6km2 , Libya is the fourth largest country in Africa , and is the 16th largest country in the world .",
+      "page_titles": [
+        "Libya"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Libya",
+            "line_index": 2,
+            "sentence": "With an area of almost 1.8 e6km2 , Libya is the fourth largest country in Africa , and is the 16th largest country in the world ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000835",
+      "claim": "Rio's sequel was released on a date during the 21st century.",
+      "evidence_sentences": "Rio is a 2011 American 3D computer-animated adventure film-produced by Blue Sky Studios and directed by Carlos Saldanha .",
+      "page_titles": [
+        "Rio -LRB-2011 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Rio -LRB-2011 film-RRB-",
+            "line_index": 0,
+            "sentence": "Rio is a 2011 American 3D computer-animated adventure film-produced by Blue Sky Studios and directed by Carlos Saldanha ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Rio -LRB-2011 film-RRB-",
+              "line_index": 15,
+              "sentence": "Rio premiered on March 22 , 2011 , in Lagoa , Rio de Janeiro , and had its general release on April 15 , 2011 , in North America ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000836",
+      "claim": "Don Bradman was a Test player.",
+      "evidence_sentences": "Bradman 's meteoric rise from bush cricket to the Australian Test team took just over two years .",
+      "page_titles": [
+        "Don Bradman"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Don Bradman",
+            "line_index": 5,
+            "sentence": "Bradman 's meteoric rise from bush cricket to the Australian Test team took just over two years ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Don Bradman",
+              "line_index": 1,
+              "sentence": "Bradman 's career Test batting average of 99.94 is often cited as the greatest achievement by any sportsman in any major sport ."
+            },
+            {
+              "page_title": "Test cricket",
+              "line_index": 0,
+              "sentence": "Test cricket is the longest form of the sport of cricket and is considered its highest standard ."
+            }
+          ],
+          [
+            {
+              "page_title": "Don Bradman",
+              "line_index": 20,
+              "sentence": "Even after he became reclusive in his declining years his opinion was highly sought , and his status as a national icon was still recognised -- more than 50 years after his retirement as a Test player , in 2001 , Prime Minister John Howard of Australia called him the `` greatest living Australian '' ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 1,
+        "alternative_annotation_indices": [
+          0,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000837",
+      "claim": "Scream used people.",
+      "evidence_sentences": "Starring Neve Campbell , Courteney Cox , and David Arquette , the film series grossed over $ 604 million in worldwide box-office receipts and consists of four motion pictures directed by Craven .",
+      "page_titles": [
+        "Scream -LRB-franchise-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Scream -LRB-franchise-RRB-",
+            "line_index": 1,
+            "sentence": "Starring Neve Campbell , Courteney Cox , and David Arquette , the film series grossed over $ 604 million in worldwide box-office receipts and consists of four motion pictures directed by Craven ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Scream -LRB-franchise-RRB-",
+              "line_index": 1,
+              "sentence": "Starring Neve Campbell , Courteney Cox , and David Arquette , the film series grossed over $ 604 million in worldwide box-office receipts and consists of four motion pictures directed by Craven ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scream -LRB-franchise-RRB-",
+              "line_index": 6,
+              "sentence": "Sidney receives support in the films from town deputy Dewey Riley , reporter Gale Weathers , and film-geek Randy Meeks ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scream -LRB-franchise-RRB-",
+              "line_index": 1,
+              "sentence": "Starring Neve Campbell , Courteney Cox , and David Arquette , the film series grossed over $ 604 million in worldwide box-office receipts and consists of four motion pictures directed by Craven ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scream -LRB-franchise-RRB-",
+              "line_index": 14,
+              "sentence": "Scream became notable for its use of established and recognizable actors which was uncommon for horror films at the time , yet has since become common in part due to Scream 's success ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000838",
+      "claim": "The Fame sold 4.7 million digital copies as of April 2016.",
+      "evidence_sentences": "It has sold 4.7 million copies in the United States as of April 2016 and is the seventh best-selling digital album in history .",
+      "page_titles": [
+        "The Fame"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Fame",
+            "line_index": 13,
+            "sentence": "It has sold 4.7 million copies in the United States as of April 2016 and is the seventh best-selling digital album in history ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000839",
+      "claim": "Craig David has been nominated for several Grammy Awards.",
+      "evidence_sentences": "David has been nominated for thirteen Brit Awards : four times for Best British Male , and twice received a Grammy Award nomination for Best Male Pop Vocal Performance .",
+      "page_titles": [
+        "Craig David"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Craig David",
+            "line_index": 5,
+            "sentence": "David has been nominated for thirteen Brit Awards : four times for Best British Male , and twice received a Grammy Award nomination for Best Male Pop Vocal Performance ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000840",
+      "claim": "The undergraduate college of Harvard University became coeducational after its merger with Radcliffe College.",
+      "evidence_sentences": "The undergraduate college became coeducational after its 1977 merger with Radcliffe College .",
+      "page_titles": [
+        "Harvard University"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Harvard University",
+            "line_index": 8,
+            "sentence": "The undergraduate college became coeducational after its 1977 merger with Radcliffe College ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000841",
+      "claim": "One Flew Over the Cuckoo's Nest only won one Academy Award.",
+      "evidence_sentences": "The film was the second to win all five major Academy Awards -LRB- Best Picture , Actor in Lead Role , Actress in Lead Role , Director , and Screenplay -RRB- following It Happened One Night in 1934 , an accomplishment not repeated until 1991 by The Silence of the Lambs .",
+      "page_titles": [
+        "One Flew Over the Cuckoo's Nest -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "One Flew Over the Cuckoo's Nest -LRB-film-RRB-",
+            "line_index": 5,
+            "sentence": "The film was the second to win all five major Academy Awards -LRB- Best Picture , Actor in Lead Role , Actress in Lead Role , Director , and Screenplay -RRB- following It Happened One Night in 1934 , an accomplishment not repeated until 1991 by The Silence of the Lambs ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000842",
+      "claim": "X-Men: Apocalypse was cancelled in 2013.",
+      "evidence_sentences": "X-Men : Apocalypse is a 2016 American superhero film based on the fictional X-Men characters that appear in Marvel Comics .",
+      "page_titles": [
+        "X-Men-COLON- Apocalypse"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "X-Men-COLON- Apocalypse",
+            "line_index": 0,
+            "sentence": "X-Men : Apocalypse is a 2016 American superhero film based on the fictional X-Men characters that appear in Marvel Comics ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000843",
+      "claim": "Britt Robertson was in the film series Girlboss.",
+      "evidence_sentences": "That same year , she headlined the Netflix comedy television series Girlboss , portraying self-made millionaire Sophia Amoruso .",
+      "page_titles": [
+        "Britt Robertson"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Britt Robertson",
+            "line_index": 15,
+            "sentence": "That same year , she headlined the Netflix comedy television series Girlboss , portraying self-made millionaire Sophia Amoruso ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Britt Robertson",
+              "line_index": 15,
+              "sentence": "That same year , she headlined the Netflix comedy television series Girlboss , portraying self-made millionaire Sophia Amoruso ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000844",
+      "claim": "St. Anger was released on June 3, 2003.",
+      "evidence_sentences": "St. Anger is the eighth studio album by American heavy metal band Metallica , released on June 5 , 2003 , by Elektra Records .",
+      "page_titles": [
+        "St. Anger"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "St. Anger",
+            "line_index": 0,
+            "sentence": "St. Anger is the eighth studio album by American heavy metal band Metallica , released on June 5 , 2003 , by Elektra Records ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000845",
+      "claim": "Toy Story 2 was released by North Korea.",
+      "evidence_sentences": "Toy Story 2 is a 1999 American computer-animated comedy adventure film produced by Pixar Animation Studios and released by Walt Disney Pictures .",
+      "page_titles": [
+        "Toy Story 2"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Toy Story 2",
+            "line_index": 0,
+            "sentence": "Toy Story 2 is a 1999 American computer-animated comedy adventure film produced by Pixar Animation Studios and released by Walt Disney Pictures ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Toy Story 2",
+              "line_index": 0,
+              "sentence": "Toy Story 2 is a 1999 American computer-animated comedy adventure film produced by Pixar Animation Studios and released by Walt Disney Pictures ."
+            }
+          ],
+          [
+            {
+              "page_title": "Toy Story 2",
+              "line_index": 0,
+              "sentence": "Toy Story 2 is a 1999 American computer-animated comedy adventure film produced by Pixar Animation Studios and released by Walt Disney Pictures ."
+            }
+          ],
+          [
+            {
+              "page_title": "Toy Story 2",
+              "line_index": 0,
+              "sentence": "Toy Story 2 is a 1999 American computer-animated comedy adventure film produced by Pixar Animation Studios and released by Walt Disney Pictures ."
+            },
+            {
+              "page_title": "Walt Disney Pictures",
+              "line_index": 0,
+              "sentence": "Walt Disney Pictures , Inc. is an American film production company and a subsidiary of Walt Disney Studios , owned by The Walt Disney Company ."
+            },
+            {
+              "page_title": "Walt Disney Pictures",
+              "line_index": 1,
+              "sentence": "The subsidiary is based at the Walt Disney Studios in Burbank , California , and is the main producer of live-action feature films within the Walt Disney Studios unit ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000846",
+      "claim": "John Deighton had no choice but to pursue other lines of work.",
+      "evidence_sentences": "By 1864 , Deighton was forced to pursue other lines of work as he developed health problems -LRB- swelling of the legs and feet -RRB- .",
+      "page_titles": [
+        "John Deighton"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "John Deighton",
+            "line_index": 24,
+            "sentence": "By 1864 , Deighton was forced to pursue other lines of work as he developed health problems -LRB- swelling of the legs and feet -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000847",
+      "claim": "Lost did not last from September 22, 2004 to May 23, 2010.",
+      "evidence_sentences": "Lost is an American television drama series that originally aired on the American Broadcasting Company -LRB- ABC -RRB- from September 22 , 2004 , to May 23 , 2010 , over six seasons , comprising a total of 121 episodes .",
+      "page_titles": [
+        "Lost -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Lost -LRB-TV series-RRB-",
+            "line_index": 0,
+            "sentence": "Lost is an American television drama series that originally aired on the American Broadcasting Company -LRB- ABC -RRB- from September 22 , 2004 , to May 23 , 2010 , over six seasons , comprising a total of 121 episodes ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000848",
+      "claim": "Papua was formerly called West Iran.",
+      "evidence_sentences": "It was formerly called Irian Jaya -LRB- before that West Irian or Irian Barat -RRB- and comprised all of Indonesian New Guinea .",
+      "page_titles": [
+        "Papua -LRB-province-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Papua -LRB-province-RRB-",
+            "line_index": 3,
+            "sentence": "It was formerly called Irian Jaya -LRB- before that West Irian or Irian Barat -RRB- and comprised all of Indonesian New Guinea ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000849",
+      "claim": "The Washington Monument is between 560 ft and 575 ft tall.",
+      "evidence_sentences": "Located almost due east of the Reflecting Pool and the Lincoln Memorial , the monument , made of marble , granite , and bluestone gneiss , is both the world 's tallest stone structure and the world 's tallest obelisk , standing 554 ft tall according to the National Geodetic Survey -LRB- measured 2013 -- 14 -RRB- or 555 ft tall according to the National Park Service -LRB- measured 1884 -RRB- .",
+      "page_titles": [
+        "Washington Monument"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Washington Monument",
+            "line_index": 1,
+            "sentence": "Located almost due east of the Reflecting Pool and the Lincoln Memorial , the monument , made of marble , granite , and bluestone gneiss , is both the world 's tallest stone structure and the world 's tallest obelisk , standing 554 ft tall according to the National Geodetic Survey -LRB- measured 2013 -- 14 -RRB- or 555 ft tall according to the National Park Service -LRB- measured 1884 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000850",
+      "claim": "Papua comprised all of a country.",
+      "evidence_sentences": "Papua is the largest and easternmost province of Indonesia , comprising most of western New Guinea . Western New Guinea , also known as Papua -LRB- formerly Irian Jaya -RRB- , is the Indonesian part of the island of New Guinea -LRB- also known as Papua -RRB- , lying to the west of the nation of Papua New Guinea .",
+      "page_titles": [
+        "Papua -LRB-province-RRB-",
+        "Western New Guinea"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Papua -LRB-province-RRB-",
+            "line_index": 0,
+            "sentence": "Papua is the largest and easternmost province of Indonesia , comprising most of western New Guinea ."
+          },
+          {
+            "page_title": "Western New Guinea",
+            "line_index": 0,
+            "sentence": "Western New Guinea , also known as Papua -LRB- formerly Irian Jaya -RRB- , is the Indonesian part of the island of New Guinea -LRB- also known as Papua -RRB- , lying to the west of the nation of Papua New Guinea ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000851",
+      "claim": "Mary of Teck was never queen mother.",
+      "evidence_sentences": "After George 's death in 1936 , she became queen mother when her eldest son , Edward , ascended the throne , but to her dismay , he abdicated later the same year in order to marry twice-divorced American socialite Wallis Simpson .",
+      "page_titles": [
+        "Mary of Teck"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mary of Teck",
+            "line_index": 12,
+            "sentence": "After George 's death in 1936 , she became queen mother when her eldest son , Edward , ascended the throne , but to her dismay , he abdicated later the same year in order to marry twice-divorced American socialite Wallis Simpson ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Mary of Teck",
+              "line_index": 12,
+              "sentence": "After George 's death in 1936 , she became queen mother when her eldest son , Edward , ascended the throne , but to her dismay , he abdicated later the same year in order to marry twice-divorced American socialite Wallis Simpson ."
+            }
+          ],
+          [
+            {
+              "page_title": "Mary of Teck",
+              "line_index": 12,
+              "sentence": "After George 's death in 1936 , she became queen mother when her eldest son , Edward , ascended the throne , but to her dismay , he abdicated later the same year in order to marry twice-divorced American socialite Wallis Simpson ."
+            }
+          ],
+          [
+            {
+              "page_title": "Mary of Teck",
+              "line_index": 12,
+              "sentence": "After George 's death in 1936 , she became queen mother when her eldest son , Edward , ascended the throne , but to her dismay , he abdicated later the same year in order to marry twice-divorced American socialite Wallis Simpson ."
+            }
+          ],
+          [
+            {
+              "page_title": "Mary of Teck",
+              "line_index": 13,
+              "sentence": "She supported her second son , Albert , who succeeded to the throne as George VI , until his death in 1952 ."
+            },
+            {
+              "page_title": "George VI",
+              "line_index": 0,
+              "sentence": "George VI -LRB- Albert Frederick Arthur George ; 14 December 1895 -- 6 February 1952 -RRB- was King of the United Kingdom and the Dominions of the British Commonwealth from 11 December 1936 until his death ."
+            }
+          ],
+          [
+            {
+              "page_title": "Mary of Teck",
+              "line_index": 12,
+              "sentence": "After George 's death in 1936 , she became queen mother when her eldest son , Edward , ascended the throne , but to her dismay , he abdicated later the same year in order to marry twice-divorced American socialite Wallis Simpson ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 6,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000852",
+      "claim": "X-Men: Apocalypse is only a comic book.",
+      "evidence_sentences": "X-Men : Apocalypse is a 2016 American superhero film based on the fictional X-Men characters that appear in Marvel Comics .",
+      "page_titles": [
+        "X-Men-COLON- Apocalypse"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "X-Men-COLON- Apocalypse",
+            "line_index": 0,
+            "sentence": "X-Men : Apocalypse is a 2016 American superhero film based on the fictional X-Men characters that appear in Marvel Comics ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000853",
+      "claim": "Floyd Mayweather Jr. has made 30 career boxing knockouts.",
+      "evidence_sentences": "He finished his career with a record of 26 wins without a loss or draw in world title fights -LRB- 10 by KO -RRB- ; 23 wins -LRB- 9 KOs -RRB- in lineal title fights ; 24 wins -LRB- 7 KOs -RRB- against former or current world titlists ; 12 wins -LRB- 3 KOs -RRB- against former or current lineal champions ; and 2 wins -LRB- 1 KO -RRB- against International Boxing Hall of Fame inductees .",
+      "page_titles": [
+        "Floyd Mayweather Jr."
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Floyd Mayweather Jr.",
+            "line_index": 10,
+            "sentence": "He finished his career with a record of 26 wins without a loss or draw in world title fights -LRB- 10 by KO -RRB- ; 23 wins -LRB- 9 KOs -RRB- in lineal title fights ; 24 wins -LRB- 7 KOs -RRB- against former or current world titlists ; 12 wins -LRB- 3 KOs -RRB- against former or current lineal champions ; and 2 wins -LRB- 1 KO -RRB- against International Boxing Hall of Fame inductees ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000854",
+      "claim": "A song is on Overexposed.",
+      "evidence_sentences": "Overexposed is the fourth studio album by the American band Maroon 5 , released on June 20 , 2012 , by A&M Octone Records .",
+      "page_titles": [
+        "Overexposed -LRB-album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Overexposed -LRB-album-RRB-",
+            "line_index": 0,
+            "sentence": "Overexposed is the fourth studio album by the American band Maroon 5 , released on June 20 , 2012 , by A&M Octone Records ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000855",
+      "claim": "Larry the Cable Guy series finale aired on August 28th, 2013.",
+      "evidence_sentences": "The series finale aired August 28 , 2013 .",
+      "page_titles": [
+        "Larry the Cable Guy"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Larry the Cable Guy",
+            "line_index": 14,
+            "sentence": "The series finale aired August 28 , 2013 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000856",
+      "claim": "Mellila is a Spanish dish.",
+      "evidence_sentences": "Melilla -LRB- -LSB- məˈliːjə -RSB- ; -LSB- meˈliʎa -RSB- , -LSB- meˈliʝa -RSB- ; Mřič -LSB- , Maliliyyah -RRB- is a Spanish autonomous city located on the north coast of Africa , sharing a border with Morocco with an area of 12.3 km2 .",
+      "page_titles": [
+        "Melilla"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Melilla",
+            "line_index": 0,
+            "sentence": "Melilla -LRB- -LSB- məˈliːjə -RSB- ; -LSB- meˈliʎa -RSB- , -LSB- meˈliʝa -RSB- ; Mřič -LSB- , Maliliyyah -RRB- is a Spanish autonomous city located on the north coast of Africa , sharing a border with Morocco with an area of 12.3 km2 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Melilla",
+              "line_index": 1,
+              "sentence": "Melilla , along with Ceuta , is one of two permanently inhabited Spanish cities in mainland Africa ."
+            }
+          ],
+          [
+            {
+              "page_title": "Melilla",
+              "line_index": 5,
+              "sentence": "Melilla , like Ceuta , was a free port before Spain joined the European Union ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000857",
+      "claim": "Loretta Sanchez was born on January 27, 1960.",
+      "evidence_sentences": "Loretta L. Sánchez -LRB- born January 7 , 1960 -RRB- is an American politician who served in the United States House of Representatives from 1997 to 2017 .",
+      "page_titles": [
+        "Loretta Sanchez"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Loretta Sanchez",
+            "line_index": 0,
+            "sentence": "Loretta L. Sánchez -LRB- born January 7 , 1960 -RRB- is an American politician who served in the United States House of Representatives from 1997 to 2017 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Loretta Sanchez",
+              "line_index": 0,
+              "sentence": "Loretta L. Sánchez -LRB- born January 7 , 1960 -RRB- is an American politician who served in the United States House of Representatives from 1997 to 2017 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000858",
+      "claim": "For two years in a row, Josh Hutcherson was in two different films.",
+      "evidence_sentences": "Hutcherson 's other early film appearances include Little Manhattan , Zathura -LRB- both 2005 -RRB- , RV -LRB- 2006 -RRB- , Bridge to Terabithia -LRB- 2007 -RRB- , Journey to the Center of the Earth -LRB- 2008 -RRB- , and The Kids Are All Right -LRB- 2010 -RRB- .",
+      "page_titles": [
+        "Josh Hutcherson"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Josh Hutcherson",
+            "line_index": 5,
+            "sentence": "Hutcherson 's other early film appearances include Little Manhattan , Zathura -LRB- both 2005 -RRB- , RV -LRB- 2006 -RRB- , Bridge to Terabithia -LRB- 2007 -RRB- , Journey to the Center of the Earth -LRB- 2008 -RRB- , and The Kids Are All Right -LRB- 2010 -RRB- ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Josh Hutcherson",
+              "line_index": 7,
+              "sentence": "During the same period he also played a lead role in Journey 2 : The Mysterious Island -LRB- 2012 -RRB- and a voice role in the animated film Epic -LRB- 2013 -RRB- ."
+            }
+          ],
+          [
+            {
+              "page_title": "Josh Hutcherson",
+              "line_index": 2,
+              "sentence": "His first film role was in Miracle Dogs -LRB- 2003 -RRB- on Animal Planet , followed by a motion-capture performance in The Polar Express -LRB- 2004 -RRB- and a voice-acting role in Howl 's Moving Castle -LRB- 2005 -RRB- ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000859",
+      "claim": "SpongeBob SquarePants is not the most distributed property of MTV Networks.",
+      "evidence_sentences": "The series ' popularity has made it a media franchise , as well as the highest rated series to ever air on Nickelodeon , and the most distributed property of MTV Networks .",
+      "page_titles": [
+        "SpongeBob SquarePants"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "SpongeBob SquarePants",
+            "line_index": 2,
+            "sentence": "The series ' popularity has made it a media franchise , as well as the highest rated series to ever air on Nickelodeon , and the most distributed property of MTV Networks ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000860",
+      "claim": "Samsung exited the electronics industry in the late 1960s.",
+      "evidence_sentences": "Samsung entered the electronics industry in the late 1960s and the construction and shipbuilding industries in the mid-1970s ; these areas would drive its subsequent growth .",
+      "page_titles": [
+        "Samsung"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Samsung",
+            "line_index": 6,
+            "sentence": "Samsung entered the electronics industry in the late 1960s and the construction and shipbuilding industries in the mid-1970s ; these areas would drive its subsequent growth ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000861",
+      "claim": "Brian Michael Bendis has worked in media.",
+      "evidence_sentences": "Brian Michael Bendis -LRB- born August 18 , 1967 -RRB- is an American comic book writer and artist .",
+      "page_titles": [
+        "Brian Michael Bendis"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Brian Michael Bendis",
+            "line_index": 0,
+            "sentence": "Brian Michael Bendis -LRB- born August 18 , 1967 -RRB- is an American comic book writer and artist ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000862",
+      "claim": "The cinematography of Far from the Madding Crowd was by Nicolas Roeg.",
+      "evidence_sentences": "The cinematography was by Nicolas Roeg and the soundtrack was by Richard Rodney Bennett .",
+      "page_titles": [
+        "Far from the Madding Crowd -LRB-1967 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Far from the Madding Crowd -LRB-1967 film-RRB-",
+            "line_index": 3,
+            "sentence": "The cinematography was by Nicolas Roeg and the soundtrack was by Richard Rodney Bennett ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000863",
+      "claim": "The Book of Mormon won a Tony Award.",
+      "evidence_sentences": "The show was awarded nine Tony Awards , one of which was for Best Musical , and a Grammy Award for Best Musical Theater Album .",
+      "page_titles": [
+        "The Book of Mormon -LRB-musical-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Book of Mormon -LRB-musical-RRB-",
+            "line_index": 19,
+            "sentence": "The show was awarded nine Tony Awards , one of which was for Best Musical , and a Grammy Award for Best Musical Theater Album ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Book of Mormon -LRB-musical-RRB-",
+              "line_index": 19,
+              "sentence": "The show was awarded nine Tony Awards , one of which was for Best Musical , and a Grammy Award for Best Musical Theater Album ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000864",
+      "claim": "Ronaldinho has scored 33 goals for the Brazil national football team.",
+      "evidence_sentences": "Ronaldinho has played 97 matches and scored 33 goals for the Brazil national team .",
+      "page_titles": [
+        "Ronaldinho"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ronaldinho",
+            "line_index": 10,
+            "sentence": "Ronaldinho has played 97 matches and scored 33 goals for the Brazil national team ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Ronaldinho",
+              "line_index": 10,
+              "sentence": "Ronaldinho has played 97 matches and scored 33 goals for the Brazil national team ."
+            }
+          ],
+          [
+            {
+              "page_title": "Ronaldinho",
+              "line_index": 10,
+              "sentence": "Ronaldinho has played 97 matches and scored 33 goals for the Brazil national team ."
+            }
+          ],
+          [
+            {
+              "page_title": "Ronaldinho",
+              "line_index": 10,
+              "sentence": "Ronaldinho has played 97 matches and scored 33 goals for the Brazil national team ."
+            },
+            {
+              "page_title": "Brazil national football team",
+              "line_index": 0,
+              "sentence": "The Brazil national football team -LRB- Seleção Brasileira de Futebol -RRB- represents Brazil in international men 's association football ."
+            }
+          ],
+          [
+            {
+              "page_title": "Ronaldinho",
+              "line_index": 10,
+              "sentence": "Ronaldinho has played 97 matches and scored 33 goals for the Brazil national team ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000865",
+      "claim": "Jackie (2016 film) is incapable of being a drama film.",
+      "evidence_sentences": "Jackie is a 2016 biographical drama film directed by Pablo Larraín and written by Noah Oppenheim .",
+      "page_titles": [
+        "Jackie -LRB-2016 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Jackie -LRB-2016 film-RRB-",
+            "line_index": 0,
+            "sentence": "Jackie is a 2016 biographical drama film directed by Pablo Larraín and written by Noah Oppenheim ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000866",
+      "claim": "Journalist Lynn Barber created An Education.",
+      "evidence_sentences": "An Education is a 2009 coming-of-age drama film based on a memoir of the same name by British journalist Lynn Barber .",
+      "page_titles": [
+        "An Education"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "An Education",
+            "line_index": 0,
+            "sentence": "An Education is a 2009 coming-of-age drama film based on a memoir of the same name by British journalist Lynn Barber ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000867",
+      "claim": "Harold Macmillan was born on Monday February 10, 1894.",
+      "evidence_sentences": "Maurice Harold Macmillan , 1st Earl of Stockton , -LRB- 10 February 1894 -- 29 December 1986 -RRB- was a British Conservative politician and statesman who served as the Prime Minister of the United Kingdom from 10 January 1957 to 19 October 1963 .",
+      "page_titles": [
+        "Harold Macmillan"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Harold Macmillan",
+            "line_index": 0,
+            "sentence": "Maurice Harold Macmillan , 1st Earl of Stockton , -LRB- 10 February 1894 -- 29 December 1986 -RRB- was a British Conservative politician and statesman who served as the Prime Minister of the United Kingdom from 10 January 1957 to 19 October 1963 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000868",
+      "claim": "Starrcade was originally broadcast via closed-circuit television in 1988.",
+      "evidence_sentences": "In 1983 , JCP created Starrcade as their supercard to continue the Thanksgiving tradition , and spread it across its territory on closed-circuit television .",
+      "page_titles": [
+        "Starrcade"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Starrcade",
+            "line_index": 14,
+            "sentence": "In 1983 , JCP created Starrcade as their supercard to continue the Thanksgiving tradition , and spread it across its territory on closed-circuit television ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Starrcade",
+              "line_index": 15,
+              "sentence": "It popularized broadcasting on closed-circuit television and was financially successful ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000869",
+      "claim": "Pakistan is not officially called the Islamic Republic of Pakistan.",
+      "evidence_sentences": "Pakistan -LRB- -LSB- pɑːkᵻˈstɑːn -RSB- -LSB- -RRB- , officially the Islamic Republic of Pakistan -LRB- -LSB- -RRB- , is a federal parliamentary republic in South Asia on the crossroads of Central and Western Asia .",
+      "page_titles": [
+        "Pakistan"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Pakistan",
+            "line_index": 0,
+            "sentence": "Pakistan -LRB- -LSB- pɑːkᵻˈstɑːn -RSB- -LSB- -RRB- , officially the Islamic Republic of Pakistan -LRB- -LSB- -RRB- , is a federal parliamentary republic in South Asia on the crossroads of Central and Western Asia ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000870",
+      "claim": "The KGB was a service that operated under the military.",
+      "evidence_sentences": "The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops .",
+      "page_titles": [
+        "KGB"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "KGB",
+            "line_index": 7,
+            "sentence": "The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000871",
+      "claim": "A View to a Kill is only directed by Chris Columbus.",
+      "evidence_sentences": "It was the third James Bond film to be directed by John Glen , and the last to feature Lois Maxwell as Miss Moneypenny .",
+      "page_titles": [
+        "A View to a Kill"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "A View to a Kill",
+            "line_index": 6,
+            "sentence": "It was the third James Bond film to be directed by John Glen , and the last to feature Lois Maxwell as Miss Moneypenny ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000872",
+      "claim": "The Dark Tower is a film.",
+      "evidence_sentences": "The Dark Tower is an upcoming American science fantasy western action horror film directed and co-written by Nikolaj Arcel .",
+      "page_titles": [
+        "The Dark Tower -LRB-2017 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Dark Tower -LRB-2017 film-RRB-",
+            "line_index": 0,
+            "sentence": "The Dark Tower is an upcoming American science fantasy western action horror film directed and co-written by Nikolaj Arcel ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Dark Tower -LRB-2017 film-RRB-",
+              "line_index": 1,
+              "sentence": "A continuation of Stephen King 's novel series of the same name , the film stars Idris Elba as Roland Deschain , a gunslinger on a quest to protect the Dark Tower -- a mythical structure which supports all realities -- and Matthew McConaughey as his nemesis , Walter Padick ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Dark Tower -LRB-2017 film-RRB-",
+              "line_index": 6,
+              "sentence": "The film is set to be released on August 4 , 2017 in 3D and 2D by Columbia Pictures ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000873",
+      "claim": "Offers of appointment to the Supreme Court of the United States were declined by William Howard Taft.",
+      "evidence_sentences": "Despite his personal ambition to become chief justice , Taft declined repeated offers of appointment to the Supreme Court of the United States , believing his political work to be more important .",
+      "page_titles": [
+        "William Howard Taft"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "William Howard Taft",
+            "line_index": 11,
+            "sentence": "Despite his personal ambition to become chief justice , Taft declined repeated offers of appointment to the Supreme Court of the United States , believing his political work to be more important ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000874",
+      "claim": "Angelsberg is located in Luxembourg.",
+      "evidence_sentences": "Angelsberg is a small town in the commune of Fischbach , in central Luxembourg .",
+      "page_titles": [
+        "Angelsberg"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Angelsberg",
+            "line_index": 0,
+            "sentence": "Angelsberg is a small town in the commune of Fischbach , in central Luxembourg ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000875",
+      "claim": "Michaela Watkins date of birth is December 14, 1971.",
+      "evidence_sentences": "Michaela Suzanne Watkins -LRB- born December 14 , 1971 -RRB- is an American actress and comedian .",
+      "page_titles": [
+        "Michaela Watkins"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Michaela Watkins",
+            "line_index": 0,
+            "sentence": "Michaela Suzanne Watkins -LRB- born December 14 , 1971 -RRB- is an American actress and comedian ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000876",
+      "claim": "Shooter is about an expert cowboy.",
+      "evidence_sentences": "The show stars Ryan Phillippe in the lead role of Bob Lee Swagger an expert marksman living in exile who is coaxed back into action after learning of a plot to kill the president .",
+      "page_titles": [
+        "Shooter -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Shooter -LRB-TV series-RRB-",
+            "line_index": 1,
+            "sentence": "The show stars Ryan Phillippe in the lead role of Bob Lee Swagger an expert marksman living in exile who is coaxed back into action after learning of a plot to kill the president ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000877",
+      "claim": "Reign Over Me stars people.",
+      "evidence_sentences": "The film stars Adam Sandler , Don Cheadle , Jada Pinkett Smith , Liv Tyler , Donald Sutherland , Saffron Burrows and Mike Binder himself .",
+      "page_titles": [
+        "Reign Over Me"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Reign Over Me",
+            "line_index": 1,
+            "sentence": "The film stars Adam Sandler , Don Cheadle , Jada Pinkett Smith , Liv Tyler , Donald Sutherland , Saffron Burrows and Mike Binder himself ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000878",
+      "claim": "Tilda Swinton was born on November 5, 1960.",
+      "evidence_sentences": "Katherine Matilda `` Tilda '' Swinton -LRB- born 5 November 1960 -RRB- is a British actress , performance artist , model , and fashion muse , known for her roles in independent and Hollywood films .",
+      "page_titles": [
+        "Tilda Swinton"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tilda Swinton",
+            "line_index": 0,
+            "sentence": "Katherine Matilda `` Tilda '' Swinton -LRB- born 5 November 1960 -RRB- is a British actress , performance artist , model , and fashion muse , known for her roles in independent and Hollywood films ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000879",
+      "claim": "Email filtering output is capable of delivering unchanged frogs.",
+      "evidence_sentences": "For its output , it might pass the message through unchanged for delivery to the user 's mailbox , redirect the message for delivery elsewhere , or even throw the message away .",
+      "page_titles": [
+        "Email filtering"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Email filtering",
+            "line_index": 5,
+            "sentence": "For its output , it might pass the message through unchanged for delivery to the user 's mailbox , redirect the message for delivery elsewhere , or even throw the message away ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Email filtering",
+              "line_index": 5,
+              "sentence": "For its output , it might pass the message through unchanged for delivery to the user 's mailbox , redirect the message for delivery elsewhere , or even throw the message away ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000880",
+      "claim": "Tata Motors is excluded from the BSE SENSEX index.",
+      "evidence_sentences": "Tata Motors is listed on the -LRB- BSE -RRB- Bombay Stock Exchange , where it is a constituent of the BSE SENSEX index , the National Stock Exchange of India , and the New York Stock Exchange .",
+      "page_titles": [
+        "Tata Motors"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tata Motors",
+            "line_index": 13,
+            "sentence": "Tata Motors is listed on the -LRB- BSE -RRB- Bombay Stock Exchange , where it is a constituent of the BSE SENSEX index , the National Stock Exchange of India , and the New York Stock Exchange ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000881",
+      "claim": "Benjamin Franklin was a spokesman.",
+      "evidence_sentences": "Franklin was a renowned polymath and a leading author , printer , political theorist , politician , freemason , postmaster , scientist , inventor , civic activist , statesman , and diplomat .",
+      "page_titles": [
+        "Benjamin Franklin"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Benjamin Franklin",
+            "line_index": 1,
+            "sentence": "Franklin was a renowned polymath and a leading author , printer , political theorist , politician , freemason , postmaster , scientist , inventor , civic activist , statesman , and diplomat ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000882",
+      "claim": "A Milli is by a person from a country.",
+      "evidence_sentences": "`` A Milli '' , abbreviated occasionally as `` Milli '' , is a song by American hip hop recording artist Lil Wayne .",
+      "page_titles": [
+        "A Milli"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "A Milli",
+            "line_index": 0,
+            "sentence": "`` A Milli '' , abbreviated occasionally as `` Milli '' , is a song by American hip hop recording artist Lil Wayne ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000883",
+      "claim": "Elizabeth I was the daughter of Vladimir Putin.",
+      "evidence_sentences": "Elizabeth was the daughter of Henry VIII and Anne Boleyn , his second wife , who was executed two-and-a-half years after Elizabeth 's birth .",
+      "page_titles": [
+        "Elizabeth I of England"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Elizabeth I of England",
+            "line_index": 4,
+            "sentence": "Elizabeth was the daughter of Henry VIII and Anne Boleyn , his second wife , who was executed two-and-a-half years after Elizabeth 's birth ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000884",
+      "claim": "Yemen does not have an area of 203,850 square miles.",
+      "evidence_sentences": "Yemen is the second-largest country in the peninsula , occupying 527,970 km2 -LRB- 203,850 sq mi -RRB- .",
+      "page_titles": [
+        "Yemen"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Yemen",
+            "line_index": 1,
+            "sentence": "Yemen is the second-largest country in the peninsula , occupying 527,970 km2 -LRB- 203,850 sq mi -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000885",
+      "claim": "Victoria Palace Theatre is on the same side as a central London railway terminus.",
+      "evidence_sentences": "Victoria Palace Theatre is a West End theatre in Victoria Street , in the City of Westminster , opposite Victoria Station . Victoria station is a central London railway terminus and connected London Underground station in Victoria , in the City of Westminster .",
+      "page_titles": [
+        "Victoria Palace Theatre",
+        "London Victoria station"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Victoria Palace Theatre",
+            "line_index": 0,
+            "sentence": "Victoria Palace Theatre is a West End theatre in Victoria Street , in the City of Westminster , opposite Victoria Station ."
+          },
+          {
+            "page_title": "London Victoria station",
+            "line_index": 0,
+            "sentence": "Victoria station is a central London railway terminus and connected London Underground station in Victoria , in the City of Westminster ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000886",
+      "claim": "In 2010, the metropolitan area of Syracuse, New York, had a metropolitan population of more than 600,000.",
+      "evidence_sentences": "At the 2010 census , the city population was 145,170 , and its metropolitan area had a population of 662,577 .",
+      "page_titles": [
+        "Syracuse, New York"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Syracuse, New York",
+            "line_index": 2,
+            "sentence": "At the 2010 census , the city population was 145,170 , and its metropolitan area had a population of 662,577 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000887",
+      "claim": "T2 Trainspotting is directed by a man from the capital city of Scotland.",
+      "evidence_sentences": "The film is directed by Danny Boyle and written by John Hodge , based on characters created by Irvine Welsh in his novel Trainspotting and its follow-up Porno . Danny Boyle -LRB- born 20 October 1956 -RRB- is an English director , producer , screenwriter and theatre director , known for his work on films including Shallow Grave , Trainspotting , The Beach , 28 Days Later , Sunshine , Slumdog Millionaire , 127 Hours , and Steve Jobs .",
+      "page_titles": [
+        "T2 Trainspotting",
+        "Danny Boyle"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "T2 Trainspotting",
+            "line_index": 1,
+            "sentence": "The film is directed by Danny Boyle and written by John Hodge , based on characters created by Irvine Welsh in his novel Trainspotting and its follow-up Porno ."
+          },
+          {
+            "page_title": "Danny Boyle",
+            "line_index": 0,
+            "sentence": "Danny Boyle -LRB- born 20 October 1956 -RRB- is an English director , producer , screenwriter and theatre director , known for his work on films including Shallow Grave , Trainspotting , The Beach , 28 Days Later , Sunshine , Slumdog Millionaire , 127 Hours , and Steve Jobs ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000888",
+      "claim": "Otto I, Holy Roman Emperor was defeated by the Magyars.",
+      "evidence_sentences": "After putting down a brief civil war among the rebellious duchies , Otto defeated the Magyars at the Battle of Lechfeld in 955 , thus ending the Hungarian invasions of Western Europe .",
+      "page_titles": [
+        "Otto I, Holy Roman Emperor"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Otto I, Holy Roman Emperor",
+            "line_index": 11,
+            "sentence": "After putting down a brief civil war among the rebellious duchies , Otto defeated the Magyars at the Battle of Lechfeld in 955 , thus ending the Hungarian invasions of Western Europe ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000889",
+      "claim": "The Dodo has been depicted with a naked arm.",
+      "evidence_sentences": "It has been depicted with brownish-grey plumage , yellow feet , a tuft of tail feathers , a grey , naked head , and a black , yellow , and green beak .",
+      "page_titles": [
+        "Dodo"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Dodo",
+            "line_index": 10,
+            "sentence": "It has been depicted with brownish-grey plumage , yellow feet , a tuft of tail feathers , a grey , naked head , and a black , yellow , and green beak ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000890",
+      "claim": "Stanley Williams was an inmate in California.",
+      "evidence_sentences": "Williams was the second inmate in California to be executed in 2005 .",
+      "page_titles": [
+        "Stanley Williams"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Stanley Williams",
+            "line_index": 5,
+            "sentence": "Williams was the second inmate in California to be executed in 2005 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000891",
+      "claim": "Mercedes-Benz is a division of BMW.",
+      "evidence_sentences": "Mercedes-Benz -LRB- -LSB- mɛʁˈtseːdəsˌbɛnts -RSB- -RRB- is a global automobile manufacturer and a division of the German company Daimler AG .",
+      "page_titles": [
+        "Mercedes-Benz"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mercedes-Benz",
+            "line_index": 0,
+            "sentence": "Mercedes-Benz -LRB- -LSB- mɛʁˈtseːdəsˌbɛnts -RSB- -RRB- is a global automobile manufacturer and a division of the German company Daimler AG ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000892",
+      "claim": "Shomu Mukherjee was born on April 10, 2008.",
+      "evidence_sentences": "Shomu Mukherjee -LRB- or Shomu Mukherji -RRB- -LRB- 19 June , 1943 -- 10 April 2008 -RRB- was a Bengali Indian director , writer and producer .",
+      "page_titles": [
+        "Shomu Mukherjee"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Shomu Mukherjee",
+            "line_index": 0,
+            "sentence": "Shomu Mukherjee -LRB- or Shomu Mukherji -RRB- -LRB- 19 June , 1943 -- 10 April 2008 -RRB- was a Bengali Indian director , writer and producer ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Shomu Mukherjee",
+              "line_index": 0,
+              "sentence": "Shomu Mukherjee -LRB- or Shomu Mukherji -RRB- -LRB- 19 June , 1943 -- 10 April 2008 -RRB- was a Bengali Indian director , writer and producer ."
+            }
+          ],
+          [
+            {
+              "page_title": "Shomu Mukherjee",
+              "line_index": 0,
+              "sentence": "Shomu Mukherjee -LRB- or Shomu Mukherji -RRB- -LRB- 19 June , 1943 -- 10 April 2008 -RRB- was a Bengali Indian director , writer and producer ."
+            }
+          ],
+          [
+            {
+              "page_title": "Shomu Mukherjee",
+              "line_index": 3,
+              "sentence": "Born in 1943 , he was the fourth son of Sashadhar Mukherjee , the owner of Filmalaya studios , and Sati Rani Devi ."
+            }
+          ],
+          [
+            {
+              "page_title": "Shomu Mukherjee",
+              "line_index": 9,
+              "sentence": "He died of a heart attack on 10 April 2008 at the age of 64 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Shomu Mukherjee",
+              "line_index": 0,
+              "sentence": "Shomu Mukherjee -LRB- or Shomu Mukherji -RRB- -LRB- 19 June , 1943 -- 10 April 2008 -RRB- was a Bengali Indian director , writer and producer ."
+            }
+          ],
+          [
+            {
+              "page_title": "Shomu Mukherjee",
+              "line_index": 3,
+              "sentence": "Born in 1943 , he was the fourth son of Sashadhar Mukherjee , the owner of Filmalaya studios , and Sati Rani Devi ."
+            }
+          ],
+          [
+            {
+              "page_title": "Shomu Mukherjee",
+              "line_index": 9,
+              "sentence": "He died of a heart attack on 10 April 2008 at the age of 64 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Shomu Mukherjee",
+              "line_index": 0,
+              "sentence": "Shomu Mukherjee -LRB- or Shomu Mukherji -RRB- -LRB- 19 June , 1943 -- 10 April 2008 -RRB- was a Bengali Indian director , writer and producer ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 9,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000893",
+      "claim": "Asylum Records is an American record label founded in 1979 by David Geffen and partner Elliot Roberts.",
+      "evidence_sentences": "Asylum Records is an American record label founded in 1971 by David Geffen and partner Elliot Roberts .",
+      "page_titles": [
+        "Asylum Records"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Asylum Records",
+            "line_index": 0,
+            "sentence": "Asylum Records is an American record label founded in 1971 by David Geffen and partner Elliot Roberts ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000894",
+      "claim": "An Education is a drama commercial.",
+      "evidence_sentences": "An Education is a 2009 coming-of-age drama film based on a memoir of the same name by British journalist Lynn Barber .",
+      "page_titles": [
+        "An Education"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "An Education",
+            "line_index": 0,
+            "sentence": "An Education is a 2009 coming-of-age drama film based on a memoir of the same name by British journalist Lynn Barber ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "An Education",
+              "line_index": 7,
+              "sentence": "It screened on 10 September 2009 at the Toronto International Film Festival and was featured at the Telluride by the Sea Film Festival in Portsmouth , New Hampshire , US , on 19 September 2009 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000895",
+      "claim": "Jayasudha stars in Daag.",
+      "evidence_sentences": "The film was later remade into the Telugu film Vichitra Jeevitham -LRB- 1978 -RRB- starring Akkineni Nageswara Rao , Vanisri , and Jayasudha .",
+      "page_titles": [
+        "Daag -LRB-1973 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Daag -LRB-1973 film-RRB-",
+            "line_index": 10,
+            "sentence": "The film was later remade into the Telugu film Vichitra Jeevitham -LRB- 1978 -RRB- starring Akkineni Nageswara Rao , Vanisri , and Jayasudha ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000896",
+      "claim": "The KGB was governed by military laws and regulations.",
+      "evidence_sentences": "The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops .",
+      "page_titles": [
+        "KGB"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "KGB",
+            "line_index": 7,
+            "sentence": "The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "KGB",
+              "line_index": 7,
+              "sentence": "The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops ."
+            }
+          ],
+          [
+            {
+              "page_title": "KGB",
+              "line_index": 7,
+              "sentence": "The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops ."
+            }
+          ],
+          [
+            {
+              "page_title": "KGB",
+              "line_index": 7,
+              "sentence": "The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops ."
+            }
+          ],
+          [
+            {
+              "page_title": "KGB",
+              "line_index": 7,
+              "sentence": "The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000897",
+      "claim": "June 12th, 1919 was the birth date of Uta Hagan.",
+      "evidence_sentences": "Uta Thyra Hagen -LRB- 12 June 1919 -- 14 January 2004 -RRB- was an American actress and theatre practitioner .",
+      "page_titles": [
+        "Uta Hagen"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Uta Hagen",
+            "line_index": 0,
+            "sentence": "Uta Thyra Hagen -LRB- 12 June 1919 -- 14 January 2004 -RRB- was an American actress and theatre practitioner ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000898",
+      "claim": "The Mormon population has been growing rapidly due to high death and conversion rates.",
+      "evidence_sentences": "Due to their high birth and conversion rates , the Mormon population has grown significantly in recent decades .",
+      "page_titles": [
+        "Mormons"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mormons",
+            "line_index": 23,
+            "sentence": "Due to their high birth and conversion rates , the Mormon population has grown significantly in recent decades ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000899",
+      "claim": "The Big Country is a 1984 film.",
+      "evidence_sentences": "The Big Country is a 1958 American epic Western film directed by William Wyler and starring Gregory Peck , Jean Simmons , Carroll Baker , Charlton Heston and Burl Ives .",
+      "page_titles": [
+        "The Big Country"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Big Country",
+            "line_index": 0,
+            "sentence": "The Big Country is a 1958 American epic Western film directed by William Wyler and starring Gregory Peck , Jean Simmons , Carroll Baker , Charlton Heston and Burl Ives ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Big Country",
+              "line_index": 0,
+              "sentence": "The Big Country is a 1958 American epic Western film directed by William Wyler and starring Gregory Peck , Jean Simmons , Carroll Baker , Charlton Heston and Burl Ives ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Big Country",
+              "line_index": 0,
+              "sentence": "The Big Country is a 1958 American epic Western film directed by William Wyler and starring Gregory Peck , Jean Simmons , Carroll Baker , Charlton Heston and Burl Ives ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Big Country",
+              "line_index": 1,
+              "sentence": "The supporting cast features Charles Bickford and Chuck Connors ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Big Country",
+              "line_index": 0,
+              "sentence": "The Big Country is a 1958 American epic Western film directed by William Wyler and starring Gregory Peck , Jean Simmons , Carroll Baker , Charlton Heston and Burl Ives ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Big Country",
+              "line_index": 0,
+              "sentence": "The Big Country is a 1958 American epic Western film directed by William Wyler and starring Gregory Peck , Jean Simmons , Carroll Baker , Charlton Heston and Burl Ives ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 6,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000900",
+      "claim": "The Closer's final season was its eighth season.",
+      "evidence_sentences": "On Monday , July 11 , 2011 , the series began its seventh and final season , having finished its sixth season as cable 's highest rated drama .",
+      "page_titles": [
+        "The Closer"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Closer",
+            "line_index": 8,
+            "sentence": "On Monday , July 11 , 2011 , the series began its seventh and final season , having finished its sixth season as cable 's highest rated drama ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000901",
+      "claim": "The Washington Monument is north of the Lincoln Memorial.",
+      "evidence_sentences": "Located almost due east of the Reflecting Pool and the Lincoln Memorial , the monument , made of marble , granite , and bluestone gneiss , is both the world 's tallest stone structure and the world 's tallest obelisk , standing 554 ft tall according to the National Geodetic Survey -LRB- measured 2013 -- 14 -RRB- or 555 ft tall according to the National Park Service -LRB- measured 1884 -RRB- .",
+      "page_titles": [
+        "Washington Monument"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Washington Monument",
+            "line_index": 1,
+            "sentence": "Located almost due east of the Reflecting Pool and the Lincoln Memorial , the monument , made of marble , granite , and bluestone gneiss , is both the world 's tallest stone structure and the world 's tallest obelisk , standing 554 ft tall according to the National Geodetic Survey -LRB- measured 2013 -- 14 -RRB- or 555 ft tall according to the National Park Service -LRB- measured 1884 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  ],
+  "rubric": "# Judge Rubric (silver adjudication, v1)\n\nYou are an independent fact-checking adjudicator. You will see a batch of\nitems. Each item contains a **claim** and **evidence** (what is included\ndepends on the disclosure stage, stated in the batch header). For EVERY item\nyou must judge **only from the information provided**.\n\n## Task\n\nDecide whether the provided evidence **warrants** the claim:\n\n- `Supported` — the evidence clearly or probably establishes the claim is true.\n- `Refuted` — the evidence clearly or probably establishes the claim is false.\n- `Ambiguous` — the evidence is insufficient, partial, or mixed; you cannot\n  responsibly decide true or false from what is provided.\n\nAlso rate how sufficient the evidence is for deciding the claim\n(`clearly_sufficient | probably_sufficient | partial_or_ambiguous |\nprobably_insufficient | clearly_insufficient`), your confidence (integer\n0–100), and any issue flags that apply (see list).\n\n## Hard rules\n\n- Judge ONLY from the supplied claim and evidence. Do NOT use outside\n  knowledge to decide the verdict.\n- Do NOT browse the web or look anything up.\n- Do NOT speculate about hidden labels, other models, or why the item was\n  selected.\n- If the evidence alone does not settle the claim, say `Ambiguous` — that is a\n  valid, useful answer, not a failure.\n- `confidence` MUST be an integer from 0 to 100.\n- `brief_reason` must be short (one sentence) and grounded in the evidence.\n- Select issue flags only when the evidence shows that problem; use `none`\n  otherwise. Do not pad flags.\n\n## Issue flags\n\n`none`, `possible_missing_title_context`, `possible_coreference_or_entity_resolution`,\n`possible_missing_surrounding_context`, `multi_sentence_integration`,\n`numerical_or_temporal_reasoning`, `negation_or_scope`,\n`entity_or_attribute_confusion`, `partial_warrant`,\n`apparent_internal_contradiction`, `other`\n\n## Output format\n\nReturn ONLY a JSON array (no prose before or after), one object per item, in\nthe same order as the input:\n\n```json\n[\n  {\n    \"item_id\": \"SA-000001\",\n    \"judge_id\": \"judge_1\",\n    \"stage\": \"A\",\n    \"verdict\": \"Supported\",\n    \"evidence_sufficiency\": \"probably_sufficient\",\n    \"confidence\": 80,\n    \"issue_flags\": [\"none\"],\n    \"brief_reason\": \"The evidence sentence directly states the claim.\"\n  }\n]\n```\n\n`item_id`, `judge_id`, and `stage` must be copied exactly from the batch file.\nProduce exactly one object for every item in the batch — never skip or merge\nitems. If an item's evidence is empty or unreadable, verdict `Ambiguous`,\nsufficiency `clearly_insufficient`, confidence as you see fit, flag `other`.\n",
+  "disclosure_note": "Stage C. Judge only supplied fields. Null text means unavailable; do not fill it using outside knowledge."
+}

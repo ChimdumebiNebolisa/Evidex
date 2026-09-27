@@ -1,0 +1,23 @@
+{
+  "claims": 1061,
+  "chosen_mismatches": 936,
+  "regression_chosen_mismatches": 190,
+  "pointer_mismatches": 0,
+  "stage_b_changed": 0,
+  "stage_c_changed": 1061,
+  "claims_with_alternative_text_changes": 140,
+  "claims_with_new_sentences_at_C": 149,
+  "chosen_mismatch_cause_claim_counts": {
+    "link_field_extraction": 927,
+    "unavailable_in_old_packet": 10,
+    "title_normalization_or_cache_recovery": 10
+  },
+  "alternative_mismatch_cause_claim_counts": {
+    "link_field_extraction": 139,
+    "unavailable_in_old_packet": 2
+  },
+  "sentence_validation_status": {
+    "chosen:available": 1149,
+    "alternative:available": 816
+  }
+}

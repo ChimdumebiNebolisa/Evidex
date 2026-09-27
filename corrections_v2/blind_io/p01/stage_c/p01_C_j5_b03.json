@@ -1,0 +1,3248 @@
+{
+  "judge_id": "judge_5",
+  "stage": "C",
+  "output_path": "corrections_v2/blind_io/p01/stage_c/p01_C_j5_b03.output.json",
+  "n_items": 100,
+  "item_ids": [
+    "SA-000201",
+    "SA-000202",
+    "SA-000203",
+    "SA-000204",
+    "SA-000205",
+    "SA-000206",
+    "SA-000207",
+    "SA-000208",
+    "SA-000209",
+    "SA-000210",
+    "SA-000211",
+    "SA-000212",
+    "SA-000213",
+    "SA-000214",
+    "SA-000215",
+    "SA-000216",
+    "SA-000217",
+    "SA-000218",
+    "SA-000219",
+    "SA-000220",
+    "SA-000221",
+    "SA-000222",
+    "SA-000223",
+    "SA-000224",
+    "SA-000225",
+    "SA-000226",
+    "SA-000227",
+    "SA-000228",
+    "SA-000229",
+    "SA-000230",
+    "SA-000231",
+    "SA-000232",
+    "SA-000233",
+    "SA-000234",
+    "SA-000235",
+    "SA-000236",
+    "SA-000237",
+    "SA-000238",
+    "SA-000239",
+    "SA-000240",
+    "SA-000241",
+    "SA-000242",
+    "SA-000243",
+    "SA-000244",
+    "SA-000245",
+    "SA-000246",
+    "SA-000247",
+    "SA-000248",
+    "SA-000249",
+    "SA-000250",
+    "SA-000251",
+    "SA-000252",
+    "SA-000253",
+    "SA-000254",
+    "SA-000255",
+    "SA-000256",
+    "SA-000257",
+    "SA-000258",
+    "SA-000259",
+    "SA-000260",
+    "SA-000261",
+    "SA-000262",
+    "SA-000263",
+    "SA-000264",
+    "SA-000265",
+    "SA-000266",
+    "SA-000267",
+    "SA-000268",
+    "SA-000269",
+    "SA-000270",
+    "SA-000271",
+    "SA-000272",
+    "SA-000273",
+    "SA-000274",
+    "SA-000275",
+    "SA-000276",
+    "SA-000277",
+    "SA-000278",
+    "SA-000279",
+    "SA-000280",
+    "SA-000281",
+    "SA-000282",
+    "SA-000283",
+    "SA-000284",
+    "SA-000285",
+    "SA-000286",
+    "SA-000287",
+    "SA-000288",
+    "SA-000289",
+    "SA-000290",
+    "SA-000291",
+    "SA-000292",
+    "SA-000293",
+    "SA-000294",
+    "SA-000295",
+    "SA-000296",
+    "SA-000297",
+    "SA-000298",
+    "SA-000299",
+    "SA-000300"
+  ],
+  "items": [
+    {
+      "item_id": "SA-000201",
+      "claim": "Chris Benoit's middle name is Michael.",
+      "evidence_sentences": "Christopher Michael Benoit -LRB- -LSB- bəˈnwa -RSB- ; May 21 , 1967 -- June 24 , 2007 -RRB- was a Canadian professional wrestler .",
+      "page_titles": [
+        "Chris Benoit"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Chris Benoit",
+            "line_index": 0,
+            "sentence": "Christopher Michael Benoit -LRB- -LSB- bəˈnwa -RSB- ; May 21 , 1967 -- June 24 , 2007 -RRB- was a Canadian professional wrestler ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000202",
+      "claim": "The United Nations Charter was completed at the San Francisco War Memorial and Performing Arts Center.",
+      "evidence_sentences": "It was signed at the San Francisco War Memorial and Performing Arts Center in San Francisco , United States , on 26 June 1945 , by 50 of the 51 original member countries -LRB- Poland , the other original member , which was not represented at the conference , signed it two months later -RRB- .",
+      "page_titles": [
+        "United Nations Charter"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "United Nations Charter",
+            "line_index": 1,
+            "sentence": "It was signed at the San Francisco War Memorial and Performing Arts Center in San Francisco , United States , on 26 June 1945 , by 50 of the 51 original member countries -LRB- Poland , the other original member , which was not represented at the conference , signed it two months later -RRB- ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "United Nations Charter",
+              "line_index": 1,
+              "sentence": "It was signed at the San Francisco War Memorial and Performing Arts Center in San Francisco , United States , on 26 June 1945 , by 50 of the 51 original member countries -LRB- Poland , the other original member , which was not represented at the conference , signed it two months later -RRB- ."
+            }
+          ],
+          [
+            {
+              "page_title": "United Nations Charter",
+              "line_index": 1,
+              "sentence": "It was signed at the San Francisco War Memorial and Performing Arts Center in San Francisco , United States , on 26 June 1945 , by 50 of the 51 original member countries -LRB- Poland , the other original member , which was not represented at the conference , signed it two months later -RRB- ."
+            }
+          ],
+          [
+            {
+              "page_title": "United Nations Charter",
+              "line_index": 1,
+              "sentence": "It was signed at the San Francisco War Memorial and Performing Arts Center in San Francisco , United States , on 26 June 1945 , by 50 of the 51 original member countries -LRB- Poland , the other original member , which was not represented at the conference , signed it two months later -RRB- ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000203",
+      "claim": "Aldous Huxley barely published scripts.",
+      "evidence_sentences": "Mid career and later , he published travel writing , film stories , and scripts .",
+      "page_titles": [
+        "Aldous Huxley"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Aldous Huxley",
+            "line_index": 6,
+            "sentence": "Mid career and later , he published travel writing , film stories , and scripts ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000204",
+      "claim": "Internet access requires the use of hardware like computers.",
+      "evidence_sentences": "Internet access is ability of individuals and organizations to connect to the Internet using computer terminals , computers , mobile devices ; and to access services such as email and the World Wide Web .",
+      "page_titles": [
+        "Internet access"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Internet access",
+            "line_index": 0,
+            "sentence": "Internet access is ability of individuals and organizations to connect to the Internet using computer terminals , computers , mobile devices ; and to access services such as email and the World Wide Web ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000205",
+      "claim": "Phoenix, Arizona is a U.S. state.",
+      "evidence_sentences": "Phoenix -LRB- -LSB- ˈfiːnᵻks -RSB- -RRB- is the capital and most populous city of the U.S. state of Arizona .",
+      "page_titles": [
+        "Phoenix, Arizona"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Phoenix, Arizona",
+            "line_index": 0,
+            "sentence": "Phoenix -LRB- -LSB- ˈfiːnᵻks -RSB- -RRB- is the capital and most populous city of the U.S. state of Arizona ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000206",
+      "claim": "Netscape Navigator was succeeded by a web browser.",
+      "evidence_sentences": "The Netscape Navigator web browser was succeeded by the Netscape Communicator suite in 1997 . Netscape Communicator -LRB- or Netscape 4 -RRB- is a discontinued Internet suite produced by Netscape Communications Corporation , and was the fourth major release in the Netscape line of browsers .",
+      "page_titles": [
+        "Netscape Navigator",
+        "Netscape Communicator"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Netscape Navigator",
+            "line_index": 9,
+            "sentence": "The Netscape Navigator web browser was succeeded by the Netscape Communicator suite in 1997 ."
+          },
+          {
+            "page_title": "Netscape Communicator",
+            "line_index": 0,
+            "sentence": "Netscape Communicator -LRB- or Netscape 4 -RRB- is a discontinued Internet suite produced by Netscape Communications Corporation , and was the fourth major release in the Netscape line of browsers ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000207",
+      "claim": "Ted Cruz has always been incapable of being a senator.",
+      "evidence_sentences": "Rafael Edward `` Ted '' Cruz -LSB- ˈkruːz -RSB- -LRB- born December 22 , 1970 -RRB- is an American politician and attorney , who has served as the junior United States Senator from Texas since 2013 .",
+      "page_titles": [
+        "Ted Cruz"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ted Cruz",
+            "line_index": 0,
+            "sentence": "Rafael Edward `` Ted '' Cruz -LSB- ˈkruːz -RSB- -LRB- born December 22 , 1970 -RRB- is an American politician and attorney , who has served as the junior United States Senator from Texas since 2013 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000208",
+      "claim": "Talulah Riley did not appear in The Boat That Rocked.",
+      "evidence_sentences": "She has appeared in films such as Pride & Prejudice , St Trinian 's , The Boat That Rocked , St. Trinian 's 2 : The Legend of Fritton 's Gold and Inception .",
+      "page_titles": [
+        "Talulah Riley"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Talulah Riley",
+            "line_index": 1,
+            "sentence": "She has appeared in films such as Pride & Prejudice , St Trinian 's , The Boat That Rocked , St. Trinian 's 2 : The Legend of Fritton 's Gold and Inception ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000209",
+      "claim": "Civilization IV is a turn-based strategy video game.",
+      "evidence_sentences": "Sid Meier 's Civilization IV is a turn-based strategy computer game and the fourth installment of the Civilization series .",
+      "page_titles": [
+        "Civilization IV"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Civilization IV",
+            "line_index": 0,
+            "sentence": "Sid Meier 's Civilization IV is a turn-based strategy computer game and the fourth installment of the Civilization series ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Civilization IV",
+              "line_index": 5,
+              "sentence": "Civilization IV uses the 4X empire-building model for turn-based strategy gameplay , in which the player 's main objective is to construct a civilization from limited initial resources ."
+            }
+          ],
+          [
+            {
+              "page_title": "Civilization IV",
+              "line_index": 12,
+              "sentence": "The game has received critical acclaim and was hailed as an exemplary product of one of the leading video game producers in the turn-based strategy genre ."
+            }
+          ],
+          [
+            {
+              "page_title": "Civilization IV",
+              "line_index": 0,
+              "sentence": "Sid Meier 's Civilization IV is a turn-based strategy computer game and the fourth installment of the Civilization series ."
+            }
+          ],
+          [
+            {
+              "page_title": "Civilization IV",
+              "line_index": 5,
+              "sentence": "Civilization IV uses the 4X empire-building model for turn-based strategy gameplay , in which the player 's main objective is to construct a civilization from limited initial resources ."
+            }
+          ],
+          [
+            {
+              "page_title": "Civilization IV",
+              "line_index": 12,
+              "sentence": "The game has received critical acclaim and was hailed as an exemplary product of one of the leading video game producers in the turn-based strategy genre ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 6,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000210",
+      "claim": "Damon Albarn had nothing to do with the album Everyday Robots.",
+      "evidence_sentences": "His debut solo studio album Everyday Robots -- co-produced by XL Recordings CEO Richard Russell -- was released on 28 April 2014 and featured collaborations with Brian Eno , Natasha Khan and the Leytonstone City Pentecostal Mission Church Choir as well as sampling several rants by Lord Buckley .",
+      "page_titles": [
+        "Damon Albarn"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Damon Albarn",
+            "line_index": 17,
+            "sentence": "His debut solo studio album Everyday Robots -- co-produced by XL Recordings CEO Richard Russell -- was released on 28 April 2014 and featured collaborations with Brian Eno , Natasha Khan and the Leytonstone City Pentecostal Mission Church Choir as well as sampling several rants by Lord Buckley ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000211",
+      "claim": "Northwestern University is the only private university of the Big Ten Conference since 1968.",
+      "evidence_sentences": "Northwestern is a founding member of the Big Ten Conference and remains the only private university in the conference . The Big Ten Conference was established in 1895 when Purdue University president James H. Smart and representatives from the University of Chicago , University of Illinois , University of Michigan , University of Minnesota , Northwestern University , and University of Wisconsin gathered at Chicago 's Palmer House Hotel to set policies aimed at regulating intercollegiate athletics .",
+      "page_titles": [
+        "Northwestern University",
+        "Big Ten Conference"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Northwestern University",
+            "line_index": 19,
+            "sentence": "Northwestern is a founding member of the Big Ten Conference and remains the only private university in the conference ."
+          },
+          {
+            "page_title": "Big Ten Conference",
+            "line_index": 5,
+            "sentence": "The Big Ten Conference was established in 1895 when Purdue University president James H. Smart and representatives from the University of Chicago , University of Illinois , University of Michigan , University of Minnesota , Northwestern University , and University of Wisconsin gathered at Chicago 's Palmer House Hotel to set policies aimed at regulating intercollegiate athletics ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000212",
+      "claim": "Happiness in Slavery is a song by an American band.",
+      "evidence_sentences": "`` Happiness in Slavery '' is a song by American industrial rock band Nine Inch Nails from their debut extended play -LRB- EP -RRB- , Broken -LRB- 1992 -RRB- . Broken is the debut extended play -LRB- EP -RRB- and major-label debut by American industrial rock band Nine Inch Nails , released on September 22 , 1992 by Nothing Records , TVT Records , Interscope Records , and Atlantic Records .",
+      "page_titles": [
+        "Happiness in Slavery",
+        "Broken -LRB-EP-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Happiness in Slavery",
+            "line_index": 0,
+            "sentence": "`` Happiness in Slavery '' is a song by American industrial rock band Nine Inch Nails from their debut extended play -LRB- EP -RRB- , Broken -LRB- 1992 -RRB- ."
+          },
+          {
+            "page_title": "Broken -LRB-EP-RRB-",
+            "line_index": 0,
+            "sentence": "Broken is the debut extended play -LRB- EP -RRB- and major-label debut by American industrial rock band Nine Inch Nails , released on September 22 , 1992 by Nothing Records , TVT Records , Interscope Records , and Atlantic Records ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000213",
+      "claim": "None of the characters in Bongwater are a marijuana dealer.",
+      "evidence_sentences": "Based on the 1995 book of the same name by Michael Hornburg , the film is set in Portland , Oregon , and follows an aspiring artist and marijuana dealer and his relationship with a tempestuous woman he meets through a client .",
+      "page_titles": [
+        "Bongwater -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Bongwater -LRB-film-RRB-",
+            "line_index": 1,
+            "sentence": "Based on the 1995 book of the same name by Michael Hornburg , the film is set in Portland , Oregon , and follows an aspiring artist and marijuana dealer and his relationship with a tempestuous woman he meets through a client ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000214",
+      "claim": "Sonny & Cher sing R&B.",
+      "evidence_sentences": "The couple started their career in the mid-1960s as R&B backing singers for record producer Phil Spector .",
+      "page_titles": [
+        "Sonny & Cher"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sonny & Cher",
+            "line_index": 1,
+            "sentence": "The couple started their career in the mid-1960s as R&B backing singers for record producer Phil Spector ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000215",
+      "claim": "Trace Cyrus is a younger sibling of Noah Cyrus.",
+      "evidence_sentences": "She is the youngest daughter of Billy Ray Cyrus and younger sister of Miley Cyrus and Trace Cyrus .",
+      "page_titles": [
+        "Noah Cyrus"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Noah Cyrus",
+            "line_index": 4,
+            "sentence": "She is the youngest daughter of Billy Ray Cyrus and younger sister of Miley Cyrus and Trace Cyrus ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000216",
+      "claim": "In the country Germany, Blank Space is on a top 10 list.",
+      "evidence_sentences": "It also charted in the top 10 in numerous countries , such as Austria , Czech Republic , Germany , New Zealand , Spain , and the United Kingdom .",
+      "page_titles": [
+        "Blank Space"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Blank Space",
+            "line_index": 10,
+            "sentence": "It also charted in the top 10 in numerous countries , such as Austria , Czech Republic , Germany , New Zealand , Spain , and the United Kingdom ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000217",
+      "claim": "In 85 BC, Gaius Julius Caesar died.",
+      "evidence_sentences": "Gaius Julius Caesar -LRB- ca. 130 BC -- 85 BC -RRB- was a Roman senator , a supporter of his brother-in-law , Gaius Marius , and the father of Gaius Julius Caesar , the dictator .",
+      "page_titles": [
+        "Gaius Julius Caesar -LRB-proconsul-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Gaius Julius Caesar -LRB-proconsul-RRB-",
+            "line_index": 0,
+            "sentence": "Gaius Julius Caesar -LRB- ca. 130 BC -- 85 BC -RRB- was a Roman senator , a supporter of his brother-in-law , Gaius Marius , and the father of Gaius Julius Caesar , the dictator ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Gaius Julius Caesar -LRB-proconsul-RRB-",
+              "line_index": 16,
+              "sentence": "Caesar died suddenly in 85 BC , in Rome , while putting on his shoes one morning ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000218",
+      "claim": "Henry II of France was not involved with the cause of a war about religion.",
+      "evidence_sentences": "He was succeeded in turn by three of his sons , whose ineffective reigns helped to spark the French Wars of Religion between Protestants and Catholics .",
+      "page_titles": [
+        "Henry II of France"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Henry II of France",
+            "line_index": 15,
+            "sentence": "He was succeeded in turn by three of his sons , whose ineffective reigns helped to spark the French Wars of Religion between Protestants and Catholics ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000219",
+      "claim": "Elizabeth of York was the cousin of Richard III.",
+      "evidence_sentences": "She was welcomed back to court by her Uncle Richard III , along with all of her sisters .",
+      "page_titles": [
+        "Elizabeth of York"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Elizabeth of York",
+            "line_index": 9,
+            "sentence": "She was welcomed back to court by her Uncle Richard III , along with all of her sisters ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000220",
+      "claim": "Tom Baker has reviewed video games.",
+      "evidence_sentences": "In addition to performing acting roles , Baker has narrated commercials , video games , audiobooks and television series .",
+      "page_titles": [
+        "Tom Baker -LRB-English actor-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tom Baker -LRB-English actor-RRB-",
+            "line_index": 15,
+            "sentence": "In addition to performing acting roles , Baker has narrated commercials , video games , audiobooks and television series ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000221",
+      "claim": "I Kissed a Girl is part of Katy Perry's second studio sandwich.",
+      "evidence_sentences": "`` I Kissed a Girl '' is a song recorded by American singer Katy Perry for her second studio album , One of the Boys -LRB- 2008 -RRB- .",
+      "page_titles": [
+        "I Kissed a Girl"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "I Kissed a Girl",
+            "line_index": 0,
+            "sentence": "`` I Kissed a Girl '' is a song recorded by American singer Katy Perry for her second studio album , One of the Boys -LRB- 2008 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000222",
+      "claim": "Natural Born Killers was based upon Tarantino's original screenplay without revision.",
+      "evidence_sentences": "The film is based on an original screenplay by Quentin Tarantino that was heavily revised by writer David Veloz , associate producer Richard Rutowski , and director Stone ; Tarantino received story credit .",
+      "page_titles": [
+        "Natural Born Killers"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Natural Born Killers",
+            "line_index": 5,
+            "sentence": "The film is based on an original screenplay by Quentin Tarantino that was heavily revised by writer David Veloz , associate producer Richard Rutowski , and director Stone ; Tarantino received story credit ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Natural Born Killers",
+              "line_index": 5,
+              "sentence": "The film is based on an original screenplay by Quentin Tarantino that was heavily revised by writer David Veloz , associate producer Richard Rutowski , and director Stone ; Tarantino received story credit ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000223",
+      "claim": "Baadshah was dubbed into Japanese.",
+      "evidence_sentences": "Later , this movie was dubbed into Malayalam , Japanese , and Korean under the same name .",
+      "page_titles": [
+        "Baadshah -LRB-2013 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Baadshah -LRB-2013 film-RRB-",
+            "line_index": 17,
+            "sentence": "Later , this movie was dubbed into Malayalam , Japanese , and Korean under the same name ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000224",
+      "claim": "The State of Palestine claims a territory in Western Asia.",
+      "evidence_sentences": "The State of Palestine , also known simply as Palestine , is a de jure sovereign state in the Middle East that is recognized by 136 UN members and since 2012 has a status of a non-member observer state in the United Nations -- which amounts to a de facto , or implicit , recognition of statehood .",
+      "page_titles": [
+        "State of Palestine"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "State of Palestine",
+            "line_index": 0,
+            "sentence": "The State of Palestine , also known simply as Palestine , is a de jure sovereign state in the Middle East that is recognized by 136 UN members and since 2012 has a status of a non-member observer state in the United Nations -- which amounts to a de facto , or implicit , recognition of statehood ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000225",
+      "claim": "General Motors' non-automotive products divested in the 1980s through 2000s.",
+      "evidence_sentences": "In addition to brands selling assembled vehicles , GM has also had various automotive-component and non-automotive brands , many of which it divested in the 1980s through 2000s .",
+      "page_titles": [
+        "General Motors"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "General Motors",
+            "line_index": 12,
+            "sentence": "In addition to brands selling assembled vehicles , GM has also had various automotive-component and non-automotive brands , many of which it divested in the 1980s through 2000s ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000226",
+      "claim": "The Sterile Cuckoo was adapted by Alvin Sargent.",
+      "evidence_sentences": "The movie was adapted by Alvin Sargent from the 1965 novel by John Nichols , and directed by Alan J. Pakula , in his directing debut .",
+      "page_titles": [
+        "The Sterile Cuckoo"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Sterile Cuckoo",
+            "line_index": 3,
+            "sentence": "The movie was adapted by Alvin Sargent from the 1965 novel by John Nichols , and directed by Alan J. Pakula , in his directing debut ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000227",
+      "claim": "Yin and yang demonstrate a balance between opposed entities.",
+      "evidence_sentences": "The yin yang -LRB- i.e. taijitu symbol -RRB- shows a balance between two opposites with a portion of the opposite element in each section .",
+      "page_titles": [
+        "Yin and yang"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Yin and yang",
+            "line_index": 10,
+            "sentence": "The yin yang -LRB- i.e. taijitu symbol -RRB- shows a balance between two opposites with a portion of the opposite element in each section ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Yin and yang",
+              "line_index": 0,
+              "sentence": "In Chinese philosophy , yin and yang -LRB- also yin -- yang or yin yang , yīnyáng `` dark -- bright '' -RRB- describe how seemingly opposite or contrary forces may actually be complementary , interconnected , and interdependent in the natural world , and how they may give rise to each other as they interrelate to one another ."
+            }
+          ],
+          [
+            {
+              "page_title": "Yin and yang",
+              "line_index": 7,
+              "sentence": "Yin and yang can be thought of as complementary -LRB- rather than opposing -RRB- forces that interact to form a dynamic system in which the whole is greater than the assembled parts ."
+            }
+          ],
+          [
+            {
+              "page_title": "Yin and yang",
+              "line_index": 10,
+              "sentence": "The yin yang -LRB- i.e. taijitu symbol -RRB- shows a balance between two opposites with a portion of the opposite element in each section ."
+            }
+          ],
+          [
+            {
+              "page_title": "Yin and yang",
+              "line_index": 10,
+              "sentence": "The yin yang -LRB- i.e. taijitu symbol -RRB- shows a balance between two opposites with a portion of the opposite element in each section ."
+            }
+          ],
+          [
+            {
+              "page_title": "Yin and yang",
+              "line_index": 10,
+              "sentence": "The yin yang -LRB- i.e. taijitu symbol -RRB- shows a balance between two opposites with a portion of the opposite element in each section ."
+            }
+          ],
+          [
+            {
+              "page_title": "Yin and yang",
+              "line_index": 10,
+              "sentence": "The yin yang -LRB- i.e. taijitu symbol -RRB- shows a balance between two opposites with a portion of the opposite element in each section ."
+            }
+          ],
+          [
+            {
+              "page_title": "Yin and yang",
+              "line_index": 10,
+              "sentence": "The yin yang -LRB- i.e. taijitu symbol -RRB- shows a balance between two opposites with a portion of the opposite element in each section ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 8,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000228",
+      "claim": "Southampton F.C. came in second in the First Division in 1983 -- 1984.",
+      "evidence_sentences": "The club has won the FA Cup once , in 1976 , and their highest-ever league finish was second in the First Division in 1983 -- 84 .",
+      "page_titles": [
+        "Southampton F.C."
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Southampton F.C.",
+            "line_index": 9,
+            "sentence": "The club has won the FA Cup once , in 1976 , and their highest-ever league finish was second in the First Division in 1983 -- 84 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000229",
+      "claim": "Ingushetia was named after Chechen-Ingush ASSR split into two.",
+      "evidence_sentences": "It was established on June 4 , 1992 after the Chechen-Ingush Autonomous Soviet Socialist Republic was split in two .",
+      "page_titles": [
+        "Ingushetia"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ingushetia",
+            "line_index": 5,
+            "sentence": "It was established on June 4 , 1992 after the Chechen-Ingush Autonomous Soviet Socialist Republic was split in two ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000230",
+      "claim": "Kate Walsh was on a television show.",
+      "evidence_sentences": "Kathleen Erin Walsh -LRB- born October 13 , 1967 -RRB- is an American actress and businesswoman .",
+      "page_titles": [
+        "Kate Walsh -LRB-actress-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kate Walsh -LRB-actress-RRB-",
+            "line_index": 0,
+            "sentence": "Kathleen Erin Walsh -LRB- born October 13 , 1967 -RRB- is an American actress and businesswoman ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000231",
+      "claim": "Georgians arose from an ancient kingdom on the coast of the Black Sea and they are significant.",
+      "evidence_sentences": "Georgians arose from the ancient Colchian and Iberian civilizations . Colchis -LRB- -LSB- ˈkɒlkɪs -RSB- კოლხეთი Kolkheti ; Greek Κολχίς Kolkhis -RRB- was an ancient kingdom and region on the coast of the Black Sea , centered in present-day western Georgia . The Georgians or Kartvelians -LRB- -LSB- ქართველები , tr -RSB- -RRB- are a nation and ethnic group who constitute a majority of the population in Georgia .",
+      "page_titles": [
+        "Georgians",
+        "Colchis",
+        "Georgians"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Georgians",
+            "line_index": 4,
+            "sentence": "Georgians arose from the ancient Colchian and Iberian civilizations ."
+          },
+          {
+            "page_title": "Colchis",
+            "line_index": 0,
+            "sentence": "Colchis -LRB- -LSB- ˈkɒlkɪs -RSB- კოლხეთი Kolkheti ; Greek Κολχίς Kolkhis -RRB- was an ancient kingdom and region on the coast of the Black Sea , centered in present-day western Georgia ."
+          },
+          {
+            "page_title": "Georgians",
+            "line_index": 0,
+            "sentence": "The Georgians or Kartvelians -LRB- -LSB- ქართველები , tr -RSB- -RRB- are a nation and ethnic group who constitute a majority of the population in Georgia ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000232",
+      "claim": "On June 13th, 1986, Mary-Kate Olsen and Ashley Olsen were born.",
+      "evidence_sentences": "Mary-Kate Olsen and Ashley Olsen -LRB- born June 13 , 1986 -RRB- , also known as the Olsen twins collectively , are American fashion designers and former child actresses .",
+      "page_titles": [
+        "Mary-Kate and Ashley Olsen"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mary-Kate and Ashley Olsen",
+            "line_index": 0,
+            "sentence": "Mary-Kate Olsen and Ashley Olsen -LRB- born June 13 , 1986 -RRB- , also known as the Olsen twins collectively , are American fashion designers and former child actresses ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Mary-Kate and Ashley Olsen",
+              "line_index": 0,
+              "sentence": "Mary-Kate Olsen and Ashley Olsen -LRB- born June 13 , 1986 -RRB- , also known as the Olsen twins collectively , are American fashion designers and former child actresses ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000233",
+      "claim": "House of Balloons is a mixtape.",
+      "evidence_sentences": "House of Balloons is the debut mixtape by Canadian singer The Weeknd .",
+      "page_titles": [
+        "House of Balloons"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "House of Balloons",
+            "line_index": 0,
+            "sentence": "House of Balloons is the debut mixtape by Canadian singer The Weeknd ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "House of Balloons",
+              "line_index": 2,
+              "sentence": "The mixtape was also released on his official website ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000234",
+      "claim": "Ed Wood is not about the eponymous filmmaker.",
+      "evidence_sentences": "The film concerns the period in Wood 's life when he made his best-known films as well as his relationship with actor Bela Lugosi , played by Martin Landau .",
+      "page_titles": [
+        "Ed Wood -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ed Wood -LRB-film-RRB-",
+            "line_index": 1,
+            "sentence": "The film concerns the period in Wood 's life when he made his best-known films as well as his relationship with actor Bela Lugosi , played by Martin Landau ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Ed Wood -LRB-film-RRB-",
+              "line_index": 0,
+              "sentence": "Ed Wood is a 1994 American biographical period comedy-drama film directed and produced by Tim Burton , and starring Johnny Depp as cult filmmaker Ed Wood ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000235",
+      "claim": "Valencia has about 100,000 inhabitants in the administrative centre.",
+      "evidence_sentences": "Valencia -LRB- -LSB- vəˈlɛnsiə -RSB- -LSB- baˈlenθja -RSB- -RRB- , officially València -LRB- -LSB- vaˈlensia -RSB- -RRB- , is the capital of the autonomous community of Valencia and the third largest city in Spain after Madrid and Barcelona , with around 800,000 inhabitants in the administrative centre .",
+      "page_titles": [
+        "Valencia"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Valencia",
+            "line_index": 0,
+            "sentence": "Valencia -LRB- -LSB- vəˈlɛnsiə -RSB- -LSB- baˈlenθja -RSB- -RRB- , officially València -LRB- -LSB- vaˈlensia -RSB- -RRB- , is the capital of the autonomous community of Valencia and the third largest city in Spain after Madrid and Barcelona , with around 800,000 inhabitants in the administrative centre ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000236",
+      "claim": "Advertising is used to sell an ideology.",
+      "evidence_sentences": "Advertising is an audio or visual form of marketing communication that employs an openly sponsored , nonpersonal message to promote or sell a product , service or idea .",
+      "page_titles": [
+        "Advertising"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Advertising",
+            "line_index": 0,
+            "sentence": "Advertising is an audio or visual form of marketing communication that employs an openly sponsored , nonpersonal message to promote or sell a product , service or idea ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000237",
+      "claim": "Sonny & Cher began in the mid-1930's.",
+      "evidence_sentences": "The couple started their career in the mid-1960s as R&B backing singers for record producer Phil Spector .",
+      "page_titles": [
+        "Sonny & Cher"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sonny & Cher",
+            "line_index": 1,
+            "sentence": "The couple started their career in the mid-1960s as R&B backing singers for record producer Phil Spector ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Sonny & Cher",
+              "line_index": 0,
+              "sentence": "Sonny & Cher were an American pop music duo , actors , singers and entertainers made up of husband-and-wife Sonny and Cher Bono in the 1960s and 1970s ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000238",
+      "claim": "Topman has outlets in one Irish city.",
+      "evidence_sentences": "A part of the Arcadia Group , which also owns Burton , Miss Selfridge , Wallis , Evans and Dorothy Perkins , Topman has a chain of high-street men 's clothing stores located throughout the United Kingdom and has a presence on just about every UK High Street , and in Ireland main street outlets in six cities and towns .",
+      "page_titles": [
+        "Topman"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Topman",
+            "line_index": 1,
+            "sentence": "A part of the Arcadia Group , which also owns Burton , Miss Selfridge , Wallis , Evans and Dorothy Perkins , Topman has a chain of high-street men 's clothing stores located throughout the United Kingdom and has a presence on just about every UK High Street , and in Ireland main street outlets in six cities and towns ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Topman",
+              "line_index": 1,
+              "sentence": "A part of the Arcadia Group , which also owns Burton , Miss Selfridge , Wallis , Evans and Dorothy Perkins , Topman has a chain of high-street men 's clothing stores located throughout the United Kingdom and has a presence on just about every UK High Street , and in Ireland main street outlets in six cities and towns ."
+            }
+          ],
+          [
+            {
+              "page_title": "Topman",
+              "line_index": 1,
+              "sentence": "A part of the Arcadia Group , which also owns Burton , Miss Selfridge , Wallis , Evans and Dorothy Perkins , Topman has a chain of high-street men 's clothing stores located throughout the United Kingdom and has a presence on just about every UK High Street , and in Ireland main street outlets in six cities and towns ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000239",
+      "claim": "The Armenian Genocide was the extermination of Armenians who were mostly Turkish citizens.",
+      "evidence_sentences": "The Armenian Genocide -LRB- Հայոց ցեղասպանություն , Hayots tseghaspanutyun -RRB- , also known as the Armenian Holocaust , was the Ottoman government 's systematic extermination of 1.5 million Armenians , mostly Ottoman citizens within the Ottoman Empire and its successor state , the Republic of Turkey .",
+      "page_titles": [
+        "Armenian Genocide"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Armenian Genocide",
+            "line_index": 0,
+            "sentence": "The Armenian Genocide -LRB- Հայոց ցեղասպանություն , Hayots tseghaspanutyun -RRB- , also known as the Armenian Holocaust , was the Ottoman government 's systematic extermination of 1.5 million Armenians , mostly Ottoman citizens within the Ottoman Empire and its successor state , the Republic of Turkey ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000240",
+      "claim": "Norman Bates was published by Robert Bloch.",
+      "evidence_sentences": "Norman Bates is a fictional character created by Robert Bloch as the main antagonist in his 1959 novel Psycho , and portrayed by Anthony Perkins in the 1960 film of the same name directed by Alfred Hitchcock and its sequels , and by Freddie Highmore in the television series Bates Motel .",
+      "page_titles": [
+        "Norman Bates"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Norman Bates",
+            "line_index": 0,
+            "sentence": "Norman Bates is a fictional character created by Robert Bloch as the main antagonist in his 1959 novel Psycho , and portrayed by Anthony Perkins in the 1960 film of the same name directed by Alfred Hitchcock and its sequels , and by Freddie Highmore in the television series Bates Motel ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000241",
+      "claim": "Resident Evil is an exact adaptation of the video game series.",
+      "evidence_sentences": "It is the first installment in the Resident Evil film series , which is loosely based on the Capcom survival horror video game series Resident Evil .",
+      "page_titles": [
+        "Resident Evil -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Resident Evil -LRB-film-RRB-",
+            "line_index": 2,
+            "sentence": "It is the first installment in the Resident Evil film series , which is loosely based on the Capcom survival horror video game series Resident Evil ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000242",
+      "claim": "Susan Collins became the founding director of the Center for Family Business.",
+      "evidence_sentences": "After her bid for Governor in 1994 , Collins became the founding director of the Center for Family Business at Husson University .",
+      "page_titles": [
+        "Susan Collins"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Susan Collins",
+            "line_index": 16,
+            "sentence": "After her bid for Governor in 1994 , Collins became the founding director of the Center for Family Business at Husson University ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000243",
+      "claim": "Jennifer Lopez only made non-studio albums.",
+      "evidence_sentences": "She ventured into the music industry in 1999 with her debut studio album On the 6 , preceded by the number-one single `` If You Had My Love '' .",
+      "page_titles": [
+        "Jennifer Lopez"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Jennifer Lopez",
+            "line_index": 4,
+            "sentence": "She ventured into the music industry in 1999 with her debut studio album On the 6 , preceded by the number-one single `` If You Had My Love '' ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Jennifer Lopez",
+              "line_index": 7,
+              "sentence": "With the simultaneous release of her second studio album J.Lo and her film The Wedding Planner in 2001 , Lopez became the first woman to have a number one album and film in the same week ."
+            }
+          ],
+          [
+            {
+              "page_title": "Jennifer Lopez",
+              "line_index": 10,
+              "sentence": "Following her second divorce , Lopez had a high-profile relationship with Ben Affleck , which strongly influenced her third studio album , This Is Me ... Then -LRB- 2002 -RRB- , while also overshadowing the release of Gigli -LRB- 2003 -RRB- , a critical and commercial failure ."
+            }
+          ],
+          [
+            {
+              "page_title": "Jennifer Lopez",
+              "line_index": 13,
+              "sentence": "Her fifth studio album , Como Ama una Mujer -LRB- 2007 -RRB- , received the highest first-week sales for a debut Spanish album in the United States ."
+            }
+          ],
+          [
+            {
+              "page_title": "Jennifer Lopez",
+              "line_index": 14,
+              "sentence": "Lopez gave birth to twins in 2008 , and after a relatively unsuccessful period , returned to prominence in 2011 with her appearance as a judge on American Idol and most commercially successful single to date , `` On the Floor '' , which is one of the best-selling singles of all time ."
+            },
+            {
+              "page_title": "On the Floor",
+              "line_index": 0,
+              "sentence": "`` On the Floor '' is a song recorded by American singer Jennifer Lopez for her seventh studio album , Love ?"
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000244",
+      "claim": "Libya is the 16th largest country in the world.",
+      "evidence_sentences": "With an area of almost 1.8 e6km2 , Libya is the fourth largest country in Africa , and is the 16th largest country in the world .",
+      "page_titles": [
+        "Libya"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Libya",
+            "line_index": 2,
+            "sentence": "With an area of almost 1.8 e6km2 , Libya is the fourth largest country in Africa , and is the 16th largest country in the world ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Libya",
+              "line_index": 2,
+              "sentence": "With an area of almost 1.8 e6km2 , Libya is the fourth largest country in Africa , and is the 16th largest country in the world ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000245",
+      "claim": "Dark matter is the same as neutrinos.",
+      "evidence_sentences": "Dark matter is a hypothetical type of matter distinct from baryonic matter -LRB- ordinary matter such as protons and neutrons -RRB- , neutrinos and dark energy .",
+      "page_titles": [
+        "Dark matter"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Dark matter",
+            "line_index": 0,
+            "sentence": "Dark matter is a hypothetical type of matter distinct from baryonic matter -LRB- ordinary matter such as protons and neutrons -RRB- , neutrinos and dark energy ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000246",
+      "claim": "Tiber Oil Field is operated by BP as of 2008.",
+      "evidence_sentences": "The deepwater field -LRB- defined as water depth 1300 to , -RRB- was discovered in September 2009 and it is operated by BP .",
+      "page_titles": [
+        "Tiber Oil Field"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tiber Oil Field",
+            "line_index": 1,
+            "sentence": "The deepwater field -LRB- defined as water depth 1300 to , -RRB- was discovered in September 2009 and it is operated by BP ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000247",
+      "claim": "The Cry of the Owl is a thriller film.",
+      "evidence_sentences": "The Cry of the Owl is a 2009 thriller film based on Patricia Highsmith 's book of the same name .",
+      "page_titles": [
+        "The Cry of the Owl -LRB-2009 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Cry of the Owl -LRB-2009 film-RRB-",
+            "line_index": 0,
+            "sentence": "The Cry of the Owl is a 2009 thriller film based on Patricia Highsmith 's book of the same name ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000248",
+      "claim": "Catherine Hardwicke is an award-winning film director.",
+      "evidence_sentences": "Catherine Hardwicke -LRB- born Helen Catherine Hardwicke ; -RRB- is an American film director , production designer and screenwriter . Her works include the Academy Award-nominated independent film Thirteen , which she co-wrote with Nikki Reed , the film 's co-star , the Biblically-themed The Nativity Story , the vampire film Twilight , the werewolf film Red Riding Hood , and the classic skateboarding film Lords of Dogtown .",
+      "page_titles": [
+        "Catherine Hardwicke",
+        "Catherine Hardwicke"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Catherine Hardwicke",
+            "line_index": 0,
+            "sentence": "Catherine Hardwicke -LRB- born Helen Catherine Hardwicke ; -RRB- is an American film director , production designer and screenwriter ."
+          },
+          {
+            "page_title": "Catherine Hardwicke",
+            "line_index": 1,
+            "sentence": "Her works include the Academy Award-nominated independent film Thirteen , which she co-wrote with Nikki Reed , the film 's co-star , the Biblically-themed The Nativity Story , the vampire film Twilight , the werewolf film Red Riding Hood , and the classic skateboarding film Lords of Dogtown ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000249",
+      "claim": "Joe Wicks is played by Paul Nicholls.",
+      "evidence_sentences": "He is best known for his roles as Joe Wicks in BBC 's EastEnders , and as DS Sam Casey in ITV 's Law & Order : UK .",
+      "page_titles": [
+        "Paul Nicholls -LRB-actor-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Paul Nicholls -LRB-actor-RRB-",
+            "line_index": 1,
+            "sentence": "He is best known for his roles as Joe Wicks in BBC 's EastEnders , and as DS Sam Casey in ITV 's Law & Order : UK ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000250",
+      "claim": "John Deighton developed swelling of the hands.",
+      "evidence_sentences": "By 1864 , Deighton was forced to pursue other lines of work as he developed health problems -LRB- swelling of the legs and feet -RRB- .",
+      "page_titles": [
+        "John Deighton"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "John Deighton",
+            "line_index": 24,
+            "sentence": "By 1864 , Deighton was forced to pursue other lines of work as he developed health problems -LRB- swelling of the legs and feet -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000251",
+      "claim": "Japan national football team won the AFC Asian Cup five times.",
+      "evidence_sentences": "Japan is one of the most successful teams in Asia , having qualified for the last five consecutive FIFA World Cups with second round advancements in 2002 & 2010 , and having won the AFC Asian Cup a record four times in 1992 , 2000 , 2004 & 2011 .",
+      "page_titles": [
+        "Japan national football team"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Japan national football team",
+            "line_index": 4,
+            "sentence": "Japan is one of the most successful teams in Asia , having qualified for the last five consecutive FIFA World Cups with second round advancements in 2002 & 2010 , and having won the AFC Asian Cup a record four times in 1992 , 2000 , 2004 & 2011 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000252",
+      "claim": "There were 953 Mormon members in 1971.",
+      "evidence_sentences": "The number of members in 1971 was 3,090,953 and now in 2017 based on the Annual Report , there are 15,882,417 worldwide .",
+      "page_titles": [
+        "Mormons"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mormons",
+            "line_index": 24,
+            "sentence": "The number of members in 1971 was 3,090,953 and now in 2017 based on the Annual Report , there are 15,882,417 worldwide ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000253",
+      "claim": "Thomas Jefferson helped to organize a political party.",
+      "evidence_sentences": "Jefferson and James Madison organized the Democratic-Republican Party to oppose the Federalist Party during the formation of the First Party System .",
+      "page_titles": [
+        "Thomas Jefferson"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Thomas Jefferson",
+            "line_index": 10,
+            "sentence": "Jefferson and James Madison organized the Democratic-Republican Party to oppose the Federalist Party during the formation of the First Party System ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000254",
+      "claim": "The Invisible Man was based on a H. G. Wells short story.",
+      "evidence_sentences": "The Invisible Man is an American 1933 Pre-Code science fiction horror film based on H. G. Wells ' science fiction novel The Invisible Man , published in 1897 , as adapted by R.C. Sherriff , Philip Wylie and Preston Sturges , whose work was considered unsatisfactory and who was taken off the project .",
+      "page_titles": [
+        "The Invisible Man -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Invisible Man -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "The Invisible Man is an American 1933 Pre-Code science fiction horror film based on H. G. Wells ' science fiction novel The Invisible Man , published in 1897 , as adapted by R.C. Sherriff , Philip Wylie and Preston Sturges , whose work was considered unsatisfactory and who was taken off the project ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000255",
+      "claim": "Nicholas Brody is a person.",
+      "evidence_sentences": "Nicholas `` Nick '' Brody , played by actor Damian Lewis , is a fictional character on the American television series Homeland on Showtime , created by Alex Gansa and Howard Gordon .",
+      "page_titles": [
+        "Nicholas Brody"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Nicholas Brody",
+            "line_index": 1,
+            "sentence": "Nicholas `` Nick '' Brody , played by actor Damian Lewis , is a fictional character on the American television series Homeland on Showtime , created by Alex Gansa and Howard Gordon ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000256",
+      "claim": "Morse Code is used in air traffic control.",
+      "evidence_sentences": "Pilots and air traffic controllers usually need only a cursory understanding .",
+      "page_titles": [
+        "Morse code"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Morse code",
+            "line_index": 16,
+            "sentence": "Pilots and air traffic controllers usually need only a cursory understanding ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000257",
+      "claim": "Swordfish (film) is a television show that is about an ex-convict.",
+      "evidence_sentences": "Swordfish is a 2001 American action crime thriller film directed by Dominic Sena and starring John Travolta , Hugh Jackman , Halle Berry , Don Cheadle and Vinnie Jones .",
+      "page_titles": [
+        "Swordfish -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Swordfish -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "Swordfish is a 2001 American action crime thriller film directed by Dominic Sena and starring John Travolta , Hugh Jackman , Halle Berry , Don Cheadle and Vinnie Jones ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Swordfish -LRB-film-RRB-",
+              "line_index": 2,
+              "sentence": "The film was a slight box office success and was negatively received by critics upon release ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000258",
+      "claim": "The debut album of a hip hop recording artist is Excuse My French.",
+      "evidence_sentences": "Excuse My French is the debut studio album by American rapper French Montana .",
+      "page_titles": [
+        "Excuse My French -LRB-album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Excuse My French -LRB-album-RRB-",
+            "line_index": 0,
+            "sentence": "Excuse My French is the debut studio album by American rapper French Montana ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000259",
+      "claim": "The Pelican Brief is a 1993 United States Supreme Court decision.",
+      "evidence_sentences": "The Pelican Brief is a 1993 American legal political thriller based on the novel of the same name by John Grisham .",
+      "page_titles": [
+        "The Pelican Brief -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Pelican Brief -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "The Pelican Brief is a 1993 American legal political thriller based on the novel of the same name by John Grisham ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Pelican Brief -LRB-film-RRB-",
+              "line_index": 1,
+              "sentence": "Directed by Alan J. Pakula , the film stars Julia Roberts in the role of young law student Darby Shaw and Denzel Washington as Washington Herald reporter Gray Grantham ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Pelican Brief -LRB-film-RRB-",
+              "line_index": 2,
+              "sentence": "Music was composed by James Horner ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Pelican Brief -LRB-film-RRB-",
+              "line_index": 3,
+              "sentence": "This was the last film to feature Pakula as a producer and writer before his death ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Pelican Brief -LRB-film-RRB-",
+              "line_index": 0,
+              "sentence": "The Pelican Brief is a 1993 American legal political thriller based on the novel of the same name by John Grisham ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Pelican Brief -LRB-film-RRB-",
+              "line_index": 1,
+              "sentence": "Directed by Alan J. Pakula , the film stars Julia Roberts in the role of young law student Darby Shaw and Denzel Washington as Washington Herald reporter Gray Grantham ."
+            },
+            {
+              "page_title": "Julia Roberts",
+              "line_index": 5,
+              "sentence": "Her films Mystic Pizza -LRB- 1988 -RRB- , Steel Magnolias -LRB- 1989 -RRB- Sleeping with the Enemy -LRB- 1991 -RRB- , Hook -LRB- 1991 -RRB- , The Pelican Brief -LRB- 1993 -RRB- , My Best Friend 's Wedding -LRB- 1997 -RRB- , Conspiracy Theory -LRB- 1997 -RRB- , Notting Hill -LRB- 1999 -RRB- , Runaway Bride -LRB- 1999 -RRB- , Ocean 's Eleven -LRB- 2001 -RRB- , Mona Lisa Smile -LRB- 2003 -RRB- , Ocean 's Twelve -LRB- 2004 -RRB- , Charlie Wilson 's War -LRB- 2007 -RRB- , Valentine 's Day -LRB- 2010 -RRB- , Eat Pray Love -LRB- 2010 -RRB- , Mirror Mirror -LRB- 2012 -RRB- , and Money Monster -LRB- 2016 -RRB- have collectively brought box office receipts of over US$ 2.7 billion , making her one of the most successful actresses in terms of box office receipts ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Pelican Brief -LRB-film-RRB-",
+              "line_index": 0,
+              "sentence": "The Pelican Brief is a 1993 American legal political thriller based on the novel of the same name by John Grisham ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 7,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000260",
+      "claim": "Kim Jong-il works for the Eternal General Secretary.",
+      "evidence_sentences": "After his death , he was designated as the `` Eternal General Secretary '' of the WPK and the `` Eternal Chairman of the National Defence Commission '' , in keeping with the tradition of establishing eternal posts for the dead members of the Kim dynasty .",
+      "page_titles": [
+        "Kim Jong-il"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kim Jong-il",
+            "line_index": 16,
+            "sentence": "After his death , he was designated as the `` Eternal General Secretary '' of the WPK and the `` Eternal Chairman of the National Defence Commission '' , in keeping with the tradition of establishing eternal posts for the dead members of the Kim dynasty ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000261",
+      "claim": "Camden, New Jersey is in a county in New Jersey.",
+      "evidence_sentences": "Camden is a city in Camden County , New Jersey .",
+      "page_titles": [
+        "Camden, New Jersey"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Camden, New Jersey",
+            "line_index": 0,
+            "sentence": "Camden is a city in Camden County , New Jersey ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Camden, New Jersey",
+              "line_index": 3,
+              "sentence": "-LSB- 10 -RSB- -LSB- 12 -RSB- -LSB- 13 -RSB- Camden is the 12th most populous municipality in New Jersey ."
+            },
+            {
+              "page_title": "List of municipalities in New Jersey",
+              "line_index": 1,
+              "sentence": "There are five types of municipality in the state -- boroughs -LRB- 250 -RRB- , cities -LRB- 52 -RRB- , towns -LRB- 15 -RRB- , townships -LRB- 245 -RRB- , and villages -LRB- 4 -RRB- ."
+            }
+          ],
+          [
+            {
+              "page_title": "Camden, New Jersey",
+              "line_index": 2,
+              "sentence": "At the 2010 United States Census , the city had a population of 77,344 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Camden, New Jersey",
+              "line_index": 5,
+              "sentence": "On March 13 , 1844 , Camden became a county seat in New Jersey ."
+            },
+            {
+              "page_title": "County seat",
+              "line_index": 0,
+              "sentence": "A county seat is an administrative center , seat of government , or capital city of a county or civil parish ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000262",
+      "claim": "The Times has been printed since the American Revolution.",
+      "evidence_sentences": "It began in 1785 under the title , adopting its current name on 1 January 1788 .",
+      "page_titles": [
+        "The Times"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Times",
+            "line_index": 1,
+            "sentence": "It began in 1785 under the title , adopting its current name on 1 January 1788 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Times",
+              "line_index": 1,
+              "sentence": "It began in 1785 under the title , adopting its current name on 1 January 1788 ."
+            },
+            {
+              "page_title": "American Revolution",
+              "line_index": 0,
+              "sentence": "The American Revolution was a political upheaval that took place between 1765 and 1783 during which colonists in the Thirteen American Colonies maintained by force of arms their refusal to submit to the authority of the King and Parliament of Great Britain , and founded the independent United States ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Times",
+              "line_index": 1,
+              "sentence": "It began in 1785 under the title , adopting its current name on 1 January 1788 ."
+            },
+            {
+              "page_title": "American Revolution",
+              "line_index": 0,
+              "sentence": "The American Revolution was a political upheaval that took place between 1765 and 1783 during which colonists in the Thirteen American Colonies maintained by force of arms their refusal to submit to the authority of the King and Parliament of Great Britain , and founded the independent United States ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 2,
+        "alternative_annotation_indices": [
+          0,
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000263",
+      "claim": "Wish Upon was directed by John F. Kennedy.",
+      "evidence_sentences": "Wish Upon is a 2017 supernatural horror thriller film directed by John R. Leonetti and starring Joey King , Ryan Phillipe , Ki Hong Lee , Shannon Purser , Sydney Park and Sherilyn Fenn .",
+      "page_titles": [
+        "Wish Upon"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Wish Upon",
+            "line_index": 0,
+            "sentence": "Wish Upon is a 2017 supernatural horror thriller film directed by John R. Leonetti and starring Joey King , Ryan Phillipe , Ki Hong Lee , Shannon Purser , Sydney Park and Sherilyn Fenn ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000264",
+      "claim": "Capitol Nashville released Keith Urban.",
+      "evidence_sentences": "Keith Urban -LRB- also known as Keith Urban II -RRB- is the second studio album by Australian country music artist Keith Urban , released on 19 October 1999 by Capitol Nashville .",
+      "page_titles": [
+        "Keith Urban -LRB-1999 album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Keith Urban -LRB-1999 album-RRB-",
+            "line_index": 0,
+            "sentence": "Keith Urban -LRB- also known as Keith Urban II -RRB- is the second studio album by Australian country music artist Keith Urban , released on 19 October 1999 by Capitol Nashville ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000265",
+      "claim": "Java is an landform.",
+      "evidence_sentences": "Java -LRB- Indonesian : Jawa ; Javanese : ꦗꦮ ; Sundanese : -RRB- is an island of Indonesia . An island or isle is any piece of sub-continental land that is surrounded by water .",
+      "page_titles": [
+        "Java",
+        "Island"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Java",
+            "line_index": 0,
+            "sentence": "Java -LRB- Indonesian : Jawa ; Javanese : ꦗꦮ ; Sundanese : -RRB- is an island of Indonesia ."
+          },
+          {
+            "page_title": "Island",
+            "line_index": 0,
+            "sentence": "An island or isle is any piece of sub-continental land that is surrounded by water ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000266",
+      "claim": "Swordfish (film) is incapable of being a film that is about a computer hacker.",
+      "evidence_sentences": "The film centers on Stanley Jobson , an ex-con and computer hacker who is targeted for recruitment into a bank robbery conspiracy because of his formidable hacking skills .",
+      "page_titles": [
+        "Swordfish -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Swordfish -LRB-film-RRB-",
+            "line_index": 1,
+            "sentence": "The film centers on Stanley Jobson , an ex-con and computer hacker who is targeted for recruitment into a bank robbery conspiracy because of his formidable hacking skills ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000267",
+      "claim": "Veeru Devgan directs films.",
+      "evidence_sentences": "Veeru Devgan is an Indian stunt and action choreographer and film director in Bollywood .",
+      "page_titles": [
+        "Veeru Devgan"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Veeru Devgan",
+            "line_index": 0,
+            "sentence": "Veeru Devgan is an Indian stunt and action choreographer and film director in Bollywood ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Veeru Devgan",
+              "line_index": 0,
+              "sentence": "Veeru Devgan is an Indian stunt and action choreographer and film director in Bollywood ."
+            }
+          ],
+          [
+            {
+              "page_title": "Veeru Devgan",
+              "line_index": 3,
+              "sentence": "He has also directed a film -- Hindustan Ki Kasam -LRB- 1999 -RRB- ."
+            }
+          ],
+          [
+            {
+              "page_title": "Veeru Devgan",
+              "line_index": 0,
+              "sentence": "Veeru Devgan is an Indian stunt and action choreographer and film director in Bollywood ."
+            }
+          ],
+          [
+            {
+              "page_title": "Veeru Devgan",
+              "line_index": 0,
+              "sentence": "Veeru Devgan is an Indian stunt and action choreographer and film director in Bollywood ."
+            }
+          ],
+          [
+            {
+              "page_title": "Veeru Devgan",
+              "line_index": 3,
+              "sentence": "He has also directed a film -- Hindustan Ki Kasam -LRB- 1999 -RRB- ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 6,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000268",
+      "claim": "Middlesex County is home to the city of Watertown, Massachusetts.",
+      "evidence_sentences": "The Town of Watertown is a city in Middlesex County , Massachusetts , United States .",
+      "page_titles": [
+        "Watertown, Massachusetts"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Watertown, Massachusetts",
+            "line_index": 0,
+            "sentence": "The Town of Watertown is a city in Middlesex County , Massachusetts , United States ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000269",
+      "claim": "Keith Stanfield is a person.",
+      "evidence_sentences": "LaKeith Lee `` Keith '' Stanfield -LRB- born August 12 , 1991 -RRB- is an American actor and rapper .",
+      "page_titles": [
+        "Keith Stanfield"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Keith Stanfield",
+            "line_index": 0,
+            "sentence": "LaKeith Lee `` Keith '' Stanfield -LRB- born August 12 , 1991 -RRB- is an American actor and rapper ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000270",
+      "claim": "Guillermo del Toro does not work in the film industry.",
+      "evidence_sentences": "Guillermo del Toro Gómez -LRB- -LSB- ɡiˈʝeɾmo ðel ˈtoɾo -RSB- ; born October 9 , 1964 -RRB- is a Mexican film director , screenwriter , producer , and novelist .",
+      "page_titles": [
+        "Guillermo del Toro"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Guillermo del Toro",
+            "line_index": 0,
+            "sentence": "Guillermo del Toro Gómez -LRB- -LSB- ɡiˈʝeɾmo ðel ˈtoɾo -RSB- ; born October 9 , 1964 -RRB- is a Mexican film director , screenwriter , producer , and novelist ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Guillermo del Toro",
+              "line_index": 1,
+              "sentence": "In his filmmaking career , del Toro has alternated between Spanish-language dark fantasy pieces , such as the gothic horror film The Devil 's Backbone -LRB- 2001 -RRB- , and Pan 's Labyrinth -LRB- 2006 -RRB- , and more mainstream American action movies , such as the vampire superhero action film Blade II -LRB- 2002 -RRB- , the supernatural superhero film Hellboy -LRB- 2004 -RRB- , its sequel Hellboy II : The Golden Army -LRB- 2008 -RRB- , and the science fiction monster film Pacific Rim -LRB- 2013 -RRB- ."
+            }
+          ],
+          [
+            {
+              "page_title": "Guillermo del Toro",
+              "line_index": 4,
+              "sentence": "In addition to his directing works , del Toro is a prolific producer , his producing works including acclaimed and successful films such as The Orphanage -LRB- 2007 -RRB- , Julia 's Eyes -LRB- 2010 -RRB- , Biutiful -LRB- 2010 -RRB- , Kung Fu Panda 2 -LRB- 2011 -RRB- , Puss in Boots -LRB- 2011 -RRB- , and Mama -LRB- 2013 -RRB- ."
+            }
+          ],
+          [
+            {
+              "page_title": "Guillermo del Toro",
+              "line_index": 11,
+              "sentence": "He is also friends with fellow Mexican directors Alfonso Cuarón and Alejandro González Iñárritu , collectively known as `` The Three Amigos of Cinema . ''"
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000271",
+      "claim": "Simon Cowell is an English science-fiction television judge.",
+      "evidence_sentences": "Simon Phillip Cowell -LRB- -LSB- ˈkaʊəl -RSB- -RRB- -LRB- born 7 October 1959 -RRB- is an English reality television judge and producer , entrepreneur , and philanthropist .",
+      "page_titles": [
+        "Simon Cowell"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Simon Cowell",
+            "line_index": 0,
+            "sentence": "Simon Phillip Cowell -LRB- -LSB- ˈkaʊəl -RSB- -RRB- -LRB- born 7 October 1959 -RRB- is an English reality television judge and producer , entrepreneur , and philanthropist ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000272",
+      "claim": "Wildfang is a US-based women's clothing company featuring clothing that is tomboyish in style.",
+      "evidence_sentences": "Wildfang is a US-based women 's apparel company featuring clothing that is tomboyish in style .",
+      "page_titles": [
+        "Wildfang"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Wildfang",
+            "line_index": 0,
+            "sentence": "Wildfang is a US-based women 's apparel company featuring clothing that is tomboyish in style ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Wildfang",
+              "line_index": 0,
+              "sentence": "Wildfang is a US-based women 's apparel company featuring clothing that is tomboyish in style ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000273",
+      "claim": "Dev Patel has not worked with Neill Blomkamp.",
+      "evidence_sentences": "Patel went on to star in the highly successful romantic comedy The Best Exotic Marigold Hotel -LRB- 2012 -RRB- and its 2015 sequel , the fantasy film The Last Airbender -LRB- 2010 -RRB- , and the science fiction film Chappie -LRB- 2015 -RRB- . Chappie -LRB- stylized as CHAPPiE -RRB- is a 2015 science fiction film directed by South African director Neill Blomkamp and written by Blomkamp and Terri Tatchell .",
+      "page_titles": [
+        "Dev Patel",
+        "Chappie -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Dev Patel",
+            "line_index": 5,
+            "sentence": "Patel went on to star in the highly successful romantic comedy The Best Exotic Marigold Hotel -LRB- 2012 -RRB- and its 2015 sequel , the fantasy film The Last Airbender -LRB- 2010 -RRB- , and the science fiction film Chappie -LRB- 2015 -RRB- ."
+          },
+          {
+            "page_title": "Chappie -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "Chappie -LRB- stylized as CHAPPiE -RRB- is a 2015 science fiction film directed by South African director Neill Blomkamp and written by Blomkamp and Terri Tatchell ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000274",
+      "claim": "Girl is criticized as G I R L.",
+      "evidence_sentences": "Girl -LRB- stylized as G I R L -RRB- is the second studio album by American singer and record producer Pharrell Williams .",
+      "page_titles": [
+        "Girl -LRB-Pharrell Williams album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Girl -LRB-Pharrell Williams album-RRB-",
+            "line_index": 0,
+            "sentence": "Girl -LRB- stylized as G I R L -RRB- is the second studio album by American singer and record producer Pharrell Williams ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000275",
+      "claim": "Talulah Riley makes an appearance in The Boat That Rocked.",
+      "evidence_sentences": "She has appeared in films such as Pride & Prejudice , St Trinian 's , The Boat That Rocked , St. Trinian 's 2 : The Legend of Fritton 's Gold and Inception .",
+      "page_titles": [
+        "Talulah Riley"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Talulah Riley",
+            "line_index": 1,
+            "sentence": "She has appeared in films such as Pride & Prejudice , St Trinian 's , The Boat That Rocked , St. Trinian 's 2 : The Legend of Fritton 's Gold and Inception ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000276",
+      "claim": "Duane Chapman's father is Duane Lee \"Dog\" Chapman I.",
+      "evidence_sentences": "Duane Lee `` Dog '' Chapman I. -LRB- born February 2 , 1953 -RRB- is an American bounty hunter and a former bail bondsman .",
+      "page_titles": [
+        "Duane Chapman"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Duane Chapman",
+            "line_index": 0,
+            "sentence": "Duane Lee `` Dog '' Chapman I. -LRB- born February 2 , 1953 -RRB- is an American bounty hunter and a former bail bondsman ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000277",
+      "claim": "B. R. Ambedkar was born in the 20th century.",
+      "evidence_sentences": "Bhimrao Ramji Ambedkar -LRB- 14 April 1891 -- 6 December 1956 -RRB- , popularly known as Baba Saheb , was an Indian jurist , economist , politician and social reformer who inspired the Dalit Buddhist Movement and campaigned against social discrimination against Untouchables -LRB- Dalits -RRB- , while also supporting the rights of women and labour .",
+      "page_titles": [
+        "B. R. Ambedkar"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "B. R. Ambedkar",
+            "line_index": 0,
+            "sentence": "Bhimrao Ramji Ambedkar -LRB- 14 April 1891 -- 6 December 1956 -RRB- , popularly known as Baba Saheb , was an Indian jurist , economist , politician and social reformer who inspired the Dalit Buddhist Movement and campaigned against social discrimination against Untouchables -LRB- Dalits -RRB- , while also supporting the rights of women and labour ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "B. R. Ambedkar",
+              "line_index": 0,
+              "sentence": "Bhimrao Ramji Ambedkar -LRB- 14 April 1891 -- 6 December 1956 -RRB- , popularly known as Baba Saheb , was an Indian jurist , economist , politician and social reformer who inspired the Dalit Buddhist Movement and campaigned against social discrimination against Untouchables -LRB- Dalits -RRB- , while also supporting the rights of women and labour ."
+            },
+            {
+              "page_title": "19th century",
+              "line_index": 0,
+              "sentence": "The 19th century -LRB- 1 January 1801 -- 31 December 1900 -RRB- was the century marked by the collapse of the Spanish , Napoleonic , Holy Roman and Mughal empires ."
+            }
+          ],
+          [
+            {
+              "page_title": "B. R. Ambedkar",
+              "line_index": 0,
+              "sentence": "Bhimrao Ramji Ambedkar -LRB- 14 April 1891 -- 6 December 1956 -RRB- , popularly known as Baba Saheb , was an Indian jurist , economist , politician and social reformer who inspired the Dalit Buddhist Movement and campaigned against social discrimination against Untouchables -LRB- Dalits -RRB- , while also supporting the rights of women and labour ."
+            }
+          ],
+          [
+            {
+              "page_title": "B. R. Ambedkar",
+              "line_index": 0,
+              "sentence": "Bhimrao Ramji Ambedkar -LRB- 14 April 1891 -- 6 December 1956 -RRB- , popularly known as Baba Saheb , was an Indian jurist , economist , politician and social reformer who inspired the Dalit Buddhist Movement and campaigned against social discrimination against Untouchables -LRB- Dalits -RRB- , while also supporting the rights of women and labour ."
+            }
+          ],
+          [
+            {
+              "page_title": "B. R. Ambedkar",
+              "line_index": 0,
+              "sentence": "Bhimrao Ramji Ambedkar -LRB- 14 April 1891 -- 6 December 1956 -RRB- , popularly known as Baba Saheb , was an Indian jurist , economist , politician and social reformer who inspired the Dalit Buddhist Movement and campaigned against social discrimination against Untouchables -LRB- Dalits -RRB- , while also supporting the rights of women and labour ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000278",
+      "claim": "The Incredibles 2 is scheduled to be released at 2 p. m. on June 15, 2018.",
+      "evidence_sentences": "The movie is scheduled to be released on June 15 , 2018 and will be given an IMAX release .",
+      "page_titles": [
+        "The Incredibles 2"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Incredibles 2",
+            "line_index": 3,
+            "sentence": "The movie is scheduled to be released on June 15 , 2018 and will be given an IMAX release ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000279",
+      "claim": "Tennessee was the last state to leave the Union.",
+      "evidence_sentences": "Tennessee was the last state to leave the Union and join the Confederacy at the outbreak of the American Civil War in 1861 .",
+      "page_titles": [
+        "Tennessee"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tennessee",
+            "line_index": 11,
+            "sentence": "Tennessee was the last state to leave the Union and join the Confederacy at the outbreak of the American Civil War in 1861 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000280",
+      "claim": "Awkward Black Girl stars Issa Rae as Amber.",
+      "evidence_sentences": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae .",
+      "page_titles": [
+        "Awkward Black Girl"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Awkward Black Girl",
+            "line_index": 0,
+            "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000281",
+      "claim": "Atlanta metropolitan area had a population of 5.5 million people.",
+      "evidence_sentences": "Its economic , cultural and demographic center is Atlanta , and it had a 2015 estimated population of 5.7 million people according to the U.S. Census Bureau .",
+      "page_titles": [
+        "Atlanta metropolitan area"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Atlanta metropolitan area",
+            "line_index": 1,
+            "sentence": "Its economic , cultural and demographic center is Atlanta , and it had a 2015 estimated population of 5.7 million people according to the U.S. Census Bureau ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000282",
+      "claim": "Wilhelmina Slater is portrayed in a period romance television series.",
+      "evidence_sentences": "Wilhelmina Vivian Slater -LRB- born Wanda Slater -RRB- is a fictional character in the American dramedy series Ugly Betty . Ugly Betty is an American comedy-drama television series developed by Silvio Horta , which was originally broadcast on ABC between 2006 and 2010 .",
+      "page_titles": [
+        "Wilhelmina Slater",
+        "Ugly Betty"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Wilhelmina Slater",
+            "line_index": 0,
+            "sentence": "Wilhelmina Vivian Slater -LRB- born Wanda Slater -RRB- is a fictional character in the American dramedy series Ugly Betty ."
+          },
+          {
+            "page_title": "Ugly Betty",
+            "line_index": 0,
+            "sentence": "Ugly Betty is an American comedy-drama television series developed by Silvio Horta , which was originally broadcast on ABC between 2006 and 2010 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000283",
+      "claim": "Ronaldinho has played 90 matches.",
+      "evidence_sentences": "Ronaldinho has played 97 matches and scored 33 goals for the Brazil national team .",
+      "page_titles": [
+        "Ronaldinho"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ronaldinho",
+            "line_index": 10,
+            "sentence": "Ronaldinho has played 97 matches and scored 33 goals for the Brazil national team ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000284",
+      "claim": "In the British Virgin Islands and Turks and Caicos Islands, the United States dollar is the sole currency.",
+      "evidence_sentences": "Besides the United States , it is also used as the sole currency in two British Overseas Territories in the Caribbean : the British Virgin Islands and Turks and Caicos Islands .",
+      "page_titles": [
+        "United States dollar"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "United States dollar",
+            "line_index": 72,
+            "sentence": "Besides the United States , it is also used as the sole currency in two British Overseas Territories in the Caribbean : the British Virgin Islands and Turks and Caicos Islands ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000285",
+      "claim": "Fist of Legend is a remake of a film directed by John Woo.",
+      "evidence_sentences": "Fist of Legend is a 1994 Hong Kong martial arts film directed by Gordon Chan , featuring action choreography by Yuen Woo-ping , and produced by Jet Li , who also starred in the lead role .",
+      "page_titles": [
+        "Fist of Legend"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Fist of Legend",
+            "line_index": 0,
+            "sentence": "Fist of Legend is a 1994 Hong Kong martial arts film directed by Gordon Chan , featuring action choreography by Yuen Woo-ping , and produced by Jet Li , who also starred in the lead role ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000286",
+      "claim": "Manmohan Singh was a prime minister after the first Prime Minister of India.",
+      "evidence_sentences": "The first Sikh in office , Singh was also the first prime minister since Jawaharlal Nehru to be re-elected after completing a full five-year term .",
+      "page_titles": [
+        "Manmohan Singh"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Manmohan Singh",
+            "line_index": 1,
+            "sentence": "The first Sikh in office , Singh was also the first prime minister since Jawaharlal Nehru to be re-elected after completing a full five-year term ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000287",
+      "claim": "Ned Stark's cast was nominated for a dead body.",
+      "evidence_sentences": "He and the rest of the cast were nominated for Screen Actors Guild Awards for Outstanding Performance by an Ensemble in a Drama Series in 2011 .",
+      "page_titles": [
+        "Ned Stark"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ned Stark",
+            "line_index": 7,
+            "sentence": "He and the rest of the cast were nominated for Screen Actors Guild Awards for Outstanding Performance by an Ensemble in a Drama Series in 2011 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000288",
+      "claim": "Mary-Kate Olsen and Ashley Olsen are only known as Mary-Kate Olsen and Ashley Olsen.",
+      "evidence_sentences": "Mary-Kate Olsen and Ashley Olsen -LRB- born June 13 , 1986 -RRB- , also known as the Olsen twins collectively , are American fashion designers and former child actresses .",
+      "page_titles": [
+        "Mary-Kate and Ashley Olsen"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mary-Kate and Ashley Olsen",
+            "line_index": 0,
+            "sentence": "Mary-Kate Olsen and Ashley Olsen -LRB- born June 13 , 1986 -RRB- , also known as the Olsen twins collectively , are American fashion designers and former child actresses ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000289",
+      "claim": "Cheese in the Trap (TV series) is a television series.",
+      "evidence_sentences": "Cheese in the Trap is a South Korean television series starring Park Hae-jin , Kim Go-eun , Seo Kang-joon and Lee Sung-kyung .",
+      "page_titles": [
+        "Cheese in the Trap -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Cheese in the Trap -LRB-TV series-RRB-",
+            "line_index": 0,
+            "sentence": "Cheese in the Trap is a South Korean television series starring Park Hae-jin , Kim Go-eun , Seo Kang-joon and Lee Sung-kyung ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000290",
+      "claim": "Roland Emmerich is a campaigner.",
+      "evidence_sentences": "He is a collector of art and an active campaigner for the LGBT community , and is openly gay .",
+      "page_titles": [
+        "Roland Emmerich"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Roland Emmerich",
+            "line_index": 3,
+            "sentence": "He is a collector of art and an active campaigner for the LGBT community , and is openly gay ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000291",
+      "claim": "The Danish language is spoken in Spain.",
+      "evidence_sentences": "There are also minor Danish-speaking communities in Norway , Sweden , Spain , the United States , Canada , Brazil and Argentina .",
+      "page_titles": [
+        "Danish language"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Danish language",
+            "line_index": 1,
+            "sentence": "There are also minor Danish-speaking communities in Norway , Sweden , Spain , the United States , Canada , Brazil and Argentina ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Danish language",
+              "line_index": 1,
+              "sentence": "There are also minor Danish-speaking communities in Norway , Sweden , Spain , the United States , Canada , Brazil and Argentina ."
+            }
+          ],
+          [
+            {
+              "page_title": "Danish language",
+              "line_index": 1,
+              "sentence": "There are also minor Danish-speaking communities in Norway , Sweden , Spain , the United States , Canada , Brazil and Argentina ."
+            }
+          ],
+          [
+            {
+              "page_title": "Danish language",
+              "line_index": 1,
+              "sentence": "There are also minor Danish-speaking communities in Norway , Sweden , Spain , the United States , Canada , Brazil and Argentina ."
+            }
+          ],
+          [
+            {
+              "page_title": "Danish language",
+              "line_index": 1,
+              "sentence": "There are also minor Danish-speaking communities in Norway , Sweden , Spain , the United States , Canada , Brazil and Argentina ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000292",
+      "claim": "Superhuman abilities may be impeded by human enhancement by nanotechnology.",
+      "evidence_sentences": "Superhuman abilities may result from human enhancement by genetic modification , cybernetic implants , nanotechnology , radiation or from human evolution in the future .",
+      "page_titles": [
+        "Superhuman"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Superhuman",
+            "line_index": 6,
+            "sentence": "Superhuman abilities may result from human enhancement by genetic modification , cybernetic implants , nanotechnology , radiation or from human evolution in the future ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000293",
+      "claim": "The Josh Thurlow historical fiction novels were written by Homer Hickman.",
+      "evidence_sentences": "Hickam has also written a number of best-selling memoirs and novels including the `` Josh Thurlow '' historical fiction novels .",
+      "page_titles": [
+        "Homer Hickam"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Homer Hickam",
+            "line_index": 2,
+            "sentence": "Hickam has also written a number of best-selling memoirs and novels including the `` Josh Thurlow '' historical fiction novels ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000294",
+      "claim": "Rupert Murdoch has worked.",
+      "evidence_sentences": "His father , Sir Keith Murdoch , had been a reporter , editor , and senior executive of the Herald and Weekly Times newspaper publishing company , covering all Australian states except New South Wales .",
+      "page_titles": [
+        "Rupert Murdoch"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Rupert Murdoch",
+            "line_index": 1,
+            "sentence": "His father , Sir Keith Murdoch , had been a reporter , editor , and senior executive of the Herald and Weekly Times newspaper publishing company , covering all Australian states except New South Wales ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Rupert Murdoch",
+              "line_index": 0,
+              "sentence": "Keith Rupert Murdoch -LSB- ˈmɜrdɒk -RSB- , AC , KCSG -LRB- born 11 March 1931 -RRB- is an Australian-born American media mogul ."
+            }
+          ],
+          [
+            {
+              "page_title": "Rupert Murdoch",
+              "line_index": 2,
+              "sentence": "After his father 's death in 1952 , Murdoch declined to join his late father 's registered public company and created his own private company , News Limited ."
+            }
+          ],
+          [
+            {
+              "page_title": "Rupert Murdoch",
+              "line_index": 3,
+              "sentence": "Murdoch thus had full control as Chairman and CEO of global media holding company News Corporation , now the world 's second-largest media conglomerate , and its successors , News Corp and 21st Century Fox , after the conglomerate split on 28 June 2013 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000295",
+      "claim": "Happiness in Slavery is from the album Broken.",
+      "evidence_sentences": "`` Happiness in Slavery '' is a song by American industrial rock band Nine Inch Nails from their debut extended play -LRB- EP -RRB- , Broken -LRB- 1992 -RRB- .",
+      "page_titles": [
+        "Happiness in Slavery"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Happiness in Slavery",
+            "line_index": 0,
+            "sentence": "`` Happiness in Slavery '' is a song by American industrial rock band Nine Inch Nails from their debut extended play -LRB- EP -RRB- , Broken -LRB- 1992 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000296",
+      "claim": "Death Note is a Korean television science fiction mini series based on a manga series illustrated by Takeshi Obata.",
+      "evidence_sentences": "is a Japanese television drama series based on the manga series of the same name by Tsugumi Ohba and Takeshi Obata .",
+      "page_titles": [
+        "Death Note -LRB-2015 TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Death Note -LRB-2015 TV series-RRB-",
+            "line_index": 0,
+            "sentence": "is a Japanese television drama series based on the manga series of the same name by Tsugumi Ohba and Takeshi Obata ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000297",
+      "claim": "Ashton Kutcher was not directed by Ivan Reitman.",
+      "evidence_sentences": "Kutcher subsequently appeared in more romantic comedies , including Guess Who -LRB- 2005 -RRB- , A Lot Like Love -LRB- 2005 -RRB- , What Happens in Vegas -LRB- 2008 -RRB- , and No Strings Attached -LRB- 2011 -RRB- . No Strings Attached is a 2011 American romantic comedy film directed by Ivan Reitman and written by Elizabeth Meriwether .",
+      "page_titles": [
+        "Ashton Kutcher",
+        "No Strings Attached -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ashton Kutcher",
+            "line_index": 8,
+            "sentence": "Kutcher subsequently appeared in more romantic comedies , including Guess Who -LRB- 2005 -RRB- , A Lot Like Love -LRB- 2005 -RRB- , What Happens in Vegas -LRB- 2008 -RRB- , and No Strings Attached -LRB- 2011 -RRB- ."
+          },
+          {
+            "page_title": "No Strings Attached -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "No Strings Attached is a 2011 American romantic comedy film directed by Ivan Reitman and written by Elizabeth Meriwether ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Ashton Kutcher",
+              "line_index": 8,
+              "sentence": "Kutcher subsequently appeared in more romantic comedies , including Guess Who -LRB- 2005 -RRB- , A Lot Like Love -LRB- 2005 -RRB- , What Happens in Vegas -LRB- 2008 -RRB- , and No Strings Attached -LRB- 2011 -RRB- ."
+            },
+            {
+              "page_title": "No Strings Attached -LRB-film-RRB-",
+              "line_index": 0,
+              "sentence": "No Strings Attached is a 2011 American romantic comedy film directed by Ivan Reitman and written by Elizabeth Meriwether ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000298",
+      "claim": "Yale University has had many alumni who were notable.",
+      "evidence_sentences": "Yale has graduated many notable alumni , including five U.S. Presidents , 19 U.S. Supreme Court Justices , 20 living billionaires , and many heads of state .",
+      "page_titles": [
+        "Yale University"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Yale University",
+            "line_index": 23,
+            "sentence": "Yale has graduated many notable alumni , including five U.S. Presidents , 19 U.S. Supreme Court Justices , 20 living billionaires , and many heads of state ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000299",
+      "claim": "The Invisible Man came out after enforcement of the Motion Picture Production Code censorship guidelines took effect.",
+      "evidence_sentences": "The Invisible Man is an American 1933 Pre-Code science fiction horror film based on H. G. Wells ' science fiction novel The Invisible Man , published in 1897 , as adapted by R.C. Sherriff , Philip Wylie and Preston Sturges , whose work was considered unsatisfactory and who was taken off the project . Pre-Code Hollywood refers to the brief era in the American film industry between the introduction of sound pictures in 1929 and the enforcement of the Motion Picture Production Code censorship guidelines , popularly known as the `` Hays Code '' , in mid-1934 .",
+      "page_titles": [
+        "The Invisible Man -LRB-film-RRB-",
+        "Pre-Code Hollywood"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Invisible Man -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "The Invisible Man is an American 1933 Pre-Code science fiction horror film based on H. G. Wells ' science fiction novel The Invisible Man , published in 1897 , as adapted by R.C. Sherriff , Philip Wylie and Preston Sturges , whose work was considered unsatisfactory and who was taken off the project ."
+          },
+          {
+            "page_title": "Pre-Code Hollywood",
+            "line_index": 0,
+            "sentence": "Pre-Code Hollywood refers to the brief era in the American film industry between the introduction of sound pictures in 1929 and the enforcement of the Motion Picture Production Code censorship guidelines , popularly known as the `` Hays Code '' , in mid-1934 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000300",
+      "claim": "Henry Condell had a widow that was buried on October 3rd, 1635.",
+      "evidence_sentences": "His widow , Elizabeth , was buried there on 3 October 1635 .",
+      "page_titles": [
+        "Henry Condell"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Henry Condell",
+            "line_index": 55,
+            "sentence": "His widow , Elizabeth , was buried there on 3 October 1635 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Henry Condell",
+              "line_index": 55,
+              "sentence": "His widow , Elizabeth , was buried there on 3 October 1635 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    }
+  ],
+  "rubric": "# Judge Rubric (silver adjudication, v1)\n\nYou are an independent fact-checking adjudicator. You will see a batch of\nitems. Each item contains a **claim** and **evidence** (what is included\ndepends on the disclosure stage, stated in the batch header). For EVERY item\nyou must judge **only from the information provided**.\n\n## Task\n\nDecide whether the provided evidence **warrants** the claim:\n\n- `Supported` — the evidence clearly or probably establishes the claim is true.\n- `Refuted` — the evidence clearly or probably establishes the claim is false.\n- `Ambiguous` — the evidence is insufficient, partial, or mixed; you cannot\n  responsibly decide true or false from what is provided.\n\nAlso rate how sufficient the evidence is for deciding the claim\n(`clearly_sufficient | probably_sufficient | partial_or_ambiguous |\nprobably_insufficient | clearly_insufficient`), your confidence (integer\n0–100), and any issue flags that apply (see list).\n\n## Hard rules\n\n- Judge ONLY from the supplied claim and evidence. Do NOT use outside\n  knowledge to decide the verdict.\n- Do NOT browse the web or look anything up.\n- Do NOT speculate about hidden labels, other models, or why the item was\n  selected.\n- If the evidence alone does not settle the claim, say `Ambiguous` — that is a\n  valid, useful answer, not a failure.\n- `confidence` MUST be an integer from 0 to 100.\n- `brief_reason` must be short (one sentence) and grounded in the evidence.\n- Select issue flags only when the evidence shows that problem; use `none`\n  otherwise. Do not pad flags.\n\n## Issue flags\n\n`none`, `possible_missing_title_context`, `possible_coreference_or_entity_resolution`,\n`possible_missing_surrounding_context`, `multi_sentence_integration`,\n`numerical_or_temporal_reasoning`, `negation_or_scope`,\n`entity_or_attribute_confusion`, `partial_warrant`,\n`apparent_internal_contradiction`, `other`\n\n## Output format\n\nReturn ONLY a JSON array (no prose before or after), one object per item, in\nthe same order as the input:\n\n```json\n[\n  {\n    \"item_id\": \"SA-000001\",\n    \"judge_id\": \"judge_1\",\n    \"stage\": \"A\",\n    \"verdict\": \"Supported\",\n    \"evidence_sufficiency\": \"probably_sufficient\",\n    \"confidence\": 80,\n    \"issue_flags\": [\"none\"],\n    \"brief_reason\": \"The evidence sentence directly states the claim.\"\n  }\n]\n```\n\n`item_id`, `judge_id`, and `stage` must be copied exactly from the batch file.\nProduce exactly one object for every item in the batch — never skip or merge\nitems. If an item's evidence is empty or unreadable, verdict `Ambiguous`,\nsufficiency `clearly_insufficient`, confidence as you see fit, flag `other`.\n",
+  "disclosure_note": "Stage C. Judge only supplied fields. Null text means unavailable; do not fill it using outside knowledge."
+}

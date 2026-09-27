@@ -1,0 +1,2362 @@
+{
+  "judge_id": "judge_1",
+  "stage": "C",
+  "output_path": "corrections_v2/blind_io/p03/stage_c/p03_C_j1_b03.output.json",
+  "n_items": 77,
+  "item_ids": [
+    "CR-000155",
+    "CR-000156",
+    "CR-000157",
+    "CR-000158",
+    "CR-000159",
+    "CR-000160",
+    "CR-000161",
+    "CR-000162",
+    "CR-000163",
+    "CR-000164",
+    "CR-000165",
+    "CR-000166",
+    "CR-000167",
+    "CR-000168",
+    "CR-000169",
+    "CR-000170",
+    "CR-000171",
+    "CR-000172",
+    "CR-000173",
+    "CR-000174",
+    "CR-000175",
+    "CR-000176",
+    "CR-000177",
+    "CR-000178",
+    "CR-000179",
+    "CR-000180",
+    "CR-000181",
+    "CR-000182",
+    "CR-000183",
+    "CR-000184",
+    "CR-000185",
+    "CR-000186",
+    "CR-000187",
+    "CR-000188",
+    "CR-000189",
+    "CR-000190",
+    "CR-000191",
+    "CR-000192",
+    "CR-000193",
+    "CR-000194",
+    "CR-000195",
+    "CR-000196",
+    "CR-000197",
+    "CR-000198",
+    "CR-000199",
+    "CR-000200",
+    "CR-000201",
+    "CR-000202",
+    "CR-000203",
+    "CR-000204",
+    "CR-000205",
+    "CR-000206",
+    "CR-000207",
+    "CR-000208",
+    "CR-000209",
+    "CR-000210",
+    "CR-000211",
+    "CR-000212",
+    "CR-000213",
+    "CR-000214",
+    "CR-000215",
+    "CR-000216",
+    "CR-000217",
+    "CR-000218",
+    "CR-000219",
+    "CR-000220",
+    "CR-000221",
+    "CR-000222",
+    "CR-000223",
+    "CR-000224",
+    "CR-000225",
+    "CR-000226",
+    "CR-000227",
+    "CR-000228",
+    "CR-000229",
+    "CR-000230",
+    "CR-000231"
+  ],
+  "items": [
+    {
+      "item_id": "CR-000155",
+      "claim": "Benjamin Franklin was a spokesman.",
+      "evidence_sentences": "Franklin was a renowned polymath and a leading author , printer , political theorist , politician , freemason , postmaster , scientist , inventor , civic activist , statesman , and diplomat .",
+      "page_titles": [
+        "Benjamin Franklin"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Benjamin Franklin",
+            "line_index": 1,
+            "sentence": "Franklin was a renowned polymath and a leading author , printer , political theorist , politician , freemason , postmaster , scientist , inventor , civic activist , statesman , and diplomat ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000156",
+      "claim": "CHiPs is based on a popular TV series written by Rick Rosner.",
+      "evidence_sentences": "CHiPs is a 2017 American action comedy buddy cop film written and directed by Dax Shepard , based on the 1977 -- 1983 television series of the same name created by Rick Rosner .",
+      "page_titles": [
+        "CHiPs -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "CHiPs -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "CHiPs is a 2017 American action comedy buddy cop film written and directed by Dax Shepard , based on the 1977 -- 1983 television series of the same name created by Rick Rosner ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000157",
+      "claim": "Night of the Living Dead is a 1990 American horror film.",
+      "evidence_sentences": "Night of the Living Dead is a 1968 American independent horror film , directed by George A. Romero , starring Duane Jones and Judith O'Dea .",
+      "page_titles": [
+        "Night of the Living Dead"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Night of the Living Dead",
+            "line_index": 0,
+            "sentence": "Night of the Living Dead is a 1968 American independent horror film , directed by George A. Romero , starring Duane Jones and Judith O'Dea ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Night of the Living Dead",
+              "line_index": 1,
+              "sentence": "It was completed on a $ 114,000 budget and premiered October 1 , 1968 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Night of the Living Dead",
+              "line_index": 10,
+              "sentence": "Night of the Living Dead led to five subsequent films between 1978 and 2010 , also directed by Romero , and inspired two remakes ; the most well-known remake was released in 1990 , directed by Tom Savini ."
+            },
+            {
+              "page_title": "Night of the Living Dead -LRB-1990 film-RRB-",
+              "line_index": 0,
+              "sentence": "Night of the Living Dead is a 1990 American horror film directed by Tom Savini and starring Tony Todd , Patricia Tallman and Tom Towles ."
+            },
+            {
+              "page_title": "Night of the Living Dead -LRB-1990 film-RRB-",
+              "line_index": 1,
+              "sentence": "It is a remake of George A. Romero 's 1968 horror film of the same name ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000158",
+      "claim": "Howard impersonated James Rhodes.",
+      "evidence_sentences": "Howard played James Rhodes in Iron Man and reprised the role in the video game adaptation .",
+      "page_titles": [
+        "Terrence Howard"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Terrence Howard",
+            "line_index": 4,
+            "sentence": "Howard played James Rhodes in Iron Man and reprised the role in the video game adaptation ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Terrence Howard",
+              "line_index": 4,
+              "sentence": "Howard played James Rhodes in Iron Man and reprised the role in the video game adaptation ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000159",
+      "claim": "Pharmacology deals with the development, discovery, and characterization of chemicals which show biological effects.",
+      "evidence_sentences": "Pharmacology , a biomedical science , deals with the research , discovery , and characterization of chemicals which show biological effects and the elucidation of cellular and organismal function in relation to these chemicals .",
+      "page_titles": [
+        "Pharmacology"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Pharmacology",
+            "line_index": 10,
+            "sentence": "Pharmacology , a biomedical science , deals with the research , discovery , and characterization of chemicals which show biological effects and the elucidation of cellular and organismal function in relation to these chemicals ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000160",
+      "claim": "Yvonne Strahovski has done the voice-over for movies and TV shows.",
+      "evidence_sentences": "She has also voiced Miranda Lawson in the Mass Effect video game series and Batwoman in the animated film Batman : Bad Blood -LRB- 2016 -RRB- .",
+      "page_titles": [
+        "Yvonne Strahovski"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Yvonne Strahovski",
+            "line_index": 5,
+            "sentence": "She has also voiced Miranda Lawson in the Mass Effect video game series and Batwoman in the animated film Batman : Bad Blood -LRB- 2016 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000161",
+      "claim": "I Want to Know What Love Is is a single.",
+      "evidence_sentences": "`` I Want to Know What Love Is '' is a power ballad by the British-American rock band Foreigner .",
+      "page_titles": [
+        "I Want to Know What Love Is"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "I Want to Know What Love Is",
+            "line_index": 0,
+            "sentence": "`` I Want to Know What Love Is '' is a power ballad by the British-American rock band Foreigner ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "I Want to Know What Love Is",
+              "line_index": 1,
+              "sentence": "It was released in November 1984 as the lead single from their fifth album , Agent Provocateur ."
+            }
+          ],
+          [
+            {
+              "page_title": "I Want to Know What Love Is",
+              "line_index": 4,
+              "sentence": "`` I Want to Know What Love Is '' has continued to garner critical acclaim , and is listed as one of Rolling Stone Magazine 's greatest songs of all time at # 479 ."
+            }
+          ],
+          [
+            {
+              "page_title": "I Want to Know What Love Is",
+              "line_index": 3,
+              "sentence": "It remains one of the band 's best-known songs and most enduring radio hits , charting in the top 25 in 2000 , 2001 , and 2002 on the Billboard Hot Adult Contemporary Recurrents chart ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000162",
+      "claim": "The Bassoon King is the full title a book.",
+      "evidence_sentences": "The Bassoon King : My Life in Art , Faith , and Idiocy is a non-fiction book authored by American actor Rainn Wilson .",
+      "page_titles": [
+        "The Bassoon King"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Bassoon King",
+            "line_index": 0,
+            "sentence": "The Bassoon King : My Life in Art , Faith , and Idiocy is a non-fiction book authored by American actor Rainn Wilson ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000163",
+      "claim": "Sancho Panza is a fictional character in a novel written by a Spanish writer born in 1616.",
+      "evidence_sentences": "Sancho Panza -LSB- ˈsantʃo ˈpanθa -RSB- is a fictional character in the novel Don Quixote written by Spanish author Don Miguel de Cervantes Saavedra in 1605 .",
+      "page_titles": [
+        "Sancho Panza"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sancho Panza",
+            "line_index": 0,
+            "sentence": "Sancho Panza -LSB- ˈsantʃo ˈpanθa -RSB- is a fictional character in the novel Don Quixote written by Spanish author Don Miguel de Cervantes Saavedra in 1605 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000164",
+      "claim": "A near-Earth object is lengthened as NEO.",
+      "evidence_sentences": "A near-Earth object -LRB- NEO -RRB- is any small Solar System body whose orbit brings it into proximity with Earth .",
+      "page_titles": [
+        "Near-Earth object"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Near-Earth object",
+            "line_index": 0,
+            "sentence": "A near-Earth object -LRB- NEO -RRB- is any small Solar System body whose orbit brings it into proximity with Earth ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000165",
+      "claim": "Louie (season 1) is a comedy-drama television show.",
+      "evidence_sentences": "The first season of the American television comedy series Louie premiered on June 29 , 2010 and concluded on September 7 , 2010 .",
+      "page_titles": [
+        "Louie -LRB-season 1-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Louie -LRB-season 1-RRB-",
+            "line_index": 0,
+            "sentence": "The first season of the American television comedy series Louie premiered on June 29 , 2010 and concluded on September 7 , 2010 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000166",
+      "claim": "Qin dynasty introduced several legislation.",
+      "evidence_sentences": "The Qin dynasty introduced several reforms : currency , weights and measures were standardized , and a uniform system of writing was established .",
+      "page_titles": [
+        "Qin dynasty"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Qin dynasty",
+            "line_index": 21,
+            "sentence": "The Qin dynasty introduced several reforms : currency , weights and measures were standardized , and a uniform system of writing was established ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000167",
+      "claim": "The Beach is an adventure drama novel.",
+      "evidence_sentences": "The Beach is a 2000 adventure drama film directed by Danny Boyle and based on the 1996 novel of the same name by Alex Garland , which was adapted for the film by John Hodge .",
+      "page_titles": [
+        "The Beach -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Beach -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "The Beach is a 2000 adventure drama film directed by Danny Boyle and based on the 1996 novel of the same name by Alex Garland , which was adapted for the film by John Hodge ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Beach -LRB-film-RRB-",
+              "line_index": 1,
+              "sentence": "The film stars Leonardo DiCaprio , Virginie Ledoyen , Guillaume Canet , Robert Carlyle , Tilda Swinton , and Paterson Joseph ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Beach -LRB-film-RRB-",
+              "line_index": 2,
+              "sentence": "It was filmed on the Thai island Koh Phi Phi ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000168",
+      "claim": "Northwestern University is the only private university of the Big Ten Conference since 1968.",
+      "evidence_sentences": "Northwestern is a founding member of the Big Ten Conference and remains the only private university in the conference . The Big Ten Conference was established in 1895 when Purdue University president James H. Smart and representatives from the University of Chicago , University of Illinois , University of Michigan , University of Minnesota , Northwestern University , and University of Wisconsin gathered at Chicago 's Palmer House Hotel to set policies aimed at regulating intercollegiate athletics .",
+      "page_titles": [
+        "Northwestern University",
+        "Big Ten Conference"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Northwestern University",
+            "line_index": 19,
+            "sentence": "Northwestern is a founding member of the Big Ten Conference and remains the only private university in the conference ."
+          },
+          {
+            "page_title": "Big Ten Conference",
+            "line_index": 5,
+            "sentence": "The Big Ten Conference was established in 1895 when Purdue University president James H. Smart and representatives from the University of Chicago , University of Illinois , University of Michigan , University of Minnesota , Northwestern University , and University of Wisconsin gathered at Chicago 's Palmer House Hotel to set policies aimed at regulating intercollegiate athletics ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000169",
+      "claim": "The Fame has sold only digital copies.",
+      "evidence_sentences": "The album sold 15 million copies worldwide as of November 2010 .",
+      "page_titles": [
+        "The Fame"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Fame",
+            "line_index": 14,
+            "sentence": "The album sold 15 million copies worldwide as of November 2010 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000170",
+      "claim": "Gory Guerrero's full name is Salvador Guerrero.",
+      "evidence_sentences": "Salvador Guerrero Quesada -LRB- January 11 , 1921 -- April 18 , 1990 -RRB- , better known as Gory Guerrero , was one of the premier Hispanic professional wrestlers in the early days of Lucha Libre when most wrestlers were imported from outside of Mexico .",
+      "page_titles": [
+        "Gory Guerrero"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Gory Guerrero",
+            "line_index": 0,
+            "sentence": "Salvador Guerrero Quesada -LRB- January 11 , 1921 -- April 18 , 1990 -RRB- , better known as Gory Guerrero , was one of the premier Hispanic professional wrestlers in the early days of Lucha Libre when most wrestlers were imported from outside of Mexico ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000171",
+      "claim": "Tie Your Mother Down was on the Billboard charts.",
+      "evidence_sentences": "On its original release as a single in 1977 the song peaked at 31 in the UK Singles Chart , however more than 20 years later it was released as a double a-side to `` No-One But You -LRB- Only the Good Die Young -RRB- '' where it reached 13 in UK Singles Chart .",
+      "page_titles": [
+        "Tie Your Mother Down"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tie Your Mother Down",
+            "line_index": 2,
+            "sentence": "On its original release as a single in 1977 the song peaked at 31 in the UK Singles Chart , however more than 20 years later it was released as a double a-side to `` No-One But You -LRB- Only the Good Die Young -RRB- '' where it reached 13 in UK Singles Chart ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000172",
+      "claim": "The Maze Runner had a budget of $34 million for cast and crew.",
+      "evidence_sentences": "The film earned over $ 348 million worldwide at the box-office , against its budget of $ 34 million .",
+      "page_titles": [
+        "The Maze Runner -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Maze Runner -LRB-film-RRB-",
+            "line_index": 13,
+            "sentence": "The film earned over $ 348 million worldwide at the box-office , against its budget of $ 34 million ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000173",
+      "claim": "The Incredibles 2 is scheduled to be released at 2 p. m. on June 15, 2018.",
+      "evidence_sentences": "The movie is scheduled to be released on June 15 , 2018 and will be given an IMAX release .",
+      "page_titles": [
+        "The Incredibles 2"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Incredibles 2",
+            "line_index": 3,
+            "sentence": "The movie is scheduled to be released on June 15 , 2018 and will be given an IMAX release ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000174",
+      "claim": "The Dodo has been depicted with a naked head and arm.",
+      "evidence_sentences": "It has been depicted with brownish-grey plumage , yellow feet , a tuft of tail feathers , a grey , naked head , and a black , yellow , and green beak .",
+      "page_titles": [
+        "Dodo"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Dodo",
+            "line_index": 10,
+            "sentence": "It has been depicted with brownish-grey plumage , yellow feet , a tuft of tail feathers , a grey , naked head , and a black , yellow , and green beak ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000175",
+      "claim": "Sweet Home Alabama is a lyric poem that was written in reply to Neil Young's song Southern Man.",
+      "evidence_sentences": "`` Sweet Home Alabama '' is a song by Southern rock band Lynyrd Skynyrd that first appeared in 1974 on their second album , Second Helping .",
+      "page_titles": [
+        "Sweet Home Alabama"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sweet Home Alabama",
+            "line_index": 0,
+            "sentence": "`` Sweet Home Alabama '' is a song by Southern rock band Lynyrd Skynyrd that first appeared in 1974 on their second album , Second Helping ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Sweet Home Alabama",
+              "line_index": 3,
+              "sentence": "It reached number 8 on the US chart in 1974 and was the band 's second hit single ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000176",
+      "claim": "Floyd Mayweather Jr. has made 30 career boxing knockouts in different special event professional boxing fights.",
+      "evidence_sentences": "He finished his career with a record of 26 wins without a loss or draw in world title fights -LRB- 10 by KO -RRB- ; 23 wins -LRB- 9 KOs -RRB- in lineal title fights ; 24 wins -LRB- 7 KOs -RRB- against former or current world titlists ; 12 wins -LRB- 3 KOs -RRB- against former or current lineal champions ; and 2 wins -LRB- 1 KO -RRB- against International Boxing Hall of Fame inductees .",
+      "page_titles": [
+        "Floyd Mayweather Jr."
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Floyd Mayweather Jr.",
+            "line_index": 10,
+            "sentence": "He finished his career with a record of 26 wins without a loss or draw in world title fights -LRB- 10 by KO -RRB- ; 23 wins -LRB- 9 KOs -RRB- in lineal title fights ; 24 wins -LRB- 7 KOs -RRB- against former or current world titlists ; 12 wins -LRB- 3 KOs -RRB- against former or current lineal champions ; and 2 wins -LRB- 1 KO -RRB- against International Boxing Hall of Fame inductees ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000177",
+      "claim": "Recovery is an album focusing on themes of isolation and addiction.",
+      "evidence_sentences": "Recovery featured more introspective and emotional content than its predecessor and the theme of the album revolved around his positive changes , anxiety , and emotional drives .",
+      "page_titles": [
+        "Recovery -LRB-Eminem album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Recovery -LRB-Eminem album-RRB-",
+            "line_index": 7,
+            "sentence": "Recovery featured more introspective and emotional content than its predecessor and the theme of the album revolved around his positive changes , anxiety , and emotional drives ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000178",
+      "claim": "Kesha was baptized on March 1st, 1987.",
+      "evidence_sentences": "Kesha Rose Sebert -LRB- -LSB- ˈkɛʃə_roʊz_ˈsɛbərt -RSB- ; born March 1 , 1987 ; formerly stylized as Ke $ ha -RRB- is an American singer , songwriter , and rapper .",
+      "page_titles": [
+        "Kesha"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kesha",
+            "line_index": 0,
+            "sentence": "Kesha Rose Sebert -LRB- -LSB- ˈkɛʃə_roʊz_ˈsɛbərt -RSB- ; born March 1 , 1987 ; formerly stylized as Ke $ ha -RRB- is an American singer , songwriter , and rapper ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000179",
+      "claim": "GLOW has one season which was released on Netflix on June 23, 2017.",
+      "evidence_sentences": "The first season will be released on Netflix on June 23 , 2017 .",
+      "page_titles": [
+        "GLOW -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "GLOW -LRB-TV series-RRB-",
+            "line_index": 3,
+            "sentence": "The first season will be released on Netflix on June 23 , 2017 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000180",
+      "claim": "Manmohan Singh was a prime minister in 2009 after the first Prime Minister of India.",
+      "evidence_sentences": "Manmohan Singh -LRB- -LSB- mənˈmoːɦən ˈsɪ́ŋɡ -RSB- ; born 26 September 1932 -RRB- is an Indian economist and politician who served as the Prime Minister of India from 2004 to 2014 .",
+      "page_titles": [
+        "Manmohan Singh"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Manmohan Singh",
+            "line_index": 0,
+            "sentence": "Manmohan Singh -LRB- -LSB- mənˈmoːɦən ˈsɪ́ŋɡ -RSB- ; born 26 September 1932 -RRB- is an Indian economist and politician who served as the Prime Minister of India from 2004 to 2014 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000181",
+      "claim": "Spider-Man 2 was written by Alvin Sargent in 2003.",
+      "evidence_sentences": "Spider-Man 2 is a 2004 American superhero film directed by Sam Raimi and written by Alvin Sargent from a story by Alfred Gough , Miles Millar , and Michael Chabon .",
+      "page_titles": [
+        "Spider-Man 2"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Spider-Man 2",
+            "line_index": 0,
+            "sentence": "Spider-Man 2 is a 2004 American superhero film directed by Sam Raimi and written by Alvin Sargent from a story by Alfred Gough , Miles Millar , and Michael Chabon ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000182",
+      "claim": "Edgar Wright is a Gemini.",
+      "evidence_sentences": "Edgar Howard Wright -LRB- born 18 April 1974 -RRB- is an English director , screenwriter , producer , and actor .",
+      "page_titles": [
+        "Edgar Wright"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Edgar Wright",
+            "line_index": 0,
+            "sentence": "Edgar Howard Wright -LRB- born 18 April 1974 -RRB- is an English director , screenwriter , producer , and actor ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Edgar Wright",
+              "line_index": 0,
+              "sentence": "Edgar Howard Wright -LRB- born 18 April 1974 -RRB- is an English director , screenwriter , producer , and actor ."
+            },
+            {
+              "page_title": "Gemini -LRB-astrology-RRB-",
+              "line_index": 1,
+              "sentence": "Under the tropical zodiac , the sun transits this sign between May 21 and June 21 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Edgar Wright",
+              "line_index": 0,
+              "sentence": "Edgar Howard Wright -LRB- born 18 April 1974 -RRB- is an English director , screenwriter , producer , and actor ."
+            },
+            {
+              "page_title": "Gemini -LRB-astrology-RRB-",
+              "line_index": 1,
+              "sentence": "Under the tropical zodiac , the sun transits this sign between May 21 and June 21 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Edgar Wright",
+              "line_index": 0,
+              "sentence": "Edgar Howard Wright -LRB- born 18 April 1974 -RRB- is an English director , screenwriter , producer , and actor ."
+            },
+            {
+              "page_title": "Gemini -LRB-astrology-RRB-",
+              "line_index": 1,
+              "sentence": "Under the tropical zodiac , the sun transits this sign between May 21 and June 21 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Edgar Wright",
+              "line_index": 0,
+              "sentence": "Edgar Howard Wright -LRB- born 18 April 1974 -RRB- is an English director , screenwriter , producer , and actor ."
+            },
+            {
+              "page_title": "Gemini -LRB-astrology-RRB-",
+              "line_index": 1,
+              "sentence": "Under the tropical zodiac , the sun transits this sign between May 21 and June 21 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Edgar Wright",
+              "line_index": 0,
+              "sentence": "Edgar Howard Wright -LRB- born 18 April 1974 -RRB- is an English director , screenwriter , producer , and actor ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 6,
+        "chosen_annotation_index": 4,
+        "alternative_annotation_indices": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000183",
+      "claim": "Aphrodite is a person.",
+      "evidence_sentences": "She is identified with the planet Venus ; her Roman equivalent is the goddess -LSB- Venus -LRB- mythology -RRB- , Venus -RSB- .",
+      "page_titles": [
+        "Aphrodite"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Aphrodite",
+            "line_index": 1,
+            "sentence": "She is identified with the planet Venus ; her Roman equivalent is the goddess -LSB- Venus -LRB- mythology -RRB- , Venus -RSB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000184",
+      "claim": "Cleopatre is rarely one of three operas.",
+      "evidence_sentences": "Cléopâtre is one of three operas by Massenet to be premiered posthumously ; the others are Panurge -LRB- 1913 -RRB- and Amadis -LRB- 1922 -RRB- .",
+      "page_titles": [
+        "Cléopâtre"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Cléopâtre",
+            "line_index": 4,
+            "sentence": "Cléopâtre is one of three operas by Massenet to be premiered posthumously ; the others are Panurge -LRB- 1913 -RRB- and Amadis -LRB- 1922 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000185",
+      "claim": "Flaked is scheduled to premiere in June 2015.",
+      "evidence_sentences": "In July 2016 , the series was renewed for a six-episode second season , which is scheduled to premiere on June 2 , 2017 .",
+      "page_titles": [
+        "Flaked"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Flaked",
+            "line_index": 2,
+            "sentence": "In July 2016 , the series was renewed for a six-episode second season , which is scheduled to premiere on June 2 , 2017 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000186",
+      "claim": "Speech recognition is popular in online gaming.",
+      "evidence_sentences": "From the technology perspective , speech recognition has a long history with several waves of major innovations . These speech industry players include Google , Microsoft , IBM , Baidu , Apple , Amazon , Nuance , SoundHound , IflyTek , CDAC many of which have publicized the core technology in their speech recognition systems as being based on deep learning .",
+      "page_titles": [
+        "Speech recognition",
+        "Speech recognition"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Speech recognition",
+            "line_index": 18,
+            "sentence": "From the technology perspective , speech recognition has a long history with several waves of major innovations ."
+          },
+          {
+            "page_title": "Speech recognition",
+            "line_index": 21,
+            "sentence": "These speech industry players include Google , Microsoft , IBM , Baidu , Apple , Amazon , Nuance , SoundHound , IflyTek , CDAC many of which have publicized the core technology in their speech recognition systems as being based on deep learning ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000187",
+      "claim": "SZA is an American Neo Soul singer.",
+      "evidence_sentences": "SZA is a Neo Soul singer whose music is described as Alternative R&B , with elements of soul , hip hop , minimalist R&B , cloud rap , ethereal R&B , witch house and chillwave .",
+      "page_titles": [
+        "SZA -LRB-singer-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "SZA -LRB-singer-RRB-",
+            "line_index": 6,
+            "sentence": "SZA is a Neo Soul singer whose music is described as Alternative R&B , with elements of soul , hip hop , minimalist R&B , cloud rap , ethereal R&B , witch house and chillwave ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 0,
+              "sentence": "Solána Rowe -LRB- born November 8 , 1990 -RRB- , better known by her stage name SZA -LRB- -LSB- ˈsɪzə -RSB- -RRB- , is an American singer-songwriter ."
+            },
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 6,
+              "sentence": "SZA is a Neo Soul singer whose music is described as Alternative R&B , with elements of soul , hip hop , minimalist R&B , cloud rap , ethereal R&B , witch house and chillwave ."
+            }
+          ],
+          [
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 6,
+              "sentence": "SZA is a Neo Soul singer whose music is described as Alternative R&B , with elements of soul , hip hop , minimalist R&B , cloud rap , ethereal R&B , witch house and chillwave ."
+            }
+          ],
+          [
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 6,
+              "sentence": "SZA is a Neo Soul singer whose music is described as Alternative R&B , with elements of soul , hip hop , minimalist R&B , cloud rap , ethereal R&B , witch house and chillwave ."
+            },
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 0,
+              "sentence": "Solána Rowe -LRB- born November 8 , 1990 -RRB- , better known by her stage name SZA -LRB- -LSB- ˈsɪzə -RSB- -RRB- , is an American singer-songwriter ."
+            }
+          ],
+          [
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 0,
+              "sentence": "Solána Rowe -LRB- born November 8 , 1990 -RRB- , better known by her stage name SZA -LRB- -LSB- ˈsɪzə -RSB- -RRB- , is an American singer-songwriter ."
+            },
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 6,
+              "sentence": "SZA is a Neo Soul singer whose music is described as Alternative R&B , with elements of soul , hip hop , minimalist R&B , cloud rap , ethereal R&B , witch house and chillwave ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000188",
+      "claim": "In 2000 the song In the End was released.",
+      "evidence_sentences": "It is the eighth track on their debut album Hybrid Theory -LRB- 2000 -RRB- and was released as the album 's fourth single October 9 , 2001 .",
+      "page_titles": [
+        "In the End"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "In the End",
+            "line_index": 1,
+            "sentence": "It is the eighth track on their debut album Hybrid Theory -LRB- 2000 -RRB- and was released as the album 's fourth single October 9 , 2001 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000189",
+      "claim": "Loretta Sanchez was born on Monday January 7, 1960.",
+      "evidence_sentences": "Loretta L. Sánchez -LRB- born January 7 , 1960 -RRB- is an American politician who served in the United States House of Representatives from 1997 to 2017 .",
+      "page_titles": [
+        "Loretta Sanchez"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Loretta Sanchez",
+            "line_index": 0,
+            "sentence": "Loretta L. Sánchez -LRB- born January 7 , 1960 -RRB- is an American politician who served in the United States House of Representatives from 1997 to 2017 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000190",
+      "claim": "Amancio Ortega's middle name is Gaona.",
+      "evidence_sentences": "Amancio Ortega Gaona -LRB- -LSB- aˈmanθjo orˈteɣa ɣaˈona -RSB- ; born 28 March 1936 -RRB- is a Spanish business tycoon .",
+      "page_titles": [
+        "Amancio Ortega"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Amancio Ortega",
+            "line_index": 0,
+            "sentence": "Amancio Ortega Gaona -LRB- -LSB- aˈmanθjo orˈteɣa ɣaˈona -RSB- ; born 28 March 1936 -RRB- is a Spanish business tycoon ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000191",
+      "claim": "Anthony Scaramucci is a political leader.",
+      "evidence_sentences": "Anthony Scaramucci -LRB- born January 6 , 1964 -RRB- is an American entrepreneur , financier , political figure , and author .",
+      "page_titles": [
+        "Anthony Scaramucci"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Anthony Scaramucci",
+            "line_index": 0,
+            "sentence": "Anthony Scaramucci -LRB- born January 6 , 1964 -RRB- is an American entrepreneur , financier , political figure , and author ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000192",
+      "claim": "Warcraft premiered in Paris before the Rio Olympics.",
+      "evidence_sentences": "Warcraft premiered in Paris on May 24 , 2016 , and was released by Universal Pictures in the United States on June 10 , 2016 .",
+      "page_titles": [
+        "Warcraft -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Warcraft -LRB-film-RRB-",
+            "line_index": 7,
+            "sentence": "Warcraft premiered in Paris on May 24 , 2016 , and was released by Universal Pictures in the United States on June 10 , 2016 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000193",
+      "claim": "The United States dollar is the sole currency in China.",
+      "evidence_sentences": "Besides the United States , it is also used as the sole currency in two British Overseas Territories in the Caribbean : the British Virgin Islands and Turks and Caicos Islands .",
+      "page_titles": [
+        "United States dollar"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "United States dollar",
+            "line_index": 72,
+            "sentence": "Besides the United States , it is also used as the sole currency in two British Overseas Territories in the Caribbean : the British Virgin Islands and Turks and Caicos Islands ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000194",
+      "claim": "Fist of Legend is a remake of a film directed by John Woo.",
+      "evidence_sentences": "Fist of Legend is a 1994 Hong Kong martial arts film directed by Gordon Chan , featuring action choreography by Yuen Woo-ping , and produced by Jet Li , who also starred in the lead role .",
+      "page_titles": [
+        "Fist of Legend"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Fist of Legend",
+            "line_index": 0,
+            "sentence": "Fist of Legend is a 1994 Hong Kong martial arts film directed by Gordon Chan , featuring action choreography by Yuen Woo-ping , and produced by Jet Li , who also starred in the lead role ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000195",
+      "claim": "Elizabeth I was the daughter of a salesman.",
+      "evidence_sentences": "Elizabeth was the daughter of Henry VIII and Anne Boleyn , his second wife , who was executed two-and-a-half years after Elizabeth 's birth .",
+      "page_titles": [
+        "Elizabeth I of England"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Elizabeth I of England",
+            "line_index": 4,
+            "sentence": "Elizabeth was the daughter of Henry VIII and Anne Boleyn , his second wife , who was executed two-and-a-half years after Elizabeth 's birth ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000196",
+      "claim": "The Danish language is spoken in Sweden.",
+      "evidence_sentences": "Following the loss of territory to Germany and Sweden , a nationalist movement adopted the language as a token of Danish identity , and the language experienced a strong surge in use and popularity with major works of literature produced in the 18th and 19th centuries .",
+      "page_titles": [
+        "Danish language"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Danish language",
+            "line_index": 13,
+            "sentence": "Following the loss of territory to Germany and Sweden , a nationalist movement adopted the language as a token of Danish identity , and the language experienced a strong surge in use and popularity with major works of literature produced in the 18th and 19th centuries ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Danish language",
+              "line_index": 1,
+              "sentence": "There are also minor Danish-speaking communities in Norway , Sweden , Spain , the United States , Canada , Brazil and Argentina ."
+            },
+            {
+              "page_title": "Sweden",
+              "line_index": 0,
+              "sentence": "Sweden -LRB- Konungariket Sverige -RRB- , is a Scandinavian country in Northern Europe ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 1,
+        "alternative_annotation_indices": [
+          0
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000197",
+      "claim": "Coeliac disease may not result in increased risk of early death.",
+      "evidence_sentences": "If untreated , it may result in cancers such as intestinal lymphoma and a slight increased risk of early death .",
+      "page_titles": [
+        "Coeliac disease"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Coeliac disease",
+            "line_index": 27,
+            "sentence": "If untreated , it may result in cancers such as intestinal lymphoma and a slight increased risk of early death ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000198",
+      "claim": "The Latvian Soviet Socialist Republic is also known as Soviet Latvia since 2016.",
+      "evidence_sentences": "The Latvian Soviet Socialist Republic -LRB- Latvian SSR ; Latvijas Padomju Sociālistiskā Republika Латвийская Советская Социалистическая Республика , Latviyskaya Sovetskaya Sotsialisticheskaya Respublika -RRB- , also known as Soviet Latvia or Latvia , was a republic of the Soviet Union . Latvia -LRB- -LSB- ˈlætviə -RSB- Latvija -LSB- ˈlatvija -RSB- -RRB- , officially the Republic of Latvia -LRB- -LSB- Latvijas Republika , links = no -RSB- -RRB- , is a country in the Baltic region of Northern Europe , one of the three Baltic states .",
+      "page_titles": [
+        "Latvian Soviet Socialist Republic",
+        "Latvia"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Latvian Soviet Socialist Republic",
+            "line_index": 0,
+            "sentence": "The Latvian Soviet Socialist Republic -LRB- Latvian SSR ; Latvijas Padomju Sociālistiskā Republika Латвийская Советская Социалистическая Республика , Latviyskaya Sovetskaya Sotsialisticheskaya Respublika -RRB- , also known as Soviet Latvia or Latvia , was a republic of the Soviet Union ."
+          },
+          {
+            "page_title": "Latvia",
+            "line_index": 0,
+            "sentence": "Latvia -LRB- -LSB- ˈlætviə -RSB- Latvija -LSB- ˈlatvija -RSB- -RRB- , officially the Republic of Latvia -LRB- -LSB- Latvijas Republika , links = no -RSB- -RRB- , is a country in the Baltic region of Northern Europe , one of the three Baltic states ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000199",
+      "claim": "Henry III of France was succeeded by Henry IV, founder of the House of Bourbon.",
+      "evidence_sentences": "In 1589 , Jacques Clément , a Catholic fanatic , murdered Henry III , who was succeeded by the King of Navarre who , as Henry IV , would assume the throne of France after converting to Catholicism , and become the first French king of the House of Bourbon . The royal Bourbons originated in 1268 , when the heiress of the lordship of Bourbon married a younger son of King Louis IX .",
+      "page_titles": [
+        "Henry III of France",
+        "House of Bourbon"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Henry III of France",
+            "line_index": 23,
+            "sentence": "In 1589 , Jacques Clément , a Catholic fanatic , murdered Henry III , who was succeeded by the King of Navarre who , as Henry IV , would assume the throne of France after converting to Catholicism , and become the first French king of the House of Bourbon ."
+          },
+          {
+            "page_title": "House of Bourbon",
+            "line_index": 6,
+            "sentence": "The royal Bourbons originated in 1268 , when the heiress of the lordship of Bourbon married a younger son of King Louis IX ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000200",
+      "claim": "The New England Patriots lost five Super Bowls.",
+      "evidence_sentences": "The team owns the record for most Super Bowls reached -LRB- seven -RRB- and won -LRB- five -RRB- by a head coach -- quarterback tandem .",
+      "page_titles": [
+        "New England Patriots"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "New England Patriots",
+            "line_index": 15,
+            "sentence": "The team owns the record for most Super Bowls reached -LRB- seven -RRB- and won -LRB- five -RRB- by a head coach -- quarterback tandem ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000201",
+      "claim": "Ann Richards was the head of the executive branch of Texas's government.",
+      "evidence_sentences": "A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . A treasurer is the person responsible for running the treasury of an organization .",
+      "page_titles": [
+        "Ann Richards",
+        "Treasurer"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ann Richards",
+            "line_index": 1,
+            "sentence": "A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention ."
+          },
+          {
+            "page_title": "Treasurer",
+            "line_index": 0,
+            "sentence": "A treasurer is the person responsible for running the treasury of an organization ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000202",
+      "claim": "Jenna Jameson was photographed in the past.",
+      "evidence_sentences": "Jenna Jameson -LRB- born Jenna Marie Massoli ; April 9 , 1974 -RRB- is an American entrepreneur , webcam model and former pornographic film actress , who has been called the world 's most famous adult entertainment performer and `` The Queen of Porn '' .",
+      "page_titles": [
+        "Jenna Jameson"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Jenna Jameson",
+            "line_index": 0,
+            "sentence": "Jenna Jameson -LRB- born Jenna Marie Massoli ; April 9 , 1974 -RRB- is an American entrepreneur , webcam model and former pornographic film actress , who has been called the world 's most famous adult entertainment performer and `` The Queen of Porn '' ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Jenna Jameson",
+              "line_index": 12,
+              "sentence": "Advertisements for her site and films , often bearing her picture , have towered on a 48-foot-tall billboard in New York City 's Times Square ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000203",
+      "claim": "Garden State was at a corpse exhibition.",
+      "evidence_sentences": "Garden State is a 2004 American romantic comedy-drama film , written and directed by Zach Braff and starring Braff , Natalie Portman , Peter Sarsgaard , and Ian Holm .",
+      "page_titles": [
+        "Garden State -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Garden State -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "Garden State is a 2004 American romantic comedy-drama film , written and directed by Zach Braff and starring Braff , Natalie Portman , Peter Sarsgaard , and Ian Holm ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000204",
+      "claim": "Kerplunk was Green Day's first of many albums on the Lookout Records label.",
+      "evidence_sentences": "Kerplunk is the second studio album by American punk rock band Green Day , released on December 17 , 1991 by Lookout !",
+      "page_titles": [
+        "Kerplunk -LRB-album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kerplunk -LRB-album-RRB-",
+            "line_index": 0,
+            "sentence": "Kerplunk is the second studio album by American punk rock band Green Day , released on December 17 , 1991 by Lookout !"
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000205",
+      "claim": "Lyon is a city in Southwest France.",
+      "evidence_sentences": "Lyon had a population of 506,615 in 2014 and is France 's third-largest city after Paris and Marseille .",
+      "page_titles": [
+        "Lyon"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Lyon",
+            "line_index": 4,
+            "sentence": "Lyon had a population of 506,615 in 2014 and is France 's third-largest city after Paris and Marseille ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000206",
+      "claim": "The Atlanta metropolitan area covers 39 counties.",
+      "evidence_sentences": "The Combined Statistical Area spans up to 39 counties in north Georgia and had an estimated 2015 population of 6.3 million people .",
+      "page_titles": [
+        "Atlanta metropolitan area"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Atlanta metropolitan area",
+            "line_index": 3,
+            "sentence": "The Combined Statistical Area spans up to 39 counties in north Georgia and had an estimated 2015 population of 6.3 million people ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Atlanta metropolitan area",
+              "line_index": 3,
+              "sentence": "The Combined Statistical Area spans up to 39 counties in north Georgia and had an estimated 2015 population of 6.3 million people ."
+            }
+          ],
+          [
+            {
+              "page_title": "Atlanta metropolitan area",
+              "line_index": 3,
+              "sentence": "The Combined Statistical Area spans up to 39 counties in north Georgia and had an estimated 2015 population of 6.3 million people ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000207",
+      "claim": "Nestor Carbonell is famous.",
+      "evidence_sentences": "Néstor Gastón Carbonell -LRB- -LSB- ˈnestor ɣasˈtoŋ karβoˈneʎ -RSB- ; born December 1 , 1967 -RRB- is an American actor .",
+      "page_titles": [
+        "Nestor Carbonell"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Nestor Carbonell",
+            "line_index": 0,
+            "sentence": "Néstor Gastón Carbonell -LRB- -LSB- ˈnestor ɣasˈtoŋ karβoˈneʎ -RSB- ; born December 1 , 1967 -RRB- is an American actor ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Nestor Carbonell",
+              "line_index": 1,
+              "sentence": "He is perhaps most famous for his roles as Richard Alpert in ABC 's drama series Lost , and Mayor Anthony Garcia in the Christopher Nolan films The Dark Knight and The Dark Knight Rises ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000208",
+      "claim": "Florida inmates who do not choose electrocution and inmates who committed their crimes after the designated date are executed by lethal injection instead of the electric chair.",
+      "evidence_sentences": "In the state of Kentucky the electric chair has been retired except for those whose capital crimes were committed prior to March 31 , 1998 , and who choose electrocution ; inmates who do not choose electrocution and inmates who committed their crimes after the designated date are executed by lethal injection .",
+      "page_titles": [
+        "Electric chair"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Electric chair",
+            "line_index": 15,
+            "sentence": "In the state of Kentucky the electric chair has been retired except for those whose capital crimes were committed prior to March 31 , 1998 , and who choose electrocution ; inmates who do not choose electrocution and inmates who committed their crimes after the designated date are executed by lethal injection ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000209",
+      "claim": "Victoria (Dance Exponents song) was released in the Southern Hemisphere in 1982.",
+      "evidence_sentences": "Released in 1982 it reached Number 6 on the New Zealand singles chart .",
+      "page_titles": [
+        "Victoria -LRB-Dance Exponents song-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Victoria -LRB-Dance Exponents song-RRB-",
+            "line_index": 1,
+            "sentence": "Released in 1982 it reached Number 6 on the New Zealand singles chart ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000210",
+      "claim": "Mickey Rourke has only appeared in films based on real people.",
+      "evidence_sentences": "Since then , Rourke has appeared in several commercially successful films including the 2010 films Iron Man 2 and The Expendables and the 2011 film Immortals .",
+      "page_titles": [
+        "Mickey Rourke"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mickey Rourke",
+            "line_index": 13,
+            "sentence": "Since then , Rourke has appeared in several commercially successful films including the 2010 films Iron Man 2 and The Expendables and the 2011 film Immortals ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Mickey Rourke",
+              "line_index": 7,
+              "sentence": "After retiring from boxing in 1994 , Rourke returned to acting and had supporting roles in several films , including the drama The Rainmaker -LRB- 1997 -RRB- , the comedy-drama Buffalo '66 -LRB- 1998 -RRB- , the thriller-remake of Get Carter -LRB- 2000 -RRB- , the mystery film The Pledge -LRB- 2001 -RRB- , the crime dark comedy-drama Spun -LRB- 2002 -RRB- , the action film Once Upon a Time in Mexico -LRB- 2003 -RRB- and the action thriller Man on Fire -LRB- 2004 -RRB- , playing the role of a corrupt lawyer ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000211",
+      "claim": "Doxycycline may not cause vomiting.",
+      "evidence_sentences": "Common side effects include diarrhea , nausea , vomiting , a red rash , and an increased risk of a sunburn .",
+      "page_titles": [
+        "Doxycycline"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Doxycycline",
+            "line_index": 6,
+            "sentence": "Common side effects include diarrhea , nausea , vomiting , a red rash , and an increased risk of a sunburn ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000212",
+      "claim": "2006 had the last windstorm to hit Stanley Park.",
+      "evidence_sentences": "Thousands of trees were lost -LRB- and many replanted -RRB- after three major windstorms that took place in the past 100 years , the last in 2006 .",
+      "page_titles": [
+        "Stanley Park"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Stanley Park",
+            "line_index": 16,
+            "sentence": "Thousands of trees were lost -LRB- and many replanted -RRB- after three major windstorms that took place in the past 100 years , the last in 2006 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000213",
+      "claim": "Henry II of France was not involved with the cause of a war about religion.",
+      "evidence_sentences": "He was succeeded in turn by three of his sons , whose ineffective reigns helped to spark the French Wars of Religion between Protestants and Catholics .",
+      "page_titles": [
+        "Henry II of France"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Henry II of France",
+            "line_index": 15,
+            "sentence": "He was succeeded in turn by three of his sons , whose ineffective reigns helped to spark the French Wars of Religion between Protestants and Catholics ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000214",
+      "claim": "The horse was domesticated on a broad scale by 3103 BC.",
+      "evidence_sentences": "Humans began to domesticate horses around 4000 BC , and their domestication is believed to have been widespread by 3000 BC .",
+      "page_titles": [
+        "Horse"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Horse",
+            "line_index": 3,
+            "sentence": "Humans began to domesticate horses around 4000 BC , and their domestication is believed to have been widespread by 3000 BC ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000215",
+      "claim": "Sky UK is a company which serves a sovereign country in western Eurasia.",
+      "evidence_sentences": "It is the UK 's largest",
+      "page_titles": [
+        "Sky UK"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sky UK",
+            "line_index": 2,
+            "sentence": "It is the UK 's largest"
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Sky UK",
+              "line_index": 0,
+              "sentence": "Sky UK Limited -LRB- formerly British Sky Broadcasting and BSkyB -RRB- is a telecommunications company which serves the United Kingdom ."
+            },
+            {
+              "page_title": "United Kingdom",
+              "line_index": 0,
+              "sentence": "The United Kingdom of Great Britain and Northern Ireland , commonly known as the United Kingdom -LRB- UK -RRB- or Britain , is a sovereign country in western Europe ."
+            }
+          ],
+          [
+            {
+              "page_title": "Sky UK",
+              "line_index": 1,
+              "sentence": "Sky provides television and broadband internet services , fixed line and mobile telephone services to consumers and businesses in the United Kingdom ."
+            },
+            {
+              "page_title": "United Kingdom",
+              "line_index": 0,
+              "sentence": "The United Kingdom of Great Britain and Northern Ireland , commonly known as the United Kingdom -LRB- UK -RRB- or Britain , is a sovereign country in western Europe ."
+            }
+          ],
+          [
+            {
+              "page_title": "Sky UK",
+              "line_index": 9,
+              "sentence": "Formed in November 1990 by the equal merger of Sky Television and British Satellite Broadcasting , Sky became the UK 's largest digital subscription television company ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 2,
+        "alternative_annotation_indices": [
+          0,
+          1,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000216",
+      "claim": "Matthias Corvinus had one of the largest collections of books in Europe during the Renaissance in the 1450's.",
+      "evidence_sentences": "Matthias patronized art and science ; his royal library , the Bibliotheca Corviniana , was one of the largest collections of books in Europe .",
+      "page_titles": [
+        "Matthias Corvinus"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Matthias Corvinus",
+            "line_index": 31,
+            "sentence": "Matthias patronized art and science ; his royal library , the Bibliotheca Corviniana , was one of the largest collections of books in Europe ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000217",
+      "claim": "In 1992, Tom DeLonge formed Blink-182.",
+      "evidence_sentences": "He formed Blink-182 with bassist Mark Hoppus and drummer Scott Raynor during his high school years .",
+      "page_titles": [
+        "Tom DeLonge"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tom DeLonge",
+            "line_index": 4,
+            "sentence": "He formed Blink-182 with bassist Mark Hoppus and drummer Scott Raynor during his high school years ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Tom DeLonge",
+              "line_index": 1,
+              "sentence": "He is currently the guitarist and lead vocalist of the rock band Angels & Airwaves and was the guitarist , co-lead vocalist and co-founder of the American rock band Blink-182 from 1992 to 2015 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000218",
+      "claim": "Padua is the political hub of the area.",
+      "evidence_sentences": "It is the capital of the province of Padua and the economic and communications hub of the area .",
+      "page_titles": [
+        "Padua"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Padua",
+            "line_index": 1,
+            "sentence": "It is the capital of the province of Padua and the economic and communications hub of the area ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000219",
+      "claim": "Villa Park hosted the 90th FA Community Shield in 2012.",
+      "evidence_sentences": "Villa Park also hosted the 2012 FA Community Shield , as Wembley Stadium was in use for the final of the Olympic football tournament .",
+      "page_titles": [
+        "Villa Park"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Villa Park",
+            "line_index": 14,
+            "sentence": "Villa Park also hosted the 2012 FA Community Shield , as Wembley Stadium was in use for the final of the Olympic football tournament ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000220",
+      "claim": "Rick Ross made more than eight studio albums.",
+      "evidence_sentences": "In 2009 , Ross founded the record label Maybach Music Group , on which he released his studio albums Deeper Than Rap -LRB- 2009 -RRB- , Teflon Don -LRB- 2010 -RRB- , God Forgives , I Do n't -LRB- 2012 -RRB- , Mastermind , Hood Billionaire -LRB- 2014 -RRB- , Black Market -LRB- 2015 -RRB- , and Rather You Than Me -LRB- 2017 -RRB- .",
+      "page_titles": [
+        "Rick Ross"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Rick Ross",
+            "line_index": 3,
+            "sentence": "In 2009 , Ross founded the record label Maybach Music Group , on which he released his studio albums Deeper Than Rap -LRB- 2009 -RRB- , Teflon Don -LRB- 2010 -RRB- , God Forgives , I Do n't -LRB- 2012 -RRB- , Mastermind , Hood Billionaire -LRB- 2014 -RRB- , Black Market -LRB- 2015 -RRB- , and Rather You Than Me -LRB- 2017 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000221",
+      "claim": "Tennessee is a producer of grain.",
+      "evidence_sentences": "Poultry , soybeans , and cattle are the state 's primary agricultural products , and major manufacturing exports include chemicals , transportation equipment , and electrical equipment .",
+      "page_titles": [
+        "Tennessee"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tennessee",
+            "line_index": 23,
+            "sentence": "Poultry , soybeans , and cattle are the state 's primary agricultural products , and major manufacturing exports include chemicals , transportation equipment , and electrical equipment ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000222",
+      "claim": "Starrcade was eventually broadcast via pay-per-view umbrella.",
+      "evidence_sentences": "Starrcade was an annual professional wrestling event , originally broadcast via closed-circuit television and eventually broadcast via pay-per-view television , held from 1983 to 2000 by the National Wrestling Alliance -LRB- NWA -RRB- and later World Championship Wrestling -LRB- WCW -RRB- .",
+      "page_titles": [
+        "Starrcade"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Starrcade",
+            "line_index": 0,
+            "sentence": "Starrcade was an annual professional wrestling event , originally broadcast via closed-circuit television and eventually broadcast via pay-per-view television , held from 1983 to 2000 by the National Wrestling Alliance -LRB- NWA -RRB- and later World Championship Wrestling -LRB- WCW -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000223",
+      "claim": "José Ferrer was an actor in movies.",
+      "evidence_sentences": "José Vicente Ferrer de Otero y Cintrón -LRB- January 8 , 1912 -- January 26 , 1992 -RRB- , known as José Ferrer , was an American actor and theatre and film director .",
+      "page_titles": [
+        "José Ferrer"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "José Ferrer",
+            "line_index": 0,
+            "sentence": "José Vicente Ferrer de Otero y Cintrón -LRB- January 8 , 1912 -- January 26 , 1992 -RRB- , known as José Ferrer , was an American actor and theatre and film director ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "José Ferrer",
+              "line_index": 4,
+              "sentence": "In 1947 , Ferrer won the Tony Award for his theatrical performance of Cyrano de Bergerac , and in 1952 , he won the Distinguished Dramatic Actor Award for The Shrike , and also the Outstanding Director Award for directing the plays The Shrike , The Fourposter , and Stalag 17 ."
+            },
+            {
+              "page_title": "Tony Award",
+              "line_index": 0,
+              "sentence": "The Antoinette Perry Award for Excellence in Broadway Theatre , more commonly known as Tony Award , recognizes the excellence in live Broadway theatre ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000224",
+      "claim": "Benjamin Franklin earned a title.",
+      "evidence_sentences": "He organized and was the first secretary of the American Philosophical Society and was elected president in 1769 .",
+      "page_titles": [
+        "Benjamin Franklin"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Benjamin Franklin",
+            "line_index": 20,
+            "sentence": "He organized and was the first secretary of the American Philosophical Society and was elected president in 1769 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Benjamin Franklin",
+              "line_index": 7,
+              "sentence": "Franklin earned the title of `` The First American '' for his early and indefatigable campaigning for colonial unity , initially as an author and spokesman in London for several colonies ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000225",
+      "claim": "Vatican City was established in January 1929.",
+      "evidence_sentences": "The independent city-state , on the other hand , came into existence in 1929 by the Lateran Treaty between the Holy See and Italy , which spoke of it as a new creation , not as a vestige of the much larger Papal States -LRB- 756 -- 1870 -RRB- , which had previously encompassed much of central Italy .",
+      "page_titles": [
+        "Vatican City"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Vatican City",
+            "line_index": 11,
+            "sentence": "The independent city-state , on the other hand , came into existence in 1929 by the Lateran Treaty between the Holy See and Italy , which spoke of it as a new creation , not as a vestige of the much larger Papal States -LRB- 756 -- 1870 -RRB- , which had previously encompassed much of central Italy ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000226",
+      "claim": "Garden State was barely at a festival that takes place in Park City, Utah.",
+      "evidence_sentences": "It was an official selection of the Sundance Film Festival . The Sundance Film Festival , a program of the Sundance Institute , is an American film festival that takes place annually in Park City , Utah .",
+      "page_titles": [
+        "Garden State -LRB-film-RRB-",
+        "Sundance Film Festival"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Garden State -LRB-film-RRB-",
+            "line_index": 6,
+            "sentence": "It was an official selection of the Sundance Film Festival ."
+          },
+          {
+            "page_title": "Sundance Film Festival",
+            "line_index": 0,
+            "sentence": "The Sundance Film Festival , a program of the Sundance Institute , is an American film festival that takes place annually in Park City , Utah ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000227",
+      "claim": "Advertising is used to sell an ideology.",
+      "evidence_sentences": "Advertising is an audio or visual form of marketing communication that employs an openly sponsored , nonpersonal message to promote or sell a product , service or idea .",
+      "page_titles": [
+        "Advertising"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Advertising",
+            "line_index": 0,
+            "sentence": "Advertising is an audio or visual form of marketing communication that employs an openly sponsored , nonpersonal message to promote or sell a product , service or idea ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000228",
+      "claim": "Brazzers is based in Quebec.",
+      "evidence_sentences": "Brazzers -LRB- -LSB- ˈbræzərz -RSB- -RRB- is a pornographic production company based in Montreal , Canada .",
+      "page_titles": [
+        "Brazzers"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Brazzers",
+            "line_index": 0,
+            "sentence": "Brazzers -LRB- -LSB- ˈbræzərz -RSB- -RRB- is a pornographic production company based in Montreal , Canada ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000229",
+      "claim": "Catherine Hardwicke is an award-winning film director.",
+      "evidence_sentences": "Catherine Hardwicke -LRB- born Helen Catherine Hardwicke ; -RRB- is an American film director , production designer and screenwriter . Her works include the Academy Award-nominated independent film Thirteen , which she co-wrote with Nikki Reed , the film 's co-star , the Biblically-themed The Nativity Story , the vampire film Twilight , the werewolf film Red Riding Hood , and the classic skateboarding film Lords of Dogtown .",
+      "page_titles": [
+        "Catherine Hardwicke",
+        "Catherine Hardwicke"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Catherine Hardwicke",
+            "line_index": 0,
+            "sentence": "Catherine Hardwicke -LRB- born Helen Catherine Hardwicke ; -RRB- is an American film director , production designer and screenwriter ."
+          },
+          {
+            "page_title": "Catherine Hardwicke",
+            "line_index": 1,
+            "sentence": "Her works include the Academy Award-nominated independent film Thirteen , which she co-wrote with Nikki Reed , the film 's co-star , the Biblically-themed The Nativity Story , the vampire film Twilight , the werewolf film Red Riding Hood , and the classic skateboarding film Lords of Dogtown ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000230",
+      "claim": "Westworld's first season, starring Jason Bateman, consists of ten episodes.",
+      "evidence_sentences": "The first season premiered on October 2 , 2016 , concluded on December 4 , 2016 , and consists of ten episodes .",
+      "page_titles": [
+        "Westworld -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Westworld -LRB-TV series-RRB-",
+            "line_index": 4,
+            "sentence": "The first season premiered on October 2 , 2016 , concluded on December 4 , 2016 , and consists of ten episodes ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000231",
+      "claim": "Mud stars multiple American actors.",
+      "evidence_sentences": "The film stars Matthew McConaughey , Tye Sheridan , Jacob Lofland , Sam Shepard , and Reese Witherspoon .",
+      "page_titles": [
+        "Mud -LRB-2012 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mud -LRB-2012 film-RRB-",
+            "line_index": 1,
+            "sentence": "The film stars Matthew McConaughey , Tye Sheridan , Jacob Lofland , Sam Shepard , and Reese Witherspoon ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  ],
+  "rubric": "# Judge Rubric (silver adjudication, v1)\n\nYou are an independent fact-checking adjudicator. You will see a batch of\nitems. Each item contains a **claim** and **evidence** (what is included\ndepends on the disclosure stage, stated in the batch header). For EVERY item\nyou must judge **only from the information provided**.\n\n## Task\n\nDecide whether the provided evidence **warrants** the claim:\n\n- `Supported` — the evidence clearly or probably establishes the claim is true.\n- `Refuted` — the evidence clearly or probably establishes the claim is false.\n- `Ambiguous` — the evidence is insufficient, partial, or mixed; you cannot\n  responsibly decide true or false from what is provided.\n\nAlso rate how sufficient the evidence is for deciding the claim\n(`clearly_sufficient | probably_sufficient | partial_or_ambiguous |\nprobably_insufficient | clearly_insufficient`), your confidence (integer\n0–100), and any issue flags that apply (see list).\n\n## Hard rules\n\n- Judge ONLY from the supplied claim and evidence. Do NOT use outside\n  knowledge to decide the verdict.\n- Do NOT browse the web or look anything up.\n- Do NOT speculate about hidden labels, other models, or why the item was\n  selected.\n- If the evidence alone does not settle the claim, say `Ambiguous` — that is a\n  valid, useful answer, not a failure.\n- `confidence` MUST be an integer from 0 to 100.\n- `brief_reason` must be short (one sentence) and grounded in the evidence.\n- Select issue flags only when the evidence shows that problem; use `none`\n  otherwise. Do not pad flags.\n\n## Issue flags\n\n`none`, `possible_missing_title_context`, `possible_coreference_or_entity_resolution`,\n`possible_missing_surrounding_context`, `multi_sentence_integration`,\n`numerical_or_temporal_reasoning`, `negation_or_scope`,\n`entity_or_attribute_confusion`, `partial_warrant`,\n`apparent_internal_contradiction`, `other`\n\n## Output format\n\nReturn ONLY a JSON array (no prose before or after), one object per item, in\nthe same order as the input:\n\n```json\n[\n  {\n    \"item_id\": \"SA-000001\",\n    \"judge_id\": \"judge_1\",\n    \"stage\": \"A\",\n    \"verdict\": \"Supported\",\n    \"evidence_sufficiency\": \"probably_sufficient\",\n    \"confidence\": 80,\n    \"issue_flags\": [\"none\"],\n    \"brief_reason\": \"The evidence sentence directly states the claim.\"\n  }\n]\n```\n\n`item_id`, `judge_id`, and `stage` must be copied exactly from the batch file.\nProduce exactly one object for every item in the batch — never skip or merge\nitems. If an item's evidence is empty or unreadable, verdict `Ambiguous`,\nsufficiency `clearly_insufficient`, confidence as you see fit, flag `other`.\n",
+  "disclosure_note": "Stage C. Judge only supplied fields. Null text means unavailable; do not fill it using outside knowledge."
+}

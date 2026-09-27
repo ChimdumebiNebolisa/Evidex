@@ -1,0 +1,24 @@
+{
+  "gpt-5.4": {
+    "claim_only_correct": 8869,
+    "evidence_correct": 9604,
+    "persistent_success": 8754,
+    "improvement": 850,
+    "persistent_failure": 281,
+    "regression": 115
+  },
+  "gpt-5.4-mini": {
+    "claim_only_correct": 8467,
+    "evidence_correct": 9554,
+    "persistent_success": 8316,
+    "improvement": 1238,
+    "persistent_failure": 295,
+    "regression": 151
+  },
+  "union": {
+    "n": 226,
+    "shared": 40,
+    "gpt54_only": 75,
+    "mini_only": 111
+  }
+}

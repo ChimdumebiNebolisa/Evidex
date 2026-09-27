@@ -7,18 +7,14 @@ import csv
 import json
 import os
 import argparse
-import hashlib
-import unicodedata
+from fever_evidence import (canonicalize_wiki_title, evidence_set_id,
+                            sentence_text_from_lines)
 
 from experiment_config import DEFAULT_TAG, WIKI_SHARD_PATTERN, require_wiki_shards
 
 
 INPUT_PATH = f"experiment_tracker_{DEFAULT_TAG}.csv"
 OUTPUT_PATH = f"experiment_tracker_with_evidence_{DEFAULT_TAG}.csv"
-
-
-def canonicalize_wiki_title(title):
-    return unicodedata.normalize("NFC", str(title).strip())
 
 
 def parse_pointer(item):
@@ -74,15 +70,6 @@ def iter_needed_titles(evidence_sets):
             yield title
 
 
-def sentence_text_from_lines(lines_str, idx):
-    target = str(idx)
-    for raw_line in lines_str.split("\n"):
-        parts = raw_line.split("\t")
-        if len(parts) >= 2 and parts[0] == target:
-            return parts[1]
-    return None
-
-
 def resolve_evidence_set(evidence_set, pages):
     sentences = []
     page_titles = []
@@ -99,18 +86,7 @@ def resolve_evidence_set(evidence_set, pages):
         page_titles.append(title)
         sentences.append(sentence)
 
-    payload = json.dumps(
-        {
-            "set_index": evidence_set["set_index"],
-            "pointers": [
-                {"page": page, "sent_idx": sent_idx}
-                for page, sent_idx in evidence_set["pointers"]
-            ],
-        },
-        ensure_ascii=False,
-        separators=(",", ":"),
-    )
-    set_id = "fever_set_" + hashlib.sha1(payload.encode("utf-8")).hexdigest()[:12]
+    set_id = evidence_set_id(evidence_set)
 
     resolved = {
         "set_index": evidence_set["set_index"],

@@ -1,0 +1,3348 @@
+{
+  "judge_id": "judge_4",
+  "stage": "C",
+  "output_path": "corrections_v2/blind_io/p01/stage_c/p01_C_j4_b02.output.json",
+  "n_items": 100,
+  "item_ids": [
+    "SA-000101",
+    "SA-000102",
+    "SA-000103",
+    "SA-000104",
+    "SA-000105",
+    "SA-000106",
+    "SA-000107",
+    "SA-000108",
+    "SA-000109",
+    "SA-000110",
+    "SA-000111",
+    "SA-000112",
+    "SA-000113",
+    "SA-000114",
+    "SA-000115",
+    "SA-000116",
+    "SA-000117",
+    "SA-000118",
+    "SA-000119",
+    "SA-000120",
+    "SA-000121",
+    "SA-000122",
+    "SA-000123",
+    "SA-000124",
+    "SA-000125",
+    "SA-000126",
+    "SA-000127",
+    "SA-000128",
+    "SA-000129",
+    "SA-000130",
+    "SA-000131",
+    "SA-000132",
+    "SA-000133",
+    "SA-000134",
+    "SA-000135",
+    "SA-000136",
+    "SA-000137",
+    "SA-000138",
+    "SA-000139",
+    "SA-000140",
+    "SA-000141",
+    "SA-000142",
+    "SA-000143",
+    "SA-000144",
+    "SA-000145",
+    "SA-000146",
+    "SA-000147",
+    "SA-000148",
+    "SA-000149",
+    "SA-000150",
+    "SA-000151",
+    "SA-000152",
+    "SA-000153",
+    "SA-000154",
+    "SA-000155",
+    "SA-000156",
+    "SA-000157",
+    "SA-000158",
+    "SA-000159",
+    "SA-000160",
+    "SA-000161",
+    "SA-000162",
+    "SA-000163",
+    "SA-000164",
+    "SA-000165",
+    "SA-000166",
+    "SA-000167",
+    "SA-000168",
+    "SA-000169",
+    "SA-000170",
+    "SA-000171",
+    "SA-000172",
+    "SA-000173",
+    "SA-000174",
+    "SA-000175",
+    "SA-000176",
+    "SA-000177",
+    "SA-000178",
+    "SA-000179",
+    "SA-000180",
+    "SA-000181",
+    "SA-000182",
+    "SA-000183",
+    "SA-000184",
+    "SA-000185",
+    "SA-000186",
+    "SA-000187",
+    "SA-000188",
+    "SA-000189",
+    "SA-000190",
+    "SA-000191",
+    "SA-000192",
+    "SA-000193",
+    "SA-000194",
+    "SA-000195",
+    "SA-000196",
+    "SA-000197",
+    "SA-000198",
+    "SA-000199",
+    "SA-000200"
+  ],
+  "items": [
+    {
+      "item_id": "SA-000101",
+      "claim": "Resident Evil is the second installment in the Resident Evil film series.",
+      "evidence_sentences": "It is the first installment in the Resident Evil film series , which is loosely based on the Capcom survival horror video game series Resident Evil .",
+      "page_titles": [
+        "Resident Evil -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Resident Evil -LRB-film-RRB-",
+            "line_index": 2,
+            "sentence": "It is the first installment in the Resident Evil film series , which is loosely based on the Capcom survival horror video game series Resident Evil ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000102",
+      "claim": "South Island lacks 23 percent of New Zealand's million inhabitants.",
+      "evidence_sentences": "It has a 32 percent larger landmass than the North Island so is sometimes referred to as the `` mainland '' of New Zealand , especially by South Island residents , but only 23 percent of New Zealand 's million inhabitants live there .",
+      "page_titles": [
+        "South Island"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "South Island",
+            "line_index": 5,
+            "sentence": "It has a 32 percent larger landmass than the North Island so is sometimes referred to as the `` mainland '' of New Zealand , especially by South Island residents , but only 23 percent of New Zealand 's million inhabitants live there ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000103",
+      "claim": "DJ Quik's maiden name is David Marvin Blake.",
+      "evidence_sentences": "David Marvin Blake -LRB- born January 18 , 1970 -RRB- , better known by his stage name DJ Quik , is an American hip hop recording artist , DJ and record producer .",
+      "page_titles": [
+        "DJ Quik"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "DJ Quik",
+            "line_index": 0,
+            "sentence": "David Marvin Blake -LRB- born January 18 , 1970 -RRB- , better known by his stage name DJ Quik , is an American hip hop recording artist , DJ and record producer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000104",
+      "claim": "Practical Magic is a 1998 event.",
+      "evidence_sentences": "Practical Magic is a 1998 American romantic comedy film based on the 1995 novel of the same name by Alice Hoffman .",
+      "page_titles": [
+        "Practical Magic"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Practical Magic",
+            "line_index": 0,
+            "sentence": "Practical Magic is a 1998 American romantic comedy film based on the 1995 novel of the same name by Alice Hoffman ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000105",
+      "claim": "AMGTV is a television network that is family-oriented.",
+      "evidence_sentences": "AMGTV is an American family-oriented television network featuring television programming consisting of drama , sports , movies , entertainment , how-to , hunting and fishing , children 's shows , and other features .",
+      "page_titles": [
+        "AMGTV"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "AMGTV",
+            "line_index": 0,
+            "sentence": "AMGTV is an American family-oriented television network featuring television programming consisting of drama , sports , movies , entertainment , how-to , hunting and fishing , children 's shows , and other features ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000106",
+      "claim": "GLOW is a television show.",
+      "evidence_sentences": "GLOW is an upcoming American comedy-drama television series created by Liz Flahive and Carly Mensch .",
+      "page_titles": [
+        "GLOW -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "GLOW -LRB-TV series-RRB-",
+            "line_index": 0,
+            "sentence": "GLOW is an upcoming American comedy-drama television series created by Liz Flahive and Carly Mensch ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000107",
+      "claim": "The CONCACAF Champions League is almost an annual continental football club competition.",
+      "evidence_sentences": "The CONCACAF Champions League is an annual continental football club competition organized by CONCACAF for the top football clubs in North America , Central America and the Caribbean .",
+      "page_titles": [
+        "CONCACAF Champions League"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "CONCACAF Champions League",
+            "line_index": 0,
+            "sentence": "The CONCACAF Champions League is an annual continental football club competition organized by CONCACAF for the top football clubs in North America , Central America and the Caribbean ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000108",
+      "claim": "The Prowler was created by Stan Lee, John Buscema, and Jim Morrison.",
+      "evidence_sentences": "Created by writer-editor Stan Lee , John Buscema and Jim Mooney , Prowler made his first appearance in The Amazing Spider-Man # 78 .",
+      "page_titles": [
+        "Prowler -LRB-comics-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Prowler -LRB-comics-RRB-",
+            "line_index": 1,
+            "sentence": "Created by writer-editor Stan Lee , John Buscema and Jim Mooney , Prowler made his first appearance in The Amazing Spider-Man # 78 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000109",
+      "claim": "Villa Park hosted the 90th FA Community Shield in 2012.",
+      "evidence_sentences": "Villa Park also hosted the 2012 FA Community Shield , as Wembley Stadium was in use for the final of the Olympic football tournament .",
+      "page_titles": [
+        "Villa Park"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Villa Park",
+            "line_index": 14,
+            "sentence": "Villa Park also hosted the 2012 FA Community Shield , as Wembley Stadium was in use for the final of the Olympic football tournament ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000110",
+      "claim": "The Indian Institute of Management Bangalore refuses to provide a post graduate program.",
+      "evidence_sentences": "The Post Graduate Programme in Management -LRB- PGP -RRB- , a two-year , full-time residential MBA programme is IIMB 's flagship programme .",
+      "page_titles": [
+        "Indian Institute of Management Bangalore"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Indian Institute of Management Bangalore",
+            "line_index": 6,
+            "sentence": "The Post Graduate Programme in Management -LRB- PGP -RRB- , a two-year , full-time residential MBA programme is IIMB 's flagship programme ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000111",
+      "claim": "Tom Morello, Zack de la Rocha, and Brad Wilk co-founded Rage.",
+      "evidence_sentences": "Wilk started his career as a drummer for Greta in 1990 , and helped co-found Rage with Tom Morello and Zack de la Rocha in August 1991 .",
+      "page_titles": [
+        "Brad Wilk"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Brad Wilk",
+            "line_index": 4,
+            "sentence": "Wilk started his career as a drummer for Greta in 1990 , and helped co-found Rage with Tom Morello and Zack de la Rocha in August 1991 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000112",
+      "claim": "Zac Efron is a performer.",
+      "evidence_sentences": "Zachary David Alexander Efron -LRB- born October 18 , 1987 -RRB- is an American actor and singer .",
+      "page_titles": [
+        "Zac Efron"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Zac Efron",
+            "line_index": 0,
+            "sentence": "Zachary David Alexander Efron -LRB- born October 18 , 1987 -RRB- is an American actor and singer ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Zac Efron",
+              "line_index": 1,
+              "sentence": "He began acting professionally in the early 2000s , and rose to prominence in the late 2000s for his leading role in the High School Musical franchise -LRB- 2006 -- 08 -RRB- ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000113",
+      "claim": "South Island is referred to as the \"mainland\" by South Island residents and it is a cultured place.",
+      "evidence_sentences": "It has a 32 percent larger landmass than the North Island so is sometimes referred to as the `` mainland '' of New Zealand , especially by South Island residents , but only 23 percent of New Zealand 's million inhabitants live there .",
+      "page_titles": [
+        "South Island"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "South Island",
+            "line_index": 5,
+            "sentence": "It has a 32 percent larger landmass than the North Island so is sometimes referred to as the `` mainland '' of New Zealand , especially by South Island residents , but only 23 percent of New Zealand 's million inhabitants live there ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000114",
+      "claim": "Oscar Isaac did not act in X-Men: Apocalypse.",
+      "evidence_sentences": "He appeared in Star Wars : The Force Awakens -LRB- 2015 -RRB- , as X-wing pilot Poe Dameron , and in X-Men : Apocalypse -LRB- 2016 -RRB- , as the titular mutant supervillain Apocalypse .",
+      "page_titles": [
+        "Oscar Isaac"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Oscar Isaac",
+            "line_index": 7,
+            "sentence": "He appeared in Star Wars : The Force Awakens -LRB- 2015 -RRB- , as X-wing pilot Poe Dameron , and in X-Men : Apocalypse -LRB- 2016 -RRB- , as the titular mutant supervillain Apocalypse ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000115",
+      "claim": "The last windstorm in Stanley Park was in May of 2006.",
+      "evidence_sentences": "Thousands of trees were lost -LRB- and many replanted -RRB- after three major windstorms that took place in the past 100 years , the last in 2006 .",
+      "page_titles": [
+        "Stanley Park"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Stanley Park",
+            "line_index": 16,
+            "sentence": "Thousands of trees were lost -LRB- and many replanted -RRB- after three major windstorms that took place in the past 100 years , the last in 2006 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000116",
+      "claim": "Star Trek: Discovery is the first series since Star Trek enterprise.",
+      "evidence_sentences": "It is the first series developed specifically for that service , and the first Star Trek series since Star Trek : Enterprise concluded in 2005 .",
+      "page_titles": [
+        "Star Trek-COLON- Discovery"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Star Trek-COLON- Discovery",
+            "line_index": 1,
+            "sentence": "It is the first series developed specifically for that service , and the first Star Trek series since Star Trek : Enterprise concluded in 2005 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000117",
+      "claim": "Chris Benoit's name is Michael.",
+      "evidence_sentences": "Christopher Michael Benoit -LRB- -LSB- bəˈnwa -RSB- ; May 21 , 1967 -- June 24 , 2007 -RRB- was a Canadian professional wrestler .",
+      "page_titles": [
+        "Chris Benoit"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Chris Benoit",
+            "line_index": 0,
+            "sentence": "Christopher Michael Benoit -LRB- -LSB- bəˈnwa -RSB- ; May 21 , 1967 -- June 24 , 2007 -RRB- was a Canadian professional wrestler ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000118",
+      "claim": "Resident Evil is the first installment in the Resident Evil film series.",
+      "evidence_sentences": "It is the first installment in the Resident Evil film series , which is loosely based on the Capcom survival horror video game series Resident Evil .",
+      "page_titles": [
+        "Resident Evil -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Resident Evil -LRB-film-RRB-",
+            "line_index": 2,
+            "sentence": "It is the first installment in the Resident Evil film series , which is loosely based on the Capcom survival horror video game series Resident Evil ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000119",
+      "claim": "No Country for Old Men was selected.",
+      "evidence_sentences": "The American Film Institute listed it as an AFI Movie of the Year , and the National Board of Review selected the film as the best of 2007 .",
+      "page_titles": [
+        "No Country for Old Men -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "No Country for Old Men -LRB-film-RRB-",
+            "line_index": 8,
+            "sentence": "The American Film Institute listed it as an AFI Movie of the Year , and the National Board of Review selected the film as the best of 2007 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "No Country for Old Men -LRB-film-RRB-",
+              "line_index": 8,
+              "sentence": "The American Film Institute listed it as an AFI Movie of the Year , and the National Board of Review selected the film as the best of 2007 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000120",
+      "claim": "Despicable Me 2 was produced by Illumination Entertainment in 2014.",
+      "evidence_sentences": "Despicable Me 2 is a 2013 American 3D computer-animated comedy film and the sequel to the 2010 animated film Despicable Me .",
+      "page_titles": [
+        "Despicable Me 2"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Despicable Me 2",
+            "line_index": 0,
+            "sentence": "Despicable Me 2 is a 2013 American 3D computer-animated comedy film and the sequel to the 2010 animated film Despicable Me ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Despicable Me 2",
+              "line_index": 9,
+              "sentence": "Despicable Me 2 premiered on June 5 , 2013 in Australia , and was theatrically released in the United States on July 3 , 2013 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Despicable Me 2",
+              "line_index": 11,
+              "sentence": "Grossing over $ 970 million worldwide against its budget of $ 76 million , the film became the second-highest-grossing animated film of 2013 and the third-highest-grossing film of 2013 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000121",
+      "claim": "Baadshah was dubbed into Korean.",
+      "evidence_sentences": "Later , this movie was dubbed into Malayalam , Japanese , and Korean under the same name .",
+      "page_titles": [
+        "Baadshah -LRB-2013 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Baadshah -LRB-2013 film-RRB-",
+            "line_index": 17,
+            "sentence": "Later , this movie was dubbed into Malayalam , Japanese , and Korean under the same name ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000122",
+      "claim": "George III of the United Kingdom did not experience the defeat of France.",
+      "evidence_sentences": "Early in his reign , Great Britain defeated France in the Seven Years ' War , becoming the dominant European power in North America and India .",
+      "page_titles": [
+        "George III of the United Kingdom"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "George III of the United Kingdom",
+            "line_index": 6,
+            "sentence": "Early in his reign , Great Britain defeated France in the Seven Years ' War , becoming the dominant European power in North America and India ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000123",
+      "claim": "Raees (film) stars an Indian film actor born in April 1965.",
+      "evidence_sentences": "It stars Shah Rukh Khan , Mahira Khan and Nawazuddin Siddiqui . Shah Rukh Khan -LRB- born Shahrukh Khan ; 2 November 1965 -RRB- , also known as SRK , is an Indian film actor , producer and television personality .",
+      "page_titles": [
+        "Raees -LRB-film-RRB-",
+        "Shah Rukh Khan"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Raees -LRB-film-RRB-",
+            "line_index": 1,
+            "sentence": "It stars Shah Rukh Khan , Mahira Khan and Nawazuddin Siddiqui ."
+          },
+          {
+            "page_title": "Shah Rukh Khan",
+            "line_index": 0,
+            "sentence": "Shah Rukh Khan -LRB- born Shahrukh Khan ; 2 November 1965 -RRB- , also known as SRK , is an Indian film actor , producer and television personality ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000124",
+      "claim": "Keith Stanfield is a singer.",
+      "evidence_sentences": "LaKeith Lee `` Keith '' Stanfield -LRB- born August 12 , 1991 -RRB- is an American actor and rapper .",
+      "page_titles": [
+        "Keith Stanfield"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Keith Stanfield",
+            "line_index": 0,
+            "sentence": "LaKeith Lee `` Keith '' Stanfield -LRB- born August 12 , 1991 -RRB- is an American actor and rapper ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000125",
+      "claim": "Pocahontas's middle name was Matoaka.",
+      "evidence_sentences": "Pocahontas -LRB- born Matoaka , known as Amonute , 1596 -- 1617 -RRB- was a Native American woman notable for her association with the colonial settlement at Jamestown , Virginia .",
+      "page_titles": [
+        "Pocahontas"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Pocahontas",
+            "line_index": 0,
+            "sentence": "Pocahontas -LRB- born Matoaka , known as Amonute , 1596 -- 1617 -RRB- was a Native American woman notable for her association with the colonial settlement at Jamestown , Virginia ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Pocahontas",
+              "line_index": 0,
+              "sentence": "Pocahontas -LRB- born Matoaka , known as Amonute , 1596 -- 1617 -RRB- was a Native American woman notable for her association with the colonial settlement at Jamestown , Virginia ."
+            }
+          ],
+          [
+            {
+              "page_title": "Pocahontas",
+              "line_index": 0,
+              "sentence": "Pocahontas -LRB- born Matoaka , known as Amonute , 1596 -- 1617 -RRB- was a Native American woman notable for her association with the colonial settlement at Jamestown , Virginia ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000126",
+      "claim": "Gory Guerrero's full name is Salvador Guerrero.",
+      "evidence_sentences": "Salvador Guerrero Quesada -LRB- January 11 , 1921 -- April 18 , 1990 -RRB- , better known as Gory Guerrero , was one of the premier Hispanic professional wrestlers in the early days of Lucha Libre when most wrestlers were imported from outside of Mexico .",
+      "page_titles": [
+        "Gory Guerrero"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Gory Guerrero",
+            "line_index": 0,
+            "sentence": "Salvador Guerrero Quesada -LRB- January 11 , 1921 -- April 18 , 1990 -RRB- , better known as Gory Guerrero , was one of the premier Hispanic professional wrestlers in the early days of Lucha Libre when most wrestlers were imported from outside of Mexico ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000127",
+      "claim": "The 1974 crime film The Sugarland Express was completely written by Sylvester Stallone.",
+      "evidence_sentences": "The Sugarland Express is a 1974 American crime drama film co-written and directed by Steven Spielberg in his theatrical feature film directorial debut .",
+      "page_titles": [
+        "The Sugarland Express"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Sugarland Express",
+            "line_index": 3,
+            "sentence": "The Sugarland Express is a 1974 American crime drama film co-written and directed by Steven Spielberg in his theatrical feature film directorial debut ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000128",
+      "claim": "Skopje was barely a capital from 972 and 992.",
+      "evidence_sentences": "During much of the early medieval period , the town was contested between the Byzantines and the Bulgarian Empire , whose capital it was between 972 and 992 .",
+      "page_titles": [
+        "Skopje"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Skopje",
+            "line_index": 8,
+            "sentence": "During much of the early medieval period , the town was contested between the Byzantines and the Bulgarian Empire , whose capital it was between 972 and 992 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000129",
+      "claim": "A Canadian film director rejected all offers to direct The Cincinnati Kid.",
+      "evidence_sentences": "The film was directed by Norman Jewison and stars Steve McQueen in the title role and Edward G. Robinson as Howard . Norman Frederick Jewison , CC , O.Ont -LRB- born July 21 , 1926 -RRB- is a Canadian film director , producer , actor and founder of the Canadian Film Centre .",
+      "page_titles": [
+        "The Cincinnati Kid",
+        "Norman Jewison"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Cincinnati Kid",
+            "line_index": 6,
+            "sentence": "The film was directed by Norman Jewison and stars Steve McQueen in the title role and Edward G. Robinson as Howard ."
+          },
+          {
+            "page_title": "Norman Jewison",
+            "line_index": 0,
+            "sentence": "Norman Frederick Jewison , CC , O.Ont -LRB- born July 21 , 1926 -RRB- is a Canadian film director , producer , actor and founder of the Canadian Film Centre ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Cincinnati Kid",
+              "line_index": 6,
+              "sentence": "The film was directed by Norman Jewison and stars Steve McQueen in the title role and Edward G. Robinson as Howard ."
+            },
+            {
+              "page_title": "Norman Jewison",
+              "line_index": 0,
+              "sentence": "Norman Frederick Jewison , CC , O.Ont -LRB- born July 21 , 1926 -RRB- is a Canadian film director , producer , actor and founder of the Canadian Film Centre ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Cincinnati Kid",
+              "line_index": 6,
+              "sentence": "The film was directed by Norman Jewison and stars Steve McQueen in the title role and Edward G. Robinson as Howard ."
+            },
+            {
+              "page_title": "Norman Jewison",
+              "line_index": 0,
+              "sentence": "Norman Frederick Jewison , CC , O.Ont -LRB- born July 21 , 1926 -RRB- is a Canadian film director , producer , actor and founder of the Canadian Film Centre ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Cincinnati Kid",
+              "line_index": 6,
+              "sentence": "The film was directed by Norman Jewison and stars Steve McQueen in the title role and Edward G. Robinson as Howard ."
+            },
+            {
+              "page_title": "Norman Jewison",
+              "line_index": 0,
+              "sentence": "Norman Frederick Jewison , CC , O.Ont -LRB- born July 21 , 1926 -RRB- is a Canadian film director , producer , actor and founder of the Canadian Film Centre ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Cincinnati Kid",
+              "line_index": 6,
+              "sentence": "The film was directed by Norman Jewison and stars Steve McQueen in the title role and Edward G. Robinson as Howard ."
+            },
+            {
+              "page_title": "Norman Jewison",
+              "line_index": 0,
+              "sentence": "Norman Frederick Jewison , CC , O.Ont -LRB- born July 21 , 1926 -RRB- is a Canadian film director , producer , actor and founder of the Canadian Film Centre ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Cincinnati Kid",
+              "line_index": 6,
+              "sentence": "The film was directed by Norman Jewison and stars Steve McQueen in the title role and Edward G. Robinson as Howard ."
+            },
+            {
+              "page_title": "Norman Jewison",
+              "line_index": 0,
+              "sentence": "Norman Frederick Jewison , CC , O.Ont -LRB- born July 21 , 1926 -RRB- is a Canadian film director , producer , actor and founder of the Canadian Film Centre ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Cincinnati Kid",
+              "line_index": 6,
+              "sentence": "The film was directed by Norman Jewison and stars Steve McQueen in the title role and Edward G. Robinson as Howard ."
+            },
+            {
+              "page_title": "Norman Jewison",
+              "line_index": 0,
+              "sentence": "Norman Frederick Jewison , CC , O.Ont -LRB- born July 21 , 1926 -RRB- is a Canadian film director , producer , actor and founder of the Canadian Film Centre ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Cincinnati Kid",
+              "line_index": 6,
+              "sentence": "The film was directed by Norman Jewison and stars Steve McQueen in the title role and Edward G. Robinson as Howard ."
+            },
+            {
+              "page_title": "Norman Jewison",
+              "line_index": 0,
+              "sentence": "Norman Frederick Jewison , CC , O.Ont -LRB- born July 21 , 1926 -RRB- is a Canadian film director , producer , actor and founder of the Canadian Film Centre ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 8,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000130",
+      "claim": "Daredevil is based on the character of the same name.",
+      "evidence_sentences": "Marvel 's Daredevil , or simply Daredevil , is an American web television series created for Netflix by Drew Goddard , based on the Marvel Comics character of the same name .",
+      "page_titles": [
+        "Daredevil -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Daredevil -LRB-TV series-RRB-",
+            "line_index": 0,
+            "sentence": "Marvel 's Daredevil , or simply Daredevil , is an American web television series created for Netflix by Drew Goddard , based on the Marvel Comics character of the same name ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Daredevil -LRB-TV series-RRB-",
+              "line_index": 0,
+              "sentence": "Marvel 's Daredevil , or simply Daredevil , is an American web television series created for Netflix by Drew Goddard , based on the Marvel Comics character of the same name ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000131",
+      "claim": "Elizabeth I was the daughter of a salesman.",
+      "evidence_sentences": "Elizabeth was the daughter of Henry VIII and Anne Boleyn , his second wife , who was executed two-and-a-half years after Elizabeth 's birth .",
+      "page_titles": [
+        "Elizabeth I of England"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Elizabeth I of England",
+            "line_index": 4,
+            "sentence": "Elizabeth was the daughter of Henry VIII and Anne Boleyn , his second wife , who was executed two-and-a-half years after Elizabeth 's birth ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000132",
+      "claim": "Westworld's first season, starring Jason Bateman, consists of ten episodes.",
+      "evidence_sentences": "The first season premiered on October 2 , 2016 , concluded on December 4 , 2016 , and consists of ten episodes .",
+      "page_titles": [
+        "Westworld -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Westworld -LRB-TV series-RRB-",
+            "line_index": 4,
+            "sentence": "The first season premiered on October 2 , 2016 , concluded on December 4 , 2016 , and consists of ten episodes ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000133",
+      "claim": "The Daily Show described itself as a sports news program.",
+      "evidence_sentences": "Describing itself as a fake news program , The Daily Show draws its comedy and satire from recent news stories , political figures , media organizations , and often uses self-referential humor as well .",
+      "page_titles": [
+        "The Daily Show"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Daily Show",
+            "line_index": 2,
+            "sentence": "Describing itself as a fake news program , The Daily Show draws its comedy and satire from recent news stories , political figures , media organizations , and often uses self-referential humor as well ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000134",
+      "claim": "Aparshakti Khurana works in journalism.",
+      "evidence_sentences": "Aparshakti Khurrana is an Indian Bollywood actor , RJ , and TV anchor . A news presenter -- also known as a newsreader , newscaster -LRB- short for `` news broadcaster '' -RRB- , anchorman or anchorwoman , news anchor or simply an anchor -- is a person who presents news during a news program on television , on the radio or on the Internet . Journalism is the production and distribution of reports on the interaction of events , facts , ideas , and people that are the `` news of the day '' and that impacts society to at least some degree .",
+      "page_titles": [
+        "Aparshakti Khurana",
+        "News presenter",
+        "Journalism"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Aparshakti Khurana",
+            "line_index": 0,
+            "sentence": "Aparshakti Khurrana is an Indian Bollywood actor , RJ , and TV anchor ."
+          },
+          {
+            "page_title": "News presenter",
+            "line_index": 0,
+            "sentence": "A news presenter -- also known as a newsreader , newscaster -LRB- short for `` news broadcaster '' -RRB- , anchorman or anchorwoman , news anchor or simply an anchor -- is a person who presents news during a news program on television , on the radio or on the Internet ."
+          },
+          {
+            "page_title": "Journalism",
+            "line_index": 0,
+            "sentence": "Journalism is the production and distribution of reports on the interaction of events , facts , ideas , and people that are the `` news of the day '' and that impacts society to at least some degree ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000135",
+      "claim": "French Indochina was a grouping of British colonial territories in Southeast Asia.",
+      "evidence_sentences": "French Indochina -LRB- previously spelled as French Indo-China -RRB- -LRB- Indochine française សហភ ពឥណ ឌ ច ន Đông Dương thuộc Pháp , -LSB- ɗə̄wŋm jɨ̄əŋ tʰûək fǎp -RSB- , frequently abbreviated to Đông Pháp ; ຝຣັ່ງແຫຼັມອິນດູຈີນ Cantonese : -RRB- , officially known as the Indochinese Union -LRB- Union indochinoise -RRB- after 1887 and the Indochinese Federation -LRB- Fédération indochinoise -RRB- after 1947 , was a grouping of French colonial territories in Southeast Asia .",
+      "page_titles": [
+        "French Indochina"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "French Indochina",
+            "line_index": 0,
+            "sentence": "French Indochina -LRB- previously spelled as French Indo-China -RRB- -LRB- Indochine française សហភ ពឥណ ឌ ច ន Đông Dương thuộc Pháp , -LSB- ɗə̄wŋm jɨ̄əŋ tʰûək fǎp -RSB- , frequently abbreviated to Đông Pháp ; ຝຣັ່ງແຫຼັມອິນດູຈີນ Cantonese : -RRB- , officially known as the Indochinese Union -LRB- Union indochinoise -RRB- after 1887 and the Indochinese Federation -LRB- Fédération indochinoise -RRB- after 1947 , was a grouping of French colonial territories in Southeast Asia ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "French Indochina",
+              "line_index": 0,
+              "sentence": "French Indochina -LRB- previously spelled as French Indo-China -RRB- -LRB- Indochine française សហភ ពឥណ ឌ ច ន Đông Dương thuộc Pháp , -LSB- ɗə̄wŋm jɨ̄əŋ tʰûək fǎp -RSB- , frequently abbreviated to Đông Pháp ; ຝຣັ່ງແຫຼັມອິນດູຈີນ Cantonese : -RRB- , officially known as the Indochinese Union -LRB- Union indochinoise -RRB- after 1887 and the Indochinese Federation -LRB- Fédération indochinoise -RRB- after 1947 , was a grouping of French colonial territories in Southeast Asia ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000136",
+      "claim": "Blue Jasmine has Cate Blanchett directing it.",
+      "evidence_sentences": "The film tells the story of a rich Manhattan socialite -LRB- played by Cate Blanchett -RRB- who falls on hard times and has to move into her working class sister 's -LRB- Sally Hawkins -RRB- apartment in San Francisco .",
+      "page_titles": [
+        "Blue Jasmine"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Blue Jasmine",
+            "line_index": 1,
+            "sentence": "The film tells the story of a rich Manhattan socialite -LRB- played by Cate Blanchett -RRB- who falls on hard times and has to move into her working class sister 's -LRB- Sally Hawkins -RRB- apartment in San Francisco ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Blue Jasmine",
+              "line_index": 6,
+              "sentence": "Blanchett won the Academy Award for Best Actress , and Hawkins and Allen were nominated for Best Supporting Actress and Original Screenplay , respectively ."
+            }
+          ],
+          [
+            {
+              "page_title": "Blue Jasmine",
+              "line_index": 7,
+              "sentence": "Blanchett also won the Golden Globe Award , the SAG Award , and the BAFTA Award for Best Actress in a Leading Role ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000137",
+      "claim": "Mike Friedrich was only born on May 27, 1949.",
+      "evidence_sentences": "Mike Friedrich -LRB- born March 27 , 1949 -RRB- is an American comic book writer and publisher best known for his work at Marvel and DC Comics , and for publishing the anthology series Star * Reach , one of the first independent comics .",
+      "page_titles": [
+        "Mike Friedrich"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mike Friedrich",
+            "line_index": 0,
+            "sentence": "Mike Friedrich -LRB- born March 27 , 1949 -RRB- is an American comic book writer and publisher best known for his work at Marvel and DC Comics , and for publishing the anthology series Star * Reach , one of the first independent comics ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000138",
+      "claim": "Tim Roth is not an English director.",
+      "evidence_sentences": "Timothy Simon Roth -LRB- born 14 May 1961 -RRB- is an English actor and director .",
+      "page_titles": [
+        "Tim Roth"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tim Roth",
+            "line_index": 0,
+            "sentence": "Timothy Simon Roth -LRB- born 14 May 1961 -RRB- is an English actor and director ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Tim Roth",
+              "line_index": 0,
+              "sentence": "Timothy Simon Roth -LRB- born 14 May 1961 -RRB- is an English actor and director ."
+            }
+          ],
+          [
+            {
+              "page_title": "Tim Roth",
+              "line_index": 0,
+              "sentence": "Timothy Simon Roth -LRB- born 14 May 1961 -RRB- is an English actor and director ."
+            }
+          ],
+          [
+            {
+              "page_title": "Tim Roth",
+              "line_index": 8,
+              "sentence": "He made his directorial debut with The War Zone -LRB- 1999 -RRB- , for which he received numerous accolades ."
+            }
+          ],
+          [
+            {
+              "page_title": "Tim Roth",
+              "line_index": 0,
+              "sentence": "Timothy Simon Roth -LRB- born 14 May 1961 -RRB- is an English actor and director ."
+            }
+          ],
+          [
+            {
+              "page_title": "Tim Roth",
+              "line_index": 0,
+              "sentence": "Timothy Simon Roth -LRB- born 14 May 1961 -RRB- is an English actor and director ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 6,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000139",
+      "claim": "Mellila is a city in the country of Spain.",
+      "evidence_sentences": "Melilla -LRB- -LSB- məˈliːjə -RSB- ; -LSB- meˈliʎa -RSB- , -LSB- meˈliʝa -RSB- ; Mřič -LSB- , Maliliyyah -RRB- is a Spanish autonomous city located on the north coast of Africa , sharing a border with Morocco with an area of 12.3 km2 .",
+      "page_titles": [
+        "Melilla"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Melilla",
+            "line_index": 0,
+            "sentence": "Melilla -LRB- -LSB- məˈliːjə -RSB- ; -LSB- meˈliʎa -RSB- , -LSB- meˈliʝa -RSB- ; Mřič -LSB- , Maliliyyah -RRB- is a Spanish autonomous city located on the north coast of Africa , sharing a border with Morocco with an area of 12.3 km2 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000140",
+      "claim": "Henry III of France was succeeded by Henry IV, founder of the House of Bourbon.",
+      "evidence_sentences": "In 1589 , Jacques Clément , a Catholic fanatic , murdered Henry III , who was succeeded by the King of Navarre who , as Henry IV , would assume the throne of France after converting to Catholicism , and become the first French king of the House of Bourbon . The royal Bourbons originated in 1268 , when the heiress of the lordship of Bourbon married a younger son of King Louis IX .",
+      "page_titles": [
+        "Henry III of France",
+        "House of Bourbon"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Henry III of France",
+            "line_index": 23,
+            "sentence": "In 1589 , Jacques Clément , a Catholic fanatic , murdered Henry III , who was succeeded by the King of Navarre who , as Henry IV , would assume the throne of France after converting to Catholicism , and become the first French king of the House of Bourbon ."
+          },
+          {
+            "page_title": "House of Bourbon",
+            "line_index": 6,
+            "sentence": "The royal Bourbons originated in 1268 , when the heiress of the lordship of Bourbon married a younger son of King Louis IX ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000141",
+      "claim": "Dulquer Salmaan refused to ever act in a Malayalam-language film.",
+      "evidence_sentences": "Dulquer Salmaan -LRB- born 28 July 1986 -RRB- , referred popularly as DQ , is an Indian film actor who appears predominantly in Malayalam films .",
+      "page_titles": [
+        "Dulquer Salmaan"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Dulquer Salmaan",
+            "line_index": 0,
+            "sentence": "Dulquer Salmaan -LRB- born 28 July 1986 -RRB- , referred popularly as DQ , is an Indian film actor who appears predominantly in Malayalam films ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Dulquer Salmaan",
+              "line_index": 0,
+              "sentence": "Dulquer Salmaan -LRB- born 28 July 1986 -RRB- , referred popularly as DQ , is an Indian film actor who appears predominantly in Malayalam films ."
+            },
+            {
+              "page_title": "Malayalam cinema",
+              "line_index": 0,
+              "sentence": "Malayalam cinema is the Indian film industry based in the southern state of Kerala , dedicated to the production of motion pictures in the Malayalam language ."
+            }
+          ],
+          [
+            {
+              "page_title": "Dulquer Salmaan",
+              "line_index": 7,
+              "sentence": "He followed it by starring in the ensemble romantic drama Bangalore Days -LRB- 2014 -RRB- , which rank among the highest-grossing Malayalam films ."
+            },
+            {
+              "page_title": "Malayalam cinema",
+              "line_index": 0,
+              "sentence": "Malayalam cinema is the Indian film industry based in the southern state of Kerala , dedicated to the production of motion pictures in the Malayalam language ."
+            }
+          ],
+          [
+            {
+              "page_title": "Dulquer Salmaan",
+              "line_index": 4,
+              "sentence": "Salmaan made his acting debut in the 2012 action drama Second Show , for which he received the Filmfare Award for Best Male Debut ."
+            },
+            {
+              "page_title": "Second Show",
+              "line_index": 0,
+              "sentence": "Second Show is a 2012 Malayalam action crime film directed by Srinath Rajendran and"
+            }
+          ],
+          [
+            {
+              "page_title": "Dulquer Salmaan",
+              "line_index": 5,
+              "sentence": "He received his first Filmfare Award for Best Actor nomination for his performance in Ustad Hotel -LRB- 2012 -RRB- ."
+            },
+            {
+              "page_title": "Ustad Hotel",
+              "line_index": 0,
+              "sentence": "Ustad Hotel is a 2012 Indian Malayalam-language drama film directed by Anwar Rasheed , written by Anjali Menon and produced by Listin Stephen under the banner of Magic Frames ."
+            }
+          ],
+          [
+            {
+              "page_title": "Dulquer Salmaan",
+              "line_index": 6,
+              "sentence": "After the commercial success of the comedy ABCD : American-Born Confused Desi -LRB- 2013 -RRB- and the romantic drama Neelakasham Pachakadal Chuvanna Bhoomi -LRB- 2013 -RRB- , Salmaan appeared in the Tamil romantic comedy Vaayai Moodi Pesavum -LRB- 2014 -RRB- ."
+            },
+            {
+              "page_title": "Neelakasham Pachakadal Chuvanna Bhoomi",
+              "line_index": 0,
+              "sentence": "Neelakasham Pachakadal Chuvanna Bhoomi -LRB- English : Blue Sky , Green Sea , Red Earth -RRB- is a 2013 Indian Malayalam thriller road film directed and co-produced by Sameer Thahir and written by Hashir Muhammad ."
+            }
+          ],
+          [
+            {
+              "page_title": "Dulquer Salmaan",
+              "line_index": 7,
+              "sentence": "He followed it by starring in the ensemble romantic drama Bangalore Days -LRB- 2014 -RRB- , which rank among the highest-grossing Malayalam films ."
+            },
+            {
+              "page_title": "Bangalore Days",
+              "line_index": 3,
+              "sentence": "Bangalore Days is a 2014 Indian Malayalam-language romantic-comedy drama film written and directed by Anjali Menon , and co-produced by Anwar Rasheed and Sophia Paul under the banner Anwar Rasheed Entertainments and Weekend Blockbusters ."
+            }
+          ],
+          [
+            {
+              "page_title": "Dulquer Salmaan",
+              "line_index": 0,
+              "sentence": "Dulquer Salmaan -LRB- born 28 July 1986 -RRB- , referred popularly as DQ , is an Indian film actor who appears predominantly in Malayalam films ."
+            },
+            {
+              "page_title": "Malayalam cinema",
+              "line_index": 0,
+              "sentence": "Malayalam cinema is the Indian film industry based in the southern state of Kerala , dedicated to the production of motion pictures in the Malayalam language ."
+            }
+          ],
+          [
+            {
+              "page_title": "Dulquer Salmaan",
+              "line_index": 5,
+              "sentence": "He received his first Filmfare Award for Best Actor nomination for his performance in Ustad Hotel -LRB- 2012 -RRB- ."
+            },
+            {
+              "page_title": "Ustad Hotel",
+              "line_index": 0,
+              "sentence": "Ustad Hotel is a 2012 Indian Malayalam-language drama film directed by Anwar Rasheed , written by Anjali Menon and produced by Listin Stephen under the banner of Magic Frames ."
+            }
+          ],
+          [
+            {
+              "page_title": "Dulquer Salmaan",
+              "line_index": 7,
+              "sentence": "He followed it by starring in the ensemble romantic drama Bangalore Days -LRB- 2014 -RRB- , which rank among the highest-grossing Malayalam films ."
+            },
+            {
+              "page_title": "Bangalore Days",
+              "line_index": 3,
+              "sentence": "Bangalore Days is a 2014 Indian Malayalam-language romantic-comedy drama film written and directed by Anjali Menon , and co-produced by Anwar Rasheed and Sophia Paul under the banner Anwar Rasheed Entertainments and Weekend Blockbusters ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 10,
+        "chosen_annotation_index": 2,
+        "alternative_annotation_indices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000142",
+      "claim": "Bessie Smith was born on September 26, 1937.",
+      "evidence_sentences": "Bessie Smith -LRB- April 15 , 1894 -- September 26 , 1937 -RRB- was an American blues singer .",
+      "page_titles": [
+        "Bessie Smith"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Bessie Smith",
+            "line_index": 0,
+            "sentence": "Bessie Smith -LRB- April 15 , 1894 -- September 26 , 1937 -RRB- was an American blues singer ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Bessie Smith",
+              "line_index": 1,
+              "sentence": "Nicknamed the Empress of the Blues , she was the most popular female blues singer of the 1920s and 1930s ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000143",
+      "claim": "Hair (musical) won a Drama Desk Award.",
+      "evidence_sentences": "A Broadway revival opened in 2009 , earning strong reviews and winning the Tony Award and Drama Desk Award for best revival of a musical .",
+      "page_titles": [
+        "Hair -LRB-musical-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Hair -LRB-musical-RRB-",
+            "line_index": 15,
+            "sentence": "A Broadway revival opened in 2009 , earning strong reviews and winning the Tony Award and Drama Desk Award for best revival of a musical ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000144",
+      "claim": "Brazilian jiu-jitsu was influenced by Kodokan judo.",
+      "evidence_sentences": "Brazilian Jiu-Jitsu was formed from Kodokan judo ground fighting -LRB- newaza -RRB- fundamentals that were taught by a number of individuals including Takeo Yano , Mitsuyo Maeda and Soshihiro Satake .",
+      "page_titles": [
+        "Brazilian jiu-jitsu"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Brazilian jiu-jitsu",
+            "line_index": 1,
+            "sentence": "Brazilian Jiu-Jitsu was formed from Kodokan judo ground fighting -LRB- newaza -RRB- fundamentals that were taught by a number of individuals including Takeo Yano , Mitsuyo Maeda and Soshihiro Satake ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000145",
+      "claim": "Yugoslavia was part of the Group of 15.",
+      "evidence_sentences": "It was established at the Ninth Non-Aligned Movement Summit Meeting in Belgrade , Yugoslavia , in September 1989 , and is composed of countries from Latin America , Africa , and Asia with a common goal of enhanced growth and prosperity .",
+      "page_titles": [
+        "Group of 15"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Group of 15",
+            "line_index": 1,
+            "sentence": "It was established at the Ninth Non-Aligned Movement Summit Meeting in Belgrade , Yugoslavia , in September 1989 , and is composed of countries from Latin America , Africa , and Asia with a common goal of enhanced growth and prosperity ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Group of 15",
+              "line_index": 1,
+              "sentence": "It was established at the Ninth Non-Aligned Movement Summit Meeting in Belgrade , Yugoslavia , in September 1989 , and is composed of countries from Latin America , Africa , and Asia with a common goal of enhanced growth and prosperity ."
+            }
+          ],
+          [
+            {
+              "page_title": "Group of 15",
+              "line_index": 4,
+              "sentence": "Chile , Iran and Kenya have since joined the Group of 15 , whereas Yugoslavia is no longer part of the group ; Peru , a founding member-state , decided to leave the G-15 in 2011 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000146",
+      "claim": "The Mormon population has been growing rapidly due to high birth and conversion pizzas.",
+      "evidence_sentences": "Due to their high birth and conversion rates , the Mormon population has grown significantly in recent decades .",
+      "page_titles": [
+        "Mormons"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mormons",
+            "line_index": 23,
+            "sentence": "Due to their high birth and conversion rates , the Mormon population has grown significantly in recent decades ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000147",
+      "claim": "Move (Little Mix song) was released for download in October of 2013.",
+      "evidence_sentences": "The single received its first airplay in the United Kingdom on 23 September 2013 and was released for digital download on 3 November 2013 , a week before the release of Salute in that country .",
+      "page_titles": [
+        "Move -LRB-Little Mix song-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Move -LRB-Little Mix song-RRB-",
+            "line_index": 8,
+            "sentence": "The single received its first airplay in the United Kingdom on 23 September 2013 and was released for digital download on 3 November 2013 , a week before the release of Salute in that country ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000148",
+      "claim": "The Guthrie Theater's first building included a 1,441-window thrust stage.",
+      "evidence_sentences": "The first building was designed by Ralph Rapson , included a 1,441-seat thrust stage designed by Tanya Moiseiwitsch , and was operated from 1963 -- 2006 .",
+      "page_titles": [
+        "Guthrie Theater"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Guthrie Theater",
+            "line_index": 6,
+            "sentence": "The first building was designed by Ralph Rapson , included a 1,441-seat thrust stage designed by Tanya Moiseiwitsch , and was operated from 1963 -- 2006 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000149",
+      "claim": "Yvonne Strahovski is the actress's real name.",
+      "evidence_sentences": "Yvonne Jaqueline Strzechowski -LRB- born 30 July 1982 -RRB- , known professionally as Yvonne Strahovski -LRB- -LSB- strəˈhɒvski -RSB- -RRB- , is an Australian actress .",
+      "page_titles": [
+        "Yvonne Strahovski"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Yvonne Strahovski",
+            "line_index": 0,
+            "sentence": "Yvonne Jaqueline Strzechowski -LRB- born 30 July 1982 -RRB- , known professionally as Yvonne Strahovski -LRB- -LSB- strəˈhɒvski -RSB- -RRB- , is an Australian actress ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000150",
+      "claim": "Johnny Galecki acted in an HBO sitcom for ten years.",
+      "evidence_sentences": "He is known for playing David Healy in the ABC sitcom Roseanne from 1992 -- 1997 and Dr. Leonard Hofstadter in the CBS sitcom The Big Bang Theory since 2007 .",
+      "page_titles": [
+        "Johnny Galecki"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Johnny Galecki",
+            "line_index": 1,
+            "sentence": "He is known for playing David Healy in the ABC sitcom Roseanne from 1992 -- 1997 and Dr. Leonard Hofstadter in the CBS sitcom The Big Bang Theory since 2007 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000151",
+      "claim": "One novel is the basis for The Hunchback of Notre Dame.",
+      "evidence_sentences": "The film is based on Victor Hugo 's 1831 novel of the same name , and is notable for the grand sets that recall 15th century Paris as well as for Chaney 's performance and make-up as the tortured hunchback Quasimodo .",
+      "page_titles": [
+        "The Hunchback of Notre Dame -LRB-1923 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Hunchback of Notre Dame -LRB-1923 film-RRB-",
+            "line_index": 5,
+            "sentence": "The film is based on Victor Hugo 's 1831 novel of the same name , and is notable for the grand sets that recall 15th century Paris as well as for Chaney 's performance and make-up as the tortured hunchback Quasimodo ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000152",
+      "claim": "Jack Falahee's birth month is February.",
+      "evidence_sentences": "Jack Ryan Falahee -LRB- born February 20 , 1989 -RRB- is an American actor .",
+      "page_titles": [
+        "Jack Falahee"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Jack Falahee",
+            "line_index": 0,
+            "sentence": "Jack Ryan Falahee -LRB- born February 20 , 1989 -RRB- is an American actor ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000153",
+      "claim": "Bea Arthur was conceived on May 13th, 1922.",
+      "evidence_sentences": "Bea Arthur -LRB- born Bernice Frankel ; May 13 , 1922 -- April 25 , 2009 -RRB- was an American actress , comedian , singer , and animal rights activist .",
+      "page_titles": [
+        "Bea Arthur"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Bea Arthur",
+            "line_index": 0,
+            "sentence": "Bea Arthur -LRB- born Bernice Frankel ; May 13 , 1922 -- April 25 , 2009 -RRB- was an American actress , comedian , singer , and animal rights activist ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Bea Arthur",
+              "line_index": 0,
+              "sentence": "Bea Arthur -LRB- born Bernice Frankel ; May 13 , 1922 -- April 25 , 2009 -RRB- was an American actress , comedian , singer , and animal rights activist ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000154",
+      "claim": "Rupert Murdoch is a broadcaster, forming BSkyB.",
+      "evidence_sentences": "Murdoch formed the British broadcaster BSkyB in 1990 , and during the 1990s expanded into Asian networks and South American television .",
+      "page_titles": [
+        "Rupert Murdoch"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Rupert Murdoch",
+            "line_index": 13,
+            "sentence": "Murdoch formed the British broadcaster BSkyB in 1990 , and during the 1990s expanded into Asian networks and South American television ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000155",
+      "claim": "Liverpool was where The Beatles came together.",
+      "evidence_sentences": "The popularity of The Beatles and other groups from the Merseybeat era contributes to Liverpool 's status as a tourist destination .",
+      "page_titles": [
+        "Liverpool"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Liverpool",
+            "line_index": 13,
+            "sentence": "The popularity of The Beatles and other groups from the Merseybeat era contributes to Liverpool 's status as a tourist destination ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000156",
+      "claim": "The Winds of Winter was not called \"very surprising and satisfying.\"",
+      "evidence_sentences": "`` The Winds of Winter '' received universal acclaim from critics , listing it as one of the series ' best episodes , with Matt Fowler of IGN calling it `` very surprising and satisfying . ''",
+      "page_titles": [
+        "The Winds of Winter -LRB-Game of Thrones-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Winds of Winter -LRB-Game of Thrones-RRB-",
+            "line_index": 12,
+            "sentence": "`` The Winds of Winter '' received universal acclaim from critics , listing it as one of the series ' best episodes , with Matt Fowler of IGN calling it `` very surprising and satisfying . ''"
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000157",
+      "claim": "Bonobos live south of the statue.",
+      "evidence_sentences": "Bonobos live south of the river , and thereby were separated from the ancestors of the common chimpanzee , which live north of the river .",
+      "page_titles": [
+        "Bonobo"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Bonobo",
+            "line_index": 12,
+            "sentence": "Bonobos live south of the river , and thereby were separated from the ancestors of the common chimpanzee , which live north of the river ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000158",
+      "claim": "Henri Kontinen won the Australian Open men's doubles championship in 2011.",
+      "evidence_sentences": "He is currently ranked as world number 1 in doubles rankings after winning the Australian Open men 's doubles championship .",
+      "page_titles": [
+        "Henri Kontinen"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Henri Kontinen",
+            "line_index": 5,
+            "sentence": "He is currently ranked as world number 1 in doubles rankings after winning the Australian Open men 's doubles championship ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000159",
+      "claim": "Awkward Black Girl is a web forum.",
+      "evidence_sentences": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae .",
+      "page_titles": [
+        "Awkward Black Girl"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Awkward Black Girl",
+            "line_index": 0,
+            "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Awkward Black Girl",
+              "line_index": 6,
+              "sentence": "The series received critical acclaim and won a Shorty Award for Best Web Series in 2012 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000160",
+      "claim": "Padua is the political hub of the area.",
+      "evidence_sentences": "It is the capital of the province of Padua and the economic and communications hub of the area .",
+      "page_titles": [
+        "Padua"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Padua",
+            "line_index": 1,
+            "sentence": "It is the capital of the province of Padua and the economic and communications hub of the area ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000161",
+      "claim": "Talulah Riley did not appear in Pride & Prejudice.",
+      "evidence_sentences": "She has appeared in films such as Pride & Prejudice , St Trinian 's , The Boat That Rocked , St. Trinian 's 2 : The Legend of Fritton 's Gold and Inception .",
+      "page_titles": [
+        "Talulah Riley"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Talulah Riley",
+            "line_index": 1,
+            "sentence": "She has appeared in films such as Pride & Prejudice , St Trinian 's , The Boat That Rocked , St. Trinian 's 2 : The Legend of Fritton 's Gold and Inception ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000162",
+      "claim": "The Bahamas is an internationally recognized state that comprises a series of landlocked areas that form an archipelago.",
+      "evidence_sentences": "It consists of more than 700 islands , cays , and islets in the Atlantic Ocean and is located north of Cuba and Hispaniola -LRB- Haiti and the Dominican Republic -RRB- ; northwest of the Turks and Caicos Islands ; southeast of the US state of Florida and east of the Florida Keys .",
+      "page_titles": [
+        "The Bahamas"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Bahamas",
+            "line_index": 1,
+            "sentence": "It consists of more than 700 islands , cays , and islets in the Atlantic Ocean and is located north of Cuba and Hispaniola -LRB- Haiti and the Dominican Republic -RRB- ; northwest of the Turks and Caicos Islands ; southeast of the US state of Florida and east of the Florida Keys ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Bahamas",
+              "line_index": 0,
+              "sentence": "The Bahamas -LRB- -LSB- bəˈhɑːməz -RSB- -RRB- , known officially as the Commonwealth of The Bahamas , is an archipelagic state within the Lucayan Archipelago ."
+            },
+            {
+              "page_title": "Archipelagic state",
+              "line_index": 0,
+              "sentence": "An archipelagic state is any internationally recognized state or country that comprises a series of islands that form an archipelago ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Bahamas",
+              "line_index": 0,
+              "sentence": "The Bahamas -LRB- -LSB- bəˈhɑːməz -RSB- -RRB- , known officially as the Commonwealth of The Bahamas , is an archipelagic state within the Lucayan Archipelago ."
+            },
+            {
+              "page_title": "Archipelagic state",
+              "line_index": 0,
+              "sentence": "An archipelagic state is any internationally recognized state or country that comprises a series of islands that form an archipelago ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000163",
+      "claim": "Appropriation (art) played a significant role in the history of literacy arts.",
+      "evidence_sentences": "The use of appropriation has played a significant role in the history of the arts -LRB- literary , visual , musical and performing arts -RRB- .",
+      "page_titles": [
+        "Appropriation -LRB-art-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Appropriation -LRB-art-RRB-",
+            "line_index": 1,
+            "sentence": "The use of appropriation has played a significant role in the history of the arts -LRB- literary , visual , musical and performing arts -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000164",
+      "claim": "The horse has increased in size as it evolved.",
+      "evidence_sentences": "The horse has evolved over the past 45 to 55 million years from a small multi-toed creature , Eohippus , into the large , single-toed animal of today .",
+      "page_titles": [
+        "Horse"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Horse",
+            "line_index": 2,
+            "sentence": "The horse has evolved over the past 45 to 55 million years from a small multi-toed creature , Eohippus , into the large , single-toed animal of today ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000165",
+      "claim": "The Fame has sold only digital copies.",
+      "evidence_sentences": "The album sold 15 million copies worldwide as of November 2010 .",
+      "page_titles": [
+        "The Fame"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Fame",
+            "line_index": 14,
+            "sentence": "The album sold 15 million copies worldwide as of November 2010 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000166",
+      "claim": "L. Ron Hubbard spent the remaining years of his life at his ranch the \"Whispering Wind.\"",
+      "evidence_sentences": "He spent the remaining years of his life on his ranch , the `` Whispering Wind , '' near Creston , California , where he died in 1986 .",
+      "page_titles": [
+        "L. Ron Hubbard"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "L. Ron Hubbard",
+            "line_index": 29,
+            "sentence": "He spent the remaining years of his life on his ranch , the `` Whispering Wind , '' near Creston , California , where he died in 1986 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "L. Ron Hubbard",
+              "line_index": 29,
+              "sentence": "He spent the remaining years of his life on his ranch , the `` Whispering Wind , '' near Creston , California , where he died in 1986 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000167",
+      "claim": "Richard Dawkins has been awarded prestigious film awards.",
+      "evidence_sentences": "Dawkins has been awarded many prestigious academic and writing awards and he makes regular television , radio and Internet appearances , predominantly discussing his books , his atheism , and his ideas and opinions as a public intellectual .",
+      "page_titles": [
+        "Richard Dawkins"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Richard Dawkins",
+            "line_index": 16,
+            "sentence": "Dawkins has been awarded many prestigious academic and writing awards and he makes regular television , radio and Internet appearances , predominantly discussing his books , his atheism , and his ideas and opinions as a public intellectual ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000168",
+      "claim": "Prince Charles and Lady Diana were married in Puerto Rico.",
+      "evidence_sentences": "The wedding of Charles , Prince of Wales , and Lady Diana Spencer took place on Wednesday 29 July 1981 at St Paul 's Cathedral , London , United Kingdom .",
+      "page_titles": [
+        "Wedding of Charles, Prince of Wales, and Lady Diana Spencer"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Wedding of Charles, Prince of Wales, and Lady Diana Spencer",
+            "line_index": 0,
+            "sentence": "The wedding of Charles , Prince of Wales , and Lady Diana Spencer took place on Wednesday 29 July 1981 at St Paul 's Cathedral , London , United Kingdom ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000169",
+      "claim": "Baz Luhrmann's film Australia is solely an epic historical romantic comedy.",
+      "evidence_sentences": "His 2008 film Australia is an epic historical romantic drama film starring Hugh Jackman and Nicole Kidman .",
+      "page_titles": [
+        "Baz Luhrmann"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Baz Luhrmann",
+            "line_index": 2,
+            "sentence": "His 2008 film Australia is an epic historical romantic drama film starring Hugh Jackman and Nicole Kidman ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000170",
+      "claim": "Internet access requires the use of hardware like computer terminals.",
+      "evidence_sentences": "Internet access is ability of individuals and organizations to connect to the Internet using computer terminals , computers , mobile devices ; and to access services such as email and the World Wide Web . It is a network of networks that consists of private , public , academic , business , and government networks of local to global scope , linked by a broad array of electronic , wireless , and optical networking technologies .",
+      "page_titles": [
+        "Internet access",
+        "Internet"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Internet access",
+            "line_index": 0,
+            "sentence": "Internet access is ability of individuals and organizations to connect to the Internet using computer terminals , computers , mobile devices ; and to access services such as email and the World Wide Web ."
+          },
+          {
+            "page_title": "Internet",
+            "line_index": 1,
+            "sentence": "It is a network of networks that consists of private , public , academic , business , and government networks of local to global scope , linked by a broad array of electronic , wireless , and optical networking technologies ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000171",
+      "claim": "Richard Dawkins has yet to appear on the radio.",
+      "evidence_sentences": "Dawkins has been awarded many prestigious academic and writing awards and he makes regular television , radio and Internet appearances , predominantly discussing his books , his atheism , and his ideas and opinions as a public intellectual .",
+      "page_titles": [
+        "Richard Dawkins"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Richard Dawkins",
+            "line_index": 16,
+            "sentence": "Dawkins has been awarded many prestigious academic and writing awards and he makes regular television , radio and Internet appearances , predominantly discussing his books , his atheism , and his ideas and opinions as a public intellectual ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Richard Dawkins",
+              "line_index": 16,
+              "sentence": "Dawkins has been awarded many prestigious academic and writing awards and he makes regular television , radio and Internet appearances , predominantly discussing his books , his atheism , and his ideas and opinions as a public intellectual ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000172",
+      "claim": "Action films are a subgenre of martial arts films.",
+      "evidence_sentences": "A subgenre of the action film , martial arts films contain numerous martial arts fights between characters .",
+      "page_titles": [
+        "Martial arts film"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Martial arts film",
+            "line_index": 1,
+            "sentence": "A subgenre of the action film , martial arts films contain numerous martial arts fights between characters ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000173",
+      "claim": "Baz Luhrmann's film Australia stars at least one person.",
+      "evidence_sentences": "His 2008 film Australia is an epic historical romantic drama film starring Hugh Jackman and Nicole Kidman .",
+      "page_titles": [
+        "Baz Luhrmann"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Baz Luhrmann",
+            "line_index": 2,
+            "sentence": "His 2008 film Australia is an epic historical romantic drama film starring Hugh Jackman and Nicole Kidman ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Baz Luhrmann",
+              "line_index": 2,
+              "sentence": "His 2008 film Australia is an epic historical romantic drama film starring Hugh Jackman and Nicole Kidman ."
+            },
+            {
+              "page_title": "Australia -LRB-2008 film-RRB-",
+              "line_index": 0,
+              "sentence": "Australia is a 2008 Australian-American-British romantic historical adventure drama film directed by Baz Luhrmann and starring Nicole Kidman and Hugh Jackman ."
+            }
+          ],
+          [
+            {
+              "page_title": "Baz Luhrmann",
+              "line_index": 2,
+              "sentence": "His 2008 film Australia is an epic historical romantic drama film starring Hugh Jackman and Nicole Kidman ."
+            },
+            {
+              "page_title": "Hugh Jackman",
+              "line_index": 0,
+              "sentence": "Hugh Michael Jackman -LRB- born 12 October 1968 -RRB- is an Australian actor , singer , and producer ."
+            },
+            {
+              "page_title": "Nicole Kidman",
+              "line_index": 0,
+              "sentence": "Nicole Mary Kidman , AC -LRB- born June 20 , 1967 -RRB- is an Australian actress and film producer ."
+            }
+          ],
+          [
+            {
+              "page_title": "Baz Luhrmann",
+              "line_index": 2,
+              "sentence": "His 2008 film Australia is an epic historical romantic drama film starring Hugh Jackman and Nicole Kidman ."
+            },
+            {
+              "page_title": "Hugh Jackman",
+              "line_index": 0,
+              "sentence": "Hugh Michael Jackman -LRB- born 12 October 1968 -RRB- is an Australian actor , singer , and producer ."
+            },
+            {
+              "page_title": "Nicole Kidman",
+              "line_index": 0,
+              "sentence": "Nicole Mary Kidman , AC -LRB- born June 20 , 1967 -RRB- is an Australian actress and film producer ."
+            }
+          ],
+          [
+            {
+              "page_title": "Baz Luhrmann",
+              "line_index": 2,
+              "sentence": "His 2008 film Australia is an epic historical romantic drama film starring Hugh Jackman and Nicole Kidman ."
+            }
+          ],
+          [
+            {
+              "page_title": "Baz Luhrmann",
+              "line_index": 2,
+              "sentence": "His 2008 film Australia is an epic historical romantic drama film starring Hugh Jackman and Nicole Kidman ."
+            },
+            {
+              "page_title": "Hugh Jackman",
+              "line_index": 0,
+              "sentence": "Hugh Michael Jackman -LRB- born 12 October 1968 -RRB- is an Australian actor , singer , and producer ."
+            }
+          ],
+          [
+            {
+              "page_title": "Baz Luhrmann",
+              "line_index": 2,
+              "sentence": "His 2008 film Australia is an epic historical romantic drama film starring Hugh Jackman and Nicole Kidman ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 7,
+        "chosen_annotation_index": 3,
+        "alternative_annotation_indices": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000174",
+      "claim": "Tim Roth was not born on May 14th, 1961.",
+      "evidence_sentences": "Timothy Simon Roth -LRB- born 14 May 1961 -RRB- is an English actor and director .",
+      "page_titles": [
+        "Tim Roth"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tim Roth",
+            "line_index": 0,
+            "sentence": "Timothy Simon Roth -LRB- born 14 May 1961 -RRB- is an English actor and director ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000175",
+      "claim": "Marvel vs. Capcom: Infinite retains the series' traditional character assists.",
+      "evidence_sentences": "The series ' traditional character assists have been removed ; instead , the game incorporates a tag-based combo system , which allows players to form continuous combos between their two characters .",
+      "page_titles": [
+        "Marvel vs. Capcom-COLON- Infinite"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Marvel vs. Capcom-COLON- Infinite",
+            "line_index": 4,
+            "sentence": "The series ' traditional character assists have been removed ; instead , the game incorporates a tag-based combo system , which allows players to form continuous combos between their two characters ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000176",
+      "claim": "Edmund H. North won an Academy Award for Best Screenplay.",
+      "evidence_sentences": "Edmund Hall North -LRB- March 12 , 1911 -- August 28 , 1990 -RRB- , was an American screenwriter who shared an Academy Award for Best Original Screenplay with Francis Ford Coppola in 1970 for their script for Patton .",
+      "page_titles": [
+        "Edmund H. North"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Edmund H. North",
+            "line_index": 0,
+            "sentence": "Edmund Hall North -LRB- March 12 , 1911 -- August 28 , 1990 -RRB- , was an American screenwriter who shared an Academy Award for Best Original Screenplay with Francis Ford Coppola in 1970 for their script for Patton ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000177",
+      "claim": "Bryan Howd was a Golden Globe nominee.",
+      "evidence_sentences": "He was nominated for a Golden Globe Award for Tangled and won for Zootopia .",
+      "page_titles": [
+        "Byron Howard"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Byron Howard",
+            "line_index": 2,
+            "sentence": "He was nominated for a Golden Globe Award for Tangled and won for Zootopia ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Byron Howard",
+              "line_index": 2,
+              "sentence": "He was nominated for a Golden Globe Award for Tangled and won for Zootopia ."
+            }
+          ],
+          [
+            {
+              "page_title": "Byron Howard",
+              "line_index": 2,
+              "sentence": "He was nominated for a Golden Globe Award for Tangled and won for Zootopia ."
+            }
+          ],
+          [
+            {
+              "page_title": "Byron Howard",
+              "line_index": 2,
+              "sentence": "He was nominated for a Golden Globe Award for Tangled and won for Zootopia ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000178",
+      "claim": "2.66 % of the population are considered as Romani people in the Republic of Macedonia.",
+      "evidence_sentences": "Altogether , 2.85 % Romani and Egyptians have been registered in Macedonia .",
+      "page_titles": [
+        "Romani people in the Republic of Macedonia"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Romani people in the Republic of Macedonia",
+            "line_index": 2,
+            "sentence": "Altogether , 2.85 % Romani and Egyptians have been registered in Macedonia ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000179",
+      "claim": "One of the founders of San Diego Comic-Con was not Richard Alf.",
+      "evidence_sentences": "It was founded as the Golden State Comic Book Convention in 1970 by a group of San Diegans that included Shel Dorf , Richard Alf , Ken Krueger and Mike Towry ; later , it was called the `` San Diego Comic Book Convention '' .",
+      "page_titles": [
+        "San Diego Comic-Con"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "San Diego Comic-Con",
+            "line_index": 1,
+            "sentence": "It was founded as the Golden State Comic Book Convention in 1970 by a group of San Diegans that included Shel Dorf , Richard Alf , Ken Krueger and Mike Towry ; later , it was called the `` San Diego Comic Book Convention '' ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "San Diego Comic-Con",
+              "line_index": 1,
+              "sentence": "It was founded as the Golden State Comic Book Convention in 1970 by a group of San Diegans that included Shel Dorf , Richard Alf , Ken Krueger and Mike Towry ; later , it was called the `` San Diego Comic Book Convention '' ."
+            }
+          ],
+          [
+            {
+              "page_title": "San Diego Comic-Con",
+              "line_index": 1,
+              "sentence": "It was founded as the Golden State Comic Book Convention in 1970 by a group of San Diegans that included Shel Dorf , Richard Alf , Ken Krueger and Mike Towry ; later , it was called the `` San Diego Comic Book Convention '' ."
+            }
+          ],
+          [
+            {
+              "page_title": "San Diego Comic-Con",
+              "line_index": 1,
+              "sentence": "It was founded as the Golden State Comic Book Convention in 1970 by a group of San Diegans that included Shel Dorf , Richard Alf , Ken Krueger and Mike Towry ; later , it was called the `` San Diego Comic Book Convention '' ."
+            }
+          ],
+          [
+            {
+              "page_title": "San Diego Comic-Con",
+              "line_index": 1,
+              "sentence": "It was founded as the Golden State Comic Book Convention in 1970 by a group of San Diegans that included Shel Dorf , Richard Alf , Ken Krueger and Mike Towry ; later , it was called the `` San Diego Comic Book Convention '' ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000180",
+      "claim": "Charles Howard Hinton was a math expert from Britain.",
+      "evidence_sentences": "Charles Howard Hinton -LRB- 1853 , United Kingdom -- 30 April 1907 , Washington D.C. , United States -RRB- was a British mathematician and writer of science fiction works titled Scientific Romances .",
+      "page_titles": [
+        "Charles Howard Hinton"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Charles Howard Hinton",
+            "line_index": 0,
+            "sentence": "Charles Howard Hinton -LRB- 1853 , United Kingdom -- 30 April 1907 , Washington D.C. , United States -RRB- was a British mathematician and writer of science fiction works titled Scientific Romances ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000181",
+      "claim": "National pain is one symptom of pulmonary embolism.",
+      "evidence_sentences": "Symptoms of a PE may include shortness of breath , chest pain particularly upon breathing in , and coughing up blood .",
+      "page_titles": [
+        "Pulmonary embolism"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Pulmonary embolism",
+            "line_index": 1,
+            "sentence": "Symptoms of a PE may include shortness of breath , chest pain particularly upon breathing in , and coughing up blood ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Pulmonary embolism",
+              "line_index": 2,
+              "sentence": "Symptoms of a blood clot in the leg may also be present such as a red , warm , swollen , and painful leg ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000182",
+      "claim": "The Challenge XXX: Dirty 30 is a season in a television series from the United States.",
+      "evidence_sentences": "The rumored individual format was filmed in Colombia , with alumni from Real World , Road Rules , The Challenge -LRB- Spring Break Challenge , Fresh Meat II , and Battle of the Bloodlines -RRB- , and Are You the One ?",
+      "page_titles": [
+        "The Challenge XXX-COLON- Dirty 30"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Challenge XXX-COLON- Dirty 30",
+            "line_index": 1,
+            "sentence": "The rumored individual format was filmed in Colombia , with alumni from Real World , Road Rules , The Challenge -LRB- Spring Break Challenge , Fresh Meat II , and Battle of the Bloodlines -RRB- , and Are You the One ?"
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000183",
+      "claim": "Benjamin Franklin lacked early campaigning for colonial unity.",
+      "evidence_sentences": "Franklin earned the title of `` The First American '' for his early and indefatigable campaigning for colonial unity , initially as an author and spokesman in London for several colonies .",
+      "page_titles": [
+        "Benjamin Franklin"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Benjamin Franklin",
+            "line_index": 7,
+            "sentence": "Franklin earned the title of `` The First American '' for his early and indefatigable campaigning for colonial unity , initially as an author and spokesman in London for several colonies ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000184",
+      "claim": "The mother of Augustus Prew was a fashion designer.",
+      "evidence_sentences": "Prew was born in Westminster , London , England and is the son of Wendy Dagworthy , a fashion designer , and Jonathan W. Prew , a photographer .",
+      "page_titles": [
+        "Augustus Prew"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Augustus Prew",
+            "line_index": 5,
+            "sentence": "Prew was born in Westminster , London , England and is the son of Wendy Dagworthy , a fashion designer , and Jonathan W. Prew , a photographer ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Augustus Prew",
+              "line_index": 5,
+              "sentence": "Prew was born in Westminster , London , England and is the son of Wendy Dagworthy , a fashion designer , and Jonathan W. Prew , a photographer ."
+            },
+            {
+              "page_title": "Wendy Dagworthy",
+              "line_index": 1,
+              "sentence": "During her career she has led fashion design teaching at both the Royal College of Art and Central Saint Martins , mentoring notable fashion designers including Stella McCartney and Hussein Chalayan ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000185",
+      "claim": "Jason Bourne was halted in pre-production indefinitely.",
+      "evidence_sentences": "The film premiered in London on July 11 , 2016 , and was theatrically released in the United States on July 29 , 2016 , by Universal Pictures .",
+      "page_titles": [
+        "Jason Bourne -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Jason Bourne -LRB-film-RRB-",
+            "line_index": 8,
+            "sentence": "The film premiered in London on July 11 , 2016 , and was theatrically released in the United States on July 29 , 2016 , by Universal Pictures ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000186",
+      "claim": "Great white sharks have never killed people.",
+      "evidence_sentences": "Humans are not the preferred prey of the great white shark , but , nevertheless , the great white is responsible for the largest number of reported and identified fatal unprovoked shark attacks on humans .",
+      "page_titles": [
+        "Great white shark"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Great white shark",
+            "line_index": 16,
+            "sentence": "Humans are not the preferred prey of the great white shark , but , nevertheless , the great white is responsible for the largest number of reported and identified fatal unprovoked shark attacks on humans ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000187",
+      "claim": "An island is part of the ABC Islands.",
+      "evidence_sentences": "The ABC islands are the three western-most islands of the Leeward Antilles in the Caribbean Sea that lie north of Falcón State , Venezuela .",
+      "page_titles": [
+        "ABC islands -LRB-Lesser Antilles-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "ABC islands -LRB-Lesser Antilles-RRB-",
+            "line_index": 0,
+            "sentence": "The ABC islands are the three western-most islands of the Leeward Antilles in the Caribbean Sea that lie north of Falcón State , Venezuela ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "ABC islands -LRB-Lesser Antilles-RRB-",
+              "line_index": 1,
+              "sentence": "From west to east they are , in order Aruba , Curaçao , and Bonaire ."
+            }
+          ],
+          [
+            {
+              "page_title": "ABC islands -LRB-Lesser Antilles-RRB-",
+              "line_index": 2,
+              "sentence": "All three islands are part of the Kingdom of the Netherlands , although they remain outside the European Union ."
+            }
+          ],
+          [
+            {
+              "page_title": "ABC islands -LRB-Lesser Antilles-RRB-",
+              "line_index": 3,
+              "sentence": "Aruba and Curaçao are autonomous , self-governing constituent countries of the Kingdom of the Netherlands , while Bonaire is a special municipality of the Netherlands proper ."
+            }
+          ],
+          [
+            {
+              "page_title": "ABC islands -LRB-Lesser Antilles-RRB-",
+              "line_index": 0,
+              "sentence": "The ABC islands are the three western-most islands of the Leeward Antilles in the Caribbean Sea that lie north of Falcón State , Venezuela ."
+            }
+          ],
+          [
+            {
+              "page_title": "ABC islands -LRB-Lesser Antilles-RRB-",
+              "line_index": 1,
+              "sentence": "From west to east they are , in order Aruba , Curaçao , and Bonaire ."
+            }
+          ],
+          [
+            {
+              "page_title": "ABC islands -LRB-Lesser Antilles-RRB-",
+              "line_index": 2,
+              "sentence": "All three islands are part of the Kingdom of the Netherlands , although they remain outside the European Union ."
+            }
+          ],
+          [
+            {
+              "page_title": "ABC islands -LRB-Lesser Antilles-RRB-",
+              "line_index": 3,
+              "sentence": "Aruba and Curaçao are autonomous , self-governing constituent countries of the Kingdom of the Netherlands , while Bonaire is a special municipality of the Netherlands proper ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 8,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000188",
+      "claim": "The Beach was made for film by John Hodge.",
+      "evidence_sentences": "The Beach is a 2000 adventure drama film directed by Danny Boyle and based on the 1996 novel of the same name by Alex Garland , which was adapted for the film by John Hodge .",
+      "page_titles": [
+        "The Beach -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Beach -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "The Beach is a 2000 adventure drama film directed by Danny Boyle and based on the 1996 novel of the same name by Alex Garland , which was adapted for the film by John Hodge ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000189",
+      "claim": "In the End was released in 2000.",
+      "evidence_sentences": "It is the eighth track on their debut album Hybrid Theory -LRB- 2000 -RRB- and was released as the album 's fourth single October 9 , 2001 . Hybrid Theory is the debut studio album by American rock band Linkin Park , released on October 24 , 2000 through Warner Bros. .",
+      "page_titles": [
+        "In the End",
+        "Hybrid Theory"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "In the End",
+            "line_index": 1,
+            "sentence": "It is the eighth track on their debut album Hybrid Theory -LRB- 2000 -RRB- and was released as the album 's fourth single October 9 , 2001 ."
+          },
+          {
+            "page_title": "Hybrid Theory",
+            "line_index": 0,
+            "sentence": "Hybrid Theory is the debut studio album by American rock band Linkin Park , released on October 24 , 2000 through Warner Bros. ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000190",
+      "claim": "Heaven Can Wait came out before Here Comes Mr. Jordan.",
+      "evidence_sentences": "It was the second film adaptation of Harry Segall 's play of the same name , being preceded by Here Comes Mr. Jordan -LRB- 1941 -RRB- .",
+      "page_titles": [
+        "Heaven Can Wait -LRB-1978 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Heaven Can Wait -LRB-1978 film-RRB-",
+            "line_index": 1,
+            "sentence": "It was the second film adaptation of Harry Segall 's play of the same name , being preceded by Here Comes Mr. Jordan -LRB- 1941 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000191",
+      "claim": "The Tenth Doctor makes his penultimate appearance in Journey's End.",
+      "evidence_sentences": "He eventually parts ways with them all by the end of the 2008 series finale , `` Journey 's End '' , after which he attempts to travel alone for the duration of the 2008 -- 2010 specials before being accompanied by Donna Noble 's grandfather Wilfred Mott on his final adventure in The End of Time .",
+      "page_titles": [
+        "Tenth Doctor"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tenth Doctor",
+            "line_index": 8,
+            "sentence": "He eventually parts ways with them all by the end of the 2008 series finale , `` Journey 's End '' , after which he attempts to travel alone for the duration of the 2008 -- 2010 specials before being accompanied by Donna Noble 's grandfather Wilfred Mott on his final adventure in The End of Time ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000192",
+      "claim": "A member of the Grateful Dead was John Perry Barlow.",
+      "evidence_sentences": "The founding members were Jerry Garcia -LRB- lead guitar , vocals -RRB- , Bob Weir -LRB- rhythm guitar , vocals -RRB- , Ron `` Pigpen '' McKernan -LRB- keyboards , harmonica , vocals -RRB- , Phil Lesh -LRB- bass , vocals -RRB- , and Bill Kreutzmann -LRB- drums -RRB- .",
+      "page_titles": [
+        "Grateful Dead"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Grateful Dead",
+            "line_index": 10,
+            "sentence": "The founding members were Jerry Garcia -LRB- lead guitar , vocals -RRB- , Bob Weir -LRB- rhythm guitar , vocals -RRB- , Ron `` Pigpen '' McKernan -LRB- keyboards , harmonica , vocals -RRB- , Phil Lesh -LRB- bass , vocals -RRB- , and Bill Kreutzmann -LRB- drums -RRB- ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Grateful Dead",
+              "line_index": 15,
+              "sentence": "The other official members of the band are Tom Constanten -LRB- keyboards ; 1968 -- 1970 -RRB- , John Perry Barlow -LRB- nonperforming lyricist ; 1971 -- 1995 -RRB- , Keith Godchaux -LRB- keyboards ; 1971 -- 1979 -RRB- , Donna Godchaux -LRB- vocals ; 1972 -- 1979 -RRB- , Brent Mydland -LRB- keyboards , vocals ; 1979 -- 1990 -RRB- , and Vince Welnick -LRB- keyboards , vocals ; 1990 -- 1995 -RRB- ."
+            }
+          ],
+          [
+            {
+              "page_title": "Grateful Dead",
+              "line_index": 13,
+              "sentence": "Drummer Mickey Hart and nonperforming lyricist Robert Hunter joined in 1967 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000193",
+      "claim": "Home for the Holidays stars the fourth stepchild of Charlie Chaplin",
+      "evidence_sentences": "The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn .",
+      "page_titles": [
+        "Home for the Holidays -LRB-1995 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Home for the Holidays -LRB-1995 film-RRB-",
+            "line_index": 5,
+            "sentence": "The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000194",
+      "claim": "Danger UXB is on a radio station in the United Kingdom.",
+      "evidence_sentences": "Danger UXB is a 1979 British ITV television series set during the Second World War developed by John Hawkesworth and starring Anthony Andrews as Lieutenant Brian Ash , an officer in the Royal Engineers .",
+      "page_titles": [
+        "Danger UXB"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Danger UXB",
+            "line_index": 0,
+            "sentence": "Danger UXB is a 1979 British ITV television series set during the Second World War developed by John Hawkesworth and starring Anthony Andrews as Lieutenant Brian Ash , an officer in the Royal Engineers ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000195",
+      "claim": "Night of the Living Dead is not a series of seven zombie horror films.",
+      "evidence_sentences": "Night of the Living Dead is a 1968 American independent horror film , directed by George A. Romero , starring Duane Jones and Judith O'Dea .",
+      "page_titles": [
+        "Night of the Living Dead"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Night of the Living Dead",
+            "line_index": 0,
+            "sentence": "Night of the Living Dead is a 1968 American independent horror film , directed by George A. Romero , starring Duane Jones and Judith O'Dea ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000196",
+      "claim": "Pharmacology deals with the research, discovery, and characterization of turnips which show biological effects.",
+      "evidence_sentences": "Pharmacology , a biomedical science , deals with the research , discovery , and characterization of chemicals which show biological effects and the elucidation of cellular and organismal function in relation to these chemicals .",
+      "page_titles": [
+        "Pharmacology"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Pharmacology",
+            "line_index": 10,
+            "sentence": "Pharmacology , a biomedical science , deals with the research , discovery , and characterization of chemicals which show biological effects and the elucidation of cellular and organismal function in relation to these chemicals ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000197",
+      "claim": "The NAACP Image Award for Outstanding Supporting Actor in a Drama Series has been rejected by Omar Epps.",
+      "evidence_sentences": "The award was first given during the 1996 ceremony and since its conception , Omar Epps and Joe Morton hold the record for the most wins with three each .",
+      "page_titles": [
+        "NAACP Image Award for Outstanding Supporting Actor in a Drama Series"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "NAACP Image Award for Outstanding Supporting Actor in a Drama Series",
+            "line_index": 1,
+            "sentence": "The award was first given during the 1996 ceremony and since its conception , Omar Epps and Joe Morton hold the record for the most wins with three each ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000198",
+      "claim": "Luis Fonsi only goes by Luis Fonsi.",
+      "evidence_sentences": "Luis Alfonso Rodríguez López-Cepero , more commonly known by his stage name Luis Fonsi , -LRB- born April 15 , 1978 -RRB- is a Puerto Rican singer , songwriter and actor .",
+      "page_titles": [
+        "Luis Fonsi"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Luis Fonsi",
+            "line_index": 0,
+            "sentence": "Luis Alfonso Rodríguez López-Cepero , more commonly known by his stage name Luis Fonsi , -LRB- born April 15 , 1978 -RRB- is a Puerto Rican singer , songwriter and actor ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Luis Fonsi",
+              "line_index": 0,
+              "sentence": "Luis Alfonso Rodríguez López-Cepero , more commonly known by his stage name Luis Fonsi , -LRB- born April 15 , 1978 -RRB- is a Puerto Rican singer , songwriter and actor ."
+            }
+          ],
+          [
+            {
+              "page_title": "Luis Fonsi",
+              "line_index": 0,
+              "sentence": "Luis Alfonso Rodríguez López-Cepero , more commonly known by his stage name Luis Fonsi , -LRB- born April 15 , 1978 -RRB- is a Puerto Rican singer , songwriter and actor ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000199",
+      "claim": "Heavy Metal music was developed in the United Kingdom.",
+      "evidence_sentences": "Heavy metal -LRB- or simply metal -RRB- is a genre of rock music that developed in the late 1960s and early 1970s , largely in the United Kingdom and the United States .",
+      "page_titles": [
+        "Heavy metal music"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Heavy metal music",
+            "line_index": 0,
+            "sentence": "Heavy metal -LRB- or simply metal -RRB- is a genre of rock music that developed in the late 1960s and early 1970s , largely in the United Kingdom and the United States ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000200",
+      "claim": "A&E serves as the flagship property of America.",
+      "evidence_sentences": "A&E -LRB- previously Arts & Entertainment Network -RRB- is an American cable and satellite television channel that serves as the flagship television property of A&E Networks , a joint venture between the Hearst Corporation and Disney -- ABC Television Group subsidiary of the Walt Disney Company -LRB- both of which maintain a 50 % ownership interest -RRB- .",
+      "page_titles": [
+        "A&E -LRB-TV channel-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "A&E -LRB-TV channel-RRB-",
+            "line_index": 0,
+            "sentence": "A&E -LRB- previously Arts & Entertainment Network -RRB- is an American cable and satellite television channel that serves as the flagship television property of A&E Networks , a joint venture between the Hearst Corporation and Disney -- ABC Television Group subsidiary of the Walt Disney Company -LRB- both of which maintain a 50 % ownership interest -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  ],
+  "rubric": "# Judge Rubric (silver adjudication, v1)\n\nYou are an independent fact-checking adjudicator. You will see a batch of\nitems. Each item contains a **claim** and **evidence** (what is included\ndepends on the disclosure stage, stated in the batch header). For EVERY item\nyou must judge **only from the information provided**.\n\n## Task\n\nDecide whether the provided evidence **warrants** the claim:\n\n- `Supported` — the evidence clearly or probably establishes the claim is true.\n- `Refuted` — the evidence clearly or probably establishes the claim is false.\n- `Ambiguous` — the evidence is insufficient, partial, or mixed; you cannot\n  responsibly decide true or false from what is provided.\n\nAlso rate how sufficient the evidence is for deciding the claim\n(`clearly_sufficient | probably_sufficient | partial_or_ambiguous |\nprobably_insufficient | clearly_insufficient`), your confidence (integer\n0–100), and any issue flags that apply (see list).\n\n## Hard rules\n\n- Judge ONLY from the supplied claim and evidence. Do NOT use outside\n  knowledge to decide the verdict.\n- Do NOT browse the web or look anything up.\n- Do NOT speculate about hidden labels, other models, or why the item was\n  selected.\n- If the evidence alone does not settle the claim, say `Ambiguous` — that is a\n  valid, useful answer, not a failure.\n- `confidence` MUST be an integer from 0 to 100.\n- `brief_reason` must be short (one sentence) and grounded in the evidence.\n- Select issue flags only when the evidence shows that problem; use `none`\n  otherwise. Do not pad flags.\n\n## Issue flags\n\n`none`, `possible_missing_title_context`, `possible_coreference_or_entity_resolution`,\n`possible_missing_surrounding_context`, `multi_sentence_integration`,\n`numerical_or_temporal_reasoning`, `negation_or_scope`,\n`entity_or_attribute_confusion`, `partial_warrant`,\n`apparent_internal_contradiction`, `other`\n\n## Output format\n\nReturn ONLY a JSON array (no prose before or after), one object per item, in\nthe same order as the input:\n\n```json\n[\n  {\n    \"item_id\": \"SA-000001\",\n    \"judge_id\": \"judge_1\",\n    \"stage\": \"A\",\n    \"verdict\": \"Supported\",\n    \"evidence_sufficiency\": \"probably_sufficient\",\n    \"confidence\": 80,\n    \"issue_flags\": [\"none\"],\n    \"brief_reason\": \"The evidence sentence directly states the claim.\"\n  }\n]\n```\n\n`item_id`, `judge_id`, and `stage` must be copied exactly from the batch file.\nProduce exactly one object for every item in the batch — never skip or merge\nitems. If an item's evidence is empty or unreadable, verdict `Ambiguous`,\nsufficiency `clearly_insufficient`, confidence as you see fit, flag `other`.\n",
+  "disclosure_note": "Stage C. Judge only supplied fields. Null text means unavailable; do not fill it using outside knowledge."
+}

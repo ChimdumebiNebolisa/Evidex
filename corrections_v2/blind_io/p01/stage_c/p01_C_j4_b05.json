@@ -1,0 +1,3252 @@
+{
+  "judge_id": "judge_4",
+  "stage": "C",
+  "output_path": "corrections_v2/blind_io/p01/stage_c/p01_C_j4_b05.output.json",
+  "n_items": 100,
+  "item_ids": [
+    "SA-000402",
+    "SA-000403",
+    "SA-000404",
+    "SA-000405",
+    "SA-000406",
+    "SA-000407",
+    "SA-000408",
+    "SA-000409",
+    "SA-000410",
+    "SA-000411",
+    "SA-000412",
+    "SA-000413",
+    "SA-000414",
+    "SA-000415",
+    "SA-000416",
+    "SA-000417",
+    "SA-000418",
+    "SA-000419",
+    "SA-000420",
+    "SA-000421",
+    "SA-000422",
+    "SA-000423",
+    "SA-000424",
+    "SA-000425",
+    "SA-000426",
+    "SA-000427",
+    "SA-000428",
+    "SA-000429",
+    "SA-000430",
+    "SA-000431",
+    "SA-000432",
+    "SA-000433",
+    "SA-000434",
+    "SA-000435",
+    "SA-000436",
+    "SA-000437",
+    "SA-000438",
+    "SA-000439",
+    "SA-000440",
+    "SA-000441",
+    "SA-000442",
+    "SA-000443",
+    "SA-000444",
+    "SA-000445",
+    "SA-000446",
+    "SA-000447",
+    "SA-000448",
+    "SA-000449",
+    "SA-000450",
+    "SA-000451",
+    "SA-000452",
+    "SA-000453",
+    "SA-000454",
+    "SA-000455",
+    "SA-000456",
+    "SA-000457",
+    "SA-000458",
+    "SA-000459",
+    "SA-000460",
+    "SA-000461",
+    "SA-000462",
+    "SA-000463",
+    "SA-000464",
+    "SA-000465",
+    "SA-000466",
+    "SA-000467",
+    "SA-000468",
+    "SA-000469",
+    "SA-000470",
+    "SA-000471",
+    "SA-000472",
+    "SA-000473",
+    "SA-000474",
+    "SA-000475",
+    "SA-000476",
+    "SA-000477",
+    "SA-000478",
+    "SA-000479",
+    "SA-000480",
+    "SA-000481",
+    "SA-000482",
+    "SA-000483",
+    "SA-000484",
+    "SA-000485",
+    "SA-000486",
+    "SA-000487",
+    "SA-000488",
+    "SA-000489",
+    "SA-000490",
+    "SA-000491",
+    "SA-000492",
+    "SA-000493",
+    "SA-000494",
+    "SA-000495",
+    "SA-000496",
+    "SA-000497",
+    "SA-000498",
+    "SA-000499",
+    "SA-000500",
+    "SA-000501"
+  ],
+  "items": [
+    {
+      "item_id": "SA-000402",
+      "claim": "The Challenge XXX: Dirty 30 is a season of a show on MTV.",
+      "evidence_sentences": "The Challenge XXX : Dirty 30 is the thirtieth season of the MTV reality competition series , The Challenge .",
+      "page_titles": [
+        "The Challenge XXX-COLON- Dirty 30"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Challenge XXX-COLON- Dirty 30",
+            "line_index": 0,
+            "sentence": "The Challenge XXX : Dirty 30 is the thirtieth season of the MTV reality competition series , The Challenge ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000403",
+      "claim": "Rage Against the Machine stopped being together.",
+      "evidence_sentences": "The same year , growing tensions over the direction of the band prompted de la Rocha to quit , leading to the band 's breakup .",
+      "page_titles": [
+        "Rage Against the Machine"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Rage Against the Machine",
+            "line_index": 17,
+            "sentence": "The same year , growing tensions over the direction of the band prompted de la Rocha to quit , leading to the band 's breakup ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Rage Against the Machine",
+              "line_index": 18,
+              "sentence": "De la Rocha started a low-key solo career , while the rest of the band formed the rock supergroup Audioslave with Chris Cornell , then-former frontman of Soundgarden ; Audioslave recorded three albums before disbanding in 2007 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000404",
+      "claim": "Jerry Robinson mentored Steve Ditko.",
+      "evidence_sentences": "Ditko studied under Batman artist Jerry Robinson at the Cartoonist and Illustrators School in New York City .",
+      "page_titles": [
+        "Steve Ditko"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Steve Ditko",
+            "line_index": 3,
+            "sentence": "Ditko studied under Batman artist Jerry Robinson at the Cartoonist and Illustrators School in New York City ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000405",
+      "claim": "Andrew Kevin Walker was nominated by the BAFTA for his screenwriting.",
+      "evidence_sentences": "Andrew Kevin Walker -LRB- born August 14 , 1964 -RRB- is an American BAFTA-nominated screenwriter .",
+      "page_titles": [
+        "Andrew Kevin Walker"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Andrew Kevin Walker",
+            "line_index": 0,
+            "sentence": "Andrew Kevin Walker -LRB- born August 14 , 1964 -RRB- is an American BAFTA-nominated screenwriter ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Andrew Kevin Walker",
+              "line_index": 1,
+              "sentence": "He is known for having written Seven -LRB- 1995 -RRB- , for which he earned a nomination for the BAFTA Award for Best Original Screenplay , as well as several other films , including 8mm -LRB- 1999 -RRB- , Sleepy Hollow -LRB- 1999 -RRB- and many uncredited script rewrites ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000406",
+      "claim": "The 1998 romantic comedy The Man in the Iron Mask starred Leonardo DiCaprio.",
+      "evidence_sentences": "The Man in the Iron Mask is a 1998 American action drama film directed , produced , and written by Randall Wallace , and starring Leonardo DiCaprio in a dual role as the title character and villain , Jeremy Irons as Aramis , John Malkovich as Athos , Gerard Depardieu as Porthos , and Gabriel Byrne as D'Artagnan .",
+      "page_titles": [
+        "The Man in the Iron Mask -LRB-1998 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Man in the Iron Mask -LRB-1998 film-RRB-",
+            "line_index": 0,
+            "sentence": "The Man in the Iron Mask is a 1998 American action drama film directed , produced , and written by Randall Wallace , and starring Leonardo DiCaprio in a dual role as the title character and villain , Jeremy Irons as Aramis , John Malkovich as Athos , Gerard Depardieu as Porthos , and Gabriel Byrne as D'Artagnan ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000407",
+      "claim": "The Chrysler Building has yet to be surpassed in height.",
+      "evidence_sentences": "At 318.9 m , the structure was the world 's tallest building for 11 months before it was surpassed by the Empire State Building in 1931 .",
+      "page_titles": [
+        "Chrysler Building"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Chrysler Building",
+            "line_index": 1,
+            "sentence": "At 318.9 m , the structure was the world 's tallest building for 11 months before it was surpassed by the Empire State Building in 1931 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000408",
+      "claim": "Colombiana was produced by Olivier Megaton.",
+      "evidence_sentences": "Colombiana is a 2011 French action film co-written and produced by Luc Besson and directed by Olivier Megaton .",
+      "page_titles": [
+        "Colombiana"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Colombiana",
+            "line_index": 0,
+            "sentence": "Colombiana is a 2011 French action film co-written and produced by Luc Besson and directed by Olivier Megaton ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000409",
+      "claim": "Matt Bomer acts.",
+      "evidence_sentences": "Matthew Staton Bomer -LRB- born October 11 , 1977 -RRB- is an American actor .",
+      "page_titles": [
+        "Matt Bomer"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Matt Bomer",
+            "line_index": 0,
+            "sentence": "Matthew Staton Bomer -LRB- born October 11 , 1977 -RRB- is an American actor ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Matt Bomer",
+              "line_index": 1,
+              "sentence": "He made his television debut with Guiding Light in 2001 , and gained recognition with his recurring role in the NBC television series Chuck ."
+            }
+          ],
+          [
+            {
+              "page_title": "Matt Bomer",
+              "line_index": 2,
+              "sentence": "He played the lead role of con-artist and thief Neal Caffrey in the USA Network series White Collar from 2009 to 2014 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Matt Bomer",
+              "line_index": 3,
+              "sentence": "Bomer won a Golden Globe Award and received a Primetime Emmy Award nomination for his supporting role as Felix Turner , opposite Mark Ruffalo , in the HBO television film The Normal Heart -LRB- 2014 -RRB- ."
+            }
+          ],
+          [
+            {
+              "page_title": "Matt Bomer",
+              "line_index": 4,
+              "sentence": "Bomer made a guest appearance on the fourth season of FX 's horror anthology series American Horror Story ."
+            }
+          ],
+          [
+            {
+              "page_title": "Matt Bomer",
+              "line_index": 8,
+              "sentence": "In film , Bomer has featured in supporting roles in the 2005 thriller Flightplan , the 2011 science fiction thriller In Time , the 2012 comedy-drama Magic Mike and its 2015 sequel , the 2014 supernatural-drama Winter 's Tale , and the 2016 neo-noir film The Nice Guys ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 6,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000410",
+      "claim": "Rhythm Nation was covered by an American singer, and songwriter Crystal Kay.",
+      "evidence_sentences": "It has been covered by Pink , Crystal Kay , and Girls ' Generation and has also been performed on Glee , The X-Factor , and Britain 's Got Talent . Crystal Kay Williams -LRB- born February 26 , 1986 in Yokohama , Kanagawa Prefecture , Japan -RRB- , simply known as Crystal Kay , is a Japanese singer , songwriter , radio host and actress of Korean and African-American descent .",
+      "page_titles": [
+        "Rhythm Nation",
+        "Crystal Kay"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Rhythm Nation",
+            "line_index": 23,
+            "sentence": "It has been covered by Pink , Crystal Kay , and Girls ' Generation and has also been performed on Glee , The X-Factor , and Britain 's Got Talent ."
+          },
+          {
+            "page_title": "Crystal Kay",
+            "line_index": 0,
+            "sentence": "Crystal Kay Williams -LRB- born February 26 , 1986 in Yokohama , Kanagawa Prefecture , Japan -RRB- , simply known as Crystal Kay , is a Japanese singer , songwriter , radio host and actress of Korean and African-American descent ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000411",
+      "claim": "The New England Patriots lost five Super Bowls.",
+      "evidence_sentences": "The team owns the record for most Super Bowls reached -LRB- seven -RRB- and won -LRB- five -RRB- by a head coach -- quarterback tandem .",
+      "page_titles": [
+        "New England Patriots"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "New England Patriots",
+            "line_index": 15,
+            "sentence": "The team owns the record for most Super Bowls reached -LRB- seven -RRB- and won -LRB- five -RRB- by a head coach -- quarterback tandem ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000412",
+      "claim": "Sky UK is a company which serves a sovereign country in western Eurasia.",
+      "evidence_sentences": "It is the UK 's largest",
+      "page_titles": [
+        "Sky UK"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sky UK",
+            "line_index": 2,
+            "sentence": "It is the UK 's largest"
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Sky UK",
+              "line_index": 0,
+              "sentence": "Sky UK Limited -LRB- formerly British Sky Broadcasting and BSkyB -RRB- is a telecommunications company which serves the United Kingdom ."
+            },
+            {
+              "page_title": "United Kingdom",
+              "line_index": 0,
+              "sentence": "The United Kingdom of Great Britain and Northern Ireland , commonly known as the United Kingdom -LRB- UK -RRB- or Britain , is a sovereign country in western Europe ."
+            }
+          ],
+          [
+            {
+              "page_title": "Sky UK",
+              "line_index": 1,
+              "sentence": "Sky provides television and broadband internet services , fixed line and mobile telephone services to consumers and businesses in the United Kingdom ."
+            },
+            {
+              "page_title": "United Kingdom",
+              "line_index": 0,
+              "sentence": "The United Kingdom of Great Britain and Northern Ireland , commonly known as the United Kingdom -LRB- UK -RRB- or Britain , is a sovereign country in western Europe ."
+            }
+          ],
+          [
+            {
+              "page_title": "Sky UK",
+              "line_index": 9,
+              "sentence": "Formed in November 1990 by the equal merger of Sky Television and British Satellite Broadcasting , Sky became the UK 's largest digital subscription television company ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 2,
+        "alternative_annotation_indices": [
+          0,
+          1,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000413",
+      "claim": "Amancio Ortega is his full name.",
+      "evidence_sentences": "Amancio Ortega Gaona -LRB- -LSB- aˈmanθjo orˈteɣa ɣaˈona -RSB- ; born 28 March 1936 -RRB- is a Spanish business tycoon .",
+      "page_titles": [
+        "Amancio Ortega"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Amancio Ortega",
+            "line_index": 0,
+            "sentence": "Amancio Ortega Gaona -LRB- -LSB- aˈmanθjo orˈteɣa ɣaˈona -RSB- ; born 28 March 1936 -RRB- is a Spanish business tycoon ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Amancio Ortega",
+              "line_index": 0,
+              "sentence": "Amancio Ortega Gaona -LRB- -LSB- aˈmanθjo orˈteɣa ɣaˈona -RSB- ; born 28 March 1936 -RRB- is a Spanish business tycoon ."
+            }
+          ],
+          [
+            {
+              "page_title": "Amancio Ortega",
+              "line_index": 0,
+              "sentence": "Amancio Ortega Gaona -LRB- -LSB- aˈmanθjo orˈteɣa ɣaˈona -RSB- ; born 28 March 1936 -RRB- is a Spanish business tycoon ."
+            }
+          ],
+          [
+            {
+              "page_title": "Amancio Ortega",
+              "line_index": 0,
+              "sentence": "Amancio Ortega Gaona -LRB- -LSB- aˈmanθjo orˈteɣa ɣaˈona -RSB- ; born 28 March 1936 -RRB- is a Spanish business tycoon ."
+            }
+          ],
+          [
+            {
+              "page_title": "Amancio Ortega",
+              "line_index": 0,
+              "sentence": "Amancio Ortega Gaona -LRB- -LSB- aˈmanθjo orˈteɣa ɣaˈona -RSB- ; born 28 March 1936 -RRB- is a Spanish business tycoon ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000414",
+      "claim": "The 66th Primetime Emmy Awards was hosted by the inventor of Late Night.",
+      "evidence_sentences": "Comedian and Late Night host Seth Meyers hosted the ceremony for the first time . He hosts Late Night with Seth Meyers , a late-night talk show that airs on NBC .",
+      "page_titles": [
+        "66th Primetime Emmy Awards",
+        "Seth Meyers"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "66th Primetime Emmy Awards",
+            "line_index": 2,
+            "sentence": "Comedian and Late Night host Seth Meyers hosted the ceremony for the first time ."
+          },
+          {
+            "page_title": "Seth Meyers",
+            "line_index": 1,
+            "sentence": "He hosts Late Night with Seth Meyers , a late-night talk show that airs on NBC ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000415",
+      "claim": "Marcus Bentley is an American broadcaster.",
+      "evidence_sentences": "Marcus Morgan Bentley -LRB- born 4 October 1967 -RRB- is a British actor , broadcaster and voice-over artist .",
+      "page_titles": [
+        "Marcus Bentley"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Marcus Bentley",
+            "line_index": 0,
+            "sentence": "Marcus Morgan Bentley -LRB- born 4 October 1967 -RRB- is a British actor , broadcaster and voice-over artist ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000416",
+      "claim": "Cleopatre is related to Panurge.",
+      "evidence_sentences": "Cléopâtre is one of three operas by Massenet to be premiered posthumously ; the others are Panurge -LRB- 1913 -RRB- and Amadis -LRB- 1922 -RRB- .",
+      "page_titles": [
+        "Cléopâtre"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Cléopâtre",
+            "line_index": 4,
+            "sentence": "Cléopâtre is one of three operas by Massenet to be premiered posthumously ; the others are Panurge -LRB- 1913 -RRB- and Amadis -LRB- 1922 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000417",
+      "claim": "Unison (Celine Dion album) was originally released by Columbia Records in 1990.",
+      "evidence_sentences": "The album was originally released on 2 April 1990 by Columbia Records .",
+      "page_titles": [
+        "Unison -LRB-Celine Dion album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Unison -LRB-Celine Dion album-RRB-",
+            "line_index": 1,
+            "sentence": "The album was originally released on 2 April 1990 by Columbia Records ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000418",
+      "claim": "The Winds of Winter is the sixth novel in a series.",
+      "evidence_sentences": "The Winds of Winter is the forthcoming sixth novel in the epic fantasy series A Song of Ice and Fire by George R. R. Martin .",
+      "page_titles": [
+        "The Winds of Winter"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Winds of Winter",
+            "line_index": 0,
+            "sentence": "The Winds of Winter is the forthcoming sixth novel in the epic fantasy series A Song of Ice and Fire by George R. R. Martin ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Winds of Winter",
+              "line_index": 0,
+              "sentence": "The Winds of Winter is the forthcoming sixth novel in the epic fantasy series A Song of Ice and Fire by George R. R. Martin ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Winds of Winter",
+              "line_index": 0,
+              "sentence": "The Winds of Winter is the forthcoming sixth novel in the epic fantasy series A Song of Ice and Fire by George R. R. Martin ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Winds of Winter",
+              "line_index": 0,
+              "sentence": "The Winds of Winter is the forthcoming sixth novel in the epic fantasy series A Song of Ice and Fire by George R. R. Martin ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Winds of Winter",
+              "line_index": 0,
+              "sentence": "The Winds of Winter is the forthcoming sixth novel in the epic fantasy series A Song of Ice and Fire by George R. R. Martin ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Winds of Winter",
+              "line_index": 3,
+              "sentence": "The previous installment , A Dance with Dragons , covered less story than Martin intended , excluding at least one planned large battle sequence and leaving several character threads ending in cliffhangers ."
+            },
+            {
+              "page_title": "A Dance with Dragons",
+              "line_index": 0,
+              "sentence": "A Dance with Dragons is the fifth of seven planned novels in the epic fantasy series A Song of Ice and Fire by American author George R. R. Martin ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 6,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000419",
+      "claim": "Smriti Mandhana was born July 18, 1996.",
+      "evidence_sentences": "Smriti Mandhana -LRB- born 18 July 1996 -RRB- is an Indian cricketer who plays for the Indian women 's cricket team .",
+      "page_titles": [
+        "Smriti Mandhana"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Smriti Mandhana",
+            "line_index": 0,
+            "sentence": "Smriti Mandhana -LRB- born 18 July 1996 -RRB- is an Indian cricketer who plays for the Indian women 's cricket team ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Smriti Mandhana",
+              "line_index": 0,
+              "sentence": "Smriti Mandhana -LRB- born 18 July 1996 -RRB- is an Indian cricketer who plays for the Indian women 's cricket team ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000420",
+      "claim": "Two and a Half Men originally aired on NBC.",
+      "evidence_sentences": "Two and a Half Men is an American television sitcom that originally aired on CBS for twelve seasons from September 22 , 2003 to February 19 , 2015 .",
+      "page_titles": [
+        "Two and a Half Men"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Two and a Half Men",
+            "line_index": 0,
+            "sentence": "Two and a Half Men is an American television sitcom that originally aired on CBS for twelve seasons from September 22 , 2003 to February 19 , 2015 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000421",
+      "claim": "Tommy Lee Jones missed the chance to appear in No Country for Old Men.",
+      "evidence_sentences": "A cat-and-mouse drama starring Tommy Lee Jones , Javier Bardem , and Josh Brolin , it follows a Texas welder and Vietnam veteran in the desert landscape of 1980 West Texas .",
+      "page_titles": [
+        "No Country for Old Men -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "No Country for Old Men -LRB-film-RRB-",
+            "line_index": 1,
+            "sentence": "A cat-and-mouse drama starring Tommy Lee Jones , Javier Bardem , and Josh Brolin , it follows a Texas welder and Vietnam veteran in the desert landscape of 1980 West Texas ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000422",
+      "claim": "GLOW has one season which was released on Netflix on June 23, 2017.",
+      "evidence_sentences": "The first season will be released on Netflix on June 23 , 2017 .",
+      "page_titles": [
+        "GLOW -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "GLOW -LRB-TV series-RRB-",
+            "line_index": 3,
+            "sentence": "The first season will be released on Netflix on June 23 , 2017 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000423",
+      "claim": "Daredevil is based on the Marvel Comics snail of the same name.",
+      "evidence_sentences": "Marvel 's Daredevil , or simply Daredevil , is an American web television series created for Netflix by Drew Goddard , based on the Marvel Comics character of the same name .",
+      "page_titles": [
+        "Daredevil -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Daredevil -LRB-TV series-RRB-",
+            "line_index": 0,
+            "sentence": "Marvel 's Daredevil , or simply Daredevil , is an American web television series created for Netflix by Drew Goddard , based on the Marvel Comics character of the same name ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000424",
+      "claim": "George Harrisongot married in 1966.",
+      "evidence_sentences": "Harrison 's first marriage , to model Pattie Boyd in 1966 , ended in divorce in 1977 .",
+      "page_titles": [
+        "George Harrison"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "George Harrison",
+            "line_index": 20,
+            "sentence": "Harrison 's first marriage , to model Pattie Boyd in 1966 , ended in divorce in 1977 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "George Harrison",
+              "line_index": 20,
+              "sentence": "Harrison 's first marriage , to model Pattie Boyd in 1966 , ended in divorce in 1977 ."
+            }
+          ],
+          [
+            {
+              "page_title": "George Harrison",
+              "line_index": 20,
+              "sentence": "Harrison 's first marriage , to model Pattie Boyd in 1966 , ended in divorce in 1977 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000425",
+      "claim": "Tennessee is a producer of grain.",
+      "evidence_sentences": "Poultry , soybeans , and cattle are the state 's primary agricultural products , and major manufacturing exports include chemicals , transportation equipment , and electrical equipment .",
+      "page_titles": [
+        "Tennessee"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tennessee",
+            "line_index": 23,
+            "sentence": "Poultry , soybeans , and cattle are the state 's primary agricultural products , and major manufacturing exports include chemicals , transportation equipment , and electrical equipment ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000426",
+      "claim": "Night of the Living Dead is a 1990 American horror film.",
+      "evidence_sentences": "Night of the Living Dead is a 1968 American independent horror film , directed by George A. Romero , starring Duane Jones and Judith O'Dea .",
+      "page_titles": [
+        "Night of the Living Dead"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Night of the Living Dead",
+            "line_index": 0,
+            "sentence": "Night of the Living Dead is a 1968 American independent horror film , directed by George A. Romero , starring Duane Jones and Judith O'Dea ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Night of the Living Dead",
+              "line_index": 1,
+              "sentence": "It was completed on a $ 114,000 budget and premiered October 1 , 1968 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Night of the Living Dead",
+              "line_index": 10,
+              "sentence": "Night of the Living Dead led to five subsequent films between 1978 and 2010 , also directed by Romero , and inspired two remakes ; the most well-known remake was released in 1990 , directed by Tom Savini ."
+            },
+            {
+              "page_title": "Night of the Living Dead -LRB-1990 film-RRB-",
+              "line_index": 0,
+              "sentence": "Night of the Living Dead is a 1990 American horror film directed by Tom Savini and starring Tony Todd , Patricia Tallman and Tom Towles ."
+            },
+            {
+              "page_title": "Night of the Living Dead -LRB-1990 film-RRB-",
+              "line_index": 1,
+              "sentence": "It is a remake of George A. Romero 's 1968 horror film of the same name ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000427",
+      "claim": "Arjit Singh is from India.",
+      "evidence_sentences": "Arijit Singh is an Indian Musician , singer , composer , music producer , recordist , and music programmer .",
+      "page_titles": [
+        "Arijit Singh"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Arijit Singh",
+            "line_index": 0,
+            "sentence": "Arijit Singh is an Indian Musician , singer , composer , music producer , recordist , and music programmer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000428",
+      "claim": "Natasha Lyonne is also known by another name.",
+      "evidence_sentences": "Natasha Bianca Lyonne Braunstein -LRB- born April 4 , 1979 -RRB- , better known as Natasha Lyonne , is an American actress .",
+      "page_titles": [
+        "Natasha Lyonne"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Natasha Lyonne",
+            "line_index": 0,
+            "sentence": "Natasha Bianca Lyonne Braunstein -LRB- born April 4 , 1979 -RRB- , better known as Natasha Lyonne , is an American actress ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Natasha Lyonne",
+              "line_index": 0,
+              "sentence": "Natasha Bianca Lyonne Braunstein -LRB- born April 4 , 1979 -RRB- , better known as Natasha Lyonne , is an American actress ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000429",
+      "claim": "Shomu Mukherjee died at the age of 61.",
+      "evidence_sentences": "Shomu Mukherjee -LRB- or Shomu Mukherji -RRB- -LRB- 19 June , 1943 -- 10 April 2008 -RRB- was a Bengali Indian director , writer and producer .",
+      "page_titles": [
+        "Shomu Mukherjee"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Shomu Mukherjee",
+            "line_index": 0,
+            "sentence": "Shomu Mukherjee -LRB- or Shomu Mukherji -RRB- -LRB- 19 June , 1943 -- 10 April 2008 -RRB- was a Bengali Indian director , writer and producer ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Shomu Mukherjee",
+              "line_index": 9,
+              "sentence": "He died of a heart attack on 10 April 2008 at the age of 64 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000430",
+      "claim": "The Siege of Fort Stanwix ended in in December.",
+      "evidence_sentences": "The Siege of Fort Stanwix -LRB- also known at the time as Fort Schuyler -RRB- began on August 2 , 1777 , and ended August 22 .",
+      "page_titles": [
+        "Siege of Fort Stanwix"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Siege of Fort Stanwix",
+            "line_index": 0,
+            "sentence": "The Siege of Fort Stanwix -LRB- also known at the time as Fort Schuyler -RRB- began on August 2 , 1777 , and ended August 22 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000431",
+      "claim": "The Endless River is Pink Floyd's second to last studio album.",
+      "evidence_sentences": "The Endless River is the fifteenth and final studio album by the English rock band Pink Floyd .",
+      "page_titles": [
+        "The Endless River"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Endless River",
+            "line_index": 0,
+            "sentence": "The Endless River is the fifteenth and final studio album by the English rock band Pink Floyd ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Endless River",
+              "line_index": 0,
+              "sentence": "The Endless River is the fifteenth and final studio album by the English rock band Pink Floyd ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000432",
+      "claim": "Keith Stanfield is a Gemini.",
+      "evidence_sentences": "LaKeith Lee `` Keith '' Stanfield -LRB- born August 12 , 1991 -RRB- is an American actor and rapper . Under the tropical zodiac , the Sun transits this area on average between July 22 and August 23 ; the sign spans the 120th to 150th degree of celestial longitude .",
+      "page_titles": [
+        "Keith Stanfield",
+        "Leo -LRB-astrology-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Keith Stanfield",
+            "line_index": 0,
+            "sentence": "LaKeith Lee `` Keith '' Stanfield -LRB- born August 12 , 1991 -RRB- is an American actor and rapper ."
+          },
+          {
+            "page_title": "Leo -LRB-astrology-RRB-",
+            "line_index": 2,
+            "sentence": "Under the tropical zodiac , the Sun transits this area on average between July 22 and August 23 ; the sign spans the 120th to 150th degree of celestial longitude ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000433",
+      "claim": "Awkward Black Girl is a television series.",
+      "evidence_sentences": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae .",
+      "page_titles": [
+        "Awkward Black Girl"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Awkward Black Girl",
+            "line_index": 0,
+            "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Awkward Black Girl",
+              "line_index": 1,
+              "sentence": "It premiered on a dedicated YouTube on February 3 , 2011 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Awkward Black Girl",
+              "line_index": 6,
+              "sentence": "The series received critical acclaim and won a Shorty Award for Best Web Series in 2012 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000434",
+      "claim": "Vincent D'Onofrio is an Emmy Award nominee.",
+      "evidence_sentences": "Among other honors , D'Onofrio is a Saturn Award winner and an Emmy Award nominee .",
+      "page_titles": [
+        "Vincent D'Onofrio"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Vincent D'Onofrio",
+            "line_index": 4,
+            "sentence": "Among other honors , D'Onofrio is a Saturn Award winner and an Emmy Award nominee ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000435",
+      "claim": "The Maze Runner had a budget of $34 million for cast and crew.",
+      "evidence_sentences": "The film earned over $ 348 million worldwide at the box-office , against its budget of $ 34 million .",
+      "page_titles": [
+        "The Maze Runner -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Maze Runner -LRB-film-RRB-",
+            "line_index": 13,
+            "sentence": "The film earned over $ 348 million worldwide at the box-office , against its budget of $ 34 million ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000436",
+      "claim": "The Wallace is factually inaccurate.",
+      "evidence_sentences": "The poem is historically inaccurate , and mentions several events that never happened .",
+      "page_titles": [
+        "The Wallace -LRB-poem-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Wallace -LRB-poem-RRB-",
+            "line_index": 2,
+            "sentence": "The poem is historically inaccurate , and mentions several events that never happened ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000437",
+      "claim": "Sacre-Coeur, Paris is anything except a double monument.",
+      "evidence_sentences": "Sacré-Cœur is a double monument , political and cultural , both a national penance for the defeat of France in the 1870 Franco-Prussian War and the socialist Paris Commune of 1871 crowning its most rebellious neighborhood , and an embodiment of conservative moral order , publicly dedicated to the Sacred Heart of Jesus , which was an increasingly popular vision of a loving and sympathetic Christ .",
+      "page_titles": [
+        "Sacré-Cœur, Paris"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sacré-Cœur, Paris",
+            "line_index": 2,
+            "sentence": "Sacré-Cœur is a double monument , political and cultural , both a national penance for the defeat of France in the 1870 Franco-Prussian War and the socialist Paris Commune of 1871 crowning its most rebellious neighborhood , and an embodiment of conservative moral order , publicly dedicated to the Sacred Heart of Jesus , which was an increasingly popular vision of a loving and sympathetic Christ ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000438",
+      "claim": "Coeliac disease may not result in increased risk of early death.",
+      "evidence_sentences": "If untreated , it may result in cancers such as intestinal lymphoma and a slight increased risk of early death .",
+      "page_titles": [
+        "Coeliac disease"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Coeliac disease",
+            "line_index": 27,
+            "sentence": "If untreated , it may result in cancers such as intestinal lymphoma and a slight increased risk of early death ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000439",
+      "claim": "Hot Right Now is from the album Nextlevelism by DJ Fresh.",
+      "evidence_sentences": "`` Hot Right Now '' is a single by British drum and bass producer DJ Fresh , released as the second single from his third studio album , Nextlevelism .",
+      "page_titles": [
+        "Hot Right Now"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Hot Right Now",
+            "line_index": 0,
+            "sentence": "`` Hot Right Now '' is a single by British drum and bass producer DJ Fresh , released as the second single from his third studio album , Nextlevelism ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000440",
+      "claim": "Scandinavia does not contain Greenland.",
+      "evidence_sentences": "The remote Norwegian islands of Svalbard and Jan Mayen are usually not seen as a part of Scandinavia , nor is Greenland , an overseas territory of Denmark .",
+      "page_titles": [
+        "Scandinavia"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Scandinavia",
+            "line_index": 4,
+            "sentence": "The remote Norwegian islands of Svalbard and Jan Mayen are usually not seen as a part of Scandinavia , nor is Greenland , an overseas territory of Denmark ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000441",
+      "claim": "Peking University is in a unitary sovereign state in East Asia.",
+      "evidence_sentences": "It is the first modern national university established in China , founded as the Imperial University of Peking in 1898 as a replacement of the ancient Taixue or Guozijian , or Imperial Academy .",
+      "page_titles": [
+        "Peking University"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Peking University",
+            "line_index": 1,
+            "sentence": "It is the first modern national university established in China , founded as the Imperial University of Peking in 1898 as a replacement of the ancient Taixue or Guozijian , or Imperial Academy ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Peking University",
+              "line_index": 0,
+              "sentence": "Peking University -LRB- abbreviated PKU and colloquially known in Chinese as Běidà 北大 Chinese : 北京大学 , pinyin : Běijīng Dàxué -RRB- , is a major Chinese research university located in Beijing and a member of the C9 League ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000442",
+      "claim": "Nero is a person.",
+      "evidence_sentences": "Nero was adopted by his great-uncle Claudius to become his heir and successor , and like him , became emperor with the consent of the praetorian guard .",
+      "page_titles": [
+        "Nero"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Nero",
+            "line_index": 1,
+            "sentence": "Nero was adopted by his great-uncle Claudius to become his heir and successor , and like him , became emperor with the consent of the praetorian guard ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Nero",
+              "line_index": 0,
+              "sentence": "Nero -LRB- -LSB- ˈnɪəroʊ -RSB- Latin : Nerō Claudius Caesar Augustus Germanicus ; 15 December 37 AD -- 9 June 68 AD -RRB- was Roman Emperor from 54 to 68 AD , and the last in the Julio-Claudian dynasty ."
+            },
+            {
+              "page_title": "Julio-Claudian dynasty",
+              "line_index": 0,
+              "sentence": "The term Julio-Claudian dynasty refers to the first five Roman emperors -- Augustus , Tiberius , Caligula , Claudius , and Nero -- or the family to which they belonged ."
+            }
+          ],
+          [
+            {
+              "page_title": "Nero",
+              "line_index": 8,
+              "sentence": "As time passed , he played a more active and independent role in government and foreign policy ."
+            }
+          ],
+          [
+            {
+              "page_title": "Nero",
+              "line_index": 12,
+              "sentence": "Nero focused much of his attention on diplomacy , trade and the cultural life of the empire , ordering theatres built and promoting athletic games ."
+            }
+          ],
+          [
+            {
+              "page_title": "Nero",
+              "line_index": 13,
+              "sentence": "He made public appearances as a poet , musician and charioteer ; in the eyes of traditionalists , this undermined the dignity and authority of his person , status and office ."
+            }
+          ],
+          [
+            {
+              "page_title": "Nero",
+              "line_index": 21,
+              "sentence": "He committed suicide on June 9 , 68 AD when told that he had been tried in absentia and condemned to death as a public enemy -LRB- The first Roman Emperor to do so -RRB- ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 6,
+        "chosen_annotation_index": 1,
+        "alternative_annotation_indices": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000443",
+      "claim": "Regina King has received an award nomination.",
+      "evidence_sentences": "Her role in Southland earned her two Critics ' Choice Award nominations for Best Supporting Actress in a Drama Series in 2012 and 2013 .",
+      "page_titles": [
+        "Regina King"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Regina King",
+            "line_index": 2,
+            "sentence": "Her role in Southland earned her two Critics ' Choice Award nominations for Best Supporting Actress in a Drama Series in 2012 and 2013 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Regina King",
+              "line_index": 3,
+              "sentence": "From 2015 to 2017 , she starred in the ABC anthology series American Crime , for which she has received two Emmy Awards and was also nominated for a Golden Globe Award ."
+            }
+          ],
+          [
+            {
+              "page_title": "Regina King",
+              "line_index": 4,
+              "sentence": "Since 2015 , she played Erika Murphy on the critically acclaimed HBO drama , The Leftovers , for which she has received a Critics ' Choice Television Award nomination ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000444",
+      "claim": "Pirates of the Caribbean was added to Magic Kingdom in 1993.",
+      "evidence_sentences": "The ride , which tells the story of a band of pirates and their troubles and exploits , was replicated at the Magic Kingdom in 1973 , at Tokyo Disneyland in 1983 , and at Disneyland Paris in 1992 .",
+      "page_titles": [
+        "Pirates of the Caribbean -LRB-attraction-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Pirates of the Caribbean -LRB-attraction-RRB-",
+            "line_index": 2,
+            "sentence": "The ride , which tells the story of a band of pirates and their troubles and exploits , was replicated at the Magic Kingdom in 1973 , at Tokyo Disneyland in 1983 , and at Disneyland Paris in 1992 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Pirates of the Caribbean -LRB-attraction-RRB-",
+              "line_index": 1,
+              "sentence": "The original version at Disneyland , which opened in 1967 , was the last attraction whose construction was overseen by Walt Disney ; he died three months before it opened ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000445",
+      "claim": "Mercedes-Benz is a section of a car company that involves several countries.",
+      "evidence_sentences": "Mercedes-Benz -LRB- -LSB- mɛʁˈtseːdəsˌbɛnts -RSB- -RRB- is a global automobile manufacturer and a division of the German company Daimler AG .",
+      "page_titles": [
+        "Mercedes-Benz"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mercedes-Benz",
+            "line_index": 0,
+            "sentence": "Mercedes-Benz -LRB- -LSB- mɛʁˈtseːdəsˌbɛnts -RSB- -RRB- is a global automobile manufacturer and a division of the German company Daimler AG ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000446",
+      "claim": "A near-Earth object is one whose orbit brings it into proximity with Earth and it is in the universe.",
+      "evidence_sentences": "A near-Earth object -LRB- NEO -RRB- is any small Solar System body whose orbit brings it into proximity with Earth .",
+      "page_titles": [
+        "Near-Earth object"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Near-Earth object",
+            "line_index": 0,
+            "sentence": "A near-Earth object -LRB- NEO -RRB- is any small Solar System body whose orbit brings it into proximity with Earth ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000447",
+      "claim": "Barry Van Dyke is the oldest son of Dick Van Dyke.",
+      "evidence_sentences": "Barry Van Dyke -LRB- born July 31 , 1951 -RRB- is an American actor and the second son of actor and entertainer Dick Van Dyke plus he was the stepson of makeup artist Arlene Silver-Van Dyke and nephew of Jerry Van Dyke .",
+      "page_titles": [
+        "Barry Van Dyke"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Barry Van Dyke",
+            "line_index": 0,
+            "sentence": "Barry Van Dyke -LRB- born July 31 , 1951 -RRB- is an American actor and the second son of actor and entertainer Dick Van Dyke plus he was the stepson of makeup artist Arlene Silver-Van Dyke and nephew of Jerry Van Dyke ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000448",
+      "claim": "Scotty Moore was born on May 27, 1931.",
+      "evidence_sentences": "Winfield Scott `` Scotty '' Moore III -LRB- December 27 , 1931 -- June 28 , 2016 -RRB- was an American guitarist and recording engineer .",
+      "page_titles": [
+        "Scotty Moore"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Scotty Moore",
+            "line_index": 0,
+            "sentence": "Winfield Scott `` Scotty '' Moore III -LRB- December 27 , 1931 -- June 28 , 2016 -RRB- was an American guitarist and recording engineer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000449",
+      "claim": "Make It or Break It is incapable of being a television show.",
+      "evidence_sentences": "Make It or Break It -LRB- MIOBI -RRB- is an American teen/family comedy-drama television series that focused on the lives of teen gymnasts who strived to make it to the Olympic Games .",
+      "page_titles": [
+        "Make It or Break It"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Make It or Break It",
+            "line_index": 0,
+            "sentence": "Make It or Break It -LRB- MIOBI -RRB- is an American teen/family comedy-drama television series that focused on the lives of teen gymnasts who strived to make it to the Olympic Games ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Make It or Break It",
+              "line_index": 3,
+              "sentence": "The show was picked up for an additional 10 episodes on July 27 , 2009 , which started airing on January 4 , 2010 , bringing the total number of episodes in the first season to 20 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Make It or Break It",
+              "line_index": 4,
+              "sentence": "In January 2010 , the show was renewed for a second season , which premiered on June 28 , 2010 at 10 pm ."
+            }
+          ],
+          [
+            {
+              "page_title": "Make It or Break It",
+              "line_index": 5,
+              "sentence": "Starting on July 13 , 2010 , new episodes aired following Pretty Little Liars ."
+            }
+          ],
+          [
+            {
+              "page_title": "Make It or Break It",
+              "line_index": 6,
+              "sentence": "The show 's second season resumed after a six-month hiatus on March 28 , 2011 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Make It or Break It",
+              "line_index": 7,
+              "sentence": "The series was renewed for a third season on September 16 , 2011 , which premiered on March 26 , 2012 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Make It or Break It",
+              "line_index": 8,
+              "sentence": "It was announced on April 26 , 2012 , that the series had ended and the third season would be the final season ."
+            }
+          ],
+          [
+            {
+              "page_title": "Make It or Break It",
+              "line_index": 9,
+              "sentence": "The series finale aired on May 14 , 2012 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Make It or Break It",
+              "line_index": 12,
+              "sentence": "Internationally , the show aired on E4 in the United Kingdom , Zee Café in India , Fox8 in Australia , ABC Spark in Canada , RTM2 in Malaysia , and on TV2 in New Zealand ."
+            }
+          ],
+          [
+            {
+              "page_title": "Make It or Break It",
+              "line_index": 15,
+              "sentence": "Make It or Break It was created by Holly Sorensen who , along with Paul Stupin and John Ziffren , served as the show 's executive producers ."
+            }
+          ],
+          [
+            {
+              "page_title": "Make It or Break It",
+              "line_index": 0,
+              "sentence": "Make It or Break It -LRB- MIOBI -RRB- is an American teen/family comedy-drama television series that focused on the lives of teen gymnasts who strived to make it to the Olympic Games ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 11,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000450",
+      "claim": "American Sniper (book) is about a sniper with 170 officially confirmed kills.",
+      "evidence_sentences": "With 255 kills , 160 of them officially confirmed by the Pentagon , Kyle is the deadliest marksman in U.S. military history .",
+      "page_titles": [
+        "American Sniper -LRB-book-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "American Sniper -LRB-book-RRB-",
+            "line_index": 1,
+            "sentence": "With 255 kills , 160 of them officially confirmed by the Pentagon , Kyle is the deadliest marksman in U.S. military history ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000451",
+      "claim": "Mutiny on the Bounty is an adaptation of a play.",
+      "evidence_sentences": "Mutiny on the Bounty is a 1962 American Technicolor epic historical drama film starring Marlon Brando , Trevor Howard and Richard Harris , based on the novel Mutiny on the Bounty by Charles Nordhoff and James Norman Hall .",
+      "page_titles": [
+        "Mutiny on the Bounty -LRB-1962 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mutiny on the Bounty -LRB-1962 film-RRB-",
+            "line_index": 0,
+            "sentence": "Mutiny on the Bounty is a 1962 American Technicolor epic historical drama film starring Marlon Brando , Trevor Howard and Richard Harris , based on the novel Mutiny on the Bounty by Charles Nordhoff and James Norman Hall ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000452",
+      "claim": "The United States dollar is not exclusively used in the United States.",
+      "evidence_sentences": "Since the currency is the most used in international transactions , it is the world 's primary reserve currency .",
+      "page_titles": [
+        "United States dollar"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "United States dollar",
+            "line_index": 70,
+            "sentence": "Since the currency is the most used in international transactions , it is the world 's primary reserve currency ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "United States dollar",
+              "line_index": 71,
+              "sentence": "Several countries use it as their official currency , and in many others it is the de facto currency ."
+            }
+          ],
+          [
+            {
+              "page_title": "United States dollar",
+              "line_index": 72,
+              "sentence": "Besides the United States , it is also used as the sole currency in two British Overseas Territories in the Caribbean : the British Virgin Islands and Turks and Caicos Islands ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000453",
+      "claim": "Viola Davis appeared in film and television only in the 1950s.",
+      "evidence_sentences": "She played supporting and minor roles in several films and television series in the late 1990s and early 2000s , including the films Kate & Leopold -LRB- 2001 -RRB- and Far from Heaven -LRB- 2002 -RRB- , and the television series Law & Order : Special Victims Unit .",
+      "page_titles": [
+        "Viola Davis"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Viola Davis",
+            "line_index": 6,
+            "sentence": "She played supporting and minor roles in several films and television series in the late 1990s and early 2000s , including the films Kate & Leopold -LRB- 2001 -RRB- and Far from Heaven -LRB- 2002 -RRB- , and the television series Law & Order : Special Victims Unit ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Viola Davis",
+              "line_index": 8,
+              "sentence": "Davis ' film breakthrough came in 2008 when her supporting role in the drama Doubt earned her several nominations , including the Golden Globe , SAG , and the Academy Award for Best Supporting Actress ."
+            },
+            {
+              "page_title": "Doubt -LRB-2008 film-RRB-",
+              "line_index": 0,
+              "sentence": "Doubt is a 2008 American period drama film written and directed by John Patrick Shanley based on his Pulitzer Prize-winning stage play Doubt : A Parable ."
+            }
+          ],
+          [
+            {
+              "page_title": "Viola Davis",
+              "line_index": 11,
+              "sentence": "For her lead role as 1960s housemaid Aibeleen Clark in the comedy-drama The Help -LRB- 2011 -RRB- , she received a nomination for the Academy Award for Best Actress among others , and won a SAG Award ."
+            },
+            {
+              "page_title": "The Help -LRB-film-RRB-",
+              "line_index": 0,
+              "sentence": "The Help is a 2011 American period drama film directed and written by Tate Taylor , and adapted from Kathryn Stockett 's 2009 novel of the same name ."
+            }
+          ],
+          [
+            {
+              "page_title": "Viola Davis",
+              "line_index": 14,
+              "sentence": "Since 2014 , Davis has played lawyer Annalise Keating in the ABC television drama , How to Get Away with Murder , and in 2015 she became the first black woman to win the Primetime Emmy Award for Outstanding Lead Actress in a Drama Series ."
+            }
+          ],
+          [
+            {
+              "page_title": "Viola Davis",
+              "line_index": 16,
+              "sentence": "In 2016 , Davis played Amanda Waller in the superhero action film Suicide Squad and reprised the role of Rose Maxson in the film adaptation of Fences , for which she won the Academy Award , BAFTA Award , Critics ' Choice Award , SAG Award and Golden Globe Award for Best Supporting Actress ."
+            }
+          ],
+          [
+            {
+              "page_title": "Viola Davis",
+              "line_index": 18,
+              "sentence": "Davis has starred in their productions Lila & Eve -LRB- 2015 -RRB- and Custody -LRB- 2016 -RRB- ."
+            },
+            {
+              "page_title": "Custody -LRB-2016 film-RRB-",
+              "line_index": 0,
+              "sentence": "Custody is a 2016 American courtroom drama film directed and written by James Lapine ."
+            },
+            {
+              "page_title": "Lila & Eve",
+              "line_index": 0,
+              "sentence": "Lila & Eve is a 2015 American crime drama film directed by Charles Stone III and written by Patrick Gilfillan ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 6,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000454",
+      "claim": "Henry Condell had a widow that was buried in the early 1600s.",
+      "evidence_sentences": "His widow , Elizabeth , was buried there on 3 October 1635 .",
+      "page_titles": [
+        "Henry Condell"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Henry Condell",
+            "line_index": 55,
+            "sentence": "His widow , Elizabeth , was buried there on 3 October 1635 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000455",
+      "claim": "A part of Saw (franchise) is the 2006 film Saw II.",
+      "evidence_sentences": "He was introduced briefly in Saw and developed in more detail in Saw II . Saw II is a 2005 American horror film , a sequel to 2004 's Saw and the second installment in the seven-part Saw franchise , directed and co-written by Darren Lynn Bousman .",
+      "page_titles": [
+        "Saw -LRB-franchise-RRB-",
+        "Saw II"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Saw -LRB-franchise-RRB-",
+            "line_index": 14,
+            "sentence": "He was introduced briefly in Saw and developed in more detail in Saw II ."
+          },
+          {
+            "page_title": "Saw II",
+            "line_index": 0,
+            "sentence": "Saw II is a 2005 American horror film , a sequel to 2004 's Saw and the second installment in the seven-part Saw franchise , directed and co-written by Darren Lynn Bousman ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000456",
+      "claim": "Charlotte, North Carolina is the fifth-biggest banking center in the country.",
+      "evidence_sentences": "Charlotte is home to the corporate headquarters of Bank of America and the east coast operations of Wells Fargo , which along with other financial institutions made it the second-largest banking center in the United States from 1995 to 2017 and the third-largest from 2017 to present .",
+      "page_titles": [
+        "Charlotte, North Carolina"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Charlotte, North Carolina",
+            "line_index": 10,
+            "sentence": "Charlotte is home to the corporate headquarters of Bank of America and the east coast operations of Wells Fargo , which along with other financial institutions made it the second-largest banking center in the United States from 1995 to 2017 and the third-largest from 2017 to present ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000457",
+      "claim": "Trollhunters was only created by Adam Sandler.",
+      "evidence_sentences": "Trollhunters is an American computer-animated fantasy television series created for Netflix by Guillermo del Toro and produced by DreamWorks Animation and Double Dare You .",
+      "page_titles": [
+        "Trollhunters"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Trollhunters",
+            "line_index": 0,
+            "sentence": "Trollhunters is an American computer-animated fantasy television series created for Netflix by Guillermo del Toro and produced by DreamWorks Animation and Double Dare You ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000458",
+      "claim": "Aphrodite is a person.",
+      "evidence_sentences": "She is identified with the planet Venus ; her Roman equivalent is the goddess -LSB- Venus -LRB- mythology -RRB- , Venus -RSB- .",
+      "page_titles": [
+        "Aphrodite"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Aphrodite",
+            "line_index": 1,
+            "sentence": "She is identified with the planet Venus ; her Roman equivalent is the goddess -LSB- Venus -LRB- mythology -RRB- , Venus -RSB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000459",
+      "claim": "Lyon is a city in Southwest France.",
+      "evidence_sentences": "Lyon had a population of 506,615 in 2014 and is France 's third-largest city after Paris and Marseille .",
+      "page_titles": [
+        "Lyon"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Lyon",
+            "line_index": 4,
+            "sentence": "Lyon had a population of 506,615 in 2014 and is France 's third-largest city after Paris and Marseille ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000460",
+      "claim": "Aarhus is the second-largest city in flag.",
+      "evidence_sentences": "Aarhus -LRB- -LSB- ˈɒːhuːˀs -RSB- ; officially spelled Århus from 1948 until 31 December 2010 -RRB- is the second-largest city in Denmark and the seat of Aarhus municipality .",
+      "page_titles": [
+        "Aarhus"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Aarhus",
+            "line_index": 0,
+            "sentence": "Aarhus -LRB- -LSB- ˈɒːhuːˀs -RSB- ; officially spelled Århus from 1948 until 31 December 2010 -RRB- is the second-largest city in Denmark and the seat of Aarhus municipality ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000461",
+      "claim": "David Attenborough did not serve as controller of BBC Two.",
+      "evidence_sentences": "He is also a former senior manager at the BBC , having served as controller of BBC Two and director of programming for BBC Television in the 1960s and 1970s .",
+      "page_titles": [
+        "David Attenborough"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "David Attenborough",
+            "line_index": 4,
+            "sentence": "He is also a former senior manager at the BBC , having served as controller of BBC Two and director of programming for BBC Television in the 1960s and 1970s ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000462",
+      "claim": "Raees (film) stars Mahira Khan as Aasiya Alam.",
+      "evidence_sentences": "It stars Shah Rukh Khan , Mahira Khan and Nawazuddin Siddiqui .",
+      "page_titles": [
+        "Raees -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Raees -LRB-film-RRB-",
+            "line_index": 1,
+            "sentence": "It stars Shah Rukh Khan , Mahira Khan and Nawazuddin Siddiqui ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000463",
+      "claim": "Syracuse, New York, had a metropolitan area with a population of more than 600,000 residents according to the 2010 Census.",
+      "evidence_sentences": "At the 2010 census , the city population was 145,170 , and its metropolitan area had a population of 662,577 .",
+      "page_titles": [
+        "Syracuse, New York"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Syracuse, New York",
+            "line_index": 2,
+            "sentence": "At the 2010 census , the city population was 145,170 , and its metropolitan area had a population of 662,577 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000464",
+      "claim": "Polar bears depend on the Arctic Ocean as their main food source.",
+      "evidence_sentences": "The polar bear -LRB- ursus #Latin maritimus #Latin -RRB- is a carnivorous bear whose native range lies largely within the Arctic Circle , encompassing the Arctic Ocean , its surrounding seas and surrounding land masses .",
+      "page_titles": [
+        "Polar bear"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Polar bear",
+            "line_index": 0,
+            "sentence": "The polar bear -LRB- ursus #Latin maritimus #Latin -RRB- is a carnivorous bear whose native range lies largely within the Arctic Circle , encompassing the Arctic Ocean , its surrounding seas and surrounding land masses ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Polar bear",
+              "line_index": 7,
+              "sentence": "Because of their dependence on the sea ice , polar bears are classified as marine mammals ; an alternative basis for classification as marine mammals is that they depend on the ocean as their main food source ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000465",
+      "claim": "William Cohen is from Bangor, Maine.",
+      "evidence_sentences": "William Sebastian Cohen -LRB- born August 28 , 1940 -RRB- is an American politician and author from the U.S. state of Maine .",
+      "page_titles": [
+        "William Cohen"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "William Cohen",
+            "line_index": 0,
+            "sentence": "William Sebastian Cohen -LRB- born August 28 , 1940 -RRB- is an American politician and author from the U.S. state of Maine ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "William Cohen",
+              "line_index": 0,
+              "sentence": "William Sebastian Cohen -LRB- born August 28 , 1940 -RRB- is an American politician and author from the U.S. state of Maine ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000466",
+      "claim": "Nymphomaniac (film) is the third version of a trilogy.",
+      "evidence_sentences": "Nymphomaniac -LRB- stylised onscreen and in advertising as NYMPH MANIAC -RRB- is a European 2013 two-part drama art film written and directed by Lars von Trier .",
+      "page_titles": [
+        "Nymphomaniac -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Nymphomaniac -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "Nymphomaniac -LRB- stylised onscreen and in advertising as NYMPH MANIAC -RRB- is a European 2013 two-part drama art film written and directed by Lars von Trier ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000467",
+      "claim": "Yara Shahidi was only born on February 7, 2000.",
+      "evidence_sentences": "Yara Sayeh Shahidi شهیدی -LSB- jɑːɾɑː sɑːje ʃæhiːdiː -RSB- -RRB- -LRB- born February 10 , 2000 -RRB- is an American actress and model .",
+      "page_titles": [
+        "Yara Shahidi"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Yara Shahidi",
+            "line_index": 0,
+            "sentence": "Yara Sayeh Shahidi شهیدی -LSB- jɑːɾɑː sɑːje ʃæhiːdiː -RSB- -RRB- -LRB- born February 10 , 2000 -RRB- is an American actress and model ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000468",
+      "claim": "Ten matches were possessed by SummerSlam.",
+      "evidence_sentences": "Ten matches were contested at the event , with no pre-show .",
+      "page_titles": [
+        "SummerSlam -LRB-2015-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "SummerSlam -LRB-2015-RRB-",
+            "line_index": 8,
+            "sentence": "Ten matches were contested at the event , with no pre-show ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000469",
+      "claim": "Samsung entered the electronics industry in the late 20th century.",
+      "evidence_sentences": "Samsung entered the electronics industry in the late 1960s and the construction and shipbuilding industries in the mid-1970s ; these areas would drive its subsequent growth .",
+      "page_titles": [
+        "Samsung"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Samsung",
+            "line_index": 6,
+            "sentence": "Samsung entered the electronics industry in the late 1960s and the construction and shipbuilding industries in the mid-1970s ; these areas would drive its subsequent growth ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000470",
+      "claim": "An Education was created by a writer Lynn Barber.",
+      "evidence_sentences": "An Education is a 2009 coming-of-age drama film based on a memoir of the same name by British journalist Lynn Barber .",
+      "page_titles": [
+        "An Education"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "An Education",
+            "line_index": 0,
+            "sentence": "An Education is a 2009 coming-of-age drama film based on a memoir of the same name by British journalist Lynn Barber ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "An Education",
+              "line_index": 1,
+              "sentence": "The film was directed by Lone Scherfig from a screenplay by Nick Hornby ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000471",
+      "claim": "The Gifted was created for dead people.",
+      "evidence_sentences": "The Gifted is an upcoming American television series created for Fox by Matt Nix , based on Marvel Comics ' X-Men properties .",
+      "page_titles": [
+        "The Gifted -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Gifted -LRB-TV series-RRB-",
+            "line_index": 0,
+            "sentence": "The Gifted is an upcoming American television series created for Fox by Matt Nix , based on Marvel Comics ' X-Men properties ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000472",
+      "claim": "Hourglass was released in 1997.",
+      "evidence_sentences": "Taylor 's first studio album in six years was released in 1997 to glowing notices .",
+      "page_titles": [
+        "Hourglass -LRB-James Taylor album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Hourglass -LRB-James Taylor album-RRB-",
+            "line_index": 1,
+            "sentence": "Taylor 's first studio album in six years was released in 1997 to glowing notices ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000473",
+      "claim": "Volkswagen Group designs only non-commercial vehicles.",
+      "evidence_sentences": "It designs , manufactures and distributes passenger and commercial vehicles , motorcycles , engines , and turbomachinery and offers related services including financing , leasing and fleet management .",
+      "page_titles": [
+        "Volkswagen Group"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Volkswagen Group",
+            "line_index": 1,
+            "sentence": "It designs , manufactures and distributes passenger and commercial vehicles , motorcycles , engines , and turbomachinery and offers related services including financing , leasing and fleet management ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Volkswagen Group",
+              "line_index": 7,
+              "sentence": "Volkswagen Group sells passenger cars under the Audi , Bentley , Bugatti , Lamborghini , Porsche , SEAT , Škoda and Volkswagen marques ; motorcycles under the Ducati brand ; and commercial vehicles under the marques MAN , Scania , and Volkswagen Commercial Vehicles ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000474",
+      "claim": "Mary-Kate Olsen and Ashley Olsen are former child artists.",
+      "evidence_sentences": "Mary-Kate Olsen and Ashley Olsen -LRB- born June 13 , 1986 -RRB- , also known as the Olsen twins collectively , are American fashion designers and former child actresses .",
+      "page_titles": [
+        "Mary-Kate and Ashley Olsen"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mary-Kate and Ashley Olsen",
+            "line_index": 0,
+            "sentence": "Mary-Kate Olsen and Ashley Olsen -LRB- born June 13 , 1986 -RRB- , also known as the Olsen twins collectively , are American fashion designers and former child actresses ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000475",
+      "claim": "Brian Michael Bendis has written DC comics.",
+      "evidence_sentences": "He has won critical acclaim , including five Eisner Awards for both his creator-owned work and his work on various Marvel Comics books .",
+      "page_titles": [
+        "Brian Michael Bendis"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Brian Michael Bendis",
+            "line_index": 1,
+            "sentence": "He has won critical acclaim , including five Eisner Awards for both his creator-owned work and his work on various Marvel Comics books ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000476",
+      "claim": "The Brat Pack is a nickname given to a group of young actors.",
+      "evidence_sentences": "The Brat Pack is a nickname given to a group of young actors who frequently appeared together in teen-oriented coming-of-age films in the 1980s .",
+      "page_titles": [
+        "Brat Pack -LRB-actors-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Brat Pack -LRB-actors-RRB-",
+            "line_index": 0,
+            "sentence": "The Brat Pack is a nickname given to a group of young actors who frequently appeared together in teen-oriented coming-of-age films in the 1980s ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000477",
+      "claim": "The United Nations Charter was signed on April 26, 1945.",
+      "evidence_sentences": "It was signed at the San Francisco War Memorial and Performing Arts Center in San Francisco , United States , on 26 June 1945 , by 50 of the 51 original member countries -LRB- Poland , the other original member , which was not represented at the conference , signed it two months later -RRB- .",
+      "page_titles": [
+        "United Nations Charter"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "United Nations Charter",
+            "line_index": 1,
+            "sentence": "It was signed at the San Francisco War Memorial and Performing Arts Center in San Francisco , United States , on 26 June 1945 , by 50 of the 51 original member countries -LRB- Poland , the other original member , which was not represented at the conference , signed it two months later -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000478",
+      "claim": "Libya is the 16th largest country in 2017.",
+      "evidence_sentences": "With an area of almost 1.8 e6km2 , Libya is the fourth largest country in Africa , and is the 16th largest country in the world .",
+      "page_titles": [
+        "Libya"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Libya",
+            "line_index": 2,
+            "sentence": "With an area of almost 1.8 e6km2 , Libya is the fourth largest country in Africa , and is the 16th largest country in the world ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000479",
+      "claim": "Mercedes-Benz is a company of which Daimler AG is a division.",
+      "evidence_sentences": "Mercedes-Benz -LRB- -LSB- mɛʁˈtseːdəsˌbɛnts -RSB- -RRB- is a global automobile manufacturer and a division of the German company Daimler AG .",
+      "page_titles": [
+        "Mercedes-Benz"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mercedes-Benz",
+            "line_index": 0,
+            "sentence": "Mercedes-Benz -LRB- -LSB- mɛʁˈtseːdəsˌbɛnts -RSB- -RRB- is a global automobile manufacturer and a division of the German company Daimler AG ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000480",
+      "claim": "Moscovium is a molecule.",
+      "evidence_sentences": "Moscovium is a superheavy synthetic element with symbol Mc and atomic number 115 .",
+      "page_titles": [
+        "Moscovium"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Moscovium",
+            "line_index": 0,
+            "sentence": "Moscovium is a superheavy synthetic element with symbol Mc and atomic number 115 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000481",
+      "claim": "There are 30 knockouts part of the career boxing record of Floyd Mayweather Jr.",
+      "evidence_sentences": "He finished his career with a record of 26 wins without a loss or draw in world title fights -LRB- 10 by KO -RRB- ; 23 wins -LRB- 9 KOs -RRB- in lineal title fights ; 24 wins -LRB- 7 KOs -RRB- against former or current world titlists ; 12 wins -LRB- 3 KOs -RRB- against former or current lineal champions ; and 2 wins -LRB- 1 KO -RRB- against International Boxing Hall of Fame inductees .",
+      "page_titles": [
+        "Floyd Mayweather Jr."
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Floyd Mayweather Jr.",
+            "line_index": 10,
+            "sentence": "He finished his career with a record of 26 wins without a loss or draw in world title fights -LRB- 10 by KO -RRB- ; 23 wins -LRB- 9 KOs -RRB- in lineal title fights ; 24 wins -LRB- 7 KOs -RRB- against former or current world titlists ; 12 wins -LRB- 3 KOs -RRB- against former or current lineal champions ; and 2 wins -LRB- 1 KO -RRB- against International Boxing Hall of Fame inductees ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000482",
+      "claim": "Antigua and Barbuda was named in honor of Christopher Columbus.",
+      "evidence_sentences": "The country 's name was given by Christopher Columbus in 1493 after discovering the island , in honor of the Virgin of La Antigua in the Seville Cathedral .",
+      "page_titles": [
+        "Antigua and Barbuda"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Antigua and Barbuda",
+            "line_index": 6,
+            "sentence": "The country 's name was given by Christopher Columbus in 1493 after discovering the island , in honor of the Virgin of La Antigua in the Seville Cathedral ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000483",
+      "claim": "There is a software called Adobe Photoshop.",
+      "evidence_sentences": "It is currently a licensed software .",
+      "page_titles": [
+        "Adobe Photoshop"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Adobe Photoshop",
+            "line_index": 20,
+            "sentence": "It is currently a licensed software ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000484",
+      "claim": "SummerSlam was a thing.",
+      "evidence_sentences": "SummerSlam -LRB- 2015 -RRB- was a professional wrestling pay-per-view -LRB- PPV -RRB- event produced by WWE .",
+      "page_titles": [
+        "SummerSlam -LRB-2015-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "SummerSlam -LRB-2015-RRB-",
+            "line_index": 0,
+            "sentence": "SummerSlam -LRB- 2015 -RRB- was a professional wrestling pay-per-view -LRB- PPV -RRB- event produced by WWE ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000485",
+      "claim": "In 1996's Game of Thrones, Ned Stark was introduced.",
+      "evidence_sentences": "Introduced in 1996 's A Game of Thrones , Ned is the honorable lord of Winterfell , an ancient fortress in the North of the fictional continent of Westeros .",
+      "page_titles": [
+        "Ned Stark"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ned Stark",
+            "line_index": 1,
+            "sentence": "Introduced in 1996 's A Game of Thrones , Ned is the honorable lord of Winterfell , an ancient fortress in the North of the fictional continent of Westeros ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000486",
+      "claim": "2.6 million years is how far Cordilleran Ice Sheet dates back to.",
+      "evidence_sentences": "The Cordilleran ice sheet was a major ice sheet that periodically covered large parts of North America during glacial periods over the last ~ 2.6 million years .",
+      "page_titles": [
+        "Cordilleran Ice Sheet"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Cordilleran Ice Sheet",
+            "line_index": 0,
+            "sentence": "The Cordilleran ice sheet was a major ice sheet that periodically covered large parts of North America during glacial periods over the last ~ 2.6 million years ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000487",
+      "claim": "December was the month when the principal photography of The Disaster Artist (film) started.",
+      "evidence_sentences": "Principal photography of the film began on December 8 , 2015 .",
+      "page_titles": [
+        "The Disaster Artist -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Disaster Artist -LRB-film-RRB-",
+            "line_index": 5,
+            "sentence": "Principal photography of the film began on December 8 , 2015 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000488",
+      "claim": "The Battle of France was fought during the Second World War.",
+      "evidence_sentences": "The Battle of France , also known as the Fall of France , was the German invasion of France and the Low Countries during the Second World War .",
+      "page_titles": [
+        "Battle of France"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Battle of France",
+            "line_index": 0,
+            "sentence": "The Battle of France , also known as the Fall of France , was the German invasion of France and the Low Countries during the Second World War ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000489",
+      "claim": "Benjamin Walker (actor) is a stand up performer.",
+      "evidence_sentences": "Benjamin Walker Davis -LRB- born June 21 , 1982 -RRB- , known professionally as Benjamin Walker , is an American actor and stand-up comedian .",
+      "page_titles": [
+        "Benjamin Walker -LRB-actor-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Benjamin Walker -LRB-actor-RRB-",
+            "line_index": 0,
+            "sentence": "Benjamin Walker Davis -LRB- born June 21 , 1982 -RRB- , known professionally as Benjamin Walker , is an American actor and stand-up comedian ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000490",
+      "claim": "Brad Wilk was a member of Greta in 1990.",
+      "evidence_sentences": "Wilk started his career as a drummer for Greta in 1990 , and helped co-found Rage with Tom Morello and Zack de la Rocha in August 1991 .",
+      "page_titles": [
+        "Brad Wilk"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Brad Wilk",
+            "line_index": 4,
+            "sentence": "Wilk started his career as a drummer for Greta in 1990 , and helped co-found Rage with Tom Morello and Zack de la Rocha in August 1991 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000491",
+      "claim": "Henry III assumed the throne when he was 2 years old.",
+      "evidence_sentences": "Henry III -LRB- 1 October 1207 -- 16 November 1272 -RRB- , also known as Henry of Winchester , was King of England , Lord of Ireland and Duke of Aquitaine from 1216 until his death .",
+      "page_titles": [
+        "Henry III of England"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Henry III of England",
+            "line_index": 0,
+            "sentence": "Henry III -LRB- 1 October 1207 -- 16 November 1272 -RRB- , also known as Henry of Winchester , was King of England , Lord of Ireland and Duke of Aquitaine from 1216 until his death ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Henry III of England",
+              "line_index": 1,
+              "sentence": "The son of King John and Isabella of Angoulême , Henry assumed the throne when he was only nine in the middle of the First Barons ' War ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000492",
+      "claim": "Aaron Burr murdered one of the American Founding Fathers.",
+      "evidence_sentences": "In 1804 , the last full year of his single term as vice president , Burr killed his political rival Alexander Hamilton in a famous duel . Alexander Hamilton -LRB- January 11 , 1755 or 1757July 12 , 1804 -RRB- was an American statesman and one of the Founding Fathers of the United States .",
+      "page_titles": [
+        "Aaron Burr",
+        "Alexander Hamilton"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Aaron Burr",
+            "line_index": 9,
+            "sentence": "In 1804 , the last full year of his single term as vice president , Burr killed his political rival Alexander Hamilton in a famous duel ."
+          },
+          {
+            "page_title": "Alexander Hamilton",
+            "line_index": 0,
+            "sentence": "Alexander Hamilton -LRB- January 11 , 1755 or 1757July 12 , 1804 -RRB- was an American statesman and one of the Founding Fathers of the United States ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000493",
+      "claim": "Ronaldinho has scored 33 goals for the Brazil national basketball team.",
+      "evidence_sentences": "Ronaldinho has played 97 matches and scored 33 goals for the Brazil national team .",
+      "page_titles": [
+        "Ronaldinho"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ronaldinho",
+            "line_index": 10,
+            "sentence": "Ronaldinho has played 97 matches and scored 33 goals for the Brazil national team ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000494",
+      "claim": "A River Runs Through It is a single picture.",
+      "evidence_sentences": "A River Runs Through It is a 1992 American period coming-of-age drama film directed by Robert Redford and starring Craig Sheffer , Brad Pitt , Tom Skerritt , Brenda Blethyn , and Emily Lloyd .",
+      "page_titles": [
+        "A River Runs Through It -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "A River Runs Through It -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "A River Runs Through It is a 1992 American period coming-of-age drama film directed by Robert Redford and starring Craig Sheffer , Brad Pitt , Tom Skerritt , Brenda Blethyn , and Emily Lloyd ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "A River Runs Through It -LRB-film-RRB-",
+              "line_index": 1,
+              "sentence": "It is a based on the 1976 semi-autobiographical novella of the same name by Norman Maclean , adapted for the screen by Richard Friedenberg ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000495",
+      "claim": "Caroline Kennedy is Ambassador to Japan.",
+      "evidence_sentences": "Caroline Bouvier Kennedy -LRB- born November 27 , 1957 -RRB- is an American author , attorney , and diplomat who served as the United States Ambassador to Japan from 2013 to 2017 .",
+      "page_titles": [
+        "Caroline Kennedy"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Caroline Kennedy",
+            "line_index": 0,
+            "sentence": "Caroline Bouvier Kennedy -LRB- born November 27 , 1957 -RRB- is an American author , attorney , and diplomat who served as the United States Ambassador to Japan from 2013 to 2017 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000496",
+      "claim": "Artpop had first-week sales of about 500,000 copies.",
+      "evidence_sentences": "The album received generally mixed reviews from music critics , but was commercially successful , debuting at number one on the United States Billboard 200 with first-week sales of 258,000 copies , becoming Gaga 's second consecutive number-one record in the United States and selling 757,000 copies .",
+      "page_titles": [
+        "Artpop"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Artpop",
+            "line_index": 13,
+            "sentence": "The album received generally mixed reviews from music critics , but was commercially successful , debuting at number one on the United States Billboard 200 with first-week sales of 258,000 copies , becoming Gaga 's second consecutive number-one record in the United States and selling 757,000 copies ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000497",
+      "claim": "The Tenth Doctor recruits Wilfred Mott to assist him throughout The End of Time.",
+      "evidence_sentences": "He eventually parts ways with them all by the end of the 2008 series finale , `` Journey 's End '' , after which he attempts to travel alone for the duration of the 2008 -- 2010 specials before being accompanied by Donna Noble 's grandfather Wilfred Mott on his final adventure in The End of Time .",
+      "page_titles": [
+        "Tenth Doctor"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tenth Doctor",
+            "line_index": 8,
+            "sentence": "He eventually parts ways with them all by the end of the 2008 series finale , `` Journey 's End '' , after which he attempts to travel alone for the duration of the 2008 -- 2010 specials before being accompanied by Donna Noble 's grandfather Wilfred Mott on his final adventure in The End of Time ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000498",
+      "claim": "The Guthrie Theater's first building stopped operating in 1962.",
+      "evidence_sentences": "The first building was designed by Ralph Rapson , included a 1,441-seat thrust stage designed by Tanya Moiseiwitsch , and was operated from 1963 -- 2006 .",
+      "page_titles": [
+        "Guthrie Theater"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Guthrie Theater",
+            "line_index": 6,
+            "sentence": "The first building was designed by Ralph Rapson , included a 1,441-seat thrust stage designed by Tanya Moiseiwitsch , and was operated from 1963 -- 2006 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Guthrie Theater",
+              "line_index": 0,
+              "sentence": "The Guthrie Theater , founded in 1963 , is a center for theater performance , production , education , and professional training in Minneapolis , Minnesota ."
+            }
+          ],
+          [
+            {
+              "page_title": "Guthrie Theater",
+              "line_index": 7,
+              "sentence": "After closing its 2005 -- 2006 season , the theater moved to its current facility designed by Jean Nouvel ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000499",
+      "claim": "In Kentucky, the electric chair has been kept in operation except for those whose capital crimes were committed prior to March 31, 1998, and who choose electrocution.",
+      "evidence_sentences": "In the state of Kentucky the electric chair has been retired except for those whose capital crimes were committed prior to March 31 , 1998 , and who choose electrocution ; inmates who do not choose electrocution and inmates who committed their crimes after the designated date are executed by lethal injection .",
+      "page_titles": [
+        "Electric chair"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Electric chair",
+            "line_index": 15,
+            "sentence": "In the state of Kentucky the electric chair has been retired except for those whose capital crimes were committed prior to March 31 , 1998 , and who choose electrocution ; inmates who do not choose electrocution and inmates who committed their crimes after the designated date are executed by lethal injection ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Electric chair",
+              "line_index": 19,
+              "sentence": "This brought executions of this type to an end in Nebraska , the only remaining state to retain electrocution as its sole method of execution ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000500",
+      "claim": "Rick Ross made more than eight studio albums.",
+      "evidence_sentences": "In 2009 , Ross founded the record label Maybach Music Group , on which he released his studio albums Deeper Than Rap -LRB- 2009 -RRB- , Teflon Don -LRB- 2010 -RRB- , God Forgives , I Do n't -LRB- 2012 -RRB- , Mastermind , Hood Billionaire -LRB- 2014 -RRB- , Black Market -LRB- 2015 -RRB- , and Rather You Than Me -LRB- 2017 -RRB- .",
+      "page_titles": [
+        "Rick Ross"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Rick Ross",
+            "line_index": 3,
+            "sentence": "In 2009 , Ross founded the record label Maybach Music Group , on which he released his studio albums Deeper Than Rap -LRB- 2009 -RRB- , Teflon Don -LRB- 2010 -RRB- , God Forgives , I Do n't -LRB- 2012 -RRB- , Mastermind , Hood Billionaire -LRB- 2014 -RRB- , Black Market -LRB- 2015 -RRB- , and Rather You Than Me -LRB- 2017 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000501",
+      "claim": "Roar (song) is a Katy Perry song from her fourth album.",
+      "evidence_sentences": "`` Roar '' is a song by American singer Katy Perry for her fourth studio album , Prism -LRB- 2013 -RRB- .",
+      "page_titles": [
+        "Roar -LRB-song-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Roar -LRB-song-RRB-",
+            "line_index": 0,
+            "sentence": "`` Roar '' is a song by American singer Katy Perry for her fourth studio album , Prism -LRB- 2013 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  ],
+  "rubric": "# Judge Rubric (silver adjudication, v1)\n\nYou are an independent fact-checking adjudicator. You will see a batch of\nitems. Each item contains a **claim** and **evidence** (what is included\ndepends on the disclosure stage, stated in the batch header). For EVERY item\nyou must judge **only from the information provided**.\n\n## Task\n\nDecide whether the provided evidence **warrants** the claim:\n\n- `Supported` — the evidence clearly or probably establishes the claim is true.\n- `Refuted` — the evidence clearly or probably establishes the claim is false.\n- `Ambiguous` — the evidence is insufficient, partial, or mixed; you cannot\n  responsibly decide true or false from what is provided.\n\nAlso rate how sufficient the evidence is for deciding the claim\n(`clearly_sufficient | probably_sufficient | partial_or_ambiguous |\nprobably_insufficient | clearly_insufficient`), your confidence (integer\n0–100), and any issue flags that apply (see list).\n\n## Hard rules\n\n- Judge ONLY from the supplied claim and evidence. Do NOT use outside\n  knowledge to decide the verdict.\n- Do NOT browse the web or look anything up.\n- Do NOT speculate about hidden labels, other models, or why the item was\n  selected.\n- If the evidence alone does not settle the claim, say `Ambiguous` — that is a\n  valid, useful answer, not a failure.\n- `confidence` MUST be an integer from 0 to 100.\n- `brief_reason` must be short (one sentence) and grounded in the evidence.\n- Select issue flags only when the evidence shows that problem; use `none`\n  otherwise. Do not pad flags.\n\n## Issue flags\n\n`none`, `possible_missing_title_context`, `possible_coreference_or_entity_resolution`,\n`possible_missing_surrounding_context`, `multi_sentence_integration`,\n`numerical_or_temporal_reasoning`, `negation_or_scope`,\n`entity_or_attribute_confusion`, `partial_warrant`,\n`apparent_internal_contradiction`, `other`\n\n## Output format\n\nReturn ONLY a JSON array (no prose before or after), one object per item, in\nthe same order as the input:\n\n```json\n[\n  {\n    \"item_id\": \"SA-000001\",\n    \"judge_id\": \"judge_1\",\n    \"stage\": \"A\",\n    \"verdict\": \"Supported\",\n    \"evidence_sufficiency\": \"probably_sufficient\",\n    \"confidence\": 80,\n    \"issue_flags\": [\"none\"],\n    \"brief_reason\": \"The evidence sentence directly states the claim.\"\n  }\n]\n```\n\n`item_id`, `judge_id`, and `stage` must be copied exactly from the batch file.\nProduce exactly one object for every item in the batch — never skip or merge\nitems. If an item's evidence is empty or unreadable, verdict `Ambiguous`,\nsufficiency `clearly_insufficient`, confidence as you see fit, flag `other`.\n",
+  "disclosure_note": "Stage C. Judge only supplied fields. Null text means unavailable; do not fill it using outside knowledge."
+}

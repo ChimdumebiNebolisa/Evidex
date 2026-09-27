@@ -22,6 +22,7 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import config  # noqa: E402
 import run_judges  # noqa: E402
+from taxonomy_legacy_v1 import taxonomy_row as legacy_taxonomy_row
 
 
 def sha256(path: Path) -> str:
@@ -157,24 +158,9 @@ def unblind_join():
                 "still_ambiguous_after_C", "reversed_after_titles", "reversed_after_structure"]:
         df[col] = df["item_id"].map(cc[col]).astype(bool)
 
-    # Cautious derived silver taxonomy (rules, never 'ground truth').
-    def taxonomy(r):
-        if r["still_ambiguous_after_C"]:
-            if r["nli_disagrees"] and r["nli2_disagrees"]:
-                return "silver_partial_or_ambiguous_warrant"
-            return "silver_partial_or_ambiguous_warrant"
-        if r["resolved_only_by_structure"] or r["reversed_after_structure"] or \
-                (r["consensus_A"] in ("Ambiguous", "Unresolved") and
-                 r["consensus_C"] in ("Supported", "Refuted")):
-            return "silver_structured_evidence_sensitive"
-        if r["reversed_after_titles"] or r["resolved_by_titles"]:
-            return "silver_title_context_sensitive"
-        # After full structure judges still give a decisive verdict.
-        if r["cohort"] in ("regression", "resistant") and \
-                r["consensus_C"] in ("Supported", "Refuted"):
-            return "silver_clear_evidence_utilization_failure"
-        return "silver_unresolved"
-    df["silver_taxonomy"] = df.apply(taxonomy, axis=1)
+    # Historical reproduction ONLY. Proposed corrected rules live in taxonomy_v2.
+    df["silver_taxonomy"] = df.apply(
+        lambda r: legacy_taxonomy_row(r, r["cohort"]), axis=1)
 
     df.to_parquet(config.UNBLINDED_PARQUET, index=False)
     df.to_csv(config.TABLES_DIR / "silver_by_cohort_full.csv", index=False)

@@ -1,0 +1,2990 @@
+{
+  "judge_id": "judge_2",
+  "stage": "C",
+  "output_path": "corrections_v2/blind_io/p01/stage_c/p01_C_j2_b10.output.json",
+  "n_items": 100,
+  "item_ids": [
+    "SA-000902",
+    "SA-000903",
+    "SA-000904",
+    "SA-000905",
+    "SA-000906",
+    "SA-000907",
+    "SA-000908",
+    "SA-000909",
+    "SA-000910",
+    "SA-000911",
+    "SA-000912",
+    "SA-000913",
+    "SA-000914",
+    "SA-000915",
+    "SA-000916",
+    "SA-000917",
+    "SA-000918",
+    "SA-000919",
+    "SA-000920",
+    "SA-000921",
+    "SA-000922",
+    "SA-000923",
+    "SA-000924",
+    "SA-000925",
+    "SA-000926",
+    "SA-000927",
+    "SA-000928",
+    "SA-000929",
+    "SA-000930",
+    "SA-000931",
+    "SA-000932",
+    "SA-000933",
+    "SA-000934",
+    "SA-000935",
+    "SA-000936",
+    "SA-000937",
+    "SA-000938",
+    "SA-000939",
+    "SA-000940",
+    "SA-000941",
+    "SA-000942",
+    "SA-000943",
+    "SA-000944",
+    "SA-000945",
+    "SA-000946",
+    "SA-000947",
+    "SA-000948",
+    "SA-000949",
+    "SA-000950",
+    "SA-000951",
+    "SA-000952",
+    "SA-000953",
+    "SA-000954",
+    "SA-000955",
+    "SA-000956",
+    "SA-000957",
+    "SA-000958",
+    "SA-000959",
+    "SA-000960",
+    "SA-000961",
+    "SA-000962",
+    "SA-000963",
+    "SA-000964",
+    "SA-000965",
+    "SA-000966",
+    "SA-000967",
+    "SA-000968",
+    "SA-000969",
+    "SA-000970",
+    "SA-000971",
+    "SA-000972",
+    "SA-000973",
+    "SA-000974",
+    "SA-000975",
+    "SA-000976",
+    "SA-000977",
+    "SA-000978",
+    "SA-000979",
+    "SA-000980",
+    "SA-000981",
+    "SA-000982",
+    "SA-000983",
+    "SA-000984",
+    "SA-000985",
+    "SA-000986",
+    "SA-000987",
+    "SA-000988",
+    "SA-000989",
+    "SA-000990",
+    "SA-000991",
+    "SA-000992",
+    "SA-000993",
+    "SA-000994",
+    "SA-000995",
+    "SA-000996",
+    "SA-000997",
+    "SA-000998",
+    "SA-000999",
+    "SA-001000",
+    "SA-001001"
+  ],
+  "items": [
+    {
+      "item_id": "SA-000902",
+      "claim": "Woodrow Wilson did not establish Wilsonianism.",
+      "evidence_sentences": "He also led the United States during World War I , establishing an activist foreign policy known as `` Wilsonianism . ''",
+      "page_titles": [
+        "Woodrow Wilson"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Woodrow Wilson",
+            "line_index": 3,
+            "sentence": "He also led the United States during World War I , establishing an activist foreign policy known as `` Wilsonianism . ''"
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000903",
+      "claim": "Michelin Guides have been the definitive restaurant guide for more than a century.",
+      "evidence_sentences": "Michelin Guides -LRB- -LSB- ɡid miʃ.lɛ̃ -RSB- -RRB- are a series of guide books published by the French company Michelin for more than a century .",
+      "page_titles": [
+        "Michelin Guide"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Michelin Guide",
+            "line_index": 0,
+            "sentence": "Michelin Guides -LRB- -LSB- ɡid miʃ.lɛ̃ -RSB- -RRB- are a series of guide books published by the French company Michelin for more than a century ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000904",
+      "claim": "Fortunes of War caused the union of two actors.",
+      "evidence_sentences": "Kenneth Branagh and Emma Thompson met filming the TV series and married in real life .",
+      "page_titles": [
+        "Fortunes of War -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Fortunes of War -LRB-TV series-RRB-",
+            "line_index": 2,
+            "sentence": "Kenneth Branagh and Emma Thompson met filming the TV series and married in real life ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000905",
+      "claim": "Akkineni Nageswara Rao stars in Daag.",
+      "evidence_sentences": "The film was later remade into the Telugu film Vichitra Jeevitham -LRB- 1978 -RRB- starring Akkineni Nageswara Rao , Vanisri , and Jayasudha .",
+      "page_titles": [
+        "Daag -LRB-1973 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Daag -LRB-1973 film-RRB-",
+            "line_index": 10,
+            "sentence": "The film was later remade into the Telugu film Vichitra Jeevitham -LRB- 1978 -RRB- starring Akkineni Nageswara Rao , Vanisri , and Jayasudha ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000906",
+      "claim": "Physics includes equations.",
+      "evidence_sentences": "For example , advances in the understanding of electromagnetism or nuclear physics led directly to the development of new products that have dramatically transformed modern-day society , such as television , computers , domestic appliances , and nuclear weapons ; advances in thermodynamics led to the development of industrialization , and advances in mechanics inspired the development of calculus .",
+      "page_titles": [
+        "Physics"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Physics",
+            "line_index": 11,
+            "sentence": "For example , advances in the understanding of electromagnetism or nuclear physics led directly to the development of new products that have dramatically transformed modern-day society , such as television , computers , domestic appliances , and nuclear weapons ; advances in thermodynamics led to the development of industrialization , and advances in mechanics inspired the development of calculus ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000907",
+      "claim": "One Flew Over the Cuckoo's Nest was released in a year between 1934 and 1970.",
+      "evidence_sentences": "One Flew Over the Cuckoo 's Nest is a 1975 American comedy-drama film directed by Miloš Forman , based on the 1962 novel One Flew Over the Cuckoo 's Nest by Ken Kesey .",
+      "page_titles": [
+        "One Flew Over the Cuckoo's Nest -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "One Flew Over the Cuckoo's Nest -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "One Flew Over the Cuckoo 's Nest is a 1975 American comedy-drama film directed by Miloš Forman , based on the 1962 novel One Flew Over the Cuckoo 's Nest by Ken Kesey ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000908",
+      "claim": "Proponents of globalism tend to advocate for changing economic policy.",
+      "evidence_sentences": "It tends to advocate for such policies as increases in immigration , free trade , lowering tariffs , interventionism and global governance .",
+      "page_titles": [
+        "Globalism"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Globalism",
+            "line_index": 1,
+            "sentence": "It tends to advocate for such policies as increases in immigration , free trade , lowering tariffs , interventionism and global governance ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000909",
+      "claim": "Avenged Sevenfold is an album by an American heavy metal band.",
+      "evidence_sentences": "Avenged Sevenfold is the eponymous fourth studio album by American heavy metal band Avenged Sevenfold , released on October 30 , 2007 by Warner Bros. .",
+      "page_titles": [
+        "Avenged Sevenfold -LRB-album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Avenged Sevenfold -LRB-album-RRB-",
+            "line_index": 0,
+            "sentence": "Avenged Sevenfold is the eponymous fourth studio album by American heavy metal band Avenged Sevenfold , released on October 30 , 2007 by Warner Bros. ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Avenged Sevenfold -LRB-album-RRB-",
+              "line_index": 0,
+              "sentence": "Avenged Sevenfold is the eponymous fourth studio album by American heavy metal band Avenged Sevenfold , released on October 30 , 2007 by Warner Bros. ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000910",
+      "claim": "Charlotte, North Carolina was the fourth-largest Banking center in the United States from 1995 to 2017.",
+      "evidence_sentences": "Charlotte is home to the corporate headquarters of Bank of America and the east coast operations of Wells Fargo , which along with other financial institutions made it the second-largest banking center in the United States from 1995 to 2017 and the third-largest from 2017 to present .",
+      "page_titles": [
+        "Charlotte, North Carolina"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Charlotte, North Carolina",
+            "line_index": 10,
+            "sentence": "Charlotte is home to the corporate headquarters of Bank of America and the east coast operations of Wells Fargo , which along with other financial institutions made it the second-largest banking center in the United States from 1995 to 2017 and the third-largest from 2017 to present ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000911",
+      "claim": "Gal Gadot was ranked behind Esti Ginzburg for highest earning actress/models in Israel.",
+      "evidence_sentences": "In 2013 she was ranked as the second highest earning actress/models in Israel , behind Bar Refaeli , but ahead of Esti Ginzburg and Shlomit Malka , with the majority of her income coming from acting .",
+      "page_titles": [
+        "Gal Gadot"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Gal Gadot",
+            "line_index": 4,
+            "sentence": "In 2013 she was ranked as the second highest earning actress/models in Israel , behind Bar Refaeli , but ahead of Esti Ginzburg and Shlomit Malka , with the majority of her income coming from acting ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000912",
+      "claim": "The Washington Wizards won a title in 1975.",
+      "evidence_sentences": "They have won four conference titles -LRB- 1971 , 1975 , 1978 , 1979 -RRB- , and seven division titles -LRB- 1971 , 1972 , 1973 , 1974 , 1975 , 1979 , 2017 -RRB- .",
+      "page_titles": [
+        "Washington Wizards"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Washington Wizards",
+            "line_index": 12,
+            "sentence": "They have won four conference titles -LRB- 1971 , 1975 , 1978 , 1979 -RRB- , and seven division titles -LRB- 1971 , 1972 , 1973 , 1974 , 1975 , 1979 , 2017 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000913",
+      "claim": "in 2007, Joni Mitchell released a record.",
+      "evidence_sentences": "Some of her original songs -LRB- `` Urge for Going '' , `` Chelsea Morning '' , `` Both Sides , Now '' , `` The Circle Game '' -RRB- were covered by folk singers , allowing her to sign with Reprise Records and record her debut album in 1968 .",
+      "page_titles": [
+        "Joni Mitchell"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Joni Mitchell",
+            "line_index": 7,
+            "sentence": "Some of her original songs -LRB- `` Urge for Going '' , `` Chelsea Morning '' , `` Both Sides , Now '' , `` The Circle Game '' -RRB- were covered by folk singers , allowing her to sign with Reprise Records and record her debut album in 1968 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Joni Mitchell",
+              "line_index": 9,
+              "sentence": "Her 1971 recording Blue was rated the 30th best album ever made in Rolling Stone 's list of the `` 500 Greatest Albums of All Time '' , the highest entry by a female artist ."
+            }
+          ],
+          [
+            {
+              "page_title": "Joni Mitchell",
+              "line_index": 10,
+              "sentence": "Mitchell switched labels and began moving toward jazz rhythms by way of lush pop textures on 1974 's Court and Spark , her best-selling LP , featuring the radio hits `` Help Me '' and `` Free Man in Paris '' ."
+            }
+          ],
+          [
+            {
+              "page_title": "Joni Mitchell",
+              "line_index": 20,
+              "sentence": "A blunt critic of the music industry , she quit touring and released her 17th , and reportedly last , album of original songs in 2007 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Joni Mitchell",
+              "line_index": 19,
+              "sentence": "She is the sole producer credited on most of her albums , including all her work in the 1970s ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000914",
+      "claim": "Harvard University is not a research university.",
+      "evidence_sentences": "Harvard University is a private Ivy League research university in Cambridge , Massachusetts , established in 1636 , whose history , influence , and wealth have made it one of the world 's most prestigious universities .",
+      "page_titles": [
+        "Harvard University"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Harvard University",
+            "line_index": 0,
+            "sentence": "Harvard University is a private Ivy League research university in Cambridge , Massachusetts , established in 1636 , whose history , influence , and wealth have made it one of the world 's most prestigious universities ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000915",
+      "claim": "Jeb Bush has yet to spend time in Houston.",
+      "evidence_sentences": "Bush , who grew up in Houston , is the second son of former President George H. W. Bush and former First Lady Barbara Bush , and a younger brother of former President George W. Bush .",
+      "page_titles": [
+        "Jeb Bush"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Jeb Bush",
+            "line_index": 3,
+            "sentence": "Bush , who grew up in Houston , is the second son of former President George H. W. Bush and former First Lady Barbara Bush , and a younger brother of former President George W. Bush ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Jeb Bush",
+              "line_index": 3,
+              "sentence": "Bush , who grew up in Houston , is the second son of former President George H. W. Bush and former First Lady Barbara Bush , and a younger brother of former President George W. Bush ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000916",
+      "claim": "The Fly is a film from the United States.",
+      "evidence_sentences": "The Fly is a 1986 American science fiction horror film directed and co-written by David Cronenberg .",
+      "page_titles": [
+        "The Fly -LRB-1986 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Fly -LRB-1986 film-RRB-",
+            "line_index": 0,
+            "sentence": "The Fly is a 1986 American science fiction horror film directed and co-written by David Cronenberg ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000917",
+      "claim": "Sean Penn has acted in 13 films.",
+      "evidence_sentences": "Following his film debut in the drama Taps -LRB- 1981 -RRB- and a diverse range of film roles in the 1980s , including Fast Times at Ridgemont High -LRB- 1982 -RRB- , Penn garnered critical attention for his roles in the crime dramas At Close Range -LRB- 1986 -RRB- , State of Grace -LRB- 1990 -RRB- , and Carlito 's Way -LRB- 1993 -RRB- . He became known as a prominent leading actor with the drama Dead Man Walking -LRB- 1995 -RRB- , for which he earned his first Academy Award nomination and the Best Actor Award at the Berlin Film Festival . Penn received another two Oscar nominations for Woody Allen 's comedy-drama Sweet and Lowdown -LRB- 1999 -RRB- and the drama I Am Sam -LRB- 2001 -RRB- , before winning his first Academy Award for Best Actor in 2003 for Mystic River and a second one in 2008 for Milk . He has also won a Best Actor Award of the Cannes Film Festival for the Nick Cassavetes-directed She 's So Lovely -LRB- 1997 -RRB- , and two Best Actor Awards at the Venice Film Festival for the indie film Hurlyburly -LRB- 1998 -RRB- and the drama 21 Grams -LRB- 2003 -RRB- . Penn made his feature film directorial debut with The Indian Runner -LRB- 1991 -RRB- , followed by the drama film The Crossing Guard -LRB- 1995 -RRB- and the mystery film The Pledge -LRB- 2001 -RRB- .",
+      "page_titles": [
+        "Sean Penn",
+        "Sean Penn",
+        "Sean Penn",
+        "Sean Penn",
+        "Sean Penn"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sean Penn",
+            "line_index": 5,
+            "sentence": "Following his film debut in the drama Taps -LRB- 1981 -RRB- and a diverse range of film roles in the 1980s , including Fast Times at Ridgemont High -LRB- 1982 -RRB- , Penn garnered critical attention for his roles in the crime dramas At Close Range -LRB- 1986 -RRB- , State of Grace -LRB- 1990 -RRB- , and Carlito 's Way -LRB- 1993 -RRB- ."
+          },
+          {
+            "page_title": "Sean Penn",
+            "line_index": 6,
+            "sentence": "He became known as a prominent leading actor with the drama Dead Man Walking -LRB- 1995 -RRB- , for which he earned his first Academy Award nomination and the Best Actor Award at the Berlin Film Festival ."
+          },
+          {
+            "page_title": "Sean Penn",
+            "line_index": 7,
+            "sentence": "Penn received another two Oscar nominations for Woody Allen 's comedy-drama Sweet and Lowdown -LRB- 1999 -RRB- and the drama I Am Sam -LRB- 2001 -RRB- , before winning his first Academy Award for Best Actor in 2003 for Mystic River and a second one in 2008 for Milk ."
+          },
+          {
+            "page_title": "Sean Penn",
+            "line_index": 8,
+            "sentence": "He has also won a Best Actor Award of the Cannes Film Festival for the Nick Cassavetes-directed She 's So Lovely -LRB- 1997 -RRB- , and two Best Actor Awards at the Venice Film Festival for the indie film Hurlyburly -LRB- 1998 -RRB- and the drama 21 Grams -LRB- 2003 -RRB- ."
+          },
+          {
+            "page_title": "Sean Penn",
+            "line_index": 11,
+            "sentence": "Penn made his feature film directorial debut with The Indian Runner -LRB- 1991 -RRB- , followed by the drama film The Crossing Guard -LRB- 1995 -RRB- and the mystery film The Pledge -LRB- 2001 -RRB- ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Sean Penn",
+              "line_index": 5,
+              "sentence": "Following his film debut in the drama Taps -LRB- 1981 -RRB- and a diverse range of film roles in the 1980s , including Fast Times at Ridgemont High -LRB- 1982 -RRB- , Penn garnered critical attention for his roles in the crime dramas At Close Range -LRB- 1986 -RRB- , State of Grace -LRB- 1990 -RRB- , and Carlito 's Way -LRB- 1993 -RRB- ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 6,
+              "sentence": "He became known as a prominent leading actor with the drama Dead Man Walking -LRB- 1995 -RRB- , for which he earned his first Academy Award nomination and the Best Actor Award at the Berlin Film Festival ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 7,
+              "sentence": "Penn received another two Oscar nominations for Woody Allen 's comedy-drama Sweet and Lowdown -LRB- 1999 -RRB- and the drama I Am Sam -LRB- 2001 -RRB- , before winning his first Academy Award for Best Actor in 2003 for Mystic River and a second one in 2008 for Milk ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 8,
+              "sentence": "He has also won a Best Actor Award of the Cannes Film Festival for the Nick Cassavetes-directed She 's So Lovely -LRB- 1997 -RRB- , and two Best Actor Awards at the Venice Film Festival for the indie film Hurlyburly -LRB- 1998 -RRB- and the drama 21 Grams -LRB- 2003 -RRB- ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 11,
+              "sentence": "Penn made his feature film directorial debut with The Indian Runner -LRB- 1991 -RRB- , followed by the drama film The Crossing Guard -LRB- 1995 -RRB- and the mystery film The Pledge -LRB- 2001 -RRB- ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 12,
+              "sentence": "Penn directed one of the 11 segments of 11 ' 09 `` 01 September 11 -LRB- 2002 -RRB- , a compilation film made in response to the September 11 attacks ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 13,
+              "sentence": "His fourth feature film , the biographical drama survival movie Into the Wild -LRB- 2007 -RRB- , garnered critical acclaim and two Academy Award nominations ."
+            }
+          ],
+          [
+            {
+              "page_title": "Sean Penn",
+              "line_index": 5,
+              "sentence": "Following his film debut in the drama Taps -LRB- 1981 -RRB- and a diverse range of film roles in the 1980s , including Fast Times at Ridgemont High -LRB- 1982 -RRB- , Penn garnered critical attention for his roles in the crime dramas At Close Range -LRB- 1986 -RRB- , State of Grace -LRB- 1990 -RRB- , and Carlito 's Way -LRB- 1993 -RRB- ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 6,
+              "sentence": "He became known as a prominent leading actor with the drama Dead Man Walking -LRB- 1995 -RRB- , for which he earned his first Academy Award nomination and the Best Actor Award at the Berlin Film Festival ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 7,
+              "sentence": "Penn received another two Oscar nominations for Woody Allen 's comedy-drama Sweet and Lowdown -LRB- 1999 -RRB- and the drama I Am Sam -LRB- 2001 -RRB- , before winning his first Academy Award for Best Actor in 2003 for Mystic River and a second one in 2008 for Milk ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 8,
+              "sentence": "He has also won a Best Actor Award of the Cannes Film Festival for the Nick Cassavetes-directed She 's So Lovely -LRB- 1997 -RRB- , and two Best Actor Awards at the Venice Film Festival for the indie film Hurlyburly -LRB- 1998 -RRB- and the drama 21 Grams -LRB- 2003 -RRB- ."
+            },
+            {
+              "page_title": "Sean Penn",
+              "line_index": 11,
+              "sentence": "Penn made his feature film directorial debut with The Indian Runner -LRB- 1991 -RRB- , followed by the drama film The Crossing Guard -LRB- 1995 -RRB- and the mystery film The Pledge -LRB- 2001 -RRB- ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000918",
+      "claim": "Kareena Kapoor wrote negative reviews.",
+      "evidence_sentences": "This initial success was followed by a series of commercial failures and repetitive roles , which garnered her negative reviews .",
+      "page_titles": [
+        "Kareena Kapoor"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kareena Kapoor",
+            "line_index": 6,
+            "sentence": "This initial success was followed by a series of commercial failures and repetitive roles , which garnered her negative reviews ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000919",
+      "claim": "TV Choice is on at 3 pm weekly.",
+      "evidence_sentences": "TV Choice is a British weekly TV listings magazine published by H. Bauer Publishing , the UK subsidiary of family-run German company Bauer Media Group .",
+      "page_titles": [
+        "TV Choice"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "TV Choice",
+            "line_index": 0,
+            "sentence": "TV Choice is a British weekly TV listings magazine published by H. Bauer Publishing , the UK subsidiary of family-run German company Bauer Media Group ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000920",
+      "claim": "Hot Right Now is mistakenly attributed to DJ Fresh.",
+      "evidence_sentences": "`` Hot Right Now '' is a single by British drum and bass producer DJ Fresh , released as the second single from his third studio album , Nextlevelism .",
+      "page_titles": [
+        "Hot Right Now"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Hot Right Now",
+            "line_index": 0,
+            "sentence": "`` Hot Right Now '' is a single by British drum and bass producer DJ Fresh , released as the second single from his third studio album , Nextlevelism ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000921",
+      "claim": "The Gifted was modeled on Marvel Comics' X-Men abilities.",
+      "evidence_sentences": "The Gifted is an upcoming American television series created for Fox by Matt Nix , based on Marvel Comics ' X-Men properties .",
+      "page_titles": [
+        "The Gifted -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Gifted -LRB-TV series-RRB-",
+            "line_index": 0,
+            "sentence": "The Gifted is an upcoming American television series created for Fox by Matt Nix , based on Marvel Comics ' X-Men properties ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000922",
+      "claim": "TV Choice is on from Saturday to Friday.",
+      "evidence_sentences": "It features weekly TV broadcast programming listings , running from Saturday to Friday , and goes on sale every Tuesday .",
+      "page_titles": [
+        "TV Choice"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "TV Choice",
+            "line_index": 1,
+            "sentence": "It features weekly TV broadcast programming listings , running from Saturday to Friday , and goes on sale every Tuesday ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "TV Choice",
+              "line_index": 0,
+              "sentence": "TV Choice is a British weekly TV listings magazine published by H. Bauer Publishing , the UK subsidiary of family-run German company Bauer Media Group ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000923",
+      "claim": "Tottenham Hotspur F.C. won a UEFA club competition in the sixties.",
+      "evidence_sentences": "After successfully defending the FA Cup in 1962 , in 1963 they became the first British club to win a UEFA club competition -- the European Cup Winners ' Cup .",
+      "page_titles": [
+        "Tottenham Hotspur F.C."
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tottenham Hotspur F.C.",
+            "line_index": 7,
+            "sentence": "After successfully defending the FA Cup in 1962 , in 1963 they became the first British club to win a UEFA club competition -- the European Cup Winners ' Cup ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000924",
+      "claim": "Jon Hamm received eight Primetime Emmy Award nominations.",
+      "evidence_sentences": "Hamm has received 16 Primetime Emmy Award nominations for his performances in Mad Men , 30 Rock -LRB- 2006 -- 2013 -RRB- , and Unbreakable Kimmy Schmidt -LRB- 2015 -- present -RRB- .",
+      "page_titles": [
+        "Jon Hamm"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Jon Hamm",
+            "line_index": 14,
+            "sentence": "Hamm has received 16 Primetime Emmy Award nominations for his performances in Mad Men , 30 Rock -LRB- 2006 -- 2013 -RRB- , and Unbreakable Kimmy Schmidt -LRB- 2015 -- present -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000925",
+      "claim": "Keith Urban is an Australian country music artist's second studio album.",
+      "evidence_sentences": "Keith Urban -LRB- also known as Keith Urban II -RRB- is the second studio album by Australian country music artist Keith Urban , released on 19 October 1999 by Capitol Nashville .",
+      "page_titles": [
+        "Keith Urban -LRB-1999 album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Keith Urban -LRB-1999 album-RRB-",
+            "line_index": 0,
+            "sentence": "Keith Urban -LRB- also known as Keith Urban II -RRB- is the second studio album by Australian country music artist Keith Urban , released on 19 October 1999 by Capitol Nashville ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000926",
+      "claim": "Rio's 2013 sequel is called Rio 2.",
+      "evidence_sentences": "A sequel , Rio 2 , was released on April 11 , 2014 . Rio 2 is a 2014 American 3D computer-animated musical comedy film produced by Blue Sky Studios and directed by Carlos Saldanha .",
+      "page_titles": [
+        "Rio -LRB-2011 film-RRB-",
+        "Rio 2"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Rio -LRB-2011 film-RRB-",
+            "line_index": 20,
+            "sentence": "A sequel , Rio 2 , was released on April 11 , 2014 ."
+          },
+          {
+            "page_title": "Rio 2",
+            "line_index": 0,
+            "sentence": "Rio 2 is a 2014 American 3D computer-animated musical comedy film produced by Blue Sky Studios and directed by Carlos Saldanha ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000927",
+      "claim": "Stomp the Yard stars an American actor born in October of 1982.",
+      "evidence_sentences": "The film stars Columbus Short , Meagan Good , Darrin Henson , Brian White , Laz Alonso , and Valarie Pettiford , with Harry Lennix , and , in their film debuts , R&B singers Ne-Yo & Chris Brown . Columbus Keith Short , Jr. -LRB- born September 19 , 1982 -RRB- is an American choreographer , actor , and singer .",
+      "page_titles": [
+        "Stomp the Yard",
+        "Columbus Short"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Stomp the Yard",
+            "line_index": 8,
+            "sentence": "The film stars Columbus Short , Meagan Good , Darrin Henson , Brian White , Laz Alonso , and Valarie Pettiford , with Harry Lennix , and , in their film debuts , R&B singers Ne-Yo & Chris Brown ."
+          },
+          {
+            "page_title": "Columbus Short",
+            "line_index": 0,
+            "sentence": "Columbus Keith Short , Jr. -LRB- born September 19 , 1982 -RRB- is an American choreographer , actor , and singer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000928",
+      "claim": "Recovery is a song by Marshall Mathers III.",
+      "evidence_sentences": "Recovery is the seventh studio album by American rapper Eminem . Marshall Bruce Mathers III -LRB- born October 17 , 1972 -RRB- , known professionally as Eminem -LRB- often stylized as EMINƎM -RRB- , is an American rapper , record producer , and actor .",
+      "page_titles": [
+        "Recovery -LRB-Eminem album-RRB-",
+        "Eminem"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Recovery -LRB-Eminem album-RRB-",
+            "line_index": 0,
+            "sentence": "Recovery is the seventh studio album by American rapper Eminem ."
+          },
+          {
+            "page_title": "Eminem",
+            "line_index": 0,
+            "sentence": "Marshall Bruce Mathers III -LRB- born October 17 , 1972 -RRB- , known professionally as Eminem -LRB- often stylized as EMINƎM -RRB- , is an American rapper , record producer , and actor ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000929",
+      "claim": "How to Train Your Dragon 2 used new filming software.",
+      "evidence_sentences": "How to Train Your Dragon 2 benefited from advances in animation technology and was DreamWorks ' first film to use scalable multicore processing and the studio 's new animation and lighting software .",
+      "page_titles": [
+        "How to Train Your Dragon 2"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "How to Train Your Dragon 2",
+            "line_index": 11,
+            "sentence": "How to Train Your Dragon 2 benefited from advances in animation technology and was DreamWorks ' first film to use scalable multicore processing and the studio 's new animation and lighting software ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000930",
+      "claim": "Pakistan's economy is 42nd largest in nominal gross domestic product.",
+      "evidence_sentences": "The Pakistani economy is the 24th-largest in the world in terms of purchasing power and the 41st-largest in terms of nominal GDP -LRB- World Bank -RRB- .",
+      "page_titles": [
+        "Pakistan"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Pakistan",
+            "line_index": 22,
+            "sentence": "The Pakistani economy is the 24th-largest in the world in terms of purchasing power and the 41st-largest in terms of nominal GDP -LRB- World Bank -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000931",
+      "claim": "James Jones missed the playoffs once in 2007-2008.",
+      "evidence_sentences": "Jones has never been on an NBA team with a losing record and has only missed the playoffs once -- with the Trail Blazers in 2007 -- 08 .",
+      "page_titles": [
+        "James Jones -LRB-basketball player-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "James Jones -LRB-basketball player-RRB-",
+            "line_index": 15,
+            "sentence": "Jones has never been on an NBA team with a losing record and has only missed the playoffs once -- with the Trail Blazers in 2007 -- 08 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000932",
+      "claim": "Hush (2016 film) was produced by Trevor Macy through Intrepid Pictures.",
+      "evidence_sentences": "The film was produced by Trevor Macy , through Intrepid Pictures , and Jason Blum through his Blumhouse Productions banner .",
+      "page_titles": [
+        "Hush -LRB-2016 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Hush -LRB-2016 film-RRB-",
+            "line_index": 2,
+            "sentence": "The film was produced by Trevor Macy , through Intrepid Pictures , and Jason Blum through his Blumhouse Productions banner ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000933",
+      "claim": "The Mighty Ducks was produced by a subsidiary of Walt Disney Studios.",
+      "evidence_sentences": "It was produced by The Kerner Entertainment Company and Avnet -- Kerner Productions and distributed by Walt Disney Pictures . Walt Disney Pictures , Inc. is an American film production company and a subsidiary of Walt Disney Studios , owned by The Walt Disney Company .",
+      "page_titles": [
+        "The Mighty Ducks",
+        "Walt Disney Pictures"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Mighty Ducks",
+            "line_index": 1,
+            "sentence": "It was produced by The Kerner Entertainment Company and Avnet -- Kerner Productions and distributed by Walt Disney Pictures ."
+          },
+          {
+            "page_title": "Walt Disney Pictures",
+            "line_index": 0,
+            "sentence": "Walt Disney Pictures , Inc. is an American film production company and a subsidiary of Walt Disney Studios , owned by The Walt Disney Company ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000934",
+      "claim": "The Dodo has been depicted with a grey and red head.",
+      "evidence_sentences": "It has been depicted with brownish-grey plumage , yellow feet , a tuft of tail feathers , a grey , naked head , and a black , yellow , and green beak .",
+      "page_titles": [
+        "Dodo"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Dodo",
+            "line_index": 10,
+            "sentence": "It has been depicted with brownish-grey plumage , yellow feet , a tuft of tail feathers , a grey , naked head , and a black , yellow , and green beak ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000935",
+      "claim": "Two and a Half Men originally aired on CBS.",
+      "evidence_sentences": "Two and a Half Men is an American television sitcom that originally aired on CBS for twelve seasons from September 22 , 2003 to February 19 , 2015 .",
+      "page_titles": [
+        "Two and a Half Men"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Two and a Half Men",
+            "line_index": 0,
+            "sentence": "Two and a Half Men is an American television sitcom that originally aired on CBS for twelve seasons from September 22 , 2003 to February 19 , 2015 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000936",
+      "claim": "DodgeBall: A True Underdog Story is a teen horror film.",
+      "evidence_sentences": "DodgeBall : A True Underdog Story is a 2004 American sports comedy film written and directed by Rawson Marshall Thurber and starring Vince Vaughn and Ben Stiller .",
+      "page_titles": [
+        "DodgeBall-COLON- A True Underdog Story"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "DodgeBall-COLON- A True Underdog Story",
+            "line_index": 0,
+            "sentence": "DodgeBall : A True Underdog Story is a 2004 American sports comedy film written and directed by Rawson Marshall Thurber and starring Vince Vaughn and Ben Stiller ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000937",
+      "claim": "On April 10, 2008 Shomu Mukherjee died.",
+      "evidence_sentences": "Shomu Mukherjee -LRB- or Shomu Mukherji -RRB- -LRB- 19 June , 1943 -- 10 April 2008 -RRB- was a Bengali Indian director , writer and producer .",
+      "page_titles": [
+        "Shomu Mukherjee"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Shomu Mukherjee",
+            "line_index": 0,
+            "sentence": "Shomu Mukherjee -LRB- or Shomu Mukherji -RRB- -LRB- 19 June , 1943 -- 10 April 2008 -RRB- was a Bengali Indian director , writer and producer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000938",
+      "claim": "Colin Kaepernick starts for the San Francisco 49ers.",
+      "evidence_sentences": "Kaepernick was selected by the San Francisco 49ers in the second round of the 2011 NFL Draft .",
+      "page_titles": [
+        "Colin Kaepernick"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Colin Kaepernick",
+            "line_index": 2,
+            "sentence": "Kaepernick was selected by the San Francisco 49ers in the second round of the 2011 NFL Draft ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 5,
+              "sentence": "Kaepernick began his professional career as a backup to Alex Smith , but became the 49ers ' starter in the middle of the 2012 season after Smith suffered a concussion ."
+            },
+            {
+              "page_title": "2012 San Francisco 49ers season",
+              "line_index": 0,
+              "sentence": "The San Francisco 49ers season was the franchise 's 63rd season in the National Football League , the 67th overall , the second under the head coach/general manager tandem of Jim Harbaugh and Trent Baalke , and their penultimate season at Candlestick Park ."
+            }
+          ],
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 5,
+              "sentence": "Kaepernick began his professional career as a backup to Alex Smith , but became the 49ers ' starter in the middle of the 2012 season after Smith suffered a concussion ."
+            }
+          ],
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 5,
+              "sentence": "Kaepernick began his professional career as a backup to Alex Smith , but became the 49ers ' starter in the middle of the 2012 season after Smith suffered a concussion ."
+            }
+          ],
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 6,
+              "sentence": "He remained the team 's starting quarterback for the rest of the season and went on to lead the 49ers to their first Super Bowl appearance since 1994 , losing to the Baltimore Ravens ."
+            }
+          ],
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 7,
+              "sentence": "During the 2013 season , his first full season as a starter , Kaepernick helped the 49ers reach the NFC Championship , losing to the Seattle Seahawks ."
+            }
+          ],
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 8,
+              "sentence": "In the following seasons , Kaepernick lost and won back his starting job , with the 49ers missing the playoffs for three years consecutively ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 7,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000939",
+      "claim": "Duane Chapman's full name, including his bounty hunter nickname, is Duane Lee \"Dog\" Chapman I.",
+      "evidence_sentences": "Duane Lee `` Dog '' Chapman I. -LRB- born February 2 , 1953 -RRB- is an American bounty hunter and a former bail bondsman .",
+      "page_titles": [
+        "Duane Chapman"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Duane Chapman",
+            "line_index": 0,
+            "sentence": "Duane Lee `` Dog '' Chapman I. -LRB- born February 2 , 1953 -RRB- is an American bounty hunter and a former bail bondsman ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000940",
+      "claim": "A monster is usually found in myths or horror fiction.",
+      "evidence_sentences": "A monster is any creature , usually found in legends or horror fiction , that is often hideous and may produce fear or physical harm by its appearance or its actions .",
+      "page_titles": [
+        "Monster"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Monster",
+            "line_index": 0,
+            "sentence": "A monster is any creature , usually found in legends or horror fiction , that is often hideous and may produce fear or physical harm by its appearance or its actions ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000941",
+      "claim": "The Tracey Fragments played at the 2007 Toronto International Film Festival.",
+      "evidence_sentences": "The film was selected to open the Panorama section of the 57th Berlin International Film Festival and had its world premiere February 8 , 2007 .",
+      "page_titles": [
+        "The Tracey Fragments -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Tracey Fragments -LRB-film-RRB-",
+            "line_index": 4,
+            "sentence": "The film was selected to open the Panorama section of the 57th Berlin International Film Festival and had its world premiere February 8 , 2007 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000942",
+      "claim": "The Burj Khalifa contains 65 escalators.",
+      "evidence_sentences": "It contains a total of 57 elevators and 8 escalators .",
+      "page_titles": [
+        "Burj Khalifa"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Burj Khalifa",
+            "line_index": 20,
+            "sentence": "It contains a total of 57 elevators and 8 escalators ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000943",
+      "claim": "The Latvian Soviet Socialist Republic was a state of the Soviet Union.",
+      "evidence_sentences": "The Latvian Soviet Socialist Republic -LRB- Latvian SSR ; Latvijas Padomju Sociālistiskā Republika Латвийская Советская Социалистическая Республика , Latviyskaya Sovetskaya Sotsialisticheskaya Respublika -RRB- , also known as Soviet Latvia or Latvia , was a republic of the Soviet Union . The Republics of the Soviet Union or the Union Republics -LRB- союзные республики , soyuznye respubliki -RRB- of the Soviet Union were ethnically based administrative units that were subordinated directly to the Government of the Soviet Union .",
+      "page_titles": [
+        "Latvian Soviet Socialist Republic",
+        "Republics of the Soviet Union"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Latvian Soviet Socialist Republic",
+            "line_index": 0,
+            "sentence": "The Latvian Soviet Socialist Republic -LRB- Latvian SSR ; Latvijas Padomju Sociālistiskā Republika Латвийская Советская Социалистическая Республика , Latviyskaya Sovetskaya Sotsialisticheskaya Respublika -RRB- , also known as Soviet Latvia or Latvia , was a republic of the Soviet Union ."
+          },
+          {
+            "page_title": "Republics of the Soviet Union",
+            "line_index": 0,
+            "sentence": "The Republics of the Soviet Union or the Union Republics -LRB- союзные республики , soyuznye respubliki -RRB- of the Soviet Union were ethnically based administrative units that were subordinated directly to the Government of the Soviet Union ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000944",
+      "claim": "A monk lives alone or with other types of people.",
+      "evidence_sentences": "A monk -LRB- -LSB- mʌŋk -RSB- , from μοναχός , monachos , `` single , solitary '' and Latin monachus -RRB- is a person who practices religious asceticism by monastic living , either alone or with any number of other monks .",
+      "page_titles": [
+        "Monk"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Monk",
+            "line_index": 0,
+            "sentence": "A monk -LRB- -LSB- mʌŋk -RSB- , from μοναχός , monachos , `` single , solitary '' and Latin monachus -RRB- is a person who practices religious asceticism by monastic living , either alone or with any number of other monks ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000945",
+      "claim": "Henry Condell had a widow that was buried on the 3rd.",
+      "evidence_sentences": "His widow , Elizabeth , was buried there on 3 October 1635 .",
+      "page_titles": [
+        "Henry Condell"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Henry Condell",
+            "line_index": 55,
+            "sentence": "His widow , Elizabeth , was buried there on 3 October 1635 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000946",
+      "claim": "Saw II was released in a format.",
+      "evidence_sentences": "Saw II was released on October 28 , 2005 and , despite mixed reviews from critics , was a financial success , with opening takings of $ 31.9 million and grossing $ 88 million in the United States and Canada .",
+      "page_titles": [
+        "Saw II"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Saw II",
+            "line_index": 17,
+            "sentence": "Saw II was released on October 28 , 2005 and , despite mixed reviews from critics , was a financial success , with opening takings of $ 31.9 million and grossing $ 88 million in the United States and Canada ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Saw II",
+              "line_index": 20,
+              "sentence": "Saw II was released to DVD on and topped charts its first week , selling more than 3 million units ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000947",
+      "claim": "The Dodo has been depicted with a naked head.",
+      "evidence_sentences": "It has been depicted with brownish-grey plumage , yellow feet , a tuft of tail feathers , a grey , naked head , and a black , yellow , and green beak .",
+      "page_titles": [
+        "Dodo"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Dodo",
+            "line_index": 10,
+            "sentence": "It has been depicted with brownish-grey plumage , yellow feet , a tuft of tail feathers , a grey , naked head , and a black , yellow , and green beak ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000948",
+      "claim": "Kenny Chesney's full name is Kenneth Arnold Chesney.",
+      "evidence_sentences": "Kenneth Arnold `` Kenny '' Chesney -LRB- born March 26 , 1968 -RRB- is an American country music singer , songwriter and record producer .",
+      "page_titles": [
+        "Kenny Chesney"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kenny Chesney",
+            "line_index": 0,
+            "sentence": "Kenneth Arnold `` Kenny '' Chesney -LRB- born March 26 , 1968 -RRB- is an American country music singer , songwriter and record producer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000949",
+      "claim": "Aarhus is the ball of Aarhus municipality.",
+      "evidence_sentences": "Aarhus -LRB- -LSB- ˈɒːhuːˀs -RSB- ; officially spelled Århus from 1948 until 31 December 2010 -RRB- is the second-largest city in Denmark and the seat of Aarhus municipality .",
+      "page_titles": [
+        "Aarhus"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Aarhus",
+            "line_index": 0,
+            "sentence": "Aarhus -LRB- -LSB- ˈɒːhuːˀs -RSB- ; officially spelled Århus from 1948 until 31 December 2010 -RRB- is the second-largest city in Denmark and the seat of Aarhus municipality ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000950",
+      "claim": "The Invisible Man was a science fiction horror television series.",
+      "evidence_sentences": "The Invisible Man is an American 1933 Pre-Code science fiction horror film based on H. G. Wells ' science fiction novel The Invisible Man , published in 1897 , as adapted by R.C. Sherriff , Philip Wylie and Preston Sturges , whose work was considered unsatisfactory and who was taken off the project .",
+      "page_titles": [
+        "The Invisible Man -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Invisible Man -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "The Invisible Man is an American 1933 Pre-Code science fiction horror film based on H. G. Wells ' science fiction novel The Invisible Man , published in 1897 , as adapted by R.C. Sherriff , Philip Wylie and Preston Sturges , whose work was considered unsatisfactory and who was taken off the project ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000951",
+      "claim": "ASAP Rocky has directed chemistry videos for other A$AP Mob members.",
+      "evidence_sentences": "Rocky has also directed music videos for himself , Danny Brown and other A$ AP Mob members .",
+      "page_titles": [
+        "ASAP Rocky"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "ASAP Rocky",
+            "line_index": 18,
+            "sentence": "Rocky has also directed music videos for himself , Danny Brown and other A$ AP Mob members ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000952",
+      "claim": "Probot had Dave Grohl as a drummer.",
+      "evidence_sentences": "Probot was a heavy metal side project of ex-Nirvana drummer and Foo Fighters rhythm guitarist and lead-singer Dave Grohl .",
+      "page_titles": [
+        "Probot"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Probot",
+            "line_index": 0,
+            "sentence": "Probot was a heavy metal side project of ex-Nirvana drummer and Foo Fighters rhythm guitarist and lead-singer Dave Grohl ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000953",
+      "claim": "The University of Leicester contributed to the identification of the money of King Richard III.",
+      "evidence_sentences": "The university is most famous for the invention of genetic fingerprinting and contributing to the discovery and identification of the remains of King Richard III .",
+      "page_titles": [
+        "University of Leicester"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "University of Leicester",
+            "line_index": 11,
+            "sentence": "The university is most famous for the invention of genetic fingerprinting and contributing to the discovery and identification of the remains of King Richard III ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000954",
+      "claim": "Benjamin Franklin earned a title.",
+      "evidence_sentences": "He organized and was the first secretary of the American Philosophical Society and was elected president in 1769 .",
+      "page_titles": [
+        "Benjamin Franklin"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Benjamin Franklin",
+            "line_index": 20,
+            "sentence": "He organized and was the first secretary of the American Philosophical Society and was elected president in 1769 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Benjamin Franklin",
+              "line_index": 7,
+              "sentence": "Franklin earned the title of `` The First American '' for his early and indefatigable campaigning for colonial unity , initially as an author and spokesman in London for several colonies ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000955",
+      "claim": "There are no musical or creative works in existence that have been created by Phillip Glass.",
+      "evidence_sentences": "He has written numerous operas and musical theatre works , eleven symphonies , eleven concertos , seven string quartets and various other chamber music , and film scores .",
+      "page_titles": [
+        "Philip Glass"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Philip Glass",
+            "line_index": 9,
+            "sentence": "He has written numerous operas and musical theatre works , eleven symphonies , eleven concertos , seven string quartets and various other chamber music , and film scores ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000956",
+      "claim": "James, Viscount Severn is the only ally of Prince Edward and Sophie, Countess of Wessex.",
+      "evidence_sentences": "James , Viscount Severn -LRB- James Alexander Philip Theo Mountbatten-Windsor ; born 17 December 2007 -RRB- is the younger child and only son of Prince Edward , Earl of Wessex , and Sophie , Countess of Wessex , and the youngest grandchild of Queen Elizabeth II and Prince Philip , Duke of Edinburgh .",
+      "page_titles": [
+        "James, Viscount Severn"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "James, Viscount Severn",
+            "line_index": 0,
+            "sentence": "James , Viscount Severn -LRB- James Alexander Philip Theo Mountbatten-Windsor ; born 17 December 2007 -RRB- is the younger child and only son of Prince Edward , Earl of Wessex , and Sophie , Countess of Wessex , and the youngest grandchild of Queen Elizabeth II and Prince Philip , Duke of Edinburgh ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000957",
+      "claim": "Vic Mensa was born June 12, 1993.",
+      "evidence_sentences": "Victor Kwesi Mensah -LRB- born June 6 , 1993 -RRB- , better known by his stage name Vic Mensa , is a Grammy-nominated American rapper from Chicago , Illinois .",
+      "page_titles": [
+        "Vic Mensa"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Vic Mensa",
+            "line_index": 0,
+            "sentence": "Victor Kwesi Mensah -LRB- born June 6 , 1993 -RRB- , better known by his stage name Vic Mensa , is a Grammy-nominated American rapper from Chicago , Illinois ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000958",
+      "claim": "The Cry of the Owl is based on Patricia Highsmith's eighth novel \"Push\".",
+      "evidence_sentences": "The Cry of the Owl is a 2009 thriller film based on Patricia Highsmith 's book of the same name .",
+      "page_titles": [
+        "The Cry of the Owl -LRB-2009 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Cry of the Owl -LRB-2009 film-RRB-",
+            "line_index": 0,
+            "sentence": "The Cry of the Owl is a 2009 thriller film based on Patricia Highsmith 's book of the same name ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000959",
+      "claim": "Kerplunk was Green Day's first of many albums on the Lookout Records label.",
+      "evidence_sentences": "Kerplunk is the second studio album by American punk rock band Green Day , released on December 17 , 1991 by Lookout !",
+      "page_titles": [
+        "Kerplunk -LRB-album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kerplunk -LRB-album-RRB-",
+            "line_index": 0,
+            "sentence": "Kerplunk is the second studio album by American punk rock band Green Day , released on December 17 , 1991 by Lookout !"
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000960",
+      "claim": "Kenneth Lonergan date of birth is October 16, 1962.",
+      "evidence_sentences": "Kenneth Lonergan -LRB- born October 16 , 1962 -RRB- is an American playwright , screenwriter , and director .",
+      "page_titles": [
+        "Kenneth Lonergan"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kenneth Lonergan",
+            "line_index": 0,
+            "sentence": "Kenneth Lonergan -LRB- born October 16 , 1962 -RRB- is an American playwright , screenwriter , and director ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000961",
+      "claim": "Same Old Love is disassociated from Selena Gomez.",
+      "evidence_sentences": "`` Same Old Love '' is a song by American singer Selena Gomez from her second studio album , Revival -LRB- 2015 -RRB- .",
+      "page_titles": [
+        "Same Old Love"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Same Old Love",
+            "line_index": 0,
+            "sentence": "`` Same Old Love '' is a song by American singer Selena Gomez from her second studio album , Revival -LRB- 2015 -RRB- ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Same Old Love",
+              "line_index": 20,
+              "sentence": "Gomez promoted `` Same Old Love '' with several televised performances , including on The Ellen DeGeneres Show , The Tonight Show Starring Jimmy Fallon , and at the 2015 American Music Awards ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000962",
+      "claim": "Season 2 of Fargo takes place in Midwestern Canada.",
+      "evidence_sentences": "A prequel to the events in its first season , season two of Fargo takes place in the Midwestern United States in March 1979 .",
+      "page_titles": [
+        "Fargo -LRB-season 2-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Fargo -LRB-season 2-RRB-",
+            "line_index": 6,
+            "sentence": "A prequel to the events in its first season , season two of Fargo takes place in the Midwestern United States in March 1979 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000963",
+      "claim": "Leonardo DiCaprio passed on the starring role in The Man in the Iron Mask.",
+      "evidence_sentences": "The Man in the Iron Mask is a 1998 American action drama film directed , produced , and written by Randall Wallace , and starring Leonardo DiCaprio in a dual role as the title character and villain , Jeremy Irons as Aramis , John Malkovich as Athos , Gerard Depardieu as Porthos , and Gabriel Byrne as D'Artagnan .",
+      "page_titles": [
+        "The Man in the Iron Mask -LRB-1998 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Man in the Iron Mask -LRB-1998 film-RRB-",
+            "line_index": 0,
+            "sentence": "The Man in the Iron Mask is a 1998 American action drama film directed , produced , and written by Randall Wallace , and starring Leonardo DiCaprio in a dual role as the title character and villain , Jeremy Irons as Aramis , John Malkovich as Athos , Gerard Depardieu as Porthos , and Gabriel Byrne as D'Artagnan ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000964",
+      "claim": "Aleister Crowley was born on Tuesday, October 12, 1875.",
+      "evidence_sentences": "Aleister Crowley -LRB- -LSB- ˈkroʊli -RSB- born Edward Alexander Crowley ; 12 October 1875 -- 1 December 1947 -RRB- was an English occultist , ceremonial magician , poet , painter , novelist , and mountaineer .",
+      "page_titles": [
+        "Aleister Crowley"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Aleister Crowley",
+            "line_index": 0,
+            "sentence": "Aleister Crowley -LRB- -LSB- ˈkroʊli -RSB- born Edward Alexander Crowley ; 12 October 1875 -- 1 December 1947 -RRB- was an English occultist , ceremonial magician , poet , painter , novelist , and mountaineer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000965",
+      "claim": "Phoenix, Arizona is the capital of the Atlantic Ocean.",
+      "evidence_sentences": "Phoenix -LRB- -LSB- ˈfiːnᵻks -RSB- -RRB- is the capital and most populous city of the U.S. state of Arizona .",
+      "page_titles": [
+        "Phoenix, Arizona"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Phoenix, Arizona",
+            "line_index": 0,
+            "sentence": "Phoenix -LRB- -LSB- ˈfiːnᵻks -RSB- -RRB- is the capital and most populous city of the U.S. state of Arizona ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000966",
+      "claim": "Jonah Hill made $16 million dollars in June of 2014.",
+      "evidence_sentences": "Hill ranked 28th on Forbes magazine 's ranking of world 's highest paid actors from June 2014 to June 2015 , bringing in $ 16million .",
+      "page_titles": [
+        "Jonah Hill"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Jonah Hill",
+            "line_index": 4,
+            "sentence": "Hill ranked 28th on Forbes magazine 's ranking of world 's highest paid actors from June 2014 to June 2015 , bringing in $ 16million ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000967",
+      "claim": "John Krasinski is a thespian.",
+      "evidence_sentences": "John Burke Krasinski -LRB- -LSB- krəˈzɪnski -RSB- born October 20 , 1979 -RRB- is an American actor and filmmaker .",
+      "page_titles": [
+        "John Krasinski"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "John Krasinski",
+            "line_index": 0,
+            "sentence": "John Burke Krasinski -LRB- -LSB- krəˈzɪnski -RSB- born October 20 , 1979 -RRB- is an American actor and filmmaker ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000968",
+      "claim": "The Washington Wizards have won four conference titles.",
+      "evidence_sentences": "They have won four conference titles -LRB- 1971 , 1975 , 1978 , 1979 -RRB- , and seven division titles -LRB- 1971 , 1972 , 1973 , 1974 , 1975 , 1979 , 2017 -RRB- .",
+      "page_titles": [
+        "Washington Wizards"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Washington Wizards",
+            "line_index": 12,
+            "sentence": "They have won four conference titles -LRB- 1971 , 1975 , 1978 , 1979 -RRB- , and seven division titles -LRB- 1971 , 1972 , 1973 , 1974 , 1975 , 1979 , 2017 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000969",
+      "claim": "Vatican City was established in January 1929.",
+      "evidence_sentences": "The independent city-state , on the other hand , came into existence in 1929 by the Lateran Treaty between the Holy See and Italy , which spoke of it as a new creation , not as a vestige of the much larger Papal States -LRB- 756 -- 1870 -RRB- , which had previously encompassed much of central Italy .",
+      "page_titles": [
+        "Vatican City"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Vatican City",
+            "line_index": 11,
+            "sentence": "The independent city-state , on the other hand , came into existence in 1929 by the Lateran Treaty between the Holy See and Italy , which spoke of it as a new creation , not as a vestige of the much larger Papal States -LRB- 756 -- 1870 -RRB- , which had previously encompassed much of central Italy ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000970",
+      "claim": "Kesha was conceived on March 1st, 1987.",
+      "evidence_sentences": "Kesha Rose Sebert -LRB- -LSB- ˈkɛʃə_roʊz_ˈsɛbərt -RSB- ; born March 1 , 1987 ; formerly stylized as Ke $ ha -RRB- is an American singer , songwriter , and rapper .",
+      "page_titles": [
+        "Kesha"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kesha",
+            "line_index": 0,
+            "sentence": "Kesha Rose Sebert -LRB- -LSB- ˈkɛʃə_roʊz_ˈsɛbərt -RSB- ; born March 1 , 1987 ; formerly stylized as Ke $ ha -RRB- is an American singer , songwriter , and rapper ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000971",
+      "claim": "The last windstorm in Stanley Park was in 2006.",
+      "evidence_sentences": "Thousands of trees were lost -LRB- and many replanted -RRB- after three major windstorms that took place in the past 100 years , the last in 2006 .",
+      "page_titles": [
+        "Stanley Park"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Stanley Park",
+            "line_index": 16,
+            "sentence": "Thousands of trees were lost -LRB- and many replanted -RRB- after three major windstorms that took place in the past 100 years , the last in 2006 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000972",
+      "claim": "The 100 is a music video following a group of teens.",
+      "evidence_sentences": "The 100 -LRB- pronounced The Hundred -RRB- is an American post-apocalyptic science fiction drama television series that premiered on March 19 , 2014 , on The CW .",
+      "page_titles": [
+        "The 100 -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The 100 -LRB-TV series-RRB-",
+            "line_index": 0,
+            "sentence": "The 100 -LRB- pronounced The Hundred -RRB- is an American post-apocalyptic science fiction drama television series that premiered on March 19 , 2014 , on The CW ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000973",
+      "claim": "The Premier League Asia Trophy is for soccer.",
+      "evidence_sentences": "The Premier League Asia Trophy -LRB- formerly the FA Premier League Asia Cup -RRB- is a pre-season association football friendly tournament held biennial in Asia .",
+      "page_titles": [
+        "Premier League Asia Trophy"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Premier League Asia Trophy",
+            "line_index": 0,
+            "sentence": "The Premier League Asia Trophy -LRB- formerly the FA Premier League Asia Cup -RRB- is a pre-season association football friendly tournament held biennial in Asia ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000974",
+      "claim": "The Closer's seventh season began in July 2012.",
+      "evidence_sentences": "On Monday , July 11 , 2011 , the series began its seventh and final season , having finished its sixth season as cable 's highest rated drama .",
+      "page_titles": [
+        "The Closer"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Closer",
+            "line_index": 8,
+            "sentence": "On Monday , July 11 , 2011 , the series began its seventh and final season , having finished its sixth season as cable 's highest rated drama ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Closer",
+              "line_index": 8,
+              "sentence": "On Monday , July 11 , 2011 , the series began its seventh and final season , having finished its sixth season as cable 's highest rated drama ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Closer",
+              "line_index": 8,
+              "sentence": "On Monday , July 11 , 2011 , the series began its seventh and final season , having finished its sixth season as cable 's highest rated drama ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000975",
+      "claim": "Prescott, Arizona is in northern Yavapai County.",
+      "evidence_sentences": "Prescott -LRB- -LSB- ˈprɛskət -RSB- ; ʼWi : kwatha Ksikʼita -RRB- is a city in Yavapai County , Arizona , United States .",
+      "page_titles": [
+        "Prescott, Arizona"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Prescott, Arizona",
+            "line_index": 0,
+            "sentence": "Prescott -LRB- -LSB- ˈprɛskət -RSB- ; ʼWi : kwatha Ksikʼita -RRB- is a city in Yavapai County , Arizona , United States ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000976",
+      "claim": "Keith Urban was released by a record label.",
+      "evidence_sentences": "Keith Urban -LRB- also known as Keith Urban II -RRB- is the second studio album by Australian country music artist Keith Urban , released on 19 October 1999 by Capitol Nashville .",
+      "page_titles": [
+        "Keith Urban -LRB-1999 album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Keith Urban -LRB-1999 album-RRB-",
+            "line_index": 0,
+            "sentence": "Keith Urban -LRB- also known as Keith Urban II -RRB- is the second studio album by Australian country music artist Keith Urban , released on 19 October 1999 by Capitol Nashville ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000977",
+      "claim": "Spider-Man 2 was written by Alvin Sargent in 2003.",
+      "evidence_sentences": "Spider-Man 2 is a 2004 American superhero film directed by Sam Raimi and written by Alvin Sargent from a story by Alfred Gough , Miles Millar , and Michael Chabon .",
+      "page_titles": [
+        "Spider-Man 2"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Spider-Man 2",
+            "line_index": 0,
+            "sentence": "Spider-Man 2 is a 2004 American superhero film directed by Sam Raimi and written by Alvin Sargent from a story by Alfred Gough , Miles Millar , and Michael Chabon ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000978",
+      "claim": "Entourage (film) received generally negative reviews from critics.",
+      "evidence_sentences": "The film was released on June 3 , 2015 , received generally negative reviews and grossed over $ 49 million .",
+      "page_titles": [
+        "Entourage -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Entourage -LRB-film-RRB-",
+            "line_index": 3,
+            "sentence": "The film was released on June 3 , 2015 , received generally negative reviews and grossed over $ 49 million ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000979",
+      "claim": "Robert Singer (producer) directed at least one television show.",
+      "evidence_sentences": "He is best known for his work on Supernatural where he serves as an executive producer , director and occasional writer .",
+      "page_titles": [
+        "Robert Singer -LRB-producer-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Robert Singer -LRB-producer-RRB-",
+            "line_index": 1,
+            "sentence": "He is best known for his work on Supernatural where he serves as an executive producer , director and occasional writer ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Robert Singer -LRB-producer-RRB-",
+              "line_index": 4,
+              "sentence": "Singer also created the series Reasonable Doubts and has worked as a producer and director on various television series , including Lois & Clark : The New Adventures of Superman ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000980",
+      "claim": "Superhuman abilities may result from frog enhancement by nanotechnology.",
+      "evidence_sentences": "Superhuman abilities may result from human enhancement by genetic modification , cybernetic implants , nanotechnology , radiation or from human evolution in the future .",
+      "page_titles": [
+        "Superhuman"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Superhuman",
+            "line_index": 6,
+            "sentence": "Superhuman abilities may result from human enhancement by genetic modification , cybernetic implants , nanotechnology , radiation or from human evolution in the future ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000981",
+      "claim": "Selena Gomez & the Scene's debut album was released in May.",
+      "evidence_sentences": "Their debut album , Kiss & Tell , was released on September 29 , 2009 , debuting at No. 9 on the US Billboard 200 and earning the band a Gold certification from Recording Industry Association of America -LRB- RIAA -RRB- in March 2010 .",
+      "page_titles": [
+        "Selena Gomez & the Scene"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Selena Gomez & the Scene",
+            "line_index": 3,
+            "sentence": "Their debut album , Kiss & Tell , was released on September 29 , 2009 , debuting at No. 9 on the US Billboard 200 and earning the band a Gold certification from Recording Industry Association of America -LRB- RIAA -RRB- in March 2010 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Selena Gomez & the Scene",
+              "line_index": 3,
+              "sentence": "Their debut album , Kiss & Tell , was released on September 29 , 2009 , debuting at No. 9 on the US Billboard 200 and earning the band a Gold certification from Recording Industry Association of America -LRB- RIAA -RRB- in March 2010 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000982",
+      "claim": "The State of Palestine designates West Jerusalem as the capital.",
+      "evidence_sentences": "The State of Palestine claims the West Bank -LRB- bordering Israel and Jordan -RRB- and Gaza Strip -LRB- bordering Israel and Egypt -RRB- with East Jerusalem as the designated capital .",
+      "page_titles": [
+        "State of Palestine"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "State of Palestine",
+            "line_index": 1,
+            "sentence": "The State of Palestine claims the West Bank -LRB- bordering Israel and Jordan -RRB- and Gaza Strip -LRB- bordering Israel and Egypt -RRB- with East Jerusalem as the designated capital ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000983",
+      "claim": "Johnny Galecki only acted in NBC shows.",
+      "evidence_sentences": "He is known for playing David Healy in the ABC sitcom Roseanne from 1992 -- 1997 and Dr. Leonard Hofstadter in the CBS sitcom The Big Bang Theory since 2007 .",
+      "page_titles": [
+        "Johnny Galecki"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Johnny Galecki",
+            "line_index": 1,
+            "sentence": "He is known for playing David Healy in the ABC sitcom Roseanne from 1992 -- 1997 and Dr. Leonard Hofstadter in the CBS sitcom The Big Bang Theory since 2007 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000984",
+      "claim": "The KGB was governed by army laws and regulations.",
+      "evidence_sentences": "The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops .",
+      "page_titles": [
+        "KGB"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "KGB",
+            "line_index": 7,
+            "sentence": "The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "KGB",
+              "line_index": 7,
+              "sentence": "The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops ."
+            }
+          ],
+          [
+            {
+              "page_title": "KGB",
+              "line_index": 7,
+              "sentence": "The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops ."
+            }
+          ],
+          [
+            {
+              "page_title": "KGB",
+              "line_index": 7,
+              "sentence": "The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops ."
+            }
+          ],
+          [
+            {
+              "page_title": "KGB",
+              "line_index": 7,
+              "sentence": "The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000985",
+      "claim": "Mars is in the Solar System, closer to the sun than Earth.",
+      "evidence_sentences": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System , after Mercury . In order of increasing distance from the Sun , they are the four terrestrials , Mercury , Venus , Earth , and Mars , then the four giant planets , Jupiter , Saturn , Uranus , and Neptune .",
+      "page_titles": [
+        "Mars",
+        "Planet"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mars",
+            "line_index": 0,
+            "sentence": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System , after Mercury ."
+          },
+          {
+            "page_title": "Planet",
+            "line_index": 28,
+            "sentence": "In order of increasing distance from the Sun , they are the four terrestrials , Mercury , Venus , Earth , and Mars , then the four giant planets , Jupiter , Saturn , Uranus , and Neptune ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000986",
+      "claim": "The Bahamas is known unofficially as the Commonwealth of The Bahamas.",
+      "evidence_sentences": "The Bahamas -LRB- -LSB- bəˈhɑːməz -RSB- -RRB- , known officially as the Commonwealth of The Bahamas , is an archipelagic state within the Lucayan Archipelago .",
+      "page_titles": [
+        "The Bahamas"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Bahamas",
+            "line_index": 0,
+            "sentence": "The Bahamas -LRB- -LSB- bəˈhɑːməz -RSB- -RRB- , known officially as the Commonwealth of The Bahamas , is an archipelagic state within the Lucayan Archipelago ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000987",
+      "claim": "Doug Petrie played \"Professor Normal\" in Dr. Horrible's Sing-Along Blog.",
+      "evidence_sentences": "He made a cameo on Joss Whedon 's web-based film , Dr. Horrible 's Sing-Along Blog , as `` Professor Normal '' .",
+      "page_titles": [
+        "Doug Petrie"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Doug Petrie",
+            "line_index": 5,
+            "sentence": "He made a cameo on Joss Whedon 's web-based film , Dr. Horrible 's Sing-Along Blog , as `` Professor Normal '' ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Doug Petrie",
+              "line_index": 5,
+              "sentence": "He made a cameo on Joss Whedon 's web-based film , Dr. Horrible 's Sing-Along Blog , as `` Professor Normal '' ."
+            }
+          ],
+          [
+            {
+              "page_title": "Doug Petrie",
+              "line_index": 5,
+              "sentence": "He made a cameo on Joss Whedon 's web-based film , Dr. Horrible 's Sing-Along Blog , as `` Professor Normal '' ."
+            }
+          ],
+          [
+            {
+              "page_title": "Doug Petrie",
+              "line_index": 5,
+              "sentence": "He made a cameo on Joss Whedon 's web-based film , Dr. Horrible 's Sing-Along Blog , as `` Professor Normal '' ."
+            }
+          ],
+          [
+            {
+              "page_title": "Doug Petrie",
+              "line_index": 5,
+              "sentence": "He made a cameo on Joss Whedon 's web-based film , Dr. Horrible 's Sing-Along Blog , as `` Professor Normal '' ."
+            }
+          ],
+          [
+            {
+              "page_title": "Doug Petrie",
+              "line_index": 5,
+              "sentence": "He made a cameo on Joss Whedon 's web-based film , Dr. Horrible 's Sing-Along Blog , as `` Professor Normal '' ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 6,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000988",
+      "claim": "A polynomial is an entity.",
+      "evidence_sentences": "In mathematics , a polynomial is an expression consisting of variables -LRB- or indeterminates -RRB- and coefficients , that involves only the operations of addition , subtraction , multiplication , and non-negative integer exponents .",
+      "page_titles": [
+        "Polynomial"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Polynomial",
+            "line_index": 0,
+            "sentence": "In mathematics , a polynomial is an expression consisting of variables -LRB- or indeterminates -RRB- and coefficients , that involves only the operations of addition , subtraction , multiplication , and non-negative integer exponents ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Polynomial",
+              "line_index": 5,
+              "sentence": "Polynomials appear in a wide variety of areas of mathematics and science ."
+            }
+          ],
+          [
+            {
+              "page_title": "Polynomial",
+              "line_index": 7,
+              "sentence": "In advanced mathematics , polynomials are used to construct polynomial rings and algebraic varieties , central concepts in algebra and algebraic geometry ."
+            }
+          ],
+          [
+            {
+              "page_title": "Polynomial",
+              "line_index": 0,
+              "sentence": "In mathematics , a polynomial is an expression consisting of variables -LRB- or indeterminates -RRB- and coefficients , that involves only the operations of addition , subtraction , multiplication , and non-negative integer exponents ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000989",
+      "claim": "Doxycycline may not cause vomiting.",
+      "evidence_sentences": "Common side effects include diarrhea , nausea , vomiting , a red rash , and an increased risk of a sunburn .",
+      "page_titles": [
+        "Doxycycline"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Doxycycline",
+            "line_index": 6,
+            "sentence": "Common side effects include diarrhea , nausea , vomiting , a red rash , and an increased risk of a sunburn ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000990",
+      "claim": "Kesha was baptized on March 1st, 1987.",
+      "evidence_sentences": "Kesha Rose Sebert -LRB- -LSB- ˈkɛʃə_roʊz_ˈsɛbərt -RSB- ; born March 1 , 1987 ; formerly stylized as Ke $ ha -RRB- is an American singer , songwriter , and rapper .",
+      "page_titles": [
+        "Kesha"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kesha",
+            "line_index": 0,
+            "sentence": "Kesha Rose Sebert -LRB- -LSB- ˈkɛʃə_roʊz_ˈsɛbərt -RSB- ; born March 1 , 1987 ; formerly stylized as Ke $ ha -RRB- is an American singer , songwriter , and rapper ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000991",
+      "claim": "SpongeBob SquarePants is a media franchise.",
+      "evidence_sentences": "SpongeBob SquarePants is an American animated television series created by marine biologist and animator Stephen Hillenburg for Nickelodeon .",
+      "page_titles": [
+        "SpongeBob SquarePants"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "SpongeBob SquarePants",
+            "line_index": 0,
+            "sentence": "SpongeBob SquarePants is an American animated television series created by marine biologist and animator Stephen Hillenburg for Nickelodeon ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000992",
+      "claim": "Blank Space is on a list in a country.",
+      "evidence_sentences": "`` Blank Space '' reached number one on the US Billboard Hot 100 following `` Shake It Off '' .",
+      "page_titles": [
+        "Blank Space"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Blank Space",
+            "line_index": 6,
+            "sentence": "`` Blank Space '' reached number one on the US Billboard Hot 100 following `` Shake It Off '' ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000993",
+      "claim": "The Faroe Islands are no longer part of the Kingdom of Mercia.",
+      "evidence_sentences": "Between 1035 and 1814 , the Faeroes were part of the Hereditary Kingdom of Norway .",
+      "page_titles": [
+        "Faroe Islands"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Faroe Islands",
+            "line_index": 9,
+            "sentence": "Between 1035 and 1814 , the Faeroes were part of the Hereditary Kingdom of Norway ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000994",
+      "claim": "Birthday Song (2 Chainz song) was produced by American rapper Kanye West.",
+      "evidence_sentences": "The song , which features fellow American rapper Kanye West , was produced by Sonny Digital , West , BWheezy , Anthony Kilhoffer , Lifted and Mike Dean .",
+      "page_titles": [
+        "Birthday Song -LRB-2 Chainz song-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Birthday Song -LRB-2 Chainz song-RRB-",
+            "line_index": 1,
+            "sentence": "The song , which features fellow American rapper Kanye West , was produced by Sonny Digital , West , BWheezy , Anthony Kilhoffer , Lifted and Mike Dean ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000995",
+      "claim": "You Belong with Me was the opening number in Taylor Swift's birthday party.",
+      "evidence_sentences": "The song was performed live at numerous venues , including the 2009 -- 10 Fearless Tour , where it was the opening number .",
+      "page_titles": [
+        "You Belong with Me"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "You Belong with Me",
+            "line_index": 20,
+            "sentence": "The song was performed live at numerous venues , including the 2009 -- 10 Fearless Tour , where it was the opening number ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000996",
+      "claim": "EA Black Box was a picture game developer.",
+      "evidence_sentences": "EA Black Box -LRB- formerly Black Box Games -RRB- was a video game developer based in Burnaby , British Columbia , Canada , founded in 1998 by former employees of Radical Entertainment and later acquired by Electronic Arts -LRB- EA -RRB- .",
+      "page_titles": [
+        "EA Black Box"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "EA Black Box",
+            "line_index": 0,
+            "sentence": "EA Black Box -LRB- formerly Black Box Games -RRB- was a video game developer based in Burnaby , British Columbia , Canada , founded in 1998 by former employees of Radical Entertainment and later acquired by Electronic Arts -LRB- EA -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000997",
+      "claim": "NRG Recording Studios is located outside of North Hollywood, California.",
+      "evidence_sentences": "NRG Recording Studios is a recording facility located in North Hollywood , California that was created by producer and mixer Jay Baumgardner in 1992 .",
+      "page_titles": [
+        "NRG Recording Studios"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "NRG Recording Studios",
+            "line_index": 0,
+            "sentence": "NRG Recording Studios is a recording facility located in North Hollywood , California that was created by producer and mixer Jay Baumgardner in 1992 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000998",
+      "claim": "Acting is John Krasinski's career.",
+      "evidence_sentences": "John Burke Krasinski -LRB- -LSB- krəˈzɪnski -RSB- born October 20 , 1979 -RRB- is an American actor and filmmaker .",
+      "page_titles": [
+        "John Krasinski"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "John Krasinski",
+            "line_index": 0,
+            "sentence": "John Burke Krasinski -LRB- -LSB- krəˈzɪnski -RSB- born October 20 , 1979 -RRB- is an American actor and filmmaker ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000999",
+      "claim": "Janelle Monáe was conceived on December 1st, 1985.",
+      "evidence_sentences": "Janelle Monáe Robinson -LRB- born December 1 , 1985 -RRB- -LRB- -LSB- dʒəˈnɛl_moʊˈneɪ -RSB- -RRB- is an American singer , songwriter , actress , and model signed to her own imprint , Wondaland Arts Society , and Atlantic Records .",
+      "page_titles": [
+        "Janelle Monáe"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Janelle Monáe",
+            "line_index": 0,
+            "sentence": "Janelle Monáe Robinson -LRB- born December 1 , 1985 -RRB- -LRB- -LSB- dʒəˈnɛl_moʊˈneɪ -RSB- -RRB- is an American singer , songwriter , actress , and model signed to her own imprint , Wondaland Arts Society , and Atlantic Records ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Janelle Monáe",
+              "line_index": 0,
+              "sentence": "Janelle Monáe Robinson -LRB- born December 1 , 1985 -RRB- -LRB- -LSB- dʒəˈnɛl_moʊˈneɪ -RSB- -RRB- is an American singer , songwriter , actress , and model signed to her own imprint , Wondaland Arts Society , and Atlantic Records ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-001000",
+      "claim": "Southern Hospitality fell to number 23 on the Top 40.",
+      "evidence_sentences": "The song debuted at # 86 on the Billboard Hot 100 on January 20 , 2001 , reached the Top 40 at # 38 on February 10 , 2001 , and peaked at # 23 on March 24 .",
+      "page_titles": [
+        "Southern Hospitality -LRB-song-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Southern Hospitality -LRB-song-RRB-",
+            "line_index": 2,
+            "sentence": "The song debuted at # 86 on the Billboard Hot 100 on January 20 , 2001 , reached the Top 40 at # 38 on February 10 , 2001 , and peaked at # 23 on March 24 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-001001",
+      "claim": "Annabelle is in the United States.",
+      "evidence_sentences": "The doll resides in a glass box at The Warrens ' Occult Museum in Monroe , Connecticut .",
+      "page_titles": [
+        "Annabelle -LRB-doll-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Annabelle -LRB-doll-RRB-",
+            "line_index": 1,
+            "sentence": "The doll resides in a glass box at The Warrens ' Occult Museum in Monroe , Connecticut ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  ],
+  "rubric": "# Judge Rubric (silver adjudication, v1)\n\nYou are an independent fact-checking adjudicator. You will see a batch of\nitems. Each item contains a **claim** and **evidence** (what is included\ndepends on the disclosure stage, stated in the batch header). For EVERY item\nyou must judge **only from the information provided**.\n\n## Task\n\nDecide whether the provided evidence **warrants** the claim:\n\n- `Supported` — the evidence clearly or probably establishes the claim is true.\n- `Refuted` — the evidence clearly or probably establishes the claim is false.\n- `Ambiguous` — the evidence is insufficient, partial, or mixed; you cannot\n  responsibly decide true or false from what is provided.\n\nAlso rate how sufficient the evidence is for deciding the claim\n(`clearly_sufficient | probably_sufficient | partial_or_ambiguous |\nprobably_insufficient | clearly_insufficient`), your confidence (integer\n0–100), and any issue flags that apply (see list).\n\n## Hard rules\n\n- Judge ONLY from the supplied claim and evidence. Do NOT use outside\n  knowledge to decide the verdict.\n- Do NOT browse the web or look anything up.\n- Do NOT speculate about hidden labels, other models, or why the item was\n  selected.\n- If the evidence alone does not settle the claim, say `Ambiguous` — that is a\n  valid, useful answer, not a failure.\n- `confidence` MUST be an integer from 0 to 100.\n- `brief_reason` must be short (one sentence) and grounded in the evidence.\n- Select issue flags only when the evidence shows that problem; use `none`\n  otherwise. Do not pad flags.\n\n## Issue flags\n\n`none`, `possible_missing_title_context`, `possible_coreference_or_entity_resolution`,\n`possible_missing_surrounding_context`, `multi_sentence_integration`,\n`numerical_or_temporal_reasoning`, `negation_or_scope`,\n`entity_or_attribute_confusion`, `partial_warrant`,\n`apparent_internal_contradiction`, `other`\n\n## Output format\n\nReturn ONLY a JSON array (no prose before or after), one object per item, in\nthe same order as the input:\n\n```json\n[\n  {\n    \"item_id\": \"SA-000001\",\n    \"judge_id\": \"judge_1\",\n    \"stage\": \"A\",\n    \"verdict\": \"Supported\",\n    \"evidence_sufficiency\": \"probably_sufficient\",\n    \"confidence\": 80,\n    \"issue_flags\": [\"none\"],\n    \"brief_reason\": \"The evidence sentence directly states the claim.\"\n  }\n]\n```\n\n`item_id`, `judge_id`, and `stage` must be copied exactly from the batch file.\nProduce exactly one object for every item in the batch — never skip or merge\nitems. If an item's evidence is empty or unreadable, verdict `Ambiguous`,\nsufficiency `clearly_insufficient`, confidence as you see fit, flag `other`.\n",
+  "disclosure_note": "Stage C. Judge only supplied fields. Null text means unavailable; do not fill it using outside knowledge."
+}

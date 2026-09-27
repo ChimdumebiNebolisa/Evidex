@@ -1,0 +1,3109 @@
+{
+  "judge_id": "judge_4",
+  "stage": "C",
+  "output_path": "corrections_v2/blind_io/p01/stage_c/p01_C_j4_b07.output.json",
+  "n_items": 100,
+  "item_ids": [
+    "SA-000602",
+    "SA-000603",
+    "SA-000604",
+    "SA-000605",
+    "SA-000606",
+    "SA-000607",
+    "SA-000608",
+    "SA-000609",
+    "SA-000610",
+    "SA-000611",
+    "SA-000612",
+    "SA-000613",
+    "SA-000614",
+    "SA-000615",
+    "SA-000616",
+    "SA-000617",
+    "SA-000618",
+    "SA-000619",
+    "SA-000620",
+    "SA-000621",
+    "SA-000622",
+    "SA-000623",
+    "SA-000624",
+    "SA-000625",
+    "SA-000626",
+    "SA-000627",
+    "SA-000628",
+    "SA-000629",
+    "SA-000630",
+    "SA-000631",
+    "SA-000632",
+    "SA-000633",
+    "SA-000634",
+    "SA-000635",
+    "SA-000636",
+    "SA-000637",
+    "SA-000638",
+    "SA-000639",
+    "SA-000640",
+    "SA-000641",
+    "SA-000642",
+    "SA-000643",
+    "SA-000644",
+    "SA-000645",
+    "SA-000646",
+    "SA-000647",
+    "SA-000648",
+    "SA-000649",
+    "SA-000650",
+    "SA-000651",
+    "SA-000652",
+    "SA-000653",
+    "SA-000654",
+    "SA-000655",
+    "SA-000656",
+    "SA-000657",
+    "SA-000658",
+    "SA-000659",
+    "SA-000660",
+    "SA-000661",
+    "SA-000662",
+    "SA-000663",
+    "SA-000664",
+    "SA-000665",
+    "SA-000666",
+    "SA-000667",
+    "SA-000668",
+    "SA-000669",
+    "SA-000670",
+    "SA-000671",
+    "SA-000672",
+    "SA-000673",
+    "SA-000674",
+    "SA-000675",
+    "SA-000676",
+    "SA-000677",
+    "SA-000678",
+    "SA-000679",
+    "SA-000680",
+    "SA-000681",
+    "SA-000682",
+    "SA-000683",
+    "SA-000684",
+    "SA-000685",
+    "SA-000686",
+    "SA-000687",
+    "SA-000688",
+    "SA-000689",
+    "SA-000690",
+    "SA-000691",
+    "SA-000692",
+    "SA-000693",
+    "SA-000694",
+    "SA-000695",
+    "SA-000696",
+    "SA-000697",
+    "SA-000698",
+    "SA-000699",
+    "SA-000700",
+    "SA-000701"
+  ],
+  "items": [
+    {
+      "item_id": "SA-000602",
+      "claim": "A monster is only found in reality.",
+      "evidence_sentences": "A monster is any creature , usually found in legends or horror fiction , that is often hideous and may produce fear or physical harm by its appearance or its actions .",
+      "page_titles": [
+        "Monster"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Monster",
+            "line_index": 0,
+            "sentence": "A monster is any creature , usually found in legends or horror fiction , that is often hideous and may produce fear or physical harm by its appearance or its actions ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Monster",
+              "line_index": 5,
+              "sentence": "It can also be applied figuratively to a person with similar characteristics like a greedy person or a person who does horrible things ."
+            }
+          ],
+          [
+            {
+              "page_title": "Monster",
+              "line_index": 9,
+              "sentence": "Thus , the monster is also a sign or instruction ."
+            }
+          ],
+          [
+            {
+              "page_title": "Monster",
+              "line_index": 13,
+              "sentence": "Well known monsters in fiction include Count Dracula , Frankenstein 's monster , werewolves , mummies , and zombies , to name a few ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000603",
+      "claim": "Super Bowl XLV was the first time the Super Bowl was played in outer-space.",
+      "evidence_sentences": "The game was played on February 6 , 2011 , at Cowboys Stadium in Arlington , Texas , the first time the Super Bowl was played in the Dallas -- Fort Worth area .",
+      "page_titles": [
+        "Super Bowl XLV"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Super Bowl XLV",
+            "line_index": 2,
+            "sentence": "The game was played on February 6 , 2011 , at Cowboys Stadium in Arlington , Texas , the first time the Super Bowl was played in the Dallas -- Fort Worth area ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000604",
+      "claim": "Soyuz is a series of aircraft.",
+      "evidence_sentences": "Soyuz -LRB- Сою́з -LSB- sɐˈjʉs -RSB- , `` Union '' , as in Сове́тский Сою́з , `` Sovetskiy Soyuz '' , `` Soviet Union '' -RRB- is a series of spacecraft designed for the Soviet space programme by the Korolyov Design Bureau -LRB- now RKK Energia -RRB- in the 1960s that remains in service today . A spacecraft is a vehicle , or machine designed to fly in outer space .",
+      "page_titles": [
+        "Soyuz -LRB-spacecraft-RRB-",
+        "Spacecraft"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Soyuz -LRB-spacecraft-RRB-",
+            "line_index": 0,
+            "sentence": "Soyuz -LRB- Сою́з -LSB- sɐˈjʉs -RSB- , `` Union '' , as in Сове́тский Сою́з , `` Sovetskiy Soyuz '' , `` Soviet Union '' -RRB- is a series of spacecraft designed for the Soviet space programme by the Korolyov Design Bureau -LRB- now RKK Energia -RRB- in the 1960s that remains in service today ."
+          },
+          {
+            "page_title": "Spacecraft",
+            "line_index": 0,
+            "sentence": "A spacecraft is a vehicle , or machine designed to fly in outer space ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000605",
+      "claim": "Warren Beatty was a co-writer on Heaven Can Wait.",
+      "evidence_sentences": "Beatty is the first and only person to have been twice nominated for acting in , directing , writing , and producing the same film -- first with Heaven Can Wait -LRB- 1978 -RRB- , which was co-written by Elaine May and co-directed by Buck Henry , and again with Reds , which he co-wrote with Trevor Griffiths .",
+      "page_titles": [
+        "Warren Beatty"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Warren Beatty",
+            "line_index": 2,
+            "sentence": "Beatty is the first and only person to have been twice nominated for acting in , directing , writing , and producing the same film -- first with Heaven Can Wait -LRB- 1978 -RRB- , which was co-written by Elaine May and co-directed by Buck Henry , and again with Reds , which he co-wrote with Trevor Griffiths ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Warren Beatty",
+              "line_index": 2,
+              "sentence": "Beatty is the first and only person to have been twice nominated for acting in , directing , writing , and producing the same film -- first with Heaven Can Wait -LRB- 1978 -RRB- , which was co-written by Elaine May and co-directed by Buck Henry , and again with Reds , which he co-wrote with Trevor Griffiths ."
+            }
+          ],
+          [
+            {
+              "page_title": "Warren Beatty",
+              "line_index": 2,
+              "sentence": "Beatty is the first and only person to have been twice nominated for acting in , directing , writing , and producing the same film -- first with Heaven Can Wait -LRB- 1978 -RRB- , which was co-written by Elaine May and co-directed by Buck Henry , and again with Reds , which he co-wrote with Trevor Griffiths ."
+            }
+          ],
+          [
+            {
+              "page_title": "Warren Beatty",
+              "line_index": 2,
+              "sentence": "Beatty is the first and only person to have been twice nominated for acting in , directing , writing , and producing the same film -- first with Heaven Can Wait -LRB- 1978 -RRB- , which was co-written by Elaine May and co-directed by Buck Henry , and again with Reds , which he co-wrote with Trevor Griffiths ."
+            }
+          ],
+          [
+            {
+              "page_title": "Warren Beatty",
+              "line_index": 2,
+              "sentence": "Beatty is the first and only person to have been twice nominated for acting in , directing , writing , and producing the same film -- first with Heaven Can Wait -LRB- 1978 -RRB- , which was co-written by Elaine May and co-directed by Buck Henry , and again with Reds , which he co-wrote with Trevor Griffiths ."
+            }
+          ],
+          [
+            {
+              "page_title": "Warren Beatty",
+              "line_index": 2,
+              "sentence": "Beatty is the first and only person to have been twice nominated for acting in , directing , writing , and producing the same film -- first with Heaven Can Wait -LRB- 1978 -RRB- , which was co-written by Elaine May and co-directed by Buck Henry , and again with Reds , which he co-wrote with Trevor Griffiths ."
+            }
+          ],
+          [
+            {
+              "page_title": "Warren Beatty",
+              "line_index": 2,
+              "sentence": "Beatty is the first and only person to have been twice nominated for acting in , directing , writing , and producing the same film -- first with Heaven Can Wait -LRB- 1978 -RRB- , which was co-written by Elaine May and co-directed by Buck Henry , and again with Reds , which he co-wrote with Trevor Griffiths ."
+            }
+          ],
+          [
+            {
+              "page_title": "Warren Beatty",
+              "line_index": 2,
+              "sentence": "Beatty is the first and only person to have been twice nominated for acting in , directing , writing , and producing the same film -- first with Heaven Can Wait -LRB- 1978 -RRB- , which was co-written by Elaine May and co-directed by Buck Henry , and again with Reds , which he co-wrote with Trevor Griffiths ."
+            }
+          ],
+          [
+            {
+              "page_title": "Warren Beatty",
+              "line_index": 2,
+              "sentence": "Beatty is the first and only person to have been twice nominated for acting in , directing , writing , and producing the same film -- first with Heaven Can Wait -LRB- 1978 -RRB- , which was co-written by Elaine May and co-directed by Buck Henry , and again with Reds , which he co-wrote with Trevor Griffiths ."
+            }
+          ],
+          [
+            {
+              "page_title": "Warren Beatty",
+              "line_index": 2,
+              "sentence": "Beatty is the first and only person to have been twice nominated for acting in , directing , writing , and producing the same film -- first with Heaven Can Wait -LRB- 1978 -RRB- , which was co-written by Elaine May and co-directed by Buck Henry , and again with Reds , which he co-wrote with Trevor Griffiths ."
+            }
+          ],
+          [
+            {
+              "page_title": "Warren Beatty",
+              "line_index": 2,
+              "sentence": "Beatty is the first and only person to have been twice nominated for acting in , directing , writing , and producing the same film -- first with Heaven Can Wait -LRB- 1978 -RRB- , which was co-written by Elaine May and co-directed by Buck Henry , and again with Reds , which he co-wrote with Trevor Griffiths ."
+            }
+          ],
+          [
+            {
+              "page_title": "Warren Beatty",
+              "line_index": 2,
+              "sentence": "Beatty is the first and only person to have been twice nominated for acting in , directing , writing , and producing the same film -- first with Heaven Can Wait -LRB- 1978 -RRB- , which was co-written by Elaine May and co-directed by Buck Henry , and again with Reds , which he co-wrote with Trevor Griffiths ."
+            }
+          ],
+          [
+            {
+              "page_title": "Warren Beatty",
+              "line_index": 2,
+              "sentence": "Beatty is the first and only person to have been twice nominated for acting in , directing , writing , and producing the same film -- first with Heaven Can Wait -LRB- 1978 -RRB- , which was co-written by Elaine May and co-directed by Buck Henry , and again with Reds , which he co-wrote with Trevor Griffiths ."
+            }
+          ],
+          [
+            {
+              "page_title": "Warren Beatty",
+              "line_index": 2,
+              "sentence": "Beatty is the first and only person to have been twice nominated for acting in , directing , writing , and producing the same film -- first with Heaven Can Wait -LRB- 1978 -RRB- , which was co-written by Elaine May and co-directed by Buck Henry , and again with Reds , which he co-wrote with Trevor Griffiths ."
+            }
+          ],
+          [
+            {
+              "page_title": "Warren Beatty",
+              "line_index": 2,
+              "sentence": "Beatty is the first and only person to have been twice nominated for acting in , directing , writing , and producing the same film -- first with Heaven Can Wait -LRB- 1978 -RRB- , which was co-written by Elaine May and co-directed by Buck Henry , and again with Reds , which he co-wrote with Trevor Griffiths ."
+            }
+          ],
+          [
+            {
+              "page_title": "Warren Beatty",
+              "line_index": 2,
+              "sentence": "Beatty is the first and only person to have been twice nominated for acting in , directing , writing , and producing the same film -- first with Heaven Can Wait -LRB- 1978 -RRB- , which was co-written by Elaine May and co-directed by Buck Henry , and again with Reds , which he co-wrote with Trevor Griffiths ."
+            }
+          ],
+          [
+            {
+              "page_title": "Warren Beatty",
+              "line_index": 2,
+              "sentence": "Beatty is the first and only person to have been twice nominated for acting in , directing , writing , and producing the same film -- first with Heaven Can Wait -LRB- 1978 -RRB- , which was co-written by Elaine May and co-directed by Buck Henry , and again with Reds , which he co-wrote with Trevor Griffiths ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 17,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000606",
+      "claim": "Amancio Ortega's middle name is Gaona.",
+      "evidence_sentences": "Amancio Ortega Gaona -LRB- -LSB- aˈmanθjo orˈteɣa ɣaˈona -RSB- ; born 28 March 1936 -RRB- is a Spanish business tycoon .",
+      "page_titles": [
+        "Amancio Ortega"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Amancio Ortega",
+            "line_index": 0,
+            "sentence": "Amancio Ortega Gaona -LRB- -LSB- aˈmanθjo orˈteɣa ɣaˈona -RSB- ; born 28 March 1936 -RRB- is a Spanish business tycoon ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000607",
+      "claim": "Ashley Cole plays for the Los Angeles Galaxy.",
+      "evidence_sentences": "Ashley Cole -LRB- born 20 December 1980 -RRB- is an English professional footballer who plays as a left-back for Los Angeles Galaxy in Major League Soccer .",
+      "page_titles": [
+        "Ashley Cole"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ashley Cole",
+            "line_index": 0,
+            "sentence": "Ashley Cole -LRB- born 20 December 1980 -RRB- is an English professional footballer who plays as a left-back for Los Angeles Galaxy in Major League Soccer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000608",
+      "claim": "Saxony is the sixth least populous German state.",
+      "evidence_sentences": "Saxony is the tenth largest of Germany 's sixteen states , with an area of 18,413 km2 , and the sixth most populous , with 4 million people .",
+      "page_titles": [
+        "Saxony"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Saxony",
+            "line_index": 4,
+            "sentence": "Saxony is the tenth largest of Germany 's sixteen states , with an area of 18,413 km2 , and the sixth most populous , with 4 million people ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000609",
+      "claim": "Daag stars in Jayasudha.",
+      "evidence_sentences": "The film was later remade into the Telugu film Vichitra Jeevitham -LRB- 1978 -RRB- starring Akkineni Nageswara Rao , Vanisri , and Jayasudha .",
+      "page_titles": [
+        "Daag -LRB-1973 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Daag -LRB-1973 film-RRB-",
+            "line_index": 10,
+            "sentence": "The film was later remade into the Telugu film Vichitra Jeevitham -LRB- 1978 -RRB- starring Akkineni Nageswara Rao , Vanisri , and Jayasudha ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000610",
+      "claim": "The Maze Runner made 348 million American dollars.",
+      "evidence_sentences": "The film earned over $ 348 million worldwide at the box-office , against its budget of $ 34 million .",
+      "page_titles": [
+        "The Maze Runner -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Maze Runner -LRB-film-RRB-",
+            "line_index": 13,
+            "sentence": "The film earned over $ 348 million worldwide at the box-office , against its budget of $ 34 million ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000611",
+      "claim": "Regina King performed the role of Erika Murphy.",
+      "evidence_sentences": "Since 2015 , she played Erika Murphy on the critically acclaimed HBO drama , The Leftovers , for which she has received a Critics ' Choice Television Award nomination .",
+      "page_titles": [
+        "Regina King"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Regina King",
+            "line_index": 4,
+            "sentence": "Since 2015 , she played Erika Murphy on the critically acclaimed HBO drama , The Leftovers , for which she has received a Critics ' Choice Television Award nomination ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000612",
+      "claim": "The Bassoon King is the full title a book.",
+      "evidence_sentences": "The Bassoon King : My Life in Art , Faith , and Idiocy is a non-fiction book authored by American actor Rainn Wilson .",
+      "page_titles": [
+        "The Bassoon King"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Bassoon King",
+            "line_index": 0,
+            "sentence": "The Bassoon King : My Life in Art , Faith , and Idiocy is a non-fiction book authored by American actor Rainn Wilson ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000613",
+      "claim": "Antigua and Barbuda was named by Christopher Columbus in 1493.",
+      "evidence_sentences": "The country 's name was given by Christopher Columbus in 1493 after discovering the island , in honor of the Virgin of La Antigua in the Seville Cathedral .",
+      "page_titles": [
+        "Antigua and Barbuda"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Antigua and Barbuda",
+            "line_index": 6,
+            "sentence": "The country 's name was given by Christopher Columbus in 1493 after discovering the island , in honor of the Virgin of La Antigua in the Seville Cathedral ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000614",
+      "claim": "Garden State was barely at a festival that takes place in Park City, Utah.",
+      "evidence_sentences": "It was an official selection of the Sundance Film Festival . The Sundance Film Festival , a program of the Sundance Institute , is an American film festival that takes place annually in Park City , Utah .",
+      "page_titles": [
+        "Garden State -LRB-film-RRB-",
+        "Sundance Film Festival"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Garden State -LRB-film-RRB-",
+            "line_index": 6,
+            "sentence": "It was an official selection of the Sundance Film Festival ."
+          },
+          {
+            "page_title": "Sundance Film Festival",
+            "line_index": 0,
+            "sentence": "The Sundance Film Festival , a program of the Sundance Institute , is an American film festival that takes place annually in Park City , Utah ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000615",
+      "claim": "Victoria Palace Theatre is outside of Victoria Street.",
+      "evidence_sentences": "Victoria Palace Theatre is a West End theatre in Victoria Street , in the City of Westminster , opposite Victoria Station .",
+      "page_titles": [
+        "Victoria Palace Theatre"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Victoria Palace Theatre",
+            "line_index": 0,
+            "sentence": "Victoria Palace Theatre is a West End theatre in Victoria Street , in the City of Westminster , opposite Victoria Station ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000616",
+      "claim": "Larry the Cable Guy series finale aired on August 28th, 2013.",
+      "evidence_sentences": "The series finale aired August 28 , 2013 .",
+      "page_titles": [
+        "Larry the Cable Guy"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Larry the Cable Guy",
+            "line_index": 14,
+            "sentence": "The series finale aired August 28 , 2013 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Larry the Cable Guy",
+              "line_index": 14,
+              "sentence": "The series finale aired August 28 , 2013 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000617",
+      "claim": "Anneliese van der Pol had an early career in musical theater.",
+      "evidence_sentences": "Following her early career in musical theatre , she was best known for her role as Chelsea Daniels on That 's So Raven .",
+      "page_titles": [
+        "Anneliese van der Pol"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Anneliese van der Pol",
+            "line_index": 1,
+            "sentence": "Following her early career in musical theatre , she was best known for her role as Chelsea Daniels on That 's So Raven ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000618",
+      "claim": "Westworld's first season premiered in the month of October.",
+      "evidence_sentences": "The first season premiered on October 2 , 2016 , concluded on December 4 , 2016 , and consists of ten episodes .",
+      "page_titles": [
+        "Westworld -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Westworld -LRB-TV series-RRB-",
+            "line_index": 4,
+            "sentence": "The first season premiered on October 2 , 2016 , concluded on December 4 , 2016 , and consists of ten episodes ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000619",
+      "claim": "Mellila is a Spanish town.",
+      "evidence_sentences": "Melilla -LRB- -LSB- məˈliːjə -RSB- ; -LSB- meˈliʎa -RSB- , -LSB- meˈliʝa -RSB- ; Mřič -LSB- , Maliliyyah -RRB- is a Spanish autonomous city located on the north coast of Africa , sharing a border with Morocco with an area of 12.3 km2 .",
+      "page_titles": [
+        "Melilla"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Melilla",
+            "line_index": 0,
+            "sentence": "Melilla -LRB- -LSB- məˈliːjə -RSB- ; -LSB- meˈliʎa -RSB- , -LSB- meˈliʝa -RSB- ; Mřič -LSB- , Maliliyyah -RRB- is a Spanish autonomous city located on the north coast of Africa , sharing a border with Morocco with an area of 12.3 km2 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000620",
+      "claim": "In the 1970's, Samsung entered the construction industry.",
+      "evidence_sentences": "Samsung entered the electronics industry in the late 1960s and the construction and shipbuilding industries in the mid-1970s ; these areas would drive its subsequent growth .",
+      "page_titles": [
+        "Samsung"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Samsung",
+            "line_index": 6,
+            "sentence": "Samsung entered the electronics industry in the late 1960s and the construction and shipbuilding industries in the mid-1970s ; these areas would drive its subsequent growth ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000621",
+      "claim": "Elizabeth Olsen was born.",
+      "evidence_sentences": "Elizabeth Chase `` Lizzie '' Olsen -LRB- born February 16 , 1989 -RRB- is an American actress .",
+      "page_titles": [
+        "Elizabeth Olsen"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Elizabeth Olsen",
+            "line_index": 0,
+            "sentence": "Elizabeth Chase `` Lizzie '' Olsen -LRB- born February 16 , 1989 -RRB- is an American actress ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000622",
+      "claim": "DodgeBall: A True Underdog Story 's writer and director was Rawson Marshall.",
+      "evidence_sentences": "DodgeBall : A True Underdog Story is a 2004 American sports comedy film written and directed by Rawson Marshall Thurber and starring Vince Vaughn and Ben Stiller .",
+      "page_titles": [
+        "DodgeBall-COLON- A True Underdog Story"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "DodgeBall-COLON- A True Underdog Story",
+            "line_index": 0,
+            "sentence": "DodgeBall : A True Underdog Story is a 2004 American sports comedy film written and directed by Rawson Marshall Thurber and starring Vince Vaughn and Ben Stiller ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000623",
+      "claim": "Victoria (Dance Exponents song) reached number 8 on the New Zealand singles chart.",
+      "evidence_sentences": "Released in 1982 it reached Number 6 on the New Zealand singles chart .",
+      "page_titles": [
+        "Victoria -LRB-Dance Exponents song-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Victoria -LRB-Dance Exponents song-RRB-",
+            "line_index": 1,
+            "sentence": "Released in 1982 it reached Number 6 on the New Zealand singles chart ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000624",
+      "claim": "Punch-Drunk Love's producers were Revolution Studios and New Line Cinema.",
+      "evidence_sentences": "The film was produced by Revolution Studios and New Line Cinema , and distributed by Columbia Pictures ; it features the video art of Jeremy Blake in the form of visual interludes .",
+      "page_titles": [
+        "Punch-Drunk Love"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Punch-Drunk Love",
+            "line_index": 4,
+            "sentence": "The film was produced by Revolution Studios and New Line Cinema , and distributed by Columbia Pictures ; it features the video art of Jeremy Blake in the form of visual interludes ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Punch-Drunk Love",
+              "line_index": 4,
+              "sentence": "The film was produced by Revolution Studios and New Line Cinema , and distributed by Columbia Pictures ; it features the video art of Jeremy Blake in the form of visual interludes ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000625",
+      "claim": "TV Choice goes on sale once a month.",
+      "evidence_sentences": "TV Choice is a British weekly TV listings magazine published by H. Bauer Publishing , the UK subsidiary of family-run German company Bauer Media Group .",
+      "page_titles": [
+        "TV Choice"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "TV Choice",
+            "line_index": 0,
+            "sentence": "TV Choice is a British weekly TV listings magazine published by H. Bauer Publishing , the UK subsidiary of family-run German company Bauer Media Group ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "TV Choice",
+              "line_index": 1,
+              "sentence": "It features weekly TV broadcast programming listings , running from Saturday to Friday , and goes on sale every Tuesday ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000626",
+      "claim": "Yin and yang is a Taoist moral concept.",
+      "evidence_sentences": "In Taoist metaphysics , distinctions between good and bad , along with other dichotomous moral judgments , are perceptual , not real ; so , the duality of yin and yang is an indivisible whole .",
+      "page_titles": [
+        "Yin and yang"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Yin and yang",
+            "line_index": 13,
+            "sentence": "In Taoist metaphysics , distinctions between good and bad , along with other dichotomous moral judgments , are perceptual , not real ; so , the duality of yin and yang is an indivisible whole ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000627",
+      "claim": "The Beverly Hillbillies is a television show from the 70s.",
+      "evidence_sentences": "The Beverly Hillbillies is an American sitcom originally broadcast on CBS for nine seasons , from September 26 , 1962 , to March 23 , 1971 .",
+      "page_titles": [
+        "The Beverly Hillbillies"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Beverly Hillbillies",
+            "line_index": 0,
+            "sentence": "The Beverly Hillbillies is an American sitcom originally broadcast on CBS for nine seasons , from September 26 , 1962 , to March 23 , 1971 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000628",
+      "claim": "Vedic Sanskrit is the language used in the Vedas.",
+      "evidence_sentences": "It is the ancient language of the Vedas of Hinduism , texts compiled over the period of the mid-2nd to mid-1st millennium BCE .",
+      "page_titles": [
+        "Vedic Sanskrit"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Vedic Sanskrit",
+            "line_index": 1,
+            "sentence": "It is the ancient language of the Vedas of Hinduism , texts compiled over the period of the mid-2nd to mid-1st millennium BCE ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000629",
+      "claim": "Matthew Gray Gubler is a model.",
+      "evidence_sentences": "Matthew Gray Gubler -LRB- born March 9 , 1980 -RRB- is an American actor , director , fashion model and painter .",
+      "page_titles": [
+        "Matthew Gray Gubler"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Matthew Gray Gubler",
+            "line_index": 0,
+            "sentence": "Matthew Gray Gubler -LRB- born March 9 , 1980 -RRB- is an American actor , director , fashion model and painter ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000630",
+      "claim": "The Logie Awards took place at a casino for its latest ceremony.",
+      "evidence_sentences": "The latest ceremony , the Logie Awards of 2017 , was held on 23 April 2017 at the Crown Casino in Melbourne .",
+      "page_titles": [
+        "Logie Awards"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Logie Awards",
+            "line_index": 8,
+            "sentence": "The latest ceremony , the Logie Awards of 2017 , was held on 23 April 2017 at the Crown Casino in Melbourne ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000631",
+      "claim": "The Atlanta metropolitan area covers 39 counties.",
+      "evidence_sentences": "The Combined Statistical Area spans up to 39 counties in north Georgia and had an estimated 2015 population of 6.3 million people .",
+      "page_titles": [
+        "Atlanta metropolitan area"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Atlanta metropolitan area",
+            "line_index": 3,
+            "sentence": "The Combined Statistical Area spans up to 39 counties in north Georgia and had an estimated 2015 population of 6.3 million people ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Atlanta metropolitan area",
+              "line_index": 3,
+              "sentence": "The Combined Statistical Area spans up to 39 counties in north Georgia and had an estimated 2015 population of 6.3 million people ."
+            }
+          ],
+          [
+            {
+              "page_title": "Atlanta metropolitan area",
+              "line_index": 3,
+              "sentence": "The Combined Statistical Area spans up to 39 counties in north Georgia and had an estimated 2015 population of 6.3 million people ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000632",
+      "claim": "The final season of Lost was watched by an average of 11 million viewers per episode.",
+      "evidence_sentences": "During its sixth and final season , the show averaged over 11 million U.S. viewers per episode .",
+      "page_titles": [
+        "Lost -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Lost -LRB-TV series-RRB-",
+            "line_index": 15,
+            "sentence": "During its sixth and final season , the show averaged over 11 million U.S. viewers per episode ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000633",
+      "claim": "Marco Polo was an Asia.",
+      "evidence_sentences": "The three of them embarked on an epic journey to Asia , returning after 24 years to find Venice at war with Genoa ; Marco was imprisoned and dictated his stories to a cellmate .",
+      "page_titles": [
+        "Marco Polo"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Marco Polo",
+            "line_index": 6,
+            "sentence": "The three of them embarked on an epic journey to Asia , returning after 24 years to find Venice at war with Genoa ; Marco was imprisoned and dictated his stories to a cellmate ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000634",
+      "claim": "Manchester by the Sea is a film that was premiered at the Sundance Film Festival.",
+      "evidence_sentences": "The film premiered at the Sundance Film Festival on January 23 , 2016 and was soon picked up by Amazon Studios for distribution .",
+      "page_titles": [
+        "Manchester by the Sea -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Manchester by the Sea -LRB-film-RRB-",
+            "line_index": 4,
+            "sentence": "The film premiered at the Sundance Film Festival on January 23 , 2016 and was soon picked up by Amazon Studios for distribution ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000635",
+      "claim": "Manchester United F.C. was never the world's highest-earning football club.",
+      "evidence_sentences": "Manchester United was the highest-earning football club in the world for 2015 -- 16 , with an annual revenue of $ 689 million , and the world 's third most valuable football club in 2015 , valued at # 1.98 billion .",
+      "page_titles": [
+        "Manchester United F.C."
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Manchester United F.C.",
+            "line_index": 17,
+            "sentence": "Manchester United was the highest-earning football club in the world for 2015 -- 16 , with an annual revenue of $ 689 million , and the world 's third most valuable football club in 2015 , valued at # 1.98 billion ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000636",
+      "claim": "The Stanford prison experiment was an examination of the causes of troubles between guards and prisoners.",
+      "evidence_sentences": "The Stanford prison experiment -LRB- SPE -RRB- was an attempt to investigate the psychological effects of perceived power , focusing on the struggle between prisoners and prison guards .",
+      "page_titles": [
+        "Stanford prison experiment"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Stanford prison experiment",
+            "line_index": 0,
+            "sentence": "The Stanford prison experiment -LRB- SPE -RRB- was an attempt to investigate the psychological effects of perceived power , focusing on the struggle between prisoners and prison guards ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000637",
+      "claim": "Marvel vs. Capcom: Infinite is a standalone game.",
+      "evidence_sentences": "It is the sixth main entry in the Marvel vs. Capcom series of crossover games .",
+      "page_titles": [
+        "Marvel vs. Capcom-COLON- Infinite"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Marvel vs. Capcom-COLON- Infinite",
+            "line_index": 1,
+            "sentence": "It is the sixth main entry in the Marvel vs. Capcom series of crossover games ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Marvel vs. Capcom-COLON- Infinite",
+              "line_index": 11,
+              "sentence": "Infinite was designed to be more accessible than previous Marvel vs. Capcom games , resulting in departures from some series ' mainstays , such as assists ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000638",
+      "claim": "Cordilleran Ice Sheet is made up mostly of snow.",
+      "evidence_sentences": "The Cordilleran ice sheet was a major ice sheet that periodically covered large parts of North America during glacial periods over the last ~ 2.6 million years . An ice sheet is a mass of glacier ice that covers surrounding terrain and is greater than 50000 km2 , thus also known as continental glacier .",
+      "page_titles": [
+        "Cordilleran Ice Sheet",
+        "Ice sheet"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Cordilleran Ice Sheet",
+            "line_index": 0,
+            "sentence": "The Cordilleran ice sheet was a major ice sheet that periodically covered large parts of North America during glacial periods over the last ~ 2.6 million years ."
+          },
+          {
+            "page_title": "Ice sheet",
+            "line_index": 0,
+            "sentence": "An ice sheet is a mass of glacier ice that covers surrounding terrain and is greater than 50000 km2 , thus also known as continental glacier ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000639",
+      "claim": "The Cretaceous is a Paleogene extinction activity.",
+      "evidence_sentences": "The Cretaceous ended with a large mass extinction , the Cretaceous -- Paleogene extinction event , in which many groups , including non-avian dinosaurs , pterosaurs and large marine reptiles died out .",
+      "page_titles": [
+        "Cretaceous"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Cretaceous",
+            "line_index": 8,
+            "sentence": "The Cretaceous ended with a large mass extinction , the Cretaceous -- Paleogene extinction event , in which many groups , including non-avian dinosaurs , pterosaurs and large marine reptiles died out ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Cretaceous",
+              "line_index": 9,
+              "sentence": "The end of the Cretaceous is defined by the abrupt Cretaceous -- Paleogene boundary -LRB- K -- Pg boundary -RRB- , a geologic signature associated with the mass extinction which lies between the Mesozoic and Cenozoic eras ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000640",
+      "claim": "The 2003 NCAA Division I Men's Basketball Tournament was triple-elimination.",
+      "evidence_sentences": "The 2003 NCAA Division I Men 's Basketball Tournament involved 65 schools playing in single-elimination play to determine the national champion of men 's NCAA Division I college basketball .",
+      "page_titles": [
+        "2003 NCAA Division I Men's Basketball Tournament"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "2003 NCAA Division I Men's Basketball Tournament",
+            "line_index": 0,
+            "sentence": "The 2003 NCAA Division I Men 's Basketball Tournament involved 65 schools playing in single-elimination play to determine the national champion of men 's NCAA Division I college basketball ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000641",
+      "claim": "Vanisri stars in Daag.",
+      "evidence_sentences": "The film was later remade into the Telugu film Vichitra Jeevitham -LRB- 1978 -RRB- starring Akkineni Nageswara Rao , Vanisri , and Jayasudha .",
+      "page_titles": [
+        "Daag -LRB-1973 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Daag -LRB-1973 film-RRB-",
+            "line_index": 10,
+            "sentence": "The film was later remade into the Telugu film Vichitra Jeevitham -LRB- 1978 -RRB- starring Akkineni Nageswara Rao , Vanisri , and Jayasudha ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000642",
+      "claim": "Benzodiazepines can be taken in overdoses.",
+      "evidence_sentences": "Benzodiazepines can be taken in overdoses and can cause dangerous deep unconsciousness .",
+      "page_titles": [
+        "Benzodiazepine"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Benzodiazepine",
+            "line_index": 21,
+            "sentence": "Benzodiazepines can be taken in overdoses and can cause dangerous deep unconsciousness ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000643",
+      "claim": "In odd-numbered years, the Africa Cup of Nations occurs.",
+      "evidence_sentences": "Since 1968 , it has been held every two years .",
+      "page_titles": [
+        "Africa Cup of Nations"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Africa Cup of Nations",
+            "line_index": 2,
+            "sentence": "Since 1968 , it has been held every two years ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000644",
+      "claim": "Unforced labor is a reason for human trafficking.",
+      "evidence_sentences": "Human trafficking is the trade of humans , most commonly for the purpose of forced labour , sexual slavery , or commercial sexual exploitation for the trafficker or others .",
+      "page_titles": [
+        "Human trafficking"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Human trafficking",
+            "line_index": 0,
+            "sentence": "Human trafficking is the trade of humans , most commonly for the purpose of forced labour , sexual slavery , or commercial sexual exploitation for the trafficker or others ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000645",
+      "claim": "The Little Prince (2015 film) is a Canadian 3D animated film.",
+      "evidence_sentences": "The Little Prince is a 2015 English-language French-Italian 3D animated fantasy adventure family drama film directed by Mark Osborne and based on the 1943 novel of the same name by Antoine de Saint-Exupéry .",
+      "page_titles": [
+        "The Little Prince -LRB-2015 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Little Prince -LRB-2015 film-RRB-",
+            "line_index": 0,
+            "sentence": "The Little Prince is a 2015 English-language French-Italian 3D animated fantasy adventure family drama film directed by Mark Osborne and based on the 1943 novel of the same name by Antoine de Saint-Exupéry ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000646",
+      "claim": "The Stanford prison experiment was funded by an organization that coordinates, executes, and promotes the science and technology programs of the U.S. Army and Marine Corps.",
+      "evidence_sentences": "It was funded by the U.S. Office of Naval Research as an investigation into the causes of difficulties between guards and prisoners in the United States Navy and United States Marine Corps . The Office of Naval Research -LRB- ONR -RRB- is an organization within the United States Department of the Navy that coordinates , executes , and promotes the science and technology programs of the U.S. Navy and Marine Corps through schools , universities , government laboratories , nonprofit organizations , and for-profit organizations .",
+      "page_titles": [
+        "Stanford prison experiment",
+        "Office of Naval Research"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Stanford prison experiment",
+            "line_index": 2,
+            "sentence": "It was funded by the U.S. Office of Naval Research as an investigation into the causes of difficulties between guards and prisoners in the United States Navy and United States Marine Corps ."
+          },
+          {
+            "page_title": "Office of Naval Research",
+            "line_index": 0,
+            "sentence": "The Office of Naval Research -LRB- ONR -RRB- is an organization within the United States Department of the Navy that coordinates , executes , and promotes the science and technology programs of the U.S. Navy and Marine Corps through schools , universities , government laboratories , nonprofit organizations , and for-profit organizations ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000647",
+      "claim": "The electric chair is an optional form of execution in Alabama, Florida, South Carolina, and Virginia.",
+      "evidence_sentences": "As of 2014 , electrocution is an optional form of execution in Alabama , Florida , South Carolina and Virginia .",
+      "page_titles": [
+        "Electric chair"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Electric chair",
+            "line_index": 13,
+            "sentence": "As of 2014 , electrocution is an optional form of execution in Alabama , Florida , South Carolina and Virginia ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000648",
+      "claim": "Bones is inspired by a real person.",
+      "evidence_sentences": "Created by Hart Hanson , the series is very loosely based on the life and writings of novelist and forensic anthropologist Kathy Reichs , who also produces the show .",
+      "page_titles": [
+        "Bones -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Bones -LRB-TV series-RRB-",
+            "line_index": 5,
+            "sentence": "Created by Hart Hanson , the series is very loosely based on the life and writings of novelist and forensic anthropologist Kathy Reichs , who also produces the show ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000649",
+      "claim": "Matteo Renzi served as Prime Minister of Italy for three years.",
+      "evidence_sentences": "Matteo Renzi -LRB- -LSB- matˈtɛːo ˈrɛntsi -RSB- ; born 11 January 1975 -RRB- is an Italian politician who served as the Prime Minister of Italy from February 2014 until December 2016 .",
+      "page_titles": [
+        "Matteo Renzi"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Matteo Renzi",
+            "line_index": 0,
+            "sentence": "Matteo Renzi -LRB- -LSB- matˈtɛːo ˈrɛntsi -RSB- ; born 11 January 1975 -RRB- is an Italian politician who served as the Prime Minister of Italy from February 2014 until December 2016 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000650",
+      "claim": "Edgar Wright is a person.",
+      "evidence_sentences": "Edgar Howard Wright -LRB- born 18 April 1974 -RRB- is an English director , screenwriter , producer , and actor .",
+      "page_titles": [
+        "Edgar Wright"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Edgar Wright",
+            "line_index": 0,
+            "sentence": "Edgar Howard Wright -LRB- born 18 April 1974 -RRB- is an English director , screenwriter , producer , and actor ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Edgar Wright",
+              "line_index": 1,
+              "sentence": "He is best known for his comedic Three Flavours Cornetto film trilogy consisting of Shaun of the Dead -LRB- 2004 -RRB- , Hot Fuzz -LRB- 2007 -RRB- , and The World 's End -LRB- 2013 -RRB- , made with recurrent collaborators Simon Pegg , Nira Park and Nick Frost ."
+            }
+          ],
+          [
+            {
+              "page_title": "Edgar Wright",
+              "line_index": 2,
+              "sentence": "He also collaborated with them as the director of the television series Spaced ."
+            }
+          ],
+          [
+            {
+              "page_title": "Edgar Wright",
+              "line_index": 5,
+              "sentence": "He also co-wrote , produced and directed the 2010 film Scott Pilgrim vs. the World ."
+            }
+          ],
+          [
+            {
+              "page_title": "Edgar Wright",
+              "line_index": 6,
+              "sentence": "Along with his friends Joe Cornish and Steven Moffat , he co-wrote Steven Spielberg 's The Adventures of Tintin : The Secret of the Unicorn ."
+            }
+          ],
+          [
+            {
+              "page_title": "Edgar Wright",
+              "line_index": 7,
+              "sentence": "Wright and Cornish co-wrote the screenplay for the Marvel Studios film Ant-Man , which Wright was intended to direct before departing the project ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 6,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000651",
+      "claim": "San Diego Comic-Con was founded as the Lone Star State Comic Book Convention.",
+      "evidence_sentences": "It was founded as the Golden State Comic Book Convention in 1970 by a group of San Diegans that included Shel Dorf , Richard Alf , Ken Krueger and Mike Towry ; later , it was called the `` San Diego Comic Book Convention '' .",
+      "page_titles": [
+        "San Diego Comic-Con"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "San Diego Comic-Con",
+            "line_index": 1,
+            "sentence": "It was founded as the Golden State Comic Book Convention in 1970 by a group of San Diegans that included Shel Dorf , Richard Alf , Ken Krueger and Mike Towry ; later , it was called the `` San Diego Comic Book Convention '' ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000652",
+      "claim": "Netflix is who Trollhunters was created for.",
+      "evidence_sentences": "Trollhunters is an American computer-animated fantasy television series created for Netflix by Guillermo del Toro and produced by DreamWorks Animation and Double Dare You .",
+      "page_titles": [
+        "Trollhunters"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Trollhunters",
+            "line_index": 0,
+            "sentence": "Trollhunters is an American computer-animated fantasy television series created for Netflix by Guillermo del Toro and produced by DreamWorks Animation and Double Dare You ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000653",
+      "claim": "Andrea Pirlo plays for the Italian national team.",
+      "evidence_sentences": "Andrea Pirlo , Ufficiale OMRI -LRB- born 19 May 1979 -RRB- is an Italian professional footballer who plays for American club New York City FC and the Italy national team .",
+      "page_titles": [
+        "Andrea Pirlo"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Andrea Pirlo",
+            "line_index": 0,
+            "sentence": "Andrea Pirlo , Ufficiale OMRI -LRB- born 19 May 1979 -RRB- is an Italian professional footballer who plays for American club New York City FC and the Italy national team ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Andrea Pirlo",
+              "line_index": 0,
+              "sentence": "Andrea Pirlo , Ufficiale OMRI -LRB- born 19 May 1979 -RRB- is an Italian professional footballer who plays for American club New York City FC and the Italy national team ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000654",
+      "claim": "The End of Time is the Tenth Doctor's final adventure.",
+      "evidence_sentences": "He eventually parts ways with them all by the end of the 2008 series finale , `` Journey 's End '' , after which he attempts to travel alone for the duration of the 2008 -- 2010 specials before being accompanied by Donna Noble 's grandfather Wilfred Mott on his final adventure in The End of Time .",
+      "page_titles": [
+        "Tenth Doctor"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tenth Doctor",
+            "line_index": 8,
+            "sentence": "He eventually parts ways with them all by the end of the 2008 series finale , `` Journey 's End '' , after which he attempts to travel alone for the duration of the 2008 -- 2010 specials before being accompanied by Donna Noble 's grandfather Wilfred Mott on his final adventure in The End of Time ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000655",
+      "claim": "Girl is by at least one singer.",
+      "evidence_sentences": "Girl -LRB- stylized as G I R L -RRB- is the second studio album by American singer and record producer Pharrell Williams .",
+      "page_titles": [
+        "Girl -LRB-Pharrell Williams album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Girl -LRB-Pharrell Williams album-RRB-",
+            "line_index": 0,
+            "sentence": "Girl -LRB- stylized as G I R L -RRB- is the second studio album by American singer and record producer Pharrell Williams ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Girl -LRB-Pharrell Williams album-RRB-",
+              "line_index": 3,
+              "sentence": "It contains appearances by Justin Timberlake , Miley Cyrus , Daft Punk , JoJo and Alicia Keys ."
+            },
+            {
+              "page_title": "Alicia Keys",
+              "line_index": 0,
+              "sentence": "Alicia Augello Cook -LRB- born January 25 , 1981 -RRB- , known professionally as Alicia Keys , is an American singer , songwriter , record producer , pianist and actress ."
+            }
+          ],
+          [
+            {
+              "page_title": "Girl -LRB-Pharrell Williams album-RRB-",
+              "line_index": 10,
+              "sentence": "Follow-up singles `` Marilyn Monroe '' , `` Come Get It Bae '' and `` Gust of Wind '' have achieved moderate success ."
+            },
+            {
+              "page_title": "Come Get It Bae",
+              "line_index": 0,
+              "sentence": "`` Come Get It Bae '' is a song written , produced , and performed by American singer and songwriter Pharrell Williams from his second studio album Girl -LRB- 2014 -RRB- ."
+            }
+          ],
+          [
+            {
+              "page_title": "Girl -LRB-Pharrell Williams album-RRB-",
+              "line_index": 12,
+              "sentence": "`` Happy '' also won Best Pop Solo Performance and Best Music Video ."
+            },
+            {
+              "page_title": "Happy -LRB-Pharrell Williams song-RRB-",
+              "line_index": 0,
+              "sentence": "`` Happy '' is a song written , produced , and performed by American singer and record producer Pharrell Williams , from the Despicable Me 2 soundtrack album ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000656",
+      "claim": "Raven-Symoné appears in primetime drama Empire.",
+      "evidence_sentences": "In 2015 , Raven-Symoné joined the cast of the new hit primetime drama Empire in the recurring role of Olivia , the vengeful ex-wife of one of the main characters .",
+      "page_titles": [
+        "Raven-Symoné"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Raven-Symoné",
+            "line_index": 23,
+            "sentence": "In 2015 , Raven-Symoné joined the cast of the new hit primetime drama Empire in the recurring role of Olivia , the vengeful ex-wife of one of the main characters ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000657",
+      "claim": "Underdog was directed by an American film director.",
+      "evidence_sentences": "Directed by Frederik Du Chau and written by Joe Piscatella , Adam Rifkin , and Craig A. Williams , the film stars Jim Belushi , Peter Dinklage , John Slattery , and Patrick Warburton with the voice talents of Jason Lee , Amy Adams , and Brad Garrett . Jason Michael Lee -LRB- born April 25 , 1970 -RRB- is an American actor , producer , comedian and skateboarder .",
+      "page_titles": [
+        "Underdog -LRB-film-RRB-",
+        "Jason Lee -LRB-actor-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Underdog -LRB-film-RRB-",
+            "line_index": 1,
+            "sentence": "Directed by Frederik Du Chau and written by Joe Piscatella , Adam Rifkin , and Craig A. Williams , the film stars Jim Belushi , Peter Dinklage , John Slattery , and Patrick Warburton with the voice talents of Jason Lee , Amy Adams , and Brad Garrett ."
+          },
+          {
+            "page_title": "Jason Lee -LRB-actor-RRB-",
+            "line_index": 0,
+            "sentence": "Jason Michael Lee -LRB- born April 25 , 1970 -RRB- is an American actor , producer , comedian and skateboarder ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000658",
+      "claim": "The Block (album)'s single was released on May 13, 2008.",
+      "evidence_sentences": "The first official single from the album is `` Summertime '' and the song was released on May 13 , 2008 .",
+      "page_titles": [
+        "The Block -LRB-album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Block -LRB-album-RRB-",
+            "line_index": 6,
+            "sentence": "The first official single from the album is `` Summertime '' and the song was released on May 13 , 2008 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000659",
+      "claim": "Cleopatre is rarely one of three operas.",
+      "evidence_sentences": "Cléopâtre is one of three operas by Massenet to be premiered posthumously ; the others are Panurge -LRB- 1913 -RRB- and Amadis -LRB- 1922 -RRB- .",
+      "page_titles": [
+        "Cléopâtre"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Cléopâtre",
+            "line_index": 4,
+            "sentence": "Cléopâtre is one of three operas by Massenet to be premiered posthumously ; the others are Panurge -LRB- 1913 -RRB- and Amadis -LRB- 1922 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000660",
+      "claim": "The Dodo has been depicted with a naked head and arm.",
+      "evidence_sentences": "It has been depicted with brownish-grey plumage , yellow feet , a tuft of tail feathers , a grey , naked head , and a black , yellow , and green beak .",
+      "page_titles": [
+        "Dodo"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Dodo",
+            "line_index": 10,
+            "sentence": "It has been depicted with brownish-grey plumage , yellow feet , a tuft of tail feathers , a grey , naked head , and a black , yellow , and green beak ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000661",
+      "claim": "The Residenztheater is where Hedda Gabler's world premiere took place.",
+      "evidence_sentences": "Ibsen was present at the world premiere , which took place on 31 January 1891 at the Residenztheater in Munich .",
+      "page_titles": [
+        "Hedda Gabler"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Hedda Gabler",
+            "line_index": 1,
+            "sentence": "Ibsen was present at the world premiere , which took place on 31 January 1891 at the Residenztheater in Munich ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000662",
+      "claim": "Florida inmates who do not choose electrocution and inmates who committed their crimes after the designated date are executed by lethal injection instead of the electric chair.",
+      "evidence_sentences": "In the state of Kentucky the electric chair has been retired except for those whose capital crimes were committed prior to March 31 , 1998 , and who choose electrocution ; inmates who do not choose electrocution and inmates who committed their crimes after the designated date are executed by lethal injection .",
+      "page_titles": [
+        "Electric chair"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Electric chair",
+            "line_index": 15,
+            "sentence": "In the state of Kentucky the electric chair has been retired except for those whose capital crimes were committed prior to March 31 , 1998 , and who choose electrocution ; inmates who do not choose electrocution and inmates who committed their crimes after the designated date are executed by lethal injection ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000663",
+      "claim": "Bank of America has online and computer banking platforms.",
+      "evidence_sentences": "Bank of America provides its products and services through 4,600 retail financial centers , approximately 15,900 automated teller machines , call centers , and online and mobile banking platforms .",
+      "page_titles": [
+        "Bank of America"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Bank of America",
+            "line_index": 16,
+            "sentence": "Bank of America provides its products and services through 4,600 retail financial centers , approximately 15,900 automated teller machines , call centers , and online and mobile banking platforms ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000664",
+      "claim": "So You Think You Can Dance premiered before July 20th, 2005.",
+      "evidence_sentences": "The series premiered on July 20 , 2005 with over ten million viewers and ended the summer season as the top-rated show on television .",
+      "page_titles": [
+        "So You Think You Can Dance -LRB-U.S. TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "So You Think You Can Dance -LRB-U.S. TV series-RRB-",
+            "line_index": 2,
+            "sentence": "The series premiered on July 20 , 2005 with over ten million viewers and ended the summer season as the top-rated show on television ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000665",
+      "claim": "Diana, Princess of Wales did not die in a car crash in Paris on August 31st, 1997.",
+      "evidence_sentences": "Media attention and public mourning were extensive after her death in a car crash in Paris on 31 August 1997 and subsequent televised funeral .",
+      "page_titles": [
+        "Diana, Princess of Wales"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Diana, Princess of Wales",
+            "line_index": 18,
+            "sentence": "Media attention and public mourning were extensive after her death in a car crash in Paris on 31 August 1997 and subsequent televised funeral ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000666",
+      "claim": "Jenna Jameson was photographed in the past.",
+      "evidence_sentences": "Jenna Jameson -LRB- born Jenna Marie Massoli ; April 9 , 1974 -RRB- is an American entrepreneur , webcam model and former pornographic film actress , who has been called the world 's most famous adult entertainment performer and `` The Queen of Porn '' .",
+      "page_titles": [
+        "Jenna Jameson"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Jenna Jameson",
+            "line_index": 0,
+            "sentence": "Jenna Jameson -LRB- born Jenna Marie Massoli ; April 9 , 1974 -RRB- is an American entrepreneur , webcam model and former pornographic film actress , who has been called the world 's most famous adult entertainment performer and `` The Queen of Porn '' ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Jenna Jameson",
+              "line_index": 12,
+              "sentence": "Advertisements for her site and films , often bearing her picture , have towered on a 48-foot-tall billboard in New York City 's Times Square ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000667",
+      "claim": "Jack Dylan Grazer's grandparents are Angela Lafever and Gavin Grazer.",
+      "evidence_sentences": "Jack Dylan Grazer -LRB- born September 3 , 2003 -RRB- is an American child actor and was born in Los Angeles , California to parents Angela Lafever and Gavin Grazer .",
+      "page_titles": [
+        "Jack Dylan Grazer"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Jack Dylan Grazer",
+            "line_index": 0,
+            "sentence": "Jack Dylan Grazer -LRB- born September 3 , 2003 -RRB- is an American child actor and was born in Los Angeles , California to parents Angela Lafever and Gavin Grazer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000668",
+      "claim": "Multicellular organisms include most animals.",
+      "evidence_sentences": "All species of animals , land plants and most fungi are multicellular , as are many algae , whereas a few organisms are partially uni - and partially multicellular , like slime molds and social amoebae such as the genus Dictyostelium .",
+      "page_titles": [
+        "Multicellular organism"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Multicellular organism",
+            "line_index": 3,
+            "sentence": "All species of animals , land plants and most fungi are multicellular , as are many algae , whereas a few organisms are partially uni - and partially multicellular , like slime molds and social amoebae such as the genus Dictyostelium ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000669",
+      "claim": "Super Bowl XLV was the second time the Super Bowl was played in the Dallas-Fort Worth area.",
+      "evidence_sentences": "The game was played on February 6 , 2011 , at Cowboys Stadium in Arlington , Texas , the first time the Super Bowl was played in the Dallas -- Fort Worth area .",
+      "page_titles": [
+        "Super Bowl XLV"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Super Bowl XLV",
+            "line_index": 2,
+            "sentence": "The game was played on February 6 , 2011 , at Cowboys Stadium in Arlington , Texas , the first time the Super Bowl was played in the Dallas -- Fort Worth area ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Super Bowl XLV",
+              "line_index": 2,
+              "sentence": "The game was played on February 6 , 2011 , at Cowboys Stadium in Arlington , Texas , the first time the Super Bowl was played in the Dallas -- Fort Worth area ."
+            }
+          ],
+          [
+            {
+              "page_title": "Super Bowl XLV",
+              "line_index": 2,
+              "sentence": "The game was played on February 6 , 2011 , at Cowboys Stadium in Arlington , Texas , the first time the Super Bowl was played in the Dallas -- Fort Worth area ."
+            }
+          ],
+          [
+            {
+              "page_title": "Super Bowl XLV",
+              "line_index": 2,
+              "sentence": "The game was played on February 6 , 2011 , at Cowboys Stadium in Arlington , Texas , the first time the Super Bowl was played in the Dallas -- Fort Worth area ."
+            }
+          ],
+          [
+            {
+              "page_title": "Super Bowl XLV",
+              "line_index": 2,
+              "sentence": "The game was played on February 6 , 2011 , at Cowboys Stadium in Arlington , Texas , the first time the Super Bowl was played in the Dallas -- Fort Worth area ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000670",
+      "claim": "Weekly Idol has a host who is a rapper.",
+      "evidence_sentences": "The show is hosted by comedian Jeong Hyeong-don and rapper Defconn .",
+      "page_titles": [
+        "Weekly Idol"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Weekly Idol",
+            "line_index": 1,
+            "sentence": "The show is hosted by comedian Jeong Hyeong-don and rapper Defconn ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000671",
+      "claim": "Microbiologist research challenges information found in immunology.",
+      "evidence_sentences": "Because microbiologists specialize in the investigation of microorganisms that typically cause infection , their research commonly promotes information found in immunology , pathology , and molecular biology .",
+      "page_titles": [
+        "Microbiologist"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Microbiologist",
+            "line_index": 14,
+            "sentence": "Because microbiologists specialize in the investigation of microorganisms that typically cause infection , their research commonly promotes information found in immunology , pathology , and molecular biology ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000672",
+      "claim": "Sonny & Cher began their career with record producer Phil Spector.",
+      "evidence_sentences": "The couple started their career in the mid-1960s as R&B backing singers for record producer Phil Spector .",
+      "page_titles": [
+        "Sonny & Cher"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sonny & Cher",
+            "line_index": 1,
+            "sentence": "The couple started their career in the mid-1960s as R&B backing singers for record producer Phil Spector ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000673",
+      "claim": "Islamabad has fifteen universities.",
+      "evidence_sentences": "The city is home to sixteen universities , including the Quaid-e-Azam University and NUST .",
+      "page_titles": [
+        "Islamabad"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Islamabad",
+            "line_index": 18,
+            "sentence": "The city is home to sixteen universities , including the Quaid-e-Azam University and NUST ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000674",
+      "claim": "Kelly Preston starred in multiple films like The Cat in the Hat, Old Dogs, and Broken Bridges.",
+      "evidence_sentences": "She also starred in the films The Cat in the Hat , Old Dogs , and Broken Bridges .",
+      "page_titles": [
+        "Kelly Preston"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kelly Preston",
+            "line_index": 3,
+            "sentence": "She also starred in the films The Cat in the Hat , Old Dogs , and Broken Bridges ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000675",
+      "claim": "Mary-Kate Olsen and Ashley Olsen are commonly known as the Olsen twins collectively.",
+      "evidence_sentences": "Mary-Kate Olsen and Ashley Olsen -LRB- born June 13 , 1986 -RRB- , also known as the Olsen twins collectively , are American fashion designers and former child actresses .",
+      "page_titles": [
+        "Mary-Kate and Ashley Olsen"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mary-Kate and Ashley Olsen",
+            "line_index": 0,
+            "sentence": "Mary-Kate Olsen and Ashley Olsen -LRB- born June 13 , 1986 -RRB- , also known as the Olsen twins collectively , are American fashion designers and former child actresses ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Mary-Kate and Ashley Olsen",
+              "line_index": 0,
+              "sentence": "Mary-Kate Olsen and Ashley Olsen -LRB- born June 13 , 1986 -RRB- , also known as the Olsen twins collectively , are American fashion designers and former child actresses ."
+            }
+          ],
+          [
+            {
+              "page_title": "Mary-Kate and Ashley Olsen",
+              "line_index": 0,
+              "sentence": "Mary-Kate Olsen and Ashley Olsen -LRB- born June 13 , 1986 -RRB- , also known as the Olsen twins collectively , are American fashion designers and former child actresses ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000676",
+      "claim": "Blue Jasmine is about a rich Bostonian socialite who falls on hard times.",
+      "evidence_sentences": "The film tells the story of a rich Manhattan socialite -LRB- played by Cate Blanchett -RRB- who falls on hard times and has to move into her working class sister 's -LRB- Sally Hawkins -RRB- apartment in San Francisco .",
+      "page_titles": [
+        "Blue Jasmine"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Blue Jasmine",
+            "line_index": 1,
+            "sentence": "The film tells the story of a rich Manhattan socialite -LRB- played by Cate Blanchett -RRB- who falls on hard times and has to move into her working class sister 's -LRB- Sally Hawkins -RRB- apartment in San Francisco ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Blue Jasmine",
+              "line_index": 1,
+              "sentence": "The film tells the story of a rich Manhattan socialite -LRB- played by Cate Blanchett -RRB- who falls on hard times and has to move into her working class sister 's -LRB- Sally Hawkins -RRB- apartment in San Francisco ."
+            }
+          ],
+          [
+            {
+              "page_title": "Blue Jasmine",
+              "line_index": 1,
+              "sentence": "The film tells the story of a rich Manhattan socialite -LRB- played by Cate Blanchett -RRB- who falls on hard times and has to move into her working class sister 's -LRB- Sally Hawkins -RRB- apartment in San Francisco ."
+            }
+          ],
+          [
+            {
+              "page_title": "Blue Jasmine",
+              "line_index": 1,
+              "sentence": "The film tells the story of a rich Manhattan socialite -LRB- played by Cate Blanchett -RRB- who falls on hard times and has to move into her working class sister 's -LRB- Sally Hawkins -RRB- apartment in San Francisco ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000677",
+      "claim": "DodgeBall: A True Underdog Story was written and directed by Rawson Marshall.",
+      "evidence_sentences": "DodgeBall : A True Underdog Story is a 2004 American sports comedy film written and directed by Rawson Marshall Thurber and starring Vince Vaughn and Ben Stiller .",
+      "page_titles": [
+        "DodgeBall-COLON- A True Underdog Story"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "DodgeBall-COLON- A True Underdog Story",
+            "line_index": 0,
+            "sentence": "DodgeBall : A True Underdog Story is a 2004 American sports comedy film written and directed by Rawson Marshall Thurber and starring Vince Vaughn and Ben Stiller ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "DodgeBall-COLON- A True Underdog Story",
+              "line_index": 0,
+              "sentence": "DodgeBall : A True Underdog Story is a 2004 American sports comedy film written and directed by Rawson Marshall Thurber and starring Vince Vaughn and Ben Stiller ."
+            }
+          ],
+          [
+            {
+              "page_title": "DodgeBall-COLON- A True Underdog Story",
+              "line_index": 0,
+              "sentence": "DodgeBall : A True Underdog Story is a 2004 American sports comedy film written and directed by Rawson Marshall Thurber and starring Vince Vaughn and Ben Stiller ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000678",
+      "claim": "DNA is a work.",
+      "evidence_sentences": "DNA is the debut studio album by British girl group Little Mix .",
+      "page_titles": [
+        "DNA -LRB-Little Mix album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "DNA -LRB-Little Mix album-RRB-",
+            "line_index": 0,
+            "sentence": "DNA is the debut studio album by British girl group Little Mix ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "DNA -LRB-Little Mix album-RRB-",
+              "line_index": 4,
+              "sentence": "The album was co-written by Little Mix and they stated that they were involved in the development of the album as much as possible ."
+            }
+          ],
+          [
+            {
+              "page_title": "DNA -LRB-Little Mix album-RRB-",
+              "line_index": 7,
+              "sentence": "Songs on the album were also co-written by members of other girl groups , including Nicola Roberts of Girls Aloud , Shaznay Lewis of All Saints and T-Boz of TLC ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000679",
+      "claim": "Tiber Oil Field is a landlocked oil field.",
+      "evidence_sentences": "The Tiber Oil Field is a deepwater offshore oil field located in the Keathley Canyon block 102 of the United States sector of the Gulf of Mexico .",
+      "page_titles": [
+        "Tiber Oil Field"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tiber Oil Field",
+            "line_index": 0,
+            "sentence": "The Tiber Oil Field is a deepwater offshore oil field located in the Keathley Canyon block 102 of the United States sector of the Gulf of Mexico ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000680",
+      "claim": "Charles Howard Hinton was a mathematician from Britain, although he died in America.",
+      "evidence_sentences": "Charles Howard Hinton -LRB- 1853 , United Kingdom -- 30 April 1907 , Washington D.C. , United States -RRB- was a British mathematician and writer of science fiction works titled Scientific Romances .",
+      "page_titles": [
+        "Charles Howard Hinton"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Charles Howard Hinton",
+            "line_index": 0,
+            "sentence": "Charles Howard Hinton -LRB- 1853 , United Kingdom -- 30 April 1907 , Washington D.C. , United States -RRB- was a British mathematician and writer of science fiction works titled Scientific Romances ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000681",
+      "claim": "Hot Right Now is from the author Bob Stanley.",
+      "evidence_sentences": "`` Hot Right Now '' is a single by British drum and bass producer DJ Fresh , released as the second single from his third studio album , Nextlevelism .",
+      "page_titles": [
+        "Hot Right Now"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Hot Right Now",
+            "line_index": 0,
+            "sentence": "`` Hot Right Now '' is a single by British drum and bass producer DJ Fresh , released as the second single from his third studio album , Nextlevelism ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000682",
+      "claim": "Aphrodite is dating the god of blacksmiths.",
+      "evidence_sentences": "In Greek myth , the other gods feared that Aphrodite 's beauty might lead to conflict and war , through rivalry for her favours ; so Zeus married her off to Hephaestus .",
+      "page_titles": [
+        "Aphrodite"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Aphrodite",
+            "line_index": 13,
+            "sentence": "In Greek myth , the other gods feared that Aphrodite 's beauty might lead to conflict and war , through rivalry for her favours ; so Zeus married her off to Hephaestus ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000683",
+      "claim": "Uranium-235 was discovered by a person who was born after August.",
+      "evidence_sentences": "It was discovered in 1935 by Arthur Jeffrey Dempster . Arthur Jeffrey Dempster -LRB- August 14 , 1886 -- March 11 , 1950 -RRB- was a Canadian-American physicist best known for his work in mass spectrometry and his discovery of the uranium isotope 235U .",
+      "page_titles": [
+        "Uranium-235",
+        "Arthur Jeffrey Dempster"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Uranium-235",
+            "line_index": 6,
+            "sentence": "It was discovered in 1935 by Arthur Jeffrey Dempster ."
+          },
+          {
+            "page_title": "Arthur Jeffrey Dempster",
+            "line_index": 0,
+            "sentence": "Arthur Jeffrey Dempster -LRB- August 14 , 1886 -- March 11 , 1950 -RRB- was a Canadian-American physicist best known for his work in mass spectrometry and his discovery of the uranium isotope 235U ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000684",
+      "claim": "In 1992, Tom DeLonge formed Blink-182.",
+      "evidence_sentences": "He formed Blink-182 with bassist Mark Hoppus and drummer Scott Raynor during his high school years .",
+      "page_titles": [
+        "Tom DeLonge"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tom DeLonge",
+            "line_index": 4,
+            "sentence": "He formed Blink-182 with bassist Mark Hoppus and drummer Scott Raynor during his high school years ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Tom DeLonge",
+              "line_index": 1,
+              "sentence": "He is currently the guitarist and lead vocalist of the rock band Angels & Airwaves and was the guitarist , co-lead vocalist and co-founder of the American rock band Blink-182 from 1992 to 2015 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000685",
+      "claim": "The Tenth Doctor travels alone in The End of Time.",
+      "evidence_sentences": "He eventually parts ways with them all by the end of the 2008 series finale , `` Journey 's End '' , after which he attempts to travel alone for the duration of the 2008 -- 2010 specials before being accompanied by Donna Noble 's grandfather Wilfred Mott on his final adventure in The End of Time .",
+      "page_titles": [
+        "Tenth Doctor"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tenth Doctor",
+            "line_index": 8,
+            "sentence": "He eventually parts ways with them all by the end of the 2008 series finale , `` Journey 's End '' , after which he attempts to travel alone for the duration of the 2008 -- 2010 specials before being accompanied by Donna Noble 's grandfather Wilfred Mott on his final adventure in The End of Time ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000686",
+      "claim": "The Boeing 767 became the most frequently used airliner for transatlantic flights between North America and Europe in the 1990s.",
+      "evidence_sentences": "In the 1990s , the 767 became the most frequently used airliner for transatlantic flights between North America and Europe .",
+      "page_titles": [
+        "Boeing 767"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Boeing 767",
+            "line_index": 19,
+            "sentence": "In the 1990s , the 767 became the most frequently used airliner for transatlantic flights between North America and Europe ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Boeing 767",
+              "line_index": 19,
+              "sentence": "In the 1990s , the 767 became the most frequently used airliner for transatlantic flights between North America and Europe ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000687",
+      "claim": "Weill Cornell Medicine is a school as part of a university.",
+      "evidence_sentences": "Weill Cornell Medicine -LSB- waɪl_kɔrˈnɛl -RSB- is the biomedical research unit and medical school of Cornell University , a private Ivy League university .",
+      "page_titles": [
+        "Weill Cornell Medicine"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Weill Cornell Medicine",
+            "line_index": 0,
+            "sentence": "Weill Cornell Medicine -LSB- waɪl_kɔrˈnɛl -RSB- is the biomedical research unit and medical school of Cornell University , a private Ivy League university ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000688",
+      "claim": "Smriti Mandhana is an Indian cricketer born in July.",
+      "evidence_sentences": "Smriti Mandhana -LRB- born 18 July 1996 -RRB- is an Indian cricketer who plays for the Indian women 's cricket team .",
+      "page_titles": [
+        "Smriti Mandhana"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Smriti Mandhana",
+            "line_index": 0,
+            "sentence": "Smriti Mandhana -LRB- born 18 July 1996 -RRB- is an Indian cricketer who plays for the Indian women 's cricket team ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Smriti Mandhana",
+              "line_index": 0,
+              "sentence": "Smriti Mandhana -LRB- born 18 July 1996 -RRB- is an Indian cricketer who plays for the Indian women 's cricket team ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000689",
+      "claim": "Granular is granite.",
+      "evidence_sentences": "Granite -LRB- -LSB- pronˈɡrænᵻt -RSB- -RRB- is a common type of felsic intrusive igneous rock that is granular and phaneritic in texture .",
+      "page_titles": [
+        "Granite"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Granite",
+            "line_index": 0,
+            "sentence": "Granite -LRB- -LSB- pronˈɡrænᵻt -RSB- -RRB- is a common type of felsic intrusive igneous rock that is granular and phaneritic in texture ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000690",
+      "claim": "IMDb is not user-edited.",
+      "evidence_sentences": "The site enables registered users to submit new material and edits to existing entries .",
+      "page_titles": [
+        "IMDb"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "IMDb",
+            "line_index": 10,
+            "sentence": "The site enables registered users to submit new material and edits to existing entries ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000691",
+      "claim": "In America, Warcraft was released by Universal Pictures.",
+      "evidence_sentences": "Warcraft premiered in Paris on May 24 , 2016 , and was released by Universal Pictures in the United States on June 10 , 2016 .",
+      "page_titles": [
+        "Warcraft -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Warcraft -LRB-film-RRB-",
+            "line_index": 7,
+            "sentence": "Warcraft premiered in Paris on May 24 , 2016 , and was released by Universal Pictures in the United States on June 10 , 2016 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000692",
+      "claim": "Starrcade was eventually broadcast via pay-per-view umbrella.",
+      "evidence_sentences": "Starrcade was an annual professional wrestling event , originally broadcast via closed-circuit television and eventually broadcast via pay-per-view television , held from 1983 to 2000 by the National Wrestling Alliance -LRB- NWA -RRB- and later World Championship Wrestling -LRB- WCW -RRB- .",
+      "page_titles": [
+        "Starrcade"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Starrcade",
+            "line_index": 0,
+            "sentence": "Starrcade was an annual professional wrestling event , originally broadcast via closed-circuit television and eventually broadcast via pay-per-view television , held from 1983 to 2000 by the National Wrestling Alliance -LRB- NWA -RRB- and later World Championship Wrestling -LRB- WCW -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000693",
+      "claim": "Antigua and Barbuda was named by Isabella I of Castile.",
+      "evidence_sentences": "The country 's name was given by Christopher Columbus in 1493 after discovering the island , in honor of the Virgin of La Antigua in the Seville Cathedral . Antigua and Barbuda -LRB- -LSB- ænˈtiːɡə_ənd_bɑːrˈbjuːdə -RSB- ;-RRB- is a twin-island country in the Americas , lying between the Caribbean Sea and the Atlantic Ocean .",
+      "page_titles": [
+        "Antigua and Barbuda",
+        "Antigua and Barbuda"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Antigua and Barbuda",
+            "line_index": 6,
+            "sentence": "The country 's name was given by Christopher Columbus in 1493 after discovering the island , in honor of the Virgin of La Antigua in the Seville Cathedral ."
+          },
+          {
+            "page_title": "Antigua and Barbuda",
+            "line_index": 0,
+            "sentence": "Antigua and Barbuda -LRB- -LSB- ænˈtiːɡə_ənd_bɑːrˈbjuːdə -RSB- ;-RRB- is a twin-island country in the Americas , lying between the Caribbean Sea and the Atlantic Ocean ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000694",
+      "claim": "Agent Raghav – Crime Branch was nominated for an award.",
+      "evidence_sentences": "The serial received Indian Telly Awards in the category of Best Thriller and Horror Show and was also nominated for Best Weekend Show .",
+      "page_titles": [
+        "Agent Raghav – Crime Branch"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Agent Raghav – Crime Branch",
+            "line_index": 2,
+            "sentence": "The serial received Indian Telly Awards in the category of Best Thriller and Horror Show and was also nominated for Best Weekend Show ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000695",
+      "claim": "On December 27, 1931, Scotty Moore was born.",
+      "evidence_sentences": "Winfield Scott `` Scotty '' Moore III -LRB- December 27 , 1931 -- June 28 , 2016 -RRB- was an American guitarist and recording engineer .",
+      "page_titles": [
+        "Scotty Moore"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Scotty Moore",
+            "line_index": 0,
+            "sentence": "Winfield Scott `` Scotty '' Moore III -LRB- December 27 , 1931 -- June 28 , 2016 -RRB- was an American guitarist and recording engineer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000696",
+      "claim": "Victoria Palace Theatre is opposite Victoria Station.",
+      "evidence_sentences": "Victoria Palace Theatre is a West End theatre in Victoria Street , in the City of Westminster , opposite Victoria Station .",
+      "page_titles": [
+        "Victoria Palace Theatre"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Victoria Palace Theatre",
+            "line_index": 0,
+            "sentence": "Victoria Palace Theatre is a West End theatre in Victoria Street , in the City of Westminster , opposite Victoria Station ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000697",
+      "claim": "Ian Brennan directs.",
+      "evidence_sentences": "Ian Brennan -LRB- born April 23 , 1978 -RRB- is a television writer , actor , producer and director .",
+      "page_titles": [
+        "Ian Brennan -LRB-writer-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ian Brennan -LRB-writer-RRB-",
+            "line_index": 0,
+            "sentence": "Ian Brennan -LRB- born April 23 , 1978 -RRB- is a television writer , actor , producer and director ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Ian Brennan -LRB-writer-RRB-",
+              "line_index": 0,
+              "sentence": "Ian Brennan -LRB- born April 23 , 1978 -RRB- is a television writer , actor , producer and director ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000698",
+      "claim": "Steven Spielberg co-wrote the 1974 crime film The Sugarland Express.",
+      "evidence_sentences": "The Sugarland Express is a 1974 American crime drama film co-written and directed by Steven Spielberg in his theatrical feature film directorial debut .",
+      "page_titles": [
+        "The Sugarland Express"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Sugarland Express",
+            "line_index": 3,
+            "sentence": "The Sugarland Express is a 1974 American crime drama film co-written and directed by Steven Spielberg in his theatrical feature film directorial debut ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000699",
+      "claim": "The New York Knicks are in the Atlantic Division of the National Press Club's Eastern Conference.",
+      "evidence_sentences": "The Knicks compete in the National Basketball Association -LRB- NBA -RRB- as a member of the Atlantic Division of the Eastern Conference .",
+      "page_titles": [
+        "New York Knicks"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "New York Knicks",
+            "line_index": 1,
+            "sentence": "The Knicks compete in the National Basketball Association -LRB- NBA -RRB- as a member of the Atlantic Division of the Eastern Conference ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000700",
+      "claim": "Pharmacology deals with the development, discovery, and characterization of chemicals which show biological effects.",
+      "evidence_sentences": "Pharmacology , a biomedical science , deals with the research , discovery , and characterization of chemicals which show biological effects and the elucidation of cellular and organismal function in relation to these chemicals .",
+      "page_titles": [
+        "Pharmacology"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Pharmacology",
+            "line_index": 10,
+            "sentence": "Pharmacology , a biomedical science , deals with the research , discovery , and characterization of chemicals which show biological effects and the elucidation of cellular and organismal function in relation to these chemicals ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000701",
+      "claim": "Mary McGee was the first woman to compete in the Baja 1000, in 1975.",
+      "evidence_sentences": "From 1967 to 1972 , the race was organized by the National Off-Road Racing Association -LRB- NORRA -RRB- and grew in popularity with ABC 's `` Wide World of Sports '' sending Jim McKay to cover the 1968 event , and attracting new participants like the late Mickey Thompson , Indy 500 winner Parnelli Jones , movie actor James Garner , and Mary McGee , the first woman to compete in the event .",
+      "page_titles": [
+        "Baja 1000"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Baja 1000",
+            "line_index": 14,
+            "sentence": "From 1967 to 1972 , the race was organized by the National Off-Road Racing Association -LRB- NORRA -RRB- and grew in popularity with ABC 's `` Wide World of Sports '' sending Jim McKay to cover the 1968 event , and attracting new participants like the late Mickey Thompson , Indy 500 winner Parnelli Jones , movie actor James Garner , and Mary McGee , the first woman to compete in the event ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  ],
+  "rubric": "# Judge Rubric (silver adjudication, v1)\n\nYou are an independent fact-checking adjudicator. You will see a batch of\nitems. Each item contains a **claim** and **evidence** (what is included\ndepends on the disclosure stage, stated in the batch header). For EVERY item\nyou must judge **only from the information provided**.\n\n## Task\n\nDecide whether the provided evidence **warrants** the claim:\n\n- `Supported` — the evidence clearly or probably establishes the claim is true.\n- `Refuted` — the evidence clearly or probably establishes the claim is false.\n- `Ambiguous` — the evidence is insufficient, partial, or mixed; you cannot\n  responsibly decide true or false from what is provided.\n\nAlso rate how sufficient the evidence is for deciding the claim\n(`clearly_sufficient | probably_sufficient | partial_or_ambiguous |\nprobably_insufficient | clearly_insufficient`), your confidence (integer\n0–100), and any issue flags that apply (see list).\n\n## Hard rules\n\n- Judge ONLY from the supplied claim and evidence. Do NOT use outside\n  knowledge to decide the verdict.\n- Do NOT browse the web or look anything up.\n- Do NOT speculate about hidden labels, other models, or why the item was\n  selected.\n- If the evidence alone does not settle the claim, say `Ambiguous` — that is a\n  valid, useful answer, not a failure.\n- `confidence` MUST be an integer from 0 to 100.\n- `brief_reason` must be short (one sentence) and grounded in the evidence.\n- Select issue flags only when the evidence shows that problem; use `none`\n  otherwise. Do not pad flags.\n\n## Issue flags\n\n`none`, `possible_missing_title_context`, `possible_coreference_or_entity_resolution`,\n`possible_missing_surrounding_context`, `multi_sentence_integration`,\n`numerical_or_temporal_reasoning`, `negation_or_scope`,\n`entity_or_attribute_confusion`, `partial_warrant`,\n`apparent_internal_contradiction`, `other`\n\n## Output format\n\nReturn ONLY a JSON array (no prose before or after), one object per item, in\nthe same order as the input:\n\n```json\n[\n  {\n    \"item_id\": \"SA-000001\",\n    \"judge_id\": \"judge_1\",\n    \"stage\": \"A\",\n    \"verdict\": \"Supported\",\n    \"evidence_sufficiency\": \"probably_sufficient\",\n    \"confidence\": 80,\n    \"issue_flags\": [\"none\"],\n    \"brief_reason\": \"The evidence sentence directly states the claim.\"\n  }\n]\n```\n\n`item_id`, `judge_id`, and `stage` must be copied exactly from the batch file.\nProduce exactly one object for every item in the batch — never skip or merge\nitems. If an item's evidence is empty or unreadable, verdict `Ambiguous`,\nsufficiency `clearly_insufficient`, confidence as you see fit, flag `other`.\n",
+  "disclosure_note": "Stage C. Judge only supplied fields. Null text means unavailable; do not fill it using outside knowledge."
+}

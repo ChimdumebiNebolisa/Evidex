@@ -1,0 +1,784 @@
+[
+  {
+    "kind": "evidence",
+    "claim": "The basis of characters in many authors' books in Emperor Norton.",
+    "item_id": "SA-000001",
+    "claim_id": 42669,
+    "regression": false,
+    "evidence_set_id": "fever_set_beac6866d5b4",
+    "selected_annotation_index": 0,
+    "ordered_pointers_match": true,
+    "chosen_text_mismatch": true,
+    "mismatch_causes": {
+      "link_field_extraction": 1
+    },
+    "stage_b_changed": false,
+    "stage_c_changed": true,
+    "alternative_sentences_changed": 0,
+    "alternative_sentences_unavailable": 0,
+    "alternative_mismatch_causes": {},
+    "old_alternative_sets": 0,
+    "corrected_alternative_sets": 0,
+    "c_adds_sentence_text": false,
+    "old_c_adds_sentence_text": false,
+    "old_chosen": [
+      {
+        "page_title": "Emperor Norton",
+        "line_index": 19,
+        "sentence": "Neil Gaiman"
+      }
+    ],
+    "corrected_chosen": [
+      {
+        "page_title": "Emperor Norton",
+        "line_index": 19,
+        "sentence": "Norton has been immortalized as the basis of characters in the literature of writers Mark Twain , Robert Louis Stevenson , Christopher Moore , Morris and Goscinny , Selma Lagerlöf , and Neil Gaiman ."
+      }
+    ]
+  },
+  {
+    "kind": "evidence",
+    "claim": "The Airbus A380 entered commercial service in 2007 with Singapore Airlines.",
+    "item_id": "SA-000002",
+    "claim_id": 104811,
+    "regression": false,
+    "evidence_set_id": "fever_set_872311f37152",
+    "selected_annotation_index": 0,
+    "ordered_pointers_match": true,
+    "chosen_text_mismatch": true,
+    "mismatch_causes": {
+      "link_field_extraction": 1
+    },
+    "stage_b_changed": false,
+    "stage_c_changed": true,
+    "alternative_sentences_changed": 0,
+    "alternative_sentences_unavailable": 0,
+    "alternative_mismatch_causes": {},
+    "old_alternative_sets": 0,
+    "corrected_alternative_sets": 0,
+    "c_adds_sentence_text": false,
+    "old_c_adds_sentence_text": false,
+    "old_chosen": [
+      {
+        "page_title": "Airbus A380",
+        "line_index": 3,
+        "sentence": "Singapore Airlines"
+      }
+    ],
+    "corrected_chosen": [
+      {
+        "page_title": "Airbus A380",
+        "line_index": 3,
+        "sentence": "The A380 made its first flight on 27 April 2005 and entered commercial service on 25 October 2007 with Singapore Airlines ."
+      }
+    ]
+  },
+  {
+    "kind": "evidence",
+    "claim": "Cleopatre premiered in a manner.",
+    "item_id": "SA-000329",
+    "claim_id": 10689,
+    "regression": true,
+    "evidence_set_id": "fever_set_3addac3709a9",
+    "selected_annotation_index": 0,
+    "ordered_pointers_match": true,
+    "chosen_text_mismatch": true,
+    "mismatch_causes": {
+      "unavailable_in_old_packet": 2,
+      "title_normalization_or_cache_recovery": 2
+    },
+    "stage_b_changed": false,
+    "stage_c_changed": true,
+    "alternative_sentences_changed": 0,
+    "alternative_sentences_unavailable": 0,
+    "alternative_mismatch_causes": {},
+    "old_alternative_sets": 0,
+    "corrected_alternative_sets": 0,
+    "c_adds_sentence_text": false,
+    "old_c_adds_sentence_text": false,
+    "old_chosen": [
+      {
+        "page_title": "Cléopâtre",
+        "line_index": 1,
+        "sentence": null
+      },
+      {
+        "page_title": "Opéra de Monte-Carlo",
+        "line_index": 0,
+        "sentence": null
+      }
+    ],
+    "corrected_chosen": [
+      {
+        "page_title": "Cléopâtre",
+        "line_index": 1,
+        "sentence": "It was first performed at the Opéra de Monte-Carlo on 23 February 1914 , nearly two years after Massenet 's death ."
+      },
+      {
+        "page_title": "Opéra de Monte-Carlo",
+        "line_index": 0,
+        "sentence": "The Opéra de Monte-Carlo is an opera house , which is part of the Monte Carlo Casino located in the principality of Monaco ."
+      }
+    ]
+  },
+  {
+    "kind": "evidence",
+    "claim": "Sacre-Coeur, Paris is publicly dedicated to a cult.",
+    "item_id": "SA-001042",
+    "claim_id": 192203,
+    "regression": false,
+    "evidence_set_id": "fever_set_4eb0aaa3dac3",
+    "selected_annotation_index": 0,
+    "ordered_pointers_match": true,
+    "chosen_text_mismatch": true,
+    "mismatch_causes": {
+      "unavailable_in_old_packet": 1,
+      "title_normalization_or_cache_recovery": 1,
+      "link_field_extraction": 1
+    },
+    "stage_b_changed": false,
+    "stage_c_changed": true,
+    "alternative_sentences_changed": 0,
+    "alternative_sentences_unavailable": 0,
+    "alternative_mismatch_causes": {},
+    "old_alternative_sets": 0,
+    "corrected_alternative_sets": 0,
+    "c_adds_sentence_text": false,
+    "old_c_adds_sentence_text": false,
+    "old_chosen": [
+      {
+        "page_title": "Sacré-Cœur, Paris",
+        "line_index": 2,
+        "sentence": null
+      },
+      {
+        "page_title": "Sacred Heart",
+        "line_index": 0,
+        "sentence": "Roman Catholic devotions"
+      }
+    ],
+    "corrected_chosen": [
+      {
+        "page_title": "Sacré-Cœur, Paris",
+        "line_index": 2,
+        "sentence": "Sacré-Cœur is a double monument , political and cultural , both a national penance for the defeat of France in the 1870 Franco-Prussian War and the socialist Paris Commune of 1871 crowning its most rebellious neighborhood , and an embodiment of conservative moral order , publicly dedicated to the Sacred Heart of Jesus , which was an increasingly popular vision of a loving and sympathetic Christ ."
+      },
+      {
+        "page_title": "Sacred Heart",
+        "line_index": 0,
+        "sentence": "The devotion to the Sacred Heart -LRB- also known as the Most Sacred Heart of Jesus , Sacratissimi Cordis Iesu in Latin -RRB- is one of the most widely practiced and well-known Roman Catholic devotions , taking Jesus Christ 's physical heart as the representation of his divine love for humanity ."
+      }
+    ]
+  },
+  {
+    "kind": "taxonomy",
+    "claim": "A River Runs Through It is a single picture.",
+    "gold_evidence": "A River Runs Through It is a 1992 American period coming-of-age drama film directed by Robert Redford and starring Craig Sheffer , Brad Pitt , Tom Skerritt , Brenda Blethyn , and Emily Lloyd .",
+    "panel": "claude",
+    "item_id": "CF-000005",
+    "source_item_id": "SA-000494",
+    "claim_id": 117369,
+    "cohort": "regression",
+    "gold_label": "Refuted",
+    "legacy": "silver_clear_evidence_utilization_failure",
+    "consensus_A": "Supported",
+    "consensus_B": "Supported",
+    "consensus_C": "Supported",
+    "still_ambiguous_after_C": false,
+    "resolved_by_titles": false,
+    "resolved_only_by_structure": false,
+    "reversed_after_titles": false,
+    "reversed_after_structure": false,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "historical_v1_packets",
+    "decisive_A": true,
+    "agrees_fever_A": false,
+    "decisive_B": true,
+    "agrees_fever_B": false,
+    "decisive_C": true,
+    "agrees_fever_C": false,
+    "first_decisive_stage": "A",
+    "first_gold_agreeing_stage": "none",
+    "title_resolution": false,
+    "c_resolution": false,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": false,
+    "c_disclosure": "additional_sentence_text_and_structure",
+    "sentence_only_utilization_compatible": false,
+    "category": "decisive_judge_fever_disagreement",
+    "corrected_packet_result": "PENDING_FRESH_JUDGMENTS",
+    "historical_C_judge_records": [
+      {
+        "item_id": "CF-000005",
+        "judge_id": "claude_full_judge_1",
+        "stage": "C",
+        "verdict": "Supported",
+        "evidence_sufficiency": "probably_sufficient",
+        "confidence": 68,
+        "issue_flags": [
+          "other"
+        ],
+        "brief_reason": "Evidence identifies it as a single 1992 drama film, consistent with being one picture."
+      },
+      {
+        "item_id": "CF-000005",
+        "judge_id": "claude_full_judge_2",
+        "stage": "C",
+        "verdict": "Supported",
+        "evidence_sufficiency": "probably_sufficient",
+        "confidence": 65,
+        "issue_flags": [
+          "other"
+        ],
+        "brief_reason": "The evidence identifies it as a 1992 drama film, consistent with being a single picture, though the claim wording is vague."
+      },
+      {
+        "item_id": "CF-000005",
+        "judge_id": "claude_full_judge_3",
+        "stage": "C",
+        "verdict": "Supported",
+        "evidence_sufficiency": "probably_sufficient",
+        "confidence": 68,
+        "issue_flags": [
+          "partial_warrant"
+        ],
+        "brief_reason": "The evidence describes it as a single 1992 drama film, consistent with being one picture."
+      },
+      {
+        "item_id": "CF-000005",
+        "judge_id": "claude_full_judge_4",
+        "stage": "C",
+        "verdict": "Supported",
+        "evidence_sufficiency": "probably_sufficient",
+        "confidence": 68,
+        "issue_flags": [
+          "partial_warrant"
+        ],
+        "brief_reason": "The evidence identifies it as a single 1992 drama film."
+      },
+      {
+        "item_id": "CF-000005",
+        "judge_id": "claude_full_judge_5",
+        "stage": "C",
+        "verdict": "Supported",
+        "evidence_sufficiency": "probably_sufficient",
+        "confidence": 70,
+        "issue_flags": [
+          "partial_warrant"
+        ],
+        "brief_reason": "The evidence describes it as a single 1992 drama film, consistent with being one picture."
+      }
+    ]
+  },
+  {
+    "kind": "taxonomy",
+    "claim": "TV Choice is on from Saturday to Friday.",
+    "gold_evidence": "It features weekly TV broadcast programming listings , running from Saturday to Friday , and goes on sale every Tuesday .",
+    "panel": "claude",
+    "item_id": "CF-000007",
+    "source_item_id": "SA-000922",
+    "claim_id": 135291,
+    "cohort": "regression",
+    "gold_label": "Refuted",
+    "legacy": "silver_clear_evidence_utilization_failure",
+    "consensus_A": "Supported",
+    "consensus_B": "Supported",
+    "consensus_C": "Supported",
+    "still_ambiguous_after_C": false,
+    "resolved_by_titles": false,
+    "resolved_only_by_structure": false,
+    "reversed_after_titles": false,
+    "reversed_after_structure": false,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "historical_v1_packets",
+    "decisive_A": true,
+    "agrees_fever_A": false,
+    "decisive_B": true,
+    "agrees_fever_B": false,
+    "decisive_C": true,
+    "agrees_fever_C": false,
+    "first_decisive_stage": "A",
+    "first_gold_agreeing_stage": "none",
+    "title_resolution": false,
+    "c_resolution": false,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": false,
+    "c_disclosure": "additional_sentence_text_and_structure",
+    "sentence_only_utilization_compatible": false,
+    "category": "decisive_judge_fever_disagreement",
+    "corrected_packet_result": "PENDING_FRESH_JUDGMENTS",
+    "historical_C_judge_records": [
+      {
+        "item_id": "CF-000007",
+        "judge_id": "claude_full_judge_1",
+        "stage": "C",
+        "verdict": "Supported",
+        "evidence_sufficiency": "probably_sufficient",
+        "confidence": 65,
+        "issue_flags": [
+          "partial_warrant"
+        ],
+        "brief_reason": "Evidence says its listings run from Saturday to Friday, which is what the claim loosely restates."
+      },
+      {
+        "item_id": "CF-000007",
+        "judge_id": "claude_full_judge_2",
+        "stage": "C",
+        "verdict": "Supported",
+        "evidence_sufficiency": "partial_or_ambiguous",
+        "confidence": 62,
+        "issue_flags": [
+          "partial_warrant"
+        ],
+        "brief_reason": "The evidence says its listings run from Saturday to Friday, which matches the claim's timespan though it describes the listings rather than the publication itself."
+      },
+      {
+        "item_id": "CF-000007",
+        "judge_id": "claude_full_judge_3",
+        "stage": "C",
+        "verdict": "Supported",
+        "evidence_sufficiency": "probably_sufficient",
+        "confidence": 68,
+        "issue_flags": [
+          "partial_warrant"
+        ],
+        "brief_reason": "The evidence says its listings run from Saturday to Friday, matching the claimed period."
+      },
+      {
+        "item_id": "CF-000007",
+        "judge_id": "claude_full_judge_4",
+        "stage": "C",
+        "verdict": "Supported",
+        "evidence_sufficiency": "probably_sufficient",
+        "confidence": 72,
+        "issue_flags": [
+          "partial_warrant"
+        ],
+        "brief_reason": "The evidence states its listings run from Saturday to Friday."
+      },
+      {
+        "item_id": "CF-000007",
+        "judge_id": "claude_full_judge_5",
+        "stage": "C",
+        "verdict": "Supported",
+        "evidence_sufficiency": "probably_sufficient",
+        "confidence": 72,
+        "issue_flags": [
+          "partial_warrant"
+        ],
+        "brief_reason": "The evidence says its listings run from Saturday to Friday, matching the claimed span."
+      }
+    ]
+  },
+  {
+    "kind": "taxonomy",
+    "claim": "Shadowhunters did not begin its second season in January 2017.",
+    "gold_evidence": "In March 2016 , it was announced that the series had been renewed for a second season of 20 episodes , which premiered on January 2 , 2017 .",
+    "panel": "claude",
+    "item_id": "CF-000010",
+    "source_item_id": "SA-000719",
+    "claim_id": 142286,
+    "cohort": "regression",
+    "gold_label": "Supported",
+    "legacy": "silver_clear_evidence_utilization_failure",
+    "consensus_A": "Refuted",
+    "consensus_B": "Refuted",
+    "consensus_C": "Refuted",
+    "still_ambiguous_after_C": false,
+    "resolved_by_titles": false,
+    "resolved_only_by_structure": false,
+    "reversed_after_titles": false,
+    "reversed_after_structure": false,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "historical_v1_packets",
+    "decisive_A": true,
+    "agrees_fever_A": false,
+    "decisive_B": true,
+    "agrees_fever_B": false,
+    "decisive_C": true,
+    "agrees_fever_C": false,
+    "first_decisive_stage": "A",
+    "first_gold_agreeing_stage": "none",
+    "title_resolution": false,
+    "c_resolution": false,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": false,
+    "c_disclosure": "structure_without_new_sentence_text",
+    "sentence_only_utilization_compatible": false,
+    "category": "decisive_judge_fever_disagreement",
+    "corrected_packet_result": "PENDING_FRESH_JUDGMENTS",
+    "historical_C_judge_records": [
+      {
+        "item_id": "CF-000010",
+        "judge_id": "claude_full_judge_1",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "clearly_sufficient",
+        "confidence": 90,
+        "issue_flags": [
+          "negation_or_scope"
+        ],
+        "brief_reason": "Evidence states the second season premiered on January 2, 2017, contradicting the denial."
+      },
+      {
+        "item_id": "CF-000010",
+        "judge_id": "claude_full_judge_2",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "clearly_sufficient",
+        "confidence": 92,
+        "issue_flags": [
+          "negation_or_scope"
+        ],
+        "brief_reason": "The evidence states the second season premiered on January 2, 2017, contradicting the denial."
+      },
+      {
+        "item_id": "CF-000010",
+        "judge_id": "claude_full_judge_3",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "clearly_sufficient",
+        "confidence": 90,
+        "issue_flags": [
+          "negation_or_scope"
+        ],
+        "brief_reason": "The evidence says the second season premiered on January 2, 2017, contradicting the negated claim."
+      },
+      {
+        "item_id": "CF-000010",
+        "judge_id": "claude_full_judge_4",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "clearly_sufficient",
+        "confidence": 90,
+        "issue_flags": [
+          "negation_or_scope"
+        ],
+        "brief_reason": "The evidence says the second season premiered on January 2, 2017."
+      },
+      {
+        "item_id": "CF-000010",
+        "judge_id": "claude_full_judge_5",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "clearly_sufficient",
+        "confidence": 94,
+        "issue_flags": [
+          "negation_or_scope"
+        ],
+        "brief_reason": "The evidence states the second season premiered on January 2, 2017, contradicting the denial."
+      }
+    ]
+  },
+  {
+    "kind": "taxonomy",
+    "claim": "Warcraft premiered globally on May 24th, 2016.",
+    "gold_evidence": "Warcraft premiered in Paris on May 24 , 2016 , and was released by Universal Pictures in the United States on June 10 , 2016 .",
+    "panel": "grok",
+    "item_id": "SA-000025",
+    "source_item_id": "SA-000025",
+    "claim_id": 134927,
+    "cohort": "regression",
+    "gold_label": "Supported",
+    "legacy": "silver_clear_evidence_utilization_failure",
+    "consensus_A": "Refuted",
+    "consensus_B": "Refuted",
+    "consensus_C": "Refuted",
+    "still_ambiguous_after_C": false,
+    "resolved_by_titles": false,
+    "resolved_only_by_structure": false,
+    "reversed_after_titles": false,
+    "reversed_after_structure": false,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "historical_v1_packets",
+    "decisive_A": true,
+    "agrees_fever_A": false,
+    "decisive_B": true,
+    "agrees_fever_B": false,
+    "decisive_C": true,
+    "agrees_fever_C": false,
+    "first_decisive_stage": "A",
+    "first_gold_agreeing_stage": "none",
+    "title_resolution": false,
+    "c_resolution": false,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": false,
+    "c_disclosure": "structure_without_new_sentence_text",
+    "sentence_only_utilization_compatible": false,
+    "category": "decisive_judge_fever_disagreement",
+    "corrected_packet_result": "PENDING_FRESH_JUDGMENTS",
+    "historical_C_judge_records": [
+      {
+        "item_id": "SA-000025",
+        "judge_id": "cursor_judge_1",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "probably_sufficient",
+        "confidence": 82,
+        "issue_flags": [
+          "negation_or_scope",
+          "numerical_or_temporal_reasoning"
+        ],
+        "brief_reason": "Evidence says it premiered in Paris on May 24, 2016, then opened in the United States on June 10, not globally that day."
+      },
+      {
+        "item_id": "SA-000025",
+        "judge_id": "cursor_judge_2",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "probably_sufficient",
+        "confidence": 78,
+        "issue_flags": [
+          "entity_or_attribute_confusion",
+          "numerical_or_temporal_reasoning"
+        ],
+        "brief_reason": "Evidence says it premiered in Paris on May 24, 2016, with a later U.S. release, not a global premiere that day."
+      },
+      {
+        "item_id": "SA-000025",
+        "judge_id": "cursor_judge_3",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "probably_sufficient",
+        "confidence": 82,
+        "issue_flags": [
+          "entity_or_attribute_confusion"
+        ],
+        "brief_reason": "Evidence says it premiered in Paris on May 24, 2016, not globally, with a later U.S. release."
+      },
+      {
+        "item_id": "SA-000025",
+        "judge_id": "cursor_judge_4",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "probably_sufficient",
+        "confidence": 84,
+        "issue_flags": [
+          "negation_or_scope",
+          "numerical_or_temporal_reasoning"
+        ],
+        "brief_reason": "The evidence says it premiered in Paris on May 24, 2016, with the U.S. release later, not a global premiere that day."
+      },
+      {
+        "item_id": "SA-000025",
+        "judge_id": "cursor_judge_5",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "probably_sufficient",
+        "confidence": 83,
+        "issue_flags": [
+          "negation_or_scope",
+          "numerical_or_temporal_reasoning"
+        ],
+        "brief_reason": "Evidence says it premiered in Paris on May 24, 2016, not globally, with a later U.S. release."
+      }
+    ]
+  },
+  {
+    "kind": "taxonomy",
+    "claim": "Mike Friedrich was only born on May 27, 1949.",
+    "gold_evidence": "Mike Friedrich -LRB- born March 27 , 1949 -RRB- is an American comic book writer and publisher best known for his work at Marvel and DC Comics , and for publishing the anthology series Star * Reach , one of the first independent comics .",
+    "panel": "grok",
+    "item_id": "SA-000137",
+    "source_item_id": "SA-000137",
+    "claim_id": 194241,
+    "cohort": "regression",
+    "gold_label": "Supported",
+    "legacy": "silver_clear_evidence_utilization_failure",
+    "consensus_A": "Refuted",
+    "consensus_B": "Refuted",
+    "consensus_C": "Refuted",
+    "still_ambiguous_after_C": false,
+    "resolved_by_titles": false,
+    "resolved_only_by_structure": false,
+    "reversed_after_titles": false,
+    "reversed_after_structure": false,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "historical_v1_packets",
+    "decisive_A": true,
+    "agrees_fever_A": false,
+    "decisive_B": true,
+    "agrees_fever_B": false,
+    "decisive_C": true,
+    "agrees_fever_C": false,
+    "first_decisive_stage": "A",
+    "first_gold_agreeing_stage": "none",
+    "title_resolution": false,
+    "c_resolution": false,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": false,
+    "c_disclosure": "structure_without_new_sentence_text",
+    "sentence_only_utilization_compatible": false,
+    "category": "decisive_judge_fever_disagreement",
+    "corrected_packet_result": "PENDING_FRESH_JUDGMENTS",
+    "historical_C_judge_records": [
+      {
+        "item_id": "SA-000137",
+        "judge_id": "cursor_judge_1",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "clearly_sufficient",
+        "confidence": 96,
+        "issue_flags": [
+          "numerical_or_temporal_reasoning"
+        ],
+        "brief_reason": "Evidence gives his birth date as March 27, 1949, not May 27, 1949."
+      },
+      {
+        "item_id": "SA-000137",
+        "judge_id": "cursor_judge_2",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "clearly_sufficient",
+        "confidence": 93,
+        "issue_flags": [
+          "numerical_or_temporal_reasoning"
+        ],
+        "brief_reason": "The evidence gives his birth date as March 27, 1949, not May 27, 1949."
+      },
+      {
+        "item_id": "SA-000137",
+        "judge_id": "cursor_judge_3",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "clearly_sufficient",
+        "confidence": 95,
+        "issue_flags": [
+          "numerical_or_temporal_reasoning"
+        ],
+        "brief_reason": "Evidence gives Mike Friedrich's birth date as March 27, 1949, not May 27."
+      },
+      {
+        "item_id": "SA-000137",
+        "judge_id": "cursor_judge_4",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "clearly_sufficient",
+        "confidence": 94,
+        "issue_flags": [
+          "numerical_or_temporal_reasoning"
+        ],
+        "brief_reason": "Evidence gives his birth date as March 27, 1949, not May 27, 1949."
+      },
+      {
+        "item_id": "SA-000137",
+        "judge_id": "cursor_judge_5",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "clearly_sufficient",
+        "confidence": 96,
+        "issue_flags": [
+          "numerical_or_temporal_reasoning"
+        ],
+        "brief_reason": "Evidence gives his birth date as March 27, 1949, not May 27."
+      }
+    ]
+  },
+  {
+    "kind": "taxonomy",
+    "claim": "2.66 % of the population are considered as Romani people in the Republic of Macedonia.",
+    "gold_evidence": "Altogether , 2.85 % Romani and Egyptians have been registered in Macedonia .",
+    "panel": "grok",
+    "item_id": "SA-000178",
+    "source_item_id": "SA-000178",
+    "claim_id": 106030,
+    "cohort": "regression",
+    "gold_label": "Supported",
+    "legacy": "silver_clear_evidence_utilization_failure",
+    "consensus_A": "Refuted",
+    "consensus_B": "Refuted",
+    "consensus_C": "Refuted",
+    "still_ambiguous_after_C": false,
+    "resolved_by_titles": false,
+    "resolved_only_by_structure": false,
+    "reversed_after_titles": false,
+    "reversed_after_structure": false,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "historical_v1_packets",
+    "decisive_A": true,
+    "agrees_fever_A": false,
+    "decisive_B": true,
+    "agrees_fever_B": false,
+    "decisive_C": true,
+    "agrees_fever_C": false,
+    "first_decisive_stage": "A",
+    "first_gold_agreeing_stage": "none",
+    "title_resolution": false,
+    "c_resolution": false,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": false,
+    "c_disclosure": "structure_without_new_sentence_text",
+    "sentence_only_utilization_compatible": false,
+    "category": "decisive_judge_fever_disagreement",
+    "corrected_packet_result": "PENDING_FRESH_JUDGMENTS",
+    "historical_C_judge_records": [
+      {
+        "item_id": "SA-000178",
+        "judge_id": "cursor_judge_1",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "clearly_sufficient",
+        "confidence": 90,
+        "issue_flags": [
+          "numerical_or_temporal_reasoning",
+          "entity_or_attribute_confusion"
+        ],
+        "brief_reason": "Evidence reports 2.85 percent Romani and Egyptians combined, not 2.66 percent Romani people."
+      },
+      {
+        "item_id": "SA-000178",
+        "judge_id": "cursor_judge_2",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "probably_sufficient",
+        "confidence": 84,
+        "issue_flags": [
+          "numerical_or_temporal_reasoning"
+        ],
+        "brief_reason": "The evidence reports 2.85 percent Romani and Egyptians combined, not 2.66 percent Romani people."
+      },
+      {
+        "item_id": "SA-000178",
+        "judge_id": "cursor_judge_3",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "probably_sufficient",
+        "confidence": 82,
+        "issue_flags": [
+          "numerical_or_temporal_reasoning"
+        ],
+        "brief_reason": "Evidence reports a combined 2.85 percent Romani and Egyptians, not 2.66 percent Romani."
+      },
+      {
+        "item_id": "SA-000178",
+        "judge_id": "cursor_judge_4",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "clearly_sufficient",
+        "confidence": 90,
+        "issue_flags": [
+          "numerical_or_temporal_reasoning"
+        ],
+        "brief_reason": "Evidence reports a combined 2.85 percent Romani and Egyptians, not 2.66 percent Romani."
+      },
+      {
+        "item_id": "SA-000178",
+        "judge_id": "cursor_judge_5",
+        "stage": "C",
+        "verdict": "Refuted",
+        "evidence_sufficiency": "clearly_sufficient",
+        "confidence": 90,
+        "issue_flags": [
+          "numerical_or_temporal_reasoning"
+        ],
+        "brief_reason": "Evidence reports 2.85 percent Romani and Egyptians combined, not 2.66 percent Romani people."
+      }
+    ]
+  }
+]

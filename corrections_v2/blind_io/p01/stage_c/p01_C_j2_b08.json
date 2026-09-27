@@ -1,0 +1,3103 @@
+{
+  "judge_id": "judge_2",
+  "stage": "C",
+  "output_path": "corrections_v2/blind_io/p01/stage_c/p01_C_j2_b08.output.json",
+  "n_items": 100,
+  "item_ids": [
+    "SA-000702",
+    "SA-000703",
+    "SA-000704",
+    "SA-000705",
+    "SA-000706",
+    "SA-000707",
+    "SA-000708",
+    "SA-000709",
+    "SA-000710",
+    "SA-000711",
+    "SA-000712",
+    "SA-000713",
+    "SA-000714",
+    "SA-000715",
+    "SA-000716",
+    "SA-000717",
+    "SA-000718",
+    "SA-000719",
+    "SA-000720",
+    "SA-000721",
+    "SA-000722",
+    "SA-000723",
+    "SA-000724",
+    "SA-000725",
+    "SA-000726",
+    "SA-000727",
+    "SA-000728",
+    "SA-000729",
+    "SA-000730",
+    "SA-000731",
+    "SA-000732",
+    "SA-000733",
+    "SA-000734",
+    "SA-000735",
+    "SA-000736",
+    "SA-000737",
+    "SA-000738",
+    "SA-000739",
+    "SA-000740",
+    "SA-000741",
+    "SA-000742",
+    "SA-000743",
+    "SA-000744",
+    "SA-000745",
+    "SA-000746",
+    "SA-000747",
+    "SA-000748",
+    "SA-000749",
+    "SA-000750",
+    "SA-000751",
+    "SA-000752",
+    "SA-000753",
+    "SA-000754",
+    "SA-000755",
+    "SA-000756",
+    "SA-000757",
+    "SA-000758",
+    "SA-000759",
+    "SA-000760",
+    "SA-000761",
+    "SA-000762",
+    "SA-000763",
+    "SA-000764",
+    "SA-000765",
+    "SA-000766",
+    "SA-000767",
+    "SA-000768",
+    "SA-000769",
+    "SA-000770",
+    "SA-000771",
+    "SA-000772",
+    "SA-000773",
+    "SA-000774",
+    "SA-000775",
+    "SA-000776",
+    "SA-000777",
+    "SA-000778",
+    "SA-000779",
+    "SA-000780",
+    "SA-000781",
+    "SA-000782",
+    "SA-000783",
+    "SA-000784",
+    "SA-000785",
+    "SA-000786",
+    "SA-000787",
+    "SA-000788",
+    "SA-000789",
+    "SA-000790",
+    "SA-000791",
+    "SA-000792",
+    "SA-000793",
+    "SA-000794",
+    "SA-000795",
+    "SA-000796",
+    "SA-000797",
+    "SA-000798",
+    "SA-000799",
+    "SA-000800",
+    "SA-000801"
+  ],
+  "items": [
+    {
+      "item_id": "SA-000702",
+      "claim": "Liam Neeson was passed over for an Academy Award.",
+      "evidence_sentences": "He has been nominated for a number of awards , including an Academy Award for Best Actor , a BAFTA Award for Best Actor in a Leading Role and three Golden Globe Awards for Best Actor in a Motion Picture Drama .",
+      "page_titles": [
+        "Liam Neeson"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Liam Neeson",
+            "line_index": 11,
+            "sentence": "He has been nominated for a number of awards , including an Academy Award for Best Actor , a BAFTA Award for Best Actor in a Leading Role and three Golden Globe Awards for Best Actor in a Motion Picture Drama ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000703",
+      "claim": "Edgar Wright is English.",
+      "evidence_sentences": "Edgar Howard Wright -LRB- born 18 April 1974 -RRB- is an English director , screenwriter , producer , and actor .",
+      "page_titles": [
+        "Edgar Wright"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Edgar Wright",
+            "line_index": 0,
+            "sentence": "Edgar Howard Wright -LRB- born 18 April 1974 -RRB- is an English director , screenwriter , producer , and actor ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Edgar Wright",
+              "line_index": 0,
+              "sentence": "Edgar Howard Wright -LRB- born 18 April 1974 -RRB- is an English director , screenwriter , producer , and actor ."
+            }
+          ],
+          [
+            {
+              "page_title": "Edgar Wright",
+              "line_index": 0,
+              "sentence": "Edgar Howard Wright -LRB- born 18 April 1974 -RRB- is an English director , screenwriter , producer , and actor ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000704",
+      "claim": "Scaramouche is a translation.",
+      "evidence_sentences": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte .",
+      "page_titles": [
+        "Scaramouche"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Scaramouche",
+            "line_index": 0,
+            "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Scaramouche",
+              "line_index": 0,
+              "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scaramouche",
+              "line_index": 0,
+              "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scaramouche",
+              "line_index": 0,
+              "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scaramouche",
+              "line_index": 0,
+              "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scaramouche",
+              "line_index": 0,
+              "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scaramouche",
+              "line_index": 0,
+              "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scaramouche",
+              "line_index": 0,
+              "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scaramouche",
+              "line_index": 0,
+              "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scaramouche",
+              "line_index": 0,
+              "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 10,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000705",
+      "claim": "Japan is represented by one centralized federal government.",
+      "evidence_sentences": "Japan -LRB- 日本 Nippon -LSB- ɲip̚poɴ -RSB- or Nihon -LSB- ɲihoɴ -RSB- formally or Nihon-koku , meaning `` State of Japan '' -RRB- is a sovereign island nation in East Asia . A sovereign state is , in international law , a nonphysical juridical entity that is represented by one centralized government that has sovereignty over a geographic area .",
+      "page_titles": [
+        "Japan",
+        "Sovereign state"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Japan",
+            "line_index": 0,
+            "sentence": "Japan -LRB- 日本 Nippon -LSB- ɲip̚poɴ -RSB- or Nihon -LSB- ɲihoɴ -RSB- formally or Nihon-koku , meaning `` State of Japan '' -RRB- is a sovereign island nation in East Asia ."
+          },
+          {
+            "page_title": "Sovereign state",
+            "line_index": 0,
+            "sentence": "A sovereign state is , in international law , a nonphysical juridical entity that is represented by one centralized government that has sovereignty over a geographic area ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000706",
+      "claim": "Buffy Summers has been portrayed by Kristy Swanson.",
+      "evidence_sentences": "Buffy was portrayed by Kristy Swanson in the film , and later by Sarah Michelle Gellar in the television series .",
+      "page_titles": [
+        "Buffy Summers"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Buffy Summers",
+            "line_index": 3,
+            "sentence": "Buffy was portrayed by Kristy Swanson in the film , and later by Sarah Michelle Gellar in the television series ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000707",
+      "claim": "There was a major ice sheet called Cordilleran Ice Sheet.",
+      "evidence_sentences": "The Cordilleran ice sheet was a major ice sheet that periodically covered large parts of North America during glacial periods over the last ~ 2.6 million years .",
+      "page_titles": [
+        "Cordilleran Ice Sheet"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Cordilleran Ice Sheet",
+            "line_index": 0,
+            "sentence": "The Cordilleran ice sheet was a major ice sheet that periodically covered large parts of North America during glacial periods over the last ~ 2.6 million years ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000708",
+      "claim": "One of the three co-executive producers of Buffy the Vampire Slayer was Jane Espenson.",
+      "evidence_sentences": "Buffy the Vampire Slayer is an American television series created by Joss Whedon under his production tag , Mutant Enemy Productions with later co-executive producers being Jane Espenson , David Fury , David Greenwalt , Doug Petrie , Marti Noxon , and David Solomon .",
+      "page_titles": [
+        "Buffy the Vampire Slayer"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Buffy the Vampire Slayer",
+            "line_index": 0,
+            "sentence": "Buffy the Vampire Slayer is an American television series created by Joss Whedon under his production tag , Mutant Enemy Productions with later co-executive producers being Jane Espenson , David Fury , David Greenwalt , Doug Petrie , Marti Noxon , and David Solomon ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000709",
+      "claim": "A United Kingdom is a biographical romantic comedy film.",
+      "evidence_sentences": "A United Kingdom is a 2016 British biographical romantic drama film directed by Amma Asante and written by Guy Hibbert , based on the true-life romance between Sir Seretse Khama and his wife Ruth Williams Khama .",
+      "page_titles": [
+        "A United Kingdom"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "A United Kingdom",
+            "line_index": 0,
+            "sentence": "A United Kingdom is a 2016 British biographical romantic drama film directed by Amma Asante and written by Guy Hibbert , based on the true-life romance between Sir Seretse Khama and his wife Ruth Williams Khama ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "A United Kingdom",
+              "line_index": 0,
+              "sentence": "A United Kingdom is a 2016 British biographical romantic drama film directed by Amma Asante and written by Guy Hibbert , based on the true-life romance between Sir Seretse Khama and his wife Ruth Williams Khama ."
+            }
+          ],
+          [
+            {
+              "page_title": "A United Kingdom",
+              "line_index": 0,
+              "sentence": "A United Kingdom is a 2016 British biographical romantic drama film directed by Amma Asante and written by Guy Hibbert , based on the true-life romance between Sir Seretse Khama and his wife Ruth Williams Khama ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000710",
+      "claim": "Jack Falahee's middle name is Ryan and he is unknown.",
+      "evidence_sentences": "Jack Ryan Falahee -LRB- born February 20 , 1989 -RRB- is an American actor .",
+      "page_titles": [
+        "Jack Falahee"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Jack Falahee",
+            "line_index": 0,
+            "sentence": "Jack Ryan Falahee -LRB- born February 20 , 1989 -RRB- is an American actor ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Jack Falahee",
+              "line_index": 0,
+              "sentence": "Jack Ryan Falahee -LRB- born February 20 , 1989 -RRB- is an American actor ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000711",
+      "claim": "House is a one-man show starring Hugh Laurie.",
+      "evidence_sentences": "His flouting of hospital rules and procedures frequently leads him into conflict with his boss , hospital administrator and Dean of Medicine Dr. Lisa Cuddy -LRB- Lisa Edelstein -RRB- .",
+      "page_titles": [
+        "House -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "House -LRB-TV series-RRB-",
+            "line_index": 8,
+            "sentence": "His flouting of hospital rules and procedures frequently leads him into conflict with his boss , hospital administrator and Dean of Medicine Dr. Lisa Cuddy -LRB- Lisa Edelstein -RRB- ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "House -LRB-TV series-RRB-",
+              "line_index": 9,
+              "sentence": "House 's only true friend is Dr. James Wilson -LRB- Robert Sean Leonard -RRB- , head of the Department of Oncology ."
+            }
+          ],
+          [
+            {
+              "page_title": "House -LRB-TV series-RRB-",
+              "line_index": 10,
+              "sentence": "During the first three seasons , House 's diagnostic team consists of Dr. Robert Chase -LRB- Jesse Spencer -RRB- , Dr. Allison Cameron -LRB- Jennifer Morrison -RRB- , and Dr. Eric Foreman -LRB- Omar Epps -RRB- ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000712",
+      "claim": "Sancho Panza is a fictional character who appears in a novel penned by a writer from Spain who was born in 1616.",
+      "evidence_sentences": "Sancho Panza -LSB- ˈsantʃo ˈpanθa -RSB- is a fictional character in the novel Don Quixote written by Spanish author Don Miguel de Cervantes Saavedra in 1605 .",
+      "page_titles": [
+        "Sancho Panza"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sancho Panza",
+            "line_index": 0,
+            "sentence": "Sancho Panza -LSB- ˈsantʃo ˈpanθa -RSB- is a fictional character in the novel Don Quixote written by Spanish author Don Miguel de Cervantes Saavedra in 1605 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000713",
+      "claim": "Petyr Baelish is not a real character.",
+      "evidence_sentences": "Petyr Baelish , nicknamed Littlefinger , is a fictional character created by American author George R. R. Martin .",
+      "page_titles": [
+        "Petyr Baelish"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Petyr Baelish",
+            "line_index": 0,
+            "sentence": "Petyr Baelish , nicknamed Littlefinger , is a fictional character created by American author George R. R. Martin ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000714",
+      "claim": "Part of The Last Song (film) was fought on a beach.",
+      "evidence_sentences": "The Last Song stars Miley Cyrus , Liam Hemsworth , and Greg Kinnear and follows a troubled teenager as she reconnects with her estranged father and falls in love during a summer in a quiet Southern United States beach town .",
+      "page_titles": [
+        "The Last Song -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Last Song -LRB-film-RRB-",
+            "line_index": 2,
+            "sentence": "The Last Song stars Miley Cyrus , Liam Hemsworth , and Greg Kinnear and follows a troubled teenager as she reconnects with her estranged father and falls in love during a summer in a quiet Southern United States beach town ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000715",
+      "claim": "The CONCACAF Champions League is put together for football unions in Central America.",
+      "evidence_sentences": "The CONCACAF Champions League is an annual continental football club competition organized by CONCACAF for the top football clubs in North America , Central America and the Caribbean .",
+      "page_titles": [
+        "CONCACAF Champions League"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "CONCACAF Champions League",
+            "line_index": 0,
+            "sentence": "The CONCACAF Champions League is an annual continental football club competition organized by CONCACAF for the top football clubs in North America , Central America and the Caribbean ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "CONCACAF Champions League",
+              "line_index": 0,
+              "sentence": "The CONCACAF Champions League is an annual continental football club competition organized by CONCACAF for the top football clubs in North America , Central America and the Caribbean ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000716",
+      "claim": "Creedence Clearwater Revival had John Fogerty as lead vocalist and guitarist.",
+      "evidence_sentences": "The band consisted of lead vocalist , lead guitarist , and primary songwriter John Fogerty , his brother rhythm guitarist Tom Fogerty , bassist Stu Cook and drummer Doug Clifford .",
+      "page_titles": [
+        "Creedence Clearwater Revival"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Creedence Clearwater Revival",
+            "line_index": 1,
+            "sentence": "The band consisted of lead vocalist , lead guitarist , and primary songwriter John Fogerty , his brother rhythm guitarist Tom Fogerty , bassist Stu Cook and drummer Doug Clifford ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000717",
+      "claim": "SpongeBob SquarePants is a series.",
+      "evidence_sentences": "SpongeBob SquarePants is an American animated television series created by marine biologist and animator Stephen Hillenburg for Nickelodeon .",
+      "page_titles": [
+        "SpongeBob SquarePants"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "SpongeBob SquarePants",
+            "line_index": 0,
+            "sentence": "SpongeBob SquarePants is an American animated television series created by marine biologist and animator Stephen Hillenburg for Nickelodeon ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "SpongeBob SquarePants",
+              "line_index": 2,
+              "sentence": "The series ' popularity has made it a media franchise , as well as the highest rated series to ever air on Nickelodeon , and the most distributed property of MTV Networks ."
+            }
+          ],
+          [
+            {
+              "page_title": "SpongeBob SquarePants",
+              "line_index": 7,
+              "sentence": "He began developing SpongeBob SquarePants into a television series in 1996 upon the cancellation of Rocko 's Modern Life , and turned to Tom Kenny , who had worked with him on that series , to voice the title character ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000718",
+      "claim": "Ed Gein had worked at several local graveyards.",
+      "evidence_sentences": "His crimes , committed around his hometown of Plainfield , Wisconsin , gathered widespread notoriety after authorities discovered that Gein had exhumed corpses from local graveyards and fashioned trophies and keepsakes from their bones and skin .",
+      "page_titles": [
+        "Ed Gein"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ed Gein",
+            "line_index": 1,
+            "sentence": "His crimes , committed around his hometown of Plainfield , Wisconsin , gathered widespread notoriety after authorities discovered that Gein had exhumed corpses from local graveyards and fashioned trophies and keepsakes from their bones and skin ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000719",
+      "claim": "Shadowhunters did not begin its second season in January 2017.",
+      "evidence_sentences": "In March 2016 , it was announced that the series had been renewed for a second season of 20 episodes , which premiered on January 2 , 2017 .",
+      "page_titles": [
+        "Shadowhunters"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Shadowhunters",
+            "line_index": 5,
+            "sentence": "In March 2016 , it was announced that the series had been renewed for a second season of 20 episodes , which premiered on January 2 , 2017 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000720",
+      "claim": "Matthias Corvinus, King of Hungary, established a royal theater troupe between 1458 and 1490.",
+      "evidence_sentences": "Matthias Corvinus , also called Matthias I -LRB- Hunyadi Mátyás , Matija Korvin , Matia Corvin , Matej Korvín , Matyáš Korvín 23 February 1443 -- 6 April 1490 -RRB- , was King of Hungary and Croatia from 1458 to 1490 .",
+      "page_titles": [
+        "Matthias Corvinus"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Matthias Corvinus",
+            "line_index": 0,
+            "sentence": "Matthias Corvinus , also called Matthias I -LRB- Hunyadi Mátyás , Matija Korvin , Matia Corvin , Matej Korvín , Matyáš Korvín 23 February 1443 -- 6 April 1490 -RRB- , was King of Hungary and Croatia from 1458 to 1490 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000721",
+      "claim": "Firefox is one of the most popular web browsers.",
+      "evidence_sentences": "It is also the most popular desktop browser in many other African countries .",
+      "page_titles": [
+        "Firefox"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Firefox",
+            "line_index": 15,
+            "sentence": "It is also the most popular desktop browser in many other African countries ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Firefox",
+              "line_index": 14,
+              "sentence": "Firefox is still the most popular desktop browser in Cuba -LRB- even most popular overall -RRB- , Eritrea , and Germany , with 85.93 % , 79.39 % , and 37.01 % of the market share , respectively ."
+            }
+          ],
+          [
+            {
+              "page_title": "Firefox",
+              "line_index": 13,
+              "sentence": ", Firefox has between 9 % and 16 % of worldwide usage as a `` desktop '' browser , making it the second most popular web browser ."
+            }
+          ],
+          [
+            {
+              "page_title": "Firefox",
+              "line_index": 11,
+              "sentence": "Firefox usage grew to a peak of 32 % at the end of 2009 , temporarily making version 3.5 the world 's most popular browser ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000722",
+      "claim": "Freddie Highmore has never been nominated for the Critics' Choice Television Award.",
+      "evidence_sentences": "For five seasons , Highmore starred as Norman Bates in the A&E drama-thriller series Bates Motel -LRB- 2013 -- 2017 -RRB- , for which he was twice nominated for the Critics ' Choice Television Award for Best Actor in a Drama Series .",
+      "page_titles": [
+        "Freddie Highmore"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Freddie Highmore",
+            "line_index": 5,
+            "sentence": "For five seasons , Highmore starred as Norman Bates in the A&E drama-thriller series Bates Motel -LRB- 2013 -- 2017 -RRB- , for which he was twice nominated for the Critics ' Choice Television Award for Best Actor in a Drama Series ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000723",
+      "claim": "Doug Petrie starred in Dr. Horrible's Sing-Along Blog.",
+      "evidence_sentences": "He made a cameo on Joss Whedon 's web-based film , Dr. Horrible 's Sing-Along Blog , as `` Professor Normal '' .",
+      "page_titles": [
+        "Doug Petrie"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Doug Petrie",
+            "line_index": 5,
+            "sentence": "He made a cameo on Joss Whedon 's web-based film , Dr. Horrible 's Sing-Along Blog , as `` Professor Normal '' ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000724",
+      "claim": "Mickey Rourke has only appeared in films based on real people.",
+      "evidence_sentences": "Since then , Rourke has appeared in several commercially successful films including the 2010 films Iron Man 2 and The Expendables and the 2011 film Immortals .",
+      "page_titles": [
+        "Mickey Rourke"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mickey Rourke",
+            "line_index": 13,
+            "sentence": "Since then , Rourke has appeared in several commercially successful films including the 2010 films Iron Man 2 and The Expendables and the 2011 film Immortals ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Mickey Rourke",
+              "line_index": 7,
+              "sentence": "After retiring from boxing in 1994 , Rourke returned to acting and had supporting roles in several films , including the drama The Rainmaker -LRB- 1997 -RRB- , the comedy-drama Buffalo '66 -LRB- 1998 -RRB- , the thriller-remake of Get Carter -LRB- 2000 -RRB- , the mystery film The Pledge -LRB- 2001 -RRB- , the crime dark comedy-drama Spun -LRB- 2002 -RRB- , the action film Once Upon a Time in Mexico -LRB- 2003 -RRB- and the action thriller Man on Fire -LRB- 2004 -RRB- , playing the role of a corrupt lawyer ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000725",
+      "claim": "Human trafficking is the trade of animals.",
+      "evidence_sentences": "Human trafficking is the trade of humans , most commonly for the purpose of forced labour , sexual slavery , or commercial sexual exploitation for the trafficker or others .",
+      "page_titles": [
+        "Human trafficking"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Human trafficking",
+            "line_index": 0,
+            "sentence": "Human trafficking is the trade of humans , most commonly for the purpose of forced labour , sexual slavery , or commercial sexual exploitation for the trafficker or others ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Human trafficking",
+              "line_index": 0,
+              "sentence": "Human trafficking is the trade of humans , most commonly for the purpose of forced labour , sexual slavery , or commercial sexual exploitation for the trafficker or others ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000726",
+      "claim": "Happiness in Slavery is a song by Nine Inch Nails.",
+      "evidence_sentences": "`` Happiness in Slavery '' is a song by American industrial rock band Nine Inch Nails from their debut extended play -LRB- EP -RRB- , Broken -LRB- 1992 -RRB- .",
+      "page_titles": [
+        "Happiness in Slavery"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Happiness in Slavery",
+            "line_index": 0,
+            "sentence": "`` Happiness in Slavery '' is a song by American industrial rock band Nine Inch Nails from their debut extended play -LRB- EP -RRB- , Broken -LRB- 1992 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000727",
+      "claim": "John Frusciante was incapable of releasing eleven solo albums.",
+      "evidence_sentences": "Frusciante has an active solo career , having released eleven solo albums and five EPs ; his recordings include elements ranging from experimental rock and ambient music to new wave and electronica .",
+      "page_titles": [
+        "John Frusciante"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "John Frusciante",
+            "line_index": 5,
+            "sentence": "Frusciante has an active solo career , having released eleven solo albums and five EPs ; his recordings include elements ranging from experimental rock and ambient music to new wave and electronica ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000728",
+      "claim": "Don Bradman's status was recognized only 50 years before his retirement.",
+      "evidence_sentences": "Even after he became reclusive in his declining years his opinion was highly sought , and his status as a national icon was still recognised -- more than 50 years after his retirement as a Test player , in 2001 , Prime Minister John Howard of Australia called him the `` greatest living Australian '' .",
+      "page_titles": [
+        "Don Bradman"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Don Bradman",
+            "line_index": 20,
+            "sentence": "Even after he became reclusive in his declining years his opinion was highly sought , and his status as a national icon was still recognised -- more than 50 years after his retirement as a Test player , in 2001 , Prime Minister John Howard of Australia called him the `` greatest living Australian '' ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000729",
+      "claim": "Birthday Song's (2 Chainz song) producer was Kanye West.",
+      "evidence_sentences": "The song , which features fellow American rapper Kanye West , was produced by Sonny Digital , West , BWheezy , Anthony Kilhoffer , Lifted and Mike Dean .",
+      "page_titles": [
+        "Birthday Song -LRB-2 Chainz song-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Birthday Song -LRB-2 Chainz song-RRB-",
+            "line_index": 1,
+            "sentence": "The song , which features fellow American rapper Kanye West , was produced by Sonny Digital , West , BWheezy , Anthony Kilhoffer , Lifted and Mike Dean ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000730",
+      "claim": "Joe Walsh was inducted in 2001.",
+      "evidence_sentences": "As a member of the Eagles , Walsh was inducted into the Rock and Roll Hall of Fame in 1998 , and into the Vocal Group Hall of Fame in 2001 .",
+      "page_titles": [
+        "Joe Walsh"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Joe Walsh",
+            "line_index": 24,
+            "sentence": "As a member of the Eagles , Walsh was inducted into the Rock and Roll Hall of Fame in 1998 , and into the Vocal Group Hall of Fame in 2001 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000731",
+      "claim": "Veeram was produced by Vijaya Productions.",
+      "evidence_sentences": "Veeram -LRB- Valour -RRB- is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions .",
+      "page_titles": [
+        "Veeram -LRB-2014 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Veeram -LRB-2014 film-RRB-",
+            "line_index": 0,
+            "sentence": "Veeram -LRB- Valour -RRB- is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000732",
+      "claim": "The Saturn Award for Best Fantasy Film is presented to the best film in a genre.",
+      "evidence_sentences": "The Saturn Award for Best Fantasy Film is an award presented to the best film in the fantasy genre by the Academy of Science Fiction , Fantasy & Horror Films .",
+      "page_titles": [
+        "Saturn Award for Best Fantasy Film"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Saturn Award for Best Fantasy Film",
+            "line_index": 0,
+            "sentence": "The Saturn Award for Best Fantasy Film is an award presented to the best film in the fantasy genre by the Academy of Science Fiction , Fantasy & Horror Films ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000733",
+      "claim": "Celebrity Rehab with Dr. Drew was set in Pasadena, California at the Pasadena Civic Center.",
+      "evidence_sentences": "Celebrity Rehab with Dr. Drew , later called simply Rehab with Dr. Drew , is a reality television show that aired on the cable network VH1 in which many of the episodes chronicle a group of well-known people as they are treated for alcohol and drug addiction by Dr. Drew Pinsky and his staff at the Pasadena Recovery Center in Pasadena , California .",
+      "page_titles": [
+        "Celebrity Rehab with Dr. Drew"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Celebrity Rehab with Dr. Drew",
+            "line_index": 0,
+            "sentence": "Celebrity Rehab with Dr. Drew , later called simply Rehab with Dr. Drew , is a reality television show that aired on the cable network VH1 in which many of the episodes chronicle a group of well-known people as they are treated for alcohol and drug addiction by Dr. Drew Pinsky and his staff at the Pasadena Recovery Center in Pasadena , California ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000734",
+      "claim": "Practical Magic is based on a dog of the same name.",
+      "evidence_sentences": "Practical Magic is a 1998 American romantic comedy film based on the 1995 novel of the same name by Alice Hoffman .",
+      "page_titles": [
+        "Practical Magic"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Practical Magic",
+            "line_index": 0,
+            "sentence": "Practical Magic is a 1998 American romantic comedy film based on the 1995 novel of the same name by Alice Hoffman ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000735",
+      "claim": "Psych (season 2) began on September 13th, 2007.",
+      "evidence_sentences": "The second season of Psych originally aired in the United States on USA Network from July 13 , 2007 to February 15 , 2008 .",
+      "page_titles": [
+        "Psych -LRB-season 2-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Psych -LRB-season 2-RRB-",
+            "line_index": 0,
+            "sentence": "The second season of Psych originally aired in the United States on USA Network from July 13 , 2007 to February 15 , 2008 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Psych -LRB-season 2-RRB-",
+              "line_index": 0,
+              "sentence": "The second season of Psych originally aired in the United States on USA Network from July 13 , 2007 to February 15 , 2008 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Psych -LRB-season 2-RRB-",
+              "line_index": 0,
+              "sentence": "The second season of Psych originally aired in the United States on USA Network from July 13 , 2007 to February 15 , 2008 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Psych -LRB-season 2-RRB-",
+              "line_index": 0,
+              "sentence": "The second season of Psych originally aired in the United States on USA Network from July 13 , 2007 to February 15 , 2008 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Psych -LRB-season 2-RRB-",
+              "line_index": 0,
+              "sentence": "The second season of Psych originally aired in the United States on USA Network from July 13 , 2007 to February 15 , 2008 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Psych -LRB-season 2-RRB-",
+              "line_index": 0,
+              "sentence": "The second season of Psych originally aired in the United States on USA Network from July 13 , 2007 to February 15 , 2008 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 6,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000736",
+      "claim": "Sarawak's city with the most people is Kuching.",
+      "evidence_sentences": "Kuching -LSB- ˈkuːtʃɪŋ -RSB- -LRB- Jawi : , -RRB- , officially the City of Kuching , is the capital and the most populous city in the state of Sarawak in Malaysia .",
+      "page_titles": [
+        "Kuching"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kuching",
+            "line_index": 0,
+            "sentence": "Kuching -LSB- ˈkuːtʃɪŋ -RSB- -LRB- Jawi : , -RRB- , officially the City of Kuching , is the capital and the most populous city in the state of Sarawak in Malaysia ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000737",
+      "claim": "SpongeBob SquarePants is the most distributed media franchise of MTV Networks.",
+      "evidence_sentences": "The series ' popularity has made it a media franchise , as well as the highest rated series to ever air on Nickelodeon , and the most distributed property of MTV Networks .",
+      "page_titles": [
+        "SpongeBob SquarePants"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "SpongeBob SquarePants",
+            "line_index": 2,
+            "sentence": "The series ' popularity has made it a media franchise , as well as the highest rated series to ever air on Nickelodeon , and the most distributed property of MTV Networks ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000738",
+      "claim": "The KGB was not a military service.",
+      "evidence_sentences": "The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops .",
+      "page_titles": [
+        "KGB"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "KGB",
+            "line_index": 7,
+            "sentence": "The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000739",
+      "claim": "Alberto Contador initially won the competition.",
+      "evidence_sentences": "He initially also won the 2010 Tour de France with this team , and the 2011 Giro d'Italia with team Saxo Bank-SunGard , only to be stripped of these titles later having been found guilty of a doping offence .",
+      "page_titles": [
+        "Alberto Contador"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Alberto Contador",
+            "line_index": 3,
+            "sentence": "He initially also won the 2010 Tour de France with this team , and the 2011 Giro d'Italia with team Saxo Bank-SunGard , only to be stripped of these titles later having been found guilty of a doping offence ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000740",
+      "claim": "Scandal plays rock music.",
+      "evidence_sentences": "Scandal is an American rock band from the 1980s fronted by Patty Smyth .",
+      "page_titles": [
+        "Scandal -LRB-American band-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Scandal -LRB-American band-RRB-",
+            "line_index": 0,
+            "sentence": "Scandal is an American rock band from the 1980s fronted by Patty Smyth ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Scandal -LRB-American band-RRB-",
+              "line_index": 1,
+              "sentence": "The band scored a hit in the United States with the song `` The Warrior '' , which peaked at No. 7 in 1984 ."
+            },
+            {
+              "page_title": "The Warrior -LRB-song-RRB-",
+              "line_index": 0,
+              "sentence": "`` The Warrior '' is a song by American rock band Scandal , from the album Warrior ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scandal -LRB-American band-RRB-",
+              "line_index": 2,
+              "sentence": "Other minor hits were `` Goodbye to You '' -LRB- 1982 - No. 65 US -RRB- , `` Love 's Got A Line On You '' -LRB- 1983 - No. 59 US -RRB- , `` Hands Tied '' -LRB- 1984 - No. 41 US -RRB- , and `` Beat of A Heart '' -LRB- 1985 - No. 41 US -RRB- ."
+            },
+            {
+              "page_title": "Goodbye to You -LRB-Scandal song-RRB-",
+              "line_index": 0,
+              "sentence": "`` Goodbye to You '' is a single by American rock band Scandal ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000741",
+      "claim": "Sidse Babett Knudsen graduated on November 22nd, 1968.",
+      "evidence_sentences": "Sidse Babett Knudsen -LRB- -LSB- ˈsisə b̥ab̥ɛd̥ ˈkʰnusn̩ -RSB- ; born 22 November 1968 -RRB- is a Danish actress who works in theatre , television , and film .",
+      "page_titles": [
+        "Sidse Babett Knudsen"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sidse Babett Knudsen",
+            "line_index": 0,
+            "sentence": "Sidse Babett Knudsen -LRB- -LSB- ˈsisə b̥ab̥ɛd̥ ˈkʰnusn̩ -RSB- ; born 22 November 1968 -RRB- is a Danish actress who works in theatre , television , and film ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000742",
+      "claim": "Vietnam is the 8th most populous country in the world.",
+      "evidence_sentences": "With an estimated 92.7 million inhabitants , it is the world 's 14th-most-populous country , and the ninth-most-populous Asian country .",
+      "page_titles": [
+        "Vietnam"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Vietnam",
+            "line_index": 1,
+            "sentence": "With an estimated 92.7 million inhabitants , it is the world 's 14th-most-populous country , and the ninth-most-populous Asian country ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000743",
+      "claim": "Mud stars multiple American actors.",
+      "evidence_sentences": "The film stars Matthew McConaughey , Tye Sheridan , Jacob Lofland , Sam Shepard , and Reese Witherspoon .",
+      "page_titles": [
+        "Mud -LRB-2012 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mud -LRB-2012 film-RRB-",
+            "line_index": 1,
+            "sentence": "The film stars Matthew McConaughey , Tye Sheridan , Jacob Lofland , Sam Shepard , and Reese Witherspoon ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000744",
+      "claim": "The Bloods have ambiguous hand signs.",
+      "evidence_sentences": "They are identified by the red color worn by their members and by particular gang symbols , including distinctive hand signs .",
+      "page_titles": [
+        "Bloods"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Bloods",
+            "line_index": 2,
+            "sentence": "They are identified by the red color worn by their members and by particular gang symbols , including distinctive hand signs ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000745",
+      "claim": "Taarak Mehta Ka Ooltah Chashmah is not produced by Neela Tele Films Private Limited.",
+      "evidence_sentences": "Taarak Mehta Ka Ooltah Chashmah -LRB- English : Taarak Mehta 's Different Perspective -RRB- is India 's longest running sitcom serial produced by Neela Tele Films Private Limited .",
+      "page_titles": [
+        "Taarak Mehta Ka Ooltah Chashmah"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Taarak Mehta Ka Ooltah Chashmah",
+            "line_index": 0,
+            "sentence": "Taarak Mehta Ka Ooltah Chashmah -LRB- English : Taarak Mehta 's Different Perspective -RRB- is India 's longest running sitcom serial produced by Neela Tele Films Private Limited ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000746",
+      "claim": "The Office (US) ran for seasons.",
+      "evidence_sentences": "The Office is an American television comedy series that aired on NBC from March 24 , 2005 to May 16 , 2013 .",
+      "page_titles": [
+        "The Office -LRB-U.S. TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Office -LRB-U.S. TV series-RRB-",
+            "line_index": 0,
+            "sentence": "The Office is an American television comedy series that aired on NBC from March 24 , 2005 to May 16 , 2013 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Office -LRB-U.S. TV series-RRB-",
+              "line_index": 4,
+              "sentence": "The original executive producers were Greg Daniels , Howard Klein , Ben Silverman , Ricky Gervais , and Stephen Merchant , with numerous others being promoted in later seasons ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Office -LRB-U.S. TV series-RRB-",
+              "line_index": 9,
+              "sentence": "The show debuted on NBC as a mid-season replacement and ran for nine seasons and 201 episodes ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Office -LRB-U.S. TV series-RRB-",
+              "line_index": 13,
+              "sentence": "The first season of The Office was met with mixed reviews , but the following four seasons received widespread acclaim from television critics ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Office -LRB-U.S. TV series-RRB-",
+              "line_index": 15,
+              "sentence": "While later seasons were criticized for a decline in quality , earlier writers oversaw the final season and ended the show 's run with a positive reception ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000747",
+      "claim": "Benjamin Walker (actor) was born in 1989.",
+      "evidence_sentences": "Benjamin Walker Davis -LRB- born June 21 , 1982 -RRB- , known professionally as Benjamin Walker , is an American actor and stand-up comedian .",
+      "page_titles": [
+        "Benjamin Walker -LRB-actor-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Benjamin Walker -LRB-actor-RRB-",
+            "line_index": 0,
+            "sentence": "Benjamin Walker Davis -LRB- born June 21 , 1982 -RRB- , known professionally as Benjamin Walker , is an American actor and stand-up comedian ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000748",
+      "claim": "Charles Manson is a former cult leader.",
+      "evidence_sentences": "Charles Milles Manson -LRB- born Charles Milles Maddox , November 12 , 1934 -RRB- is an American criminal and former cult leader who led what became known as the Manson Family , a quasi-commune that arose in California in the late 1960s .",
+      "page_titles": [
+        "Charles Manson"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Charles Manson",
+            "line_index": 0,
+            "sentence": "Charles Milles Manson -LRB- born Charles Milles Maddox , November 12 , 1934 -RRB- is an American criminal and former cult leader who led what became known as the Manson Family , a quasi-commune that arose in California in the late 1960s ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000749",
+      "claim": "Saturn Corporation is a subsidiary of General Motor.",
+      "evidence_sentences": "The Saturn Corporation , also known as Saturn LLC , is a registered trademark established on January 7 , 1985 , as a subsidiary of General Motors .",
+      "page_titles": [
+        "Saturn Corporation"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Saturn Corporation",
+            "line_index": 0,
+            "sentence": "The Saturn Corporation , also known as Saturn LLC , is a registered trademark established on January 7 , 1985 , as a subsidiary of General Motors ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000750",
+      "claim": "Bea Arthur was renamed Bernice Frankel.",
+      "evidence_sentences": "Bea Arthur -LRB- born Bernice Frankel ; May 13 , 1922 -- April 25 , 2009 -RRB- was an American actress , comedian , singer , and animal rights activist .",
+      "page_titles": [
+        "Bea Arthur"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Bea Arthur",
+            "line_index": 0,
+            "sentence": "Bea Arthur -LRB- born Bernice Frankel ; May 13 , 1922 -- April 25 , 2009 -RRB- was an American actress , comedian , singer , and animal rights activist ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Bea Arthur",
+              "line_index": 0,
+              "sentence": "Bea Arthur -LRB- born Bernice Frankel ; May 13 , 1922 -- April 25 , 2009 -RRB- was an American actress , comedian , singer , and animal rights activist ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000751",
+      "claim": "Jeb Bush is former President George H. W. Bush's eldest son.",
+      "evidence_sentences": "Bush , who grew up in Houston , is the second son of former President George H. W. Bush and former First Lady Barbara Bush , and a younger brother of former President George W. Bush .",
+      "page_titles": [
+        "Jeb Bush"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Jeb Bush",
+            "line_index": 3,
+            "sentence": "Bush , who grew up in Houston , is the second son of former President George H. W. Bush and former First Lady Barbara Bush , and a younger brother of former President George W. Bush ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000752",
+      "claim": "Commodore is ranked halfway between a navy captain and a rear admiral.",
+      "evidence_sentences": "Commodore is a naval rank used in many navies that is superior to a navy captain , but below a rear admiral .",
+      "page_titles": [
+        "Commodore -LRB-rank-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Commodore -LRB-rank-RRB-",
+            "line_index": 0,
+            "sentence": "Commodore is a naval rank used in many navies that is superior to a navy captain , but below a rear admiral ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000753",
+      "claim": "On Nickelodeon SpongeBob SquarePants is the highest rated series to ever air.",
+      "evidence_sentences": "The series ' popularity has made it a media franchise , as well as the highest rated series to ever air on Nickelodeon , and the most distributed property of MTV Networks .",
+      "page_titles": [
+        "SpongeBob SquarePants"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "SpongeBob SquarePants",
+            "line_index": 2,
+            "sentence": "The series ' popularity has made it a media franchise , as well as the highest rated series to ever air on Nickelodeon , and the most distributed property of MTV Networks ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000754",
+      "claim": "The Endless River is an album by a band formed in London in 1966.",
+      "evidence_sentences": "The Endless River is the fifteenth and final studio album by the English rock band Pink Floyd . Pink Floyd were an English rock band formed in London . Pink Floyd were founded in 1965 by students Syd Barrett on guitar and lead vocals , Nick Mason on drums , Roger Waters on bass and vocals , and Richard Wright on keyboards and vocals .",
+      "page_titles": [
+        "The Endless River",
+        "Pink Floyd",
+        "Pink Floyd"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Endless River",
+            "line_index": 0,
+            "sentence": "The Endless River is the fifteenth and final studio album by the English rock band Pink Floyd ."
+          },
+          {
+            "page_title": "Pink Floyd",
+            "line_index": 0,
+            "sentence": "Pink Floyd were an English rock band formed in London ."
+          },
+          {
+            "page_title": "Pink Floyd",
+            "line_index": 5,
+            "sentence": "Pink Floyd were founded in 1965 by students Syd Barrett on guitar and lead vocals , Nick Mason on drums , Roger Waters on bass and vocals , and Richard Wright on keyboards and vocals ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000755",
+      "claim": "A near-Earth object is lengthened as NEO.",
+      "evidence_sentences": "A near-Earth object -LRB- NEO -RRB- is any small Solar System body whose orbit brings it into proximity with Earth .",
+      "page_titles": [
+        "Near-Earth object"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Near-Earth object",
+            "line_index": 0,
+            "sentence": "A near-Earth object -LRB- NEO -RRB- is any small Solar System body whose orbit brings it into proximity with Earth ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000756",
+      "claim": "Yvonne Strahovski has done the voice-over for movies and TV shows.",
+      "evidence_sentences": "She has also voiced Miranda Lawson in the Mass Effect video game series and Batwoman in the animated film Batman : Bad Blood -LRB- 2016 -RRB- .",
+      "page_titles": [
+        "Yvonne Strahovski"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Yvonne Strahovski",
+            "line_index": 5,
+            "sentence": "She has also voiced Miranda Lawson in the Mass Effect video game series and Batwoman in the animated film Batman : Bad Blood -LRB- 2016 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000757",
+      "claim": "Warcraft premiered in America on June 10, 2016.",
+      "evidence_sentences": "Warcraft premiered in Paris on May 24 , 2016 , and was released by Universal Pictures in the United States on June 10 , 2016 .",
+      "page_titles": [
+        "Warcraft -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Warcraft -LRB-film-RRB-",
+            "line_index": 7,
+            "sentence": "Warcraft premiered in Paris on May 24 , 2016 , and was released by Universal Pictures in the United States on June 10 , 2016 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000758",
+      "claim": "Georgians barely arose from the ancient Iberian civilizations.",
+      "evidence_sentences": "Georgians arose from the ancient Colchian and Iberian civilizations .",
+      "page_titles": [
+        "Georgians"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Georgians",
+            "line_index": 4,
+            "sentence": "Georgians arose from the ancient Colchian and Iberian civilizations ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000759",
+      "claim": "The University of Illinois at Chicago is located in Buffalo, New York.",
+      "evidence_sentences": "The University of Illinois at Chicago or UIC is a state-funded public research-intensive university located in Chicago , Illinois , United States .",
+      "page_titles": [
+        "University of Illinois at Chicago"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "University of Illinois at Chicago",
+            "line_index": 0,
+            "sentence": "The University of Illinois at Chicago or UIC is a state-funded public research-intensive university located in Chicago , Illinois , United States ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000760",
+      "claim": "Tie Your Mother Down was on the Billboard charts.",
+      "evidence_sentences": "On its original release as a single in 1977 the song peaked at 31 in the UK Singles Chart , however more than 20 years later it was released as a double a-side to `` No-One But You -LRB- Only the Good Die Young -RRB- '' where it reached 13 in UK Singles Chart .",
+      "page_titles": [
+        "Tie Your Mother Down"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Tie Your Mother Down",
+            "line_index": 2,
+            "sentence": "On its original release as a single in 1977 the song peaked at 31 in the UK Singles Chart , however more than 20 years later it was released as a double a-side to `` No-One But You -LRB- Only the Good Die Young -RRB- '' where it reached 13 in UK Singles Chart ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000761",
+      "claim": "Mandy Moore is a writer.",
+      "evidence_sentences": "Amanda Leigh Moore -LRB- born April 10 , 1984 -RRB- is an American singer-songwriter and actress .",
+      "page_titles": [
+        "Mandy Moore"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mandy Moore",
+            "line_index": 0,
+            "sentence": "Amanda Leigh Moore -LRB- born April 10 , 1984 -RRB- is an American singer-songwriter and actress ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Mandy Moore",
+              "line_index": 0,
+              "sentence": "Amanda Leigh Moore -LRB- born April 10 , 1984 -RRB- is an American singer-songwriter and actress ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000762",
+      "claim": "Ann Richards was the head of the executive branch of Texas's government.",
+      "evidence_sentences": "A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . A treasurer is the person responsible for running the treasury of an organization .",
+      "page_titles": [
+        "Ann Richards",
+        "Treasurer"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ann Richards",
+            "line_index": 1,
+            "sentence": "A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention ."
+          },
+          {
+            "page_title": "Treasurer",
+            "line_index": 0,
+            "sentence": "A treasurer is the person responsible for running the treasury of an organization ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000763",
+      "claim": "Numb was part of a DLC for Rock Band 3.",
+      "evidence_sentences": "In January 2011 , `` Numb '' was released in a Linkin Park DLC pack for Rock Band 3 .",
+      "page_titles": [
+        "Numb -LRB-Linkin Park song-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Numb -LRB-Linkin Park song-RRB-",
+            "line_index": 12,
+            "sentence": "In January 2011 , `` Numb '' was released in a Linkin Park DLC pack for Rock Band 3 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000764",
+      "claim": "Half Girlfriend's principal photography ended in January of 2016.",
+      "evidence_sentences": "Principal photography commenced in June 2016 and filming locations include Delhi , Mumbai , Patna , Dumraon , Varanasi , New York City and Cape Town .",
+      "page_titles": [
+        "Half Girlfriend -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Half Girlfriend -LRB-film-RRB-",
+            "line_index": 4,
+            "sentence": "Principal photography commenced in June 2016 and filming locations include Delhi , Mumbai , Patna , Dumraon , Varanasi , New York City and Cape Town ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000765",
+      "claim": "The White House Press Secretary's primary responsibility is to be a father.",
+      "evidence_sentences": "The White House Press Secretary is a senior White House official whose primary responsibility is to act as spokesperson for the executive branch of the United States government administration , especially with regard to the President , senior executives , and policies .",
+      "page_titles": [
+        "White House Press Secretary"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "White House Press Secretary",
+            "line_index": 0,
+            "sentence": "The White House Press Secretary is a senior White House official whose primary responsibility is to act as spokesperson for the executive branch of the United States government administration , especially with regard to the President , senior executives , and policies ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000766",
+      "claim": "The Book of Mormon won a Grammy Award for Best Musical Theater Album.",
+      "evidence_sentences": "The show was awarded nine Tony Awards , one of which was for Best Musical , and a Grammy Award for Best Musical Theater Album .",
+      "page_titles": [
+        "The Book of Mormon -LRB-musical-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Book of Mormon -LRB-musical-RRB-",
+            "line_index": 19,
+            "sentence": "The show was awarded nine Tony Awards , one of which was for Best Musical , and a Grammy Award for Best Musical Theater Album ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000767",
+      "claim": "Baadshah's dubs are the same name.",
+      "evidence_sentences": "Later , this movie was dubbed into Malayalam , Japanese , and Korean under the same name .",
+      "page_titles": [
+        "Baadshah -LRB-2013 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Baadshah -LRB-2013 film-RRB-",
+            "line_index": 17,
+            "sentence": "Later , this movie was dubbed into Malayalam , Japanese , and Korean under the same name ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000768",
+      "claim": "Sennacherib had a fatal accident in 681 BCE.",
+      "evidence_sentences": "He was assassinated in obscure circumstances in 681 BCE , apparently by his eldest son -LRB- his designated successor , Esarhaddon , was the youngest -RRB- .",
+      "page_titles": [
+        "Sennacherib"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sennacherib",
+            "line_index": 2,
+            "sentence": "He was assassinated in obscure circumstances in 681 BCE , apparently by his eldest son -LRB- his designated successor , Esarhaddon , was the youngest -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000769",
+      "claim": "Rob McElhenney plays Mac on an FX/FXX comedy series.",
+      "evidence_sentences": "He is best known for playing Mac on the FX/FXX comedy series It 's Always Sunny in Philadelphia .",
+      "page_titles": [
+        "Rob McElhenney"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Rob McElhenney",
+            "line_index": 3,
+            "sentence": "He is best known for playing Mac on the FX/FXX comedy series It 's Always Sunny in Philadelphia ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Rob McElhenney",
+              "line_index": 3,
+              "sentence": "He is best known for playing Mac on the FX/FXX comedy series It 's Always Sunny in Philadelphia ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000770",
+      "claim": "Cars 3 isn't the third Cars movie Brian Fee has worked on.",
+      "evidence_sentences": "It is being directed by Brian Fee , a storyboard artist on Cars -LRB- 2006 -RRB- and Cars 2 -LRB- 2011 -RRB- .",
+      "page_titles": [
+        "Cars 3"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Cars 3",
+            "line_index": 2,
+            "sentence": "It is being directed by Brian Fee , a storyboard artist on Cars -LRB- 2006 -RRB- and Cars 2 -LRB- 2011 -RRB- ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Cars 3",
+              "line_index": 2,
+              "sentence": "It is being directed by Brian Fee , a storyboard artist on Cars -LRB- 2006 -RRB- and Cars 2 -LRB- 2011 -RRB- ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000771",
+      "claim": "New Orleans is the birthplace of Anne Rice.",
+      "evidence_sentences": "Born in New Orleans , Rice spent much of her early life there before moving to Texas , and later to San Francisco .",
+      "page_titles": [
+        "Anne Rice"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Anne Rice",
+            "line_index": 5,
+            "sentence": "Born in New Orleans , Rice spent much of her early life there before moving to Texas , and later to San Francisco ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000772",
+      "claim": "DNA features songs.",
+      "evidence_sentences": "Sonically , the album is primarily a mixture of pop and R&B records , with influences from dance-pop , pop rock and hip hop found on specific songs as well .",
+      "page_titles": [
+        "DNA -LRB-Little Mix album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "DNA -LRB-Little Mix album-RRB-",
+            "line_index": 5,
+            "sentence": "Sonically , the album is primarily a mixture of pop and R&B records , with influences from dance-pop , pop rock and hip hop found on specific songs as well ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "DNA -LRB-Little Mix album-RRB-",
+              "line_index": 7,
+              "sentence": "Songs on the album were also co-written by members of other girl groups , including Nicola Roberts of Girls Aloud , Shaznay Lewis of All Saints and T-Boz of TLC ."
+            }
+          ],
+          [
+            {
+              "page_title": "DNA -LRB-Little Mix album-RRB-",
+              "line_index": 14,
+              "sentence": "featuring American rapper Missy Elliott was released on 17 April 2013 ; both songs reached the top 20 in the UK ."
+            }
+          ],
+          [
+            {
+              "page_title": "DNA -LRB-Little Mix album-RRB-",
+              "line_index": 11,
+              "sentence": "The album 's lead single , `` Wings '' , was released on 26 August 2012 , reaching number one in UK and Ireland as well as charting in Australia , New Zealand , Slovakia , Czech Republic , Hungary , Belgium , Canada and the US ."
+            }
+          ],
+          [
+            {
+              "page_title": "DNA -LRB-Little Mix album-RRB-",
+              "line_index": 12,
+              "sentence": "The second single , `` DNA '' , was released on 11 November 2012 , peaking at number three in the UK ."
+            }
+          ],
+          [
+            {
+              "page_title": "DNA -LRB-Little Mix album-RRB-",
+              "line_index": 13,
+              "sentence": "Two post-album singles were released : `` Change Your Life '' on 3 February 2013 , and a remix of `` How Ya Doin ' ? ''"
+            }
+          ]
+        ],
+        "n_annotation_sets": 6,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000773",
+      "claim": "Unison (Celine Dion album) was originally released by Columbia Records.",
+      "evidence_sentences": "The album was originally released on 2 April 1990 by Columbia Records .",
+      "page_titles": [
+        "Unison -LRB-Celine Dion album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Unison -LRB-Celine Dion album-RRB-",
+            "line_index": 1,
+            "sentence": "The album was originally released on 2 April 1990 by Columbia Records ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000774",
+      "claim": "Home for the Holidays stars the grandchild of Charlie Chaplin",
+      "evidence_sentences": "The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn . Geraldine Leigh Chaplin -LRB- born July 31 , 1944 -RRB- is a prolific actress of English , French , and Spanish language films , the fourth child of Charlie Chaplin , the first of eight with fourth wife Oona O'Neill .",
+      "page_titles": [
+        "Home for the Holidays -LRB-1995 film-RRB-",
+        "Geraldine Chaplin"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Home for the Holidays -LRB-1995 film-RRB-",
+            "line_index": 5,
+            "sentence": "The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn ."
+          },
+          {
+            "page_title": "Geraldine Chaplin",
+            "line_index": 0,
+            "sentence": "Geraldine Leigh Chaplin -LRB- born July 31 , 1944 -RRB- is a prolific actress of English , French , and Spanish language films , the fourth child of Charlie Chaplin , the first of eight with fourth wife Oona O'Neill ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000775",
+      "claim": "Christian Gottlob Neefe died in February 1798.",
+      "evidence_sentences": "Christian Gottlob Neefe -LRB- -LSB- ˈneːfə -RSB- ; 5 February 1748 -- 28 January 1798 -RRB- was a German opera composer and conductor .",
+      "page_titles": [
+        "Christian Gottlob Neefe"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Christian Gottlob Neefe",
+            "line_index": 0,
+            "sentence": "Christian Gottlob Neefe -LRB- -LSB- ˈneːfə -RSB- ; 5 February 1748 -- 28 January 1798 -RRB- was a German opera composer and conductor ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000776",
+      "claim": "Dakota Fanning is incapable of being involved with a film called Annie James in The Motel Life.",
+      "evidence_sentences": "Her recent film roles have included the eponymous character in Coraline -LRB- 2009 -RRB- , Cherie Currie in The Runaways -LRB- 2010 -RRB- , Annie James in The Motel Life -LRB- 2013 -RRB- , and Jane in The Twilight Saga -LRB- 2009 -- 12 -RRB- .",
+      "page_titles": [
+        "Dakota Fanning"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Dakota Fanning",
+            "line_index": 6,
+            "sentence": "Her recent film roles have included the eponymous character in Coraline -LRB- 2009 -RRB- , Cherie Currie in The Runaways -LRB- 2010 -RRB- , Annie James in The Motel Life -LRB- 2013 -RRB- , and Jane in The Twilight Saga -LRB- 2009 -- 12 -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000777",
+      "claim": "Dan Brown published a 2003 bestselling novel.",
+      "evidence_sentences": "Daniel Gerhard `` Dan '' Brown -LRB- born June 22 , 1964 -RRB- is an American author of thriller fiction who wrote the 2003 bestselling novel The Da Vinci Code .",
+      "page_titles": [
+        "Dan Brown"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Dan Brown",
+            "line_index": 0,
+            "sentence": "Daniel Gerhard `` Dan '' Brown -LRB- born June 22 , 1964 -RRB- is an American author of thriller fiction who wrote the 2003 bestselling novel The Da Vinci Code ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000778",
+      "claim": "NXT Tag Team Championship is a singing talent competition.",
+      "evidence_sentences": "The NXT Tag Team Championship is a professional wrestling tag team championship created and promoted by the American professional wrestling promotion WWE on their developmental brand , NXT .",
+      "page_titles": [
+        "NXT Tag Team Championship"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "NXT Tag Team Championship",
+            "line_index": 0,
+            "sentence": "The NXT Tag Team Championship is a professional wrestling tag team championship created and promoted by the American professional wrestling promotion WWE on their developmental brand , NXT ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000779",
+      "claim": "Goldie Hawn received a Grammy nomination.",
+      "evidence_sentences": "Hawn maintained bankable star status for more than three decades thereafter , appearing in numerous films such as There 's a Girl in My Soup -LRB- 1970 -RRB- , Butterflies Are Free -LRB- 1972 -RRB- , The Sugarland Express -LRB- 1974 -RRB- , Shampoo -LRB- 1975 -RRB- , Foul Play -LRB- 1978 -RRB- , Seems Like Old Times -LRB- 1980 -RRB- , and the title role in Private Benjamin -LRB- 1980 -RRB- , for which she was nominated for the Academy Award for Best Actress .",
+      "page_titles": [
+        "Goldie Hawn"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Goldie Hawn",
+            "line_index": 2,
+            "sentence": "Hawn maintained bankable star status for more than three decades thereafter , appearing in numerous films such as There 's a Girl in My Soup -LRB- 1970 -RRB- , Butterflies Are Free -LRB- 1972 -RRB- , The Sugarland Express -LRB- 1974 -RRB- , Shampoo -LRB- 1975 -RRB- , Foul Play -LRB- 1978 -RRB- , Seems Like Old Times -LRB- 1980 -RRB- , and the title role in Private Benjamin -LRB- 1980 -RRB- , for which she was nominated for the Academy Award for Best Actress ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Goldie Hawn",
+              "line_index": 1,
+              "sentence": "She rose to fame on the NBC sketch comedy program Rowan & Martin 's Laugh-In -LRB- 1968 -- 70 -RRB- before going on to receive the Academy Award for Best Supporting Actress and the Golden Globe Award for Best Supporting Actress for her performance in Cactus Flower -LRB- 1969 -RRB- ."
+            }
+          ],
+          [
+            {
+              "page_title": "Goldie Hawn",
+              "line_index": 2,
+              "sentence": "Hawn maintained bankable star status for more than three decades thereafter , appearing in numerous films such as There 's a Girl in My Soup -LRB- 1970 -RRB- , Butterflies Are Free -LRB- 1972 -RRB- , The Sugarland Express -LRB- 1974 -RRB- , Shampoo -LRB- 1975 -RRB- , Foul Play -LRB- 1978 -RRB- , Seems Like Old Times -LRB- 1980 -RRB- , and the title role in Private Benjamin -LRB- 1980 -RRB- , for which she was nominated for the Academy Award for Best Actress ."
+            }
+          ],
+          [
+            {
+              "page_title": "Goldie Hawn",
+              "line_index": 1,
+              "sentence": "She rose to fame on the NBC sketch comedy program Rowan & Martin 's Laugh-In -LRB- 1968 -- 70 -RRB- before going on to receive the Academy Award for Best Supporting Actress and the Golden Globe Award for Best Supporting Actress for her performance in Cactus Flower -LRB- 1969 -RRB- ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000780",
+      "claim": "Doug Petrie was unable to appear in Dr. Horrible's Sing-Along Blog.",
+      "evidence_sentences": "He made a cameo on Joss Whedon 's web-based film , Dr. Horrible 's Sing-Along Blog , as `` Professor Normal '' .",
+      "page_titles": [
+        "Doug Petrie"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Doug Petrie",
+            "line_index": 5,
+            "sentence": "He made a cameo on Joss Whedon 's web-based film , Dr. Horrible 's Sing-Along Blog , as `` Professor Normal '' ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000781",
+      "claim": "French Indochina was officially known as the Indochinese Federation after 1955.",
+      "evidence_sentences": "French Indochina -LRB- previously spelled as French Indo-China -RRB- -LRB- Indochine française សហភ ពឥណ ឌ ច ន Đông Dương thuộc Pháp , -LSB- ɗə̄wŋm jɨ̄əŋ tʰûək fǎp -RSB- , frequently abbreviated to Đông Pháp ; ຝຣັ່ງແຫຼັມອິນດູຈີນ Cantonese : -RRB- , officially known as the Indochinese Union -LRB- Union indochinoise -RRB- after 1887 and the Indochinese Federation -LRB- Fédération indochinoise -RRB- after 1947 , was a grouping of French colonial territories in Southeast Asia .",
+      "page_titles": [
+        "French Indochina"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "French Indochina",
+            "line_index": 0,
+            "sentence": "French Indochina -LRB- previously spelled as French Indo-China -RRB- -LRB- Indochine française សហភ ពឥណ ឌ ច ន Đông Dương thuộc Pháp , -LSB- ɗə̄wŋm jɨ̄əŋ tʰûək fǎp -RSB- , frequently abbreviated to Đông Pháp ; ຝຣັ່ງແຫຼັມອິນດູຈີນ Cantonese : -RRB- , officially known as the Indochinese Union -LRB- Union indochinoise -RRB- after 1887 and the Indochinese Federation -LRB- Fédération indochinoise -RRB- after 1947 , was a grouping of French colonial territories in Southeast Asia ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000782",
+      "claim": "Appropriation (art) played a significant role in the history of performing arts.",
+      "evidence_sentences": "The use of appropriation has played a significant role in the history of the arts -LRB- literary , visual , musical and performing arts -RRB- .",
+      "page_titles": [
+        "Appropriation -LRB-art-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Appropriation -LRB-art-RRB-",
+            "line_index": 1,
+            "sentence": "The use of appropriation has played a significant role in the history of the arts -LRB- literary , visual , musical and performing arts -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000783",
+      "claim": "Ned Stark's cast was nominated for an Academy Award.",
+      "evidence_sentences": "He and the rest of the cast were nominated for Screen Actors Guild Awards for Outstanding Performance by an Ensemble in a Drama Series in 2011 .",
+      "page_titles": [
+        "Ned Stark"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ned Stark",
+            "line_index": 7,
+            "sentence": "He and the rest of the cast were nominated for Screen Actors Guild Awards for Outstanding Performance by an Ensemble in a Drama Series in 2011 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000784",
+      "claim": "Danger UXB is on a commercial film network in the United Kingdom.",
+      "evidence_sentences": "Danger UXB is a 1979 British ITV television series set during the Second World War developed by John Hawkesworth and starring Anthony Andrews as Lieutenant Brian Ash , an officer in the Royal Engineers .",
+      "page_titles": [
+        "Danger UXB"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Danger UXB",
+            "line_index": 0,
+            "sentence": "Danger UXB is a 1979 British ITV television series set during the Second World War developed by John Hawkesworth and starring Anthony Andrews as Lieutenant Brian Ash , an officer in the Royal Engineers ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000785",
+      "claim": "Hourglass was James Taylor's first album in over half a decade.",
+      "evidence_sentences": "Hourglass is singer-songwriter James Taylor 's fourteenth studio album . Taylor 's first studio album in six years was released in 1997 to glowing notices .",
+      "page_titles": [
+        "Hourglass -LRB-James Taylor album-RRB-",
+        "Hourglass -LRB-James Taylor album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Hourglass -LRB-James Taylor album-RRB-",
+            "line_index": 0,
+            "sentence": "Hourglass is singer-songwriter James Taylor 's fourteenth studio album ."
+          },
+          {
+            "page_title": "Hourglass -LRB-James Taylor album-RRB-",
+            "line_index": 1,
+            "sentence": "Taylor 's first studio album in six years was released in 1997 to glowing notices ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000786",
+      "claim": "Edmund H. North was a Gemini.",
+      "evidence_sentences": "Edmund Hall North -LRB- March 12 , 1911 -- August 28 , 1990 -RRB- , was an American screenwriter who shared an Academy Award for Best Original Screenplay with Francis Ford Coppola in 1970 for their script for Patton . Under the tropical zodiac the sun transits this area on average between February 19 and March 20 , and under the sidereal zodiac , the sun transits this area between approximately March 13 and April 13 .",
+      "page_titles": [
+        "Edmund H. North",
+        "Pisces -LRB-astrology-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Edmund H. North",
+            "line_index": 0,
+            "sentence": "Edmund Hall North -LRB- March 12 , 1911 -- August 28 , 1990 -RRB- , was an American screenwriter who shared an Academy Award for Best Original Screenplay with Francis Ford Coppola in 1970 for their script for Patton ."
+          },
+          {
+            "page_title": "Pisces -LRB-astrology-RRB-",
+            "line_index": 2,
+            "sentence": "Under the tropical zodiac the sun transits this area on average between February 19 and March 20 , and under the sidereal zodiac , the sun transits this area between approximately March 13 and April 13 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000787",
+      "claim": "Swordfish (film) is a film that is about a type of person.",
+      "evidence_sentences": "The film centers on Stanley Jobson , an ex-con and computer hacker who is targeted for recruitment into a bank robbery conspiracy because of his formidable hacking skills .",
+      "page_titles": [
+        "Swordfish -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Swordfish -LRB-film-RRB-",
+            "line_index": 1,
+            "sentence": "The film centers on Stanley Jobson , an ex-con and computer hacker who is targeted for recruitment into a bank robbery conspiracy because of his formidable hacking skills ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Swordfish -LRB-film-RRB-",
+              "line_index": 1,
+              "sentence": "The film centers on Stanley Jobson , an ex-con and computer hacker who is targeted for recruitment into a bank robbery conspiracy because of his formidable hacking skills ."
+            },
+            {
+              "page_title": "Security hacker",
+              "line_index": 0,
+              "sentence": "A security hacker is someone who seeks to breach defenses and exploit weaknesses in a computer system or network ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 1,
+        "alternative_annotation_indices": [
+          0
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000788",
+      "claim": "The Independent Spirit Awards are held in a parking lot.",
+      "evidence_sentences": "The awards show is held inside a tent on the beach in Santa Monica , California , usually on the day before the Academy Awards -LRB- since 1999 ; originally the Saturday before -RRB- .",
+      "page_titles": [
+        "Independent Spirit Awards"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Independent Spirit Awards",
+            "line_index": 10,
+            "sentence": "The awards show is held inside a tent on the beach in Santa Monica , California , usually on the day before the Academy Awards -LRB- since 1999 ; originally the Saturday before -RRB- ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000789",
+      "claim": "The Latvian Soviet Socialist Republic is never known as Latvia.",
+      "evidence_sentences": "The Latvian Soviet Socialist Republic -LRB- Latvian SSR ; Latvijas Padomju Sociālistiskā Republika Латвийская Советская Социалистическая Республика , Latviyskaya Sovetskaya Sotsialisticheskaya Respublika -RRB- , also known as Soviet Latvia or Latvia , was a republic of the Soviet Union .",
+      "page_titles": [
+        "Latvian Soviet Socialist Republic"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Latvian Soviet Socialist Republic",
+            "line_index": 0,
+            "sentence": "The Latvian Soviet Socialist Republic -LRB- Latvian SSR ; Latvijas Padomju Sociālistiskā Republika Латвийская Советская Социалистическая Республика , Latviyskaya Sovetskaya Sotsialisticheskaya Respublika -RRB- , also known as Soviet Latvia or Latvia , was a republic of the Soviet Union ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000790",
+      "claim": "Balibo (film) is about an investigation of crimes.",
+      "evidence_sentences": "Balibo is a 2009 Australian war film that follows the story of the Balibo Five , a group of journalists who were captured and killed while reporting on activities just prior to the Indonesian invasion of East Timor of 1975 .",
+      "page_titles": [
+        "Balibo -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Balibo -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "Balibo is a 2009 Australian war film that follows the story of the Balibo Five , a group of journalists who were captured and killed while reporting on activities just prior to the Indonesian invasion of East Timor of 1975 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Balibo -LRB-film-RRB-",
+              "line_index": 4,
+              "sentence": "The film follows dishevelled journalist Roger East , played by Anthony LaPaglia , who travels to East Timor in 1975 to investigate the deaths of the Balibo Five during the buildup to the Indonesian invasion of East Timor ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000791",
+      "claim": "Mel B released a song on Virgin Records in 2007.",
+      "evidence_sentences": "Brown began her solo career when she released `` I Want You Back '' with Missy Elliott on Virgin Records .",
+      "page_titles": [
+        "Mel B"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mel B",
+            "line_index": 5,
+            "sentence": "Brown began her solo career when she released `` I Want You Back '' with Missy Elliott on Virgin Records ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000792",
+      "claim": "Mount Hood is the sixth highest point in its mountain range.",
+      "evidence_sentences": "In addition to being Oregon 's highest mountain , it is one of the loftiest mountains in the nation based on its prominence .",
+      "page_titles": [
+        "Mount Hood"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mount Hood",
+            "line_index": 3,
+            "sentence": "In addition to being Oregon 's highest mountain , it is one of the loftiest mountains in the nation based on its prominence ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Mount Hood",
+              "line_index": 9,
+              "sentence": "It is the highest point in Oregon and the fourth highest in the Cascade Range ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000793",
+      "claim": "Black Canary is a character in comic books published by an American entrepreneur.",
+      "evidence_sentences": "Black Canary is a fictional superheroine in comic books published by DC Comics . DC Comics , Inc. is an American comic book publisher .",
+      "page_titles": [
+        "Black Canary",
+        "DC Comics"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Black Canary",
+            "line_index": 0,
+            "sentence": "Black Canary is a fictional superheroine in comic books published by DC Comics ."
+          },
+          {
+            "page_title": "DC Comics",
+            "line_index": 0,
+            "sentence": "DC Comics , Inc. is an American comic book publisher ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000794",
+      "claim": "Eurotas (river) is one of Peloponnese's major rivers.",
+      "evidence_sentences": "The Eurotas or Evrotas -LRB- Greek : Ευρώτας -RRB- is the main river of Laconia and one of the major rivers of the Peloponnese , in Greece .",
+      "page_titles": [
+        "Eurotas -LRB-river-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Eurotas -LRB-river-RRB-",
+            "line_index": 0,
+            "sentence": "The Eurotas or Evrotas -LRB- Greek : Ευρώτας -RRB- is the main river of Laconia and one of the major rivers of the Peloponnese , in Greece ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000795",
+      "claim": "The Giver received a People's Choice Award nomination for Favorite Dramatic Movie.",
+      "evidence_sentences": "It received a People 's Choice Award nomination for Favorite Dramatic Movie .",
+      "page_titles": [
+        "The Giver -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Giver -LRB-film-RRB-",
+            "line_index": 5,
+            "sentence": "It received a People 's Choice Award nomination for Favorite Dramatic Movie ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000796",
+      "claim": "Paul Nicholls did not play Sam Casey.",
+      "evidence_sentences": "He is best known for his roles as Joe Wicks in BBC 's EastEnders , and as DS Sam Casey in ITV 's Law & Order : UK .",
+      "page_titles": [
+        "Paul Nicholls -LRB-actor-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Paul Nicholls -LRB-actor-RRB-",
+            "line_index": 1,
+            "sentence": "He is best known for his roles as Joe Wicks in BBC 's EastEnders , and as DS Sam Casey in ITV 's Law & Order : UK ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000797",
+      "claim": "The Bloods is narrowly known for its rivalry with the Crips.",
+      "evidence_sentences": "The gang is widely known for its rivalry with the Crips .",
+      "page_titles": [
+        "Bloods"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Bloods",
+            "line_index": 1,
+            "sentence": "The gang is widely known for its rivalry with the Crips ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000798",
+      "claim": "American Library Association is the most large library association.",
+      "evidence_sentences": "It is the oldest and largest library association in the world , with more than 62,000 members .",
+      "page_titles": [
+        "American Library Association"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "American Library Association",
+            "line_index": 1,
+            "sentence": "It is the oldest and largest library association in the world , with more than 62,000 members ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "American Library Association",
+              "line_index": 1,
+              "sentence": "It is the oldest and largest library association in the world , with more than 62,000 members ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "SA-000799",
+      "claim": "Michelin Guides have been published for more than a decade.",
+      "evidence_sentences": "Michelin Guides -LRB- -LSB- ɡid miʃ.lɛ̃ -RSB- -RRB- are a series of guide books published by the French company Michelin for more than a century .",
+      "page_titles": [
+        "Michelin Guide"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Michelin Guide",
+            "line_index": 0,
+            "sentence": "Michelin Guides -LRB- -LSB- ɡid miʃ.lɛ̃ -RSB- -RRB- are a series of guide books published by the French company Michelin for more than a century ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000800",
+      "claim": "The Armenian Genocide was the extermination of Armenians who were mostly Ottoman citizens.",
+      "evidence_sentences": "Other indigenous and Christian ethnic groups such as the Assyrians and the Ottoman Greeks were similarly targeted for extermination by the Ottoman government in the Assyrian genocide and the Greek genocide , and their treatment is considered by some historians to be part of the same genocidal policy .",
+      "page_titles": [
+        "Armenian Genocide"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Armenian Genocide",
+            "line_index": 5,
+            "sentence": "Other indigenous and Christian ethnic groups such as the Assyrians and the Ottoman Greeks were similarly targeted for extermination by the Ottoman government in the Assyrian genocide and the Greek genocide , and their treatment is considered by some historians to be part of the same genocidal policy ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "SA-000801",
+      "claim": "Yale University's alumni includes five notable people.",
+      "evidence_sentences": "Yale has graduated many notable alumni , including five U.S. Presidents , 19 U.S. Supreme Court Justices , 20 living billionaires , and many heads of state .",
+      "page_titles": [
+        "Yale University"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Yale University",
+            "line_index": 23,
+            "sentence": "Yale has graduated many notable alumni , including five U.S. Presidents , 19 U.S. Supreme Court Justices , 20 living billionaires , and many heads of state ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  ],
+  "rubric": "# Judge Rubric (silver adjudication, v1)\n\nYou are an independent fact-checking adjudicator. You will see a batch of\nitems. Each item contains a **claim** and **evidence** (what is included\ndepends on the disclosure stage, stated in the batch header). For EVERY item\nyou must judge **only from the information provided**.\n\n## Task\n\nDecide whether the provided evidence **warrants** the claim:\n\n- `Supported` — the evidence clearly or probably establishes the claim is true.\n- `Refuted` — the evidence clearly or probably establishes the claim is false.\n- `Ambiguous` — the evidence is insufficient, partial, or mixed; you cannot\n  responsibly decide true or false from what is provided.\n\nAlso rate how sufficient the evidence is for deciding the claim\n(`clearly_sufficient | probably_sufficient | partial_or_ambiguous |\nprobably_insufficient | clearly_insufficient`), your confidence (integer\n0–100), and any issue flags that apply (see list).\n\n## Hard rules\n\n- Judge ONLY from the supplied claim and evidence. Do NOT use outside\n  knowledge to decide the verdict.\n- Do NOT browse the web or look anything up.\n- Do NOT speculate about hidden labels, other models, or why the item was\n  selected.\n- If the evidence alone does not settle the claim, say `Ambiguous` — that is a\n  valid, useful answer, not a failure.\n- `confidence` MUST be an integer from 0 to 100.\n- `brief_reason` must be short (one sentence) and grounded in the evidence.\n- Select issue flags only when the evidence shows that problem; use `none`\n  otherwise. Do not pad flags.\n\n## Issue flags\n\n`none`, `possible_missing_title_context`, `possible_coreference_or_entity_resolution`,\n`possible_missing_surrounding_context`, `multi_sentence_integration`,\n`numerical_or_temporal_reasoning`, `negation_or_scope`,\n`entity_or_attribute_confusion`, `partial_warrant`,\n`apparent_internal_contradiction`, `other`\n\n## Output format\n\nReturn ONLY a JSON array (no prose before or after), one object per item, in\nthe same order as the input:\n\n```json\n[\n  {\n    \"item_id\": \"SA-000001\",\n    \"judge_id\": \"judge_1\",\n    \"stage\": \"A\",\n    \"verdict\": \"Supported\",\n    \"evidence_sufficiency\": \"probably_sufficient\",\n    \"confidence\": 80,\n    \"issue_flags\": [\"none\"],\n    \"brief_reason\": \"The evidence sentence directly states the claim.\"\n  }\n]\n```\n\n`item_id`, `judge_id`, and `stage` must be copied exactly from the batch file.\nProduce exactly one object for every item in the batch — never skip or merge\nitems. If an item's evidence is empty or unreadable, verdict `Ambiguous`,\nsufficiency `clearly_insufficient`, confidence as you see fit, flag `other`.\n",
+  "disclosure_note": "Stage C. Judge only supplied fields. Null text means unavailable; do not fill it using outside knowledge."
+}

@@ -1,0 +1,2602 @@
+{
+  "judge_id": "judge_1",
+  "stage": "C",
+  "output_path": "corrections_v2/blind_io/p03/stage_c/p03_C_j1_b02.output.json",
+  "n_items": 77,
+  "item_ids": [
+    "CR-000078",
+    "CR-000079",
+    "CR-000080",
+    "CR-000081",
+    "CR-000082",
+    "CR-000083",
+    "CR-000084",
+    "CR-000085",
+    "CR-000086",
+    "CR-000087",
+    "CR-000088",
+    "CR-000089",
+    "CR-000090",
+    "CR-000091",
+    "CR-000092",
+    "CR-000093",
+    "CR-000094",
+    "CR-000095",
+    "CR-000096",
+    "CR-000097",
+    "CR-000098",
+    "CR-000099",
+    "CR-000100",
+    "CR-000101",
+    "CR-000102",
+    "CR-000103",
+    "CR-000104",
+    "CR-000105",
+    "CR-000106",
+    "CR-000107",
+    "CR-000108",
+    "CR-000109",
+    "CR-000110",
+    "CR-000111",
+    "CR-000112",
+    "CR-000113",
+    "CR-000114",
+    "CR-000115",
+    "CR-000116",
+    "CR-000117",
+    "CR-000118",
+    "CR-000119",
+    "CR-000120",
+    "CR-000121",
+    "CR-000122",
+    "CR-000123",
+    "CR-000124",
+    "CR-000125",
+    "CR-000126",
+    "CR-000127",
+    "CR-000128",
+    "CR-000129",
+    "CR-000130",
+    "CR-000131",
+    "CR-000132",
+    "CR-000133",
+    "CR-000134",
+    "CR-000135",
+    "CR-000136",
+    "CR-000137",
+    "CR-000138",
+    "CR-000139",
+    "CR-000140",
+    "CR-000141",
+    "CR-000142",
+    "CR-000143",
+    "CR-000144",
+    "CR-000145",
+    "CR-000146",
+    "CR-000147",
+    "CR-000148",
+    "CR-000149",
+    "CR-000150",
+    "CR-000151",
+    "CR-000152",
+    "CR-000153",
+    "CR-000154"
+  ],
+  "items": [
+    {
+      "item_id": "CR-000078",
+      "claim": "Ingushetia was named after Chechen-Ingush ASSR split into two.",
+      "evidence_sentences": "It was established on June 4 , 1992 after the Chechen-Ingush Autonomous Soviet Socialist Republic was split in two .",
+      "page_titles": [
+        "Ingushetia"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ingushetia",
+            "line_index": 5,
+            "sentence": "It was established on June 4 , 1992 after the Chechen-Ingush Autonomous Soviet Socialist Republic was split in two ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000079",
+      "claim": "Peking University is in a unitary sovereign state in East Asia.",
+      "evidence_sentences": "It is the first modern national university established in China , founded as the Imperial University of Peking in 1898 as a replacement of the ancient Taixue or Guozijian , or Imperial Academy .",
+      "page_titles": [
+        "Peking University"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Peking University",
+            "line_index": 1,
+            "sentence": "It is the first modern national university established in China , founded as the Imperial University of Peking in 1898 as a replacement of the ancient Taixue or Guozijian , or Imperial Academy ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Peking University",
+              "line_index": 0,
+              "sentence": "Peking University -LRB- abbreviated PKU and colloquially known in Chinese as Běidà 北大 Chinese : 北京大学 , pinyin : Běijīng Dàxué -RRB- , is a major Chinese research university located in Beijing and a member of the C9 League ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000080",
+      "claim": "Stomp the Yard stars an American actor born in October of 1982.",
+      "evidence_sentences": "The film stars Columbus Short , Meagan Good , Darrin Henson , Brian White , Laz Alonso , and Valarie Pettiford , with Harry Lennix , and , in their film debuts , R&B singers Ne-Yo & Chris Brown . Columbus Keith Short , Jr. -LRB- born September 19 , 1982 -RRB- is an American choreographer , actor , and singer .",
+      "page_titles": [
+        "Stomp the Yard",
+        "Columbus Short"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Stomp the Yard",
+            "line_index": 8,
+            "sentence": "The film stars Columbus Short , Meagan Good , Darrin Henson , Brian White , Laz Alonso , and Valarie Pettiford , with Harry Lennix , and , in their film debuts , R&B singers Ne-Yo & Chris Brown ."
+          },
+          {
+            "page_title": "Columbus Short",
+            "line_index": 0,
+            "sentence": "Columbus Keith Short , Jr. -LRB- born September 19 , 1982 -RRB- is an American choreographer , actor , and singer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000081",
+      "claim": "Star Trek was written by Roberto Orci.",
+      "evidence_sentences": "He and Kurtzman since returned to working with Abrams on Mission : Impossible III and both Star Trek and Star Trek Into Darkness .",
+      "page_titles": [
+        "Roberto Orci"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Roberto Orci",
+            "line_index": 9,
+            "sentence": "He and Kurtzman since returned to working with Abrams on Mission : Impossible III and both Star Trek and Star Trek Into Darkness ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Roberto Orci",
+              "line_index": 11,
+              "sentence": "In April 2014 , Orci and Kurtzman announced that they would only collaborate in television projects , and Orci worked on the third Star Trek film , Star Trek Beyond , until being replaced the following December ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000082",
+      "claim": "A member of the Grateful Dead was John Perry Barlow.",
+      "evidence_sentences": "The founding members were Jerry Garcia -LRB- lead guitar , vocals -RRB- , Bob Weir -LRB- rhythm guitar , vocals -RRB- , Ron `` Pigpen '' McKernan -LRB- keyboards , harmonica , vocals -RRB- , Phil Lesh -LRB- bass , vocals -RRB- , and Bill Kreutzmann -LRB- drums -RRB- .",
+      "page_titles": [
+        "Grateful Dead"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Grateful Dead",
+            "line_index": 10,
+            "sentence": "The founding members were Jerry Garcia -LRB- lead guitar , vocals -RRB- , Bob Weir -LRB- rhythm guitar , vocals -RRB- , Ron `` Pigpen '' McKernan -LRB- keyboards , harmonica , vocals -RRB- , Phil Lesh -LRB- bass , vocals -RRB- , and Bill Kreutzmann -LRB- drums -RRB- ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Grateful Dead",
+              "line_index": 15,
+              "sentence": "The other official members of the band are Tom Constanten -LRB- keyboards ; 1968 -- 1970 -RRB- , John Perry Barlow -LRB- nonperforming lyricist ; 1971 -- 1995 -RRB- , Keith Godchaux -LRB- keyboards ; 1971 -- 1979 -RRB- , Donna Godchaux -LRB- vocals ; 1972 -- 1979 -RRB- , Brent Mydland -LRB- keyboards , vocals ; 1979 -- 1990 -RRB- , and Vince Welnick -LRB- keyboards , vocals ; 1990 -- 1995 -RRB- ."
+            }
+          ],
+          [
+            {
+              "page_title": "Grateful Dead",
+              "line_index": 13,
+              "sentence": "Drummer Mickey Hart and nonperforming lyricist Robert Hunter joined in 1967 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000083",
+      "claim": "Nicholas Brody is a person.",
+      "evidence_sentences": "Nicholas `` Nick '' Brody , played by actor Damian Lewis , is a fictional character on the American television series Homeland on Showtime , created by Alex Gansa and Howard Gordon .",
+      "page_titles": [
+        "Nicholas Brody"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Nicholas Brody",
+            "line_index": 1,
+            "sentence": "Nicholas `` Nick '' Brody , played by actor Damian Lewis , is a fictional character on the American television series Homeland on Showtime , created by Alex Gansa and Howard Gordon ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000084",
+      "claim": "The Armenian Genocide was the extermination of Armenians who were mostly Turkish citizens.",
+      "evidence_sentences": "The Armenian Genocide -LRB- Հայոց ցեղասպանություն , Hayots tseghaspanutyun -RRB- , also known as the Armenian Holocaust , was the Ottoman government 's systematic extermination of 1.5 million Armenians , mostly Ottoman citizens within the Ottoman Empire and its successor state , the Republic of Turkey .",
+      "page_titles": [
+        "Armenian Genocide"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Armenian Genocide",
+            "line_index": 0,
+            "sentence": "The Armenian Genocide -LRB- Հայոց ցեղասպանություն , Hayots tseghaspanutyun -RRB- , also known as the Armenian Holocaust , was the Ottoman government 's systematic extermination of 1.5 million Armenians , mostly Ottoman citizens within the Ottoman Empire and its successor state , the Republic of Turkey ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000085",
+      "claim": "Papua comprised all of Indonesian New Guinea and it was cultured.",
+      "evidence_sentences": "It was formerly called Irian Jaya -LRB- before that West Irian or Irian Barat -RRB- and comprised all of Indonesian New Guinea .",
+      "page_titles": [
+        "Papua -LRB-province-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Papua -LRB-province-RRB-",
+            "line_index": 3,
+            "sentence": "It was formerly called Irian Jaya -LRB- before that West Irian or Irian Barat -RRB- and comprised all of Indonesian New Guinea ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000086",
+      "claim": "The Faroe Islands are no longer part of the Kingdom of Mercia.",
+      "evidence_sentences": "Between 1035 and 1814 , the Faeroes were part of the Hereditary Kingdom of Norway .",
+      "page_titles": [
+        "Faroe Islands"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Faroe Islands",
+            "line_index": 9,
+            "sentence": "Between 1035 and 1814 , the Faeroes were part of the Hereditary Kingdom of Norway ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000087",
+      "claim": "The Times has been printed since the American Revolution.",
+      "evidence_sentences": "It began in 1785 under the title , adopting its current name on 1 January 1788 .",
+      "page_titles": [
+        "The Times"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Times",
+            "line_index": 1,
+            "sentence": "It began in 1785 under the title , adopting its current name on 1 January 1788 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "The Times",
+              "line_index": 1,
+              "sentence": "It began in 1785 under the title , adopting its current name on 1 January 1788 ."
+            },
+            {
+              "page_title": "American Revolution",
+              "line_index": 0,
+              "sentence": "The American Revolution was a political upheaval that took place between 1765 and 1783 during which colonists in the Thirteen American Colonies maintained by force of arms their refusal to submit to the authority of the King and Parliament of Great Britain , and founded the independent United States ."
+            }
+          ],
+          [
+            {
+              "page_title": "The Times",
+              "line_index": 1,
+              "sentence": "It began in 1785 under the title , adopting its current name on 1 January 1788 ."
+            },
+            {
+              "page_title": "American Revolution",
+              "line_index": 0,
+              "sentence": "The American Revolution was a political upheaval that took place between 1765 and 1783 during which colonists in the Thirteen American Colonies maintained by force of arms their refusal to submit to the authority of the King and Parliament of Great Britain , and founded the independent United States ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 2,
+        "alternative_annotation_indices": [
+          0,
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000088",
+      "claim": "An Education was created by a writer Lynn Barber.",
+      "evidence_sentences": "An Education is a 2009 coming-of-age drama film based on a memoir of the same name by British journalist Lynn Barber .",
+      "page_titles": [
+        "An Education"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "An Education",
+            "line_index": 0,
+            "sentence": "An Education is a 2009 coming-of-age drama film based on a memoir of the same name by British journalist Lynn Barber ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "An Education",
+              "line_index": 1,
+              "sentence": "The film was directed by Lone Scherfig from a screenplay by Nick Hornby ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000089",
+      "claim": "Morse Code is used in air traffic control.",
+      "evidence_sentences": "Pilots and air traffic controllers usually need only a cursory understanding .",
+      "page_titles": [
+        "Morse code"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Morse code",
+            "line_index": 16,
+            "sentence": "Pilots and air traffic controllers usually need only a cursory understanding ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000090",
+      "claim": "Polar bears depend on the Arctic Ocean as their main food source.",
+      "evidence_sentences": "The polar bear -LRB- ursus #Latin maritimus #Latin -RRB- is a carnivorous bear whose native range lies largely within the Arctic Circle , encompassing the Arctic Ocean , its surrounding seas and surrounding land masses .",
+      "page_titles": [
+        "Polar bear"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Polar bear",
+            "line_index": 0,
+            "sentence": "The polar bear -LRB- ursus #Latin maritimus #Latin -RRB- is a carnivorous bear whose native range lies largely within the Arctic Circle , encompassing the Arctic Ocean , its surrounding seas and surrounding land masses ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Polar bear",
+              "line_index": 7,
+              "sentence": "Because of their dependence on the sea ice , polar bears are classified as marine mammals ; an alternative basis for classification as marine mammals is that they depend on the ocean as their main food source ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000091",
+      "claim": "Marvel vs. Capcom: Infinite is a standalone game.",
+      "evidence_sentences": "It is the sixth main entry in the Marvel vs. Capcom series of crossover games .",
+      "page_titles": [
+        "Marvel vs. Capcom-COLON- Infinite"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Marvel vs. Capcom-COLON- Infinite",
+            "line_index": 1,
+            "sentence": "It is the sixth main entry in the Marvel vs. Capcom series of crossover games ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Marvel vs. Capcom-COLON- Infinite",
+              "line_index": 11,
+              "sentence": "Infinite was designed to be more accessible than previous Marvel vs. Capcom games , resulting in departures from some series ' mainstays , such as assists ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000092",
+      "claim": "Chris Benoit is from North America.",
+      "evidence_sentences": "Christopher Michael Benoit -LRB- -LSB- bəˈnwa -RSB- ; May 21 , 1967 -- June 24 , 2007 -RRB- was a Canadian professional wrestler .",
+      "page_titles": [
+        "Chris Benoit"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Chris Benoit",
+            "line_index": 0,
+            "sentence": "Christopher Michael Benoit -LRB- -LSB- bəˈnwa -RSB- ; May 21 , 1967 -- June 24 , 2007 -RRB- was a Canadian professional wrestler ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000093",
+      "claim": "Ripon College's student body stood at a number.",
+      "evidence_sentences": "Students come from 14 nations and 33 states , and 53 % are female while 47 % are male .",
+      "page_titles": [
+        "Ripon College -LRB-Wisconsin-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Ripon College -LRB-Wisconsin-RRB-",
+            "line_index": 2,
+            "sentence": "Students come from 14 nations and 33 states , and 53 % are female while 47 % are male ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Ripon College -LRB-Wisconsin-RRB-",
+              "line_index": 3,
+              "sentence": "More than 95 % of students receive financial aid ."
+            }
+          ],
+          [
+            {
+              "page_title": "Ripon College -LRB-Wisconsin-RRB-",
+              "line_index": 1,
+              "sentence": "As of 2015 , Ripon College 's student body stood at around 840 , the majority of whom live on campus ."
+            }
+          ],
+          [
+            {
+              "page_title": "Ripon College -LRB-Wisconsin-RRB-",
+              "line_index": 2,
+              "sentence": "Students come from 14 nations and 33 states , and 53 % are female while 47 % are male ."
+            }
+          ],
+          [
+            {
+              "page_title": "Ripon College -LRB-Wisconsin-RRB-",
+              "line_index": 3,
+              "sentence": "More than 95 % of students receive financial aid ."
+            }
+          ],
+          [
+            {
+              "page_title": "Ripon College -LRB-Wisconsin-RRB-",
+              "line_index": 1,
+              "sentence": "As of 2015 , Ripon College 's student body stood at around 840 , the majority of whom live on campus ."
+            }
+          ],
+          [
+            {
+              "page_title": "Ripon College -LRB-Wisconsin-RRB-",
+              "line_index": 1,
+              "sentence": "As of 2015 , Ripon College 's student body stood at around 840 , the majority of whom live on campus ."
+            }
+          ],
+          [
+            {
+              "page_title": "Ripon College -LRB-Wisconsin-RRB-",
+              "line_index": 1,
+              "sentence": "As of 2015 , Ripon College 's student body stood at around 840 , the majority of whom live on campus ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 8,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000094",
+      "claim": "In the End was released in 2000.",
+      "evidence_sentences": "It is the eighth track on their debut album Hybrid Theory -LRB- 2000 -RRB- and was released as the album 's fourth single October 9 , 2001 . Hybrid Theory is the debut studio album by American rock band Linkin Park , released on October 24 , 2000 through Warner Bros. .",
+      "page_titles": [
+        "In the End",
+        "Hybrid Theory"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "In the End",
+            "line_index": 1,
+            "sentence": "It is the eighth track on their debut album Hybrid Theory -LRB- 2000 -RRB- and was released as the album 's fourth single October 9 , 2001 ."
+          },
+          {
+            "page_title": "Hybrid Theory",
+            "line_index": 0,
+            "sentence": "Hybrid Theory is the debut studio album by American rock band Linkin Park , released on October 24 , 2000 through Warner Bros. ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000095",
+      "claim": "Michelin Guides have been the definitive restaurant guide for more than a century.",
+      "evidence_sentences": "Michelin Guides -LRB- -LSB- ɡid miʃ.lɛ̃ -RSB- -RRB- are a series of guide books published by the French company Michelin for more than a century .",
+      "page_titles": [
+        "Michelin Guide"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Michelin Guide",
+            "line_index": 0,
+            "sentence": "Michelin Guides -LRB- -LSB- ɡid miʃ.lɛ̃ -RSB- -RRB- are a series of guide books published by the French company Michelin for more than a century ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000096",
+      "claim": "Solanum contains plants with vegetables.",
+      "evidence_sentences": "It also contains the nightshades and horse nettles , as well as numerous plants cultivated for their ornamental flowers and fruit .",
+      "page_titles": [
+        "Solanum"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Solanum",
+            "line_index": 1,
+            "sentence": "It also contains the nightshades and horse nettles , as well as numerous plants cultivated for their ornamental flowers and fruit ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Solanum",
+              "line_index": 0,
+              "sentence": "Solanum is a large and diverse genus of flowering plants , which include two food crops of high economic importance , the potato and the tomato ."
+            },
+            {
+              "page_title": "Tomato",
+              "line_index": 15,
+              "sentence": "While tomatoes are botanically berry-type fruits , they are considered culinary vegetables , being ingredients of savory meals ."
+            }
+          ],
+          [
+            {
+              "page_title": "Solanum",
+              "line_index": 0,
+              "sentence": "Solanum is a large and diverse genus of flowering plants , which include two food crops of high economic importance , the potato and the tomato ."
+            }
+          ],
+          [
+            {
+              "page_title": "Solanum",
+              "line_index": 0,
+              "sentence": "Solanum is a large and diverse genus of flowering plants , which include two food crops of high economic importance , the potato and the tomato ."
+            }
+          ],
+          [
+            {
+              "page_title": "Solanum",
+              "line_index": 0,
+              "sentence": "Solanum is a large and diverse genus of flowering plants , which include two food crops of high economic importance , the potato and the tomato ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 1,
+        "alternative_annotation_indices": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000097",
+      "claim": "Uranium-235 was founded in 1935.",
+      "evidence_sentences": "It was discovered in 1935 by Arthur Jeffrey Dempster .",
+      "page_titles": [
+        "Uranium-235"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Uranium-235",
+            "line_index": 6,
+            "sentence": "It was discovered in 1935 by Arthur Jeffrey Dempster ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000098",
+      "claim": "The Gifted was modeled on Marvel Comics' X-Men abilities.",
+      "evidence_sentences": "The Gifted is an upcoming American television series created for Fox by Matt Nix , based on Marvel Comics ' X-Men properties .",
+      "page_titles": [
+        "The Gifted -LRB-TV series-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Gifted -LRB-TV series-RRB-",
+            "line_index": 0,
+            "sentence": "The Gifted is an upcoming American television series created for Fox by Matt Nix , based on Marvel Comics ' X-Men properties ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000099",
+      "claim": "Underdog was directed by an American film director.",
+      "evidence_sentences": "Directed by Frederik Du Chau and written by Joe Piscatella , Adam Rifkin , and Craig A. Williams , the film stars Jim Belushi , Peter Dinklage , John Slattery , and Patrick Warburton with the voice talents of Jason Lee , Amy Adams , and Brad Garrett . Jason Michael Lee -LRB- born April 25 , 1970 -RRB- is an American actor , producer , comedian and skateboarder .",
+      "page_titles": [
+        "Underdog -LRB-film-RRB-",
+        "Jason Lee -LRB-actor-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Underdog -LRB-film-RRB-",
+            "line_index": 1,
+            "sentence": "Directed by Frederik Du Chau and written by Joe Piscatella , Adam Rifkin , and Craig A. Williams , the film stars Jim Belushi , Peter Dinklage , John Slattery , and Patrick Warburton with the voice talents of Jason Lee , Amy Adams , and Brad Garrett ."
+          },
+          {
+            "page_title": "Jason Lee -LRB-actor-RRB-",
+            "line_index": 0,
+            "sentence": "Jason Michael Lee -LRB- born April 25 , 1970 -RRB- is an American actor , producer , comedian and skateboarder ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000100",
+      "claim": "Wildfang was established in Portland, Oregon.",
+      "evidence_sentences": "The company was founded in 2010 by Emma Mcilroy and Julia Parsley , who previously worked at Nike , Inc. in Portland , Oregon .",
+      "page_titles": [
+        "Wildfang"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Wildfang",
+            "line_index": 1,
+            "sentence": "The company was founded in 2010 by Emma Mcilroy and Julia Parsley , who previously worked at Nike , Inc. in Portland , Oregon ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000101",
+      "claim": "The Armenian Genocide was the extermination of Armenians who were mostly Ottoman citizens.",
+      "evidence_sentences": "Other indigenous and Christian ethnic groups such as the Assyrians and the Ottoman Greeks were similarly targeted for extermination by the Ottoman government in the Assyrian genocide and the Greek genocide , and their treatment is considered by some historians to be part of the same genocidal policy .",
+      "page_titles": [
+        "Armenian Genocide"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Armenian Genocide",
+            "line_index": 5,
+            "sentence": "Other indigenous and Christian ethnic groups such as the Assyrians and the Ottoman Greeks were similarly targeted for extermination by the Ottoman government in the Assyrian genocide and the Greek genocide , and their treatment is considered by some historians to be part of the same genocidal policy ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000102",
+      "claim": "In reply to two songs from Neil Young's album Harvest, Lynyrd Skynyrd wrote Sweet Home Alabama.",
+      "evidence_sentences": "`` Sweet Home Alabama '' is a song by Southern rock band Lynyrd Skynyrd that first appeared in 1974 on their second album , Second Helping .",
+      "page_titles": [
+        "Sweet Home Alabama"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sweet Home Alabama",
+            "line_index": 0,
+            "sentence": "`` Sweet Home Alabama '' is a song by Southern rock band Lynyrd Skynyrd that first appeared in 1974 on their second album , Second Helping ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Sweet Home Alabama",
+              "line_index": 4,
+              "sentence": "The song was written in reply to `` Southern Man '' and `` Alabama '' by Neil Young ; Young is name-checked in the song 's lyrics ."
+            },
+            {
+              "page_title": "Harvest -LRB-Neil Young album-RRB-",
+              "line_index": 0,
+              "sentence": "Harvest is the fourth album by Canadian musician Neil Young , released on February 1 , 1972 , on Reprise Records , catalogue MS 2032 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000103",
+      "claim": "The Fame sold 4.7 million digital copies as of April 2016.",
+      "evidence_sentences": "It has sold 4.7 million copies in the United States as of April 2016 and is the seventh best-selling digital album in history .",
+      "page_titles": [
+        "The Fame"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "The Fame",
+            "line_index": 13,
+            "sentence": "It has sold 4.7 million copies in the United States as of April 2016 and is the seventh best-selling digital album in history ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000104",
+      "claim": "Girl is criticized as G I R L.",
+      "evidence_sentences": "Girl -LRB- stylized as G I R L -RRB- is the second studio album by American singer and record producer Pharrell Williams .",
+      "page_titles": [
+        "Girl -LRB-Pharrell Williams album-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Girl -LRB-Pharrell Williams album-RRB-",
+            "line_index": 0,
+            "sentence": "Girl -LRB- stylized as G I R L -RRB- is the second studio album by American singer and record producer Pharrell Williams ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000105",
+      "claim": "Jack Falahee's middle name is Ryan and he is unknown.",
+      "evidence_sentences": "Jack Ryan Falahee -LRB- born February 20 , 1989 -RRB- is an American actor .",
+      "page_titles": [
+        "Jack Falahee"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Jack Falahee",
+            "line_index": 0,
+            "sentence": "Jack Ryan Falahee -LRB- born February 20 , 1989 -RRB- is an American actor ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Jack Falahee",
+              "line_index": 0,
+              "sentence": "Jack Ryan Falahee -LRB- born February 20 , 1989 -RRB- is an American actor ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000106",
+      "claim": "Nymphomaniac (film) is the third version of a trilogy.",
+      "evidence_sentences": "Nymphomaniac -LRB- stylised onscreen and in advertising as NYMPH MANIAC -RRB- is a European 2013 two-part drama art film written and directed by Lars von Trier .",
+      "page_titles": [
+        "Nymphomaniac -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Nymphomaniac -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "Nymphomaniac -LRB- stylised onscreen and in advertising as NYMPH MANIAC -RRB- is a European 2013 two-part drama art film written and directed by Lars von Trier ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000107",
+      "claim": "Bank of America has online and computer banking platforms.",
+      "evidence_sentences": "Bank of America provides its products and services through 4,600 retail financial centers , approximately 15,900 automated teller machines , call centers , and online and mobile banking platforms .",
+      "page_titles": [
+        "Bank of America"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Bank of America",
+            "line_index": 16,
+            "sentence": "Bank of America provides its products and services through 4,600 retail financial centers , approximately 15,900 automated teller machines , call centers , and online and mobile banking platforms ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000108",
+      "claim": "Finding Dory was directed by anyone except Angus MacLane.",
+      "evidence_sentences": "Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse .",
+      "page_titles": [
+        "Finding Dory"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Finding Dory",
+            "line_index": 1,
+            "sentence": "Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000109",
+      "claim": "Poseidon had a budget of $160 million and did not make a profit.",
+      "evidence_sentences": "Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million .",
+      "page_titles": [
+        "Poseidon -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Poseidon -LRB-film-RRB-",
+            "line_index": 6,
+            "sentence": "Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Poseidon -LRB-film-RRB-",
+              "line_index": 6,
+              "sentence": "Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000110",
+      "claim": "in 2007, Joni Mitchell released a record.",
+      "evidence_sentences": "Some of her original songs -LRB- `` Urge for Going '' , `` Chelsea Morning '' , `` Both Sides , Now '' , `` The Circle Game '' -RRB- were covered by folk singers , allowing her to sign with Reprise Records and record her debut album in 1968 .",
+      "page_titles": [
+        "Joni Mitchell"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Joni Mitchell",
+            "line_index": 7,
+            "sentence": "Some of her original songs -LRB- `` Urge for Going '' , `` Chelsea Morning '' , `` Both Sides , Now '' , `` The Circle Game '' -RRB- were covered by folk singers , allowing her to sign with Reprise Records and record her debut album in 1968 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Joni Mitchell",
+              "line_index": 9,
+              "sentence": "Her 1971 recording Blue was rated the 30th best album ever made in Rolling Stone 's list of the `` 500 Greatest Albums of All Time '' , the highest entry by a female artist ."
+            }
+          ],
+          [
+            {
+              "page_title": "Joni Mitchell",
+              "line_index": 10,
+              "sentence": "Mitchell switched labels and began moving toward jazz rhythms by way of lush pop textures on 1974 's Court and Spark , her best-selling LP , featuring the radio hits `` Help Me '' and `` Free Man in Paris '' ."
+            }
+          ],
+          [
+            {
+              "page_title": "Joni Mitchell",
+              "line_index": 20,
+              "sentence": "A blunt critic of the music industry , she quit touring and released her 17th , and reportedly last , album of original songs in 2007 ."
+            }
+          ],
+          [
+            {
+              "page_title": "Joni Mitchell",
+              "line_index": 19,
+              "sentence": "She is the sole producer credited on most of her albums , including all her work in the 1970s ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000111",
+      "claim": "Home for the Holidays stars the fourth stepchild of Charlie Chaplin",
+      "evidence_sentences": "The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn .",
+      "page_titles": [
+        "Home for the Holidays -LRB-1995 film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Home for the Holidays -LRB-1995 film-RRB-",
+            "line_index": 5,
+            "sentence": "The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000112",
+      "claim": "Benjamin Franklin was not born on April 17th, 1790.",
+      "evidence_sentences": "Benjamin Franklin FRS , FRSE -LRB- April 17 , 1790 -RRB- was one of the Founding Fathers of the United States .",
+      "page_titles": [
+        "Benjamin Franklin"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Benjamin Franklin",
+            "line_index": 0,
+            "sentence": "Benjamin Franklin FRS , FRSE -LRB- April 17 , 1790 -RRB- was one of the Founding Fathers of the United States ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000113",
+      "claim": "Skopje was barely a capital from 972 and 992.",
+      "evidence_sentences": "During much of the early medieval period , the town was contested between the Byzantines and the Bulgarian Empire , whose capital it was between 972 and 992 .",
+      "page_titles": [
+        "Skopje"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Skopje",
+            "line_index": 8,
+            "sentence": "During much of the early medieval period , the town was contested between the Byzantines and the Bulgarian Empire , whose capital it was between 972 and 992 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000114",
+      "claim": "Raees (film) stars Mahira Khan as Aasiya Alam.",
+      "evidence_sentences": "It stars Shah Rukh Khan , Mahira Khan and Nawazuddin Siddiqui .",
+      "page_titles": [
+        "Raees -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Raees -LRB-film-RRB-",
+            "line_index": 1,
+            "sentence": "It stars Shah Rukh Khan , Mahira Khan and Nawazuddin Siddiqui ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000115",
+      "claim": "The Crips are a mob.",
+      "evidence_sentences": "The Crips are a primarily African-American gang .",
+      "page_titles": [
+        "Crips"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Crips",
+            "line_index": 3,
+            "sentence": "The Crips are a primarily African-American gang ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000116",
+      "claim": "Peking University is in a unitary sovereign state that's located in East Asia.",
+      "evidence_sentences": "Peking University -LRB- abbreviated PKU and colloquially known in Chinese as Běidà 北大 Chinese : 北京大学 , pinyin : Běijīng Dàxué -RRB- , is a major Chinese research university located in Beijing and a member of the C9 League .",
+      "page_titles": [
+        "Peking University"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Peking University",
+            "line_index": 0,
+            "sentence": "Peking University -LRB- abbreviated PKU and colloquially known in Chinese as Běidà 北大 Chinese : 北京大学 , pinyin : Běijīng Dàxué -RRB- , is a major Chinese research university located in Beijing and a member of the C9 League ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Peking University",
+              "line_index": 1,
+              "sentence": "It is the first modern national university established in China , founded as the Imperial University of Peking in 1898 as a replacement of the ancient Taixue or Guozijian , or Imperial Academy ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000117",
+      "claim": "Colin Kaepernick is quarterback for the 49ers.",
+      "evidence_sentences": "Kaepernick was selected by the San Francisco 49ers in the second round of the 2011 NFL Draft .",
+      "page_titles": [
+        "Colin Kaepernick"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Colin Kaepernick",
+            "line_index": 2,
+            "sentence": "Kaepernick was selected by the San Francisco 49ers in the second round of the 2011 NFL Draft ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 7,
+              "sentence": "During the 2013 season , his first full season as a starter , Kaepernick helped the 49ers reach the NFC Championship , losing to the Seattle Seahawks ."
+            }
+          ],
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 8,
+              "sentence": "In the following seasons , Kaepernick lost and won back his starting job , with the 49ers missing the playoffs for three years consecutively ."
+            }
+          ],
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 6,
+              "sentence": "He remained the team 's starting quarterback for the rest of the season and went on to lead the 49ers to their first Super Bowl appearance since 1994 , losing to the Baltimore Ravens ."
+            }
+          ],
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 5,
+              "sentence": "Kaepernick began his professional career as a backup to Alex Smith , but became the 49ers ' starter in the middle of the 2012 season after Smith suffered a concussion ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000118",
+      "claim": "Libya is the 16th largest country in 2017.",
+      "evidence_sentences": "With an area of almost 1.8 e6km2 , Libya is the fourth largest country in Africa , and is the 16th largest country in the world .",
+      "page_titles": [
+        "Libya"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Libya",
+            "line_index": 2,
+            "sentence": "With an area of almost 1.8 e6km2 , Libya is the fourth largest country in Africa , and is the 16th largest country in the world ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000119",
+      "claim": "The Alfred P. Murrah Federal Building was demolished at 200 N.W. 5th Street.",
+      "evidence_sentences": "The Alfred P. Murrah Federal Building was a United States federal government complex located at 200 N.W. 5th Street in Downtown Oklahoma City , Oklahoma , United States .",
+      "page_titles": [
+        "Alfred P. Murrah Federal Building"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Alfred P. Murrah Federal Building",
+            "line_index": 0,
+            "sentence": "The Alfred P. Murrah Federal Building was a United States federal government complex located at 200 N.W. 5th Street in Downtown Oklahoma City , Oklahoma , United States ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Alfred P. Murrah Federal Building",
+              "line_index": 3,
+              "sentence": "The remains were imploded a month after the attack , and the Oklahoma City National Memorial was built on the site ."
+            },
+            {
+              "page_title": "Alfred P. Murrah Federal Building",
+              "line_index": 0,
+              "sentence": "The Alfred P. Murrah Federal Building was a United States federal government complex located at 200 N.W. 5th Street in Downtown Oklahoma City , Oklahoma , United States ."
+            }
+          ],
+          [
+            {
+              "page_title": "Alfred P. Murrah Federal Building",
+              "line_index": 3,
+              "sentence": "The remains were imploded a month after the attack , and the Oklahoma City National Memorial was built on the site ."
+            },
+            {
+              "page_title": "Alfred P. Murrah Federal Building",
+              "line_index": 0,
+              "sentence": "The Alfred P. Murrah Federal Building was a United States federal government complex located at 200 N.W. 5th Street in Downtown Oklahoma City , Oklahoma , United States ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000120",
+      "claim": "South African Communist Party is a trades partner.",
+      "evidence_sentences": "It is a partner of the Tripartite Alliance with the African National Congress and the Congress of South African Trade Unions -LRB- COSATU -RRB- and through this it influences the South African government .",
+      "page_titles": [
+        "South African Communist Party"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "South African Communist Party",
+            "line_index": 2,
+            "sentence": "It is a partner of the Tripartite Alliance with the African National Congress and the Congress of South African Trade Unions -LRB- COSATU -RRB- and through this it influences the South African government ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000121",
+      "claim": "Georgians barely arose from the ancient Iberian civilizations.",
+      "evidence_sentences": "Georgians arose from the ancient Colchian and Iberian civilizations .",
+      "page_titles": [
+        "Georgians"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Georgians",
+            "line_index": 4,
+            "sentence": "Georgians arose from the ancient Colchian and Iberian civilizations ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000122",
+      "claim": "Brian Michael Bendis has written DC comics.",
+      "evidence_sentences": "He has won critical acclaim , including five Eisner Awards for both his creator-owned work and his work on various Marvel Comics books .",
+      "page_titles": [
+        "Brian Michael Bendis"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Brian Michael Bendis",
+            "line_index": 1,
+            "sentence": "He has won critical acclaim , including five Eisner Awards for both his creator-owned work and his work on various Marvel Comics books ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000123",
+      "claim": "Jonah Hill made $16 million dollars in 2014.",
+      "evidence_sentences": "Hill ranked 28th on Forbes magazine 's ranking of world 's highest paid actors from June 2014 to June 2015 , bringing in $ 16million .",
+      "page_titles": [
+        "Jonah Hill"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Jonah Hill",
+            "line_index": 4,
+            "sentence": "Hill ranked 28th on Forbes magazine 's ranking of world 's highest paid actors from June 2014 to June 2015 , bringing in $ 16million ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000124",
+      "claim": "Exit the King is by man.",
+      "evidence_sentences": "Exit the King -LRB- Le Roi se meurt -RRB- is an absurdist drama by Eugène Ionesco that premiered in 1962 .",
+      "page_titles": [
+        "Exit the King"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Exit the King",
+            "line_index": 0,
+            "sentence": "Exit the King -LRB- Le Roi se meurt -RRB- is an absurdist drama by Eugène Ionesco that premiered in 1962 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000125",
+      "claim": "How to Train Your Dragon 2 used new filming software.",
+      "evidence_sentences": "How to Train Your Dragon 2 benefited from advances in animation technology and was DreamWorks ' first film to use scalable multicore processing and the studio 's new animation and lighting software .",
+      "page_titles": [
+        "How to Train Your Dragon 2"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "How to Train Your Dragon 2",
+            "line_index": 11,
+            "sentence": "How to Train Your Dragon 2 benefited from advances in animation technology and was DreamWorks ' first film to use scalable multicore processing and the studio 's new animation and lighting software ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000126",
+      "claim": "Aparshakti Khurana works in journalism.",
+      "evidence_sentences": "Aparshakti Khurrana is an Indian Bollywood actor , RJ , and TV anchor . A news presenter -- also known as a newsreader , newscaster -LRB- short for `` news broadcaster '' -RRB- , anchorman or anchorwoman , news anchor or simply an anchor -- is a person who presents news during a news program on television , on the radio or on the Internet . Journalism is the production and distribution of reports on the interaction of events , facts , ideas , and people that are the `` news of the day '' and that impacts society to at least some degree .",
+      "page_titles": [
+        "Aparshakti Khurana",
+        "News presenter",
+        "Journalism"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Aparshakti Khurana",
+            "line_index": 0,
+            "sentence": "Aparshakti Khurrana is an Indian Bollywood actor , RJ , and TV anchor ."
+          },
+          {
+            "page_title": "News presenter",
+            "line_index": 0,
+            "sentence": "A news presenter -- also known as a newsreader , newscaster -LRB- short for `` news broadcaster '' -RRB- , anchorman or anchorwoman , news anchor or simply an anchor -- is a person who presents news during a news program on television , on the radio or on the Internet ."
+          },
+          {
+            "page_title": "Journalism",
+            "line_index": 0,
+            "sentence": "Journalism is the production and distribution of reports on the interaction of events , facts , ideas , and people that are the `` news of the day '' and that impacts society to at least some degree ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000127",
+      "claim": "Pocahontas was the daughter of the paramount chief of Wahunsenacah.",
+      "evidence_sentences": "Pocahontas was the daughter of Powhatan , the paramount chief of a network of tributary tribal nations in the Tsenacommacah , encompassing the Tidewater region of Virginia .",
+      "page_titles": [
+        "Pocahontas"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Pocahontas",
+            "line_index": 1,
+            "sentence": "Pocahontas was the daughter of Powhatan , the paramount chief of a network of tributary tribal nations in the Tsenacommacah , encompassing the Tidewater region of Virginia ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000128",
+      "claim": "West Virginia borders Ohio and Virginia to the southeast.",
+      "evidence_sentences": "It is bordered by Virginia to the southeast , Kentucky to the southwest , Ohio to the northwest , Pennsylvania to the north -LRB- and , slightly , east -RRB- , and Maryland to the northeast .",
+      "page_titles": [
+        "West Virginia"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "West Virginia",
+            "line_index": 1,
+            "sentence": "It is bordered by Virginia to the southeast , Kentucky to the southwest , Ohio to the northwest , Pennsylvania to the north -LRB- and , slightly , east -RRB- , and Maryland to the northeast ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000129",
+      "claim": "Kate Walsh was on a television show.",
+      "evidence_sentences": "Kathleen Erin Walsh -LRB- born October 13 , 1967 -RRB- is an American actress and businesswoman .",
+      "page_titles": [
+        "Kate Walsh -LRB-actress-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Kate Walsh -LRB-actress-RRB-",
+            "line_index": 0,
+            "sentence": "Kathleen Erin Walsh -LRB- born October 13 , 1967 -RRB- is an American actress and businesswoman ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000130",
+      "claim": "Manmohan Singh was a prime minister after the first Prime Minister of India.",
+      "evidence_sentences": "The first Sikh in office , Singh was also the first prime minister since Jawaharlal Nehru to be re-elected after completing a full five-year term .",
+      "page_titles": [
+        "Manmohan Singh"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Manmohan Singh",
+            "line_index": 1,
+            "sentence": "The first Sikh in office , Singh was also the first prime minister since Jawaharlal Nehru to be re-elected after completing a full five-year term ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000131",
+      "claim": "Awkward Black Girl stars Issa Rae as Amber.",
+      "evidence_sentences": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae .",
+      "page_titles": [
+        "Awkward Black Girl"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Awkward Black Girl",
+            "line_index": 0,
+            "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000132",
+      "claim": "Mount Hood is the sixth highest point in its mountain range.",
+      "evidence_sentences": "In addition to being Oregon 's highest mountain , it is one of the loftiest mountains in the nation based on its prominence .",
+      "page_titles": [
+        "Mount Hood"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mount Hood",
+            "line_index": 3,
+            "sentence": "In addition to being Oregon 's highest mountain , it is one of the loftiest mountains in the nation based on its prominence ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Mount Hood",
+              "line_index": 9,
+              "sentence": "It is the highest point in Oregon and the fourth highest in the Cascade Range ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000133",
+      "claim": "Colin Kaepernick starts for the San Francisco 49ers.",
+      "evidence_sentences": "Kaepernick was selected by the San Francisco 49ers in the second round of the 2011 NFL Draft .",
+      "page_titles": [
+        "Colin Kaepernick"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Colin Kaepernick",
+            "line_index": 2,
+            "sentence": "Kaepernick was selected by the San Francisco 49ers in the second round of the 2011 NFL Draft ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 5,
+              "sentence": "Kaepernick began his professional career as a backup to Alex Smith , but became the 49ers ' starter in the middle of the 2012 season after Smith suffered a concussion ."
+            },
+            {
+              "page_title": "2012 San Francisco 49ers season",
+              "line_index": 0,
+              "sentence": "The San Francisco 49ers season was the franchise 's 63rd season in the National Football League , the 67th overall , the second under the head coach/general manager tandem of Jim Harbaugh and Trent Baalke , and their penultimate season at Candlestick Park ."
+            }
+          ],
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 5,
+              "sentence": "Kaepernick began his professional career as a backup to Alex Smith , but became the 49ers ' starter in the middle of the 2012 season after Smith suffered a concussion ."
+            }
+          ],
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 5,
+              "sentence": "Kaepernick began his professional career as a backup to Alex Smith , but became the 49ers ' starter in the middle of the 2012 season after Smith suffered a concussion ."
+            }
+          ],
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 6,
+              "sentence": "He remained the team 's starting quarterback for the rest of the season and went on to lead the 49ers to their first Super Bowl appearance since 1994 , losing to the Baltimore Ravens ."
+            }
+          ],
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 7,
+              "sentence": "During the 2013 season , his first full season as a starter , Kaepernick helped the 49ers reach the NFC Championship , losing to the Seattle Seahawks ."
+            }
+          ],
+          [
+            {
+              "page_title": "Colin Kaepernick",
+              "line_index": 8,
+              "sentence": "In the following seasons , Kaepernick lost and won back his starting job , with the 49ers missing the playoffs for three years consecutively ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 7,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000134",
+      "claim": "Nicholas Brody goes by Nick for short, with most characters referring to him by the latter.",
+      "evidence_sentences": "Nicholas `` Nick '' Brody , played by actor Damian Lewis , is a fictional character on the American television series Homeland on Showtime , created by Alex Gansa and Howard Gordon .",
+      "page_titles": [
+        "Nicholas Brody"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Nicholas Brody",
+            "line_index": 1,
+            "sentence": "Nicholas `` Nick '' Brody , played by actor Damian Lewis , is a fictional character on the American television series Homeland on Showtime , created by Alex Gansa and Howard Gordon ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000135",
+      "claim": "Scaramouche is a translation.",
+      "evidence_sentences": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte .",
+      "page_titles": [
+        "Scaramouche"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Scaramouche",
+            "line_index": 0,
+            "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Scaramouche",
+              "line_index": 0,
+              "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scaramouche",
+              "line_index": 0,
+              "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scaramouche",
+              "line_index": 0,
+              "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scaramouche",
+              "line_index": 0,
+              "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scaramouche",
+              "line_index": 0,
+              "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scaramouche",
+              "line_index": 0,
+              "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scaramouche",
+              "line_index": 0,
+              "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scaramouche",
+              "line_index": 0,
+              "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+            }
+          ],
+          [
+            {
+              "page_title": "Scaramouche",
+              "line_index": 0,
+              "sentence": "Scaramuccia -LRB- literally `` little skirmisher '' -RRB- , also known as Scaramouche or Scaramouch , is a stock clown character of the Italian commedia dell ` arte ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 10,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000136",
+      "claim": "Pocahontas's middle name was Matoaka.",
+      "evidence_sentences": "Pocahontas -LRB- born Matoaka , known as Amonute , 1596 -- 1617 -RRB- was a Native American woman notable for her association with the colonial settlement at Jamestown , Virginia .",
+      "page_titles": [
+        "Pocahontas"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Pocahontas",
+            "line_index": 0,
+            "sentence": "Pocahontas -LRB- born Matoaka , known as Amonute , 1596 -- 1617 -RRB- was a Native American woman notable for her association with the colonial settlement at Jamestown , Virginia ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Pocahontas",
+              "line_index": 0,
+              "sentence": "Pocahontas -LRB- born Matoaka , known as Amonute , 1596 -- 1617 -RRB- was a Native American woman notable for her association with the colonial settlement at Jamestown , Virginia ."
+            }
+          ],
+          [
+            {
+              "page_title": "Pocahontas",
+              "line_index": 0,
+              "sentence": "Pocahontas -LRB- born Matoaka , known as Amonute , 1596 -- 1617 -RRB- was a Native American woman notable for her association with the colonial settlement at Jamestown , Virginia ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 3,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000137",
+      "claim": "Edouard Seguin worked in a place.",
+      "evidence_sentences": "Édouard Séguin -LRB- January 20 , 1812 -- October 28 , 1880 -RRB- was a physician and educationist born in Clamecy , Nièvre , France .",
+      "page_titles": [
+        "Édouard Séguin"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Édouard Séguin",
+            "line_index": 0,
+            "sentence": "Édouard Séguin -LRB- January 20 , 1812 -- October 28 , 1880 -RRB- was a physician and educationist born in Clamecy , Nièvre , France ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Édouard Séguin",
+              "line_index": 1,
+              "sentence": "He is remembered for his work with children having cognitive impairments in France and the United States ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000138",
+      "claim": "SpongeBob SquarePants is a media franchise.",
+      "evidence_sentences": "SpongeBob SquarePants is an American animated television series created by marine biologist and animator Stephen Hillenburg for Nickelodeon .",
+      "page_titles": [
+        "SpongeBob SquarePants"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "SpongeBob SquarePants",
+            "line_index": 0,
+            "sentence": "SpongeBob SquarePants is an American animated television series created by marine biologist and animator Stephen Hillenburg for Nickelodeon ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000139",
+      "claim": "The 66th Primetime Emmy Awards was hosted by the inventor of Late Night.",
+      "evidence_sentences": "Comedian and Late Night host Seth Meyers hosted the ceremony for the first time . He hosts Late Night with Seth Meyers , a late-night talk show that airs on NBC .",
+      "page_titles": [
+        "66th Primetime Emmy Awards",
+        "Seth Meyers"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "66th Primetime Emmy Awards",
+            "line_index": 2,
+            "sentence": "Comedian and Late Night host Seth Meyers hosted the ceremony for the first time ."
+          },
+          {
+            "page_title": "Seth Meyers",
+            "line_index": 1,
+            "sentence": "He hosts Late Night with Seth Meyers , a late-night talk show that airs on NBC ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000140",
+      "claim": "The State of Palestine claims a territory in Western Asia.",
+      "evidence_sentences": "The State of Palestine , also known simply as Palestine , is a de jure sovereign state in the Middle East that is recognized by 136 UN members and since 2012 has a status of a non-member observer state in the United Nations -- which amounts to a de facto , or implicit , recognition of statehood .",
+      "page_titles": [
+        "State of Palestine"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "State of Palestine",
+            "line_index": 0,
+            "sentence": "The State of Palestine , also known simply as Palestine , is a de jure sovereign state in the Middle East that is recognized by 136 UN members and since 2012 has a status of a non-member observer state in the United Nations -- which amounts to a de facto , or implicit , recognition of statehood ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000141",
+      "claim": "Lucy Hale's mother's name is Karen.",
+      "evidence_sentences": "Karen Lucille Hale -LRB- born June 14 , 1989 -RRB- is an American actress and singer .",
+      "page_titles": [
+        "Lucy Hale"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Lucy Hale",
+            "line_index": 0,
+            "sentence": "Karen Lucille Hale -LRB- born June 14 , 1989 -RRB- is an American actress and singer ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000142",
+      "claim": "Probot had Dave Grohl as a drummer.",
+      "evidence_sentences": "Probot was a heavy metal side project of ex-Nirvana drummer and Foo Fighters rhythm guitarist and lead-singer Dave Grohl .",
+      "page_titles": [
+        "Probot"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Probot",
+            "line_index": 0,
+            "sentence": "Probot was a heavy metal side project of ex-Nirvana drummer and Foo Fighters rhythm guitarist and lead-singer Dave Grohl ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000143",
+      "claim": "Journalist Lynn Barber created An Education.",
+      "evidence_sentences": "An Education is a 2009 coming-of-age drama film based on a memoir of the same name by British journalist Lynn Barber .",
+      "page_titles": [
+        "An Education"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "An Education",
+            "line_index": 0,
+            "sentence": "An Education is a 2009 coming-of-age drama film based on a memoir of the same name by British journalist Lynn Barber ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000144",
+      "claim": "Craig David has been nominated for several Grammy Awards.",
+      "evidence_sentences": "David has been nominated for thirteen Brit Awards : four times for Best British Male , and twice received a Grammy Award nomination for Best Male Pop Vocal Performance .",
+      "page_titles": [
+        "Craig David"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Craig David",
+            "line_index": 5,
+            "sentence": "David has been nominated for thirteen Brit Awards : four times for Best British Male , and twice received a Grammy Award nomination for Best Male Pop Vocal Performance ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000145",
+      "claim": "Henri Kontinen won the Australian Open men's doubles championship in 2011.",
+      "evidence_sentences": "He is currently ranked as world number 1 in doubles rankings after winning the Australian Open men 's doubles championship .",
+      "page_titles": [
+        "Henri Kontinen"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Henri Kontinen",
+            "line_index": 5,
+            "sentence": "He is currently ranked as world number 1 in doubles rankings after winning the Australian Open men 's doubles championship ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000146",
+      "claim": "Papua comprised all of a country.",
+      "evidence_sentences": "Papua is the largest and easternmost province of Indonesia , comprising most of western New Guinea . Western New Guinea , also known as Papua -LRB- formerly Irian Jaya -RRB- , is the Indonesian part of the island of New Guinea -LRB- also known as Papua -RRB- , lying to the west of the nation of Papua New Guinea .",
+      "page_titles": [
+        "Papua -LRB-province-RRB-",
+        "Western New Guinea"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Papua -LRB-province-RRB-",
+            "line_index": 0,
+            "sentence": "Papua is the largest and easternmost province of Indonesia , comprising most of western New Guinea ."
+          },
+          {
+            "page_title": "Western New Guinea",
+            "line_index": 0,
+            "sentence": "Western New Guinea , also known as Papua -LRB- formerly Irian Jaya -RRB- , is the Indonesian part of the island of New Guinea -LRB- also known as Papua -RRB- , lying to the west of the nation of Papua New Guinea ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000147",
+      "claim": "Danger UXB is on a commercial film network in the United Kingdom.",
+      "evidence_sentences": "Danger UXB is a 1979 British ITV television series set during the Second World War developed by John Hawkesworth and starring Anthony Andrews as Lieutenant Brian Ash , an officer in the Royal Engineers .",
+      "page_titles": [
+        "Danger UXB"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Danger UXB",
+            "line_index": 0,
+            "sentence": "Danger UXB is a 1979 British ITV television series set during the Second World War developed by John Hawkesworth and starring Anthony Andrews as Lieutenant Brian Ash , an officer in the Royal Engineers ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000148",
+      "claim": "SummerSlam ended in the Staples Center.",
+      "evidence_sentences": "From 2009 to 2014 , SummerSlam remained exclusive to Staples Center in Los Angeles .",
+      "page_titles": [
+        "SummerSlam"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "SummerSlam",
+            "line_index": 4,
+            "sentence": "From 2009 to 2014 , SummerSlam remained exclusive to Staples Center in Los Angeles ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000149",
+      "claim": "Sancho Panza is a fictional character who appears in a novel penned by a writer from Spain who was born in 1616.",
+      "evidence_sentences": "Sancho Panza -LSB- ˈsantʃo ˈpanθa -RSB- is a fictional character in the novel Don Quixote written by Spanish author Don Miguel de Cervantes Saavedra in 1605 .",
+      "page_titles": [
+        "Sancho Panza"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Sancho Panza",
+            "line_index": 0,
+            "sentence": "Sancho Panza -LSB- ˈsantʃo ˈpanθa -RSB- is a fictional character in the novel Don Quixote written by Spanish author Don Miguel de Cervantes Saavedra in 1605 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000150",
+      "claim": "Barry Van Dyke is an actor and the son of a doctor.",
+      "evidence_sentences": "He was best known to audiences as Lieutenant Detective Steve Sloan , a homicide detective and the son of Dr. Mark Sloan -LRB- played by Dick Van Dyke -RRB- on Diagnosis : Murder .",
+      "page_titles": [
+        "Barry Van Dyke"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Barry Van Dyke",
+            "line_index": 1,
+            "sentence": "He was best known to audiences as Lieutenant Detective Steve Sloan , a homicide detective and the son of Dr. Mark Sloan -LRB- played by Dick Van Dyke -RRB- on Diagnosis : Murder ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000151",
+      "claim": "Aaron Burr murdered one of the American Founding Fathers.",
+      "evidence_sentences": "In 1804 , the last full year of his single term as vice president , Burr killed his political rival Alexander Hamilton in a famous duel . Alexander Hamilton -LRB- January 11 , 1755 or 1757July 12 , 1804 -RRB- was an American statesman and one of the Founding Fathers of the United States .",
+      "page_titles": [
+        "Aaron Burr",
+        "Alexander Hamilton"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Aaron Burr",
+            "line_index": 9,
+            "sentence": "In 1804 , the last full year of his single term as vice president , Burr killed his political rival Alexander Hamilton in a famous duel ."
+          },
+          {
+            "page_title": "Alexander Hamilton",
+            "line_index": 0,
+            "sentence": "Alexander Hamilton -LRB- January 11 , 1755 or 1757July 12 , 1804 -RRB- was an American statesman and one of the Founding Fathers of the United States ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000152",
+      "claim": "Mani Ratnam is widely credited with altering the profile of films produced across generations.",
+      "evidence_sentences": "Cited by the media as one of India 's influential filmmakers , Mani Ratnam is widely credited with revolutionising the Tamil film industry and altering the profile of Indian cinema .",
+      "page_titles": [
+        "Mani Ratnam"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Mani Ratnam",
+            "line_index": 1,
+            "sentence": "Cited by the media as one of India 's influential filmmakers , Mani Ratnam is widely credited with revolutionising the Tamil film industry and altering the profile of Indian cinema ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    },
+    {
+      "item_id": "CR-000153",
+      "claim": "Goldie Hawn received a Grammy nomination.",
+      "evidence_sentences": "Hawn maintained bankable star status for more than three decades thereafter , appearing in numerous films such as There 's a Girl in My Soup -LRB- 1970 -RRB- , Butterflies Are Free -LRB- 1972 -RRB- , The Sugarland Express -LRB- 1974 -RRB- , Shampoo -LRB- 1975 -RRB- , Foul Play -LRB- 1978 -RRB- , Seems Like Old Times -LRB- 1980 -RRB- , and the title role in Private Benjamin -LRB- 1980 -RRB- , for which she was nominated for the Academy Award for Best Actress .",
+      "page_titles": [
+        "Goldie Hawn"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Goldie Hawn",
+            "line_index": 2,
+            "sentence": "Hawn maintained bankable star status for more than three decades thereafter , appearing in numerous films such as There 's a Girl in My Soup -LRB- 1970 -RRB- , Butterflies Are Free -LRB- 1972 -RRB- , The Sugarland Express -LRB- 1974 -RRB- , Shampoo -LRB- 1975 -RRB- , Foul Play -LRB- 1978 -RRB- , Seems Like Old Times -LRB- 1980 -RRB- , and the title role in Private Benjamin -LRB- 1980 -RRB- , for which she was nominated for the Academy Award for Best Actress ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Goldie Hawn",
+              "line_index": 1,
+              "sentence": "She rose to fame on the NBC sketch comedy program Rowan & Martin 's Laugh-In -LRB- 1968 -- 70 -RRB- before going on to receive the Academy Award for Best Supporting Actress and the Golden Globe Award for Best Supporting Actress for her performance in Cactus Flower -LRB- 1969 -RRB- ."
+            }
+          ],
+          [
+            {
+              "page_title": "Goldie Hawn",
+              "line_index": 2,
+              "sentence": "Hawn maintained bankable star status for more than three decades thereafter , appearing in numerous films such as There 's a Girl in My Soup -LRB- 1970 -RRB- , Butterflies Are Free -LRB- 1972 -RRB- , The Sugarland Express -LRB- 1974 -RRB- , Shampoo -LRB- 1975 -RRB- , Foul Play -LRB- 1978 -RRB- , Seems Like Old Times -LRB- 1980 -RRB- , and the title role in Private Benjamin -LRB- 1980 -RRB- , for which she was nominated for the Academy Award for Best Actress ."
+            }
+          ],
+          [
+            {
+              "page_title": "Goldie Hawn",
+              "line_index": 1,
+              "sentence": "She rose to fame on the NBC sketch comedy program Rowan & Martin 's Laugh-In -LRB- 1968 -- 70 -RRB- before going on to receive the Academy Award for Best Supporting Actress and the Golden Globe Award for Best Supporting Actress for her performance in Cactus Flower -LRB- 1969 -RRB- ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "item_id": "CR-000154",
+      "claim": "Balibo (film) is about an investigation of crimes.",
+      "evidence_sentences": "Balibo is a 2009 Australian war film that follows the story of the Balibo Five , a group of journalists who were captured and killed while reporting on activities just prior to the Indonesian invasion of East Timor of 1975 .",
+      "page_titles": [
+        "Balibo -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Balibo -LRB-film-RRB-",
+            "line_index": 0,
+            "sentence": "Balibo is a 2009 Australian war film that follows the story of the Balibo Five , a group of journalists who were captured and killed while reporting on activities just prior to the Indonesian invasion of East Timor of 1975 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Balibo -LRB-film-RRB-",
+              "line_index": 4,
+              "sentence": "The film follows dishevelled journalist Roger East , played by Anthony LaPaglia , who travels to East Timor in 1975 to investigate the deaths of the Balibo Five during the buildup to the Indonesian invasion of East Timor ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 2,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true
+        ]
+      }
+    }
+  ],
+  "rubric": "# Judge Rubric (silver adjudication, v1)\n\nYou are an independent fact-checking adjudicator. You will see a batch of\nitems. Each item contains a **claim** and **evidence** (what is included\ndepends on the disclosure stage, stated in the batch header). For EVERY item\nyou must judge **only from the information provided**.\n\n## Task\n\nDecide whether the provided evidence **warrants** the claim:\n\n- `Supported` — the evidence clearly or probably establishes the claim is true.\n- `Refuted` — the evidence clearly or probably establishes the claim is false.\n- `Ambiguous` — the evidence is insufficient, partial, or mixed; you cannot\n  responsibly decide true or false from what is provided.\n\nAlso rate how sufficient the evidence is for deciding the claim\n(`clearly_sufficient | probably_sufficient | partial_or_ambiguous |\nprobably_insufficient | clearly_insufficient`), your confidence (integer\n0–100), and any issue flags that apply (see list).\n\n## Hard rules\n\n- Judge ONLY from the supplied claim and evidence. Do NOT use outside\n  knowledge to decide the verdict.\n- Do NOT browse the web or look anything up.\n- Do NOT speculate about hidden labels, other models, or why the item was\n  selected.\n- If the evidence alone does not settle the claim, say `Ambiguous` — that is a\n  valid, useful answer, not a failure.\n- `confidence` MUST be an integer from 0 to 100.\n- `brief_reason` must be short (one sentence) and grounded in the evidence.\n- Select issue flags only when the evidence shows that problem; use `none`\n  otherwise. Do not pad flags.\n\n## Issue flags\n\n`none`, `possible_missing_title_context`, `possible_coreference_or_entity_resolution`,\n`possible_missing_surrounding_context`, `multi_sentence_integration`,\n`numerical_or_temporal_reasoning`, `negation_or_scope`,\n`entity_or_attribute_confusion`, `partial_warrant`,\n`apparent_internal_contradiction`, `other`\n\n## Output format\n\nReturn ONLY a JSON array (no prose before or after), one object per item, in\nthe same order as the input:\n\n```json\n[\n  {\n    \"item_id\": \"SA-000001\",\n    \"judge_id\": \"judge_1\",\n    \"stage\": \"A\",\n    \"verdict\": \"Supported\",\n    \"evidence_sufficiency\": \"probably_sufficient\",\n    \"confidence\": 80,\n    \"issue_flags\": [\"none\"],\n    \"brief_reason\": \"The evidence sentence directly states the claim.\"\n  }\n]\n```\n\n`item_id`, `judge_id`, and `stage` must be copied exactly from the batch file.\nProduce exactly one object for every item in the batch — never skip or merge\nitems. If an item's evidence is empty or unreadable, verdict `Ambiguous`,\nsufficiency `clearly_insufficient`, confidence as you see fit, flag `other`.\n",
+  "disclosure_note": "Stage C. Judge only supplied fields. Null text means unavailable; do not fill it using outside knowledge."
+}

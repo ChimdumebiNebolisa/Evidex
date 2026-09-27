@@ -1,0 +1,235 @@
+[
+  {
+    "key": "blinded",
+    "files": [
+      "silver_adjudication_v1/claude_residual_panel/data/blinded_stage_c.jsonl"
+    ],
+    "frozen_sha256": "91fd0c9140b4aa812de9983b5c00bd04fd9950cde7367bbef4f3a488205cad65",
+    "computed_sha256": {
+      "raw": "91fd0c9140b4aa812de9983b5c00bd04fd9950cde7367bbef4f3a488205cad65",
+      "lf": "001f4f64d4c49b5c950c59c976ca74122d369e5f82236dbfa282b73658cbdbb9",
+      "crlf": "91fd0c9140b4aa812de9983b5c00bd04fd9950cde7367bbef4f3a488205cad65"
+    },
+    "matching_encodings": [
+      "raw",
+      "crlf"
+    ]
+  },
+  {
+    "key": "claude_judge_1",
+    "files": [
+      "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_1/claude_judge_1_batch_01.jsonl",
+      "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_1/claude_judge_1_batch_02.jsonl",
+      "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_1/claude_judge_1_batch_03.jsonl"
+    ],
+    "frozen_sha256": "7a1ebb5c4cf8243cab43325e9dfa7159ef81afbbf29fa9aaee026fd029d2be30",
+    "computed_sha256": {
+      "raw": "7a1ebb5c4cf8243cab43325e9dfa7159ef81afbbf29fa9aaee026fd029d2be30",
+      "lf": "df5712072ef06026755ee591dc4a9decf69241b481a31f957e14b3e26a40145f",
+      "crlf": "7a1ebb5c4cf8243cab43325e9dfa7159ef81afbbf29fa9aaee026fd029d2be30"
+    },
+    "matching_encodings": [
+      "raw",
+      "crlf"
+    ]
+  },
+  {
+    "key": "claude_judge_2",
+    "files": [
+      "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_2/claude_judge_2_batch_01.jsonl",
+      "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_2/claude_judge_2_batch_02.jsonl",
+      "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_2/claude_judge_2_batch_03.jsonl"
+    ],
+    "frozen_sha256": "57cf48ccebfcd7d646a5ea4660c421c0f6083b0b9c000ea6a3a476a1871d3000",
+    "computed_sha256": {
+      "raw": "57cf48ccebfcd7d646a5ea4660c421c0f6083b0b9c000ea6a3a476a1871d3000",
+      "lf": "438786bb1f5da31ab65a4f9c18ca36522200586d1ce27ca0653aaf812c8f95a8",
+      "crlf": "57cf48ccebfcd7d646a5ea4660c421c0f6083b0b9c000ea6a3a476a1871d3000"
+    },
+    "matching_encodings": [
+      "raw",
+      "crlf"
+    ]
+  },
+  {
+    "key": "claude_judge_3",
+    "files": [
+      "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_3/claude_judge_3_batch_01.jsonl",
+      "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_3/claude_judge_3_batch_02.jsonl",
+      "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_3/claude_judge_3_batch_03.jsonl"
+    ],
+    "frozen_sha256": "ba9ce45da38c1f970ad330f1dac0a50a908d39408af74be5a8df937cf47e6e79",
+    "computed_sha256": {
+      "raw": "ba9ce45da38c1f970ad330f1dac0a50a908d39408af74be5a8df937cf47e6e79",
+      "lf": "00d19f8862820fc635c62d2a7009a3778570d9a232576ffd8606bcffa2fb20ed",
+      "crlf": "ba9ce45da38c1f970ad330f1dac0a50a908d39408af74be5a8df937cf47e6e79"
+    },
+    "matching_encodings": [
+      "raw",
+      "crlf"
+    ]
+  },
+  {
+    "key": "claude_judge_4",
+    "files": [
+      "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_4/claude_judge_4_batch_01.jsonl",
+      "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_4/claude_judge_4_batch_02.jsonl",
+      "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_4/claude_judge_4_batch_03.jsonl"
+    ],
+    "frozen_sha256": "861000dffce12157a450e0d6ad9b0755bf3193441ece90fca030b411697ed702",
+    "computed_sha256": {
+      "raw": "861000dffce12157a450e0d6ad9b0755bf3193441ece90fca030b411697ed702",
+      "lf": "fd00e14ab20882180aa3c0b19276c75c4b64f979231ecae119fb792aa2788273",
+      "crlf": "861000dffce12157a450e0d6ad9b0755bf3193441ece90fca030b411697ed702"
+    },
+    "matching_encodings": [
+      "raw",
+      "crlf"
+    ]
+  },
+  {
+    "key": "claude_judge_5",
+    "files": [
+      "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_5/claude_judge_5_batch_01.jsonl",
+      "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_5/claude_judge_5_batch_02.jsonl",
+      "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_5/claude_judge_5_batch_03.jsonl"
+    ],
+    "frozen_sha256": "4a412e2408c02abed404671c66eb81e77962476f39f913bd134dda086e143d2b",
+    "computed_sha256": {
+      "raw": "4a412e2408c02abed404671c66eb81e77962476f39f913bd134dda086e143d2b",
+      "lf": "253e4b169176969e860e2eff3ba83665560e061463d192fffc7b7395ca009e85",
+      "crlf": "4a412e2408c02abed404671c66eb81e77962476f39f913bd134dda086e143d2b"
+    },
+    "matching_encodings": [
+      "raw",
+      "crlf"
+    ]
+  },
+  {
+    "key": "blinded_stage_c.jsonl",
+    "files": [
+      "silver_adjudication_v1/claude_residual_panel/data/blinded_stage_c.jsonl"
+    ],
+    "frozen_sha256": "91fd0c9140b4aa812de9983b5c00bd04fd9950cde7367bbef4f3a488205cad65",
+    "computed_sha256": {
+      "raw": "91fd0c9140b4aa812de9983b5c00bd04fd9950cde7367bbef4f3a488205cad65",
+      "lf": "001f4f64d4c49b5c950c59c976ca74122d369e5f82236dbfa282b73658cbdbb9",
+      "crlf": "91fd0c9140b4aa812de9983b5c00bd04fd9950cde7367bbef4f3a488205cad65"
+    },
+    "matching_encodings": [
+      "raw",
+      "crlf"
+    ]
+  },
+  {
+    "key": "id_map.csv",
+    "files": [
+      "silver_adjudication_v1/claude_residual_panel/data/id_map.csv"
+    ],
+    "frozen_sha256": "3bbc1363aaab35e40e6f6f96be67cd0f4a3044fba12dc4b66a1d87723d5796b5",
+    "computed_sha256": {
+      "raw": "3bbc1363aaab35e40e6f6f96be67cd0f4a3044fba12dc4b66a1d87723d5796b5",
+      "lf": "6caa3f9398db4fd4edda53942cb42a615d037b0938018eb1b541d36c6ea6c32c",
+      "crlf": "3bbc1363aaab35e40e6f6f96be67cd0f4a3044fba12dc4b66a1d87723d5796b5"
+    },
+    "matching_encodings": [
+      "raw",
+      "crlf"
+    ]
+  },
+  {
+    "key": "residual_source.json",
+    "files": [
+      "silver_adjudication_v1/claude_residual_panel/data/residual_source.json"
+    ],
+    "frozen_sha256": "8240dac23e74d4bd397b2dd4aa6ec85116d7f23f9568cfdf9bc56b0d3c44e2fc",
+    "computed_sha256": {
+      "raw": "8240dac23e74d4bd397b2dd4aa6ec85116d7f23f9568cfdf9bc56b0d3c44e2fc",
+      "lf": "ff63d0f43646f3b79e1c0e709c55f8693766d4eb1f62b68e0827d15a3c678b1e",
+      "crlf": "8240dac23e74d4bd397b2dd4aa6ec85116d7f23f9568cfdf9bc56b0d3c44e2fc"
+    },
+    "matching_encodings": [
+      "raw",
+      "crlf"
+    ]
+  },
+  {
+    "key": "consensus_raw.parquet",
+    "files": [
+      "silver_adjudication_v1/claude_residual_panel/freezes/consensus_raw.parquet"
+    ],
+    "frozen_sha256": "6aca2b68240cfcf39aaa70cc44b8e75e59d7315e09e56836bcf08e91fc275bb8",
+    "computed_sha256": {
+      "raw": "6aca2b68240cfcf39aaa70cc44b8e75e59d7315e09e56836bcf08e91fc275bb8",
+      "lf": "6aca2b68240cfcf39aaa70cc44b8e75e59d7315e09e56836bcf08e91fc275bb8",
+      "crlf": "220822b9a3803f7c9b04ee020bc39869ed786a28846de5324b64e9b60ff82199"
+    },
+    "matching_encodings": [
+      "raw"
+    ]
+  },
+  {
+    "key": "consensus_raw.csv",
+    "files": [
+      "silver_adjudication_v1/claude_residual_panel/tables/consensus_raw.csv"
+    ],
+    "frozen_sha256": "b5761881cc431b7b82013f46d8e4016a4f0b7ad6bd3eee32355433b8fc3cbf47",
+    "computed_sha256": {
+      "raw": "b5761881cc431b7b82013f46d8e4016a4f0b7ad6bd3eee32355433b8fc3cbf47",
+      "lf": "d577e37e782a7f5a4da0cd2589414ac84efa765f20fbea21db40e253d25454a5",
+      "crlf": "b5761881cc431b7b82013f46d8e4016a4f0b7ad6bd3eee32355433b8fc3cbf47"
+    },
+    "matching_encodings": [
+      "raw",
+      "crlf"
+    ]
+  },
+  {
+    "key": "agreement.csv",
+    "files": [
+      "silver_adjudication_v1/claude_residual_panel/tables/agreement.csv"
+    ],
+    "frozen_sha256": "f36ac75706be65a440f517ccef3c74219be2fc9bda76320852a166ac6fd3d083",
+    "computed_sha256": {
+      "raw": "f36ac75706be65a440f517ccef3c74219be2fc9bda76320852a166ac6fd3d083",
+      "lf": "4d7349381ad19d703590fe4f859706419f2aedeb61744dc4d825f02171214d8a",
+      "crlf": "f36ac75706be65a440f517ccef3c74219be2fc9bda76320852a166ac6fd3d083"
+    },
+    "matching_encodings": [
+      "raw",
+      "crlf"
+    ]
+  },
+  {
+    "key": "judge_behavior.csv",
+    "files": [
+      "silver_adjudication_v1/claude_residual_panel/tables/judge_behavior.csv"
+    ],
+    "frozen_sha256": "ce34f26b2d78894024eb91063ddc5c18a22c8de574892247781f6d5d414ade57",
+    "computed_sha256": {
+      "raw": "ce34f26b2d78894024eb91063ddc5c18a22c8de574892247781f6d5d414ade57",
+      "lf": "67df40f5fc4fa7a86c0dfd1170c4f798b8e0fe03ca66e4960219b08118bc027f",
+      "crlf": "ce34f26b2d78894024eb91063ddc5c18a22c8de574892247781f6d5d414ade57"
+    },
+    "matching_encodings": [
+      "raw",
+      "crlf"
+    ]
+  },
+  {
+    "key": "freeze_judgments",
+    "files": [
+      "silver_adjudication_v1/claude_residual_panel/freezes/freeze_judgments.json"
+    ],
+    "frozen_sha256": "1d818b6f112bc99e36b2248c7cb68e5221eefc46ccce6c06727477a4ddff11db",
+    "computed_sha256": {
+      "raw": "1d818b6f112bc99e36b2248c7cb68e5221eefc46ccce6c06727477a4ddff11db",
+      "lf": "aa630eb9094b6aca8efa112a43a5d1850fe128b2932bd1f48f5a27669a7103f8",
+      "crlf": "1d818b6f112bc99e36b2248c7cb68e5221eefc46ccce6c06727477a4ddff11db"
+    },
+    "matching_encodings": [
+      "raw",
+      "crlf"
+    ]
+  }
+]
