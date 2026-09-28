@@ -108,3 +108,9 @@ Comment 170's "cite" refers to a withdrawn passage.
 - **AQ1 (resolved 2026-09-28):** The Guo et al. 2022 decomposition was checked against the survey's framework. The opening sentence of Related Work 2.1 now reads: "Automated fact-checking is commonly organized into claim detection, evidence retrieval, and claim verification; the last stage includes verdict prediction and, where applicable, justification production." The following sentence now names evidence retrieval and verdict prediction explicitly as the stages FEVER measures, since FEVER does not cover justification production.
 
 No author queries remain open.
+
+## Post-review wording changes (authors, 2026-09-28)
+
+- Intro, first paragraph: removed the expectation that errors remaining after gold evidence reflect retrieval problems, since the experiment has no retrieval step.
+- Intro, second paragraph; Methods 3.3; Discussion 5.1: a prediction change is described as observed when evidence is added, not as caused by the evidence. With one recorded prediction per claim and condition, run-to-run variability is not measured.
+- Limitations: added that a single prediction per condition leaves run-to-run variability unmeasured.

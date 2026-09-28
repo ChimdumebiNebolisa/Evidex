@@ -25,7 +25,8 @@ Sampling and validation artifacts are committed with the frozen repository; thir
 Each claim is evaluated four times: GPT-5.4 and GPT-5.4-mini, each under \texttt{claim\_only} and \texttt{claim\_plus\_evidence}.
 That yields 40{,}000 predictions.
 The evidence condition places the designated FEVER evidence (gold evidence) directly in the prompt; no retrieval step is involved.
-Because the two conditions differ only in whether that evidence is present, a change in a claim's prediction between them reflects the supplied evidence rather than retrieval.
+Because the two conditions differ only in whether that evidence is present, a change in a claim's prediction between them cannot be due to retrieval.
+Each claim has one recorded prediction per model and condition, so an individual change is an observed difference between two runs; run-to-run variability is not measured.
 Original GPT runs stored predicted labels only, so later analysis cannot recover confidence, rationales, or token-level attributions.
 
 \subsection{Transition definitions}
