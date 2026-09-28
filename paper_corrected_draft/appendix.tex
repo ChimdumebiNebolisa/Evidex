@@ -3,9 +3,12 @@
 \label{app:amendment}
 
 The correction protocol (frozen 2026-09-27, before any new judgment) allowed three attempts per job, required the first schema-valid response to be accepted, and required a distinct session per attempt.
-The dated amendment (2026-09-28), written after all 70 outputs existed and had been inspected, replaces these with: up to nine attempts; an unknown-session record counts as a launched attempt when the agent event log surviving in its slot names exactly one agent used in no other slot; and the accepted output of each job is analysed.
+The dated amendment (2026-09-28), written after all 70 outputs existed and had been inspected, replaces these with: up to nine attempts; session uniqueness checked on the agent of each launched attempt slot rather than on record fields; and analysis of each job's accepted output.
+Each of the 13 unknown-session records was written by a duplicate runner invocation that found its slot already occupied and exited before launching a model.
+The attempt that did run in each such slot is identified by the single agent named in the slot's surviving event log, and the runner log shows both the duplicate's exit and that run's own outcome.
+The 102 attempt records thus comprise 88 records of launched runs, 13 duplicate-invocation records and one explicit non-launch; the 101 launched attempts used 101 distinct agents.
 Every other provenance check (locked model routing, fresh context, input and output hashes, raw output identical to the delivered output, and exactly one accepted attempt that is the last attempt) is applied unchanged, as are the packets, taxonomy, statistics and analysis code.
-Under the amendment all 70 jobs pass, and the amended analysis gives exactly the estimates of the provisional analysis computed before the amendment was written.
+Under the amendment all 70 jobs pass; the estimates are identical to those computed from the same outputs before the amendment was written.
 
 Three jobs have an earlier schema-valid output than the accepted one.
 In two Claude jobs, two and three earlier runs finished but were not accepted because a concurrent runner had already written a failure record into their attempt slots.
@@ -73,7 +76,8 @@ Unique regressions & 226 \\
 New Stage~C judgments, Grok (1{,}060 $\times$ 5) & 5{,}300 \\
 New Stage~C judgments, Claude (226 $\times$ 5) & 1{,}130 \\
 Required correction jobs delivered & 70 \\
-Retained historical Claude Stage~A/B judgments & 2{,}260 \\
-Optional historical-residual judgments (not run) & 1{,}155 \\
+Retained historical Claude Stage~A/B judgments ($226 \times 5 \times 2$) & 2{,}260 \\
+Historical Claude residual cohort (Grok leftovers; withdrawn test) & 231 \\
+Optional fixed historical-residual judgments ($231 \times 5$; not run) & 1{,}155 \\
 \bottomrule
 \end{tabular}

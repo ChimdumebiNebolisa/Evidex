@@ -98,7 +98,9 @@ machine and need that machine's WSL distribution or staging archive:
 
 - The deleted `p02_C_j2_b02` slot-3 collision record (`attempt-03.json`, `attempt-03.routing.txt`)
   does not survive. Only the session transcript records the deletion.
-- 13 execution records with session `unknown` cannot establish which run, if any, they describe.
-  They stay `unknown`.
+- 13 execution records with session `unknown` stay `unknown`. Each one describes a duplicate
+  runner invocation that exited with code 2 before launching. The run that did launch in each
+  slot is identified from the slot's WSL event log and the runner log in
+  `corrections_v2/amendment_2026-09-28/session_evidence.json`, not from a record.
 - Failed-attempt routing files written by `sdk_execution/record_error_attempt.py` contain template
   lines. Those lines are not evidence of the run.

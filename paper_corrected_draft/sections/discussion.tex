@@ -10,20 +10,20 @@ Evaluation reports that publish only condition-wise accuracy will miss that reve
 
 \subsection{What adjudication can and cannot say about regressions}
 For roughly a third (Grok) to nearly half (Claude) of the 226 regressions, a blinded panel reaches the FEVER label from the evidence sentences alone and keeps it as titles and structured evidence are added.
-On those items the designated evidence appears adequate to an independent reader while GPT moved away from the correct label after receiving it.
+On those items the designated evidence was sufficient for a separate model panel to reach the FEVER label, yet GPT moved away from that label after receiving it.
 That pattern is compatible with an evidence-utilization failure and connects to work showing that models can ignore, mishandle, or be distracted by supplied context \citep{longpre-etal-2021-entity,shi2023distracted,wan-etal-2024-evidence}.
 It does not establish that explanation: the original runs stored labels only, and the adjudicator is a different model reading the evidence in a different prompt.
-A further fifth to quarter of regressions end in a decisive verdict opposite to FEVER, and a sixth (Claude) to nearly a third (Grok) end nondecisive.
-In neither case does a decisive GPT answer after evidence show that GPT failed to use evidence supporting the FEVER answer.
-These observations therefore do not establish the prevalence or cause of GPT evidence-utilization failures.
+A further 19.5\% (Grok) to 23.9\% (Claude) of regressions end in a decisive verdict opposite to FEVER, and 18.1\% (Claude) to 31.4\% (Grok) end nondecisive.
+These outcomes describe how the panels read the evidence: the first does not show that the FEVER label is wrong, the second does not show that the evidence is insufficient, and neither shows that GPT failed to use evidence supporting the FEVER label.
+The adjudication therefore does not establish the prevalence or cause of GPT evidence-utilization failures.
 
 \subsection{Nondecisiveness and disagreement with FEVER}
 Final nondecisiveness is common in both families, which is expected given prior evidence that sufficiency and ambiguity are first-class problems in fact verification \citep{atanasova-etal-2022-fact,glockner-etal-2024-ambifc}.
-We do not interpret nondecisive outcomes or decisive judge--FEVER disagreements as FEVER annotation errors; inspected rationales show substantive conflicts (for example, a date or scope mismatch between claim and evidence), but judge rationales are observations, not labels.
+We do not interpret nondecisive outcomes or decisive judge--FEVER disagreements as FEVER annotation errors; judge rationales describing a claim--evidence conflict are observations, not labels.
 Shared regressions, which both GPT models got wrong after evidence, are more often nondecisive under both families, although the Grok difference is not significant after correction.
 
 \subsection{Disclosure and representation}
-Titles and structured evidence change a minority of verdicts and never reverse a decisive consensus.
+Titles and structured evidence change a minority of verdicts, mostly by making nondecisive verdicts decisive, and never switch a decisive consensus to the opposite label.
 Stage~C adds alternative sentence text for some claims, so its effect mixes added information with changed representation.
 Separating the two would require a structure-only arm that shows the chosen evidence set without alternatives; we did not run one.
 We therefore make no claim about the size or portability of a pure representation effect.

@@ -119,7 +119,8 @@ The full list is in `corrections_v2/deviation_review/DEVIATION_ASSESSMENT_2026-0
 Briefly:
 
 - the retry-cap breaches and concurrent runners;
-- 13 records whose launch status is `unknown`;
+- 13 `unknown`-session records written by duplicate invocations that never launched; the runs in
+  those slots are identified from event logs, not records (amendment A1, `session_evidence.json`);
 - the first-valid violations and the selection judgment calls above;
 - a collision record deleted during `p02_C_j2_b02` slot 3, for which only transcript evidence
   survives;

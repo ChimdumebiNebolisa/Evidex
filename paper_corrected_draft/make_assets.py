@@ -75,6 +75,11 @@ def count(frame, column):
     return int(frame[column].sum())
 
 
+def lost(frame, before, after):
+    decisive = {"Supported", "Refuted"}
+    return int((frame[f"consensus_{before}"].isin(decisive) & ~frame[f"consensus_{after}"].isin(decisive)).sum())
+
+
 def write(path, text):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8", newline="\n")
@@ -121,17 +126,22 @@ def stage_table(acc, fv):
 
     reversed_g = count(acc["grok"], "reversed_after_titles") + count(acc["grok"], "reversed_at_C")
     reversed_c = count(acc["claude"], "reversed_after_titles") + count(acc["claude"], "reversed_at_C")
+
+    def lost_pair(frame):
+        return f"{lost(frame, 'A', 'B')} / {lost(frame, 'B', 'C')}"
+    lost_c = lost_pair(acc["claude"]) + (f" [{lost_pair(fv['claude'])}]" if lost_pair(fv["claude"]) != lost_pair(acc["claude"]) else "")
     body = "\n".join([
         row("Nondecisive at Stage~A", "ambiguous_A", "ambiguous_A"),
         row("Nondecisive at Stage~B", "ambiguous_B", "ambiguous_B"),
         row("Nondecisive at Stage~C", "ambiguous_C", "ambiguous_C"),
         row("Resolved by titles (A$\\rightarrow$B)", "resolved_by_titles", "resolved_by_titles"),
         row("Resolved at Stage~C (B$\\rightarrow$C)", "resolved_at_C", "resolved_at_C"),
-        f"Decisive verdict reversed & {reversed_g} & {reversed_c} & 0.0 & 1.0 \\\\",
+        f"Lost decisiveness (A$\\rightarrow$B / B$\\rightarrow$C) & {lost_pair(acc['grok'])} & {lost_c} & & \\\\",
+        f"Switched to opposite label & {reversed_g} & {reversed_c} & 0.0 & 1.0 \\\\",
     ])
     return rf"""\begin{{table}}[t]
 \centering
-\caption{{Stage-wise nondecisiveness and resolution for the 226 regressions (percentages of 226). Stage~A and~B verdicts are retained historical judgments on unchanged inputs; Stage~C verdicts are new judgments on repaired inputs. $\Delta$ is Claude minus Grok with exact McNemar tests, Benjamini--Hochberg adjusted over 14 tests. Brackets give the first-valid sensitivity selection where it differs.}}
+\caption{{Stage-wise nondecisiveness and resolution for the 226 regressions (percentages of 226). Stage~A and~B verdicts are retained historical judgments on unchanged inputs; Stage~C verdicts are new judgments on repaired inputs. $\Delta$ is Claude minus Grok with exact McNemar tests, Benjamini--Hochberg adjusted over 14 tests; losses of decisiveness are counts without a test. Brackets give the first-valid sensitivity selection where it differs.}}
 \label{{tab:stage}}
 \small
 \setlength{{\tabcolsep}}{{4pt}}
@@ -235,6 +245,7 @@ def quoted_numbers(acc, fv):
                 "nondecisive_ABC": [count(f, f"ambiguous_{s}") for s in "ABC"],
                 "resolved_by_titles": count(f, "resolved_by_titles"),
                 "resolved_at_C": count(f, "resolved_at_C"),
+                "became_nondecisive_AB_BC": [lost(f, "A", "B"), lost(f, "B", "C")],
                 "decisive_C_agree_fever": [int(decisive_c.agrees_fever_C.astype(bool).sum()), len(decisive_c)],
                 "categories": {k: int(f.category.eq(k).sum()) for k, _ in CATEGORIES},
                 "c_adds_sentence_text": int(f.c_disclosure.eq("additional_sentence_text_and_structure").sum()),

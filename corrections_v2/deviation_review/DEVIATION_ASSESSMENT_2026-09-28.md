@@ -26,7 +26,12 @@ changed to make validation pass.
   further affected jobs.
 
 Checks across all 70 jobs: every job has exactly one accepted attempt. The 99 slots with
-agent evidence have 99 distinct agent IDs, so no session was reused. Every staging file
+agent evidence have 99 distinct agent IDs, so no session was reused. (Addendum,
+2026-09-28: 99 is the parser's coverage, not the number of launched slots. Two launched
+slots, `p01_C_j1_b01` attempt 2 and `p01_C_j1_b02` attempt 1, had no local staging copy,
+and `tools/build_attempt_evidence.py` parsed staging copies only. Their WSL event logs
+name two further distinct agents that match their records, giving 101 launched slots
+with 101 distinct agents; see `../amendment_2026-09-28/session_evidence.json`.) Every staging file
 matches its WSL original by hash. No archived record names a session that contradicts
 the evidence in its slot.
 

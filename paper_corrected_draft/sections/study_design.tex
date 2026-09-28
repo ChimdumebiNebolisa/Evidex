@@ -86,7 +86,7 @@ Provider quota and account usage limits, together with job runners that ran conc
 The runners never read model outputs; retries depended only on exit status.
 After all outputs existed and had been inspected, we adopted a dated amendment (2026-09-28) that changes three execution rules and nothing else:
 (i)~up to nine attempts per job;
-(ii)~a record with an unknown session counts as a launched attempt if the agent event log that survives in its attempt slot identifies exactly one agent used nowhere else (all 13 records met this test, and all 101 launched sessions are distinct);
+(ii)~session uniqueness is checked on the agent named by the event log that survives in each launched attempt slot, and the 13 unknown-session records, written by duplicate runner invocations that stopped before launching, are not counted as model attempts (101 launched attempts had 101 distinct agents);
 and (iii)~each job's analysed output is the output its execution procedure accepted.
 % COAUTHOR REVIEW: accepted outputs are the main selection by the authors' post-judgment decision; first-valid is sensitivity.
 For three jobs that output is not the first schema-valid one: in two Claude jobs earlier finished runs were not accepted because a runner collision had occupied their slots, and in one Grok job a run wrote a complete output before ending in a provider error.

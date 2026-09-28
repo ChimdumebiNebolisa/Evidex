@@ -1,0 +1,3159 @@
+{
+  "amendment": "A1 (2026-09-28), rule 2",
+  "method": "every attempt record is compared with the SDK event log that survives in its slot (read from WSL on the evaluation date and checked against the recorded inventory hash) and with the shared runner log; records are unchanged. An exit-2 invocation stops in run_required_job.sh before a workspace or agent exists, so it never launched a model.",
+  "summary": {
+    "attempt_records": 102,
+    "by_classification": {
+      "own_record": 88,
+      "collision_record": 13,
+      "not_launched": 1
+    },
+    "launched_attempt_slots": 101,
+    "distinct_slot_agents": 101,
+    "slot_agents_parsed_in_attempt_evidence": 99,
+    "slot_agents_missing_from_attempt_evidence": [
+      {
+        "slot": "p01_C_j1_b01/attempt-02",
+        "agent": "agent-ac70476f-ef84-4d6c-a34d-61a7f79c355f",
+        "reason": "slot had no local staging copy; build_attempt_evidence.py parsed staging copies only"
+      },
+      {
+        "slot": "p01_C_j1_b02/attempt-01",
+        "agent": "agent-42c8ca13-7a70-451d-bc12-46bb671f3722",
+        "reason": "slot had no local staging copy; build_attempt_evidence.py parsed staging copies only"
+      }
+    ],
+    "runner_exit_2_events": 16,
+    "exit_2_events_without_collision_record": {
+      "p01_C_j3_b10/attempt-02": "not a collision: the first runner's wrapper script had CRLF line endings and bash exited 2 before creating a workspace; its error logger then failed, so no record was written; a restarted runner launched attempt 2 (accepted)",
+      "p02_C_j2_b02/attempt-03": "collision record written, then deleted during execution so the running attempt could checkpoint (DEVIATION_ASSESSMENT_2026-09-28.md, item 4)",
+      "p02_C_j3_b01/attempt-02": "duplicate invocation exited 2 after the launched run had already written its own record; no second record"
+    },
+    "unexplained_exit_2_events": [],
+    "all_records_established": true
+  },
+  "records": [
+    {
+      "job_id": "p01_C_j1_b01",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j1_b01/attempt-01.json",
+      "record_sha256": "97354517ed498f6eec73e6fa5966521bd1d46d1cfedd360635a7abcada4d74e7",
+      "record_status": "blocked",
+      "record_session": "not_launched:windows_sdk_sandbox_unsupported",
+      "record_reason": "SDK local sandbox is required by the operational amendment but is not supported on this Windows host at agent.send. No judgment was produced.",
+      "classification": "not_launched",
+      "slot_event_log": null,
+      "slot_event_log_sha256": null,
+      "slot_agent": null,
+      "slot_runs": [],
+      "slot_final_status": null,
+      "agent_parsed_in_attempt_evidence": false,
+      "runner_log_lines": {},
+      "checks": {
+        "no_event_log_or_empty": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j1_b01",
+      "attempt": 2,
+      "record": "corrections_v2/execution/p01_C_j1_b01/attempt-02.json",
+      "record_sha256": "671f77045c02ccc937213c8e506d057a4ca4177d3b974ff9df2b1aedde0a4cbe",
+      "record_status": "error",
+      "record_session": "agent-ac70476f-ef84-4d6c-a34d-61a7f79c355f",
+      "record_reason": "Linux sandbox initialized and the run finished, but no designated output was written. The offered piWrite tool was never invoked; the model reported the write tool unavailable and returned WROTE 100 records without creating the file. Fail-closed workspace hooks did not load because settingSources was empty.",
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j1_b01/attempt-02/attempt-02.sdk-events.jsonl",
+      "slot_event_log_sha256": "9de561fcf186944d80d6c1de3bd9169c8d15af4d5b2ad09527db7fb472c1d39f",
+      "slot_agent": "agent-ac70476f-ef84-4d6c-a34d-61a7f79c355f",
+      "slot_runs": [
+        "run-9fbeed8f-07b5-4099-94d1-b0d43bcf4f64"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": false,
+      "runner_log_lines": {},
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j1_b01",
+      "attempt": 3,
+      "record": "corrections_v2/execution/p01_C_j1_b01/attempt-03.json",
+      "record_sha256": "e0821ffe2680e7be1ae07727b363700e53c8caa842c1a0258ea782fbdaeef824",
+      "record_status": "accepted",
+      "record_session": "agent-738e08f4-e681-45ff-ba29-f1f5ceeebc74",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j1_b01/attempt-03/attempt-03.sdk-events.jsonl",
+      "slot_event_log_sha256": "35072ecc5127aa4ae3dc9f2c213851f98ce0b23e11469514885e6a6a7847289f",
+      "slot_agent": "agent-738e08f4-e681-45ff-ba29-f1f5ceeebc74",
+      "slot_runs": [
+        "run-fb2049b0-b357-4b8f-a730-24ff508ba801"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {},
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j1_b02",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j1_b02/attempt-01.json",
+      "record_sha256": "44c7b89ce42f418a6b39a2a74ea749e370517eab0baaa98e96e5ac67511e0f78",
+      "record_status": "invalid",
+      "record_session": "agent-42c8ca13-7a70-451d-bc12-46bb671f3722",
+      "record_reason": "Designated output was written but is not valid JSON: extra trailing quote after the array. Raw bytes retained; no repair.",
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j1_b02/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "04a44fc5acb2d86eb57353122d6ed5e6ec5c3f46925fa2c6369dccd8f86d8d41",
+      "slot_agent": "agent-42c8ca13-7a70-451d-bc12-46bb671f3722",
+      "slot_runs": [
+        "run-aa7e71d5-107e-47a2-afd1-0ffca0e65d0f"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": false,
+      "runner_log_lines": {},
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j1_b02",
+      "attempt": 2,
+      "record": "corrections_v2/execution/p01_C_j1_b02/attempt-02.json",
+      "record_sha256": "d5c147869a0c18618a019f396a5d3b9465b35dd5d5feb42437d459b6510d1aca",
+      "record_status": "accepted",
+      "record_session": "agent-39546873-673e-4848-902c-d3b28d61a05a",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j1_b02/attempt-02/attempt-02.sdk-events.jsonl",
+      "slot_event_log_sha256": "c27042daad7870f5d2584244ded48283fcedbeee6a3223d7ad81e51541f266ed",
+      "slot_agent": "agent-39546873-673e-4848-902c-d3b28d61a05a",
+      "slot_runs": [
+        "run-93575d24-6da3-43ea-b48b-14bcb600578f"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          4
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j1_b03",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j1_b03/attempt-01.json",
+      "record_sha256": "98b4dae89e8f45a813a60eaca3ad37546734fe0a85346a320b6cb868277f939a",
+      "record_status": "accepted",
+      "record_session": "agent-9283a6ea-eda2-42cd-b1d7-732971b9a3a9",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j1_b03/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "19175ce677472af9eb9ed3182b0d9b5f1139855126db7032941b985a0435551e",
+      "slot_agent": "agent-9283a6ea-eda2-42cd-b1d7-732971b9a3a9",
+      "slot_runs": [
+        "run-d74726f6-fcd0-4704-8285-d44a5fa15dd1"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          6
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j1_b04",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j1_b04/attempt-01.json",
+      "record_sha256": "d0b323f649c474fc2313669c87b7a417dcdc72b7ee320fedf4259fb2b8fb42b5",
+      "record_status": "accepted",
+      "record_session": "agent-d677df32-d555-4dd3-82a6-df9604304cd6",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j1_b04/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "9bded7f168cbf7bb464d4f3444a55752b1d0b4c2e663751146183150f2a92bda",
+      "slot_agent": "agent-d677df32-d555-4dd3-82a6-df9604304cd6",
+      "slot_runs": [
+        "run-d9d5bd02-e684-4aef-8385-c55788257d79"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          8
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j1_b05",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j1_b05/attempt-01.json",
+      "record_sha256": "ff9e15a30259cbb9715a0f3a48bd980f2c5f3bae422283e43a475879ae6431f4",
+      "record_status": "accepted",
+      "record_session": "agent-7edb8e52-f747-475c-b98b-3899d2a6d546",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j1_b05/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "c246fc6f72c7db452d5e166fa6daaa3bb52c87b74632318117a1d3eb00cd2fe0",
+      "slot_agent": "agent-7edb8e52-f747-475c-b98b-3899d2a6d546",
+      "slot_runs": [
+        "run-d66bb879-51b2-4ecd-b22a-462ff35070cf"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          10
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j1_b06",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j1_b06/attempt-01.json",
+      "record_sha256": "34e89c44a6c203b1e62e8523dd2b9506a64dae9441fe291489599f0199c9a304",
+      "record_status": "accepted",
+      "record_session": "agent-318aed37-f838-4c5f-b914-c7b00e666340",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j1_b06/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "28f009545791f904366a51ba87070fcd741e338889eeaa4d9df21957b44e46bc",
+      "slot_agent": "agent-318aed37-f838-4c5f-b914-c7b00e666340",
+      "slot_runs": [
+        "run-05926d1e-1456-4994-9cdc-bf88103ad82e"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          12
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j1_b07",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j1_b07/attempt-01.json",
+      "record_sha256": "a6da8e8541cd77bd422055d8260a5e9f46aa1a9fee41448f93c2e3c68e21086c",
+      "record_status": "accepted",
+      "record_session": "agent-6c3187bb-c077-4d24-8529-dac5621942ec",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j1_b07/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "c0d5c4498b9b6a4d2e2e4b89bd8eb8ce798a056ee81f87ec3c9d24fee2204298",
+      "slot_agent": "agent-6c3187bb-c077-4d24-8529-dac5621942ec",
+      "slot_runs": [
+        "run-1a744ede-0630-4127-9e3a-63ee38ccc5f7"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          14
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j1_b08",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j1_b08/attempt-01.json",
+      "record_sha256": "451e463bff98d09469eca9dd0bfd4c652dd8342748e3a000e1ba3caf9d098030",
+      "record_status": "accepted",
+      "record_session": "agent-5a9d083c-233e-4f8e-88a2-264b9ae3daf9",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j1_b08/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "949e5ad56c9a86fd2338813903b2d231afed39d30dab5a25f3498f7152a0a929",
+      "slot_agent": "agent-5a9d083c-233e-4f8e-88a2-264b9ae3daf9",
+      "slot_runs": [
+        "run-52fb9ce8-9e73-4011-bec9-70a55b77c332"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          16
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j1_b09",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j1_b09/attempt-01.json",
+      "record_sha256": "8242ae104cee06ecd1b1cca5d166d4f3ac7f5b918228c077ed29f28ad9e6ae31",
+      "record_status": "accepted",
+      "record_session": "agent-7542e6b5-4749-4a26-9208-1e893a3d115e",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j1_b09/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "e3c77bc63702da3b894138abb23d8b99a321be04022f36be46a6918b46203e04",
+      "slot_agent": "agent-7542e6b5-4749-4a26-9208-1e893a3d115e",
+      "slot_runs": [
+        "run-e08ea4fd-5cab-49be-8af6-d0c6a64a83be"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          18
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j1_b10",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j1_b10/attempt-01.json",
+      "record_sha256": "7c1a9c10ccacfc918da474e51d960512fce5fc450a88e8578a5de03acf5e459c",
+      "record_status": "accepted",
+      "record_session": "agent-db3a6cbf-009e-41f4-ae3b-77a709439844",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j1_b10/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "a1ebac845ce3fdf4cfbb312381c2c364a56f6c85a7b1ade19aa58ae641595cd6",
+      "slot_agent": "agent-db3a6cbf-009e-41f4-ae3b-77a709439844",
+      "slot_runs": [
+        "run-6dee0bde-5115-45f8-97f2-76d607c748f2"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          20
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j1_b11",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j1_b11/attempt-01.json",
+      "record_sha256": "7d525632fcfccb6e909f2b96df4a0460e8cc8dcdb08558f83e2a9ad4bceae0b5",
+      "record_status": "accepted",
+      "record_session": "agent-9dadc5fd-83da-4d6a-b955-39f628d9d13e",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j1_b11/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "dfcf562e9e44ea8e770fae431ce0d2635168d3b0a4418843b45f4a948f1fc33e",
+      "slot_agent": "agent-9dadc5fd-83da-4d6a-b955-39f628d9d13e",
+      "slot_runs": [
+        "run-ebfb4c57-9bcf-463f-857c-76c750aedfb6"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          22
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j2_b01",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j2_b01/attempt-01.json",
+      "record_sha256": "0cb863606fcbf369472a32aaaf927b8f07efc073ceb5d8855373c9c1094693b3",
+      "record_status": "accepted",
+      "record_session": "agent-03bc344d-9a2b-453f-af99-7c23f32dca4d",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j2_b01/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "a89498e984861414afb0891c66d119c1fcf63d1972aada9b958de5d9cf8ddc49",
+      "slot_agent": "agent-03bc344d-9a2b-453f-af99-7c23f32dca4d",
+      "slot_runs": [
+        "run-4c81895f-21e9-4846-b331-809ce4d83c63"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          24
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j2_b02",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j2_b02/attempt-01.json",
+      "record_sha256": "d6c408af7ff8959150d00182d07a173a31db20a7e0e7ad1405857de41d82765f",
+      "record_status": "accepted",
+      "record_session": "agent-90de0e35-4a46-4ee7-bb53-d5843919cacf",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j2_b02/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "338808ad85f0cd9b0335abf174df224699e97a511193d989ef64bedf2e3d43cf",
+      "slot_agent": "agent-90de0e35-4a46-4ee7-bb53-d5843919cacf",
+      "slot_runs": [
+        "run-7d11dd8b-ee50-42ea-8067-e11ec7b7e2a4"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          26
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j2_b03",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j2_b03/attempt-01.json",
+      "record_sha256": "d6ea7d9ab26f5dc717f3c5b9aad83f8af3fbc20d6855d7d91eb208803a640811",
+      "record_status": "accepted",
+      "record_session": "agent-492cf9e0-7dd4-41b6-9954-36318998f0c8",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j2_b03/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "b619e3532d82fad72218d21c9ac76b45dbe2798a64c696d89c1b766904c4c7c3",
+      "slot_agent": "agent-492cf9e0-7dd4-41b6-9954-36318998f0c8",
+      "slot_runs": [
+        "run-67637fc5-6119-4d1d-9ae4-271786c695dd"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          28
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j2_b04",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j2_b04/attempt-01.json",
+      "record_sha256": "2a757d976d867f2f8f96022d118429ad93a75ac5ed8dd33bdc6cc5fda3d09d68",
+      "record_status": "accepted",
+      "record_session": "agent-af18faa7-f3c1-4638-bcdc-2f42c9542c30",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j2_b04/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "c45fdf7adb5776adf3b29dd4bbcff8d1a1db527ad5a9241b4005d906f4dccaf9",
+      "slot_agent": "agent-af18faa7-f3c1-4638-bcdc-2f42c9542c30",
+      "slot_runs": [
+        "run-5ac66abd-5c40-42a6-9e1f-1df046415018"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          30
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j2_b05",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j2_b05/attempt-01.json",
+      "record_sha256": "c66bf6c4d486a3963cfc5c1e060c1b0a29b7accc7374ec93d46aada6d627951e",
+      "record_status": "accepted",
+      "record_session": "agent-b0b6b87c-17a2-42c9-b659-fa6763dfbaa9",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j2_b05/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "5f725c62ff1853c89108af14ffcd5cb4e7b6d78252429455e1c0f02f34955190",
+      "slot_agent": "agent-b0b6b87c-17a2-42c9-b659-fa6763dfbaa9",
+      "slot_runs": [
+        "run-b94772f0-1af2-49be-bd17-fa5eb877b238"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          32
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j2_b06",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j2_b06/attempt-01.json",
+      "record_sha256": "f69a5d63ce6ccaec1a07fa571d367da37579b2818625a5d5eba71362236a677d",
+      "record_status": "accepted",
+      "record_session": "agent-d37c3285-e84c-4027-b48e-a8be109439dc",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j2_b06/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "d004679f4c0b7f18ffe9cb48c694d3dde30aba3141d5d7dad62bdb10ce7d5bb0",
+      "slot_agent": "agent-d37c3285-e84c-4027-b48e-a8be109439dc",
+      "slot_runs": [
+        "run-8e22b358-3e1f-4f50-87a1-64e0e6fa3b59"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          34
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j2_b07",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j2_b07/attempt-01.json",
+      "record_sha256": "96d3c45050fd3cea76fce0953221011c7b1edc6a77aee002d0dfbd41d33604e5",
+      "record_status": "accepted",
+      "record_session": "agent-9cec3ffc-e51b-4340-944f-eae77da43c76",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j2_b07/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "928b1d9b0f6b57aa1e08df90789e958e1136f9cc80d9bb82f5185344fdfd6bed",
+      "slot_agent": "agent-9cec3ffc-e51b-4340-944f-eae77da43c76",
+      "slot_runs": [
+        "run-39277e66-4b75-46a6-8d10-2d196a81f6a0"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          36
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j2_b08",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j2_b08/attempt-01.json",
+      "record_sha256": "d6974c94124e03306568b0e099a7f914a051fe40cff44e73f33af124671dc29f",
+      "record_status": "accepted",
+      "record_session": "agent-c081aa83-6387-40ae-8d37-ded565bd1526",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j2_b08/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "44c2ca6734d5b4b423e181f3f9157c836c5c322383b7d68f08eacbefa2ea2653",
+      "slot_agent": "agent-c081aa83-6387-40ae-8d37-ded565bd1526",
+      "slot_runs": [
+        "run-103b249d-64e7-4d01-a8e4-f3b66ef2d95d"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          38
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j2_b09",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j2_b09/attempt-01.json",
+      "record_sha256": "90cba2c14d516058a917dc58171c75a2be0a25730bd39996809ea5080b178a40",
+      "record_status": "accepted",
+      "record_session": "agent-af7a0767-b378-4b5f-8138-67ff8c6b0eb4",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j2_b09/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "01b0313faab7b94f161cb6e2d60ed70ba01948baed5cd10a65da6d3cbd9ba61d",
+      "slot_agent": "agent-af7a0767-b378-4b5f-8138-67ff8c6b0eb4",
+      "slot_runs": [
+        "run-8f0ee8dd-5b6c-45e2-b6c7-9d18aa20e4fa"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          40
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j2_b10",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j2_b10/attempt-01.json",
+      "record_sha256": "3b6d8f99a6f949ca20826cfb0fdb207ab850b57d21f8a222b5036673de0cf974",
+      "record_status": "accepted",
+      "record_session": "agent-9e736420-77dc-4aab-9301-67084aff665c",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j2_b10/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "abbe85ba6103ab334cd351d65ef821e78b6751a51a213a2eae9338c097e862de",
+      "slot_agent": "agent-9e736420-77dc-4aab-9301-67084aff665c",
+      "slot_runs": [
+        "run-7e181578-a7b1-4308-8ca0-2f8d72cb728b"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          42
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j2_b11",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j2_b11/attempt-01.json",
+      "record_sha256": "3df5c58f06c3242c679bb78e3e60208370852b1a613ebd7e056d74d0cba38afd",
+      "record_status": "accepted",
+      "record_session": "agent-bf2c2308-5168-4098-bfd6-83e3645a61fe",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j2_b11/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "77ea153dc87cb8dcdd31a2fb4138124896811943a3c1f721f0385c0c78f0b3b6",
+      "slot_agent": "agent-bf2c2308-5168-4098-bfd6-83e3645a61fe",
+      "slot_runs": [
+        "run-fed4bdd0-d6cf-4bec-85fd-8038fbb4d49f"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          44
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j3_b01",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j3_b01/attempt-01.json",
+      "record_sha256": "234d067ccd11160af74de5565da0189f2b3059d881d3115c9df171f2ef94fdee",
+      "record_status": "accepted",
+      "record_session": "agent-603d0670-3e37-446f-b73d-12402ed109b6",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j3_b01/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "4171f6c83d85e5207bf7edff11a1bd6f97a4d9e26f8886532d495eb0d4d6a17c",
+      "slot_agent": "agent-603d0670-3e37-446f-b73d-12402ed109b6",
+      "slot_runs": [
+        "run-7064a7b0-630d-4b5e-8e2c-d1ad55db212d"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          46
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j3_b02",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j3_b02/attempt-01.json",
+      "record_sha256": "a4905fde7a5c196d80633c6037b469fb0def30911a8a27566ffb84f012f8b306",
+      "record_status": "accepted",
+      "record_session": "agent-75dbb4e0-22db-4b99-b093-a09dd81e88c7",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j3_b02/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "14ec273a538c87e5273281111b32b3b11c7f7f49c912bba92017efdc51faaf26",
+      "slot_agent": "agent-75dbb4e0-22db-4b99-b093-a09dd81e88c7",
+      "slot_runs": [
+        "run-99fa1918-d184-489f-a19e-9470b9f6e976"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          48
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j3_b03",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j3_b03/attempt-01.json",
+      "record_sha256": "ebc88d6e46d85edb03b57fcd1be0dd9d1496573fb8a1f04f4fa0f73b1a1a8d93",
+      "record_status": "accepted",
+      "record_session": "agent-5a6ede1f-bf97-46a3-9012-7ea40b41b3a2",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j3_b03/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "b36a7420ac80942582361e6ba9649c79814a95d3321c6f4a9adc3de86351d034",
+      "slot_agent": "agent-5a6ede1f-bf97-46a3-9012-7ea40b41b3a2",
+      "slot_runs": [
+        "run-44e5f5f7-c341-4b2a-a3c4-6dcdbdcb7931"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          50
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j3_b04",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j3_b04/attempt-01.json",
+      "record_sha256": "20c56ee19416648b7451d9e47c41709ad22f6775f98fbcc87733652705c67611",
+      "record_status": "accepted",
+      "record_session": "agent-632dfb2f-9319-46ee-a914-c160ddee0971",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j3_b04/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "aa95aded44d691ea8277beae2d780a9f43df7310f482bad0cb7fc1881e485e09",
+      "slot_agent": "agent-632dfb2f-9319-46ee-a914-c160ddee0971",
+      "slot_runs": [
+        "run-bf489390-0494-4d21-aa12-2c5913cf6275"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          52
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j3_b05",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j3_b05/attempt-01.json",
+      "record_sha256": "a7a3cee31a4b75de4b2ec7050861155f361a0756fdec9ddaa7bbabbba5c0a418",
+      "record_status": "accepted",
+      "record_session": "agent-02762b46-86b0-4991-90fc-efbe55a366ee",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j3_b05/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "7e5ea4c05e2a5b350050de16639a2156f994585b3af34dd084e8b2545d8318d4",
+      "slot_agent": "agent-02762b46-86b0-4991-90fc-efbe55a366ee",
+      "slot_runs": [
+        "run-ec5707e1-067d-4724-a040-dbc5a2115a31"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          54
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j3_b06",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j3_b06/attempt-01.json",
+      "record_sha256": "8e8ce360e2fd318c59cf05c9e540f868b163f13b8fa3ded62916437bc1df7fa7",
+      "record_status": "accepted",
+      "record_session": "agent-f42d8abd-5136-4f75-b14e-739b40bedc1a",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j3_b06/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "f627e5be29dd5d8cfa50cd8b9e70234cfc8c9481d67a5f055652f21691016cfc",
+      "slot_agent": "agent-f42d8abd-5136-4f75-b14e-739b40bedc1a",
+      "slot_runs": [
+        "run-519fd06f-dc6e-4c6c-962c-34dd91b5a79f"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          56
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j3_b07",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j3_b07/attempt-01.json",
+      "record_sha256": "6459386648b6de57328a022dcb5571146a467c2b489bc7638db614881c4736a1",
+      "record_status": "accepted",
+      "record_session": "agent-f4c383b5-5fad-417a-a531-78b640446cdd",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j3_b07/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "38d02c56af889c0dfcfd4b116d6a1dbbc5f84b85ec184c7142b13713a5f52ea7",
+      "slot_agent": "agent-f4c383b5-5fad-417a-a531-78b640446cdd",
+      "slot_runs": [
+        "run-f4f8a397-3c94-4272-b9b8-740e34bcf010"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          58
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j3_b08",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j3_b08/attempt-01.json",
+      "record_sha256": "f677e6318c5393c4804fcecbb1c371736cb355ec3366c1d1d599f2e0595d7235",
+      "record_status": "accepted",
+      "record_session": "agent-3049dde3-1bd4-4575-8fb7-7c479fd32577",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j3_b08/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "82467404e209ffcba5994aa7ed4ca4f1e0c108d290fc82278acc85abfc878941",
+      "slot_agent": "agent-3049dde3-1bd4-4575-8fb7-7c479fd32577",
+      "slot_runs": [
+        "run-116168a2-69b7-4076-ae93-2319ab7d712a"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          60
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j3_b09",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j3_b09/attempt-01.json",
+      "record_sha256": "0bbacd1491e9d368c9fa27bcaa825bf7059a1041cb08ac783ff5aa104ad7a381",
+      "record_status": "accepted",
+      "record_session": "agent-0645440b-b4bf-4539-9bd2-5ac23a258cbf",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j3_b09/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "a49d0452a580e02abfa28b8524169cad1235612c99135e3f23fd936e156c4c38",
+      "slot_agent": "agent-0645440b-b4bf-4539-9bd2-5ac23a258cbf",
+      "slot_runs": [
+        "run-ca3f78b0-4dbd-4907-82f9-dea793558bce"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          62
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j3_b10",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j3_b10/attempt-01.json",
+      "record_sha256": "9951ff9a754bc9c1281ae83c5960cbeb1f89883073409e2f1bc083ce0397e386",
+      "record_status": "error",
+      "record_session": "agent-14e01154-ce8b-46a6-acdc-5f2a2eb2e9f2",
+      "record_reason": "Streaming connection stalled during generation; model run ended with status error before output was written.",
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j3_b10/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "1037943c944b7123e77d3a4b952ecd7d48bc9b486a16253521e284d18791e934",
+      "slot_agent": "agent-14e01154-ce8b-46a6-acdc-5f2a2eb2e9f2",
+      "slot_runs": [
+        "run-6a03a5bd-c201-45f2-9105-eedafc0c3d81"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          64
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j3_b10",
+      "attempt": 2,
+      "record": "corrections_v2/execution/p01_C_j3_b10/attempt-02.json",
+      "record_sha256": "5207831304f8377308c24c1d4619a0ac16a980eb7bdb908790d06c2f22dc4eee",
+      "record_status": "accepted",
+      "record_session": "agent-a34d0d7f-4b6d-4c86-aabf-a5e40a4c8cdf",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j3_b10/attempt-02/attempt-02.sdk-events.jsonl",
+      "slot_event_log_sha256": "5b1a3eac69a8ae4e3fdd5d9209c9d1b574edaa7cae4094283bbc6d4427a1c9a9",
+      "slot_agent": "agent-a34d0d7f-4b6d-4c86-aabf-a5e40a4c8cdf",
+      "slot_runs": [
+        "run-36d9a014-c47c-4bb8-8869-ca88a608f81a"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          66,
+          69
+        ],
+        "exit_2": [
+          67
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j3_b11",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j3_b11/attempt-01.json",
+      "record_sha256": "8b839ada45d2db93e9afafb6f8bdcf1cf40688e1892878cfcca91ecdbd640e7f",
+      "record_status": "accepted",
+      "record_session": "agent-27cfdfb3-5e87-4c0f-93ab-0fb592825772",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j3_b11/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "c2de0af7cd0ab3ab6ab82ff8ac3b56d42ebddd1cbc23461d8acc781264f67056",
+      "slot_agent": "agent-27cfdfb3-5e87-4c0f-93ab-0fb592825772",
+      "slot_runs": [
+        "run-c3fa8e76-0240-48e8-9fa1-16c55fffddeb"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          71
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b01",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j4_b01/attempt-01.json",
+      "record_sha256": "f91ff71d986a3410df287ac7ee2cefafc8145b7e2f92a56c63bb038de9eb258c",
+      "record_status": "accepted",
+      "record_session": "agent-cecfde53-bd6a-45c7-bfb4-c80d27f0f25d",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b01/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "77820707e1d649e0cb89db2256ffb07cb1c84ec56e90b6908b41557786bdbd94",
+      "slot_agent": "agent-cecfde53-bd6a-45c7-bfb4-c80d27f0f25d",
+      "slot_runs": [
+        "run-039e87e6-ce8c-4696-acf5-5e403b44bd41"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          73
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b02",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j4_b02/attempt-01.json",
+      "record_sha256": "0337b3194682fb977c342649e83146df07a4423f6f9e1c2d79d05b3993e1a816",
+      "record_status": "accepted",
+      "record_session": "agent-490d000d-f4d0-4208-9b09-d54f1f44030b",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b02/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "d5a42f37d2e14a7a485eaf8f97388e83018bde229f76659fc969969b9434aded",
+      "slot_agent": "agent-490d000d-f4d0-4208-9b09-d54f1f44030b",
+      "slot_runs": [
+        "run-25233727-aba0-4bab-ac96-54ffe3dc0188"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          75
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b03",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j4_b03/attempt-01.json",
+      "record_sha256": "0e48de6f55f04b8634906bc28149e3360191325fb6b50dfbcec18c1fad9f49fb",
+      "record_status": "accepted",
+      "record_session": "agent-3c235fc2-7024-4aef-b44f-2652de72bb9c",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b03/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "be957b808a4fdce318fbfa077f74beaf5dc144b5ce8e3857ee37d0921b312d97",
+      "slot_agent": "agent-3c235fc2-7024-4aef-b44f-2652de72bb9c",
+      "slot_runs": [
+        "run-13d1aadc-62c9-4fed-8975-8fe034cbe263"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          77
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b04",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j4_b04/attempt-01.json",
+      "record_sha256": "eed6fa65e05cd35861ff2884223468ebb91e7e6d494c891a2bb6fd634b25674f",
+      "record_status": "accepted",
+      "record_session": "agent-f8d207eb-0571-41c0-9c77-0e321e376347",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b04/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "12dfce6e200909d72c6725a9ec8136c66841555e467928e78b35395e8e34f7a4",
+      "slot_agent": "agent-f8d207eb-0571-41c0-9c77-0e321e376347",
+      "slot_runs": [
+        "run-e12d6c8a-53b9-4fca-ac49-221ac593025d"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          79
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b05",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j4_b05/attempt-01.json",
+      "record_sha256": "e7bce8f60cdb6105eb80b888ab9c2d0ee3b89f23a5cc0d1c3917045a59189e5c",
+      "record_status": "accepted",
+      "record_session": "agent-520f28b5-0ee8-4ee6-8643-803e6489082d",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b05/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "2f53aeb268985446d828aea7b28a6189c8e46a417ba37771fc72965ce99d5a19",
+      "slot_agent": "agent-520f28b5-0ee8-4ee6-8643-803e6489082d",
+      "slot_runs": [
+        "run-d22499bb-76ec-4390-8720-8249fce36585"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          81
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b06",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j4_b06/attempt-01.json",
+      "record_sha256": "9c05115a069492d2ecfed487dcba09f4028dc465a9214b69bbb56359f668540d",
+      "record_status": "accepted",
+      "record_session": "agent-9043fec1-0700-4fa8-92ec-078b80d4f948",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b06/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "6ba2abc738816b77772c823819740e452f91b6292b31b2d2c0ca98bc823d67ca",
+      "slot_agent": "agent-9043fec1-0700-4fa8-92ec-078b80d4f948",
+      "slot_runs": [
+        "run-06d17a11-e205-4145-b0f7-eaeb08cf3cdf"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          83
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b07",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j4_b07/attempt-01.json",
+      "record_sha256": "7613d89bd0aa96759656b13a838f40cf387f2ef9ff556a1c776a15170ac86f1c",
+      "record_status": "accepted",
+      "record_session": "agent-4cc71213-0fc0-46ed-9474-77f41d1f2510",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b07/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "facd7f0e130250014f48044fd9ad9756e4d83bf179281bec87ce678d87a82c86",
+      "slot_agent": "agent-4cc71213-0fc0-46ed-9474-77f41d1f2510",
+      "slot_runs": [
+        "run-b6a60d61-7864-4526-ae38-ea188c1135be"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          85
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b08",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j4_b08/attempt-01.json",
+      "record_sha256": "0daaa6be5c79442f066ec52da4a81165235907acfe1f27f5793eb0123eba726e",
+      "record_status": "error",
+      "record_session": "agent-92acc5de-9b3d-46f3-a254-1c15ef53d0c9",
+      "record_reason": "[resource_exhausted] Error",
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b08/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "5d167aadb3878184924e11fd6d1c80dc678e085cffd5201fff177ea69e066307",
+      "slot_agent": "agent-92acc5de-9b3d-46f3-a254-1c15ef53d0c9",
+      "slot_runs": [
+        "run-633f5342-70e5-4ee6-817b-054ed87a02e3"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          87
+        ],
+        "exit_1": [
+          88
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b08",
+      "attempt": 2,
+      "record": "corrections_v2/execution/p01_C_j4_b08/attempt-02.json",
+      "record_sha256": "70796648084433925088284269d9e300bf7543b7c1050a31d0266b1bfa61d123",
+      "record_status": "error",
+      "record_session": "agent-6b36eb81-821d-424e-8b80-6f06239857d4",
+      "record_reason": "[resource_exhausted] Error",
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b08/attempt-02/attempt-02.sdk-events.jsonl",
+      "slot_event_log_sha256": "49bcafeba7948ba674838079b73208a84885eb61b23a55c5ab301f05869b7360",
+      "slot_agent": "agent-6b36eb81-821d-424e-8b80-6f06239857d4",
+      "slot_runs": [
+        "run-e151c67f-43ba-4df8-9720-c6ba3f81b058"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          89
+        ],
+        "exit_1": [
+          90
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b08",
+      "attempt": 3,
+      "record": "corrections_v2/execution/p01_C_j4_b08/attempt-03.json",
+      "record_sha256": "de824ed58a76e94b15385c7b69f36df57de002a1c394a2a8c4f7ba0d07eb4cbf",
+      "record_status": "error",
+      "record_session": "agent-3050db86-bb11-4044-9a3d-89bc27f0a4c9",
+      "record_reason": "[resource_exhausted] Error",
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b08/attempt-03/attempt-03.sdk-events.jsonl",
+      "slot_event_log_sha256": "8e462f6372567fba34e1fa567d8edbb5ef3112951f44592be0d54423170dacce",
+      "slot_agent": "agent-3050db86-bb11-4044-9a3d-89bc27f0a4c9",
+      "slot_runs": [
+        "run-0ed46629-a5a0-4a4b-973b-15e3db045bd9"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          91
+        ],
+        "exit_1": [
+          92
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b08",
+      "attempt": 4,
+      "record": "corrections_v2/execution/p01_C_j4_b08/attempt-04.json",
+      "record_sha256": "b433006ac401ef7c348a1db0856160e4af229c455bd6c06038dc462e21e69611",
+      "record_status": "error",
+      "record_session": "agent-246ea897-e2a4-4314-a607-2f9f76de857e",
+      "record_reason": "[resource_exhausted] Error",
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b08/attempt-04/attempt-04.sdk-events.jsonl",
+      "slot_event_log_sha256": "3d7164ed1da1f746fd1246de50e0b164999c457350d0d9c50030211d182a92ba",
+      "slot_agent": "agent-246ea897-e2a4-4314-a607-2f9f76de857e",
+      "slot_runs": [
+        "run-76db2e04-2b2c-409d-aaa8-fe85cce4aa5a"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          123
+        ],
+        "exit_1": [
+          124
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b08",
+      "attempt": 5,
+      "record": "corrections_v2/execution/p01_C_j4_b08/attempt-05.json",
+      "record_sha256": "72fe0950c3db2957516faa191c6a76ef274d97f87ab04c173a058d498feaccb5",
+      "record_status": "error",
+      "record_session": "agent-02be83b4-ee5b-4cf8-88fb-0e10001c1d33",
+      "record_reason": "[resource_exhausted] Error",
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b08/attempt-05/attempt-05.sdk-events.jsonl",
+      "slot_event_log_sha256": "516e8ee16d68ac19dcd11ff80874505fe06c11223581dbd7fddbd99d3143cdf7",
+      "slot_agent": "agent-02be83b4-ee5b-4cf8-88fb-0e10001c1d33",
+      "slot_runs": [
+        "run-762daac1-96e0-48de-b8eb-79ddee4250cf"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          134
+        ],
+        "exit_1": [
+          137
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b08",
+      "attempt": 6,
+      "record": "corrections_v2/execution/p01_C_j4_b08/attempt-06.json",
+      "record_sha256": "beabe7db57e65db8a8d71bd48af6d29a073d6f7244a7134a3a054572e401d36b",
+      "record_status": "accepted",
+      "record_session": "agent-68b1b98c-1fe3-4315-8636-4e4adea8c41f",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b08/attempt-06/attempt-06.sdk-events.jsonl",
+      "slot_event_log_sha256": "13b970ab4ff23321063476fea83cc3e621a94cc12dbf405b4a9f26486035e04c",
+      "slot_agent": "agent-68b1b98c-1fe3-4315-8636-4e4adea8c41f",
+      "slot_runs": [
+        "run-20518f5b-f266-44b6-917c-2627abf9216b"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          139
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b09",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j4_b09/attempt-01.json",
+      "record_sha256": "cd2dc2b36b60cd3434354b2858cb02a13f3a57d51beb401ce1fafc36191803b6",
+      "record_status": "error",
+      "record_session": "agent-a7e7ea51-d8ec-4608-b2f6-3fe016f606ba",
+      "record_reason": "[resource_exhausted] Error",
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b09/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "c35b353d1ba4fe063f79eac29a932256b0e98a67c6d0eaa6b9f9e49765b138ff",
+      "slot_agent": "agent-a7e7ea51-d8ec-4608-b2f6-3fe016f606ba",
+      "slot_runs": [
+        "run-3b4be096-546c-42dc-bed8-5cb8e50ef086"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          96
+        ],
+        "exit_1": [
+          97
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b09",
+      "attempt": 2,
+      "record": "corrections_v2/execution/p01_C_j4_b09/attempt-02.json",
+      "record_sha256": "ec843a3208c97124d3b22b9d3e898cf5a826d1e4b30931b14d7b3d16ba174c98",
+      "record_status": "error",
+      "record_session": "agent-a429f791-ab2f-4069-ae35-a2732e76d58b",
+      "record_reason": "[resource_exhausted] Error",
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b09/attempt-02/attempt-02.sdk-events.jsonl",
+      "slot_event_log_sha256": "bf5b4562e86a491938851a3af5f52e29c4e02f37655992783e6397b1e7e5b25e",
+      "slot_agent": "agent-a429f791-ab2f-4069-ae35-a2732e76d58b",
+      "slot_runs": [
+        "run-2eabbff1-340c-4984-87e4-f3a4a6ad19ca"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          101
+        ],
+        "exit_1": [
+          102
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b09",
+      "attempt": 3,
+      "record": "corrections_v2/execution/p01_C_j4_b09/attempt-03.json",
+      "record_sha256": "98c4bea666904fa5e84c174457acc5295f34c2598c08ae9ed749ca09c89b2279",
+      "record_status": "error",
+      "record_session": "agent-eb84d0e0-e0a4-4e51-b179-fb83cdbdb305",
+      "record_reason": "[resource_exhausted] Error",
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b09/attempt-03/attempt-03.sdk-events.jsonl",
+      "slot_event_log_sha256": "5a59884b628835b9aaafa71c0a30e0a834344bafb6a5bee20eece67d63a61828",
+      "slot_agent": "agent-eb84d0e0-e0a4-4e51-b179-fb83cdbdb305",
+      "slot_runs": [
+        "run-3f0a45ce-69d3-418b-a1f4-0bcfb3a29a4c"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          106
+        ],
+        "exit_1": [
+          107
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b09",
+      "attempt": 4,
+      "record": "corrections_v2/execution/p01_C_j4_b09/attempt-04.json",
+      "record_sha256": "391193abd4467b35b2a35df60d6510b72e23885e82e8f8fcc5fc5bc82f7a8dfc",
+      "record_status": "error",
+      "record_session": "agent-5bd83d73-f40b-4664-84c5-05acb22d938f",
+      "record_reason": "Increase limits for faster responses You're out of usage. Switch to Auto, or ask your admin to increase your limit to continue.",
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b09/attempt-04/attempt-04.sdk-events.jsonl",
+      "slot_event_log_sha256": "7f24e6b0cb91da42c0020b41501d046e10feabb28a17bbf18eeb714e22bae7ad",
+      "slot_agent": "agent-5bd83d73-f40b-4664-84c5-05acb22d938f",
+      "slot_runs": [
+        "run-c0ca858c-376a-427b-8be2-d719561ef628"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          149
+        ],
+        "exit_1": [
+          150
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b09",
+      "attempt": 5,
+      "record": "corrections_v2/execution/p01_C_j4_b09/attempt-05.json",
+      "record_sha256": "9823dd9af43754551329902caa759fbecc88b29c1951f5faea1bed4a7d95cafc",
+      "record_status": "error",
+      "record_session": "agent-cd9cffa2-9bd3-4ac0-864b-93e6deb2e986",
+      "record_reason": "Increase limits for faster responses You're out of usage. Switch to Auto, or ask your admin to increase your limit to continue.",
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b09/attempt-05/attempt-05.sdk-events.jsonl",
+      "slot_event_log_sha256": "80bc3c1ba57f19bbee681b79bc86d8627b6859b5a9c3bf52e895a13173bf0cde",
+      "slot_agent": "agent-cd9cffa2-9bd3-4ac0-864b-93e6deb2e986",
+      "slot_runs": [
+        "run-80adb12b-6700-47ef-9d2c-075e35a3284d"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          151
+        ],
+        "exit_1": [
+          158
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b09",
+      "attempt": 6,
+      "record": "corrections_v2/execution/p01_C_j4_b09/attempt-06.json",
+      "record_sha256": "4a9553e211f8447c07951f1e73dc1a0726595431d74a40a6bca814adda0ed5af",
+      "record_status": "error",
+      "record_session": "agent-75ca21dc-3cb7-4dfa-a4c6-969b0f30bc9a",
+      "record_reason": "Increase limits for faster responses You're out of usage. Switch to Auto, or ask your admin to increase your limit to continue.",
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b09/attempt-06/attempt-06.sdk-events.jsonl",
+      "slot_event_log_sha256": "892361168a23a124cfc88e71be0f458a978eba0618badb699dd28fec0064e0a5",
+      "slot_agent": "agent-75ca21dc-3cb7-4dfa-a4c6-969b0f30bc9a",
+      "slot_runs": [
+        "run-1de957b0-00a8-4f1a-9066-12ee1261c933"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          159
+        ],
+        "exit_1": [
+          164
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b09",
+      "attempt": 7,
+      "record": "corrections_v2/execution/p01_C_j4_b09/attempt-07.json",
+      "record_sha256": "a071e204fc7ccbb923f0f6e413d73127518a0bb72f6dca1210401f50b7b49ea3",
+      "record_status": "accepted",
+      "record_session": "agent-060e8f57-36cd-40a3-87ac-83e482719154",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b09/attempt-07/attempt-07.sdk-events.jsonl",
+      "slot_event_log_sha256": "b246c61e105e84267e4bc01238a2b095056dcd75052364a4dfd590994bbeb55f",
+      "slot_agent": "agent-060e8f57-36cd-40a3-87ac-83e482719154",
+      "slot_runs": [
+        "run-be70aa5e-a2de-4e34-8806-f7a7d818fdfa"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          193
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b10",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j4_b10/attempt-01.json",
+      "record_sha256": "9675c876e16878d38c85f4d52208e46e83ae4c23276cb1898f2b4893c668fd51",
+      "record_status": "accepted",
+      "record_session": "agent-5a349014-a3c9-49a6-8918-0e44940a19ed",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b10/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "0753538c64d811babbc36b8b58863ffee4e0d9fd1d1e266c670f2f4da6a2860b",
+      "slot_agent": "agent-5a349014-a3c9-49a6-8918-0e44940a19ed",
+      "slot_runs": [
+        "run-e87c7f43-9e60-4768-afeb-a3a785f1261f"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          195
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j4_b11",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j4_b11/attempt-01.json",
+      "record_sha256": "71473ac8004b33dcf570f2a5a3e9396e4dd8af25deb3afd6e5fcfae44092baa1",
+      "record_status": "accepted",
+      "record_session": "agent-fff2c496-eae0-4642-8bf2-720c143434f7",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j4_b11/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "45b6ae9797072cf0573b8848af365290dec7e08d33b8f3264ffaaf0ec6777616",
+      "slot_agent": "agent-fff2c496-eae0-4642-8bf2-720c143434f7",
+      "slot_runs": [
+        "run-8fa6d99d-b2d9-4fc3-9c9d-cc4bb8d11539"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          197
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j5_b01",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j5_b01/attempt-01.json",
+      "record_sha256": "d4410b956914f735a1948edac6ca30ac48ac32bd0b32881927d64668b004e6f8",
+      "record_status": "accepted",
+      "record_session": "agent-bf500330-2539-493b-8f52-d69e63a7931c",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j5_b01/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "c34de8326da4383f3b8dc48f790b53d87bae67d752ffac89fc94f65c70a42b5d",
+      "slot_agent": "agent-bf500330-2539-493b-8f52-d69e63a7931c",
+      "slot_runs": [
+        "run-0668de87-e4c0-4829-8126-49e91274a543"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          199
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j5_b02",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j5_b02/attempt-01.json",
+      "record_sha256": "0b47a01671d94c45ad5c3164f63ce57622f5bd026b827c5ad20517a5f0d21012",
+      "record_status": "accepted",
+      "record_session": "agent-6783c725-9b89-40e5-8765-c1f25218bd9b",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j5_b02/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "7ef292cf88161d3fd85145442e856df4f336a592dbe9e83355f8cd140bb69b1b",
+      "slot_agent": "agent-6783c725-9b89-40e5-8765-c1f25218bd9b",
+      "slot_runs": [
+        "run-cc8840b6-fd51-453a-863d-4f69d3b8c18f"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          201
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j5_b03",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j5_b03/attempt-01.json",
+      "record_sha256": "baf5abce5bd47d39de6807569d5c5fad1a965d8da022c6e9d5f8bf0a27bbb292",
+      "record_status": "accepted",
+      "record_session": "agent-87b60a03-863c-40d6-a57f-b8a06b0e5d20",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j5_b03/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "a2f9cfb6d438c9c53c54fe1079a5ddeb1e3ca6a13064ea793daee6f388632559",
+      "slot_agent": "agent-87b60a03-863c-40d6-a57f-b8a06b0e5d20",
+      "slot_runs": [
+        "run-27396312-caef-4f07-a146-a081c0b15369"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          203
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j5_b04",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j5_b04/attempt-01.json",
+      "record_sha256": "72734222a18d1f733851a241c0774b8826d797c1bee44f6464c0157ed87ae9e0",
+      "record_status": "accepted",
+      "record_session": "agent-54d0040e-e9f8-4657-a63e-31e4b0126a0f",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j5_b04/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "3fb163c99817cb254921848dc72b2b64b113d0cdd7d17fe6023a768bcbf8c899",
+      "slot_agent": "agent-54d0040e-e9f8-4657-a63e-31e4b0126a0f",
+      "slot_runs": [
+        "run-98fc98bd-6f9a-4010-84c9-f26027e2c812"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          205
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j5_b05",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j5_b05/attempt-01.json",
+      "record_sha256": "bebd985f8d611d2954b0977c80a5f618b00a82cf14e990937d902b67afc91bff",
+      "record_status": "accepted",
+      "record_session": "agent-435b2632-9826-4fe6-98ba-6ee142f4289e",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j5_b05/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "f708dcc4a37a03eff404bf26024a5ee9d52fe1de3bcb81fa90fabda8d96cde67",
+      "slot_agent": "agent-435b2632-9826-4fe6-98ba-6ee142f4289e",
+      "slot_runs": [
+        "run-d7c61512-5456-4faa-be92-f3b5af3ea088"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          207
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j5_b06",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j5_b06/attempt-01.json",
+      "record_sha256": "46326ed945b0b6d89c28471454327fcff2c2098054fb0541a005b859bc37092e",
+      "record_status": "accepted",
+      "record_session": "agent-b2aa15fa-72a1-4def-bf7e-1f3c53ba1ea3",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j5_b06/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "1e34569e52fc3eed91cf11e94364a5d0f76164746341baa35b19612c91dca107",
+      "slot_agent": "agent-b2aa15fa-72a1-4def-bf7e-1f3c53ba1ea3",
+      "slot_runs": [
+        "run-ec03c194-32a3-4152-8f4d-2ffe4cf5bc83"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          209
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j5_b07",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j5_b07/attempt-01.json",
+      "record_sha256": "ddb9c128d7720e27955fde6edcc7f05ff3beccd99acdbc5c2783e7efd378415f",
+      "record_status": "accepted",
+      "record_session": "agent-88b8db32-24ad-4c20-a5ca-91c00582b803",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j5_b07/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "587aff4d946844c0b184186fe96576ee23ac4844351efbec05fbd6349a81a58d",
+      "slot_agent": "agent-88b8db32-24ad-4c20-a5ca-91c00582b803",
+      "slot_runs": [
+        "run-b678984b-2353-446d-854c-ac75fe1d4078"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          211
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j5_b08",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j5_b08/attempt-01.json",
+      "record_sha256": "1009865fc5763e3f5cfbf448405e715f2408098ef0ba0ad43719898d3d195268",
+      "record_status": "accepted",
+      "record_session": "agent-c211e318-6ad3-4bde-805c-443308304ab3",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j5_b08/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "4e7487c54021eb18a8c2616060549c529dcc04838bca0764d848cd9fb1c358b5",
+      "slot_agent": "agent-c211e318-6ad3-4bde-805c-443308304ab3",
+      "slot_runs": [
+        "run-95d2af5f-f6ee-4199-b665-80bcfb67550a"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          213
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j5_b09",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j5_b09/attempt-01.json",
+      "record_sha256": "85861fdf5b592fc5785405b72d87299058f33becd7dda418eb9b6343022677b4",
+      "record_status": "error",
+      "record_session": "agent-7f87b994-dbf0-4831-8f81-ddbcc9cc296b",
+      "record_reason": "[resource_exhausted] Error",
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j5_b09/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "37383c602e0012c4beb00315aef2b6cebe0732552a95bc3f9d45ae35f03a75f8",
+      "slot_agent": "agent-7f87b994-dbf0-4831-8f81-ddbcc9cc296b",
+      "slot_runs": [
+        "run-1fae8e37-baef-4473-a5c0-2b4d50523cbc"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          215
+        ],
+        "exit_1": [
+          216
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j5_b09",
+      "attempt": 2,
+      "record": "corrections_v2/execution/p01_C_j5_b09/attempt-02.json",
+      "record_sha256": "27bd9afbdf44c873cccde3eb58b2a0ebfc1d77b823a6ac7ef8cecef41d4fe499",
+      "record_status": "accepted",
+      "record_session": "agent-0b8d6b09-5541-46e0-aabf-91dd349b6ecc",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j5_b09/attempt-02/attempt-02.sdk-events.jsonl",
+      "slot_event_log_sha256": "baebc8676d31392fa8a9d1018e90ee0e6fe6f91cbf9941bfa0af5005e1dc5afd",
+      "slot_agent": "agent-0b8d6b09-5541-46e0-aabf-91dd349b6ecc",
+      "slot_runs": [
+        "run-66281cdd-6417-4339-af62-ac6be1468835"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          238
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j5_b10",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j5_b10/attempt-01.json",
+      "record_sha256": "1d55d6605f49155943a58c552c7601158ab939fb649b59f1676b9a7247163bd2",
+      "record_status": "accepted",
+      "record_session": "agent-b34bf6b5-9e74-421c-bcb2-552331085aa7",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j5_b10/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "fffaba2804f76c3ba52c9c1da67c33049b44ac8eff9a5fb845d358cb18b93369",
+      "slot_agent": "agent-b34bf6b5-9e74-421c-bcb2-552331085aa7",
+      "slot_runs": [
+        "run-f662fc93-e370-4754-9d93-f337772c144d"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          240
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p01_C_j5_b11",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p01_C_j5_b11/attempt-01.json",
+      "record_sha256": "f3500b21516b8ac0c195b2cd5a3e7c5d6dd102a71fe3fa716f7625de25f8d46a",
+      "record_status": "accepted",
+      "record_session": "agent-b88f8e88-e427-4074-ba0e-76e0d4d5dec7",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p01_C_j5_b11/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "a5948b49ff98a8f1b9b28c234b82447b5660469d634e3699843a36d513fefc6f",
+      "slot_agent": "agent-b88f8e88-e427-4074-ba0e-76e0d4d5dec7",
+      "slot_runs": [
+        "run-3f83c2fe-dfe1-450f-89ca-99be9daff398"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          242
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j1_b01",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j1_b01/attempt-01.json",
+      "record_sha256": "16e29c95fb1c1cdc0d9b19d130dc875ce29cae3d5328ef4744d98b76ba488934",
+      "record_status": "accepted",
+      "record_session": "agent-e2b03682-3e45-4f80-a015-270b7ce368d0",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j1_b01/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "71ff12930be5964321d2a8af20e5c77010ed489808ce5e66c13695e40b4072ae",
+      "slot_agent": "agent-e2b03682-3e45-4f80-a015-270b7ce368d0",
+      "slot_runs": [
+        "run-cd1ce0f5-1477-4778-ad04-5fe39f3c1729"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {},
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j1_b02",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j1_b02/attempt-01.json",
+      "record_sha256": "b289812d786eafc5c36b040d0f40c7648334fdb4562c12dca980a73d199bd932",
+      "record_status": "accepted",
+      "record_session": "agent-667b2581-e621-4079-9ca7-8cbc5ec6e879",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j1_b02/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "033875a33494235afd5332e85e43e1f5a2c6ab3b785772ec6a07b281e2035d57",
+      "slot_agent": "agent-667b2581-e621-4079-9ca7-8cbc5ec6e879",
+      "slot_runs": [
+        "run-8a63515a-b45a-4b17-8cd9-818f9d7da2d2"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          94
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j1_b03",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j1_b03/attempt-01.json",
+      "record_sha256": "cfc15ef68bab6c3b19c913984942c21fc414dbd81251dbd3cf2ab5f7c26326aa",
+      "record_status": "accepted",
+      "record_session": "agent-a2703aab-b824-4cd3-9e3a-e6afa4bfc6e6",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j1_b03/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "74a431879fa0ce43bc7118e063623228d17ad0b6a276ca20c75b0c02f241be7c",
+      "slot_agent": "agent-a2703aab-b824-4cd3-9e3a-e6afa4bfc6e6",
+      "slot_runs": [
+        "run-9fcae9b1-2b17-410c-8f11-b5a432a15880"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          99
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j2_b01",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j2_b01/attempt-01.json",
+      "record_sha256": "44e932ab1f67eff738a75a897875671da5a33ea0c509e092f11f131355bcef18",
+      "record_status": "accepted",
+      "record_session": "agent-1f8efc09-e384-4003-b50e-b06c901df395",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j2_b01/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "58cae2b85362207d0c33259f9cdaf81f9c571e7954c9a8d65a633f2503b89412",
+      "slot_agent": "agent-1f8efc09-e384-4003-b50e-b06c901df395",
+      "slot_runs": [
+        "run-dc958ca1-63df-4d50-a69f-dcc57bc47f64"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          104
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j2_b02",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j2_b02/attempt-01.json",
+      "record_sha256": "16b6a636a5557a0cf86cce36f57c1f043f1d574a92c04aaf087487b0839b40b6",
+      "record_status": "error",
+      "record_session": "unknown",
+      "record_reason": "Execution failed with returncode 2",
+      "classification": "collision_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j2_b02/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "a9747e510492a42de614b28be92001fd33323729d518dbc6fdb8c9bcb79b5cb4",
+      "slot_agent": "agent-a6b60d61-43b5-49ca-9ba2-2ce637f0bcda",
+      "slot_runs": [
+        "run-6d4343a6-c36d-40a0-bc7c-2cd3b64efdc2"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          110,
+          111
+        ],
+        "exit_2": [
+          112
+        ],
+        "checkpoint_failed": [
+          114
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "duplicate_exit_2_logged": true,
+        "two_invocations_started_for_slot": true,
+        "launched_run_outcome_logged": true,
+        "outcome_consistent_with_event_log": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j2_b02",
+      "attempt": 2,
+      "record": "corrections_v2/execution/p02_C_j2_b02/attempt-02.json",
+      "record_sha256": "9e672d611a00e6bbf38f5fae8d1ece9fdc9a69d15f87dd761655c84a012897a7",
+      "record_status": "error",
+      "record_session": "unknown",
+      "record_reason": "Execution failed with returncode 2",
+      "classification": "collision_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j2_b02/attempt-02/attempt-02.sdk-events.jsonl",
+      "slot_event_log_sha256": "ebf66b0423427fa10d4aebec722e5622196bf07494b231dbb1c8d2b4746fe8fa",
+      "slot_agent": "agent-b4d7cd27-1250-40f5-ac54-2a4d70a5b49d",
+      "slot_runs": [
+        "run-6fb1842a-19de-4f3b-a017-795594c09803"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          113,
+          115
+        ],
+        "exit_2": [
+          116
+        ],
+        "checkpoint_failed": [
+          118
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "duplicate_exit_2_logged": true,
+        "two_invocations_started_for_slot": true,
+        "launched_run_outcome_logged": true,
+        "outcome_consistent_with_event_log": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j2_b02",
+      "attempt": 3,
+      "record": "corrections_v2/execution/p02_C_j2_b02/attempt-03.json",
+      "record_sha256": "88761a8710095b50fe5aac1aed40f919dac077e386748cc28b84ee3e251cda80",
+      "record_status": "accepted",
+      "record_session": "agent-30c0afc2-2f16-4e0b-aeae-a6c4f80936d8",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j2_b02/attempt-03/attempt-03.sdk-events.jsonl",
+      "slot_event_log_sha256": "51b9ff0a1e21cc45e173e022b8db2798ac67283d0d0410516d9802e6e5c8818c",
+      "slot_agent": "agent-30c0afc2-2f16-4e0b-aeae-a6c4f80936d8",
+      "slot_runs": [
+        "run-3b75d856-218c-45f7-8c28-eb9464545698"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          117,
+          119
+        ],
+        "exit_2": [
+          120
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j2_b03",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j2_b03/attempt-01.json",
+      "record_sha256": "6b0c33d5c1d5459c2c6521cc12cb227b8385810728b051fc475fd7fc9c2947c8",
+      "record_status": "error",
+      "record_session": "unknown",
+      "record_reason": "Execution failed with returncode 2",
+      "classification": "collision_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j2_b03/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "a7deadbab165fe6d117f4c6eeb4fc7c6b31fb5510dcfcd3402bf770702160788",
+      "slot_agent": "agent-b0d5235f-26ea-4f36-b0d1-71799cc0927e",
+      "slot_runs": [
+        "run-3791251b-cf6b-41c2-9161-618a8547d624"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          121,
+          127
+        ],
+        "exit_2": [
+          128
+        ],
+        "checkpoint_failed": [
+          130
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "duplicate_exit_2_logged": true,
+        "two_invocations_started_for_slot": true,
+        "launched_run_outcome_logged": true,
+        "outcome_consistent_with_event_log": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j2_b03",
+      "attempt": 2,
+      "record": "corrections_v2/execution/p02_C_j2_b03/attempt-02.json",
+      "record_sha256": "a47ec7b5922c1ae7e528fb5973438945ef50bc5a542e983c993d3ef3262b221c",
+      "record_status": "error",
+      "record_session": "unknown",
+      "record_reason": "Execution failed with returncode 2",
+      "classification": "collision_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j2_b03/attempt-02/attempt-02.sdk-events.jsonl",
+      "slot_event_log_sha256": "2508b7a8157238307bbc273603c7ae5ff92bdce1629a1bcdb0e0824ef2d6790a",
+      "slot_agent": "agent-420fe8a3-cfad-4332-b175-617d0e1cb78d",
+      "slot_runs": [
+        "run-7ce313e0-97fb-4ed6-9209-52abf4964201"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          129,
+          131
+        ],
+        "exit_2": [
+          132
+        ],
+        "checkpoint_failed": [
+          140
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "duplicate_exit_2_logged": true,
+        "two_invocations_started_for_slot": true,
+        "launched_run_outcome_logged": true,
+        "outcome_consistent_with_event_log": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j2_b03",
+      "attempt": 3,
+      "record": "corrections_v2/execution/p02_C_j2_b03/attempt-03.json",
+      "record_sha256": "46216e9379c407d4d735f63d88d52bed30d91bc6003257779c7ac7e9c4a2ca17",
+      "record_status": "error",
+      "record_session": "unknown",
+      "record_reason": "Execution failed with returncode 2",
+      "classification": "collision_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j2_b03/attempt-03/attempt-03.sdk-events.jsonl",
+      "slot_event_log_sha256": "8604908135931d0eab15255458b7c89e234d3ab8f4a0b01bef3a8ef2e5b63c4e",
+      "slot_agent": "agent-ec999ed3-52db-40bc-a051-47ad8d36d8b5",
+      "slot_runs": [
+        "run-75819c43-3ceb-4bd5-afad-6b6174450df7"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          133,
+          141
+        ],
+        "exit_2": [
+          142
+        ],
+        "checkpoint_failed": [
+          144
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "duplicate_exit_2_logged": true,
+        "two_invocations_started_for_slot": true,
+        "launched_run_outcome_logged": true,
+        "outcome_consistent_with_event_log": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j2_b03",
+      "attempt": 4,
+      "record": "corrections_v2/execution/p02_C_j2_b03/attempt-04.json",
+      "record_sha256": "f3968ea098a9b2e47b04d3e0f9d50935f2339aad88d890b4b2eea09502f57a53",
+      "record_status": "accepted",
+      "record_session": "agent-d590c26b-0abf-4ea8-89e5-4b12a61a11cc",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j2_b03/attempt-04/attempt-04.sdk-events.jsonl",
+      "slot_event_log_sha256": "efe9a9cc5f29fba9d56b82b65252b41e3f03f95e29981fc67431fae9fb3ed8c6",
+      "slot_agent": "agent-d590c26b-0abf-4ea8-89e5-4b12a61a11cc",
+      "slot_runs": [
+        "run-81de6fc6-6c5c-4dab-983e-25045135754c"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          218
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j3_b01",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j3_b01/attempt-01.json",
+      "record_sha256": "432dd67fb64f2e49d0a07d718836466c12f6f576f64883a4b62c938946e2be65",
+      "record_status": "error",
+      "record_session": "unknown",
+      "record_reason": "Execution failed with returncode 2",
+      "classification": "collision_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j3_b01/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "4512ed59540e3659bb4db408c4c7c904941b4d135bddf689d557faac1710c827",
+      "slot_agent": "agent-d2761f78-7af1-4f28-821c-e3005895eaff",
+      "slot_runs": [
+        "run-53f1d4c7-e1d3-4d6e-af37-701a40e8926a"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          143,
+          145
+        ],
+        "exit_2": [
+          146
+        ],
+        "exit_1": [
+          152
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "duplicate_exit_2_logged": true,
+        "two_invocations_started_for_slot": true,
+        "launched_run_outcome_logged": true,
+        "outcome_consistent_with_event_log": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j3_b01",
+      "attempt": 2,
+      "record": "corrections_v2/execution/p02_C_j3_b01/attempt-02.json",
+      "record_sha256": "ec531e90abecbec1f54a3b7a033661ad7baf333a730cb8ec7c3ecb55ad3bc5e1",
+      "record_status": "error",
+      "record_session": "agent-2a63dac7-8aa7-43ad-b4b5-2c3c964023eb",
+      "record_reason": "Increase limits for faster responses You're out of usage. Switch to Auto, or ask your admin to increase your limit to continue.",
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j3_b01/attempt-02/attempt-02.sdk-events.jsonl",
+      "slot_event_log_sha256": "ae98f17efada95f59c965035b92740520a8ff5634b21efbe5356425218540d47",
+      "slot_agent": "agent-2a63dac7-8aa7-43ad-b4b5-2c3c964023eb",
+      "slot_runs": [
+        "run-8972ebb6-6de4-4e13-89e3-745b3e2153f8"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          147,
+          153
+        ],
+        "exit_1": [
+          154
+        ],
+        "exit_2": [
+          156
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j3_b01",
+      "attempt": 3,
+      "record": "corrections_v2/execution/p02_C_j3_b01/attempt-03.json",
+      "record_sha256": "9f9e13ed8f0d2d722e1d62d793f8182ce68ae479a833dc960d17c22d7e2144d6",
+      "record_status": "error",
+      "record_session": "unknown",
+      "record_reason": "Execution failed with returncode 2",
+      "classification": "collision_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j3_b01/attempt-03/attempt-03.sdk-events.jsonl",
+      "slot_event_log_sha256": "1cbdddf7de089ede05ba5bdff5d5712099d07a5db6371a01d10923999d0e8d5b",
+      "slot_agent": "agent-819f83f1-306d-4ff3-bc11-4492a569c1ce",
+      "slot_runs": [
+        "run-002c56eb-3ff6-43d0-93b8-4c4eb95a5ebc"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          155,
+          157
+        ],
+        "exit_2": [
+          160
+        ],
+        "exit_1": [
+          162
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "duplicate_exit_2_logged": true,
+        "two_invocations_started_for_slot": true,
+        "launched_run_outcome_logged": true,
+        "outcome_consistent_with_event_log": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j3_b01",
+      "attempt": 4,
+      "record": "corrections_v2/execution/p02_C_j3_b01/attempt-04.json",
+      "record_sha256": "cd34d6747179551b2b344cd54c133132842c9f18571fd768b361ae0f45c628a6",
+      "record_status": "accepted",
+      "record_session": "agent-0004780a-2565-42e7-90ed-480d0ae8adc6",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j3_b01/attempt-04/attempt-04.sdk-events.jsonl",
+      "slot_event_log_sha256": "84fe3f98f91284e47e090e2b62ec64e9bdee41bc7439f3b5481f3b1fafbcb666",
+      "slot_agent": "agent-0004780a-2565-42e7-90ed-480d0ae8adc6",
+      "slot_runs": [
+        "run-ab2ffc6f-743b-4638-99da-27108a432510"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          220
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j3_b02",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j3_b02/attempt-01.json",
+      "record_sha256": "29ffdbf826f30a65f2c6799efcedc9d70095828d533e0e18a0414e2596548cf3",
+      "record_status": "error",
+      "record_session": "unknown",
+      "record_reason": "Execution failed with returncode 2",
+      "classification": "collision_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j3_b02/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "2b50dd8615b7ac1e784932ad4aaa10b7b67ecce0cdd4c4cda0a525711f2326db",
+      "slot_agent": "agent-76d6c0ba-60c2-4146-90a6-115c195965cf",
+      "slot_runs": [
+        "run-2445ec97-cfcf-488a-911e-7dac4dd1abea"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          161,
+          163
+        ],
+        "exit_2": [
+          165
+        ],
+        "exit_1": [
+          167
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "duplicate_exit_2_logged": true,
+        "two_invocations_started_for_slot": true,
+        "launched_run_outcome_logged": true,
+        "outcome_consistent_with_event_log": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j3_b02",
+      "attempt": 2,
+      "record": "corrections_v2/execution/p02_C_j3_b02/attempt-02.json",
+      "record_sha256": "3590bce17174e766846d1de01421e6e5175ee44b37fd8e756a09bdb6b850ba81",
+      "record_status": "error",
+      "record_session": "unknown",
+      "record_reason": "Execution failed with returncode 2",
+      "classification": "collision_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j3_b02/attempt-02/attempt-02.sdk-events.jsonl",
+      "slot_event_log_sha256": "b8c12a7a68a60890ef3c4fd9f3bd010fbcd2c1c9f4825a69efe172ed24dc5a35",
+      "slot_agent": "agent-d141ee66-7de9-4950-abf1-f7d16cff65cf",
+      "slot_runs": [
+        "run-28f2816e-aa4c-4924-8405-eb8a9398e7c8"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          166,
+          168
+        ],
+        "exit_2": [
+          169
+        ],
+        "exit_1": [
+          171
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "duplicate_exit_2_logged": true,
+        "two_invocations_started_for_slot": true,
+        "launched_run_outcome_logged": true,
+        "outcome_consistent_with_event_log": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j3_b02",
+      "attempt": 3,
+      "record": "corrections_v2/execution/p02_C_j3_b02/attempt-03.json",
+      "record_sha256": "f6036e6b06a5d5f31d1f65d3e60ce574387a77b972a2bcc37d7dad9cfe7be369",
+      "record_status": "error",
+      "record_session": "unknown",
+      "record_reason": "Execution failed with returncode 2",
+      "classification": "collision_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j3_b02/attempt-03/attempt-03.sdk-events.jsonl",
+      "slot_event_log_sha256": "15fdf23b165c6bf9c3647428720ab8453c9f7318797b54dff18c0a2af00aceaf",
+      "slot_agent": "agent-42223fae-b0f4-4f2d-8479-6d8034203a7f",
+      "slot_runs": [
+        "run-ad644a26-3592-4b4c-a107-b845580511a3"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          170,
+          172
+        ],
+        "exit_2": [
+          173
+        ],
+        "exit_1": [
+          175
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "duplicate_exit_2_logged": true,
+        "two_invocations_started_for_slot": true,
+        "launched_run_outcome_logged": true,
+        "outcome_consistent_with_event_log": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j3_b02",
+      "attempt": 4,
+      "record": "corrections_v2/execution/p02_C_j3_b02/attempt-04.json",
+      "record_sha256": "bed74383080e9dfaf42fbb767be8e96ec2b7b5d37485871e4557811d47d95a76",
+      "record_status": "accepted",
+      "record_session": "agent-30d72466-b346-4455-b05f-f70a177f220a",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j3_b02/attempt-04/attempt-04.sdk-events.jsonl",
+      "slot_event_log_sha256": "24980302aa1d4bce8086b7a9ec659ec31b0d9f59525dfcff333b72f9ca92b7b1",
+      "slot_agent": "agent-30d72466-b346-4455-b05f-f70a177f220a",
+      "slot_runs": [
+        "run-3965c4ed-e7b3-40bf-94a2-178ea42fb6aa"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          222
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j3_b03",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j3_b03/attempt-01.json",
+      "record_sha256": "e90a0d7bc05e4bd879b29b84f2ede7f2dbda440c7dc798472f0795f221c50f97",
+      "record_status": "error",
+      "record_session": "unknown",
+      "record_reason": "Execution failed with returncode 2",
+      "classification": "collision_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j3_b03/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "23ad04c1f5cea80e1e9ff2be84af0aff70e823409b0b5eaa7db4c2ad59d0cf92",
+      "slot_agent": "agent-b091e9d9-cbfb-4537-9767-d1b98f3ddeb8",
+      "slot_runs": [
+        "run-19f0a414-e1fd-4b2d-b091-ae1527af872e"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          174,
+          176
+        ],
+        "exit_2": [
+          177
+        ],
+        "exit_1": [
+          179
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "duplicate_exit_2_logged": true,
+        "two_invocations_started_for_slot": true,
+        "launched_run_outcome_logged": true,
+        "outcome_consistent_with_event_log": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j3_b03",
+      "attempt": 2,
+      "record": "corrections_v2/execution/p02_C_j3_b03/attempt-02.json",
+      "record_sha256": "58061264b4148b5917cffc4bc455ad648313dce436724a6e2e9670b598a25e64",
+      "record_status": "error",
+      "record_session": "unknown",
+      "record_reason": "Execution failed with returncode 2",
+      "classification": "collision_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j3_b03/attempt-02/attempt-02.sdk-events.jsonl",
+      "slot_event_log_sha256": "cae10444b84c79b48ec9bfe5df7a1f4041b5aaea965fbeb5364434af1c824b85",
+      "slot_agent": "agent-c0aecb9b-a8f2-47e7-a40d-37c116ac8f61",
+      "slot_runs": [
+        "run-c84940d9-5b94-4b20-ac45-bccc4cc672ff"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          178,
+          180
+        ],
+        "exit_2": [
+          181
+        ],
+        "exit_1": [
+          183
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "duplicate_exit_2_logged": true,
+        "two_invocations_started_for_slot": true,
+        "launched_run_outcome_logged": true,
+        "outcome_consistent_with_event_log": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j3_b03",
+      "attempt": 3,
+      "record": "corrections_v2/execution/p02_C_j3_b03/attempt-03.json",
+      "record_sha256": "e85fdca982cafb6de9315462db1a9d329110156d932869ef5275b3e4b276cf6c",
+      "record_status": "error",
+      "record_session": "unknown",
+      "record_reason": "Execution failed with returncode 2",
+      "classification": "collision_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j3_b03/attempt-03/attempt-03.sdk-events.jsonl",
+      "slot_event_log_sha256": "4f2ed26d6b1956c2e07bc59dd5dff2e4c1e5f9e2f9c8345622b29e6adba8b6b7",
+      "slot_agent": "agent-9082c940-dcfb-465b-aaa4-de3f0e199f60",
+      "slot_runs": [
+        "run-10e280f0-496d-4903-823a-a53e15559a31"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          182,
+          184
+        ],
+        "exit_2": [
+          185
+        ],
+        "exit_1": [
+          187
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "duplicate_exit_2_logged": true,
+        "two_invocations_started_for_slot": true,
+        "launched_run_outcome_logged": true,
+        "outcome_consistent_with_event_log": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j3_b03",
+      "attempt": 4,
+      "record": "corrections_v2/execution/p02_C_j3_b03/attempt-04.json",
+      "record_sha256": "da33fa6ab1d1adbbfd16dffc3fb3675e85b75d8df9ab758a5eebf0837ae27ad9",
+      "record_status": "accepted",
+      "record_session": "agent-95d7f08e-c046-4563-bad8-1fe91221cb17",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j3_b03/attempt-04/attempt-04.sdk-events.jsonl",
+      "slot_event_log_sha256": "e8e5c6f9169c5e2a95678a07ce7ab23db90d3fc6861e31d49063e69262e36b6b",
+      "slot_agent": "agent-95d7f08e-c046-4563-bad8-1fe91221cb17",
+      "slot_runs": [
+        "run-ce41c675-846e-4845-93bd-870e61a05604"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          224
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j4_b01",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j4_b01/attempt-01.json",
+      "record_sha256": "ffde140d332a1ca56cad47097a5d26f08c33e35c4a013b3f2ba80115e0135ced",
+      "record_status": "error",
+      "record_session": "agent-7fc93ea5-89a3-48af-9322-1fb107580e20",
+      "record_reason": "Increase limits for faster responses You're out of usage. Switch to Auto, or ask your admin to increase your limit to continue.",
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j4_b01/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "ca942762dac1d3c941c7079d0402a425a6a83a74be6cc99fe18724b94de02e38",
+      "slot_agent": "agent-7fc93ea5-89a3-48af-9322-1fb107580e20",
+      "slot_runs": [
+        "run-c278e3c8-2912-4f52-97c5-de4a9fc9c3f2"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          186
+        ],
+        "exit_1": [
+          188
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j4_b01",
+      "attempt": 2,
+      "record": "corrections_v2/execution/p02_C_j4_b01/attempt-02.json",
+      "record_sha256": "d17953e95e3e51a71844eccb4f7f1cb1890035ade9044cd76471282e5009833b",
+      "record_status": "error",
+      "record_session": "agent-e503615c-6333-4f14-86da-baedefaa791d",
+      "record_reason": "Increase limits for faster responses You're out of usage. Switch to Auto, or ask your admin to increase your limit to continue.",
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j4_b01/attempt-02/attempt-02.sdk-events.jsonl",
+      "slot_event_log_sha256": "d4b1ebeabb7eef4ab7a9c18d2e065f52d4cbece98219af68861b20c093f64028",
+      "slot_agent": "agent-e503615c-6333-4f14-86da-baedefaa791d",
+      "slot_runs": [
+        "run-717201e9-85ad-42d2-b4c5-fa3c467cf6a8"
+      ],
+      "slot_final_status": "ERROR",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          189
+        ],
+        "exit_1": [
+          190
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j4_b01",
+      "attempt": 3,
+      "record": "corrections_v2/execution/p02_C_j4_b01/attempt-03.json",
+      "record_sha256": "515e8f9d6b0ed45ae0790a0fd6fc971afd18ec537faaf27521ba1db43e4777d4",
+      "record_status": "accepted",
+      "record_session": "agent-69ccfd95-c737-46d3-b512-6038a88f319a",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j4_b01/attempt-03/attempt-03.sdk-events.jsonl",
+      "slot_event_log_sha256": "b86db65531e25248f7840fa3d554f7791d0c2b3d2fccc6ad5df54c55909313e3",
+      "slot_agent": "agent-69ccfd95-c737-46d3-b512-6038a88f319a",
+      "slot_runs": [
+        "run-fe5bee2e-694c-4c6f-9a2a-1a60c77f3a66"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          191,
+          226
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j4_b02",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j4_b02/attempt-01.json",
+      "record_sha256": "a8746c4f9e418b6477ebe8cd4d909f7eb4a2bc8d4cadfdff4bf065c2a992a398",
+      "record_status": "accepted",
+      "record_session": "agent-ce437529-0855-41b0-8876-8a7dd73737ef",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j4_b02/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "5f2fb8b7831ba096f570bcd56ac0eafb686d016dd297d1f3d72081661c0c7f7d",
+      "slot_agent": "agent-ce437529-0855-41b0-8876-8a7dd73737ef",
+      "slot_runs": [
+        "run-8e8d7d59-0def-469d-953a-19c60ef8f00a"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          228
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j4_b03",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j4_b03/attempt-01.json",
+      "record_sha256": "fbb91bdfeceac9e8d5b5ed53436d8a7bca3a58955d9d2db26994b5855cfbcee3",
+      "record_status": "accepted",
+      "record_session": "agent-116c7eca-c3a9-4d21-a0d8-4f991c8ffa74",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j4_b03/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "af4e09f31913023367f00ae10f6928dc8e8bd599d8e8cfe2387cf531741da934",
+      "slot_agent": "agent-116c7eca-c3a9-4d21-a0d8-4f991c8ffa74",
+      "slot_runs": [
+        "run-b6214248-7277-47b5-b582-629fbeab5564"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          230
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j5_b01",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j5_b01/attempt-01.json",
+      "record_sha256": "5a9d325331b87776d692511fe9c862f52f1f0c72749777897d44f87b565701b8",
+      "record_status": "accepted",
+      "record_session": "agent-27a81a1e-6056-40a8-af71-94dae09a330d",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j5_b01/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "ed075b1eef4997a35deda0eff81bbe1158e00811f4857554b8186eed20d35c18",
+      "slot_agent": "agent-27a81a1e-6056-40a8-af71-94dae09a330d",
+      "slot_runs": [
+        "run-0c22e3e5-c739-4542-ae10-d488bb70487a"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          232
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j5_b02",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j5_b02/attempt-01.json",
+      "record_sha256": "687077a99962eaab4a74152772b807ad833ae4137e7f921fc5e67a7e41053b0d",
+      "record_status": "accepted",
+      "record_session": "agent-8ae3b05a-ad74-410a-bf81-1e6b65a3f6cc",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j5_b02/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "89028e17ceaeeadb9a212e6d1835d7bd1b83c7438be16983ca6ac48fa1b9d4da",
+      "slot_agent": "agent-8ae3b05a-ad74-410a-bf81-1e6b65a3f6cc",
+      "slot_runs": [
+        "run-66bb6e9e-e167-4ef9-933b-4a217dbeb745"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          234
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    },
+    {
+      "job_id": "p02_C_j5_b03",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j5_b03/attempt-01.json",
+      "record_sha256": "ac88d9c366eaf0e965f2e65b9924fffe053406a543741be2b9a6e93cd00093cc",
+      "record_status": "accepted",
+      "record_session": "agent-4b36f9b4-478d-4ae2-b353-d470221fa327",
+      "record_reason": null,
+      "classification": "own_record",
+      "slot_event_log": "/home/evidex/records/p02_C_j5_b03/attempt-01/attempt-01.sdk-events.jsonl",
+      "slot_event_log_sha256": "875a744403af1cc2db13277cea424f99e0624b39471c2ce496bd4545171dbeff",
+      "slot_agent": "agent-4b36f9b4-478d-4ae2-b353-d470221fa327",
+      "slot_runs": [
+        "run-b1f1f3a9-79e3-4e29-9ab6-fdb22c0f379f"
+      ],
+      "slot_final_status": "FINISHED",
+      "agent_parsed_in_attempt_evidence": true,
+      "runner_log_lines": {
+        "start": [
+          236
+        ]
+      },
+      "checks": {
+        "event_log_names_exactly_one_agent": true,
+        "record_session_equals_event_log_agent": true,
+        "slot_agent_unique": true
+      },
+      "established": true
+    }
+  ]
+}

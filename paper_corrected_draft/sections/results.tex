@@ -12,7 +12,7 @@ Evidence also increases cross-model prediction agreement, from 89.3\% ($\kappa=0
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.92\linewidth]{../analysis_v2/figures/fig1_transition_matrices.png}
-\caption{Paired transition matrices for GPT-5.4 and GPT-5.4-mini. Off-diagonal cells are rescues (wrong$\rightarrow$correct) and regressions (correct$\rightarrow$wrong).}
+\caption{Paired evidence-transition classes for GPT-5.4 and GPT-5.4-mini on the same 10{,}000 claims: robust (correct$\rightarrow$correct), rescue (wrong$\rightarrow$correct), resistant (wrong$\rightarrow$wrong) and regression (correct$\rightarrow$wrong).}
 \label{fig:transitions}
 \end{figure}
 
@@ -67,7 +67,7 @@ Among regressions with a decisive Stage~C consensus, the Grok verdict agrees wit
 
 Progressive disclosure changes a minority of verdicts (Table~\ref{tab:stage}, Figure~\ref{fig:stage}).
 Titles make 16 of the 103 Stage~A-nondecisive regressions decisive, and Stage~C makes 27 of the 95 Stage~B-nondecisive regressions decisive.
-No decisive consensus is reversed by titles or by Stage~C.
+No decisive consensus switches to the opposite label at either step, although titles leave 8 previously decisive regressions nondecisive and Stage~C does so for 3 more.
 Because Stage~C adds alternative sentence text for 41 regressions, Stage~C-associated changes cannot be attributed to representation alone; the 17 additional-evidence cases are separated from the two structure-only cases for that reason.
 
 Shared regressions remain nondecisive more often than model-specific ones (Table~\ref{tab:shared}): 45.0\% versus 28.5\% under Grok (odds ratio 2.05, $p_{\mathrm{BH}}=0.059$).
@@ -84,7 +84,8 @@ Among decisive Stage~C consensus verdicts, FEVER agreement is similar across fam
 
 Claude is more decisive at every stage (Table~\ref{tab:stage}, Figure~\ref{fig:stage}): nondecisive rates are 29.2\%, 28.3\% and 18.1\% (first-valid 17.3\%) versus Grok's 45.6\%, 42.0\% and 31.4\%.
 Titles resolve 9 of Claude's 66 Stage~A-nondecisive regressions and Stage~C resolves 24 of its 64 Stage~B-nondecisive regressions (first-valid 27).
-Title and Stage~C resolution rates do not differ significantly between families, and neither family reverses a decisive consensus.
+Title and Stage~C resolution rates do not differ significantly between families.
+Neither family switches a decisive consensus to the opposite label; under Claude, 7 decisive verdicts become nondecisive with titles and 1 at Stage~C (first-valid 2).
 
 \begin{figure}[t]
 \centering
@@ -92,14 +93,15 @@ Title and Stage~C resolution rates do not differ significantly between families,
 \caption{Nondecisive (Ambiguous or Unresolved) five-judge consensus on the 226 regressions at each disclosure stage, with Wilson 95\% intervals. Stages~A and~B are retained historical judgments on unchanged inputs; Stage~C is new judgments on repaired inputs. The open diamond is Claude Stage~C under the first-valid sensitivity selection.}
 \label{fig:stage}
 \end{figure}
-Under Claude, shared regressions are also more often nondecisive than model-specific ones (35.0\% versus 14.5\%; odds ratio 3.17, $p_{\mathrm{BH}}=0.011$; first-valid 3.47, $p_{\mathrm{BH}}=0.005$).
+Under Claude, shared regressions are also more often nondecisive than model-specific ones (35.0\% versus 14.5\%; odds ratio 3.17, $p_{\mathrm{BH}}=0.011$; first-valid 3.47, $p_{\mathrm{BH}}=0.0046$).
 
 Exact per-claim category agreement is 172/226 (76.1\%, Wilson 70.1--81.2; $\kappa=0.673$) for the accepted selection and 168/226 (74.3\%, 68.3--79.6; $\kappa=0.651$) for first-valid.
 The first-valid figure coincides numerically with the historical 74.3\%, which measured a different, withdrawn taxonomy on defective inputs; the two are not comparable.
 
 \paragraph{Selection sensitivity.}
-Substituting the first valid outputs for the accepted ones changes Stage~C consensus for six of the 226 Claude claims and for one of the 1{,}060 Grok claims (a rescue-cohort claim, so no Grok regression result changes).
-All 14 cross-family tests and both odds-ratio tests keep their Benjamini--Hochberg decisions, and the only sign change is the non-significant Stage~C resolution difference ($-1.3$ to $0.0$~pp).
+Substituting the first valid outputs for the accepted ones changes Stage~C consensus for six of the 226 Claude claims and for one of the 1{,}060 Grok claims.
+The Grok change comes from the output that ended in a provider error; it moves a rescue-cohort claim from Ambiguous to Unresolved, so no Grok category and no regression result changes.
+All 14 cross-family tests and both odds-ratio tests keep their Benjamini--Hochberg decisions, and no cross-family difference moves by more than 1.3~pp.
 Across all 12 combinations of completed runs for the two affected Claude jobs, zero to six claims change consensus relative to the accepted outputs and Claude Stage~C Ambiguous counts range from 37 to 42 of 226.
 
 \subsection{Supporting Stage~A check}
@@ -110,7 +112,7 @@ This is Stage~A robustness only; Stage~A inputs were unaffected by the audit.
 
 \subsection{What depends on the judge family}
 \label{sec:what-replicates}
-Common to both families: all categories occur; each disclosure step resolves a minority of the regressions that were nondecisive before it and never reverses a decisive consensus; roughly a fifth to a quarter of regressions end in a decisive verdict opposite to FEVER; decisive verdicts agree with FEVER at similar rates; and shared regressions are more often nondecisive (significant under Claude only).
+Common to both families: all categories occur; each disclosure step resolves a minority of the regressions that were nondecisive before it, leaves a few decisive ones nondecisive, and never switches a decisive consensus to the opposite label; roughly a fifth to a quarter of regressions end in a decisive verdict opposite to FEVER; decisive verdicts agree with FEVER at similar rates; and shared regressions are more often nondecisive (significant under Claude only).
 
 Family-dependent: absolute nondecisiveness at every stage (13--16~pp lower under Claude), the share of sentence-only gold agreement, and therefore which category is largest.
 Per-claim assignment agrees on roughly three claims in four ($\kappa=0.65$--$0.67$).

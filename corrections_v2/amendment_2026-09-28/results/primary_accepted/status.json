@@ -93,9 +93,14 @@
     "panel": "primary",
     "status": "ready_under_amendment_A1",
     "max_attempts": 9,
-    "sessions_checked": 101,
-    "distinct_sessions": 101,
-    "unknown_session_records_resolved_by_evidence": 13,
+    "attempt_records": 102,
+    "records_by_classification": {
+      "collision_record": 13,
+      "not_launched": 1,
+      "own_record": 88
+    },
+    "launched_attempt_slots": 101,
+    "distinct_slot_agents": 101,
     "amended_provenance_errors": {},
     "frozen_protocol_status": "incomplete",
     "frozen_protocol_provenance_errors": {
@@ -117,7 +122,7 @@
     "grok": 1060,
     "claude_full": 226
   },
-  "created_at_utc": "2026-09-28T05:31:27.978434+00:00",
+  "created_at_utc": "2026-09-28T05:53:02.794152+00:00",
   "followup_packets_generated": false,
   "judgment_freeze_created": false,
   "inference_launched": false

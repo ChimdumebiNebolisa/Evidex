@@ -14,7 +14,7 @@ Those regressions are rare relative to the 10{,}000-claim sample, but they are n
 They concentrate on claim--evidence pairs that local NLI models treat as weakly warranted, and they are only partly shared across the two GPT models.
 
 Counting regressions does not say what kind of claim--evidence pair produced them.
-An independent adjudicator may find the designated evidence decisive for the FEVER label, decisive for the opposite label, or insufficient; and its verdict may change when page titles or structured evidence are added.
+A separate adjudicator may find the designated evidence decisive for the FEVER label, decisive for the opposite label, or insufficient; and its verdict may change when page titles or structured evidence are added.
 We therefore run blinded progressive-disclosure silver adjudication.
 Five isolated judges see sentence evidence (Stage~A), then page titles (Stage~B), then structured FEVER evidence with annotation boundaries and available alternative evidence (Stage~C).
 A descriptive taxonomy records, separately, whether the panel is decisive at each stage, whether a decisive verdict agrees with FEVER, and at which stage a gold-agreeing verdict first appears.
@@ -26,7 +26,7 @@ Because provider capacity limits and concurrently running job runners produced m
 
 The resulting claim is two-part.
 First, designated gold evidence improves overall accuracy while creating a measurable set of localized regressions.
-Second, independent judge panels describe those regressions as a mixture of FEVER-agreeing, FEVER-disagreeing and nondecisive outcomes whose proportions depend on the adjudicating family; the adjudication does not reveal why GPT changed its answer.
+Second, blinded model judge panels describe those regressions as a mixture of FEVER-agreeing, FEVER-disagreeing and nondecisive outcomes whose proportions depend on the adjudicating family; the adjudication does not reveal why GPT changed its answer.
 
 \paragraph{Contributions.}
 We (i)~quantify paired evidence gains and evidence-induced regressions on a verified 10{,}000-claim FEVER experiment;
