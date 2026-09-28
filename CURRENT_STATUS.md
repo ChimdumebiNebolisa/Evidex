@@ -18,7 +18,7 @@ says what is out of date in each one.
 | Protocol follow-ups (new residual Claude panel, Stage C resolver) | Not generated or run, because they depend on the primary freeze |
 | Post-judgment deviation analysis | **Exists.** Separately labeled and dated. It applies the frozen analysis code to the accepted outputs and to a first-valid selection, both chosen after the outputs were inspected. See the note below |
 | Amendment A1 (post-judgment, 2026-09-28) | **Adopted by the authors.** Allows up to 9 attempts and checks session uniqueness on the agent of each launched slot (101 slots, 101 distinct agents, all read from WSL event logs). The 13 `unknown`-session records are pre-launch exits of duplicate runners, not model attempts; each slot's real attempt is identified from its event log and the runner log (`session_evidence.json`). Explicitly selects the accepted outputs. Status `ready_under_amendment_A1`. Results in `corrections_v2/amendment_2026-09-28/results/` are identical in every estimate to the provisional analysis. Not preregistered |
-| Corrected manuscript | `paper_corrected_draft/evidex-corrected-draft.pdf` (compiled, 19 pages), for coauthor review. Its decisions list is in `paper_corrected_draft/README.md` |
+| Corrected manuscript | `paper_corrected_draft/evidex-corrected-draft.pdf` (compiled, 21 pages, revised for Jessica Udry's editorial comments; see `paper_corrected_draft/EDITORIAL_RESPONSE_TO_JESSICA.md`), for coauthor review. Its decisions list is in `paper_corrected_draft/README.md` |
 
 ## Read next
 

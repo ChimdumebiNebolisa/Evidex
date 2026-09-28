@@ -25,7 +25,7 @@ Among claim-only errors, evidence corrects 75.2\% (GPT-5.4) and 80.8\% (mini).
 Unique-claim counts, not model-observations, are the regression cohort for later adjudication: 226 claims regress for at least one model, 40 for both, and 186 for exactly one (75 GPT-5.4-only, 111 mini-only).
 A paired McNemar test on discordant claims finds a modest model difference in regression incidence (115 vs.\ 151, $\chi^2=6.59$, $p=0.010$).
 87.3\% of claims share the same transition class across models.
-RQ2's answer is therefore: regressions are real, rare relative to 10{,}000 claims, only partly shared, and large enough to study as a structured minority.
+The answer to RQ2 is therefore that regressions are rare relative to the 10{,}000 claims and only partly shared between the two models, but numerous enough to study as a structured minority.
 These behavioral results come from the original 40{,}000 predictions and are unaffected by the adjudication audit; they are observed outcomes of the original prompts, not evidence of repeat-run stability.
 
 \subsection{Characteristics of evidence-induced regressions}
@@ -72,7 +72,7 @@ Because Stage~C adds alternative sentence text for 41 regressions, Stage~C-assoc
 
 Shared regressions remain nondecisive more often than model-specific ones (Table~\ref{tab:shared}): 45.0\% versus 28.5\% under Grok (odds ratio 2.05, $p_{\mathrm{BH}}=0.059$).
 
-The RQ3 answer is a mixture of FEVER-agreeing, FEVER-disagreeing and nondecisive outcomes, with no single dominant category under Grok.
+The answer to RQ3 is that, under Grok, regressions form a mixture of FEVER-agreeing, FEVER-disagreeing and nondecisive outcomes with no single dominant category.
 These outcomes do not show why GPT changed its answer, and the decisive disagreements are not evidence that FEVER is wrong.
 
 \subsection{Cross-family comparison}
@@ -112,9 +112,13 @@ This is Stage~A robustness only; Stage~A inputs were unaffected by the audit.
 
 \subsection{What depends on the judge family}
 \label{sec:what-replicates}
-Common to both families: all categories occur; each disclosure step resolves a minority of the regressions that were nondecisive before it, leaves a few decisive ones nondecisive, and never switches a decisive consensus to the opposite label; roughly a fifth to a quarter of regressions end in a decisive verdict opposite to FEVER; decisive verdicts agree with FEVER at similar rates; and shared regressions are more often nondecisive (significant under Claude only).
+Several descriptions hold under both panels.
+Every category occurs under both families.
+At each disclosure step, both panels resolve a minority of the regressions that were nondecisive before it and leave a few decisive ones nondecisive, and neither ever switches a decisive consensus to the opposite label.
+Under both, roughly a fifth to a quarter of the regressions end in a decisive verdict opposite to FEVER, decisive verdicts agree with FEVER at similar rates, and shared regressions are more often nondecisive than model-specific ones, although that difference is significant under Claude only.
 
-Family-dependent: absolute nondecisiveness at every stage (13--16~pp lower under Claude), the share of sentence-only gold agreement, and therefore which category is largest.
-Per-claim assignment agrees on roughly three claims in four ($\kappa=0.65$--$0.67$).
-RQ4's answer is that the qualitative mixture is shared while its proportions are family-dependent.
-The design cannot decide whether Claude is better calibrated or more overconfident on thin warrants, because both panels are models scoring the same packets.
+Other descriptions depend on which family judges.
+Claude is less often nondecisive at every stage, by 13--16~pp, and places a larger share of regressions in sentence-only gold agreement, so the two panels disagree about which category is largest.
+At the level of individual claims, the panels assign the same category to roughly three regressions in four ($\kappa=0.65$--$0.67$).
+The answer to RQ4 is therefore that the qualitative mixture of outcomes is shared while its proportions depend on the judge family.
+Because both panels are models scoring the same packets, the design cannot determine whether Claude is better calibrated than Grok or more willing to reach a verdict on weakly supported claims.

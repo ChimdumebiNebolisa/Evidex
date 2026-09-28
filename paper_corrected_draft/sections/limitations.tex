@@ -2,36 +2,31 @@
 \label{sec:limitations}
 
 All adjudication is automated silver labeling.
-Grok, GLM, and Claude judgments are not expert human annotation and do not create a new gold standard.
-Within-family agreement overstates how much independent human raters would agree, because the five judges are isolated contexts of one locked model.
+The Grok, GLM and Claude judgments are model outputs, not expert human annotation, and they create no new gold standard; no adjudication outcome was reviewed by humans.
+The adjudication can therefore describe how model judges read the evidence, but not how people would read it.
+Agreement within a panel also overstates how far independent human raters would agree, because the five judges are isolated runs of one locked model rather than independent readers.
+Across panels, the category shares differ by judge family, so we report both complete panels rather than a single estimate.
+Coverage is also uneven: the Claude panel judges only the 226 regressions, not the 1{,}060-claim judged cohort, and the GLM panel covers Stage~A only.
 
-Category shares are judge-family-sensitive.
-We report both complete panels and refuse a single point estimate.
+FEVER labels remain the reference standard for scoring GPT, and the experiment covers a narrow slice of FEVER.
+Its claims are 2017-era Wikipedia claims restricted to the Supported and Refuted labels, and the evidence is designated rather than retrieved.
+The results therefore say nothing directly about \texttt{NOT ENOUGH INFO} claims, about open-web retrieval, where retrieval errors would add to the failures studied here, or about claims from other sources and periods.
+Both evaluated systems are GPT-5.4 variants, so the overlap between their transitions may partly reflect errors shared within one model family.
+Disagreement between an NLI model or a judge panel and FEVER marks candidate ambiguity; it does not show that an annotation is wrong.
 
-FEVER labels remain the behavioral gold standard.
-NLI disagreement and judge--FEVER disagreement mark candidate ambiguity; they do not prove an annotation is wrong.
+The design locates where a judge panel's verdict changes, not what happened inside GPT.
+Progressive disclosure observes judges, not GPT-internal mechanisms, and the original GPT runs stored predicted labels only, so no analysis in this paper can recover why a particular prediction changed.
 
-The study is binary Supported/Refuted FEVER, 2017-era Wikipedia claims, and designated gold evidence rather than retrieved open-web context.
-\texttt{NOT ENOUGH INFO} is excluded by design.
-
-Both evaluated systems are GPT-5.4 variants.
-Transition concordance can reflect family-correlated errors.
-
-Progressive disclosure locates where a judge panel's verdict changes.
-It does not observe GPT-internal causal mechanisms, and the original GPT runs stored labels only.
-
-The historical adjudication's Stage~C packets displayed corrupted sentence text, and its taxonomy conflated disagreement with FEVER with evidence utilization.
-The repaired Stage~C and the descriptive taxonomy were specified post hoc, after the historical results and defects were inspected; the correction protocol is not a preregistration and the taxonomy awaits coauthor review.
-Stage~C adds alternative evidence text for some claims, so Stage~C-associated changes are not a pure representation manipulation.
-
-Consensus paths combine retained historical Stage~A/B judgments with new Stage~C judgments.
-The historical protocol specified a fresh context per judge, batch and stage, but raw historical session transcripts were not available to verify runtime isolation independently.
-
-The Stage~C analysis rests on an amendment adopted after the judgments and their provisional results had been seen: it relaxed the protocol's execution rules and selected the accepted outputs where earlier valid outputs existed.
-Under the original rules the protocol's primary analysis is incomplete, and the amended analysis is not a pre-specified result.
-The amendment decides which outputs are admitted, not how they are analysed; the first-valid alternative changes six Claude consensus labels without changing any significance decision.
-Execution provenance rests on operator records and hashed logs rather than provider attestation.
-
-The protocol's follow-up panels were not run: a newly selected residual Claude panel, a Stage~C resolver, and an optional fixed historical residual panel; nor was any adjudication outcome reviewed by humans.
-The Claude panel covers the 226 regressions, not the 1{,}060-item judged cohort, and GLM is Stage~A only.
+The adjudication itself was corrected after the fact.
+The historical Stage~C packets displayed corrupted sentence text, and the historical taxonomy conflated disagreement with FEVER with evidence utilization.
+The repaired Stage~C and the descriptive taxonomy were specified post hoc, after the historical results and defects had been inspected; the correction protocol is not a preregistration, and the taxonomy awaits coauthor review.
+Stage~C also adds alternative evidence text for some claims, so changes associated with Stage~C are not a pure manipulation of representation.
+Finally, each consensus path combines retained historical Stage~A and~B judgments with new Stage~C judgments made on a different occasion.
+Treating those judgments as one path relies on the historical protocol's fresh context for every judge, batch and stage, which could not be verified independently because raw historical session transcripts were unavailable; if that isolation failed, some stage-to-stage changes could reflect earlier context rather than the newly disclosed evidence.
 Historical execution events in the original Claude panel (a quarantined rerun after a blinding leak, a paused and resumed stage, and a duplicate-batch tie-break) affect only its retained Stage~A/B judgments and are documented in Appendix~\ref{app:historical-deviations}.
+
+The Stage~C analysis also rests on an amendment adopted after the judgments and their provisional results had been seen.
+The amendment relaxed the protocol's execution rules and selected the accepted outputs where earlier valid outputs existed, so under the original rules the protocol's primary analysis is incomplete and the amended analysis is not a pre-specified result.
+The amendment governs which outputs are admitted, not how they are analysed, and the first-valid alternative changes six Claude consensus labels without changing any significance decision.
+Execution provenance rests on operator records and hashed logs rather than provider attestation.
+The protocol's follow-up panels (a newly selected residual Claude panel, a Stage~C resolver, and an optional fixed historical residual panel) were not run.

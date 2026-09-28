@@ -1,32 +1,43 @@
 \section{Introduction}
 \label{sec:intro}
 
-Evidence grounding is a standard recipe for making language-model fact verification more trustworthy.
-If a model is shown the same designated evidence that a benchmark treats as sufficient, aggregate accuracy should rise, and remaining errors should look like residual retrieval or coverage problems rather than failures to use gold evidence.
-That picture is incomplete.
-Aggregate improvements can hide a second phenomenon: claims the model already answered correctly without evidence, then answered incorrectly after the designated evidence was added.
+Evidence grounding is a standard method for making language-model fact verification more trustworthy.
+If a model is shown the evidence that a benchmark designates as sufficient, aggregate accuracy should rise, and the errors that remain should reflect problems of retrieval or coverage rather than a failure to use that evidence.
+Aggregate accuracy can, however, hide a second phenomenon: claims that a model classifies correctly without evidence but incorrectly after the designated evidence is added.
+We call such a correct-to-wrong change a \emph{regression}.
 
-This paper studies that phenomenon on FEVER \citep{thorne-etal-2018-fever}.
-We evaluate GPT-5.4 and GPT-5.4-mini on a balanced 10{,}000-claim Supported/Refuted sample under two paired conditions: claim only, and claim plus FEVER-designated gold evidence.
-Evidence helps in aggregate (Table~\ref{tab:accuracy}).
-It also induces 226 unique correct-to-wrong regressions.
-Those regressions are rare relative to the 10{,}000-claim sample, but they are not unstructured noise.
-They concentrate on claim--evidence pairs that local NLI models treat as weakly warranted, and they are only partly shared across the two GPT models.
+We study regressions on FEVER \citep{thorne-etal-2018-fever}, a claim-verification dataset built from Wikipedia.
+Annotators labeled each FEVER claim Supported, Refuted or Not Enough Info and, for Supported and Refuted claims, recorded the Wikipedia sentences that serve as evidence.
+FEVER suits the question because this annotated evidence can be given to a model directly.
+From its development set we draw a balanced sample of 10{,}000 Supported and Refuted claims and evaluate GPT-5.4 and GPT-5.4-mini on each claim twice: once with the claim alone, and once with the claim plus its FEVER-designated evidence, which we call gold evidence.
+Because each claim is compared with itself and no retrieval step is involved, a change between the two conditions can be attributed to the supplied evidence rather than to retrieval.
+The sample is restricted to the two labels for which FEVER records evidence, so it does not represent FEVER as a whole.
 
-Counting regressions does not say what kind of claim--evidence pair produced them.
-A separate adjudicator may find the designated evidence decisive for the FEVER label, decisive for the opposite label, or insufficient; and its verdict may change when page titles or structured evidence are added.
-We therefore run blinded progressive-disclosure silver adjudication.
-Five isolated judges see sentence evidence (Stage~A), then page titles (Stage~B), then structured FEVER evidence with annotation boundaries and available alternative evidence (Stage~C).
-A descriptive taxonomy records, separately, whether the panel is decisive at each stage, whether a decisive verdict agrees with FEVER, and at which stage a gold-agreeing verdict first appears.
-Two model families adjudicate the same 226 regressions: a locked Grok panel and a locked Claude panel.
+Evidence helps in aggregate (Table~\ref{tab:accuracy}), but it also produces regressions.
+For GPT-5.4, 115 of the 10{,}000 claims (1.15\%) changed from correct without evidence to wrong with it; for GPT-5.4-mini, 151 (1.51\%) did; and 226 distinct claims regressed for at least one model.
+These regressions are rare, but they are not unstructured noise.
+They concentrate on claim--evidence pairs that local natural language inference (NLI) models judge weakly supported by the evidence, and only 40 of the 226 claims regress for both models.
 
-An audit of the historical adjudication found that its Stage~C packets displayed corrupted sentence text for most claims and that its three-way failure-mode taxonomy conflated judge--FEVER disagreement with evidence utilization.
-Under a post hoc correction protocol frozen before new judgments, Stage~C was rebuilt from archival FEVER data and re-judged by both families; historical Stage~A/B judgments, whose inputs were verified unchanged, are retained.
-Because execution failures prevented the protocol's execution rules from being followed as written, the analysis follows a dated post-judgment amendment that fixes which output of each job is analysed, and we report how sensitive the results are to that choice (Section~\ref{sec:correction}).
+A regression is an observed change in a prediction; it does not reveal its cause.
+The same change could arise because the model did not use evidence that is in fact decisive, because the evidence can reasonably be read in more than one way, or because the evidence does not settle the claim even for a careful reader.
+The original runs recorded only predicted labels, so they cannot distinguish these possibilities.
+We therefore ask an observable question instead: how do separate, blinded readers judge the same evidence?
+To answer it we use progressive-disclosure silver adjudication.
+``Silver'' means that the verdicts come from automated model judges rather than expert human annotators, so they are not ground truth.
+``Progressive disclosure'' means that each judge sees the evidence in three cumulative stages: the selected evidence sentences, exactly as GPT received them (Stage~A); the same sentences with their Wikipedia page titles (Stage~B); and structured FEVER evidence with annotation boundaries and any alternative evidence sets (Stage~C).
+Recording verdicts at every stage shows whether a claim is decided from the sentences GPT saw, only after more context, or not at all.
+At each stage, five isolated runs of one locked model judge every claim, and a descriptive taxonomy records, separately, whether their consensus is decisive (Supported or Refuted), whether a decisive verdict agrees with FEVER, and the stage at which agreement first appears.
+Two model families serve as judges: a locked Grok model judges a 1{,}060-claim diagnostic cohort that includes the 226 regressions, and a locked Claude model judges the 226 regressions.
 
-The resulting claim is two-part.
-First, designated gold evidence improves overall accuracy while creating a measurable set of localized regressions.
-Second, blinded model judge panels describe those regressions as a mixture of FEVER-agreeing, FEVER-disagreeing and nondecisive outcomes whose proportions depend on the adjudicating family; the adjudication does not reveal why GPT changed its answer.
+An audit of the historical adjudication found that its Stage~C packets displayed corrupted sentence text for most claims and that its three-way failure-mode taxonomy conflated disagreement with FEVER with evidence utilization.
+Under a post hoc correction protocol frozen before any new judgment, Stage~C was rebuilt from archival FEVER data and re-judged by both families, while the historical Stage~A and~B judgments, whose inputs were verified unchanged, are retained.
+Because the protocol's execution rules could not be followed as written, the analysis follows a dated post-judgment amendment that fixes which output of each judging job is analysed, and we report how sensitive the results are to that choice (Section~\ref{sec:correction}).
+
+The study yields two findings.
+First, designated gold evidence improves overall accuracy while producing a measurable set of localized regressions.
+Second, both judge panels describe these regressions as a mixture of FEVER-agreeing, FEVER-disagreeing and nondecisive outcomes, but they assign individual claims to different categories often enough that the proportions depend on which model family judges.
+We treat that dependence as a property of the measurement instrument: an automated description of the regressions can be relied on only as far as it holds across judge families.
+Neither finding reveals why GPT changed its answers.
 
 \paragraph{Contributions.}
 We (i)~quantify paired evidence gains and evidence-induced regressions on a verified 10{,}000-claim FEVER experiment;
@@ -34,9 +45,4 @@ We (i)~quantify paired evidence gains and evidence-induced regressions on a veri
 (iii)~describe the 226 unique regressions with blinded progressive-disclosure adjudication on repaired evidence, keeping decisiveness and FEVER agreement separate;
 (iv)~compare two adjudicating families on the same claims and identify which descriptive findings depend on the family; and
 (v)~document an evidence-reconstruction defect in the historical adjudication and its correction.
-
-We ask four research questions, restated in Section~\ref{sec:rqs}.
-RQ1 asks whether designated gold evidence improves aggregate accuracy.
-RQ2 asks how frequent and cross-model-consistent the regressions are.
-RQ3 asks which observable adjudication outcomes characterize regressions under progressive disclosure.
-RQ4 asks which of those outcomes depend on the adjudicating model family.
+These aims correspond to the four research questions of Section~\ref{sec:rqs}: whether gold evidence improves aggregate accuracy (RQ1), how frequent and how consistent across models the regressions are (RQ2), which observable adjudication outcomes characterize them (RQ3), and which of those outcomes depend on the judge family (RQ4).

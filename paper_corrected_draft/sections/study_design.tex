@@ -3,6 +3,10 @@
 
 \subsection{Research questions}
 \label{sec:rqs}
+The study has two parts.
+The first measures what supplying designated evidence does to GPT predictions, both in aggregate and claim by claim, which exposes the regressions that aggregate accuracy hides.
+The second describes those regressions through blinded judge panels whose readings of the same evidence can be compared across model families.
+This study seeks to answer four questions, two for each part:
 % COAUTHOR REVIEW: RQ3 and RQ4 are reworded from "diagnostic failure modes" to descriptive adjudication outcomes.
 \begin{description}
 \item[RQ1] How does providing FEVER-designated gold evidence affect aggregate LLM fact-verification accuracy?
@@ -20,8 +24,9 @@ Sampling and validation artifacts are committed with the frozen repository; thir
 \subsection{Models and paired evidence conditions}
 Each claim is evaluated four times: GPT-5.4 and GPT-5.4-mini, each under \texttt{claim\_only} and \texttt{claim\_plus\_evidence}.
 That yields 40{,}000 predictions.
-The evidence condition uses the designated FEVER evidence, not an open-web retrieval step.
-Original GPT runs stored labels only, so later analysis cannot recover confidence, rationales, or token-level attributions.
+The evidence condition places the designated FEVER evidence (gold evidence) directly in the prompt; no retrieval step is involved.
+Because the two conditions differ only in whether that evidence is present, a change in a claim's prediction between them reflects the supplied evidence rather than retrieval.
+Original GPT runs stored predicted labels only, so later analysis cannot recover confidence, rationales, or token-level attributions.
 
 \subsection{Transition definitions}
 For each model, a claim has one of four paired transitions:
@@ -46,6 +51,8 @@ This diagnostic sample is not representative of all 10{,}000 claims, and cross-f
 
 \subsection{Progressive-disclosure adjudication}
 \label{sec:protocol}
+Each judge is a single isolated run of a locked model that applies a fixed rubric to each claim and its evidence and returns a verdict (Supported, Refuted or Ambiguous) with a rating of evidence sufficiency; code combines the five judges' outputs into a consensus that is Supported, Refuted, Ambiguous or Unresolved.
+The design discloses the evidence in cumulative stages so that a panel's verdicts show whether a claim can be decided from the sentences GPT saw, is decided only after more context, or remains undecided.
 Five isolated judges per stage and batch see:
 Stage~A, the original selected gold-evidence sentence text (identical to the GPT evidence prompt);
 Stage~B, Stage~A plus the page titles;
