@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Stage-wise panel nondecisiveness and resolution on the 226 regressions. Stage~A and~B values come from retained historical judgments on unchanged inputs; Stage~C values come from new judgments on repaired inputs. Differences are Claude minus Grok with exact McNemar tests, Benjamini--Hochberg adjusted over 14 tests; values in parentheses are the first-valid selection where it differs.}
+\label{tab:stage}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Measure & Grok & Claude & $\Delta$ (pp) & $p_{\mathrm{BH}}$ \\
+\midrule
+Nondecisive at Stage~A & 103 (45.6\%) & 66 (29.2\%) & $-16.4$ & $1.1\times 10^{-8}$ \\
+Nondecisive at Stage~B & 95 (42.0\%) & 64 (28.3\%) & $-13.7$ & $9.4\times 10^{-7}$ ($1.2\times 10^{-6}$) \\
+Nondecisive at Stage~C & 71 (31.4\%) & 41 (18.1\%) [39 (17.3\%)] & $-13.3$ [$-14.2$] & $7.2\times 10^{-8}$ ($9.1\times 10^{-8}$) \\
+Resolved by titles (A$\rightarrow$B) & 16 (7.1\%) & 9 (4.0\%) & $-3.1$ & 0.25 \\
+Resolved at Stage~C (B$\rightarrow$C) & 27 (11.9\%) & 24 (10.6\%) [27 (11.9\%)] & $-1.3$ [0.0] & 0.93 (1.0) \\
+Decisive verdict reversed & 0 & 0 & 0.0 & 1.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

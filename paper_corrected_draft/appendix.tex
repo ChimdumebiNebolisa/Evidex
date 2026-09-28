@@ -1,0 +1,65 @@
+\appendix
+\section{Execution deviations in the corrected Stage~C}
+\label{app:correction-deviations}
+
+The correction protocol was frozen on 2026-09-27 with no judgment outputs present.
+It required 70 jobs (55 Grok on 1{,}060 claims; 15 Claude on 226 claims; 6{,}430 judgments), at most three attempts per job, acceptance of the first schema-valid response, and a unique session per attempt.
+All 70 jobs delivered schema-valid outputs; every attempt, including failures, is archived byte-exact.
+
+Provider quota exhaustion and an account usage limit caused repeated failed attempts.
+With operator authorization, six jobs (two Grok, four Claude) were retried beyond three attempts; in five of them the accepted output was the first schema-valid output, and in the sixth (\texttt{p02\_C\_j2\_b03}) it was the first that could be checkpointed.
+Two runner processes operated concurrently for part of the execution and wrote 13 collision records whose session is unknown; we keep those records as \texttt{unknown} rather than infer whether a run was launched.
+In two Claude jobs (\texttt{p02\_C\_j2\_b02}, \texttt{p02\_C\_j2\_b03}), earlier runs finished with schema-valid outputs that were never checkpointed because collision records occupied their slots; a later output was accepted.
+During one of those jobs a collision record was deleted so the running attempt could checkpoint; the deletion survives only in a session transcript.
+In one Grok job (\texttt{p01\_C\_j5\_b09}) a run wrote a complete schema-valid output and then ended with a provider error; the next run was accepted.
+
+The frozen validator therefore reports incomplete provenance, and no judgment freeze or protocol result set exists.
+The post-judgment deviation analysis applies the frozen analysis and taxonomy code unchanged to (i)~the 70 accepted outputs and (ii)~the first finished schema-valid output for each Claude job.
+It also enumerates all 12 combinations of completed runs for the two affected Claude jobs (0--6 claims change Stage~C consensus; Claude Ambiguous 37--42), and treats the error-ending Grok output as a separate sensitivity (one consensus label changes, on a non-regression claim).
+These selections were specified after the outputs were inspected.
+
+\section{Historical execution events in the Claude full panel}
+\label{app:historical-deviations}
+
+The historical Claude full panel reused the locked model \texttt{claude-opus-5-thinking-high}, the shared rubric, and the blinded Stage~A/B/C evidence files; its Stage~A/B judgments are retained in this draft and its historical Stage~C judgments are not used.
+During the first Stage~A batch-01 wave, judge-facing file paths included the panel directory name and therefore the cohort-selection criterion.
+Before inspecting the affected judgments, the five delivered files (5$\times$77 $= 385$ valid records) were quarantined, judge I/O moved to a neutral directory, and that batch rerun under the unchanged model, rubric, and evidence packets.
+No quarantined verdict was read.
+Stage~B was interrupted by a usage limit after 601 of 1{,}130 judgments; work resumed on the same Claude slug and already-valid judgments were kept.
+Recovery overlap caused three judge-batches to be produced twice; a first-ingested-wins rule, applied without reading either copy's labels, retained one file per $(\mathrm{stage},\mathrm{judge},\mathrm{item})$.
+
+\section{Withdrawn historical diagnostic results}
+\label{app:historical}
+
+The following results appeared in the historical draft (\texttt{paper/}, preserved unchanged).
+They were computed with the legacy three-way taxonomy on Stage~C packets that displayed corrupted sentence text, and they are withdrawn as estimates.
+They are listed only so readers can trace the correction.
+\begin{itemize}
+\item Grok three-way split of the 226 regressions: 50.0\% evidence-utilization failure, 11.9\% representation-sensitive, 38.1\% residual ambiguity (113/27/86). Of the 113 legacy utilization cases, 36 had a decisive Stage~C verdict opposite to FEVER.
+\item Claude three-way split: 65.9\% / 5.3\% / 28.8\% (149/12/65); 46 of the 149 legacy utilization cases disagreed with FEVER at Stage~C.
+\item ``Utilization failure is largest in both panels'' and the claimed replication of the category ordering; the 50--66\% range for utilization failure.
+\item Legacy taxonomy agreement 74.3\% (168/226), $\kappa=0.537$, and the four-item representation-sensitive overlap.
+\item Historical Stage~C nondecisive rates (Grok 38.1\%, Claude 28.8\%) and the Stage~C-dependent McNemar test.
+\item The historical Claude residual test (134/231, 58.0\%, persistently ambiguous), whose inputs and residual selection both depended on defective Stage~C.
+\end{itemize}
+Historical figures of the category split, taxonomy confusion, Stage~C ambiguity and Grok resolution flow are not reproduced in this draft.
+
+\section{Denominator checklist}
+\label{app:denoms}
+
+\begin{tabular}{lr}
+\toprule
+Quantity & $n$ \\
+\midrule
+FEVER claims in the paired experiment & 10{,}000 \\
+GPT predictions & 40{,}000 \\
+Diagnostic-cohort claims constructed & 1{,}061 \\
+Judged diagnostic-cohort items & 1{,}060 \\
+Unique regressions & 226 \\
+New Stage~C judgments, Grok (1{,}060 $\times$ 5) & 5{,}300 \\
+New Stage~C judgments, Claude (226 $\times$ 5) & 1{,}130 \\
+Required correction jobs delivered & 70 \\
+Retained historical Claude Stage~A/B judgments & 2{,}260 \\
+Optional historical-residual judgments (not run) & 1{,}155 \\
+\bottomrule
+\end{tabular}

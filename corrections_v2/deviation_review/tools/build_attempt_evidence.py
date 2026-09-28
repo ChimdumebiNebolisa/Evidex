@@ -3,20 +3,32 @@
 Read-only with respect to execution records, outputs, staging archives and WSL
 records. Writes only under corrections_v2/deviation_review/evidence/.
 Launch facts are reported as "unknown" unless a surviving artifact establishes them.
+
+Needs the operator's local staging archive and runner terminal logs, which are not in the
+repository: set EVIDEX_STAGING_RECORDS and EVIDEX_RUNNER_TERMINALS to those directories.
 """
 import hashlib
 import json
+import os
 import re
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / "corrections_v2"))
 from rerun import validate_rows  # noqa: E402
 
-STAGING = Path(r"C:\Users\Chimdumebi\evidex_execution_records")
-TERMINALS = Path(r"C:\Users\Chimdumebi\.cursor\projects\c-Users-Chimdumebi-evidex\terminals")
+
+def local_dir(variable):
+    value = os.environ.get(variable)
+    if not value or not Path(value).is_dir():
+        raise SystemExit(f"{variable} must name the operator's local directory; this tool cannot run from a clean checkout")
+    return Path(value)
+
+
+STAGING = local_dir("EVIDEX_STAGING_RECORDS")
+TERMINALS = local_dir("EVIDEX_RUNNER_TERMINALS")
 EVIDENCE = ROOT / "corrections_v2/deviation_review/evidence"
 FLAGGED = ["p01_C_j4_b08", "p01_C_j4_b09", "p02_C_j2_b03", "p02_C_j3_b01", "p02_C_j3_b02", "p02_C_j3_b03"]
 SLOT = re.compile(r"attempt-(\d{2})")

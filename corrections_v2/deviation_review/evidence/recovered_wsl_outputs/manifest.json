@@ -1,0 +1,48 @@
+{
+  "policy": "exact bytes copied from WSL; never repaired",
+  "files": [
+    {
+      "job_id": "p01_C_j1_b02",
+      "attempt": 1,
+      "source_wsl_path": "/home/evidex/isolated/p01_C_j1_b02/attempt-01/workspace/corrections_v2/blind_io/p01/stage_c/p01_C_j1_b02.output.json",
+      "source_mtime_utc": "2026-09-27T23:03:35.513225+00:00",
+      "path": "corrections_v2/deviation_review/evidence/recovered_wsl_outputs/p01_C_j1_b02/attempt-01.workspace.output.json",
+      "size": 35244,
+      "sha256": "0bc4eaf02b170a04d70feb847c0d1b98d08a8263c48d926e901ab0e3e659a5a8",
+      "parse": "invalid JSON: Extra data: line 1003 column 1 (char 35241)",
+      "schema_valid": false,
+      "n_rows": null,
+      "status": "recovered_exact_bytes",
+      "contents_repaired": false
+    },
+    {
+      "job_id": "p01_C_j4_b08",
+      "attempt": 1,
+      "source_wsl_path": "/home/evidex/isolated/p01_C_j4_b08/attempt-01/workspace/corrections_v2/blind_io/p01/stage_c/p01_C_j4_b08.output.json",
+      "source_mtime_utc": "2026-09-28T01:19:34.455185+00:00",
+      "path": "corrections_v2/deviation_review/evidence/recovered_wsl_outputs/p01_C_j4_b08/attempt-01.workspace.output.json",
+      "size": 13485,
+      "sha256": "1d255e15e92e3a028707a14abfc8a5bb8b9126e44b9e43b89f74f0817b38b9fc",
+      "parse": "invalid JSON: Expecting value: line 387 column 28 (char 13485)",
+      "schema_valid": false,
+      "n_rows": null,
+      "status": "recovered_exact_bytes",
+      "contents_repaired": false
+    },
+    {
+      "job_id": "p01_C_j5_b09",
+      "attempt": 1,
+      "source_wsl_path": "/home/evidex/isolated/p01_C_j5_b09/attempt-01/workspace/corrections_v2/blind_io/p01/stage_c/p01_C_j5_b09.output.json",
+      "source_mtime_utc": "2026-09-28T02:44:39.769300+00:00",
+      "path": "corrections_v2/deviation_review/evidence/recovered_wsl_outputs/p01_C_j5_b09/attempt-01.workspace.output.json",
+      "size": 33544,
+      "sha256": "184e3b68947ee6067258e4d1a6a72ae7b55640bd7dbcbb83733fbfadde3011e3",
+      "parse": "ok",
+      "schema_valid": true,
+      "schema_error": null,
+      "n_rows": 100,
+      "status": "recovered_exact_bytes",
+      "contents_repaired": false
+    }
+  ]
+}

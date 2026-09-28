@@ -1,0 +1,36 @@
+\section{Limitations}
+\label{sec:limitations}
+
+All adjudication is automated silver labeling.
+Grok, GLM, and Claude judgments are not expert human annotation and do not create a new gold standard.
+Within-family agreement overstates how much independent human raters would agree, because the five judges are isolated contexts of one locked model.
+
+Category shares are judge-family-sensitive.
+We report both complete panels and refuse a single point estimate.
+
+FEVER labels remain the behavioral gold standard.
+NLI disagreement and judge--FEVER disagreement mark candidate ambiguity; they do not prove an annotation is wrong.
+
+The study is binary Supported/Refuted FEVER, 2017-era Wikipedia claims, and designated gold evidence rather than retrieved open-web context.
+\texttt{NOT ENOUGH INFO} is excluded by design.
+
+Both evaluated systems are GPT-5.4 variants.
+Transition concordance can reflect family-correlated errors.
+
+Progressive disclosure locates where a judge panel's verdict changes.
+It does not observe GPT-internal causal mechanisms, and the original GPT runs stored labels only.
+
+The historical adjudication's Stage~C packets displayed corrupted sentence text, and its taxonomy conflated disagreement with FEVER with evidence utilization.
+The repaired Stage~C and the descriptive taxonomy were specified post hoc, after the historical results and defects were inspected; the correction protocol is not a preregistration and the taxonomy awaits coauthor review.
+Stage~C adds alternative evidence text for some claims, so Stage~C-associated changes are not a pure representation manipulation.
+
+Consensus paths combine retained historical Stage~A/B judgments with new Stage~C judgments.
+The historical protocol specified a fresh context per judge, batch and stage, but raw historical session transcripts were not available to verify runtime isolation independently.
+
+Execution of the Stage~C re-judging deviated from its frozen protocol: six jobs exceeded the three-attempt cap after quota and usage-limit failures; concurrent runners left collision records whose sessions are unknown; one collision record was deleted during execution and survives only in a session transcript; and in two Claude jobs a later output was accepted although earlier finished runs had produced schema-valid outputs.
+The protocol's primary analysis is therefore incomplete, and the diagnostic results come from a separately labeled analysis whose input selections were specified after the outputs were inspected.
+Selection sensitivity is bounded (at most six Claude claims change), but the analysis cannot be presented as the protocol's pre-specified result.
+
+The protocol's follow-up panels were not run: a newly selected residual Claude panel, a Stage~C resolver, and an optional fixed historical residual panel.
+The Claude panel covers the 226 regressions, not the 1{,}060-item judged cohort, and GLM is Stage~A only.
+Historical execution events in the original Claude panel (a quarantined path-leak rerun, a usage-limit pause, and a duplicate-batch tie-break) affect only its retained Stage~A/B judgments and are documented in Appendix~\ref{app:historical-deviations}.

@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Final nondecisiveness at Stage~C among shared versus model-specific regressions on repaired inputs. Odds ratios compare shared with model-specific regressions (two-test Benjamini--Hochberg family); values in brackets are the Claude first-valid selection.}
+\label{tab:shared}
+\small
+\begin{tabular}{lrrr}
+\toprule
+Subgroup & $n$ & Grok final nondecisive & Claude final nondecisive \\
+\midrule
+Shared by both GPT models & 40 & 18 (45.0\%) & 14 (35.0\%) \\
+Exactly one GPT model & 186 & 53 (28.5\%) & 27 (14.5\%) [25 (13.4\%)] \\
+\midrule
+Odds ratio (95\% CI), $p_{\mathrm{BH}}$ & & 2.05 (1.02--4.13), 0.059 & 3.17 (1.47--6.83), 0.011 [3.47, 0.005] \\
+\bottomrule
+\end{tabular}
+\end{table}

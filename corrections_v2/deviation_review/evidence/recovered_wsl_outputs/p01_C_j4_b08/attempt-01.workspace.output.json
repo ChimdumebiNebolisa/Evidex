@@ -1,0 +1,387 @@
+[
+  {
+    "item_id": "SA-000702",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence shows an Academy Award nomination but does not say whether he failed to win or was otherwise passed over."
+  },
+  {
+    "item_id": "SA-000703",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly identifies Edgar Wright as an English director."
+  },
+  {
+    "item_id": "SA-000704",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 48,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence gives a literal meaning for Scaramuccia and lists Scaramouche as an alternate name, not clearly as a translation."
+  },
+  {
+    "item_id": "SA-000705",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 52,
+    "issue_flags": ["partial_warrant", "entity_or_attribute_confusion"],
+    "brief_reason": "Japan is a sovereign state represented by one centralized government, but the evidence never says that government is federal."
+  },
+  {
+    "item_id": "SA-000706",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Buffy was portrayed by Kristy Swanson in the film."
+  },
+  {
+    "item_id": "SA-000707",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states the Cordilleran ice sheet was a major ice sheet."
+  },
+  {
+    "item_id": "SA-000708",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Jane Espenson is listed among six later co-executive producers, so she was not one of only three."
+  },
+  {
+    "item_id": "SA-000709",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence calls the film a biographical romantic drama, not a comedy."
+  },
+  {
+    "item_id": "SA-000710",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 55,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence supports the middle name Ryan but does not establish that he is unknown."
+  },
+  {
+    "item_id": "SA-000711",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_missing_surrounding_context"],
+    "brief_reason": "The evidence names multiple other characters and actors, which conflicts with calling House a one-man show, and never mentions Hugh Laurie."
+  },
+  {
+    "item_id": "SA-000712",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["partial_warrant", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence supports a fictional character in a Spanish author's 1605 novel but gives no birth year of 1616 for the writer."
+  },
+  {
+    "item_id": "SA-000713",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Petyr Baelish is a fictional character, so he is not a real person."
+  },
+  {
+    "item_id": "SA-000714",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 42,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_missing_surrounding_context"],
+    "brief_reason": "The film is set in a beach town, but the evidence never mentions any fighting on a beach."
+  },
+  {
+    "item_id": "SA-000715",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["entity_or_attribute_confusion", "negation_or_scope"],
+    "brief_reason": "The evidence says the competition is for top clubs across North America, Central America, and the Caribbean, not for football unions in Central America alone."
+  },
+  {
+    "item_id": "SA-000716",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence identifies John Fogerty as the band's lead vocalist and lead guitarist."
+  },
+  {
+    "item_id": "SA-000717",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states SpongeBob SquarePants is an American animated television series."
+  },
+  {
+    "item_id": "SA-000718",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 50,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Gein exhumed corpses from local graveyards, not that he was employed at them."
+  },
+  {
+    "item_id": "SA-000719",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["negation_or_scope", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says the second season premiered on January 2, 2017, contradicting the claim that it did not begin that month."
+  },
+  {
+    "item_id": "SA-000720",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 36,
+    "issue_flags": ["partial_warrant", "possible_missing_surrounding_context"],
+    "brief_reason": "The evidence confirms he was King of Hungary from 1458 to 1490 but says nothing about a royal theater troupe."
+  },
+  {
+    "item_id": "SA-000721",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence describes Firefox as the most popular desktop browser in many African countries and, in other sentences, as a leading worldwide browser."
+  },
+  {
+    "item_id": "SA-000722",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence states he was twice nominated for the Critics' Choice Television Award."
+  },
+  {
+    "item_id": "SA-000723",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence describes only a cameo as Professor Normal, which does not amount to starring in the film."
+  },
+  {
+    "item_id": "SA-000724",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 40,
+    "issue_flags": ["negation_or_scope", "possible_missing_surrounding_context"],
+    "brief_reason": "The evidence lists several films he appeared in but does not say whether those films were based on real people."
+  },
+  {
+    "item_id": "SA-000725",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence defines human trafficking as the trade of humans, not animals."
+  },
+  {
+    "item_id": "SA-000726",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly states Happiness in Slavery is a song by Nine Inch Nails."
+  },
+  {
+    "item_id": "SA-000727",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence says Frusciante has released eleven solo albums, so he was not incapable of doing so."
+  },
+  {
+    "item_id": "SA-000728",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning", "negation_or_scope"],
+    "brief_reason": "The evidence says his status was still recognized more than 50 years after retirement, not only 50 years before it."
+  },
+  {
+    "item_id": "SA-000729",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence lists West among the song's producers, so Kanye West was a producer of Birthday Song."
+  },
+  {
+    "item_id": "SA-000730",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Walsh was inducted into the Vocal Group Hall of Fame in 2001."
+  },
+  {
+    "item_id": "SA-000731",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Veeram was produced by Vijaya Productions."
+  },
+  {
+    "item_id": "SA-000732",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says the award is presented to the best film in the fantasy genre."
+  },
+  {
+    "item_id": "SA-000733",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence places the show at the Pasadena Recovery Center, not the Pasadena Civic Center."
+  },
+  {
+    "item_id": "SA-000734",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says the film is based on a 1995 novel of the same name, not a dog."
+  },
+  {
+    "item_id": "SA-000735",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says season 2 originally aired from July 13, 2007, not September 13, 2007."
+  },
+  {
+    "item_id": "SA-000736",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Kuching is the most populous city in Sarawak."
+  },
+  {
+    "item_id": "SA-000737",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence calls the series a media franchise and the most distributed property of MTV Networks."
+  },
+  {
+    "item_id": "SA-000738",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence states the KGB was a military service, contradicting the claim that it was not."
+  },
+  {
+    "item_id": "SA-000739",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 70,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says he initially won the 2010 Tour de France and the 2011 Giro d'Italia before those titles were stripped."
+  },
+  {
+    "item_id": "SA-000740",
+    "judge_id": "judge_4",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency":

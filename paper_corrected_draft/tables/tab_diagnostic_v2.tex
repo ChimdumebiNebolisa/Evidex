@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Descriptive adjudication outcomes for the 226 unique regressions on repaired Stage~C inputs (Wilson 95\% intervals for the main rows). ``Accepted'' uses the 70 outputs as accepted; ``first-valid'' replaces two Claude jobs by their first finished schema-valid outputs. Grok values are identical under both selections. Categories are judge-panel observations, not GPT-internal causes or corrected FEVER labels. Post-judgment deviation analysis; not the frozen protocol's primary analysis.}
+\label{tab:diagnostic}
+\small
+\begin{tabular}{lrrr}
+\toprule
+Category & Grok & Claude, accepted & Claude, first-valid \\
+\midrule
+Sentence-only gold-agreeing & 77 (34.1\%; 28.2--40.5) & 106 (46.9\%; 40.5--53.4) & 105 (46.5\%) \\
+Title-disclosure gold-agreeing & 10 (4.4\%) & 3 (1.3\%) & 3 (1.3\%) \\
+Structured-disclosure gold-agreeing & 2 (0.9\%) & 3 (1.3\%) & 6 (2.7\%) \\
+Additional-evidence gold-agreeing & 17 (7.5\%) & 14 (6.2\%) & 14 (6.2\%) \\
+Nonmonotonic judge path & 5 (2.2\%) & 5 (2.2\%) & 5 (2.2\%) \\
+Decisive judge--FEVER disagreement & 44 (19.5\%; 14.8--25.1) & 54 (23.9\%; 18.8--29.9) & 54 (23.9\%) \\
+Final nondecisive & 71 (31.4\%; 25.7--37.7) & 41 (18.1\%; 13.7--23.7) & 39 (17.3\%; 12.9--22.7) \\
+\midrule
+Exact agreement with Grok ($\kappa$) & --- & 172/226, 76.1\% (0.673) & 168/226, 74.3\% (0.651) \\
+\bottomrule
+\end{tabular}
+\end{table}

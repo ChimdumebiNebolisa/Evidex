@@ -1,11 +1,11 @@
-"""Validate output files left in WSL workspaces by failed attempts (read-only)."""
+"""Validate output files left in WSL workspaces by failed attempts (read-only). Requires the operator's WSL."""
 import hashlib
 import json
 import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / "corrections_v2"))
 from rerun import validate_rows  # noqa: E402
 

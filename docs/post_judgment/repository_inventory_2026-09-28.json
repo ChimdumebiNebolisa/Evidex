@@ -1,0 +1,2770 @@
+{
+  "summary": {
+    "tracked_files": 1779,
+    "root_files": 67,
+    "root_py": 12,
+    "root_by_movability": {
+      "post-submission": 14,
+      "movable": 1,
+      "immovable": 52
+    },
+    "py_by_area": {
+      "scripts": {
+        "movable": 1,
+        "post-submission": 2
+      },
+      "analysis_v2": {
+        "post-submission": 18,
+        "leave": 2
+      },
+      "silver_adjudication_v1": {
+        "immovable": 5,
+        "post-submission": 28,
+        "leave": 8
+      },
+      "corrections_v2": {
+        "immovable": 14,
+        "movable-with-importers": 1,
+        "movable": 6,
+        "leave": 4
+      }
+    }
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "area": "<root>",
+      "pins": [],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 6,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "analysis_v2/reports/ANALYSIS_LOG.md",
+        "corrections_v2/generated/code_hashes.json",
+        "docs/DATA_PROVENANCE.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: PUBLICATION_ARTIFACT_AUDIT.md, analysis_v2/reports/ANALYSIS_LOG.md, corrections_v2/generated/code_hashes.json"
+    },
+    {
+      "path": "CITATION.cff",
+      "area": "<root>",
+      "pins": [],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 5,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "README.md",
+        "docs/DATA_PROVENANCE.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: PUBLICATION_ARTIFACT_AUDIT.md, README.md, docs/DATA_PROVENANCE.md"
+    },
+    {
+      "path": "CURRENT_STATUS.md",
+      "area": "<root>",
+      "pins": [],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 3,
+      "pinned_doc_references": [],
+      "movability": "movable",
+      "reason": "post-judgment utility with no contract, importer or pinned reference"
+    },
+    {
+      "path": "LICENSE",
+      "area": "<root>",
+      "pins": [],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 6,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "README.md",
+        "docs/DATA_PROVENANCE.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: PUBLICATION_ARTIFACT_AUDIT.md, README.md, docs/DATA_PROVENANCE.md"
+    },
+    {
+      "path": "MARKDOWN_CONSISTENCY_AUDIT.md",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 5,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "PUBLICATION_ARTIFACT_AUDIT.md",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 6,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "README.md",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 14,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/code_hashes.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "docs/STUDY_OVERVIEW.md",
+        "docs/historical/README.md",
+        "poster-presentation-info/PROVENANCE.md",
+        "poster-presentation-info/README.md",
+        "silver_adjudication_v1/README.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "REPRODUCING.md",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 11,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "README.md",
+        "analysis_v2/README.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "docs/STUDY_OVERVIEW.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "aggregate_manual_annotations.py",
+      "area": "<root>",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: PUBLICATION_ARTIFACT_AUDIT.md"
+    },
+    {
+      "path": "analysis_v2/config.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": false,
+      "importers": [
+        "analysis_v2/src/asymmetry_analysis.py",
+        "analysis_v2/src/build_paired_dataset.py",
+        "analysis_v2/src/clustering_analysis.py",
+        "analysis_v2/src/data_quality_analysis.py",
+        "analysis_v2/src/feature_associations.py",
+        "analysis_v2/src/generate_figures.py",
+        "analysis_v2/src/leakage_audit.py",
+        "analysis_v2/src/linguistic_features.py",
+        "analysis_v2/src/manual_review_export.py",
+        "analysis_v2/src/nli_analysis.py",
+        "analysis_v2/src/nli_second_model.py",
+        "analysis_v2/src/regression_analysis.py",
+        "analysis_v2/src/semantic_features.py",
+        "analysis_v2/src/statistical_analysis.py",
+        "analysis_v2/src/transition_analysis.py",
+        "analysis_v2/src/validate_source_data.py",
+        "analysis_v2/src/verify_headlines.py",
+        "analysis_v2/tests/test_analysis_logic.py",
+        "silver_adjudication_v1/claude_full_regression_panel/tests/test_claude_full_regression.py",
+        "silver_adjudication_v1/run_all.py",
+        "silver_adjudication_v1/src/aggregate_consensus.py",
+        "silver_adjudication_v1/src/agreement_analysis.py",
+        "silver_adjudication_v1/src/blind_cohort.py",
+        "silver_adjudication_v1/src/build_cohort.py",
+        "silver_adjudication_v1/src/cross_panel_stage_a.py",
+        "silver_adjudication_v1/src/generate_figures.py",
+        "silver_adjudication_v1/src/join_analysis_v2.py",
+        "silver_adjudication_v1/src/prepare_packets.py",
+        "silver_adjudication_v1/src/representation_sensitivity.py",
+        "silver_adjudication_v1/src/resolve_disagreements.py",
+        "silver_adjudication_v1/src/run_judges.py",
+        "silver_adjudication_v1/src/statistical_analysis.py",
+        "silver_adjudication_v1/src/validate_blinding.py",
+        "silver_adjudication_v1/src/verify_headlines.py",
+        "silver_adjudication_v1/tests/test_cursor_panel.py",
+        "silver_adjudication_v1/tests/test_silver_pipeline.py"
+      ],
+      "doc_references": 4,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "analysis_v2/README.md",
+        "silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "imported by pinned code: silver_adjudication_v1/src/join_analysis_v2.py"
+    },
+    {
+      "path": "analysis_v2/run_all.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/tests/test_cursor_panel.py"
+      ],
+      "doc_references": 8,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "REPRODUCING.md",
+        "analysis_v2/README.md",
+        "analysis_v2/reports/ANALYSIS_LOG.md",
+        "analysis_v2/reports/METHODS.md",
+        "silver_adjudication_v1/cursor_panel/README.md",
+        "silver_adjudication_v1/reports/ADJUDICATION_LOG.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: MARKDOWN_CONSISTENCY_AUDIT.md, PUBLICATION_ARTIFACT_AUDIT.md, REPRODUCING.md"
+    },
+    {
+      "path": "analysis_v2/src/asymmetry_analysis.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "analysis_v2/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: analysis_v2/reports/METHODS.md"
+    },
+    {
+      "path": "analysis_v2/src/build_paired_dataset.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "analysis_v2/tests/test_analysis_logic.py"
+      ],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "analysis_v2/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: analysis_v2/reports/METHODS.md"
+    },
+    {
+      "path": "analysis_v2/src/clustering_analysis.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "analysis_v2/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: analysis_v2/reports/METHODS.md"
+    },
+    {
+      "path": "analysis_v2/src/data_quality_analysis.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "analysis_v2/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: analysis_v2/reports/METHODS.md"
+    },
+    {
+      "path": "analysis_v2/src/feature_associations.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "analysis_v2/tests/test_analysis_logic.py"
+      ],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "analysis_v2/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: analysis_v2/reports/METHODS.md"
+    },
+    {
+      "path": "analysis_v2/src/generate_figures.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "analysis_v2/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: PUBLICATION_ARTIFACT_AUDIT.md, analysis_v2/reports/METHODS.md"
+    },
+    {
+      "path": "analysis_v2/src/leakage_audit.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "analysis_v2/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: analysis_v2/reports/METHODS.md"
+    },
+    {
+      "path": "analysis_v2/src/linguistic_features.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "analysis_v2/tests/test_analysis_logic.py"
+      ],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "analysis_v2/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: analysis_v2/reports/METHODS.md"
+    },
+    {
+      "path": "analysis_v2/src/manual_review_export.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "analysis_v2/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: analysis_v2/reports/METHODS.md"
+    },
+    {
+      "path": "analysis_v2/src/nli_analysis.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "analysis_v2/reports/METHODS.md",
+        "analysis_v2/tables/leakage_audit.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: analysis_v2/reports/METHODS.md, analysis_v2/tables/leakage_audit.md"
+    },
+    {
+      "path": "analysis_v2/src/nli_second_model.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "analysis_v2/reports/ANALYSIS_LOG.md",
+        "analysis_v2/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: analysis_v2/reports/ANALYSIS_LOG.md, analysis_v2/reports/METHODS.md"
+    },
+    {
+      "path": "analysis_v2/src/regression_analysis.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "analysis_v2/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: analysis_v2/reports/METHODS.md"
+    },
+    {
+      "path": "analysis_v2/src/semantic_features.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "analysis_v2/reports/METHODS.md",
+        "analysis_v2/tables/leakage_audit.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: analysis_v2/reports/METHODS.md, analysis_v2/tables/leakage_audit.md"
+    },
+    {
+      "path": "analysis_v2/src/statistical_analysis.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "analysis_v2/tests/test_analysis_logic.py"
+      ],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "analysis_v2/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: analysis_v2/reports/METHODS.md"
+    },
+    {
+      "path": "analysis_v2/src/transition_analysis.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 0,
+      "pinned_doc_references": [],
+      "movability": "leave",
+      "reason": "historical study pipeline that produced pinned outputs; moving would be cosmetic"
+    },
+    {
+      "path": "analysis_v2/src/validate_source_data.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "analysis_v2/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: analysis_v2/reports/METHODS.md"
+    },
+    {
+      "path": "analysis_v2/src/verify_headlines.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/claude_residual_panel/tests/test_claude_residual.py"
+      ],
+      "doc_references": 12,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "README.md",
+        "REPRODUCING.md",
+        "analysis_v2/reports/ANALYSIS_LOG.md",
+        "analysis_v2/reports/METHODS.md",
+        "silver_adjudication_v1/README.md",
+        "silver_adjudication_v1/claude_full_regression_panel/README.md",
+        "silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md",
+        "silver_adjudication_v1/claude_residual_panel/reports/METHODS.md",
+        "silver_adjudication_v1/cursor_panel/README.md",
+        "silver_adjudication_v1/reports/ADJUDICATION_LOG.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: MARKDOWN_CONSISTENCY_AUDIT.md, PUBLICATION_ARTIFACT_AUDIT.md, README.md"
+    },
+    {
+      "path": "analysis_v2/tests/test_analysis_logic.py",
+      "area": "analysis_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 0,
+      "pinned_doc_references": [],
+      "movability": "leave",
+      "reason": "historical study pipeline that produced pinned outputs; moving would be cosmetic"
+    },
+    {
+      "path": "analyze_experiment_results.py",
+      "area": "<root>",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 4,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "REPRODUCING.md",
+        "analysis_v2/reports/ANALYSIS_LOG.md",
+        "professor_update.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: PUBLICATION_ARTIFACT_AUDIT.md, REPRODUCING.md, analysis_v2/reports/ANALYSIS_LOG.md"
+    },
+    {
+      "path": "corrections_v2/analysis_core.py",
+      "area": "corrections_v2",
+      "pins": [
+        "code_fingerprint",
+        "spec_freeze"
+      ],
+      "entry_point": false,
+      "importers": [
+        "corrections_v2/analysis_pipeline.py",
+        "corrections_v2/deviation_review/provisional_analysis.py",
+        "corrections_v2/tests/test_analysis_pipeline.py"
+      ],
+      "doc_references": 4,
+      "pinned_doc_references": [
+        "corrections_v2/README.md",
+        "corrections_v2/generated/code_hashes.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint, spec_freeze"
+    },
+    {
+      "path": "corrections_v2/analysis_io.py",
+      "area": "corrections_v2",
+      "pins": [
+        "code_fingerprint",
+        "spec_freeze"
+      ],
+      "entry_point": false,
+      "importers": [
+        "corrections_v2/analysis_pipeline.py",
+        "corrections_v2/deviation_review/provisional_analysis.py",
+        "corrections_v2/deviation_review/tests/test_provisional_inputs.py",
+        "corrections_v2/tests/test_analysis_pipeline.py"
+      ],
+      "doc_references": 4,
+      "pinned_doc_references": [
+        "corrections_v2/README.md",
+        "corrections_v2/generated/code_hashes.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint, spec_freeze"
+    },
+    {
+      "path": "corrections_v2/analysis_pipeline.py",
+      "area": "corrections_v2",
+      "pins": [
+        "code_fingerprint",
+        "spec_freeze"
+      ],
+      "entry_point": true,
+      "importers": [
+        "corrections_v2/deviation_review/provisional_analysis.py",
+        "corrections_v2/tests/test_analysis_pipeline.py"
+      ],
+      "doc_references": 13,
+      "pinned_doc_references": [
+        "corrections_v2/CURSOR_HANDOFF.md",
+        "corrections_v2/README.md",
+        "corrections_v2/RERUN.md",
+        "corrections_v2/VERIFICATION.md",
+        "corrections_v2/generated/code_hashes.json",
+        "corrections_v2/protocol/analysis_spec_2026-09-27.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint, spec_freeze"
+    },
+    {
+      "path": "corrections_v2/audit_freezes.py",
+      "area": "corrections_v2",
+      "pins": [
+        "code_fingerprint"
+      ],
+      "entry_point": true,
+      "importers": [
+        "corrections_v2/reproduce.py"
+      ],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "corrections_v2/generated/code_hashes.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint"
+    },
+    {
+      "path": "corrections_v2/baseline/import_reviewed_baseline.py",
+      "area": "corrections_v2",
+      "pins": [
+        "code_fingerprint"
+      ],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "corrections_v2/generated/code_hashes.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint"
+    },
+    {
+      "path": "corrections_v2/build_report_data.py",
+      "area": "corrections_v2",
+      "pins": [
+        "code_fingerprint"
+      ],
+      "entry_point": true,
+      "importers": [
+        "corrections_v2/reproduce.py"
+      ],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/generated/code_hashes.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint"
+    },
+    {
+      "path": "corrections_v2/deviation_review/provisional_analysis.py",
+      "area": "corrections_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "corrections_v2/deviation_review/tests/test_provisional_inputs.py"
+      ],
+      "doc_references": 5,
+      "pinned_doc_references": [],
+      "movability": "movable-with-importers",
+      "reason": "update importers: corrections_v2/deviation_review/tests/test_provisional_inputs.py"
+    },
+    {
+      "path": "corrections_v2/deviation_review/tests/test_provisional_inputs.py",
+      "area": "corrections_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 0,
+      "pinned_doc_references": [],
+      "movability": "movable",
+      "reason": "post-judgment utility with no contract, importer or pinned reference"
+    },
+    {
+      "path": "corrections_v2/deviation_review/tools/build_attempt_evidence.py",
+      "area": "corrections_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [],
+      "movability": "movable",
+      "reason": "post-judgment utility with no contract, importer or pinned reference"
+    },
+    {
+      "path": "corrections_v2/deviation_review/tools/check_unstaged_outputs.py",
+      "area": "corrections_v2",
+      "pins": [],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [],
+      "movability": "movable",
+      "reason": "post-judgment utility with no contract, importer or pinned reference"
+    },
+    {
+      "path": "corrections_v2/deviation_review/tools/recover_wsl_outputs.py",
+      "area": "corrections_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [],
+      "movability": "movable",
+      "reason": "post-judgment utility with no contract, importer or pinned reference"
+    },
+    {
+      "path": "corrections_v2/deviation_review/tools/render_attempt_table.py",
+      "area": "corrections_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [],
+      "movability": "movable",
+      "reason": "post-judgment utility with no contract, importer or pinned reference"
+    },
+    {
+      "path": "corrections_v2/deviation_review/tools/wsl_inventory.py",
+      "area": "corrections_v2",
+      "pins": [],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [],
+      "movability": "movable",
+      "reason": "post-judgment utility with no contract, importer or pinned reference"
+    },
+    {
+      "path": "corrections_v2/provenance.py",
+      "area": "corrections_v2",
+      "pins": [
+        "code_fingerprint",
+        "spec_freeze"
+      ],
+      "entry_point": false,
+      "importers": [
+        "corrections_v2/analysis_io.py",
+        "corrections_v2/audit_freezes.py",
+        "corrections_v2/baseline/import_reviewed_baseline.py",
+        "corrections_v2/build_report_data.py",
+        "corrections_v2/reproduce.py",
+        "corrections_v2/tests/test_analysis_pipeline.py",
+        "corrections_v2/tests/test_reproduction.py",
+        "corrections_v2/verify_outputs.py"
+      ],
+      "doc_references": 4,
+      "pinned_doc_references": [
+        "corrections_v2/generated/code_hashes.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint, spec_freeze"
+    },
+    {
+      "path": "corrections_v2/reproduce.py",
+      "area": "corrections_v2",
+      "pins": [
+        "code_fingerprint"
+      ],
+      "entry_point": true,
+      "importers": [
+        "corrections_v2/build_report_data.py",
+        "corrections_v2/tests/test_reproduction.py",
+        "corrections_v2/verify_outputs.py"
+      ],
+      "doc_references": 7,
+      "pinned_doc_references": [
+        "corrections_v2/CURSOR_HANDOFF.md",
+        "corrections_v2/INVENTORY_RECONCILIATION.md",
+        "corrections_v2/README.md",
+        "corrections_v2/RERUN.md",
+        "corrections_v2/VERIFICATION.md",
+        "corrections_v2/generated/code_hashes.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint"
+    },
+    {
+      "path": "corrections_v2/rerun.py",
+      "area": "corrections_v2",
+      "pins": [
+        "code_fingerprint",
+        "spec_freeze"
+      ],
+      "entry_point": true,
+      "importers": [
+        "corrections_v2/analysis_io.py",
+        "corrections_v2/analysis_pipeline.py",
+        "corrections_v2/deviation_review/provisional_analysis.py",
+        "corrections_v2/deviation_review/tools/build_attempt_evidence.py",
+        "corrections_v2/deviation_review/tools/check_unstaged_outputs.py",
+        "corrections_v2/deviation_review/tools/recover_wsl_outputs.py",
+        "corrections_v2/sdk_execution/checkpoint_job.py",
+        "corrections_v2/tests/test_reproduction.py",
+        "corrections_v2/verify_outputs.py"
+      ],
+      "doc_references": 9,
+      "pinned_doc_references": [
+        "corrections_v2/CURSOR_HANDOFF.md",
+        "corrections_v2/README.md",
+        "corrections_v2/RERUN.md",
+        "corrections_v2/VERIFICATION.md",
+        "corrections_v2/generated/code_hashes.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint, spec_freeze"
+    },
+    {
+      "path": "corrections_v2/sdk_execution/checkpoint_job.py",
+      "area": "corrections_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 0,
+      "pinned_doc_references": [],
+      "movability": "leave",
+      "reason": "execution-time tooling that produced the accepted outputs; kept as the operational record"
+    },
+    {
+      "path": "corrections_v2/sdk_execution/record_error_attempt.py",
+      "area": "corrections_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "corrections_v2/sdk_execution/wsl/run_remaining_required.py"
+      ],
+      "doc_references": 2,
+      "pinned_doc_references": [],
+      "movability": "leave",
+      "reason": "execution-time tooling that produced the accepted outputs; kept as the operational record"
+    },
+    {
+      "path": "corrections_v2/sdk_execution/wsl/run_remaining_required.py",
+      "area": "corrections_v2",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 0,
+      "pinned_doc_references": [],
+      "movability": "leave",
+      "reason": "execution-time tooling that produced the accepted outputs; kept as the operational record"
+    },
+    {
+      "path": "corrections_v2/sdk_execution/wsl/write_probe.py",
+      "area": "corrections_v2",
+      "pins": [],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 0,
+      "pinned_doc_references": [],
+      "movability": "leave",
+      "reason": "execution-time tooling that produced the accepted outputs; kept as the operational record"
+    },
+    {
+      "path": "corrections_v2/tests/check_clean_checkout.py",
+      "area": "corrections_v2",
+      "pins": [
+        "code_fingerprint"
+      ],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 3,
+      "pinned_doc_references": [
+        "corrections_v2/README.md",
+        "corrections_v2/VERIFICATION.md",
+        "corrections_v2/generated/code_hashes.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint"
+    },
+    {
+      "path": "corrections_v2/tests/test_analysis_pipeline.py",
+      "area": "corrections_v2",
+      "pins": [
+        "code_fingerprint"
+      ],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/INVENTORY_RECONCILIATION.md",
+        "corrections_v2/generated/code_hashes.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint"
+    },
+    {
+      "path": "corrections_v2/tests/test_corrections.py",
+      "area": "corrections_v2",
+      "pins": [
+        "code_fingerprint"
+      ],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/generated/code_hashes.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint"
+    },
+    {
+      "path": "corrections_v2/tests/test_reproduction.py",
+      "area": "corrections_v2",
+      "pins": [
+        "code_fingerprint"
+      ],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "corrections_v2/generated/code_hashes.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint"
+    },
+    {
+      "path": "corrections_v2/verify_outputs.py",
+      "area": "corrections_v2",
+      "pins": [
+        "code_fingerprint"
+      ],
+      "entry_point": true,
+      "importers": [
+        "corrections_v2/reproduce.py"
+      ],
+      "doc_references": 10,
+      "pinned_doc_references": [
+        "corrections_v2/CURSOR_HANDOFF.md",
+        "corrections_v2/INVENTORY_RECONCILIATION.md",
+        "corrections_v2/README.md",
+        "corrections_v2/RERUN.md",
+        "corrections_v2/VERIFICATION.md",
+        "corrections_v2/generated/code_hashes.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint"
+    },
+    {
+      "path": "create_pilot_runs_subset.py",
+      "area": "<root>",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: PUBLICATION_ARTIFACT_AUDIT.md"
+    },
+    {
+      "path": "dataset_validation_balanced_10000_v1.json",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 6,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "poster-presentation-info/PROVENANCE.md",
+        "poster-presentation-info/presentation_dossier_comprehensive.md",
+        "presentation_dossier_comprehensive.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "dataset_validation_balanced_1000_v1.json",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 3,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "professor_update.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "error_taxonomy_counts_balanced_10000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 7,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "poster-presentation-info/PROVENANCE.md",
+        "poster-presentation-info/README.md",
+        "poster-presentation-info/presentation_dossier_comprehensive.md",
+        "presentation_dossier_comprehensive.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "error_taxonomy_counts_balanced_10000_v1_pilot.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "error_taxonomy_counts_balanced_1000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "error_taxonomy_counts_balanced_1000_v1_pilot.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "evidence_condition_errors_balanced_10000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 3,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "evidence_condition_errors_balanced_10000_v1_pilot.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "evidence_condition_errors_balanced_1000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "evidence_condition_errors_balanced_1000_v1_pilot.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "example_failure_cases_balanced_10000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 3,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "example_failure_cases_balanced_10000_v1_pilot.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "example_failure_cases_balanced_1000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "example_failure_cases_balanced_1000_v1_pilot.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "expand_experiment_runs.py",
+      "area": "<root>",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 4,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "REPRODUCING.md",
+        "analysis_v2/reports/ANALYSIS_LOG.md",
+        "professor_update.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: PUBLICATION_ARTIFACT_AUDIT.md, REPRODUCING.md, analysis_v2/reports/ANALYSIS_LOG.md"
+    },
+    {
+      "path": "experiment_config.py",
+      "area": "<root>",
+      "pins": [],
+      "entry_point": false,
+      "importers": [
+        "aggregate_manual_annotations.py",
+        "analyze_experiment_results.py",
+        "create_pilot_runs_subset.py",
+        "expand_experiment_runs.py",
+        "extract_fever_balanced_sample.py",
+        "prepare_fever_wiki_pages.py",
+        "resolve_gold_evidence.py",
+        "run_fact_check_experiment.py"
+      ],
+      "doc_references": 3,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "professor_update.md"
+      ],
+      "movability": "post-submission",
+      "reason": "imported by pinned code: resolve_gold_evidence.py"
+    },
+    {
+      "path": "experiment_metrics_balanced_10000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 7,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "poster-presentation-info/PROVENANCE.md",
+        "poster-presentation-info/README.md",
+        "poster-presentation-info/presentation_dossier_comprehensive.md",
+        "presentation_dossier_comprehensive.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_metrics_balanced_10000_v1_pilot.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 4,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "poster-presentation-info/presentation_dossier_comprehensive.md",
+        "presentation_dossier_comprehensive.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_metrics_balanced_1000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_metrics_balanced_1000_v1_pilot.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_results_balanced_10000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 10,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "analysis_v2/README.md",
+        "analysis_v2/reports/METHODS.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "corrections_v2/generated/impact_manifest.json",
+        "docs/DATA_PROVENANCE.md",
+        "poster-presentation-info/PROVENANCE.md",
+        "poster-presentation-info/presentation_dossier_comprehensive.md",
+        "presentation_dossier_comprehensive.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_results_balanced_10000_v1_pilot.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_results_balanced_1000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_results_balanced_1000_v1_pilot.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_runs_balanced_10000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 4,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "docs/DATA_PROVENANCE.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_runs_balanced_10000_v1_pilot.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_runs_balanced_1000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_runs_balanced_1000_v1_pilot.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_summary_balanced_10000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 8,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "paper/CLAIM_SOURCE_MAP.md",
+        "poster-presentation-info/PROVENANCE.md",
+        "poster-presentation-info/README.md",
+        "poster-presentation-info/presentation_dossier_comprehensive.md",
+        "presentation_dossier_comprehensive.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_summary_balanced_10000_v1_pilot.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 5,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "poster-presentation-info/PROVENANCE.md",
+        "poster-presentation-info/presentation_dossier_comprehensive.md",
+        "presentation_dossier_comprehensive.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_summary_balanced_1000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_summary_balanced_1000_v1_pilot.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_tracker_balanced_10000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 5,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "resolve_summary_balanced_10000_v1.json",
+        "sample_validation_balanced_10000_v1.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_tracker_balanced_1000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 5,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "professor_update.md",
+        "resolve_summary_balanced_1000_v1.json",
+        "sample_validation_balanced_1000_v1.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_tracker_with_evidence_balanced_10000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 7,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "corrections_v2/generated/impact_manifest.json",
+        "dataset_validation_balanced_10000_v1.json",
+        "docs/DATA_PROVENANCE.md",
+        "resolve_summary_balanced_10000_v1.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "experiment_tracker_with_evidence_balanced_1000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 4,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "dataset_validation_balanced_1000_v1.json",
+        "resolve_summary_balanced_1000_v1.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "extract_fever_balanced_sample.py",
+      "area": "<root>",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 4,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "REPRODUCING.md",
+        "analysis_v2/reports/ANALYSIS_LOG.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: PUBLICATION_ARTIFACT_AUDIT.md, REPRODUCING.md, analysis_v2/reports/ANALYSIS_LOG.md"
+    },
+    {
+      "path": "fever_balanced_10000_v1_source.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 6,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "analysis_v2/reports/METHODS.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "docs/DATA_PROVENANCE.md",
+        "sample_validation_balanced_10000_v1.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "fever_balanced_1000_v1_source.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 5,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "professor_update.md",
+        "sample_validation_balanced_1000_v1.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "fever_evidence.py",
+      "area": "<root>",
+      "pins": [
+        "code_fingerprint"
+      ],
+      "entry_point": false,
+      "importers": [
+        "corrections_v2/reproduce.py",
+        "corrections_v2/tests/test_corrections.py",
+        "resolve_gold_evidence.py",
+        "silver_adjudication_v1/src/reconstruct_evidence.py"
+      ],
+      "doc_references": 3,
+      "pinned_doc_references": [
+        "corrections_v2/generated/code_hashes.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint"
+    },
+    {
+      "path": "manual_annotations_evidence_failures_balanced_10000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 3,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "merge_parallel_results.py",
+      "area": "<root>",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: PUBLICATION_ARTIFACT_AUDIT.md"
+    },
+    {
+      "path": "parallelize_remaining_runs.py",
+      "area": "<root>",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: PUBLICATION_ARTIFACT_AUDIT.md"
+    },
+    {
+      "path": "prepare_fever_wiki_pages.py",
+      "area": "<root>",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "REPRODUCING.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: PUBLICATION_ARTIFACT_AUDIT.md, REPRODUCING.md"
+    },
+    {
+      "path": "presentation_dossier_comprehensive.md",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 10,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "docs/historical/README.md",
+        "poster-presentation-info/PROVENANCE.md",
+        "poster-presentation-info/README.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "professor_update.md",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 8,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "docs/historical/README.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "requirements-openai.txt",
+      "area": "<root>",
+      "pins": [],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 4,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "REPRODUCING.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: PUBLICATION_ARTIFACT_AUDIT.md, REPRODUCING.md"
+    },
+    {
+      "path": "resolve_gold_evidence.py",
+      "area": "<root>",
+      "pins": [
+        "code_fingerprint"
+      ],
+      "entry_point": true,
+      "importers": [
+        "corrections_v2/reproduce.py",
+        "corrections_v2/tests/test_corrections.py",
+        "silver_adjudication_v1/src/reconstruct_evidence.py"
+      ],
+      "doc_references": 6,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "REPRODUCING.md",
+        "corrections_v2/generated/code_hashes.json",
+        "professor_update.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint"
+    },
+    {
+      "path": "resolve_summary_balanced_10000_v1.json",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 4,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "docs/DATA_PROVENANCE.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "resolve_summary_balanced_1000_v1.json",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "run_fact_check_experiment.py",
+      "area": "<root>",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 3,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "REPRODUCING.md",
+        "professor_update.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: PUBLICATION_ARTIFACT_AUDIT.md, REPRODUCING.md, professor_update.md"
+    },
+    {
+      "path": "sample_provenance_balanced_10000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 5,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "docs/DATA_PROVENANCE.md",
+        "sample_validation_balanced_10000_v1.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "sample_provenance_balanced_1000_v1.csv",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 4,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "professor_update.md",
+        "sample_validation_balanced_1000_v1.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "sample_validation_balanced_10000_v1.json",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 6,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "docs/DATA_PROVENANCE.md",
+        "poster-presentation-info/presentation_dossier_comprehensive.md",
+        "presentation_dossier_comprehensive.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "sample_validation_balanced_1000_v1.json",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 3,
+      "pinned_doc_references": [
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "professor_update.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "scripts/repository_inventory.py",
+      "area": "scripts",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 0,
+      "pinned_doc_references": [],
+      "movability": "movable",
+      "reason": "post-judgment utility with no contract, importer or pinned reference"
+    },
+    {
+      "path": "scripts/run_all_tests.py",
+      "area": "scripts",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 6,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "REPRODUCING.md",
+        "corrections_v2/VERIFICATION.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: MARKDOWN_CONSISTENCY_AUDIT.md, PUBLICATION_ARTIFACT_AUDIT.md, REPRODUCING.md"
+    },
+    {
+      "path": "scripts/verify_all_headlines.py",
+      "area": "scripts",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 7,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "README.md",
+        "REPRODUCING.md",
+        "corrections_v2/VERIFICATION.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: MARKDOWN_CONSISTENCY_AUDIT.md, PUBLICATION_ARTIFACT_AUDIT.md, README.md"
+    },
+    {
+      "path": "shared_task_dev.jsonl",
+      "area": "<root>",
+      "pins": [
+        "historical_774"
+      ],
+      "entry_point": false,
+      "importers": [],
+      "doc_references": 10,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/baseline/historical_inputs.json",
+        "corrections_v2/generated/historical_integrity.json",
+        "docs/DATA_PROVENANCE.md",
+        "poster-presentation-info/presentation_dossier_comprehensive.md",
+        "presentation_dossier_comprehensive.md",
+        "sample_validation_balanced_10000_v1.json",
+        "sample_validation_balanced_1000_v1.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: historical_774"
+    },
+    {
+      "path": "silver_adjudication_v1/claude_full_regression_panel/src/analyze.py",
+      "area": "silver_adjudication_v1",
+      "pins": [
+        "code_fingerprint"
+      ],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/claude_full_regression_panel/src/figures.py",
+        "silver_adjudication_v1/claude_full_regression_panel/tests/test_claude_full_regression.py",
+        "silver_adjudication_v1/claude_residual_panel/tests/test_claude_residual.py"
+      ],
+      "doc_references": 8,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/generated/code_hashes.json",
+        "silver_adjudication_v1/claude_full_regression_panel/README.md",
+        "silver_adjudication_v1/claude_full_regression_panel/freezes/STOPPING_POINT.json",
+        "silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md",
+        "silver_adjudication_v1/claude_residual_panel/reports/METHODS.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint"
+    },
+    {
+      "path": "silver_adjudication_v1/claude_full_regression_panel/src/consensus_agreement.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/claude_full_regression_panel/tests/test_claude_full_regression.py",
+        "silver_adjudication_v1/claude_residual_panel/tests/test_claude_residual.py"
+      ],
+      "doc_references": 4,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "silver_adjudication_v1/claude_full_regression_panel/README.md",
+        "silver_adjudication_v1/claude_full_regression_panel/freezes/STOPPING_POINT.json",
+        "silver_adjudication_v1/claude_residual_panel/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: PUBLICATION_ARTIFACT_AUDIT.md, silver_adjudication_v1/claude_full_regression_panel/README.md, silver_adjudication_v1/claude_full_regression_panel/freezes/STOPPING_POINT.json"
+    },
+    {
+      "path": "silver_adjudication_v1/claude_full_regression_panel/src/derive_and_blind.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/claude_full_regression_panel/tests/test_claude_full_regression.py",
+        "silver_adjudication_v1/claude_residual_panel/tests/test_claude_residual.py"
+      ],
+      "doc_references": 3,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "silver_adjudication_v1/claude_full_regression_panel/README.md",
+        "silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: MARKDOWN_CONSISTENCY_AUDIT.md, silver_adjudication_v1/claude_full_regression_panel/README.md, silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md"
+    },
+    {
+      "path": "silver_adjudication_v1/claude_full_regression_panel/src/figures.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "silver_adjudication_v1/claude_residual_panel/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: silver_adjudication_v1/claude_residual_panel/reports/METHODS.md"
+    },
+    {
+      "path": "silver_adjudication_v1/claude_full_regression_panel/src/launch_prompts.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "silver_adjudication_v1/claude_full_regression_panel/README.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: silver_adjudication_v1/claude_full_regression_panel/README.md"
+    },
+    {
+      "path": "silver_adjudication_v1/claude_full_regression_panel/src/panel_config.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": false,
+      "importers": [
+        "silver_adjudication_v1/claude_full_regression_panel/src/analyze.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/consensus_agreement.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/derive_and_blind.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/figures.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/launch_prompts.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/quarantine.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/run_judges.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/verify_headlines.py",
+        "silver_adjudication_v1/claude_full_regression_panel/tests/test_claude_full_regression.py",
+        "silver_adjudication_v1/claude_residual_panel/src/analyze.py",
+        "silver_adjudication_v1/claude_residual_panel/src/consensus_agreement.py",
+        "silver_adjudication_v1/claude_residual_panel/src/derive_and_blind.py",
+        "silver_adjudication_v1/claude_residual_panel/src/figures.py",
+        "silver_adjudication_v1/claude_residual_panel/src/run_judges.py",
+        "silver_adjudication_v1/claude_residual_panel/src/verify_headlines.py",
+        "silver_adjudication_v1/claude_residual_panel/tests/test_claude_residual.py"
+      ],
+      "doc_references": 0,
+      "pinned_doc_references": [],
+      "movability": "post-submission",
+      "reason": "imported by pinned code: silver_adjudication_v1/claude_full_regression_panel/src/analyze.py"
+    },
+    {
+      "path": "silver_adjudication_v1/claude_full_regression_panel/src/quarantine.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "silver_adjudication_v1/claude_full_regression_panel/cache/discarded/duplicate_rerun_superseded_stage_b/REASON.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: silver_adjudication_v1/claude_full_regression_panel/cache/discarded/duplicate_rerun_superseded_stage_b/REASON.md"
+    },
+    {
+      "path": "silver_adjudication_v1/claude_full_regression_panel/src/run_judges.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/claude_full_regression_panel/src/analyze.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/consensus_agreement.py",
+        "silver_adjudication_v1/claude_full_regression_panel/tests/test_claude_full_regression.py",
+        "silver_adjudication_v1/claude_residual_panel/src/analyze.py",
+        "silver_adjudication_v1/claude_residual_panel/src/consensus_agreement.py",
+        "silver_adjudication_v1/claude_residual_panel/tests/test_claude_residual.py",
+        "silver_adjudication_v1/src/aggregate_consensus.py",
+        "silver_adjudication_v1/src/cross_panel_stage_a.py",
+        "silver_adjudication_v1/src/join_analysis_v2.py",
+        "silver_adjudication_v1/src/prepare_packets.py",
+        "silver_adjudication_v1/src/resolve_disagreements.py",
+        "silver_adjudication_v1/tests/test_cursor_panel.py",
+        "silver_adjudication_v1/tests/test_silver_pipeline.py"
+      ],
+      "doc_references": 7,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "REPRODUCING.md",
+        "corrections_v2/RERUN.md",
+        "silver_adjudication_v1/claude_full_regression_panel/README.md",
+        "silver_adjudication_v1/claude_residual_panel/reports/METHODS.md",
+        "silver_adjudication_v1/reports/ADJUDICATION_LOG.md"
+      ],
+      "movability": "post-submission",
+      "reason": "imported by pinned code: silver_adjudication_v1/claude_full_regression_panel/src/analyze.py, silver_adjudication_v1/src/join_analysis_v2.py"
+    },
+    {
+      "path": "silver_adjudication_v1/claude_full_regression_panel/src/verify_headlines.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/claude_residual_panel/tests/test_claude_residual.py"
+      ],
+      "doc_references": 12,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "README.md",
+        "REPRODUCING.md",
+        "analysis_v2/reports/ANALYSIS_LOG.md",
+        "analysis_v2/reports/METHODS.md",
+        "silver_adjudication_v1/README.md",
+        "silver_adjudication_v1/claude_full_regression_panel/README.md",
+        "silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md",
+        "silver_adjudication_v1/claude_residual_panel/reports/METHODS.md",
+        "silver_adjudication_v1/cursor_panel/README.md",
+        "silver_adjudication_v1/reports/ADJUDICATION_LOG.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: MARKDOWN_CONSISTENCY_AUDIT.md, PUBLICATION_ARTIFACT_AUDIT.md, README.md"
+    },
+    {
+      "path": "silver_adjudication_v1/claude_full_regression_panel/tests/test_claude_full_regression.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md"
+    },
+    {
+      "path": "silver_adjudication_v1/claude_residual_panel/src/analyze.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/claude_full_regression_panel/src/figures.py",
+        "silver_adjudication_v1/claude_full_regression_panel/tests/test_claude_full_regression.py",
+        "silver_adjudication_v1/claude_residual_panel/tests/test_claude_residual.py"
+      ],
+      "doc_references": 8,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "corrections_v2/generated/code_hashes.json",
+        "silver_adjudication_v1/claude_full_regression_panel/README.md",
+        "silver_adjudication_v1/claude_full_regression_panel/freezes/STOPPING_POINT.json",
+        "silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md",
+        "silver_adjudication_v1/claude_residual_panel/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: MARKDOWN_CONSISTENCY_AUDIT.md, PUBLICATION_ARTIFACT_AUDIT.md, corrections_v2/generated/code_hashes.json"
+    },
+    {
+      "path": "silver_adjudication_v1/claude_residual_panel/src/consensus_agreement.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/claude_full_regression_panel/tests/test_claude_full_regression.py",
+        "silver_adjudication_v1/claude_residual_panel/tests/test_claude_residual.py"
+      ],
+      "doc_references": 4,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "silver_adjudication_v1/claude_full_regression_panel/README.md",
+        "silver_adjudication_v1/claude_full_regression_panel/freezes/STOPPING_POINT.json",
+        "silver_adjudication_v1/claude_residual_panel/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: PUBLICATION_ARTIFACT_AUDIT.md, silver_adjudication_v1/claude_full_regression_panel/README.md, silver_adjudication_v1/claude_full_regression_panel/freezes/STOPPING_POINT.json"
+    },
+    {
+      "path": "silver_adjudication_v1/claude_residual_panel/src/derive_and_blind.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/claude_full_regression_panel/tests/test_claude_full_regression.py",
+        "silver_adjudication_v1/claude_residual_panel/tests/test_claude_residual.py"
+      ],
+      "doc_references": 3,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "silver_adjudication_v1/claude_full_regression_panel/README.md",
+        "silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: MARKDOWN_CONSISTENCY_AUDIT.md, silver_adjudication_v1/claude_full_regression_panel/README.md, silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md"
+    },
+    {
+      "path": "silver_adjudication_v1/claude_residual_panel/src/figures.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "silver_adjudication_v1/claude_residual_panel/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: silver_adjudication_v1/claude_residual_panel/reports/METHODS.md"
+    },
+    {
+      "path": "silver_adjudication_v1/claude_residual_panel/src/panel_config.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": false,
+      "importers": [
+        "silver_adjudication_v1/claude_full_regression_panel/src/analyze.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/consensus_agreement.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/derive_and_blind.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/figures.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/launch_prompts.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/quarantine.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/run_judges.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/verify_headlines.py",
+        "silver_adjudication_v1/claude_full_regression_panel/tests/test_claude_full_regression.py",
+        "silver_adjudication_v1/claude_residual_panel/src/analyze.py",
+        "silver_adjudication_v1/claude_residual_panel/src/consensus_agreement.py",
+        "silver_adjudication_v1/claude_residual_panel/src/derive_and_blind.py",
+        "silver_adjudication_v1/claude_residual_panel/src/figures.py",
+        "silver_adjudication_v1/claude_residual_panel/src/run_judges.py",
+        "silver_adjudication_v1/claude_residual_panel/src/verify_headlines.py",
+        "silver_adjudication_v1/claude_residual_panel/tests/test_claude_residual.py"
+      ],
+      "doc_references": 0,
+      "pinned_doc_references": [],
+      "movability": "post-submission",
+      "reason": "imported by pinned code: silver_adjudication_v1/claude_full_regression_panel/src/analyze.py"
+    },
+    {
+      "path": "silver_adjudication_v1/claude_residual_panel/src/run_judges.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/claude_full_regression_panel/src/analyze.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/consensus_agreement.py",
+        "silver_adjudication_v1/claude_full_regression_panel/tests/test_claude_full_regression.py",
+        "silver_adjudication_v1/claude_residual_panel/src/analyze.py",
+        "silver_adjudication_v1/claude_residual_panel/src/consensus_agreement.py",
+        "silver_adjudication_v1/claude_residual_panel/tests/test_claude_residual.py",
+        "silver_adjudication_v1/src/aggregate_consensus.py",
+        "silver_adjudication_v1/src/cross_panel_stage_a.py",
+        "silver_adjudication_v1/src/join_analysis_v2.py",
+        "silver_adjudication_v1/src/prepare_packets.py",
+        "silver_adjudication_v1/src/resolve_disagreements.py",
+        "silver_adjudication_v1/tests/test_cursor_panel.py",
+        "silver_adjudication_v1/tests/test_silver_pipeline.py"
+      ],
+      "doc_references": 7,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "REPRODUCING.md",
+        "corrections_v2/RERUN.md",
+        "silver_adjudication_v1/claude_full_regression_panel/README.md",
+        "silver_adjudication_v1/claude_residual_panel/reports/METHODS.md",
+        "silver_adjudication_v1/reports/ADJUDICATION_LOG.md"
+      ],
+      "movability": "post-submission",
+      "reason": "imported by pinned code: silver_adjudication_v1/claude_full_regression_panel/src/analyze.py, silver_adjudication_v1/src/join_analysis_v2.py"
+    },
+    {
+      "path": "silver_adjudication_v1/claude_residual_panel/src/verify_headlines.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/claude_residual_panel/tests/test_claude_residual.py"
+      ],
+      "doc_references": 12,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "README.md",
+        "REPRODUCING.md",
+        "analysis_v2/reports/ANALYSIS_LOG.md",
+        "analysis_v2/reports/METHODS.md",
+        "silver_adjudication_v1/README.md",
+        "silver_adjudication_v1/claude_full_regression_panel/README.md",
+        "silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md",
+        "silver_adjudication_v1/claude_residual_panel/reports/METHODS.md",
+        "silver_adjudication_v1/cursor_panel/README.md",
+        "silver_adjudication_v1/reports/ADJUDICATION_LOG.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: MARKDOWN_CONSISTENCY_AUDIT.md, PUBLICATION_ARTIFACT_AUDIT.md, README.md"
+    },
+    {
+      "path": "silver_adjudication_v1/claude_residual_panel/tests/test_claude_residual.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 0,
+      "pinned_doc_references": [],
+      "movability": "leave",
+      "reason": "historical study pipeline that produced pinned outputs; moving would be cosmetic"
+    },
+    {
+      "path": "silver_adjudication_v1/config.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": false,
+      "importers": [
+        "analysis_v2/src/asymmetry_analysis.py",
+        "analysis_v2/src/build_paired_dataset.py",
+        "analysis_v2/src/clustering_analysis.py",
+        "analysis_v2/src/data_quality_analysis.py",
+        "analysis_v2/src/feature_associations.py",
+        "analysis_v2/src/generate_figures.py",
+        "analysis_v2/src/leakage_audit.py",
+        "analysis_v2/src/linguistic_features.py",
+        "analysis_v2/src/manual_review_export.py",
+        "analysis_v2/src/nli_analysis.py",
+        "analysis_v2/src/nli_second_model.py",
+        "analysis_v2/src/regression_analysis.py",
+        "analysis_v2/src/semantic_features.py",
+        "analysis_v2/src/statistical_analysis.py",
+        "analysis_v2/src/transition_analysis.py",
+        "analysis_v2/src/validate_source_data.py",
+        "analysis_v2/src/verify_headlines.py",
+        "analysis_v2/tests/test_analysis_logic.py",
+        "silver_adjudication_v1/claude_full_regression_panel/tests/test_claude_full_regression.py",
+        "silver_adjudication_v1/run_all.py",
+        "silver_adjudication_v1/src/aggregate_consensus.py",
+        "silver_adjudication_v1/src/agreement_analysis.py",
+        "silver_adjudication_v1/src/blind_cohort.py",
+        "silver_adjudication_v1/src/build_cohort.py",
+        "silver_adjudication_v1/src/cross_panel_stage_a.py",
+        "silver_adjudication_v1/src/generate_figures.py",
+        "silver_adjudication_v1/src/join_analysis_v2.py",
+        "silver_adjudication_v1/src/prepare_packets.py",
+        "silver_adjudication_v1/src/representation_sensitivity.py",
+        "silver_adjudication_v1/src/resolve_disagreements.py",
+        "silver_adjudication_v1/src/run_judges.py",
+        "silver_adjudication_v1/src/statistical_analysis.py",
+        "silver_adjudication_v1/src/validate_blinding.py",
+        "silver_adjudication_v1/src/verify_headlines.py",
+        "silver_adjudication_v1/tests/test_cursor_panel.py",
+        "silver_adjudication_v1/tests/test_silver_pipeline.py"
+      ],
+      "doc_references": 4,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "analysis_v2/README.md",
+        "silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "imported by pinned code: silver_adjudication_v1/src/join_analysis_v2.py"
+    },
+    {
+      "path": "silver_adjudication_v1/run_all.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/tests/test_cursor_panel.py"
+      ],
+      "doc_references": 8,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "REPRODUCING.md",
+        "analysis_v2/README.md",
+        "analysis_v2/reports/ANALYSIS_LOG.md",
+        "analysis_v2/reports/METHODS.md",
+        "silver_adjudication_v1/cursor_panel/README.md",
+        "silver_adjudication_v1/reports/ADJUDICATION_LOG.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: MARKDOWN_CONSISTENCY_AUDIT.md, PUBLICATION_ARTIFACT_AUDIT.md, REPRODUCING.md"
+    },
+    {
+      "path": "silver_adjudication_v1/src/aggregate_consensus.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/claude_full_regression_panel/tests/test_claude_full_regression.py",
+        "silver_adjudication_v1/src/agreement_analysis.py",
+        "silver_adjudication_v1/src/representation_sensitivity.py",
+        "silver_adjudication_v1/src/resolve_disagreements.py",
+        "silver_adjudication_v1/tests/test_cursor_panel.py",
+        "silver_adjudication_v1/tests/test_silver_pipeline.py"
+      ],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md"
+    },
+    {
+      "path": "silver_adjudication_v1/src/agreement_analysis.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 0,
+      "pinned_doc_references": [],
+      "movability": "leave",
+      "reason": "historical study pipeline that produced pinned outputs; moving would be cosmetic"
+    },
+    {
+      "path": "silver_adjudication_v1/src/blind_cohort.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md"
+    },
+    {
+      "path": "silver_adjudication_v1/src/build_cohort.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 0,
+      "pinned_doc_references": [],
+      "movability": "leave",
+      "reason": "historical study pipeline that produced pinned outputs; moving would be cosmetic"
+    },
+    {
+      "path": "silver_adjudication_v1/src/cross_panel_stage_a.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/src/verify_glm_stage_a.py",
+        "silver_adjudication_v1/tests/test_cursor_panel.py"
+      ],
+      "doc_references": 3,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "REPRODUCING.md",
+        "silver_adjudication_v1/README.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: MARKDOWN_CONSISTENCY_AUDIT.md, REPRODUCING.md, silver_adjudication_v1/README.md"
+    },
+    {
+      "path": "silver_adjudication_v1/src/eolhash.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": false,
+      "importers": [
+        "silver_adjudication_v1/claude_full_regression_panel/src/run_judges.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/verify_headlines.py",
+        "silver_adjudication_v1/src/run_judges.py",
+        "silver_adjudication_v1/src/verify_headlines.py",
+        "silver_adjudication_v1/tests/test_silver_pipeline.py"
+      ],
+      "doc_references": 0,
+      "pinned_doc_references": [],
+      "movability": "leave",
+      "reason": "historical study pipeline that produced pinned outputs; moving would be cosmetic"
+    },
+    {
+      "path": "silver_adjudication_v1/src/generate_figures.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 2,
+      "pinned_doc_references": [
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "analysis_v2/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: PUBLICATION_ARTIFACT_AUDIT.md, analysis_v2/reports/METHODS.md"
+    },
+    {
+      "path": "silver_adjudication_v1/src/join_analysis_v2.py",
+      "area": "silver_adjudication_v1",
+      "pins": [
+        "code_fingerprint"
+      ],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/tests/test_cursor_panel.py"
+      ],
+      "doc_references": 3,
+      "pinned_doc_references": [
+        "corrections_v2/generated/code_hashes.json",
+        "silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md",
+        "silver_adjudication_v1/reports/ADJUDICATION_LOG.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint"
+    },
+    {
+      "path": "silver_adjudication_v1/src/prepare_packets.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 0,
+      "pinned_doc_references": [],
+      "movability": "leave",
+      "reason": "historical study pipeline that produced pinned outputs; moving would be cosmetic"
+    },
+    {
+      "path": "silver_adjudication_v1/src/reconstruct_evidence.py",
+      "area": "silver_adjudication_v1",
+      "pins": [
+        "code_fingerprint"
+      ],
+      "entry_point": true,
+      "importers": [
+        "corrections_v2/reproduce.py",
+        "corrections_v2/tests/test_corrections.py"
+      ],
+      "doc_references": 3,
+      "pinned_doc_references": [
+        "corrections_v2/generated/code_hashes.json",
+        "silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint"
+    },
+    {
+      "path": "silver_adjudication_v1/src/representation_sensitivity.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md"
+    },
+    {
+      "path": "silver_adjudication_v1/src/resolve_disagreements.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/src/join_analysis_v2.py"
+      ],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "silver_adjudication_v1/reports/ADJUDICATION_LOG.md"
+      ],
+      "movability": "post-submission",
+      "reason": "imported by pinned code: silver_adjudication_v1/src/join_analysis_v2.py"
+    },
+    {
+      "path": "silver_adjudication_v1/src/run_judges.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/claude_full_regression_panel/src/analyze.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/consensus_agreement.py",
+        "silver_adjudication_v1/claude_full_regression_panel/tests/test_claude_full_regression.py",
+        "silver_adjudication_v1/claude_residual_panel/src/analyze.py",
+        "silver_adjudication_v1/claude_residual_panel/src/consensus_agreement.py",
+        "silver_adjudication_v1/claude_residual_panel/tests/test_claude_residual.py",
+        "silver_adjudication_v1/src/aggregate_consensus.py",
+        "silver_adjudication_v1/src/cross_panel_stage_a.py",
+        "silver_adjudication_v1/src/join_analysis_v2.py",
+        "silver_adjudication_v1/src/prepare_packets.py",
+        "silver_adjudication_v1/src/resolve_disagreements.py",
+        "silver_adjudication_v1/tests/test_cursor_panel.py",
+        "silver_adjudication_v1/tests/test_silver_pipeline.py"
+      ],
+      "doc_references": 7,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "REPRODUCING.md",
+        "corrections_v2/RERUN.md",
+        "silver_adjudication_v1/claude_full_regression_panel/README.md",
+        "silver_adjudication_v1/claude_residual_panel/reports/METHODS.md",
+        "silver_adjudication_v1/reports/ADJUDICATION_LOG.md"
+      ],
+      "movability": "post-submission",
+      "reason": "imported by pinned code: silver_adjudication_v1/claude_full_regression_panel/src/analyze.py, silver_adjudication_v1/src/join_analysis_v2.py"
+    },
+    {
+      "path": "silver_adjudication_v1/src/statistical_analysis.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "analysis_v2/tests/test_analysis_logic.py"
+      ],
+      "doc_references": 1,
+      "pinned_doc_references": [
+        "analysis_v2/reports/METHODS.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: analysis_v2/reports/METHODS.md"
+    },
+    {
+      "path": "silver_adjudication_v1/src/taxonomy_legacy_v1.py",
+      "area": "silver_adjudication_v1",
+      "pins": [
+        "code_fingerprint"
+      ],
+      "entry_point": false,
+      "importers": [
+        "corrections_v2/reproduce.py",
+        "corrections_v2/tests/test_corrections.py",
+        "silver_adjudication_v1/claude_full_regression_panel/src/analyze.py",
+        "silver_adjudication_v1/src/join_analysis_v2.py"
+      ],
+      "doc_references": 3,
+      "pinned_doc_references": [
+        "corrections_v2/FINDINGS.md",
+        "corrections_v2/generated/code_hashes.json",
+        "corrections_v2/generated/impact_manifest.json"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint"
+    },
+    {
+      "path": "silver_adjudication_v1/src/taxonomy_v2.py",
+      "area": "silver_adjudication_v1",
+      "pins": [
+        "code_fingerprint",
+        "spec_freeze"
+      ],
+      "entry_point": false,
+      "importers": [
+        "corrections_v2/analysis_pipeline.py",
+        "corrections_v2/reproduce.py",
+        "corrections_v2/tests/test_corrections.py"
+      ],
+      "doc_references": 5,
+      "pinned_doc_references": [
+        "corrections_v2/generated/code_hashes.json",
+        "corrections_v2/generated/impact_manifest.json",
+        "corrections_v2/protocol/analysis_spec_2026-09-27.md"
+      ],
+      "movability": "immovable",
+      "reason": "hash contract: code_fingerprint, spec_freeze"
+    },
+    {
+      "path": "silver_adjudication_v1/src/validate_blinding.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 0,
+      "pinned_doc_references": [],
+      "movability": "leave",
+      "reason": "historical study pipeline that produced pinned outputs; moving would be cosmetic"
+    },
+    {
+      "path": "silver_adjudication_v1/src/verify_glm_stage_a.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 4,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "README.md",
+        "REPRODUCING.md",
+        "silver_adjudication_v1/README.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: MARKDOWN_CONSISTENCY_AUDIT.md, README.md, REPRODUCING.md"
+    },
+    {
+      "path": "silver_adjudication_v1/src/verify_headlines.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [
+        "silver_adjudication_v1/claude_residual_panel/tests/test_claude_residual.py"
+      ],
+      "doc_references": 12,
+      "pinned_doc_references": [
+        "MARKDOWN_CONSISTENCY_AUDIT.md",
+        "PUBLICATION_ARTIFACT_AUDIT.md",
+        "README.md",
+        "REPRODUCING.md",
+        "analysis_v2/reports/ANALYSIS_LOG.md",
+        "analysis_v2/reports/METHODS.md",
+        "silver_adjudication_v1/README.md",
+        "silver_adjudication_v1/claude_full_regression_panel/README.md",
+        "silver_adjudication_v1/claude_full_regression_panel/reports/METHODS.md",
+        "silver_adjudication_v1/claude_residual_panel/reports/METHODS.md",
+        "silver_adjudication_v1/cursor_panel/README.md",
+        "silver_adjudication_v1/reports/ADJUDICATION_LOG.md"
+      ],
+      "movability": "post-submission",
+      "reason": "invoked or named by pinned documents: MARKDOWN_CONSISTENCY_AUDIT.md, PUBLICATION_ARTIFACT_AUDIT.md, README.md"
+    },
+    {
+      "path": "silver_adjudication_v1/tests/test_cursor_panel.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 0,
+      "pinned_doc_references": [],
+      "movability": "leave",
+      "reason": "historical study pipeline that produced pinned outputs; moving would be cosmetic"
+    },
+    {
+      "path": "silver_adjudication_v1/tests/test_silver_pipeline.py",
+      "area": "silver_adjudication_v1",
+      "pins": [],
+      "entry_point": true,
+      "importers": [],
+      "doc_references": 0,
+      "pinned_doc_references": [],
+      "movability": "leave",
+      "reason": "historical study pipeline that produced pinned outputs; moving would be cosmetic"
+    }
+  ]
+}

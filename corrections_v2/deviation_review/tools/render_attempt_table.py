@@ -2,7 +2,7 @@
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[3]
 EVIDENCE = ROOT / "corrections_v2/deviation_review/evidence"
 JOBS = ["p01_C_j4_b08", "p01_C_j4_b09", "p02_C_j2_b03", "p02_C_j3_b01", "p02_C_j3_b02", "p02_C_j3_b03",
         "p02_C_j2_b02", "p01_C_j5_b09"]

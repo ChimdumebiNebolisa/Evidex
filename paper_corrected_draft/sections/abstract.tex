@@ -1,0 +1,10 @@
+Supplying designated gold evidence is widely assumed to make language-model fact verification more reliable.
+We test that assumption in a paired experiment on 10{,}000 balanced FEVER Supported/Refuted claims, evaluating GPT-5.4 and GPT-5.4-mini without evidence and with FEVER-designated gold evidence (40{,}000 predictions).
+Evidence raises aggregate accuracy from 88.69\% to 96.04\% ($+7.35$~pp) for GPT-5.4 and from 84.67\% to 95.54\% ($+10.87$~pp) for GPT-5.4-mini.
+Those gains conceal a minority of evidence-induced regressions: 226 unique claims that were correct without evidence become wrong after the same gold evidence is supplied (40 shared by both models; 186 specific to one model).
+We describe the 226 regressions with blinded five-judge progressive-disclosure adjudication by two model families, Grok and Claude.
+An audit found that the historical structured-evidence stage displayed corrupted sentence text; that stage was re-judged on repaired inputs under a post hoc correction protocol, and outcomes are summarized with a descriptive taxonomy that keeps judge decisiveness and agreement with FEVER separate.
+On the repaired inputs, the panels remain nondecisive on 31.4\% (Grok) and 17--18\% (Claude) of regressions, reach a decisive verdict that disagrees with FEVER on 19.5\% and 23.9\%, and agree with FEVER from the evidence sentences alone on 34.1\% and 46--47\%.
+Claude is more decisive than Grok at every disclosure stage, and exact per-claim category agreement between the families is 74--76\% ($\kappa=0.65$--$0.67$).
+Because execution of the re-judging deviated from its frozen protocol, these diagnostic results come from a separately labeled post-judgment analysis and are reported with their input-selection sensitivity.
+Evidence can raise overall accuracy while creating localized failures; how those failures distribute across diagnostic outcomes depends on the adjudicating model family, and the outcomes do not identify causes of GPT errors.

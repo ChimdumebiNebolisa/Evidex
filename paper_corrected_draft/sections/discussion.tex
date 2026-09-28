@@ -1,0 +1,44 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Evidence helps globally but can hurt locally}
+The practical headline is not that gold evidence fails.
+It succeeds on average, and it rescues far more claim-only errors than it creates.
+The scientific headline is that those averages are the wrong unit for reliability engineering.
+A 1.15--1.51\% regression rate is small in a 10{,}000-claim table and large if each regression is a previously correct decision that evidence reversed.
+Evaluation reports that publish only condition-wise accuracy will miss that reversal.
+
+\subsection{What adjudication can and cannot say about regressions}
+For roughly a third (Grok) to nearly half (Claude) of the 226 regressions, a blinded panel reaches the FEVER label from the evidence sentences alone and keeps it as titles and structured evidence are added.
+On those items the designated evidence appears adequate to an independent reader while GPT moved away from the correct label after receiving it.
+That pattern is compatible with an evidence-utilization failure and connects to work showing that models can ignore, mishandle, or be distracted by supplied context \citep{longpre-etal-2021-entity,shi2023distracted,wan-etal-2024-evidence}.
+It does not establish that explanation: the original runs stored labels only, and the adjudicator is a different model reading the evidence in a different prompt.
+A further fifth to quarter of regressions end in a decisive verdict opposite to FEVER, and a sixth (Claude) to nearly a third (Grok) end nondecisive.
+In neither case does a decisive GPT answer after evidence show that GPT failed to use evidence supporting the FEVER answer.
+These observations therefore do not establish the prevalence or cause of GPT evidence-utilization failures.
+
+\subsection{Nondecisiveness and disagreement with FEVER}
+Final nondecisiveness is common in both families, which is expected given prior evidence that sufficiency and ambiguity are first-class problems in fact verification \citep{atanasova-etal-2022-fact,glockner-etal-2024-ambifc}.
+We do not interpret nondecisive outcomes or decisive judge--FEVER disagreements as FEVER annotation errors; inspected rationales show substantive conflicts (for example, a date or scope mismatch between claim and evidence), but judge rationales are observations, not labels.
+Shared regressions, which both GPT models got wrong after evidence, are more often nondecisive under both families, although the Grok difference is not significant after correction.
+
+\subsection{Disclosure and representation}
+Titles and structured evidence change a minority of verdicts and never reverse a decisive consensus.
+Stage~C adds alternative sentence text for some claims, so its effect mixes added information with changed representation.
+Separating the two would require a structure-only arm that shows the chosen evidence set without alternatives; we did not run one.
+We therefore make no claim about the size or portability of a pure representation effect.
+
+\subsection{Judge-family dependence as measurement uncertainty}
+The Claude-versus-Grok difference is a result, not a defect to be explained away.
+LLM-as-judge work already shows that evaluators have family-specific biases and are not drop-in substitutes \citep{zheng2023judging,liu-etal-2023-g,chen-etal-2024-humans,huang-etal-2025-empirical}.
+Here the same packets, rubric, and taxonomy produce a 13--16~pp difference in nondecisiveness at every stage and disagreement on about one regression in four.
+Category shares are therefore properties of an adjudicating family as much as of the claims; two instruments do not define an uncertainty interval for a latent prevalence, and we report both rather than a single estimate.
+
+\subsection{Implications for evidence-grounded LLM evaluation}
+Four implications follow.
+First, paired no-evidence versus gold-evidence evaluation should be standard whenever a benchmark supplies designated evidence; otherwise regressions are invisible.
+Second, automated diagnostic categories need a second judge family before their shares are treated as stable, and decisiveness should be reported separately from agreement with the benchmark label.
+Third, residual nondecisiveness should remain a first-class output of adjudication rather than being forced into Supported/Refuted.
+Fourth, adjudication inputs deserve the same verification as model inputs: a field-extraction error silently corrupted the structured stage of our original adjudication.
+% COAUTHOR REVIEW: the historical draft named 58 claim-level disagreements; the corrected count is 54 (accepted) or 58 (first-valid).
+Human review of the 54--58 claim-level Grok--Claude category disagreements would be the natural next measurement, not another automated family.

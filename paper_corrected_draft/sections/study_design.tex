@@ -1,0 +1,99 @@
+\section{Study Design}
+\label{sec:design}
+
+\subsection{Research questions}
+\label{sec:rqs}
+% COAUTHOR REVIEW: RQ3 and RQ4 are reworded from "diagnostic failure modes" to descriptive adjudication outcomes.
+\begin{description}
+\item[RQ1] How does providing FEVER-designated gold evidence affect aggregate LLM fact-verification accuracy?
+\item[RQ2] When evidence changes a previously correct prediction into an incorrect one, how frequent and consistent are those regressions across models?
+\item[RQ3] Which observable adjudication outcomes---decisiveness, agreement with FEVER, and the disclosure stage at which they change---characterize evidence-induced regressions under progressive disclosure?
+\item[RQ4] Which of those outcomes depend on the adjudicating model family?
+\end{description}
+
+\subsection{FEVER dataset and sampling}
+We sample from the FEVER development set \citep{thorne-etal-2018-fever}.
+The manuscript experiment is a balanced 10{,}000-claim extract: 5{,}000 Supported and 5{,}000 Refuted, seed 42, \texttt{NOT ENOUGH INFO} excluded.
+Gold evidence is resolved from official FEVER Wikipedia shards into the text shown to the models.
+Sampling and validation artifacts are committed with the frozen repository; third-party FEVER and Wikipedia text are not relicensed by the project MIT license.
+
+\subsection{Models and paired evidence conditions}
+Each claim is evaluated four times: GPT-5.4 and GPT-5.4-mini, each under \texttt{claim\_only} and \texttt{claim\_plus\_evidence}.
+That yields 40{,}000 predictions.
+The evidence condition uses the designated FEVER evidence, not an open-web retrieval step.
+Original GPT runs stored labels only, so later analysis cannot recover confidence, rationales, or token-level attributions.
+
+\subsection{Transition definitions}
+For each model, a claim has one of four paired transitions:
+\emph{robust} (correct without and with evidence),
+\emph{rescue} (wrong without, correct with),
+\emph{resistant} (wrong in both),
+or \emph{regression} (correct without, wrong with).
+A unique-claim regression is a claim that regresses for at least one of the two GPT models.
+Unique-claim counts are never treated as model-observations: 115 GPT-5.4 regressions and 151 mini regressions are 226 unique claims, not 266.
+
+\subsection{Analysis v2}
+Analysis v2 treats the 40{,}000-row experiment file as immutable source data.
+It rebuilds the paired dataset, runs McNemar tests and bootstrap confidence intervals, extracts linguistic and evidence-structure features, embeds claim--evidence pairs, and applies two local NLI models (nli-deberta-v3-small and distilbert-base-uncased-mnli) as diagnostics, not as ground truth.
+Leakage audits and an independent 69-check headline verifier are part of the frozen record.
+Confirmatory tests were pre-specified; NLI and feature analyses are exploratory.
+
+\subsection{Diagnostic cohort}
+The adjudication cohort contains 1{,}061 unique claims: all 226 unique regressions, 335 resistant, 250 rescue, and 250 robust.
+One item (\texttt{SA-000352}) is provider-filtered, so judged $N=1{,}060$.
+The Grok panel judges the 1{,}060-claim cohort; the Claude panel judges only the 226 regressions.
+This diagnostic sample is not representative of all 10{,}000 claims, and cross-family comparisons always pair the same 226 claims.
+
+\subsection{Progressive-disclosure adjudication}
+\label{sec:protocol}
+Five isolated judges per stage and batch see:
+Stage~A, the original selected gold-evidence sentence text (identical to the GPT evidence prompt);
+Stage~B, Stage~A plus the page titles;
+Stage~C, structured FEVER evidence---ordered sentence pointers, annotation boundaries, and the text of available alternative evidence sets.
+Stage~C can therefore add information as well as change representation: on the repaired inputs it adds sentence text beyond the selected sentences for 149 cohort claims, including 41 regressions.
+Judges do not browse, retrieve new pages, or see FEVER labels, GPT predictions, cohort tags, NLI scores, or other judges.
+Each stage is frozen before the next stage's packets are built, and packets carry only current-stage evidence.
+Consensus is computed by code from the five raw judgments; resolver outputs never replace raw consensus.
+The Grok panel is locked to \texttt{cursor-grok-4.6-high-fast} and the Claude panel to \texttt{claude-opus-5-thinking-high}.
+
+\subsection{Descriptive taxonomy}
+\label{sec:taxonomy}
+For each claim the taxonomy records decisiveness (Supported or Refuted versus Ambiguous or Unresolved) and FEVER agreement at every stage, the first gold-agreeing stage, title and Stage~C resolutions, reversals, and losses of decisiveness.
+Each claim then receives exactly one category, in priority order:
+\emph{final nondecisive} (Stage~C consensus Ambiguous or Unresolved);
+\emph{decisive judge--FEVER disagreement} (decisive Stage~C verdict opposite to FEVER);
+\emph{nonmonotonic judge path} (final gold agreement after a reversal or loss of decisiveness);
+\emph{sentence-only gold-agreeing} (gold-agreeing from Stage~A onward);
+\emph{title-disclosure gold-agreeing} (first gold agreement at Stage~B);
+and, for first gold agreement at Stage~C, \emph{additional-evidence gold-agreeing} when Stage~C adds sentence text and \emph{structured-disclosure gold-agreeing} otherwise.
+These categories describe where a blinded panel's verdict stands; they are not causal mechanisms inside GPT.
+A decisive disagreement with FEVER is not evidence that the FEVER label is wrong, and sentence-only gold agreement is compatible with, but does not establish, a failure by GPT to use the supplied evidence.
+The taxonomy was specified post hoc, after inspection of the historical results, and awaits coauthor review.
+
+\subsection{Evidence audit and Stage~C correction}
+\label{sec:correction}
+The historical Stage~C packets took each evidence line's last tab-separated field, often a hyperlink target, instead of the sentence text.
+Chosen-set text differed from the canonical sentences for 936 of 1{,}061 cohort claims (190 of the 226 regressions); ten further claims lacked structured text because decomposed-Unicode titles were missing from a cache.
+Exact selected evidence sets were recovered by recomputing the original set identifiers, and all selected and alternative sentences were rebuilt from local archival FEVER data.
+Stage~A inputs equal the GPT evidence prompts and Stage~B inputs equal the historical records exactly; their frozen judgments are retained under the documented fresh-context-per-stage protocol, and all Stage~C judgments are new.
+Consensus paths therefore combine historical Stage~A/B judgments with new Stage~C judgments.
+
+A post hoc correction protocol, frozen on 2026-09-27 before any new judgment, fixed the repaired packets, the taxonomy, the statistical analyses, and execution rules: at most three attempts per job, acceptance of the first schema-valid response, and unique sessions.
+Seventy required jobs (55 Grok, 15 Claude; 6{,}430 new Stage~C judgments) all delivered schema-valid outputs.
+Execution nevertheless deviated from the protocol: after provider quota and account usage limits, six jobs used more than three attempts; concurrent runners wrote collision records whose sessions are unknown; and in two Claude jobs earlier finished, schema-valid outputs were never checkpointed, so a later output was accepted instead of the first valid one.
+The protocol's primary analysis therefore reports incomplete provenance, and the protocol-defined follow-up panels (a newly selected residual Claude panel and a Stage~C resolver) were not run; an optional fixed historical residual panel was also not run.
+% COAUTHOR REVIEW: whether the first-valid selection or the accepted selection is the main estimate is a post-judgment decision.
+All diagnostic results in this draft come from a separately labeled post-judgment deviation analysis that applies the frozen analysis code unchanged to two input selections, specified after the outputs were inspected: the 70 outputs as accepted, and the first finished schema-valid output for each Claude job (Appendix~\ref{app:correction-deviations}).
+Where the two differ, both are reported.
+
+\subsection{Supporting cross-family data}
+\label{sec:cross-family-design}
+GLM-5.3 contributes a completed Stage~A panel compared to frozen Cursor Stage~A ($n=1{,}060$); Stage~A inputs are unaffected by the audit.
+A historical Claude Stage~C test on 231 Grok leftovers used the defective Stage~C packets and a residual set selected with defective Grok Stage~C judgments; it is reported only as a historical observation (Appendix~\ref{app:historical}).
+
+\subsection{Statistical analysis}
+Paired accuracy uses McNemar tests; regression and rescue rates use bootstrap confidence intervals.
+Descriptive adjudication rates use Wilson 95\% intervals.
+Cross-family comparisons on the paired 226 claims use exact McNemar tests with Benjamini--Hochberg correction across 14 tests; shared-versus-model-specific nondecisiveness uses odds ratios in a separate two-test family.
+Cross-family taxonomy agreement is reported as exact match and Cohen's $\kappa$.
+All adjudication analyses are post hoc.

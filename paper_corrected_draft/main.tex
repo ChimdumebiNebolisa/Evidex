@@ -1,0 +1,66 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath,amssymb}
+\usepackage{natbib}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+
+\setstretch{1.08}
+\bibliographystyle{plainnat}
+
+% COAUTHOR REVIEW: title retained from the historical draft; "Diagnosing" may overstate the corrected, descriptive diagnostics.
+\title{Evidence Helps on Average, but Sometimes Hurts:\\
+Diagnosing Evidence-Induced Regressions in LLM Fact Verification}
+
+\author{
+Chimdumebi Mitchell Nebolisa\\
+\textit{Affiliation TODO}\\
+\and
+Jessica Udry\\
+\textit{Affiliation TODO}
+}
+
+\date{Corrected manuscript draft for coauthor review (2026-09-28)\\[0.4em]
+\small Behavioral record: \texttt{evidex-artifact-v1} (\texttt{29102c3}); corrected diagnostics: post-judgment deviation analysis on \texttt{codex/methodology-correction-v2}\\
+Not a submission. Supersedes nothing in \texttt{paper/}, which is preserved unchanged.}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\input{sections/abstract}
+\end{abstract}
+
+\noindent\textit{Keywords:} fact verification, FEVER, large language models, silver adjudication, LLM-as-judge, evidence-induced regressions
+
+\input{sections/introduction}
+\input{sections/related_work}
+\input{sections/study_design}
+
+\input{../paper/tables/tab_accuracy}
+\input{tables/tab_diagnostic_v2}
+\input{tables/tab_stage_v2}
+\input{tables/tab_shared_v2}
+
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/limitations}
+\input{sections/conclusion}
+
+\section*{Data and code}
+The behavioral record is tag \texttt{evidex-artifact-v1} at commit \texttt{29102c3}; its headline verifiers and test suites are unchanged.
+The evidence audit, repaired Stage~C packets, frozen correction protocol (2026-09-27), all execution records including failed attempts, and the post-judgment deviation analysis are on branch \texttt{codex/methodology-correction-v2}.
+Project code is MIT-licensed; FEVER and Wikipedia-derived files are third-party material.
+
+\bibliography{../paper/references}
+
+\input{appendix}
+
+\end{document}
