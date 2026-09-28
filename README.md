@@ -6,6 +6,37 @@ Evidex evaluates how supplying FEVER-designated evidence changes claim-verificat
 
 ## Repository map
 
+```mermaid
+flowchart LR
+  subgraph current["Current work"]
+    paper["paper_corrected_draft/<br/>corrected manuscript"]
+    corr["corrections_v2/<br/>repaired Stage C, amendment, analyses"]
+    ana["analysis_v2/<br/>paired behavioral and NLI analysis"]
+  end
+
+  subgraph record["Frozen research record"]
+    silver["silver_adjudication_v1/<br/>historical Stage A/B judges"]
+    hist["historical/<br/>inputs, experiment runs, original pipeline, old paper"]
+  end
+
+  subgraph support["Verification and documentation"]
+    tools["tools/<br/>layout verifier, frozen-commit runner"]
+    scripts["scripts/<br/>headline verifier, test runner"]
+    docs["docs/<br/>status, protocol, migration record"]
+  end
+
+  hist -->|"40,000 predictions"| ana
+  silver -->|"retained Stage A/B judgments"| corr
+  corr -->|"amended results tables"| paper
+  ana -->|"figures"| paper
+  hist -->|"accuracy table, bibliography"| paper
+  tools -.->|"checks relocated files"| hist
+  tools -.->|"runs frozen commands at 33121b7"| corr
+  scripts -.->|"verifies historical headlines"| hist
+```
+
+## Directory guide
+
 | Directory | Contents |
 |---|---|
 | `paper_corrected_draft/` | Current manuscript, generated tables and figures |
