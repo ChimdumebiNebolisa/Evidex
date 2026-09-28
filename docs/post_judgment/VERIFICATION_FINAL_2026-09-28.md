@@ -31,3 +31,12 @@ still points to tag object `37748c3c…`, commit `29102c39…`.
 the 101 slot event logs from WSL. It checks each log against the SHA-256 recorded in
 `deviation_review/evidence/wsl_inventory.json`. The WSL step is not part of routine verification;
 `status`, `verify` and the tests use only tracked files.
+
+## Addendum: manuscript-only follow-up commit
+
+The next commit removes operational execution detail from the manuscript. It drops usage and
+quota limits, provider errors, runner and session mechanics, and attempt-record counts; that
+detail remains in corrections_v2/amendment_2026-09-28/ and corrections_v2/deviation_review/.
+It changes only paper_corrected_draft/ sources and the PDF, CURRENT_STATUS.md and this file.
+Re-run for that commit: check_draft.py PASS; latexmk exit 0, 19 pages, 0 overfull boxes,
+0 undefined references or citations; git diff --check clean. No result, table or figure changed.

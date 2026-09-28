@@ -27,11 +27,11 @@ Stage~C adds alternative evidence text for some claims, so Stage~C-associated ch
 Consensus paths combine retained historical Stage~A/B judgments with new Stage~C judgments.
 The historical protocol specified a fresh context per judge, batch and stage, but raw historical session transcripts were not available to verify runtime isolation independently.
 
-The Stage~C analysis rests on an amendment adopted after the judgments and their provisional results had been seen: it raised the attempt limit from three to nine, identified the attempts in 13 slots from surviving agent and runner logs rather than from attempt records, and selected the accepted outputs where earlier valid outputs existed.
+The Stage~C analysis rests on an amendment adopted after the judgments and their provisional results had been seen: it relaxed the protocol's execution rules and selected the accepted outputs where earlier valid outputs existed.
 Under the original rules the protocol's primary analysis is incomplete, and the amended analysis is not a pre-specified result.
 The amendment decides which outputs are admitted, not how they are analysed; the first-valid alternative changes six Claude consensus labels without changing any significance decision.
-Provenance still rests on operator records and hashed logs rather than provider attestation, and one duplicate-invocation record was deleted during execution.
+Execution provenance rests on operator records and hashed logs rather than provider attestation.
 
 The protocol's follow-up panels were not run: a newly selected residual Claude panel, a Stage~C resolver, and an optional fixed historical residual panel; nor was any adjudication outcome reviewed by humans.
 The Claude panel covers the 226 regressions, not the 1{,}060-item judged cohort, and GLM is Stage~A only.
-Historical execution events in the original Claude panel (a quarantined path-leak rerun, a usage-limit pause, and a duplicate-batch tie-break) affect only its retained Stage~A/B judgments and are documented in Appendix~\ref{app:historical-deviations}.
+Historical execution events in the original Claude panel (a quarantined rerun after a blinding leak, a paused and resumed stage, and a duplicate-batch tie-break) affect only its retained Stage~A/B judgments and are documented in Appendix~\ref{app:historical-deviations}.

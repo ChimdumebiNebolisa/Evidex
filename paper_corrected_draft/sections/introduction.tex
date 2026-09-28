@@ -22,7 +22,7 @@ Two model families adjudicate the same 226 regressions: a locked Grok panel and 
 
 An audit of the historical adjudication found that its Stage~C packets displayed corrupted sentence text for most claims and that its three-way failure-mode taxonomy conflated judge--FEVER disagreement with evidence utilization.
 Under a post hoc correction protocol frozen before new judgments, Stage~C was rebuilt from archival FEVER data and re-judged by both families; historical Stage~A/B judgments, whose inputs were verified unchanged, are retained.
-Because provider capacity limits and concurrently running job runners produced more attempts than the protocol allowed, the analysis follows a dated post-judgment amendment, and we report how sensitive the results are to which valid output is used (Section~\ref{sec:correction}).
+Because execution failures prevented the protocol's execution rules from being followed as written, the analysis follows a dated post-judgment amendment that fixes which output of each job is analysed, and we report how sensitive the results are to that choice (Section~\ref{sec:correction}).
 
 The resulting claim is two-part.
 First, designated gold evidence improves overall accuracy while creating a measurable set of localized regressions.

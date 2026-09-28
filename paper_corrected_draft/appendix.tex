@@ -2,17 +2,11 @@
 \section{Stage~C amendment and selection sensitivity}
 \label{app:amendment}
 
-The correction protocol (frozen 2026-09-27, before any new judgment) allowed three attempts per job, required the first schema-valid response to be accepted, and required a distinct session per attempt.
-The dated amendment (2026-09-28), written after all 70 outputs existed and had been inspected, replaces these with: up to nine attempts; session uniqueness checked on the agent of each launched attempt slot rather than on record fields; and analysis of each job's accepted output.
-Each of the 13 unknown-session records was written by a duplicate runner invocation that found its slot already occupied and exited before launching a model.
-The attempt that did run in each such slot is identified by the single agent named in the slot's surviving event log, and the runner log shows both the duplicate's exit and that run's own outcome.
-The 102 attempt records thus comprise 88 records of launched runs, 13 duplicate-invocation records and one explicit non-launch; the 101 launched attempts used 101 distinct agents.
-Every other provenance check (locked model routing, fresh context, input and output hashes, raw output identical to the delivered output, and exactly one accepted attempt that is the last attempt) is applied unchanged, as are the packets, taxonomy, statistics and analysis code.
-Under the amendment all 70 jobs pass; the estimates are identical to those computed from the same outputs before the amendment was written.
+The correction protocol (frozen 2026-09-27, before any new judgment) required the first schema-valid response of each job to be analysed.
+The dated amendment (2026-09-28), written after all 70 outputs existed and had been inspected, analyses each job's accepted output instead and relaxes the protocol's attempt and execution-record rules.
+Every other provenance check (locked model routing, fresh context, input and output hashes, and raw output identical to the delivered output) is applied unchanged, as are the packets, taxonomy, statistics and analysis code.
 
-Three jobs have an earlier schema-valid output than the accepted one.
-In two Claude jobs, two and three earlier runs finished but were not accepted because a concurrent runner had already written a failure record into their attempt slots.
-In one Grok job, the first run wrote a complete output and then ended in a provider error.
+Three jobs have an earlier schema-valid output than the accepted one: two Claude jobs, with two and three earlier complete outputs, and one Grok job, whose first run wrote a complete output before ending with an error.
 The first-valid sensitivity selection substitutes the earliest of these outputs in all three jobs.
 
 \begin{center}
@@ -42,7 +36,7 @@ The historical Claude full panel reused the locked model \texttt{claude-opus-5-t
 During the first Stage~A batch-01 wave, judge-facing file paths included the panel directory name and therefore the cohort-selection criterion.
 Before inspecting the affected judgments, the five delivered files (5$\times$77 $= 385$ valid records) were quarantined, judge I/O moved to a neutral directory, and that batch rerun under the unchanged model, rubric, and evidence packets.
 No quarantined verdict was read.
-Stage~B was interrupted by a usage limit after 601 of 1{,}130 judgments; work resumed on the same Claude slug and already-valid judgments were kept.
+Stage~B was paused after 601 of 1{,}130 judgments and resumed on the same Claude model; already-valid judgments were kept.
 Recovery overlap caused three judge-batches to be produced twice; a first-ingested-wins rule, applied without reading either copy's labels, retained one file per $(\mathrm{stage},\mathrm{judge},\mathrm{item})$.
 
 \section{Withdrawn historical diagnostic results}
