@@ -1,21 +1,22 @@
 \begin{table}[t]
 \centering
-\caption{Descriptive adjudication outcomes for the 226 unique regressions on repaired Stage~C inputs (Wilson 95\% intervals for the main rows). ``Accepted'' uses the 70 outputs as accepted; ``first-valid'' replaces two Claude jobs by their first finished schema-valid outputs. Grok values are identical under both selections. Categories are judge-panel observations, not GPT-internal causes or corrected FEVER labels. Post-judgment deviation analysis; not the frozen protocol's primary analysis.}
+\caption{Adjudication outcomes for the 226 unique regressions on repaired Stage~C inputs, as counts with percentages of 226. $\Delta$ is Claude minus Grok in percentage points with exact McNemar tests, Benjamini--Hochberg adjusted over 14 cross-family tests. ``FV'' gives the Claude count under the first-valid sensitivity selection (= unchanged); Grok regression-cohort values are identical under both selections. Categories describe blinded judge-panel verdicts; they are not causes of GPT errors or corrected FEVER labels.}
 \label{tab:diagnostic}
 \small
-\begin{tabular}{lrrr}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrr}
 \toprule
-Category & Grok & Claude, accepted & Claude, first-valid \\
+Category & Grok & Claude & FV & $\Delta$ (pp) & $p_{\mathrm{BH}}$ \\
 \midrule
-Sentence-only gold-agreeing & 77 (34.1\%; 28.2--40.5) & 106 (46.9\%; 40.5--53.4) & 105 (46.5\%) \\
-Title-disclosure gold-agreeing & 10 (4.4\%) & 3 (1.3\%) & 3 (1.3\%) \\
-Structured-disclosure gold-agreeing & 2 (0.9\%) & 3 (1.3\%) & 6 (2.7\%) \\
-Additional-evidence gold-agreeing & 17 (7.5\%) & 14 (6.2\%) & 14 (6.2\%) \\
-Nonmonotonic judge path & 5 (2.2\%) & 5 (2.2\%) & 5 (2.2\%) \\
-Decisive judge--FEVER disagreement & 44 (19.5\%; 14.8--25.1) & 54 (23.9\%; 18.8--29.9) & 54 (23.9\%) \\
-Final nondecisive & 71 (31.4\%; 25.7--37.7) & 41 (18.1\%; 13.7--23.7) & 39 (17.3\%; 12.9--22.7) \\
+Sentence-only gold-agreeing & 77 (34.1\%) & 106 (46.9\%) & 105 & $+12.8$ & $4.6\times 10^{-7}$ \\
+Title-disclosure gold-agreeing & 10 (4.4\%) & 3 (1.3\%) & = & $-3.1$ & 0.13 \\
+Structured-disclosure gold-agreeing & 2 (0.9\%) & 3 (1.3\%) & 6 & $+0.4$ & 1.00 \\
+Additional-evidence gold-agreeing & 17 (7.5\%) & 14 (6.2\%) & = & $-1.3$ & 0.58 \\
+Nonmonotonic judge path & 5 (2.2\%) & 5 (2.2\%) & = & $0.0$ & 1.00 \\
+Decisive judge--FEVER disagreement & 44 (19.5\%) & 54 (23.9\%) & = & $+4.4$ & 0.015 \\
+Final nondecisive & 71 (31.4\%) & 41 (18.1\%) & 39 & $-13.3$ & $7.2\times 10^{-8}$ \\
 \midrule
-Exact agreement with Grok ($\kappa$) & --- & 172/226, 76.1\% (0.673) & 168/226, 74.3\% (0.651) \\
+\multicolumn{6}{@{}p{0.97\linewidth}@{}}{Exact per-claim category agreement: 172/226, 76.1\% (Wilson 70.1--81.2), $\kappa=0.673$; first-valid 168/226, 74.3\%, $\kappa=0.651$} \\
 \bottomrule
 \end{tabular}
 \end{table}

@@ -1,9 +1,10 @@
 # Old claim → corrected claim (2026-09-28)
 
 "Old" is the pinned historical draft in `paper/` (unchanged). "Corrected" is this draft. Corrected
-diagnostic numbers come from the post-judgment deviation analysis
-(`docs/post_judgment/POST_JUDGMENT_ANALYSIS_NOTE_2026-09-28.md`). They are not the frozen
-protocol's primary analysis.
+adjudication numbers come from the 70 accepted Stage C outputs under the dated post-judgment
+amendment A1 (`corrections_v2/amendment_2026-09-28/`). The first-valid outputs are reported as
+sensitivity. A1 is not preregistered, and the frozen protocol's own primary analysis remains
+incomplete.
 
 | # | Old claim (location) | Status | Corrected claim (location) |
 |---|---|---|---|
@@ -27,7 +28,7 @@ protocol's primary analysis.
 | 18 | "Automated failure-mode prevalence depends partly on the adjudicating family" (abstract, conclusion) | Retained, reworded | Category proportions depend on the family. No failure-mode prevalence is claimed |
 | 19 | Claude full panel "3,390 judgments" | Replaced | 2,260 retained A/B plus 1,130 new C judgments. The 3,390 historical judgments stay in the historical record |
 | 20 | Contributions (iii)–(iv): decomposition; which parts "survive" | Replaced | (iii) descriptive adjudication on repaired evidence; (iv) family-dependence; (v) audit and execution deviations |
-| — | Execution of the corrected Stage C (new) | Added | Retry-cap breaches, concurrent runners, first-valid violations; post-judgment selections; Appendix `app:correction-deviations`, Limitations |
+| — | Stage C amendment (new) | Added | Brief methods paragraph (Section 3.9), one limitations paragraph, and Appendix `app:amendment` with the first-valid sensitivity |
 
 ## Figures and tables
 
@@ -38,4 +39,6 @@ protocol's primary analysis.
 | `tab_shared.tex` | replaced by `tables/tab_shared_v2.tex` |
 | — | new: `tables/tab_stage_v2.tex` |
 | Fig. transitions, Fig. NLI (`analysis_v2/figures`) | reused unchanged |
-| Fig. by-family, stage ambiguity, confusion, resolution flow, taxonomy distribution | withdrawn. No corrected figures included (provisional SVG plots exist; converting them for LaTeX needs coauthor sign-off and a toolchain) |
+| Fig. by-family, taxonomy distribution | replaced by `figures/fig_categories.pdf` (Fig. `fig:categories`) |
+| Fig. stage ambiguity | replaced by `figures/fig_stage_nondecisive.pdf` (Fig. `fig:stage`) |
+| Fig. confusion, resolution flow | withdrawn |

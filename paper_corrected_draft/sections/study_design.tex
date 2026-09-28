@@ -78,13 +78,21 @@ Exact selected evidence sets were recovered by recomputing the original set iden
 Stage~A inputs equal the GPT evidence prompts and Stage~B inputs equal the historical records exactly; their frozen judgments are retained under the documented fresh-context-per-stage protocol, and all Stage~C judgments are new.
 Consensus paths therefore combine historical Stage~A/B judgments with new Stage~C judgments.
 
-A post hoc correction protocol, frozen on 2026-09-27 before any new judgment, fixed the repaired packets, the taxonomy, the statistical analyses, and execution rules: at most three attempts per job, acceptance of the first schema-valid response, and unique sessions.
+A post hoc correction protocol, frozen on 2026-09-27 before any new judgment, fixed the repaired packets, the taxonomy, the statistical analyses, and execution rules: at most three attempts per job, acceptance of the first schema-valid response, and a distinct session per attempt.
 Seventy required jobs (55 Grok, 15 Claude; 6{,}430 new Stage~C judgments) all delivered schema-valid outputs.
-Execution nevertheless deviated from the protocol: after provider quota and account usage limits, six jobs used more than three attempts; concurrent runners wrote collision records whose sessions are unknown; and in two Claude jobs earlier finished, schema-valid outputs were never checkpointed, so a later output was accepted instead of the first valid one.
-The protocol's primary analysis therefore reports incomplete provenance, and the protocol-defined follow-up panels (a newly selected residual Claude panel and a Stage~C resolver) were not run; an optional fixed historical residual panel was also not run.
-% COAUTHOR REVIEW: whether the first-valid selection or the accepted selection is the main estimate is a post-judgment decision.
-All diagnostic results in this draft come from a separately labeled post-judgment deviation analysis that applies the frozen analysis code unchanged to two input selections, specified after the outputs were inspected: the 70 outputs as accepted, and the first finished schema-valid output for each Claude job (Appendix~\ref{app:correction-deviations}).
-Where the two differ, both are reported.
+
+\paragraph{Post-judgment amendment.}
+Provider quota and account usage limits, together with job runners that ran concurrently for part of the execution, left six jobs with four to seven attempt records and 13 failed-attempt records whose session is marked unknown.
+The runners never read model outputs; retries depended only on exit status.
+After all outputs existed and had been inspected, we adopted a dated amendment (2026-09-28) that changes three execution rules and nothing else:
+(i)~up to nine attempts per job;
+(ii)~a record with an unknown session counts as a launched attempt if the agent event log that survives in its attempt slot identifies exactly one agent used nowhere else (all 13 records met this test, and all 101 launched sessions are distinct);
+and (iii)~each job's analysed output is the output its execution procedure accepted.
+% COAUTHOR REVIEW: accepted outputs are the main selection by the authors' post-judgment decision; first-valid is sensitivity.
+For three jobs that output is not the first schema-valid one: in two Claude jobs earlier finished runs were not accepted because a runner collision had occupied their slots, and in one Grok job a run wrote a complete output before ending in a provider error.
+We therefore repeat every analysis with those first valid outputs substituted (Appendix~\ref{app:amendment}).
+The amendment is not preregistered; under the original rules the protocol's primary analysis remains incomplete.
+Packets, models, taxonomy, statistics and analysis code are unchanged, and the protocol's follow-up panels (a newly selected residual Claude panel and a Stage~C resolver) were not run.
 
 \subsection{Supporting cross-family data}
 \label{sec:cross-family-design}

@@ -27,9 +27,9 @@ Stage~C adds alternative evidence text for some claims, so Stage~C-associated ch
 Consensus paths combine retained historical Stage~A/B judgments with new Stage~C judgments.
 The historical protocol specified a fresh context per judge, batch and stage, but raw historical session transcripts were not available to verify runtime isolation independently.
 
-Execution of the Stage~C re-judging deviated from its frozen protocol: six jobs exceeded the three-attempt cap after quota and usage-limit failures; concurrent runners left collision records whose sessions are unknown; one collision record was deleted during execution and survives only in a session transcript; and in two Claude jobs a later output was accepted although earlier finished runs had produced schema-valid outputs.
-The protocol's primary analysis is therefore incomplete, and the diagnostic results come from a separately labeled analysis whose input selections were specified after the outputs were inspected.
-Selection sensitivity is bounded (at most six Claude claims change), but the analysis cannot be presented as the protocol's pre-specified result.
+The Stage~C analysis rests on an amendment adopted after the judgments and their provisional results had been seen: it raised the attempt limit from three to nine, accepted unknown-session records on the strength of surviving agent logs, and selected the accepted outputs where earlier valid outputs existed.
+Under the original rules the protocol's primary analysis is incomplete, and the amended analysis is not a pre-specified result.
+The amendment changed no estimate, and the first-valid alternative moves at most six Claude claims without changing any significance decision; but provenance still rests on operator records and hashed logs rather than provider attestation, and one runner collision record was deleted during execution.
 
 The protocol's follow-up panels were not run: a newly selected residual Claude panel, a Stage~C resolver, and an optional fixed historical residual panel.
 The Claude panel covers the 226 regressions, not the 1{,}060-item judged cohort, and GLM is Stage~A only.

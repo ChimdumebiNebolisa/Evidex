@@ -109,7 +109,7 @@ def load_alternatives(manifest):
     return loaded, report
 
 
-def run_primary(out, key_prefix, manifest, raw, meta):
+def run_primary(out, key_prefix, manifest, raw, meta, label=LABEL):
     if out.exists():
         raise ValueError(f"provisional result already exists; choose a new name: {out}")
     out.mkdir(parents=True)
@@ -145,15 +145,15 @@ def run_primary(out, key_prefix, manifest, raw, meta):
     ap.table(out / "tables/taxonomy_confusion.csv", confusion.rename_axis("grok_category").reset_index())
     ap.table(out / "tables/final_status_confusion.csv", final_matrix.rename_axis("grok_C").reset_index())
     ap.draw_figures(out, frames)
-    status = dict(meta, label=LABEL, denominators={k: len(v) for k, v in frames.items()}, created_at_utc=stamp(),
+    status = dict(meta, label=label, denominators={k: len(v) for k, v in frames.items()}, created_at_utc=stamp(),
                   followup_packets_generated=False, judgment_freeze_created=False, inference_launched=False)
     ap.write_json(out / "status.json", status)
     files = {f"{key_prefix}/{p.relative_to(out).as_posix()}": digest(p) for p in sorted(out.rglob("*")) if p.is_file()}
-    ap.write_json(out / "provisional_file_hashes.json", {"label": LABEL, "files": files})
+    ap.write_json(out / "provisional_file_hashes.json", {"label": label, "files": files})
     return frames, comparison
 
 
-def compute(base, tag):
+def compute(base, tag, label=LABEL, results=RESULTS, names=None, summary_name=None, role=None, extra_meta=None):
     """Write the accepted-70 set, the first-valid sensitivity set and the summary under base/."""
     preparation_gate(ROOT)
     spec = verify_spec(ROOT)
@@ -163,7 +163,7 @@ def compute(base, tag):
         raise SystemExit("accepted outputs are not all present and schema-valid")
     alternatives, input_report = load_alternatives(manifest)
     base_meta = {
-        "analysis_role": "provisional inspection only; not frozen-protocol primary analysis; not publishable as primary",
+        "analysis_role": role or "provisional inspection only; not frozen-protocol primary analysis; not publishable as primary",
         "frozen_protocol_status": status["status"],
         "frozen_protocol_provenance_errors": status["execution_provenance_errors"],
         "original_freeze": SPEC_FREEZE, "original_freeze_sha256": digest(ROOT / SPEC_FREEZE),
@@ -171,10 +171,11 @@ def compute(base, tag):
         "analysis_code": "frozen analysis_core/analysis_pipeline/taxonomy imported unchanged",
         "deviation_evidence": f"{REVIEW}/attempt_table.md",
         "accepted_output_hashes": {k: v for k, v in files.items() if k.endswith(".output.json")},
+        **(extra_meta or {}),
     }
-    accepted_name, first_valid_name = f"accepted70_{tag}", f"sensitivity_first_valid_{tag}"
-    frames, comparison = run_primary(base / accepted_name, f"{RESULTS}/{accepted_name}", manifest, raw,
-                                     dict(base_meta, input_selection="the 70 accepted outputs as delivered"))
+    accepted_name, first_valid_name = names or (f"accepted70_{tag}", f"sensitivity_first_valid_{tag}")
+    frames, comparison = run_primary(base / accepted_name, f"{results}/{accepted_name}", manifest, raw,
+                                     dict(base_meta, input_selection="the 70 accepted outputs as delivered"), label)
 
     first_valid_raw = [r for r in raw if r["job_id"] not in BYPASSED and r["job_id"] not in GROK_BYPASSED]
     substituted = {}
@@ -183,9 +184,10 @@ def compute(base, tag):
         first_valid_raw += rows
         substituted[job_id] = {"slot": slots[0], "staged_output_sha256": sha}
     fv_frames, fv_comparison = run_primary(
-        base / first_valid_name, f"{RESULTS}/{first_valid_name}", manifest, first_valid_raw,
+        base / first_valid_name, f"{results}/{first_valid_name}", manifest, first_valid_raw,
         dict(base_meta, input_selection="accepted outputs except p02_C_j2_b02, p02_C_j2_b03 and p01_C_j5_b09 replaced "
-                                        "by their first schema-valid (never-accepted) outputs", substituted=substituted))
+                                        "by their first schema-valid (never-accepted) outputs", substituted=substituted),
+        label)
 
     config = next(p for p in manifest["panels"] if p["panel"] == "claude_full")
     base_claude = [r for r in raw if r["panel"] == "claude_full" and r["job_id"] not in BYPASSED]
@@ -214,7 +216,7 @@ def compute(base, tag):
                 "nondecisive_C": int(frame.ambiguous_C.sum())}
 
     diff = {
-        "label": LABEL,
+        "label": label,
         "claude_full_accepted": headline(frames["claude_full"]),
         "claude_full_first_valid": headline(fv_frames["claude_full"]),
         "claude_items_with_changed_C_consensus_first_valid_vs_accepted": sorted(
@@ -230,7 +232,7 @@ def compute(base, tag):
         "grok_C_consensus_changed_p01_C_j5_b09_slot1_vs_accepted": {"n": len(grok_changed), "items": grok_changed},
         "claude_all_completed_run_combinations": combos,
     }
-    ap.write_json(base / f"sensitivity_summary_{tag}.json", ap.clean(diff))
+    ap.write_json(base / (summary_name or f"sensitivity_summary_{tag}.json"), ap.clean(diff))
     claude_only = cross_family(frames["grok"], fv_frames["claude_full"])
     separation = {
         "claude_first_valid_only_equals_combined_first_valid_cross_family":

@@ -1,0 +1,23 @@
+{
+  "label": "AMENDMENT_A1_2026-09-28__POST_JUDGMENT_NOT_PREREGISTERED",
+  "panel": "primary",
+  "status": "ready_under_amendment_A1",
+  "max_attempts": 9,
+  "sessions_checked": 101,
+  "distinct_sessions": 101,
+  "unknown_session_records_resolved_by_evidence": 13,
+  "amended_provenance_errors": {},
+  "frozen_protocol_status": "incomplete",
+  "frozen_protocol_provenance_errors": {
+    "p01_C_j4_b08": "retry limit exceeded",
+    "p01_C_j4_b09": "retry limit exceeded",
+    "p02_C_j2_b03": "retry limit exceeded",
+    "p02_C_j3_b01": "retry limit exceeded",
+    "p02_C_j3_b02": "retry limit exceeded",
+    "p02_C_j3_b03": "retry limit exceeded",
+    "reused_session": "each job/attempt needs a fresh isolated session"
+  },
+  "valid_schema_judgments": 6430,
+  "output_selection": "checkpoint-accepted output of every job (amendment rule 3)",
+  "inference_launched": false
+}

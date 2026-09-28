@@ -22,7 +22,7 @@ Two model families adjudicate the same 226 regressions: a locked Grok panel and 
 
 An audit of the historical adjudication found that its Stage~C packets displayed corrupted sentence text for most claims and that its three-way failure-mode taxonomy conflated judge--FEVER disagreement with evidence utilization.
 Under a post hoc correction protocol frozen before new judgments, Stage~C was rebuilt from archival FEVER data and re-judged by both families; historical Stage~A/B judgments, whose inputs were verified unchanged, are retained.
-The re-judging finished, but its execution deviated from the frozen protocol (Section~\ref{sec:correction}), so the corrected diagnostic results are reported as a dated post-judgment analysis with explicit selection sensitivity rather than as the protocol's primary analysis.
+Because provider capacity limits and concurrently running job runners produced more attempts than the protocol allowed, the analysis follows a dated post-judgment amendment, and we report how sensitive the results are to which valid output is used (Section~\ref{sec:correction}).
 
 The resulting claim is two-part.
 First, designated gold evidence improves overall accuracy while creating a measurable set of localized regressions.
@@ -33,7 +33,7 @@ We (i)~quantify paired evidence gains and evidence-induced regressions on a veri
 (ii)~characterize regressions with confirmatory statistics, two local NLI diagnostics, and a 1{,}061-claim diagnostic cohort;
 (iii)~describe the 226 unique regressions with blinded progressive-disclosure adjudication on repaired evidence, keeping decisiveness and FEVER agreement separate;
 (iv)~compare two adjudicating families on the same claims and identify which descriptive findings depend on the family; and
-(v)~document an evidence-reconstruction defect in the historical adjudication, its correction, and the execution deviations of the re-judging.
+(v)~document an evidence-reconstruction defect in the historical adjudication and its correction.
 
 We ask four research questions, restated in Section~\ref{sec:rqs}.
 RQ1 asks whether designated gold evidence improves aggregate accuracy.

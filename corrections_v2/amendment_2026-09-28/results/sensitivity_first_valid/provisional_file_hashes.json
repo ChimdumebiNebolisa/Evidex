@@ -1,0 +1,33 @@
+{
+  "label": "AMENDMENT_A1_2026-09-28__POST_JUDGMENT_NOT_PREREGISTERED",
+  "files": {
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/consensus.json": "56bd31bd53f1eaca1277a1947b7f8defa0b6b9136ac82f951e58cc01230dfa9d",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/cross_family_summary.json": "42a078b16a9ad2a8737fa7df3dba3ee33e83c61d3f74453f065db2c6a67f280c",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/plots/claude_full_A_B.svg": "483a1de8927afc0f616446b9cf7a4b514771fceeeba0565ea6513326809fa03a",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/plots/claude_full_B_C.svg": "5423a02c673683be5f7a4a98db71e44cda90332f20a05851e4557715a5e50d77",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/plots/claude_full_taxonomy.svg": "7ddbaf4bc3ca4b7e7b56d2c59cba6bd0b97689196da7ac5227118c08df514d9b",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/plots/grok_A_B.svg": "f1d67f6fa5bab57c2871dba7239b5c22d8098b2669f190a1cfb4bedf92099b85",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/plots/grok_B_C.svg": "031ed14bcdfa9b8de09f59eb38af5684743eea48c4703b65e22f39e37ffefd53",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/plots/grok_taxonomy.svg": "a38c3a34781f76a2315fb99e93dbad007340ba38a43dec8154348baa2f10b18a",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/representative_cases.json": "d212eddd23041374986ed87b1c3a0549965e0a50ab6163b41a591307df2dec21",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/retained_AB_provenance.json": "90703a083d33021d4ee7ac79989876d2ce839a3354f0382f2e8baf3a2fb2ecad",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/status.json": "91e7be7965caa1d2481774fc51c4f8ee24af4d5775a55429c0f2fd2b8dbc4f02",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/tables/claude_full_A_B.csv": "1627b4d52add9d3a455d26df64119c0f42411a283d3513feff49263faa93f60b",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/tables/claude_full_A_C.csv": "6123237321924eabd4c5f30bb9fcf03fddce59cce7ffd9ab1a5d240f2bc9878a",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/tables/claude_full_agreement.csv": "d2d7b0a9ef94e606528dacf917c0faaa46a70a7fb8599f31a76d7ce6b30405b7",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/tables/claude_full_B_C.csv": "9961a924fd7ddfbfbd49a3277e51c38dcf4a7e4072b9776cc0fcf4d0a46d7347",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/tables/claude_full_claims.csv": "082bd7cd117a5d3a4af5bf2a1aa7849f90831b48bb9edf825d6fab3c9c1e535f",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/tables/claude_full_per_judge_transitions.csv": "9d67ea52c817b9bd3d34f8d34be9ad32c30309eb4bc3992cf78ae67403fdc6ca",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/tables/cross_family_tests.csv": "933a69f537822207ea6243fe66016cc8b35a9ba22b113bfdde65b13c99536432",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/tables/descriptive_rates.csv": "02286f7610a7433b07203950661fd4960bf4744408eeef3aac5bdf5dbcd98ee2",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/tables/final_status_confusion.csv": "4967c71d5240cb8189dd35c81a48d5501aae04b82a872c335eae25cf3348502a",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/tables/grok_A_B.csv": "93b4e5cc809f766d32a339caf96d7204d44c443c4192191f973c31f26caa019b",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/tables/grok_A_C.csv": "7be53feb7dd09aeafad12510e07036c970ade5ec65332703f49810a785d09d7b",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/tables/grok_agreement.csv": "fd1a45df8b71355b9ead10a5e9a61f021b101317b2f46f1c3c640a84d564d4a3",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/tables/grok_B_C.csv": "c4ec6f82a0d29bfd4d13174fc7c95e5bb0283720e37dc5f762bceb4d84cdb40d",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/tables/grok_claims.csv": "0532f1b72ba9d4a013e9f51fb311ba1cf810521bd8cc73d34d21f6254f99d669",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/tables/grok_per_judge_transitions.csv": "753c9d2fb0bf8e2dac78fd7f38f34b0de9cb66d65edd54638719848fc3df9956",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/tables/grok_Q1_Q12.csv": "5236fae8151148100ec9ae11138ed9bad81b336105e011173af5858ff2ba9ec5",
+    "corrections_v2/amendment_2026-09-28/results/sensitivity_first_valid/tables/taxonomy_confusion.csv": "f036c1a37ba32a8070c3a88d4b50ada742271e850179fab8d1e03b25e25142cb"
+  }
+}

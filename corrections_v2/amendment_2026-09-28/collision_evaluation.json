@@ -1,0 +1,699 @@
+{
+  "amendment": "A1 (2026-09-28), rule 2",
+  "method": "each record with session 'unknown' is compared with the SDK event log that survives in its slot (read from WSL on the evaluation date, hashed, parsed); the records themselves are unchanged",
+  "n_unknown_session_records": 13,
+  "n_established": 13,
+  "n_distinct_agents_all_slots": 99,
+  "n_agent_slots": 99,
+  "records": [
+    {
+      "job_id": "p02_C_j2_b02",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j2_b02/attempt-01.json",
+      "record_sha256": "16b6a636a5557a0cf86cce36f57c1f043f1d574a92c04aaf087487b0839b40b6",
+      "record_status": "error",
+      "record_reason": "Execution failed with returncode 2",
+      "event_log": "/home/evidex/records/p02_C_j2_b02/attempt-01/attempt-01.sdk-events.jsonl",
+      "event_log_size": 419463,
+      "event_log_sha256": "a9747e510492a42de614b28be92001fd33323729d518dbc6fdb8c9bcb79b5cb4",
+      "event_log_agent_ids": [
+        "agent-a6b60d61-43b5-49ca-9ba2-2ce637f0bcda"
+      ],
+      "event_log_run_ids": [
+        "run-6d4343a6-c36d-40a0-bc7c-2cd3b64efdc2"
+      ],
+      "event_log_statuses": [
+        "RUNNING",
+        "FINISHED"
+      ],
+      "event_log_error": null,
+      "runner_log": [
+        {
+          "log": "842358.txt",
+          "line": 11,
+          "event": "START"
+        },
+        {
+          "log": "842358.txt",
+          "line": 28,
+          "event": "node_started",
+          "launch_clock_utc": "01:39:31.628"
+        },
+        {
+          "log": "842358.txt",
+          "line": 30,
+          "event": "run_finished",
+          "agent_id": "agent-a6b60d61-43b5-49ca-9ba2-2ce637f0bcda",
+          "run_id": "run-6d4343a6-c36d-40a0-bc7c-2cd3b64efdc2"
+        },
+        {
+          "log": "842358.txt",
+          "line": 32,
+          "event": "message",
+          "text": "archive already contains attempt-01.routing.txt"
+        },
+        {
+          "log": "842358.txt",
+          "line": 33,
+          "event": "CHECKPOINT_FAILED",
+          "code": 1
+        }
+      ],
+      "checks": {
+        "event_log_sha256_matches_recorded": true,
+        "event_log_size_matches_recorded": true,
+        "exactly_one_agent": true,
+        "agent_matches_recorded_evidence": true,
+        "agent_unique_across_all_slots": true,
+        "agent_absent_from_all_record_sessions": true,
+        "record_is_exit_code_2_collision": true
+      },
+      "verdict": "launched; agent identified from surviving event log"
+    },
+    {
+      "job_id": "p02_C_j2_b02",
+      "attempt": 2,
+      "record": "corrections_v2/execution/p02_C_j2_b02/attempt-02.json",
+      "record_sha256": "9e672d611a00e6bbf38f5fae8d1ece9fdc9a69d15f87dd761655c84a012897a7",
+      "record_status": "error",
+      "record_reason": "Execution failed with returncode 2",
+      "event_log": "/home/evidex/records/p02_C_j2_b02/attempt-02/attempt-02.sdk-events.jsonl",
+      "event_log_size": 401312,
+      "event_log_sha256": "ebf66b0423427fa10d4aebec722e5622196bf07494b231dbb1c8d2b4746fe8fa",
+      "event_log_agent_ids": [
+        "agent-b4d7cd27-1250-40f5-ac54-2a4d70a5b49d"
+      ],
+      "event_log_run_ids": [
+        "run-6fb1842a-19de-4f3b-a017-795594c09803"
+      ],
+      "event_log_statuses": [
+        "RUNNING",
+        "FINISHED"
+      ],
+      "event_log_error": null,
+      "runner_log": [
+        {
+          "log": "842358.txt",
+          "line": 34,
+          "event": "START"
+        },
+        {
+          "log": "842358.txt",
+          "line": 43,
+          "event": "message",
+          "text": "workspace or record dir already exists"
+        },
+        {
+          "log": "842358.txt",
+          "line": 44,
+          "event": "ATTEMPT_FAILED",
+          "code": 2
+        }
+      ],
+      "checks": {
+        "event_log_sha256_matches_recorded": true,
+        "event_log_size_matches_recorded": true,
+        "exactly_one_agent": true,
+        "agent_matches_recorded_evidence": true,
+        "agent_unique_across_all_slots": true,
+        "agent_absent_from_all_record_sessions": true,
+        "record_is_exit_code_2_collision": true
+      },
+      "verdict": "launched; agent identified from surviving event log"
+    },
+    {
+      "job_id": "p02_C_j2_b03",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j2_b03/attempt-01.json",
+      "record_sha256": "6b0c33d5c1d5459c2c6521cc12cb227b8385810728b051fc475fd7fc9c2947c8",
+      "record_status": "error",
+      "record_reason": "Execution failed with returncode 2",
+      "event_log": "/home/evidex/records/p02_C_j2_b03/attempt-01/attempt-01.sdk-events.jsonl",
+      "event_log_size": 322536,
+      "event_log_sha256": "a7deadbab165fe6d117f4c6eeb4fc7c6b31fb5510dcfcd3402bf770702160788",
+      "event_log_agent_ids": [
+        "agent-b0d5235f-26ea-4f36-b0d1-71799cc0927e"
+      ],
+      "event_log_run_ids": [
+        "run-3791251b-cf6b-41c2-9161-618a8547d624"
+      ],
+      "event_log_statuses": [
+        "RUNNING",
+        "FINISHED"
+      ],
+      "event_log_error": null,
+      "runner_log": [
+        {
+          "log": "842358.txt",
+          "line": 69,
+          "event": "START"
+        },
+        {
+          "log": "842358.txt",
+          "line": 78,
+          "event": "message",
+          "text": "workspace or record dir already exists"
+        },
+        {
+          "log": "842358.txt",
+          "line": 79,
+          "event": "ATTEMPT_FAILED",
+          "code": 2
+        }
+      ],
+      "checks": {
+        "event_log_sha256_matches_recorded": true,
+        "event_log_size_matches_recorded": true,
+        "exactly_one_agent": true,
+        "agent_matches_recorded_evidence": true,
+        "agent_unique_across_all_slots": true,
+        "agent_absent_from_all_record_sessions": true,
+        "record_is_exit_code_2_collision": true
+      },
+      "verdict": "launched; agent identified from surviving event log"
+    },
+    {
+      "job_id": "p02_C_j2_b03",
+      "attempt": 2,
+      "record": "corrections_v2/execution/p02_C_j2_b03/attempt-02.json",
+      "record_sha256": "a47ec7b5922c1ae7e528fb5973438945ef50bc5a542e983c993d3ef3262b221c",
+      "record_status": "error",
+      "record_reason": "Execution failed with returncode 2",
+      "event_log": "/home/evidex/records/p02_C_j2_b03/attempt-02/attempt-02.sdk-events.jsonl",
+      "event_log_size": 189777,
+      "event_log_sha256": "2508b7a8157238307bbc273603c7ae5ff92bdce1629a1bcdb0e0824ef2d6790a",
+      "event_log_agent_ids": [
+        "agent-420fe8a3-cfad-4332-b175-617d0e1cb78d"
+      ],
+      "event_log_run_ids": [
+        "run-7ce313e0-97fb-4ed6-9209-52abf4964201"
+      ],
+      "event_log_statuses": [
+        "RUNNING",
+        "FINISHED"
+      ],
+      "event_log_error": null,
+      "runner_log": [
+        {
+          "log": "842358.txt",
+          "line": 81,
+          "event": "START"
+        },
+        {
+          "log": "842358.txt",
+          "line": 98,
+          "event": "node_started",
+          "launch_clock_utc": "01:49:38.122"
+        },
+        {
+          "log": "842358.txt",
+          "line": 100,
+          "event": "run_finished",
+          "agent_id": "agent-420fe8a3-cfad-4332-b175-617d0e1cb78d",
+          "run_id": "run-7ce313e0-97fb-4ed6-9209-52abf4964201"
+        },
+        {
+          "log": "842358.txt",
+          "line": 102,
+          "event": "message",
+          "text": "archive already contains attempt-02.routing.txt"
+        },
+        {
+          "log": "842358.txt",
+          "line": 103,
+          "event": "CHECKPOINT_FAILED",
+          "code": 1
+        }
+      ],
+      "checks": {
+        "event_log_sha256_matches_recorded": true,
+        "event_log_size_matches_recorded": true,
+        "exactly_one_agent": true,
+        "agent_matches_recorded_evidence": true,
+        "agent_unique_across_all_slots": true,
+        "agent_absent_from_all_record_sessions": true,
+        "record_is_exit_code_2_collision": true
+      },
+      "verdict": "launched; agent identified from surviving event log"
+    },
+    {
+      "job_id": "p02_C_j2_b03",
+      "attempt": 3,
+      "record": "corrections_v2/execution/p02_C_j2_b03/attempt-03.json",
+      "record_sha256": "46216e9379c407d4d735f63d88d52bed30d91bc6003257779c7ac7e9c4a2ca17",
+      "record_status": "error",
+      "record_reason": "Execution failed with returncode 2",
+      "event_log": "/home/evidex/records/p02_C_j2_b03/attempt-03/attempt-03.sdk-events.jsonl",
+      "event_log_size": 370465,
+      "event_log_sha256": "8604908135931d0eab15255458b7c89e234d3ab8f4a0b01bef3a8ef2e5b63c4e",
+      "event_log_agent_ids": [
+        "agent-ec999ed3-52db-40bc-a051-47ad8d36d8b5"
+      ],
+      "event_log_run_ids": [
+        "run-75819c43-3ceb-4bd5-afad-6b6174450df7"
+      ],
+      "event_log_statuses": [
+        "RUNNING",
+        "FINISHED"
+      ],
+      "event_log_error": null,
+      "runner_log": [
+        {
+          "log": "842358.txt",
+          "line": 104,
+          "event": "START"
+        },
+        {
+          "log": "842358.txt",
+          "line": 113,
+          "event": "message",
+          "text": "workspace or record dir already exists"
+        },
+        {
+          "log": "842358.txt",
+          "line": 114,
+          "event": "ATTEMPT_FAILED",
+          "code": 2
+        }
+      ],
+      "checks": {
+        "event_log_sha256_matches_recorded": true,
+        "event_log_size_matches_recorded": true,
+        "exactly_one_agent": true,
+        "agent_matches_recorded_evidence": true,
+        "agent_unique_across_all_slots": true,
+        "agent_absent_from_all_record_sessions": true,
+        "record_is_exit_code_2_collision": true
+      },
+      "verdict": "launched; agent identified from surviving event log"
+    },
+    {
+      "job_id": "p02_C_j3_b01",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j3_b01/attempt-01.json",
+      "record_sha256": "432dd67fb64f2e49d0a07d718836466c12f6f576f64883a4b62c938946e2be65",
+      "record_status": "error",
+      "record_reason": "Execution failed with returncode 2",
+      "event_log": "/home/evidex/records/p02_C_j3_b01/attempt-01/attempt-01.sdk-events.jsonl",
+      "event_log_size": 281180,
+      "event_log_sha256": "4512ed59540e3659bb4db408c4c7c904941b4d135bddf689d557faac1710c827",
+      "event_log_agent_ids": [
+        "agent-d2761f78-7af1-4f28-821c-e3005895eaff"
+      ],
+      "event_log_run_ids": [
+        "run-53f1d4c7-e1d3-4d6e-af37-701a40e8926a"
+      ],
+      "event_log_statuses": [
+        "RUNNING",
+        "ERROR"
+      ],
+      "event_log_error": "Increase limits for faster responses You're out of usage. Switch to Auto, or ask your admin to increase your limit to continue.",
+      "runner_log": [
+        {
+          "log": "842358.txt",
+          "line": 116,
+          "event": "START"
+        },
+        {
+          "log": "842358.txt",
+          "line": 133,
+          "event": "node_started",
+          "launch_clock_utc": "01:53:42.271"
+        },
+        {
+          "log": "842358.txt",
+          "line": 144,
+          "event": "ATTEMPT_FAILED",
+          "code": 1
+        }
+      ],
+      "checks": {
+        "event_log_sha256_matches_recorded": true,
+        "event_log_size_matches_recorded": true,
+        "exactly_one_agent": true,
+        "agent_matches_recorded_evidence": true,
+        "agent_unique_across_all_slots": true,
+        "agent_absent_from_all_record_sessions": true,
+        "record_is_exit_code_2_collision": true
+      },
+      "verdict": "launched; agent identified from surviving event log"
+    },
+    {
+      "job_id": "p02_C_j3_b01",
+      "attempt": 3,
+      "record": "corrections_v2/execution/p02_C_j3_b01/attempt-03.json",
+      "record_sha256": "9f9e13ed8f0d2d722e1d62d793f8182ce68ae479a833dc960d17c22d7e2144d6",
+      "record_status": "error",
+      "record_reason": "Execution failed with returncode 2",
+      "event_log": "/home/evidex/records/p02_C_j3_b01/attempt-03/attempt-03.sdk-events.jsonl",
+      "event_log_size": 428,
+      "event_log_sha256": "1cbdddf7de089ede05ba5bdff5d5712099d07a5db6371a01d10923999d0e8d5b",
+      "event_log_agent_ids": [
+        "agent-819f83f1-306d-4ff3-bc11-4492a569c1ce"
+      ],
+      "event_log_run_ids": [
+        "run-002c56eb-3ff6-43d0-93b8-4c4eb95a5ebc"
+      ],
+      "event_log_statuses": [
+        "RUNNING",
+        "ERROR"
+      ],
+      "event_log_error": "Increase limits for faster responses You're out of usage. Switch to Auto, or ask your admin to increase your limit to continue.",
+      "runner_log": [
+        {
+          "log": "842358.txt",
+          "line": 156,
+          "event": "START"
+        },
+        {
+          "log": "842358.txt",
+          "line": 165,
+          "event": "message",
+          "text": "workspace or record dir already exists"
+        },
+        {
+          "log": "842358.txt",
+          "line": 166,
+          "event": "ATTEMPT_FAILED",
+          "code": 2
+        }
+      ],
+      "checks": {
+        "event_log_sha256_matches_recorded": true,
+        "event_log_size_matches_recorded": true,
+        "exactly_one_agent": true,
+        "agent_matches_recorded_evidence": true,
+        "agent_unique_across_all_slots": true,
+        "agent_absent_from_all_record_sessions": true,
+        "record_is_exit_code_2_collision": true
+      },
+      "verdict": "launched; agent identified from surviving event log"
+    },
+    {
+      "job_id": "p02_C_j3_b02",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j3_b02/attempt-01.json",
+      "record_sha256": "29ffdbf826f30a65f2c6799efcedc9d70095828d533e0e18a0414e2596548cf3",
+      "record_status": "error",
+      "record_reason": "Execution failed with returncode 2",
+      "event_log": "/home/evidex/records/p02_C_j3_b02/attempt-01/attempt-01.sdk-events.jsonl",
+      "event_log_size": 428,
+      "event_log_sha256": "2b50dd8615b7ac1e784932ad4aaa10b7b67ecce0cdd4c4cda0a525711f2326db",
+      "event_log_agent_ids": [
+        "agent-76d6c0ba-60c2-4146-90a6-115c195965cf"
+      ],
+      "event_log_run_ids": [
+        "run-2445ec97-cfcf-488a-911e-7dac4dd1abea"
+      ],
+      "event_log_statuses": [
+        "RUNNING",
+        "ERROR"
+      ],
+      "event_log_error": "Increase limits for faster responses You're out of usage. Switch to Auto, or ask your admin to increase your limit to continue.",
+      "runner_log": [
+        {
+          "log": "842358.txt",
+          "line": 168,
+          "event": "START"
+        },
+        {
+          "log": "842358.txt",
+          "line": 185,
+          "event": "node_started",
+          "launch_clock_utc": "01:56:15.726"
+        },
+        {
+          "log": "842358.txt",
+          "line": 196,
+          "event": "ATTEMPT_FAILED",
+          "code": 1
+        }
+      ],
+      "checks": {
+        "event_log_sha256_matches_recorded": true,
+        "event_log_size_matches_recorded": true,
+        "exactly_one_agent": true,
+        "agent_matches_recorded_evidence": true,
+        "agent_unique_across_all_slots": true,
+        "agent_absent_from_all_record_sessions": true,
+        "record_is_exit_code_2_collision": true
+      },
+      "verdict": "launched; agent identified from surviving event log"
+    },
+    {
+      "job_id": "p02_C_j3_b02",
+      "attempt": 2,
+      "record": "corrections_v2/execution/p02_C_j3_b02/attempt-02.json",
+      "record_sha256": "3590bce17174e766846d1de01421e6e5175ee44b37fd8e756a09bdb6b850ba81",
+      "record_status": "error",
+      "record_reason": "Execution failed with returncode 2",
+      "event_log": "/home/evidex/records/p02_C_j3_b02/attempt-02/attempt-02.sdk-events.jsonl",
+      "event_log_size": 428,
+      "event_log_sha256": "b8c12a7a68a60890ef3c4fd9f3bd010fbcd2c1c9f4825a69efe172ed24dc5a35",
+      "event_log_agent_ids": [
+        "agent-d141ee66-7de9-4950-abf1-f7d16cff65cf"
+      ],
+      "event_log_run_ids": [
+        "run-28f2816e-aa4c-4924-8405-eb8a9398e7c8"
+      ],
+      "event_log_statuses": [
+        "RUNNING",
+        "ERROR"
+      ],
+      "event_log_error": "Increase limits for faster responses You're out of usage. Switch to Auto, or ask your admin to increase your limit to continue.",
+      "runner_log": [
+        {
+          "log": "842358.txt",
+          "line": 197,
+          "event": "START"
+        },
+        {
+          "log": "842358.txt",
+          "line": 206,
+          "event": "message",
+          "text": "workspace or record dir already exists"
+        },
+        {
+          "log": "842358.txt",
+          "line": 207,
+          "event": "ATTEMPT_FAILED",
+          "code": 2
+        }
+      ],
+      "checks": {
+        "event_log_sha256_matches_recorded": true,
+        "event_log_size_matches_recorded": true,
+        "exactly_one_agent": true,
+        "agent_matches_recorded_evidence": true,
+        "agent_unique_across_all_slots": true,
+        "agent_absent_from_all_record_sessions": true,
+        "record_is_exit_code_2_collision": true
+      },
+      "verdict": "launched; agent identified from surviving event log"
+    },
+    {
+      "job_id": "p02_C_j3_b02",
+      "attempt": 3,
+      "record": "corrections_v2/execution/p02_C_j3_b02/attempt-03.json",
+      "record_sha256": "f6036e6b06a5d5f31d1f65d3e60ce574387a77b972a2bcc37d7dad9cfe7be369",
+      "record_status": "error",
+      "record_reason": "Execution failed with returncode 2",
+      "event_log": "/home/evidex/records/p02_C_j3_b02/attempt-03/attempt-03.sdk-events.jsonl",
+      "event_log_size": 428,
+      "event_log_sha256": "15fdf23b165c6bf9c3647428720ab8453c9f7318797b54dff18c0a2af00aceaf",
+      "event_log_agent_ids": [
+        "agent-42223fae-b0f4-4f2d-8479-6d8034203a7f"
+      ],
+      "event_log_run_ids": [
+        "run-ad644a26-3592-4b4c-a107-b845580511a3"
+      ],
+      "event_log_statuses": [
+        "RUNNING",
+        "ERROR"
+      ],
+      "event_log_error": "Increase limits for faster responses You're out of usage. Switch to Auto, or ask your admin to increase your limit to continue.",
+      "runner_log": [
+        {
+          "log": "842358.txt",
+          "line": 209,
+          "event": "START"
+        },
+        {
+          "log": "842358.txt",
+          "line": 226,
+          "event": "node_started",
+          "launch_clock_utc": "01:56:34.741"
+        },
+        {
+          "log": "842358.txt",
+          "line": 237,
+          "event": "ATTEMPT_FAILED",
+          "code": 1
+        }
+      ],
+      "checks": {
+        "event_log_sha256_matches_recorded": true,
+        "event_log_size_matches_recorded": true,
+        "exactly_one_agent": true,
+        "agent_matches_recorded_evidence": true,
+        "agent_unique_across_all_slots": true,
+        "agent_absent_from_all_record_sessions": true,
+        "record_is_exit_code_2_collision": true
+      },
+      "verdict": "launched; agent identified from surviving event log"
+    },
+    {
+      "job_id": "p02_C_j3_b03",
+      "attempt": 1,
+      "record": "corrections_v2/execution/p02_C_j3_b03/attempt-01.json",
+      "record_sha256": "e90a0d7bc05e4bd879b29b84f2ede7f2dbda440c7dc798472f0795f221c50f97",
+      "record_status": "error",
+      "record_reason": "Execution failed with returncode 2",
+      "event_log": "/home/evidex/records/p02_C_j3_b03/attempt-01/attempt-01.sdk-events.jsonl",
+      "event_log_size": 428,
+      "event_log_sha256": "23ad04c1f5cea80e1e9ff2be84af0aff70e823409b0b5eaa7db4c2ad59d0cf92",
+      "event_log_agent_ids": [
+        "agent-b091e9d9-cbfb-4537-9767-d1b98f3ddeb8"
+      ],
+      "event_log_run_ids": [
+        "run-19f0a414-e1fd-4b2d-b091-ae1527af872e"
+      ],
+      "event_log_statuses": [
+        "RUNNING",
+        "ERROR"
+      ],
+      "event_log_error": "Increase limits for faster responses You're out of usage. Switch to Auto, or ask your admin to increase your limit to continue.",
+      "runner_log": [
+        {
+          "log": "842358.txt",
+          "line": 238,
+          "event": "START"
+        },
+        {
+          "log": "842358.txt",
+          "line": 247,
+          "event": "message",
+          "text": "workspace or record dir already exists"
+        },
+        {
+          "log": "842358.txt",
+          "line": 248,
+          "event": "ATTEMPT_FAILED",
+          "code": 2
+        }
+      ],
+      "checks": {
+        "event_log_sha256_matches_recorded": true,
+        "event_log_size_matches_recorded": true,
+        "exactly_one_agent": true,
+        "agent_matches_recorded_evidence": true,
+        "agent_unique_across_all_slots": true,
+        "agent_absent_from_all_record_sessions": true,
+        "record_is_exit_code_2_collision": true
+      },
+      "verdict": "launched; agent identified from surviving event log"
+    },
+    {
+      "job_id": "p02_C_j3_b03",
+      "attempt": 2,
+      "record": "corrections_v2/execution/p02_C_j3_b03/attempt-02.json",
+      "record_sha256": "58061264b4148b5917cffc4bc455ad648313dce436724a6e2e9670b598a25e64",
+      "record_status": "error",
+      "record_reason": "Execution failed with returncode 2",
+      "event_log": "/home/evidex/records/p02_C_j3_b03/attempt-02/attempt-02.sdk-events.jsonl",
+      "event_log_size": 428,
+      "event_log_sha256": "cae10444b84c79b48ec9bfe5df7a1f4041b5aaea965fbeb5364434af1c824b85",
+      "event_log_agent_ids": [
+        "agent-c0aecb9b-a8f2-47e7-a40d-37c116ac8f61"
+      ],
+      "event_log_run_ids": [
+        "run-c84940d9-5b94-4b20-ac45-bccc4cc672ff"
+      ],
+      "event_log_statuses": [
+        "RUNNING",
+        "ERROR"
+      ],
+      "event_log_error": "Increase limits for faster responses You're out of usage. Switch to Auto, or ask your admin to increase your limit to continue.",
+      "runner_log": [
+        {
+          "log": "842358.txt",
+          "line": 250,
+          "event": "START"
+        },
+        {
+          "log": "842358.txt",
+          "line": 267,
+          "event": "node_started",
+          "launch_clock_utc": "01:56:56.403"
+        },
+        {
+          "log": "842358.txt",
+          "line": 278,
+          "event": "ATTEMPT_FAILED",
+          "code": 1
+        }
+      ],
+      "checks": {
+        "event_log_sha256_matches_recorded": true,
+        "event_log_size_matches_recorded": true,
+        "exactly_one_agent": true,
+        "agent_matches_recorded_evidence": true,
+        "agent_unique_across_all_slots": true,
+        "agent_absent_from_all_record_sessions": true,
+        "record_is_exit_code_2_collision": true
+      },
+      "verdict": "launched; agent identified from surviving event log"
+    },
+    {
+      "job_id": "p02_C_j3_b03",
+      "attempt": 3,
+      "record": "corrections_v2/execution/p02_C_j3_b03/attempt-03.json",
+      "record_sha256": "e85fdca982cafb6de9315462db1a9d329110156d932869ef5275b3e4b276cf6c",
+      "record_status": "error",
+      "record_reason": "Execution failed with returncode 2",
+      "event_log": "/home/evidex/records/p02_C_j3_b03/attempt-03/attempt-03.sdk-events.jsonl",
+      "event_log_size": 428,
+      "event_log_sha256": "4f2ed26d6b1956c2e07bc59dd5dff2e4c1e5f9e2f9c8345622b29e6adba8b6b7",
+      "event_log_agent_ids": [
+        "agent-9082c940-dcfb-465b-aaa4-de3f0e199f60"
+      ],
+      "event_log_run_ids": [
+        "run-10e280f0-496d-4903-823a-a53e15559a31"
+      ],
+      "event_log_statuses": [
+        "RUNNING",
+        "ERROR"
+      ],
+      "event_log_error": "Increase limits for faster responses You're out of usage. Switch to Auto, or ask your admin to increase your limit to continue.",
+      "runner_log": [
+        {
+          "log": "842358.txt",
+          "line": 279,
+          "event": "START"
+        },
+        {
+          "log": "842358.txt",
+          "line": 288,
+          "event": "message",
+          "text": "workspace or record dir already exists"
+        },
+        {
+          "log": "842358.txt",
+          "line": 289,
+          "event": "ATTEMPT_FAILED",
+          "code": 2
+        }
+      ],
+      "checks": {
+        "event_log_sha256_matches_recorded": true,
+        "event_log_size_matches_recorded": true,
+        "exactly_one_agent": true,
+        "agent_matches_recorded_evidence": true,
+        "agent_unique_across_all_slots": true,
+        "agent_absent_from_all_record_sessions": true,
+        "record_is_exit_code_2_collision": true
+      },
+      "verdict": "launched; agent identified from surviving event log"
+    }
+  ]
+}

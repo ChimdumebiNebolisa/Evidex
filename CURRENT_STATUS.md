@@ -17,10 +17,12 @@ says what is out of date in each one.
 | Frozen-protocol primary analysis | **Incomplete.** Execution provenance fails the frozen validator: six jobs over the three-attempt cap, and 13 `unknown`-session collision records. No judgment freeze, no `corrections_v2/results/` |
 | Protocol follow-ups (new residual Claude panel, Stage C resolver) | Not generated or run, because they depend on the primary freeze |
 | Post-judgment deviation analysis | **Exists.** Separately labeled and dated. It applies the frozen analysis code to the accepted outputs and to a first-valid selection, both chosen after the outputs were inspected. See the note below |
-| Corrected manuscript | Draft for coauthor review in `paper_corrected_draft/`. Not compiled: no LaTeX toolchain here |
+| Amendment A1 (post-judgment, 2026-09-28) | **Adopted by the authors.** Allows up to 9 attempts, accepts the 13 `unknown`-session records on surviving agent logs (all 13 established), and explicitly selects the accepted outputs. Status `ready_under_amendment_A1`. Results in `corrections_v2/amendment_2026-09-28/results/` are identical in every estimate to the provisional analysis. Not preregistered |
+| Corrected manuscript | `paper_corrected_draft/evidex-corrected-draft.pdf` (compiled, 19 pages), for coauthor review. Its decisions list is in `paper_corrected_draft/README.md` |
 
 ## Read next
 
+0. `corrections_v2/amendment_2026-09-28/AMENDMENT_A1.md`: the rule change the corrected paper uses.
 1. `docs/post_judgment/POST_JUDGMENT_ANALYSIS_NOTE_2026-09-28.md`: the corrected results and what
    they can support.
 2. `corrections_v2/deviation_review/DEVIATION_ASSESSMENT_2026-09-28.md` and
@@ -40,6 +42,8 @@ says what is out of date in each one.
 | `python corrections_v2/rerun.py validate --scope required` | exit 0: required judgments complete (70 jobs, 6,430 schema-valid). This command checks schema completeness only and reports execution provenance as not assessed. The optional 15 jobs are listed as missing |
 | `python corrections_v2/analysis_pipeline.py status --panel primary` | exit 1, status `incomplete`: retry limit exceeded for six jobs, plus `reused_session` |
 | `python corrections_v2/deviation_review/provisional_analysis.py verify` | exit 0: committed provisional results reproduce from tracked inputs |
+| `python corrections_v2/amendment_2026-09-28/amended_analysis.py status` | exit 0, `ready_under_amendment_A1` |
+| `python paper_corrected_draft/make_assets.py` | regenerates the draft's Tables 2–4 and Figures 3–4 from the A1 results |
 | `python -m unittest discover -s corrections_v2/deviation_review/tests` | exit 0 |
 | `python paper_corrected_draft/check_draft.py` | exit 0: static consistency of the draft |
 | `python scripts/run_all_tests.py`, `python scripts/verify_all_headlines.py` | historical test and headline runners. They need the historical Python dependencies |
