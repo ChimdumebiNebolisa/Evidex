@@ -48,9 +48,11 @@ flowchart LR
 | `historical/behavioral_results/` | Original summary tables and error cases |
 | `historical/pilot/` | Earlier 1,000-claim and pilot artifacts |
 | `historical/pipeline/` | Original behavior-study scripts, preserved byte-for-byte |
+| `historical/parallel_shards_balanced_10000_v1/` | Result and run files from the four parallel shards of the 10,000-claim experiment's remaining claims |
 | `historical/paper/` and `historical/archive_old_pipeline/` | Superseded manuscript and older pipeline |
 | `docs/` | Current status, technical notes and historical documents |
 | `tools/` | Layout verifier and frozen-commit runner |
+| `scripts/` | Headline verifier, test runner and repository inventory |
 
 The root was organized after the scientific record was frozen. The original artifact tag `evidex-artifact-v1` and pre-layout correction commit `33121b7` remain unchanged. [The migration record](docs/post_judgment/LAYOUT_MIGRATION_2026-09-28.md) explains how relocated bytes and old commands are checked. This branch changes presentation paths, not the predictions or judgments.
 

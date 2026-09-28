@@ -16,6 +16,7 @@ Disagreement between an NLI model or a judge panel and FEVER marks candidate amb
 
 The design locates where a judge panel's verdict changes, not what happened inside GPT.
 Progressive disclosure observes judges, not GPT-internal mechanisms, and the original GPT runs stored predicted labels only, so no analysis in this paper can recover why a particular prediction changed.
+Each claim also has a single recorded prediction per model and condition, so the study does not measure run-to-run variability, and an individual transition may partly reflect it.
 
 The adjudication itself was corrected after the fact.
 The historical Stage~C packets displayed corrupted sentence text, and the historical taxonomy conflated disagreement with FEVER with evidence utilization.

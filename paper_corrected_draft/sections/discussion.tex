@@ -6,7 +6,7 @@ The takeaway from these findings is not that gold evidence fails.
 It succeeds on average: far more claims change from incorrect to correct when evidence is added (850 for GPT-5.4 and 1{,}238 for GPT-5.4-mini) than change from correct to incorrect.
 Aggregate accuracy is nevertheless the wrong unit for evaluating reliability, because it nets these movements against each other.
 For GPT-5.4, 115 of the 10{,}000 claims (1.15\%) changed from correct without evidence to wrong with it; for GPT-5.4-mini, 151 (1.51\%) did; and 226 distinct claims regressed for at least one model.
-In each case, adding correct evidence reversed a decision that was already correct, and condition-level accuracy alone conceals every one of these reversals.
+In each case, a prediction that was correct without evidence was wrong once the designated evidence was added, and condition-level accuracy alone conceals every one of these reversals.
 Evaluation reports that publish only accuracy per condition will therefore miss them.
 
 \subsection{What adjudication can and cannot say about regressions}
