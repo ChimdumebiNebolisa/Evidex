@@ -81,7 +81,7 @@ Each claim was checked against the source's published abstract on ACL Anthology,
 |---|---|---|
 | Thorne et al. 2018a (FEVER) | 185,445 Wikipedia-derived claims; Supported/Refuted/NotEnoughInfo; evidence recorded for the first two classes | Verified |
 | Thorne et al. 2018b (shared task) | First FEVER shared task; retrieve Wikipedia evidence and classify claims; best FEVER score 64.21% | Verified |
-| Guo et al. 2022 (survey) | Claim detection / evidence retrieval / verdict prediction decomposition | **Flag:** not stated in the abstract. The survey's framework section should be checked before submission. |
+| Guo et al. 2022 (survey) | Claim detection, evidence retrieval, and claim verification (verdict prediction and, where applicable, justification production) | Resolved: opening sentence revised by the authors to match the survey's framework (2026-09-28) |
 | Wadden et al. 2020 (SciFact) | Expert-written scientific claims; abstracts that support or refute | Verified |
 | Schuster et al. 2021 (VitaminC) | Contrastive pairs from Wikipedia revisions; nearly identical evidence supports or does not | Verified |
 | Jiang et al. 2020 (HoVer) | Evidence from up to four Wikipedia articles | Verified |
@@ -105,4 +105,6 @@ Comment 170's "cite" refers to a withdrawn passage.
 
 ## Author queries
 
-- **AQ1:** Confirm the decomposition attributed to Guo et al. 2022 against the survey's framework section (not verifiable from the abstract).
+- **AQ1 (resolved 2026-09-28):** The Guo et al. 2022 decomposition was checked against the survey's framework. The opening sentence of Related Work 2.1 now reads: "Automated fact-checking is commonly organized into claim detection, evidence retrieval, and claim verification; the last stage includes verdict prediction and, where applicable, justification production." The following sentence now names evidence retrieval and verdict prediction explicitly as the stages FEVER measures, since FEVER does not cover justification production.
+
+No author queries remain open.
