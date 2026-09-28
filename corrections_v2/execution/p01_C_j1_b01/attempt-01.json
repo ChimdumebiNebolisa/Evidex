@@ -1,0 +1,34 @@
+{
+  "job_id": "p01_C_j1_b01",
+  "attempt": 1,
+  "status": "blocked",
+  "reason": "SDK local sandbox is required by the operational amendment but is not supported on this Windows host at agent.send. No judgment was produced.",
+  "requested_model": "cursor-grok-4.6-high-fast",
+  "resolved_model": null,
+  "provider_model_version": null,
+  "version_metadata_status": "not_exposed",
+  "version_metadata_note": "No model stream ran. Catalog, dispatch, and ConfigurationError on send were inspected; provider/backend version is not exposed.",
+  "cursor_version": "3.17.8",
+  "session_id": "not_launched:windows_sdk_sandbox_unsupported",
+  "started_at_utc": "2026-09-27T22:15:06.000Z",
+  "completed_at_utc": "2026-09-27T22:15:13.178Z",
+  "operator": "cursor-coordinator",
+  "reviewer": "cursor-coordinator-gate",
+  "routing_and_isolation_reviewed": true,
+  "fresh_context": true,
+  "inherited_context": false,
+  "auto": false,
+  "inherit": false,
+  "web_browse": false,
+  "external_retrieval": false,
+  "temperature": "provider_default",
+  "visible_input_files": [
+    "corrections_v2/blind_io/p01/stage_c/p01_C_j1_b01.json"
+  ],
+  "packet_sha256": "e77d9b14bb6d5a3b044c7bab833e794b7420f66a7799f327df43ac497e9502e5",
+  "raw_response_unavailable_reason": "agent.send raised ConfigurationError before any stream events or output write",
+  "routing_evidence": {
+    "path": "corrections_v2/execution/p01_C_j1_b01/attempt-01.routing.txt",
+    "sha256": "0015c3ab06483613b856c7f2a88006bea9084a1c2fb2f50b68c60e54bdc9ca5a"
+  }
+}

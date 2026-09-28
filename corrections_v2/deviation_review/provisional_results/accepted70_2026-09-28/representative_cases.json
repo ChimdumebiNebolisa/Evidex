@@ -1,0 +1,1286 @@
+[
+  {
+    "selection": "sentence_only_gold_agreeing",
+    "claim_id": 42669,
+    "cohort": "rescue",
+    "regression_type": "",
+    "gold_label": "Supported",
+    "nli_disagrees": false,
+    "nli2_disagrees": false,
+    "gpt54_transition": "wrong_to_correct",
+    "gpt54mini_transition": "wrong_to_correct",
+    "panel": "grok",
+    "item_id": "SA-000001",
+    "source_item_id": "SA-000001",
+    "consensus_A": "Supported",
+    "consensus_B": "Supported",
+    "consensus_C": "Supported",
+    "ambiguous_A": false,
+    "ambiguous_B": false,
+    "ambiguous_C": false,
+    "resolved_by_titles": false,
+    "resolved_at_C": false,
+    "still_ambiguous_after_C": false,
+    "reversed_after_titles": false,
+    "reversed_at_C": false,
+    "change_A_B": false,
+    "change_B_C": false,
+    "change_A_C": false,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "retained_v1_AB_fresh_corrected_v2_C",
+    "decisive_A": true,
+    "agrees_fever_A": true,
+    "decisive_B": true,
+    "agrees_fever_B": true,
+    "decisive_C": true,
+    "agrees_fever_C": true,
+    "first_decisive_stage": "A",
+    "first_gold_agreeing_stage": "A",
+    "title_resolution": false,
+    "c_resolution": false,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": false,
+    "c_disclosure": "structure_without_new_sentence_text",
+    "sentence_only_utilization_compatible": false,
+    "category": "sentence_only_gold_agreeing",
+    "rule_A": "high_consensus",
+    "mean_confidence_A": 73.2,
+    "order_sensitive_A": false,
+    "rule_B": "high_consensus",
+    "mean_confidence_B": 79.0,
+    "order_sensitive_B": false,
+    "rule_C": "high_consensus",
+    "mean_confidence_C": 77.6,
+    "order_sensitive_C": false,
+    "corrected_packet": {
+      "item_id": "SA-000001",
+      "claim": "The basis of characters in many authors' books in Emperor Norton.",
+      "evidence_sentences": "Norton has been immortalized as the basis of characters in the literature of writers Mark Twain , Robert Louis Stevenson , Christopher Moore , Morris and Goscinny , Selma Lagerlöf , and Neil Gaiman .",
+      "page_titles": [
+        "Emperor Norton"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Emperor Norton",
+            "line_index": 19,
+            "sentence": "Norton has been immortalized as the basis of characters in the literature of writers Mark Twain , Robert Louis Stevenson , Christopher Moore , Morris and Goscinny , Selma Lagerlöf , and Neil Gaiman ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  },
+  {
+    "selection": "title_disclosure_gold_agreeing",
+    "claim_id": 123238,
+    "cohort": "resistant",
+    "regression_type": "",
+    "gold_label": "Supported",
+    "nli_disagrees": false,
+    "nli2_disagrees": false,
+    "gpt54_transition": "wrong_to_wrong",
+    "gpt54mini_transition": "correct_to_correct",
+    "panel": "grok",
+    "item_id": "SA-000006",
+    "source_item_id": "SA-000006",
+    "consensus_A": "Unresolved",
+    "consensus_B": "Supported",
+    "consensus_C": "Supported",
+    "ambiguous_A": true,
+    "ambiguous_B": false,
+    "ambiguous_C": false,
+    "resolved_by_titles": true,
+    "resolved_at_C": false,
+    "still_ambiguous_after_C": false,
+    "reversed_after_titles": false,
+    "reversed_at_C": false,
+    "change_A_B": true,
+    "change_B_C": false,
+    "change_A_C": true,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "retained_v1_AB_fresh_corrected_v2_C",
+    "decisive_A": false,
+    "agrees_fever_A": null,
+    "decisive_B": true,
+    "agrees_fever_B": true,
+    "decisive_C": true,
+    "agrees_fever_C": true,
+    "first_decisive_stage": "B",
+    "first_gold_agreeing_stage": "B",
+    "title_resolution": true,
+    "c_resolution": false,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": false,
+    "c_disclosure": "additional_sentence_text_and_structure",
+    "sentence_only_utilization_compatible": false,
+    "category": "title_disclosure_gold_agreeing",
+    "rule_A": "unresolved",
+    "mean_confidence_A": 70.8,
+    "order_sensitive_A": false,
+    "rule_B": "high_consensus",
+    "mean_confidence_B": 78.0,
+    "order_sensitive_B": false,
+    "rule_C": "high_consensus",
+    "mean_confidence_C": 82.0,
+    "order_sensitive_C": false,
+    "corrected_packet": {
+      "item_id": "SA-000006",
+      "claim": "The New England Patriots got to seven Super Bowls.",
+      "evidence_sentences": "The Patriots have appeared in the Super Bowl nine times in franchise history , the most of any team , seven of them since the arrival of head coach Bill Belichick and quarterback Tom Brady in 2000 .",
+      "page_titles": [
+        "New England Patriots"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "New England Patriots",
+            "line_index": 12,
+            "sentence": "The Patriots have appeared in the Super Bowl nine times in franchise history , the most of any team , seven of them since the arrival of head coach Bill Belichick and quarterback Tom Brady in 2000 ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "New England Patriots",
+              "line_index": 15,
+              "sentence": "The team owns the record for most Super Bowls reached -LRB- seven -RRB- and won -LRB- five -RRB- by a head coach -- quarterback tandem ."
+            }
+          ],
+          [
+            {
+              "page_title": "New England Patriots",
+              "line_index": 15,
+              "sentence": "The team owns the record for most Super Bowls reached -LRB- seven -RRB- and won -LRB- five -RRB- by a head coach -- quarterback tandem ."
+            }
+          ],
+          [
+            {
+              "page_title": "New England Patriots",
+              "line_index": 12,
+              "sentence": "The Patriots have appeared in the Super Bowl nine times in franchise history , the most of any team , seven of them since the arrival of head coach Bill Belichick and quarterback Tom Brady in 2000 ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 4,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true
+        ]
+      }
+    }
+  },
+  {
+    "selection": "structured_disclosure_gold_agreeing",
+    "claim_id": 183456,
+    "cohort": "resistant",
+    "regression_type": "",
+    "gold_label": "Refuted",
+    "nli_disagrees": true,
+    "nli2_disagrees": true,
+    "gpt54_transition": "wrong_to_wrong",
+    "gpt54mini_transition": "wrong_to_wrong",
+    "panel": "grok",
+    "item_id": "SA-000140",
+    "source_item_id": "SA-000140",
+    "consensus_A": "Ambiguous",
+    "consensus_B": "Ambiguous",
+    "consensus_C": "Refuted",
+    "ambiguous_A": true,
+    "ambiguous_B": true,
+    "ambiguous_C": false,
+    "resolved_by_titles": false,
+    "resolved_at_C": true,
+    "still_ambiguous_after_C": false,
+    "reversed_after_titles": false,
+    "reversed_at_C": false,
+    "change_A_B": false,
+    "change_B_C": true,
+    "change_A_C": true,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "retained_v1_AB_fresh_corrected_v2_C",
+    "decisive_A": false,
+    "agrees_fever_A": null,
+    "decisive_B": false,
+    "agrees_fever_B": null,
+    "decisive_C": true,
+    "agrees_fever_C": true,
+    "first_decisive_stage": "C",
+    "first_gold_agreeing_stage": "C",
+    "title_resolution": false,
+    "c_resolution": true,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": false,
+    "c_disclosure": "structure_without_new_sentence_text",
+    "sentence_only_utilization_compatible": false,
+    "category": "structured_disclosure_gold_agreeing",
+    "rule_A": "ambiguous_majority",
+    "mean_confidence_A": 69.2,
+    "order_sensitive_A": false,
+    "rule_B": "ambiguous_majority",
+    "mean_confidence_B": 73.0,
+    "order_sensitive_B": false,
+    "rule_C": "high_consensus",
+    "mean_confidence_C": 80.4,
+    "order_sensitive_C": false,
+    "corrected_packet": {
+      "item_id": "SA-000140",
+      "claim": "Henry III of France was succeeded by Henry IV, founder of the House of Bourbon.",
+      "evidence_sentences": "In 1589 , Jacques Clément , a Catholic fanatic , murdered Henry III , who was succeeded by the King of Navarre who , as Henry IV , would assume the throne of France after converting to Catholicism , and become the first French king of the House of Bourbon . The royal Bourbons originated in 1268 , when the heiress of the lordship of Bourbon married a younger son of King Louis IX .",
+      "page_titles": [
+        "Henry III of France",
+        "House of Bourbon"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Henry III of France",
+            "line_index": 23,
+            "sentence": "In 1589 , Jacques Clément , a Catholic fanatic , murdered Henry III , who was succeeded by the King of Navarre who , as Henry IV , would assume the throne of France after converting to Catholicism , and become the first French king of the House of Bourbon ."
+          },
+          {
+            "page_title": "House of Bourbon",
+            "line_index": 6,
+            "sentence": "The royal Bourbons originated in 1268 , when the heiress of the lordship of Bourbon married a younger son of King Louis IX ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  },
+  {
+    "selection": "additional_evidence_gold_agreeing",
+    "claim_id": 41656,
+    "cohort": "robust",
+    "regression_type": "",
+    "gold_label": "Supported",
+    "nli_disagrees": true,
+    "nli2_disagrees": true,
+    "gpt54_transition": "correct_to_correct",
+    "gpt54mini_transition": "correct_to_correct",
+    "panel": "grok",
+    "item_id": "SA-000012",
+    "source_item_id": "SA-000012",
+    "consensus_A": "Ambiguous",
+    "consensus_B": "Ambiguous",
+    "consensus_C": "Supported",
+    "ambiguous_A": true,
+    "ambiguous_B": true,
+    "ambiguous_C": false,
+    "resolved_by_titles": false,
+    "resolved_at_C": true,
+    "still_ambiguous_after_C": false,
+    "reversed_after_titles": false,
+    "reversed_at_C": false,
+    "change_A_B": false,
+    "change_B_C": true,
+    "change_A_C": true,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "retained_v1_AB_fresh_corrected_v2_C",
+    "decisive_A": false,
+    "agrees_fever_A": null,
+    "decisive_B": false,
+    "agrees_fever_B": null,
+    "decisive_C": true,
+    "agrees_fever_C": true,
+    "first_decisive_stage": "C",
+    "first_gold_agreeing_stage": "C",
+    "title_resolution": false,
+    "c_resolution": true,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": false,
+    "c_disclosure": "additional_sentence_text_and_structure",
+    "sentence_only_utilization_compatible": false,
+    "category": "additional_evidence_gold_agreeing",
+    "rule_A": "ambiguous_majority",
+    "mean_confidence_A": 50.4,
+    "order_sensitive_A": false,
+    "rule_B": "ambiguous_majority",
+    "mean_confidence_B": 64.8,
+    "order_sensitive_B": false,
+    "rule_C": "high_consensus",
+    "mean_confidence_C": 91.8,
+    "order_sensitive_C": false,
+    "corrected_packet": {
+      "item_id": "SA-000012",
+      "claim": "Issa Rae stars in Awkward Black Girl.",
+      "evidence_sentences": "She is best known as the creator of the YouTube web series Awkward Black Girl .",
+      "page_titles": [
+        "Issa Rae"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Issa Rae",
+            "line_index": 1,
+            "sentence": "She is best known as the creator of the YouTube web series Awkward Black Girl ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "Issa Rae",
+              "line_index": 1,
+              "sentence": "She is best known as the creator of the YouTube web series Awkward Black Girl ."
+            },
+            {
+              "page_title": "Awkward Black Girl",
+              "line_index": 0,
+              "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+            }
+          ],
+          [
+            {
+              "page_title": "Issa Rae",
+              "line_index": 2,
+              "sentence": "Since the premiere of Awkward Black Girl , Rae has developed her own YouTube platform where she features various content created by people of color ."
+            },
+            {
+              "page_title": "Awkward Black Girl",
+              "line_index": 0,
+              "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+            }
+          ],
+          [
+            {
+              "page_title": "Issa Rae",
+              "line_index": 1,
+              "sentence": "She is best known as the creator of the YouTube web series Awkward Black Girl ."
+            },
+            {
+              "page_title": "Awkward Black Girl",
+              "line_index": 0,
+              "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+            }
+          ],
+          [
+            {
+              "page_title": "Issa Rae",
+              "line_index": 1,
+              "sentence": "She is best known as the creator of the YouTube web series Awkward Black Girl ."
+            }
+          ],
+          [
+            {
+              "page_title": "Issa Rae",
+              "line_index": 1,
+              "sentence": "She is best known as the creator of the YouTube web series Awkward Black Girl ."
+            },
+            {
+              "page_title": "Awkward Black Girl",
+              "line_index": 0,
+              "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+            }
+          ],
+          [
+            {
+              "page_title": "Issa Rae",
+              "line_index": 1,
+              "sentence": "She is best known as the creator of the YouTube web series Awkward Black Girl ."
+            },
+            {
+              "page_title": "Awkward Black Girl",
+              "line_index": 0,
+              "sentence": "The Mis-Adventures of Awkward Black Girl -LRB- often simply referred to as Awkward Black Girl -RRB- is an American comedy web series created by and starring Issa Rae ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 7,
+        "chosen_annotation_index": 3,
+        "alternative_annotation_indices": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    }
+  },
+  {
+    "selection": "nonmonotonic_judge_path",
+    "claim_id": 149156,
+    "cohort": "resistant",
+    "regression_type": "",
+    "gold_label": "Refuted",
+    "nli_disagrees": false,
+    "nli2_disagrees": false,
+    "gpt54_transition": "wrong_to_correct",
+    "gpt54mini_transition": "wrong_to_wrong",
+    "panel": "grok",
+    "item_id": "SA-000041",
+    "source_item_id": "SA-000041",
+    "consensus_A": "Refuted",
+    "consensus_B": "Unresolved",
+    "consensus_C": "Refuted",
+    "ambiguous_A": false,
+    "ambiguous_B": true,
+    "ambiguous_C": false,
+    "resolved_by_titles": false,
+    "resolved_at_C": true,
+    "still_ambiguous_after_C": false,
+    "reversed_after_titles": false,
+    "reversed_at_C": false,
+    "change_A_B": true,
+    "change_B_C": true,
+    "change_A_C": false,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "retained_v1_AB_fresh_corrected_v2_C",
+    "decisive_A": true,
+    "agrees_fever_A": true,
+    "decisive_B": false,
+    "agrees_fever_B": null,
+    "decisive_C": true,
+    "agrees_fever_C": true,
+    "first_decisive_stage": "A",
+    "first_gold_agreeing_stage": "A",
+    "title_resolution": false,
+    "c_resolution": true,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": true,
+    "c_disclosure": "structure_without_new_sentence_text",
+    "sentence_only_utilization_compatible": true,
+    "category": "nonmonotonic_judge_path",
+    "rule_A": "high_consensus",
+    "mean_confidence_A": 70.8,
+    "order_sensitive_A": false,
+    "rule_B": "unresolved",
+    "mean_confidence_B": 74.4,
+    "order_sensitive_B": false,
+    "rule_C": "high_consensus",
+    "mean_confidence_C": 80.0,
+    "order_sensitive_C": false,
+    "corrected_packet": {
+      "item_id": "SA-000041",
+      "claim": "Poseidon lost money at the worldwide box office.",
+      "evidence_sentences": "Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million .",
+      "page_titles": [
+        "Poseidon -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Poseidon -LRB-film-RRB-",
+            "line_index": 6,
+            "sentence": "Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  },
+  {
+    "selection": "decisive_judge_fever_disagreement",
+    "claim_id": 66075,
+    "cohort": "resistant",
+    "regression_type": "",
+    "gold_label": "Supported",
+    "nli_disagrees": true,
+    "nli2_disagrees": true,
+    "gpt54_transition": "wrong_to_wrong",
+    "gpt54mini_transition": "wrong_to_wrong",
+    "panel": "grok",
+    "item_id": "SA-000004",
+    "source_item_id": "SA-000004",
+    "consensus_A": "Refuted",
+    "consensus_B": "Refuted",
+    "consensus_C": "Refuted",
+    "ambiguous_A": false,
+    "ambiguous_B": false,
+    "ambiguous_C": false,
+    "resolved_by_titles": false,
+    "resolved_at_C": false,
+    "still_ambiguous_after_C": false,
+    "reversed_after_titles": false,
+    "reversed_at_C": false,
+    "change_A_B": false,
+    "change_B_C": false,
+    "change_A_C": false,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "retained_v1_AB_fresh_corrected_v2_C",
+    "decisive_A": true,
+    "agrees_fever_A": false,
+    "decisive_B": true,
+    "agrees_fever_B": false,
+    "decisive_C": true,
+    "agrees_fever_C": false,
+    "first_decisive_stage": "A",
+    "first_gold_agreeing_stage": "none",
+    "title_resolution": false,
+    "c_resolution": false,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": false,
+    "c_disclosure": "structure_without_new_sentence_text",
+    "sentence_only_utilization_compatible": false,
+    "category": "decisive_judge_fever_disagreement",
+    "rule_A": "high_consensus",
+    "mean_confidence_A": 91.8,
+    "order_sensitive_A": false,
+    "rule_B": "high_consensus",
+    "mean_confidence_B": 93.0,
+    "order_sensitive_B": false,
+    "rule_C": "high_consensus",
+    "mean_confidence_C": 91.0,
+    "order_sensitive_C": false,
+    "corrected_packet": {
+      "item_id": "SA-000004",
+      "claim": "The Saw franchise is a collection of bugs.",
+      "evidence_sentences": "Saw is an American horror franchise distributed by Lions Gate Entertainment , produced by Twisted Pictures and created by two Australians , director James Wan and screenwriter Leigh Whannell , that consists of seven feature films and additional media . A media franchise is a collection of related media in which several derivative works have been produced from an original creative work , such as a film , a work of literature , a television program or a video game .",
+      "page_titles": [
+        "Saw -LRB-franchise-RRB-",
+        "Media franchise"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Saw -LRB-franchise-RRB-",
+            "line_index": 0,
+            "sentence": "Saw is an American horror franchise distributed by Lions Gate Entertainment , produced by Twisted Pictures and created by two Australians , director James Wan and screenwriter Leigh Whannell , that consists of seven feature films and additional media ."
+          },
+          {
+            "page_title": "Media franchise",
+            "line_index": 0,
+            "sentence": "A media franchise is a collection of related media in which several derivative works have been produced from an original creative work , such as a film , a work of literature , a television program or a video game ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  },
+  {
+    "selection": "final_nondecisive",
+    "claim_id": 141758,
+    "cohort": "resistant",
+    "regression_type": "",
+    "gold_label": "Supported",
+    "nli_disagrees": true,
+    "nli2_disagrees": true,
+    "gpt54_transition": "wrong_to_wrong",
+    "gpt54mini_transition": "correct_to_correct",
+    "panel": "grok",
+    "item_id": "SA-000010",
+    "source_item_id": "SA-000010",
+    "consensus_A": "Ambiguous",
+    "consensus_B": "Ambiguous",
+    "consensus_C": "Ambiguous",
+    "ambiguous_A": true,
+    "ambiguous_B": true,
+    "ambiguous_C": true,
+    "resolved_by_titles": false,
+    "resolved_at_C": false,
+    "still_ambiguous_after_C": true,
+    "reversed_after_titles": false,
+    "reversed_at_C": false,
+    "change_A_B": false,
+    "change_B_C": false,
+    "change_A_C": false,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "retained_v1_AB_fresh_corrected_v2_C",
+    "decisive_A": false,
+    "agrees_fever_A": null,
+    "decisive_B": false,
+    "agrees_fever_B": null,
+    "decisive_C": false,
+    "agrees_fever_C": null,
+    "first_decisive_stage": "none",
+    "first_gold_agreeing_stage": "none",
+    "title_resolution": false,
+    "c_resolution": false,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": false,
+    "c_disclosure": "structure_without_new_sentence_text",
+    "sentence_only_utilization_compatible": false,
+    "category": "final_nondecisive",
+    "rule_A": "ambiguous_majority",
+    "mean_confidence_A": 59.4,
+    "order_sensitive_A": false,
+    "rule_B": "ambiguous_majority",
+    "mean_confidence_B": 66.6,
+    "order_sensitive_B": false,
+    "rule_C": "ambiguous_majority",
+    "mean_confidence_C": 65.6,
+    "order_sensitive_C": false,
+    "corrected_packet": {
+      "item_id": "SA-000010",
+      "claim": "Loretta Sanchez was born on Monday January 7, 1960.",
+      "evidence_sentences": "Loretta L. Sánchez -LRB- born January 7 , 1960 -RRB- is an American politician who served in the United States House of Representatives from 1997 to 2017 .",
+      "page_titles": [
+        "Loretta Sanchez"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Loretta Sanchez",
+            "line_index": 0,
+            "sentence": "Loretta L. Sánchez -LRB- born January 7 , 1960 -RRB- is an American politician who served in the United States House of Representatives from 1997 to 2017 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  },
+  {
+    "selection": "sentence_only_gold_agreeing",
+    "claim_id": 68032,
+    "cohort": "regression",
+    "regression_type": "gpt54_only",
+    "gold_label": "Supported",
+    "nli_disagrees": true,
+    "nli2_disagrees": false,
+    "gpt54_transition": "correct_to_wrong",
+    "gpt54mini_transition": "correct_to_correct",
+    "panel": "claude_full",
+    "item_id": "CF-000145",
+    "source_item_id": "SA-000009",
+    "consensus_A": "Supported",
+    "consensus_B": "Supported",
+    "consensus_C": "Supported",
+    "ambiguous_A": false,
+    "ambiguous_B": false,
+    "ambiguous_C": false,
+    "resolved_by_titles": false,
+    "resolved_at_C": false,
+    "still_ambiguous_after_C": false,
+    "reversed_after_titles": false,
+    "reversed_at_C": false,
+    "change_A_B": false,
+    "change_B_C": false,
+    "change_A_C": false,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "retained_v1_AB_fresh_corrected_v2_C",
+    "decisive_A": true,
+    "agrees_fever_A": true,
+    "decisive_B": true,
+    "agrees_fever_B": true,
+    "decisive_C": true,
+    "agrees_fever_C": true,
+    "first_decisive_stage": "A",
+    "first_gold_agreeing_stage": "A",
+    "title_resolution": false,
+    "c_resolution": false,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": false,
+    "c_disclosure": "structure_without_new_sentence_text",
+    "sentence_only_utilization_compatible": true,
+    "category": "sentence_only_gold_agreeing",
+    "rule_A": "high_consensus",
+    "mean_confidence_A": 91.2,
+    "order_sensitive_A": false,
+    "rule_B": "high_consensus",
+    "mean_confidence_B": 91.4,
+    "order_sensitive_B": false,
+    "rule_C": "high_consensus",
+    "mean_confidence_C": 91.6,
+    "order_sensitive_C": false,
+    "corrected_packet": {
+      "item_id": "SA-000009",
+      "claim": "Hot Right Now is from Nextlevelism.",
+      "evidence_sentences": "`` Hot Right Now '' is a single by British drum and bass producer DJ Fresh , released as the second single from his third studio album , Nextlevelism .",
+      "page_titles": [
+        "Hot Right Now"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Hot Right Now",
+            "line_index": 0,
+            "sentence": "`` Hot Right Now '' is a single by British drum and bass producer DJ Fresh , released as the second single from his third studio album , Nextlevelism ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  },
+  {
+    "selection": "title_disclosure_gold_agreeing",
+    "claim_id": 39018,
+    "cohort": "regression",
+    "regression_type": "gpt54_only",
+    "gold_label": "Refuted",
+    "nli_disagrees": true,
+    "nli2_disagrees": true,
+    "gpt54_transition": "correct_to_wrong",
+    "gpt54mini_transition": "wrong_to_correct",
+    "panel": "claude_full",
+    "item_id": "CF-000069",
+    "source_item_id": "SA-000276",
+    "consensus_A": "Ambiguous",
+    "consensus_B": "Refuted",
+    "consensus_C": "Refuted",
+    "ambiguous_A": true,
+    "ambiguous_B": false,
+    "ambiguous_C": false,
+    "resolved_by_titles": true,
+    "resolved_at_C": false,
+    "still_ambiguous_after_C": false,
+    "reversed_after_titles": false,
+    "reversed_at_C": false,
+    "change_A_B": true,
+    "change_B_C": false,
+    "change_A_C": true,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "retained_v1_AB_fresh_corrected_v2_C",
+    "decisive_A": false,
+    "agrees_fever_A": null,
+    "decisive_B": true,
+    "agrees_fever_B": true,
+    "decisive_C": true,
+    "agrees_fever_C": true,
+    "first_decisive_stage": "B",
+    "first_gold_agreeing_stage": "B",
+    "title_resolution": true,
+    "c_resolution": false,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": false,
+    "c_disclosure": "structure_without_new_sentence_text",
+    "sentence_only_utilization_compatible": false,
+    "category": "title_disclosure_gold_agreeing",
+    "rule_A": "ambiguous_majority",
+    "mean_confidence_A": 58.0,
+    "order_sensitive_A": false,
+    "rule_B": "high_consensus",
+    "mean_confidence_B": 67.4,
+    "order_sensitive_B": false,
+    "rule_C": "high_consensus",
+    "mean_confidence_C": 72.4,
+    "order_sensitive_C": false,
+    "corrected_packet": {
+      "item_id": "SA-000276",
+      "claim": "Duane Chapman's father is Duane Lee \"Dog\" Chapman I.",
+      "evidence_sentences": "Duane Lee `` Dog '' Chapman I. -LRB- born February 2 , 1953 -RRB- is an American bounty hunter and a former bail bondsman .",
+      "page_titles": [
+        "Duane Chapman"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Duane Chapman",
+            "line_index": 0,
+            "sentence": "Duane Lee `` Dog '' Chapman I. -LRB- born February 2 , 1953 -RRB- is an American bounty hunter and a former bail bondsman ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  },
+  {
+    "selection": "structured_disclosure_gold_agreeing",
+    "claim_id": 179332,
+    "cohort": "regression",
+    "regression_type": "mini_only",
+    "gold_label": "Refuted",
+    "nli_disagrees": false,
+    "nli2_disagrees": true,
+    "gpt54_transition": "correct_to_correct",
+    "gpt54mini_transition": "correct_to_wrong",
+    "panel": "claude_full",
+    "item_id": "CF-000036",
+    "source_item_id": "SA-000563",
+    "consensus_A": "Ambiguous",
+    "consensus_B": "Ambiguous",
+    "consensus_C": "Refuted",
+    "ambiguous_A": true,
+    "ambiguous_B": true,
+    "ambiguous_C": false,
+    "resolved_by_titles": false,
+    "resolved_at_C": true,
+    "still_ambiguous_after_C": false,
+    "reversed_after_titles": false,
+    "reversed_at_C": false,
+    "change_A_B": false,
+    "change_B_C": true,
+    "change_A_C": true,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "retained_v1_AB_fresh_corrected_v2_C",
+    "decisive_A": false,
+    "agrees_fever_A": null,
+    "decisive_B": false,
+    "agrees_fever_B": null,
+    "decisive_C": true,
+    "agrees_fever_C": true,
+    "first_decisive_stage": "C",
+    "first_gold_agreeing_stage": "C",
+    "title_resolution": false,
+    "c_resolution": true,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": false,
+    "c_disclosure": "structure_without_new_sentence_text",
+    "sentence_only_utilization_compatible": false,
+    "category": "structured_disclosure_gold_agreeing",
+    "rule_A": "ambiguous_majority",
+    "mean_confidence_A": 56.4,
+    "order_sensitive_A": false,
+    "rule_B": "ambiguous_weak_sufficiency",
+    "mean_confidence_B": 55.8,
+    "order_sensitive_B": false,
+    "rule_C": "high_consensus",
+    "mean_confidence_C": 59.6,
+    "order_sensitive_C": false,
+    "corrected_packet": {
+      "item_id": "SA-000563",
+      "claim": "Osamu Tezuka's mother only had to erase notes in his notebook.",
+      "evidence_sentences": "As a young child Tezuka began to practice drawing so much that his mother would have to erase pages in his notebook in order to keep up with his output .",
+      "page_titles": [
+        "Osamu Tezuka"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Osamu Tezuka",
+            "line_index": 6,
+            "sentence": "As a young child Tezuka began to practice drawing so much that his mother would have to erase pages in his notebook in order to keep up with his output ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  },
+  {
+    "selection": "additional_evidence_gold_agreeing",
+    "claim_id": 55633,
+    "cohort": "regression",
+    "regression_type": "gpt54_only",
+    "gold_label": "Supported",
+    "nli_disagrees": true,
+    "nli2_disagrees": true,
+    "gpt54_transition": "correct_to_wrong",
+    "gpt54mini_transition": "correct_to_correct",
+    "panel": "claude_full",
+    "item_id": "CF-000030",
+    "source_item_id": "SA-000051",
+    "consensus_A": "Ambiguous",
+    "consensus_B": "Ambiguous",
+    "consensus_C": "Supported",
+    "ambiguous_A": true,
+    "ambiguous_B": true,
+    "ambiguous_C": false,
+    "resolved_by_titles": false,
+    "resolved_at_C": true,
+    "still_ambiguous_after_C": false,
+    "reversed_after_titles": false,
+    "reversed_at_C": false,
+    "change_A_B": false,
+    "change_B_C": true,
+    "change_A_C": true,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "retained_v1_AB_fresh_corrected_v2_C",
+    "decisive_A": false,
+    "agrees_fever_A": null,
+    "decisive_B": false,
+    "agrees_fever_B": null,
+    "decisive_C": true,
+    "agrees_fever_C": true,
+    "first_decisive_stage": "C",
+    "first_gold_agreeing_stage": "C",
+    "title_resolution": false,
+    "c_resolution": true,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": false,
+    "c_disclosure": "additional_sentence_text_and_structure",
+    "sentence_only_utilization_compatible": false,
+    "category": "additional_evidence_gold_agreeing",
+    "rule_A": "ambiguous_majority",
+    "mean_confidence_A": 60.0,
+    "order_sensitive_A": false,
+    "rule_B": "ambiguous_majority",
+    "mean_confidence_B": 57.8,
+    "order_sensitive_B": false,
+    "rule_C": "high_consensus",
+    "mean_confidence_C": 84.8,
+    "order_sensitive_C": false,
+    "corrected_packet": {
+      "item_id": "SA-000051",
+      "claim": "SZA is an American Neo Soul singer.",
+      "evidence_sentences": "SZA is a Neo Soul singer whose music is described as Alternative R&B , with elements of soul , hip hop , minimalist R&B , cloud rap , ethereal R&B , witch house and chillwave .",
+      "page_titles": [
+        "SZA -LRB-singer-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "SZA -LRB-singer-RRB-",
+            "line_index": 6,
+            "sentence": "SZA is a Neo Soul singer whose music is described as Alternative R&B , with elements of soul , hip hop , minimalist R&B , cloud rap , ethereal R&B , witch house and chillwave ."
+          }
+        ],
+        "alternative_sets": [
+          [
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 0,
+              "sentence": "Solána Rowe -LRB- born November 8 , 1990 -RRB- , better known by her stage name SZA -LRB- -LSB- ˈsɪzə -RSB- -RRB- , is an American singer-songwriter ."
+            },
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 6,
+              "sentence": "SZA is a Neo Soul singer whose music is described as Alternative R&B , with elements of soul , hip hop , minimalist R&B , cloud rap , ethereal R&B , witch house and chillwave ."
+            }
+          ],
+          [
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 6,
+              "sentence": "SZA is a Neo Soul singer whose music is described as Alternative R&B , with elements of soul , hip hop , minimalist R&B , cloud rap , ethereal R&B , witch house and chillwave ."
+            }
+          ],
+          [
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 6,
+              "sentence": "SZA is a Neo Soul singer whose music is described as Alternative R&B , with elements of soul , hip hop , minimalist R&B , cloud rap , ethereal R&B , witch house and chillwave ."
+            },
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 0,
+              "sentence": "Solána Rowe -LRB- born November 8 , 1990 -RRB- , better known by her stage name SZA -LRB- -LSB- ˈsɪzə -RSB- -RRB- , is an American singer-songwriter ."
+            }
+          ],
+          [
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 0,
+              "sentence": "Solána Rowe -LRB- born November 8 , 1990 -RRB- , better known by her stage name SZA -LRB- -LSB- ˈsɪzə -RSB- -RRB- , is an American singer-songwriter ."
+            },
+            {
+              "page_title": "SZA -LRB-singer-RRB-",
+              "line_index": 6,
+              "sentence": "SZA is a Neo Soul singer whose music is described as Alternative R&B , with elements of soul , hip hop , minimalist R&B , cloud rap , ethereal R&B , witch house and chillwave ."
+            }
+          ]
+        ],
+        "n_annotation_sets": 5,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    }
+  },
+  {
+    "selection": "nonmonotonic_judge_path",
+    "claim_id": 172466,
+    "cohort": "regression",
+    "regression_type": "mini_only",
+    "gold_label": "Refuted",
+    "nli_disagrees": true,
+    "nli2_disagrees": true,
+    "gpt54_transition": "correct_to_correct",
+    "gpt54mini_transition": "correct_to_wrong",
+    "panel": "claude_full",
+    "item_id": "CF-000012",
+    "source_item_id": "SA-000072",
+    "consensus_A": "Refuted",
+    "consensus_B": "Ambiguous",
+    "consensus_C": "Refuted",
+    "ambiguous_A": false,
+    "ambiguous_B": true,
+    "ambiguous_C": false,
+    "resolved_by_titles": false,
+    "resolved_at_C": true,
+    "still_ambiguous_after_C": false,
+    "reversed_after_titles": false,
+    "reversed_at_C": false,
+    "change_A_B": true,
+    "change_B_C": true,
+    "change_A_C": false,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "retained_v1_AB_fresh_corrected_v2_C",
+    "decisive_A": true,
+    "agrees_fever_A": true,
+    "decisive_B": false,
+    "agrees_fever_B": null,
+    "decisive_C": true,
+    "agrees_fever_C": true,
+    "first_decisive_stage": "A",
+    "first_gold_agreeing_stage": "A",
+    "title_resolution": false,
+    "c_resolution": true,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": true,
+    "c_disclosure": "structure_without_new_sentence_text",
+    "sentence_only_utilization_compatible": true,
+    "category": "nonmonotonic_judge_path",
+    "rule_A": "high_consensus",
+    "mean_confidence_A": 65.4,
+    "order_sensitive_A": false,
+    "rule_B": "ambiguous_weak_sufficiency",
+    "mean_confidence_B": 58.4,
+    "order_sensitive_B": false,
+    "rule_C": "high_consensus",
+    "mean_confidence_C": 65.4,
+    "order_sensitive_C": false,
+    "corrected_packet": {
+      "item_id": "SA-000072",
+      "claim": "Matteo Renzi was conceived on January 11th, 1975.",
+      "evidence_sentences": "Matteo Renzi -LRB- -LSB- matˈtɛːo ˈrɛntsi -RSB- ; born 11 January 1975 -RRB- is an Italian politician who served as the Prime Minister of Italy from February 2014 until December 2016 .",
+      "page_titles": [
+        "Matteo Renzi"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Matteo Renzi",
+            "line_index": 0,
+            "sentence": "Matteo Renzi -LRB- -LSB- matˈtɛːo ˈrɛntsi -RSB- ; born 11 January 1975 -RRB- is an Italian politician who served as the Prime Minister of Italy from February 2014 until December 2016 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  },
+  {
+    "selection": "decisive_judge_fever_disagreement",
+    "claim_id": 134927,
+    "cohort": "regression",
+    "regression_type": "mini_only",
+    "gold_label": "Supported",
+    "nli_disagrees": false,
+    "nli2_disagrees": false,
+    "gpt54_transition": "wrong_to_wrong",
+    "gpt54mini_transition": "correct_to_wrong",
+    "panel": "claude_full",
+    "item_id": "CF-000059",
+    "source_item_id": "SA-000025",
+    "consensus_A": "Refuted",
+    "consensus_B": "Refuted",
+    "consensus_C": "Refuted",
+    "ambiguous_A": false,
+    "ambiguous_B": false,
+    "ambiguous_C": false,
+    "resolved_by_titles": false,
+    "resolved_at_C": false,
+    "still_ambiguous_after_C": false,
+    "reversed_after_titles": false,
+    "reversed_at_C": false,
+    "change_A_B": false,
+    "change_B_C": false,
+    "change_A_C": false,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "retained_v1_AB_fresh_corrected_v2_C",
+    "decisive_A": true,
+    "agrees_fever_A": false,
+    "decisive_B": true,
+    "agrees_fever_B": false,
+    "decisive_C": true,
+    "agrees_fever_C": false,
+    "first_decisive_stage": "A",
+    "first_gold_agreeing_stage": "none",
+    "title_resolution": false,
+    "c_resolution": false,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": false,
+    "c_disclosure": "structure_without_new_sentence_text",
+    "sentence_only_utilization_compatible": false,
+    "category": "decisive_judge_fever_disagreement",
+    "rule_A": "high_consensus",
+    "mean_confidence_A": 68.4,
+    "order_sensitive_A": false,
+    "rule_B": "high_consensus",
+    "mean_confidence_B": 68.0,
+    "order_sensitive_B": false,
+    "rule_C": "high_consensus",
+    "mean_confidence_C": 68.4,
+    "order_sensitive_C": false,
+    "corrected_packet": {
+      "item_id": "SA-000025",
+      "claim": "Warcraft premiered globally on May 24th, 2016.",
+      "evidence_sentences": "Warcraft premiered in Paris on May 24 , 2016 , and was released by Universal Pictures in the United States on June 10 , 2016 .",
+      "page_titles": [
+        "Warcraft -LRB-film-RRB-"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Warcraft -LRB-film-RRB-",
+            "line_index": 7,
+            "sentence": "Warcraft premiered in Paris on May 24 , 2016 , and was released by Universal Pictures in the United States on June 10 , 2016 ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  },
+  {
+    "selection": "final_nondecisive",
+    "claim_id": 193860,
+    "cohort": "regression",
+    "regression_type": "gpt54_only",
+    "gold_label": "Supported",
+    "nli_disagrees": true,
+    "nli2_disagrees": true,
+    "gpt54_transition": "correct_to_wrong",
+    "gpt54mini_transition": "wrong_to_wrong",
+    "panel": "claude_full",
+    "item_id": "CF-000096",
+    "source_item_id": "SA-000015",
+    "consensus_A": "Ambiguous",
+    "consensus_B": "Ambiguous",
+    "consensus_C": "Ambiguous",
+    "ambiguous_A": true,
+    "ambiguous_B": true,
+    "ambiguous_C": true,
+    "resolved_by_titles": false,
+    "resolved_at_C": false,
+    "still_ambiguous_after_C": true,
+    "reversed_after_titles": false,
+    "reversed_at_C": false,
+    "change_A_B": false,
+    "change_B_C": false,
+    "change_A_C": false,
+    "taxonomy_version": "proposed_v2_coauthor_review",
+    "judgment_input_version": "retained_v1_AB_fresh_corrected_v2_C",
+    "decisive_A": false,
+    "agrees_fever_A": null,
+    "decisive_B": false,
+    "agrees_fever_B": null,
+    "decisive_C": false,
+    "agrees_fever_C": null,
+    "first_decisive_stage": "none",
+    "first_gold_agreeing_stage": "none",
+    "title_resolution": false,
+    "c_resolution": false,
+    "reversal_A_B": false,
+    "reversal_B_C": false,
+    "decisiveness_lost": false,
+    "c_disclosure": "structure_without_new_sentence_text",
+    "sentence_only_utilization_compatible": false,
+    "category": "final_nondecisive",
+    "rule_A": "ambiguous_majority",
+    "mean_confidence_A": 60.4,
+    "order_sensitive_A": false,
+    "rule_B": "ambiguous_majority",
+    "mean_confidence_B": 59.6,
+    "order_sensitive_B": false,
+    "rule_C": "ambiguous_majority",
+    "mean_confidence_C": 59.0,
+    "order_sensitive_C": false,
+    "corrected_packet": {
+      "item_id": "SA-000015",
+      "claim": "Barry Van Dyke is an actor and the son of a doctor.",
+      "evidence_sentences": "He was best known to audiences as Lieutenant Detective Steve Sloan , a homicide detective and the son of Dr. Mark Sloan -LRB- played by Dick Van Dyke -RRB- on Diagnosis : Murder .",
+      "page_titles": [
+        "Barry Van Dyke"
+      ],
+      "structured_evidence": {
+        "chosen_set": [
+          {
+            "page_title": "Barry Van Dyke",
+            "line_index": 1,
+            "sentence": "He was best known to audiences as Lieutenant Detective Steve Sloan , a homicide detective and the son of Dr. Mark Sloan -LRB- played by Dick Van Dyke -RRB- on Diagnosis : Murder ."
+          }
+        ],
+        "alternative_sets": [],
+        "n_annotation_sets": 1,
+        "chosen_annotation_index": 0,
+        "alternative_annotation_indices": [],
+        "full_text_available": true,
+        "chosen_archive_text_available": true,
+        "alternative_full_text_available": []
+      }
+    }
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "job_id": "p01_C_j1_b02",
+  "attempt": 1,
+  "status": "invalid",
+  "reason": "Designated output was written but is not valid JSON: extra trailing quote after the array. Raw bytes retained; no repair.",
+  "requested_model": "cursor-grok-4.6-high-fast",
+  "resolved_model": "cursor-grok-4.6-high-fast",
+  "provider_model_version": null,
+  "version_metadata_status": "not_exposed",
+  "version_metadata_note": "SDK event stream, hooks, and output bytes were inspected. Provider/backend version is not exposed.",
+  "cursor_version": "3.17.8",
+  "session_id": "agent-42c8ca13-7a70-451d-bc12-46bb671f3722",
+  "started_at_utc": "2026-09-27T23:01:04.000Z",
+  "completed_at_utc": "2026-09-27T23:05:00.000Z",
+  "operator": "cursor-coordinator",
+  "reviewer": "cursor-coordinator-gate",
+  "routing_and_isolation_reviewed": true,
+  "fresh_context": true,
+  "inherited_context": false,
+  "auto": false,
+  "inherit": false,
+  "web_browse": false,
+  "external_retrieval": false,
+  "temperature": "provider_default",
+  "visible_input_files": [
+    "corrections_v2/blind_io/p01/stage_c/p01_C_j1_b02.json"
+  ],
+  "packet_sha256": "6eab913e7ebdd15f13b133038fc3a821adce9f0c8cc7483f563c390334ebc847",
+  "raw_response": {
+    "path": "corrections_v2/execution/p01_C_j1_b02/attempt-01.raw.txt",
+    "sha256": "0bc4eaf02b170a04d70feb847c0d1b98d08a8263c48d926e901ab0e3e659a5a8"
+  },
+  "routing_evidence": {
+    "path": "corrections_v2/execution/p01_C_j1_b02/attempt-01.routing.txt",
+    "sha256": "87fbc185df4beee6ec587e2134ca570c8490cbbfc42d2e12766c38a5c9a03e62"
+  }
+}

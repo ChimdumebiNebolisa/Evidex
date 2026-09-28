@@ -21,8 +21,7 @@ Retain the original A/B files and their recorded freezes. They are content-ident
 Run from the repository root:
 
 ```powershell
-python corrections_v2/reproduce.py --pages corrections_v2/generated/historical_pages_used.json
-python corrections_v2/build_report_data.py
+python corrections_v2/reproduce.py
 python corrections_v2/verify_outputs.py
 python corrections_v2/rerun.py list
 python corrections_v2/rerun.py show-job p01_C_j1_b01
@@ -30,6 +29,8 @@ python corrections_v2/rerun.py show-job p02_C_j1_b01
 ```
 
 `show-job` prints the exact dispatch specification, including `launch_prompt`. The optional residual jobs start at `p03_C_j1_b01`. Only judge-facing `corrections_v2/blind_io/pNN/stage_c/` paths appear in those prompts; do not give judges the manifest, this report, source IDs, FEVER/GPT labels or prior judgments.
+
+All preparation/inspection commands above exit 0 on success. Reproduction verifies the pinned historical sources and included page snapshot before writing, generates all downstream reports, then seals exact UTF-8/LF output hashes. It does not refresh historical baselines. New packet integrity is exact-byte integrity; scoped Git attributes preserve LF bytes across checkouts. Historical raw-byte matches and verified CRLF/LF-only equivalence are reported separately, never conflated.
 
 ## Historical execution route
 
@@ -52,12 +53,36 @@ This is an orchestration specification, not an executable CLI command. Read the 
 After delivery, the exact local validation command is:
 
 ```powershell
-python corrections_v2/rerun.py validate
+python corrections_v2/rerun.py validate --scope required
+python corrections_v2/rerun.py validate --scope optional
+python corrections_v2/rerun.py validate --scope all
 ```
 
-Before any inference, this intentionally returns exit code 1 with 85 missing jobs. It neither launches nor retries anything. If only the required panels are executed, p03 remains explicitly missing/optional; do not manufacture records to make the validator pass. `verify_outputs.py` checks preparation and accepts absent judgment files; it cannot certify inference.
+The default is `required`: only the 70 primary jobs determine its success. It exits 0 for all 6,430 required schema-valid judgments, even with p03 absent or invalid. `optional` requires its 15 jobs / 1,155 judgments; `all` requires 85 jobs / 7,585 judgments. Any missing or malformed selected output exits 1, as does invalid selected packet integrity. Currently every completion command exits 1 because no judgments have been executed. No command launches or retries inference. Mock schema tests use temporary directories only.
 
-On completion, freeze the new packet hashes, actual model/session provenance and raw output hashes in a new versioned freeze; then compute consensus with the same documented five-judge rule. Retain historical A/B consensus with provenance, recompute all C-dependent transitions, apply the reviewed v2 taxonomy, and regenerate affected tables/figures in a v2 namespace. Do not run legacy analysis entry points against these outputs or overwrite v1 freezes. This task prepares packets and validates delivered schemas; it deliberately does not implement a general inference/evaluation harness.
+Structured statuses distinguish selected packet preparation, present-output schema validity, required completeness, optional completeness, execution provenance, and corrected consensus. Provenance is explicitly **not assessed** by this schema validator; output presence is not proof of a model call or model routing. Consensus is explicitly **not computed or validated** by this command. `verify_outputs.py` is a read-only whole-package preparation check and exits 0 when preparation is valid, regardless of missing future judgments. Successful schema validation is necessary but does not make results scientifically usable.
+
+On completion, use the implemented offline commands below. Do not run legacy analysis entry points against these outputs or overwrite v1 freezes. This is a task-specific offline pipeline, not an inference dispatcher. The proposed taxonomy remains subject to coauthor review.
+
+```powershell
+python corrections_v2/analysis_pipeline.py status --panel primary
+python corrections_v2/analysis_pipeline.py freeze --panel primary
+python corrections_v2/analysis_pipeline.py analyze --panel primary --version run001
+python corrections_v2/analysis_pipeline.py verify-result --version run001
+```
+
+The first three currently exit 1 (missing judgments; no scientific estimates).
+After complete schema-valid outputs and reviewed execution provenance, they exit
+0 and write append-only C freezes and versioned analysis artifacts; the last
+command exits 0 only for an existing verified result. Immutable/input violations
+exit 2. Preparation/schema completion is not execution provenance completion.
+
+Before dispatch, freeze the [dated post hoc protocol](protocol/analysis_spec_2026-09-27.md)
+using `analysis_pipeline.py freeze-spec` and create the self-contained operator
+bundle using `analysis_pipeline.py export-handoff` (both expected exit 0).
+Follow [CURSOR_HANDOFF.md](CURSOR_HANDOFF.md) for exact routing checks, packet-only
+exports, raw/evidence capture, retry/resume rules and subsequent residual/resolver
+commands. Never give the handoff or analyst manifest to a judge.
 
 ## Work whose count depends on fresh results
 

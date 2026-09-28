@@ -1,0 +1,34 @@
+{
+  "job_id": "p01_C_j4_b08",
+  "attempt": 1,
+  "status": "error",
+  "reason": "[resource_exhausted] Error",
+  "requested_model": "cursor-grok-4.6-high-fast",
+  "resolved_model": "cursor-grok-4.6-high-fast",
+  "provider_model_version": null,
+  "version_metadata_status": "not_exposed",
+  "version_metadata_note": "Catalog, dispatch, SDK event stream, and fail-closed hooks were inspected. Provider/backend version is not exposed.",
+  "cursor_version": "3.17.8",
+  "session_id": "agent-92acc5de-9b3d-46f3-a254-1c15ef53d0c9",
+  "started_at_utc": "2026-09-28T01:19:35.131290+00:00",
+  "completed_at_utc": "2026-09-28T01:19:35.131290+00:00",
+  "operator": "cursor-coordinator",
+  "reviewer": "cursor-coordinator-gate",
+  "routing_and_isolation_reviewed": true,
+  "fresh_context": true,
+  "inherited_context": false,
+  "auto": false,
+  "inherit": false,
+  "web_browse": false,
+  "external_retrieval": false,
+  "temperature": "provider_default",
+  "visible_input_files": [
+    "corrections_v2/blind_io/p01/stage_c/p01_C_j4_b08.json"
+  ],
+  "packet_sha256": "f26bd249fdde8d3ab871e348121964aab45da8e6140fc59c3327833e86725d85",
+  "raw_response_unavailable_reason": "stream stalled and run ended with status error; designated output was never created",
+  "routing_evidence": {
+    "path": "corrections_v2/execution/p01_C_j4_b08/attempt-01.routing.txt",
+    "sha256": "bdd24e093971a1408cfa7ee2a47dcef125d0e3693217c198168f3ff35496f30d"
+  }
+}

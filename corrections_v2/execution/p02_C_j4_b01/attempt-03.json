@@ -1,0 +1,37 @@
+{
+  "job_id": "p02_C_j4_b01",
+  "attempt": 3,
+  "status": "accepted",
+  "requested_model": "claude-opus-5-thinking-high",
+  "resolved_model": "claude-opus-5-thinking-high",
+  "provider_model_version": null,
+  "version_metadata_status": "not_exposed",
+  "version_metadata_note": "Catalog, dispatch, SDK init, run.model, result.model, fail-closed hook audit, SDK event stream, and usage records were inspected. Provider/backend version is not exposed.",
+  "cursor_version": "3.17.8",
+  "session_id": "agent-69ccfd95-c737-46d3-b512-6038a88f319a",
+  "started_at_utc": "2026-09-28T03:13:38.909Z",
+  "completed_at_utc": "2026-09-28T03:17:42.143Z",
+  "operator": "cursor-coordinator",
+  "reviewer": "cursor-coordinator-gate",
+  "routing_and_isolation_reviewed": true,
+  "fresh_context": true,
+  "inherited_context": false,
+  "auto": false,
+  "inherit": false,
+  "web_browse": false,
+  "external_retrieval": false,
+  "temperature": "provider_default",
+  "visible_input_files": [
+    "corrections_v2/blind_io/p02/stage_c/p02_C_j4_b01.json"
+  ],
+  "packet_sha256": "f57aca3326b085d6105b75a69c6e8a1c8730e3ee9c24fc75e439e7d7fbf6fd14",
+  "output_sha256": "7fdf3e29f0711bd660aa9cf4af452d93db8c3bfc99e9af416c37be637d0c6466",
+  "raw_response": {
+    "path": "corrections_v2/execution/p02_C_j4_b01/attempt-03.raw.txt",
+    "sha256": "7fdf3e29f0711bd660aa9cf4af452d93db8c3bfc99e9af416c37be637d0c6466"
+  },
+  "routing_evidence": {
+    "path": "corrections_v2/execution/p02_C_j4_b01/attempt-03.routing.txt",
+    "sha256": "cc69ef6215898d9c108d3eda772f5ceb405286623a1d20057e9127353a4ff400"
+  }
+}

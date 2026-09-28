@@ -1,0 +1,34 @@
+{
+  "job_id": "p02_C_j3_b01",
+  "attempt": 3,
+  "status": "error",
+  "reason": "Execution failed with returncode 2",
+  "requested_model": "claude-opus-5-thinking-high",
+  "resolved_model": "claude-opus-5-thinking-high",
+  "provider_model_version": null,
+  "version_metadata_status": "not_exposed",
+  "version_metadata_note": "Catalog, dispatch, SDK event stream, and fail-closed hooks were inspected. Provider/backend version is not exposed.",
+  "cursor_version": "3.17.8",
+  "session_id": "unknown",
+  "started_at_utc": "2026-09-28T01:56:01.750577+00:00",
+  "completed_at_utc": "2026-09-28T01:56:01.750577+00:00",
+  "operator": "cursor-coordinator",
+  "reviewer": "cursor-coordinator-gate",
+  "routing_and_isolation_reviewed": true,
+  "fresh_context": true,
+  "inherited_context": false,
+  "auto": false,
+  "inherit": false,
+  "web_browse": false,
+  "external_retrieval": false,
+  "temperature": "provider_default",
+  "visible_input_files": [
+    "corrections_v2/blind_io/p02/stage_c/p02_C_j3_b01.json"
+  ],
+  "packet_sha256": "c9c98d961cad30dd5ea63242cbe4318183a0b14a7df2fe06adc7048cd958ebb3",
+  "raw_response_unavailable_reason": "stream stalled and run ended with status error; designated output was never created",
+  "routing_evidence": {
+    "path": "corrections_v2/execution/p02_C_j3_b01/attempt-03.routing.txt",
+    "sha256": "9c855839847ab35260111a0eab343c7a9fca19c5616a2517661e819bed32a800"
+  }
+}

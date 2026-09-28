@@ -1,0 +1,15 @@
+Linux WSL2 SDK run for p01_C_j5_b09 attempt-01
+status: error
+started unknown completed unknown
+legacy lock: cursor-grok-4.6-high-fast
+canonical selection: {"id":"grok-4.6","params":[{"id":"effort","value":"high"},{"id":"fast","value":"true"}]}
+sandbox_enabled: true
+sandbox_initialized: true
+agent_id: agent-7f87b994-dbf0-4831-8f81-ddbcc9cc296b
+run_id: run-1fae8e37-baef-4473-a5c0-2b4d50523cbc
+offered_tools: read, edit, piWrite
+observed_tool_names: read
+hooks_loaded: true
+designated_output_written: false
+error: [resource_exhausted] Error
+raw_response_unavailable_reason: stream stalled and run ended with status error; designated output was never created

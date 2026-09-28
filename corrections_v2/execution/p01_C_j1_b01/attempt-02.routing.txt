@@ -1,0 +1,16 @@
+Linux WSL2 SDK run for p01_C_j1_b01 attempt-02
+status: error
+started 2026-09-27T22:34:28.829Z completed 2026-09-27T22:40:21.370Z
+legacy lock: cursor-grok-4.6-high-fast
+canonical selection: grok-4.6 effort=high fast=true
+sandbox_enabled: true
+sandbox_initialized: true
+agent_id: agent-ac70476f-ef84-4d6c-a34d-61a7f79c355f
+run_id: run-9fbeed8f-07b5-4099-94d1-b0d43bcf4f64
+offered_tools: read, piWrite
+observed_tool_names: read only (238 tool_call events)
+hooks_loaded: false (settingSources empty; audit empty)
+designated_output_written: false
+model_terminal_text: WROTE 100 records
+raw_response_unavailable_reason: designated output file was never created
+windows_attempt_01: kept blocked not_launched:windows_sdk_sandbox_unsupported

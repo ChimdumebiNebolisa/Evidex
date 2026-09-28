@@ -1,9 +1,12 @@
 {
-  "source_hashes_unchanged": 775,
-  "exact_selected_sets": 1061,
-  "stage_b_identical": true,
+  "historical_files_verified": 774,
+  "exact_recorded_bytes": 774,
+  "eol_only_equivalent": 0,
   "prepared_jobs": 85,
-  "planned_judgments_including_optional": 7585,
-  "corrected_inference_executed": false,
+  "required_jobs": 70,
+  "required_judgments": 6430,
+  "optional_jobs": 15,
+  "optional_judgments": 1155,
+  "inference_launched_by_workflow": 0,
   "corrected_consensus_available": false
 }

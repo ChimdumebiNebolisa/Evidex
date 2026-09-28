@@ -1,0 +1,20 @@
+Linux WSL2 SDK run for p01_C_j4_b11 attempt-01
+started 2026-09-28T02:08:14.572Z completed 2026-09-28T02:10:22.237Z
+legacy lock: cursor-grok-4.6-high-fast
+canonical selection: {"id":"grok-4.6","params":[{"id":"effort","value":"high"},{"id":"fast","value":"true"}]}
+run.model: {"id":"grok-4.6","params":[{"id":"effort","value":"high"},{"id":"fast","value":"true"}]}
+result.model: {"id":"grok-4.6","params":[{"id":"effort","value":"high"},{"id":"fast","value":"true"}]}
+agent_id: agent-fff2c496-eae0-4642-8bf2-720c143434f7
+run_id: run-8fa6d99d-b2d9-4fc3-9c9d-cc4bb8d11539
+request_id: d4b4d68d-914b-46d7-957f-8ac02f64aeb6
+sandbox_enabled: true
+resolved_packet: /home/evidex/isolated/p01_C_j4_b11/attempt-01/workspace/corrections_v2/blind_io/p01/stage_c/p01_C_j4_b11.json
+resolved_output: /home/evidex/isolated/p01_C_j4_b11/attempt-01/workspace/corrections_v2/blind_io/p01/stage_c/p01_C_j4_b11.output.json
+packet_sha256: 4ef86541ef9a8ed983c15f884330d53ef16646b69b79070224a2a220753c426b
+output_sha256: 8df9bd025c0a0e0109b3ddd54ac1d152b4d76df8c84dd937cb6b4fdbec2a6779
+raw_response_sha256: 8df9bd025c0a0e0109b3ddd54ac1d152b4d76df8c84dd937cb6b4fdbec2a6779
+offered_tools: read, edit, piWrite
+tool_events: [{"name":"read","status":"running"},{"name":"read","status":"completed"},{"name":"edit","status":"running"},{"name":"edit","status":"running"},{"name":"edit","status":"completed"}]
+sdk_usage: {"inputTokens":84516,"outputTokens":23155,"cacheReadTokens":31104,"cacheWriteTokens":0,"totalTokens":138775,"reasoningTokens":16360}
+billed_usage: {"unavailable":true,"error_name":"UnknownAgentError"}
+provider_model_version: not exposed; catalog, dispatch, init, run, result, hooks, transcript, and usage were inspected

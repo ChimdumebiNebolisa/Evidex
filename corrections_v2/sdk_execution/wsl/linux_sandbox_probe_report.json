@@ -1,0 +1,63 @@
+{
+  "linux_ext4_workspace": true,
+  "resolved_packet": "/home/evidex/isolated/_sandbox_probe/workspace/corrections_v2/blind_io/p00/packet.json",
+  "resolved_output": "/home/evidex/isolated/_sandbox_probe/workspace/corrections_v2/blind_io/p00/packet.output.json",
+  "packet_is_posix": true,
+  "policyResults": [
+    {
+      "name": "packet read",
+      "permission": "allow",
+      "resolved_packet": "/home/evidex/isolated/_sandbox_probe/workspace/corrections_v2/blind_io/p00/packet.json",
+      "resolved_output": "/home/evidex/isolated/_sandbox_probe/workspace/corrections_v2/blind_io/p00/packet.output.json"
+    },
+    {
+      "name": "output write",
+      "permission": "allow",
+      "resolved_packet": "/home/evidex/isolated/_sandbox_probe/workspace/corrections_v2/blind_io/p00/packet.json",
+      "resolved_output": "/home/evidex/isolated/_sandbox_probe/workspace/corrections_v2/blind_io/p00/packet.output.json"
+    },
+    {
+      "name": "outside read",
+      "permission": "deny",
+      "resolved_packet": "/home/evidex/isolated/_sandbox_probe/workspace/corrections_v2/blind_io/p00/packet.json",
+      "resolved_output": "/home/evidex/isolated/_sandbox_probe/workspace/corrections_v2/blind_io/p00/packet.output.json"
+    },
+    {
+      "name": "mntc repo read",
+      "permission": "deny",
+      "resolved_packet": "/home/evidex/isolated/_sandbox_probe/workspace/corrections_v2/blind_io/p00/packet.json",
+      "resolved_output": "/home/evidex/isolated/_sandbox_probe/workspace/corrections_v2/blind_io/p00/packet.output.json"
+    },
+    {
+      "name": "packet overwrite",
+      "permission": "deny",
+      "resolved_packet": "/home/evidex/isolated/_sandbox_probe/workspace/corrections_v2/blind_io/p00/packet.json",
+      "resolved_output": "/home/evidex/isolated/_sandbox_probe/workspace/corrections_v2/blind_io/p00/packet.output.json"
+    },
+    {
+      "name": "shell",
+      "permission": "deny",
+      "resolved_packet": "/home/evidex/isolated/_sandbox_probe/workspace/corrections_v2/blind_io/p00/packet.json",
+      "resolved_output": "/home/evidex/isolated/_sandbox_probe/workspace/corrections_v2/blind_io/p00/packet.output.json"
+    }
+  ],
+  "sendError": null,
+  "sandboxUnsupported": false,
+  "run_status": "finished",
+  "run_model": {
+    "id": "grok-4.6",
+    "params": [
+      {
+        "id": "effort",
+        "value": "high"
+      },
+      {
+        "id": "fast",
+        "value": "true"
+      }
+    ]
+  },
+  "sandbox_initialized": true,
+  "started": "2026-09-27T22:29:10.485Z",
+  "completed": "2026-09-27T22:29:17.706Z"
+}

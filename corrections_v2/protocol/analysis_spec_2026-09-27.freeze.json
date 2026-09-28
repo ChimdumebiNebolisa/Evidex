@@ -1,0 +1,27 @@
+{
+  "protocol": "post_hoc_correction_v2_2026-09-27",
+  "frozen_at_utc": "2026-09-27T06:35:44.865222+00:00",
+  "description": "Post hoc correction protocol; NOT preregistration of the original study",
+  "judgment_outputs_present_at_freeze": false,
+  "hash_policy": "CRLF-to-LF only for frozen code/spec text; packets separately exact-byte frozen",
+  "files": {
+    "corrections_v2/.gitattributes": "05cd225b7700ae4e4b40c078eb81b5640204bbe373313f40e9fe4bcb605a32e9",
+    "corrections_v2/CURSOR_HANDOFF.md": "ed07b695e08883d725364a5d958201ee5272e186e5b82c2e37d89c48ed914137",
+    "corrections_v2/analysis_core.py": "f92147906b93d705a0f2ff92a81bf339417cf679a8eb98ccc9658648bf681100",
+    "corrections_v2/analysis_io.py": "3dfd1b78fd32779191a2de4957393c84d04430abc1469d7ba2f2446432cf1e8e",
+    "corrections_v2/analysis_pipeline.py": "2a48cf92744196e07a7e2129cba08f1a3a5cdde28fd9ca80532e6518f51e8c9b",
+    "corrections_v2/baseline/historical_inputs.json": "8d657cd09ee9aca40e07077033c346f84a62a1035b893dbfa7b587d19459a796",
+    "corrections_v2/baseline/page_snapshot.json": "b88a086243cca51a5acbcffa03fbcf528df5234e817724ba6c4f386ad2dae2d5",
+    "corrections_v2/generated/rerun_manifest.json": "16911051ea64d9cd3e1eb1c8025dee17ef406334a2bf7ae454358c31bc330583",
+    "corrections_v2/protocol/analysis_spec_2026-09-27.md": "87737394daf3c0e57dbdcbefe6b92692d494600955a5265ece821b8ec6dd3577",
+    "corrections_v2/protocol/execution.template.json": "7283365d762d3b7502b29d6611bbd1cd063605e511e6a4e311441226a6bec3b8",
+    "corrections_v2/provenance.py": "a2ea9d60b2ea492c476cae31414eda24b3e2553e09751b7caa50653e33c090af",
+    "corrections_v2/rerun.py": "b88b9ae0364a43199ee4888df0a065040258b8eacf9c91836bb9bd4eeb812ca7",
+    "silver_adjudication_v1/claude_full_regression_panel/config.json": "72c7682d456cd9a2d0569a2215554ebd7d37a5a8b4678cbca989bdad9098ff67",
+    "silver_adjudication_v1/claude_residual_panel/config.json": "5272d2b0a451b9d55730517658975bc91ec2f4b4ab1a31ee30ab6329989429a4",
+    "silver_adjudication_v1/cursor_panel/config.json": "e9843f091b7726aa1cf2981c683453039d4b9b5f0bf4fcefec768f7f9a295d74",
+    "silver_adjudication_v1/prompts/judge_rubric.md": "432584555ad8e05fa2682ece5675e8139b766676d4f6cf6b7fcbc9de4b340643",
+    "silver_adjudication_v1/prompts/resolver_rubric.md": "79cd8c782e693a14a461c84220e446aa38764c185a8dca8a36e5e16d1af899c2",
+    "silver_adjudication_v1/src/taxonomy_v2.py": "25b27e076a3f3d3fd0dd5872e6606e20d333fd8b86e6c7ec57e5dd8937180cba"
+  }
+}

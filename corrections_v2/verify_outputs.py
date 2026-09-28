@@ -4,14 +4,16 @@ from collections import Counter
 
 import pandas as pd
 
-from reproduce import ROOT, SV, OUT, digest, read_jsonl, write_json
-from rerun import validate_job
+from reproduce import ROOT, SV, OUT, read_jsonl
+from provenance import verify_historical, verify_snapshot, verify_output_inventory, verify_implementation
+from rerun import validate_packet
 
 
 def main():
-    recorded = json.loads((OUT / "input_hashes.json").read_text())
-    for name, expected in recorded.items():
-        assert digest(ROOT / name) == expected, f"source changed: {name}"
+    historical = verify_historical(ROOT)
+    verify_snapshot(ROOT / "corrections_v2/inputs/historical_pages.json", ROOT)
+    verify_output_inventory(ROOT)
+    verify_implementation(ROOT)
     audit = read_jsonl(OUT / "evidence_audit.jsonl")
     assert len(audit) == len({r["item_id"] for r in audit}) == 1061
     assert all(r["ordered_pointers_match"] for r in audit)
@@ -45,7 +47,7 @@ def main():
         assert set(counts) == set(panel["item_ids"]) and set(counts.values()) == {5}
         assert "SA-000352" not in panel["source_ids"]
         for job in jobs:
-            validate_job(job)
+            validate_packet(job)
             packet = json.loads((ROOT / job["packet"]).read_text(encoding="utf-8"))
             assert packet["item_ids"] == job["item_ids"]
             assert packet["n_items"] == len(packet["items"]) == job["n_judgments"]
@@ -57,9 +59,9 @@ def main():
     links = read_jsonl(OUT / "impact_items.jsonl")
     assert len(links) == sum(j["n_judgments"] for j in manifest["jobs"]) == 7585
     assert len({(r["job_id"], r["panel_item_id"]) for r in links}) == len(links)
-    historical = json.loads((OUT / "impact_manifest.json").read_text())["historical_dependencies"]
+    dependencies = json.loads((OUT / "impact_manifest.json").read_text())["historical_dependencies"]
     for row in links:
-        dep = historical[row["historical_dependency_panel"]]
+        dep = dependencies[row["historical_dependency_panel"]]
         assert row["historical_judgment_key"] in dep["judgment_files_by_item_and_judge"]
     taxonomy = pd.read_csv(OUT / "taxonomy_rule_only.csv")
     assert taxonomy.judgment_input_version.eq("historical_v1_packets").all()
@@ -67,17 +69,10 @@ def main():
     assert not taxonomy[taxonomy.category == "decisive_judge_fever_disagreement"].agrees_fever_C.any()
     for stage in "ABC":
         assert taxonomy.loc[~taxonomy[f"decisive_{stage}"], f"agrees_fever_{stage}"].isna().all()
-    code = [ROOT / "fever_evidence.py", ROOT / "resolve_gold_evidence.py",
-            SV / "src/reconstruct_evidence.py", SV / "src/taxonomy_legacy_v1.py", SV / "src/taxonomy_v2.py",
-            SV / "src/join_analysis_v2.py", SV / "claude_full_regression_panel/src/analyze.py"]
-    code += list((ROOT / "corrections_v2").glob("*.py"))
-    code += list((ROOT / "corrections_v2/tests").glob("*.py"))
-    write_json(OUT / "code_hashes.json", {p.relative_to(ROOT).as_posix(): digest(p) for p in sorted(code)})
-    write_json(OUT / "verification_results.json", {"source_hashes_unchanged": len(recorded),
-               "exact_selected_sets": len(audit), "stage_b_identical": True,
-               "prepared_jobs": len(manifest["jobs"]), "planned_judgments_including_optional": len(links),
-               "corrected_inference_executed": False, "corrected_consensus_available": False})
-    print(f"PASS: {len(recorded)} source hashes unchanged; 1,061 exact selected sets; A/B retained; 85 prepared C jobs; 7,585 dependency links; no corrected judgments asserted.")
+    print(f"PASS: {len(historical['files'])} historical inputs verified "
+          f"({historical['exact_recorded_bytes']} exact bytes, {historical['eol_only_equivalent']} EOL-only); "
+          "output/code inventories valid; 1,061 exact selected sets; A/B retained; "
+          "85 prepared C jobs; 7,585 dependency links; corrected judgments pending.")
 
 
 if __name__ == "__main__":

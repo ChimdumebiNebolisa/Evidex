@@ -1,0 +1,244 @@
+required=70 pending=68
+START p01_C_j1_b02 panel=grok
+required=70 pending=68
+START p01_C_j1_b02 panel=grok attempt=2
+ACCEPTED p01_C_j1_b02
+START p01_C_j1_b03 panel=grok attempt=1
+ACCEPTED p01_C_j1_b03
+START p01_C_j1_b04 panel=grok attempt=1
+ACCEPTED p01_C_j1_b04
+START p01_C_j1_b05 panel=grok attempt=1
+ACCEPTED p01_C_j1_b05
+START p01_C_j1_b06 panel=grok attempt=1
+ACCEPTED p01_C_j1_b06
+START p01_C_j1_b07 panel=grok attempt=1
+ACCEPTED p01_C_j1_b07
+START p01_C_j1_b08 panel=grok attempt=1
+ACCEPTED p01_C_j1_b08
+START p01_C_j1_b09 panel=grok attempt=1
+ACCEPTED p01_C_j1_b09
+START p01_C_j1_b10 panel=grok attempt=1
+ACCEPTED p01_C_j1_b10
+START p01_C_j1_b11 panel=grok attempt=1
+ACCEPTED p01_C_j1_b11
+START p01_C_j2_b01 panel=grok attempt=1
+ACCEPTED p01_C_j2_b01
+START p01_C_j2_b02 panel=grok attempt=1
+ACCEPTED p01_C_j2_b02
+START p01_C_j2_b03 panel=grok attempt=1
+ACCEPTED p01_C_j2_b03
+START p01_C_j2_b04 panel=grok attempt=1
+ACCEPTED p01_C_j2_b04
+START p01_C_j2_b05 panel=grok attempt=1
+ACCEPTED p01_C_j2_b05
+START p01_C_j2_b06 panel=grok attempt=1
+ACCEPTED p01_C_j2_b06
+START p01_C_j2_b07 panel=grok attempt=1
+ACCEPTED p01_C_j2_b07
+START p01_C_j2_b08 panel=grok attempt=1
+ACCEPTED p01_C_j2_b08
+START p01_C_j2_b09 panel=grok attempt=1
+ACCEPTED p01_C_j2_b09
+START p01_C_j2_b10 panel=grok attempt=1
+ACCEPTED p01_C_j2_b10
+START p01_C_j2_b11 panel=grok attempt=1
+ACCEPTED p01_C_j2_b11
+START p01_C_j3_b01 panel=grok attempt=1
+ACCEPTED p01_C_j3_b01
+START p01_C_j3_b02 panel=grok attempt=1
+ACCEPTED p01_C_j3_b02
+START p01_C_j3_b03 panel=grok attempt=1
+ACCEPTED p01_C_j3_b03
+START p01_C_j3_b04 panel=grok attempt=1
+ACCEPTED p01_C_j3_b04
+START p01_C_j3_b05 panel=grok attempt=1
+ACCEPTED p01_C_j3_b05
+START p01_C_j3_b06 panel=grok attempt=1
+ACCEPTED p01_C_j3_b06
+START p01_C_j3_b07 panel=grok attempt=1
+ACCEPTED p01_C_j3_b07
+START p01_C_j3_b08 panel=grok attempt=1
+ACCEPTED p01_C_j3_b08
+START p01_C_j3_b09 panel=grok attempt=1
+ACCEPTED p01_C_j3_b09
+START p01_C_j3_b10 panel=grok attempt=1
+required=70
+START p01_C_j3_b10 panel=grok attempt=2 (remaining pending=38)
+ATTEMPT_FAILED p01_C_j3_b10 attempt=2 code=2
+required=70
+START p01_C_j3_b10 panel=grok attempt=2 (remaining pending=38)
+ACCEPTED p01_C_j3_b10
+START p01_C_j3_b11 panel=grok attempt=1 (remaining pending=37)
+ACCEPTED p01_C_j3_b11
+START p01_C_j4_b01 panel=grok attempt=1 (remaining pending=36)
+ACCEPTED p01_C_j4_b01
+START p01_C_j4_b02 panel=grok attempt=1 (remaining pending=35)
+ACCEPTED p01_C_j4_b02
+START p01_C_j4_b03 panel=grok attempt=1 (remaining pending=34)
+ACCEPTED p01_C_j4_b03
+START p01_C_j4_b04 panel=grok attempt=1 (remaining pending=33)
+ACCEPTED p01_C_j4_b04
+START p01_C_j4_b05 panel=grok attempt=1 (remaining pending=32)
+ACCEPTED p01_C_j4_b05
+START p01_C_j4_b06 panel=grok attempt=1 (remaining pending=31)
+ACCEPTED p01_C_j4_b06
+START p01_C_j4_b07 panel=grok attempt=1 (remaining pending=30)
+ACCEPTED p01_C_j4_b07
+START p01_C_j4_b08 panel=grok attempt=1 (remaining pending=29)
+ATTEMPT_FAILED p01_C_j4_b08 attempt=1 code=1
+START p01_C_j4_b08 panel=grok attempt=2 (remaining pending=29)
+ATTEMPT_FAILED p01_C_j4_b08 attempt=2 code=1
+START p01_C_j4_b08 panel=grok attempt=3 (remaining pending=29)
+ATTEMPT_FAILED p01_C_j4_b08 attempt=3 code=1
+required=70
+START p02_C_j1_b02 panel=claude_full attempt=1 (remaining pending=28)
+ACCEPTED p02_C_j1_b02
+START p01_C_j4_b09 panel=grok attempt=1 (remaining pending=27)
+ATTEMPT_FAILED p01_C_j4_b09 attempt=1 code=1
+RESOURCE_EXHAUSTED p01_C_j4_b09 panel=grok; backing off 90s
+START p02_C_j1_b03 panel=claude_full attempt=1 (remaining pending=27)
+ACCEPTED p02_C_j1_b03
+START p01_C_j4_b09 panel=grok attempt=2 (remaining pending=26)
+ATTEMPT_FAILED p01_C_j4_b09 attempt=2 code=1
+RESOURCE_EXHAUSTED p01_C_j4_b09 panel=grok; backing off 90s
+START p02_C_j2_b01 panel=claude_full attempt=1 (remaining pending=26)
+ACCEPTED p02_C_j2_b01
+START p01_C_j4_b09 panel=grok attempt=3 (remaining pending=25)
+ATTEMPT_FAILED p01_C_j4_b09 attempt=3 code=1
+RESOURCE_EXHAUSTED p01_C_j4_b09 panel=grok; backing off 90s
+required=70
+START p02_C_j2_b02 panel=claude_full attempt=1 (remaining pending=24)
+START p02_C_j2_b02 panel=claude_full attempt=1 (remaining pending=24)
+ATTEMPT_FAILED p02_C_j2_b02 attempt=1 code=2
+START p02_C_j2_b02 panel=claude_full attempt=2 (remaining pending=24)
+CHECKPOINT_FAILED p02_C_j2_b02 attempt=1 code=1
+START p02_C_j2_b02 panel=claude_full attempt=2 (remaining pending=24)
+ATTEMPT_FAILED p02_C_j2_b02 attempt=2 code=2
+START p02_C_j2_b02 panel=claude_full attempt=3 (remaining pending=24)
+CHECKPOINT_FAILED p02_C_j2_b02 attempt=2 code=1
+START p02_C_j2_b02 panel=claude_full attempt=3 (remaining pending=24)
+ATTEMPT_FAILED p02_C_j2_b02 attempt=3 code=2
+START p02_C_j2_b03 panel=claude_full attempt=1 (remaining pending=23)
+required=2 only=p01_C_j4_b08,p01_C_j4_b09
+START p01_C_j4_b08 panel=grok attempt=4 (remaining pending=2)
+ATTEMPT_FAILED p01_C_j4_b08 attempt=4 code=1
+RESOURCE_EXHAUSTED p01_C_j4_b08 panel=grok; backing off 90s
+ACCEPTED p02_C_j2_b02
+START p02_C_j2_b03 panel=claude_full attempt=1 (remaining pending=23)
+ATTEMPT_FAILED p02_C_j2_b03 attempt=1 code=2
+START p02_C_j2_b03 panel=claude_full attempt=2 (remaining pending=23)
+CHECKPOINT_FAILED p02_C_j2_b03 attempt=1 code=1
+START p02_C_j2_b03 panel=claude_full attempt=2 (remaining pending=23)
+ATTEMPT_FAILED p02_C_j2_b03 attempt=2 code=2
+START p02_C_j2_b03 panel=claude_full attempt=3 (remaining pending=23)
+START p01_C_j4_b08 panel=grok attempt=5 (remaining pending=2)
+required=2 only=p01_C_j4_b08,p01_C_j4_b09
+QUOTA_COOLDOWN 600s before grok redo
+ATTEMPT_FAILED p01_C_j4_b08 attempt=5 code=1
+RESOURCE_EXHAUSTED p01_C_j4_b08 panel=grok; backing off 90s
+START p01_C_j4_b08 panel=grok attempt=6 (remaining pending=2)
+CHECKPOINT_FAILED p02_C_j2_b03 attempt=2 code=1
+START p02_C_j2_b03 panel=claude_full attempt=3 (remaining pending=23)
+ATTEMPT_FAILED p02_C_j2_b03 attempt=3 code=2
+START p02_C_j3_b01 panel=claude_full attempt=1 (remaining pending=22)
+CHECKPOINT_FAILED p02_C_j2_b03 attempt=3 code=1
+START p02_C_j3_b01 panel=claude_full attempt=1 (remaining pending=22)
+ATTEMPT_FAILED p02_C_j3_b01 attempt=1 code=2
+START p02_C_j3_b01 panel=claude_full attempt=2 (remaining pending=22)
+ACCEPTED p01_C_j4_b08
+START p01_C_j4_b09 panel=grok attempt=4 (remaining pending=1)
+ATTEMPT_FAILED p01_C_j4_b09 attempt=4 code=1
+START p01_C_j4_b09 panel=grok attempt=5 (remaining pending=1)
+ATTEMPT_FAILED p02_C_j3_b01 attempt=1 code=1
+START p02_C_j3_b01 panel=claude_full attempt=2 (remaining pending=22)
+ATTEMPT_FAILED p02_C_j3_b01 attempt=2 code=1
+START p02_C_j3_b01 panel=claude_full attempt=3 (remaining pending=22)
+ATTEMPT_FAILED p02_C_j3_b01 attempt=2 code=2
+START p02_C_j3_b01 panel=claude_full attempt=3 (remaining pending=22)
+ATTEMPT_FAILED p01_C_j4_b09 attempt=5 code=1
+START p01_C_j4_b09 panel=grok attempt=6 (remaining pending=1)
+ATTEMPT_FAILED p02_C_j3_b01 attempt=3 code=2
+START p02_C_j3_b02 panel=claude_full attempt=1 (remaining pending=21)
+ATTEMPT_FAILED p02_C_j3_b01 attempt=3 code=1
+START p02_C_j3_b02 panel=claude_full attempt=1 (remaining pending=21)
+ATTEMPT_FAILED p01_C_j4_b09 attempt=6 code=1
+ATTEMPT_FAILED p02_C_j3_b02 attempt=1 code=2
+START p02_C_j3_b02 panel=claude_full attempt=2 (remaining pending=21)
+ATTEMPT_FAILED p02_C_j3_b02 attempt=1 code=1
+START p02_C_j3_b02 panel=claude_full attempt=2 (remaining pending=21)
+ATTEMPT_FAILED p02_C_j3_b02 attempt=2 code=2
+START p02_C_j3_b02 panel=claude_full attempt=3 (remaining pending=21)
+ATTEMPT_FAILED p02_C_j3_b02 attempt=2 code=1
+START p02_C_j3_b02 panel=claude_full attempt=3 (remaining pending=21)
+ATTEMPT_FAILED p02_C_j3_b02 attempt=3 code=2
+START p02_C_j3_b03 panel=claude_full attempt=1 (remaining pending=20)
+ATTEMPT_FAILED p02_C_j3_b02 attempt=3 code=1
+START p02_C_j3_b03 panel=claude_full attempt=1 (remaining pending=20)
+ATTEMPT_FAILED p02_C_j3_b03 attempt=1 code=2
+START p02_C_j3_b03 panel=claude_full attempt=2 (remaining pending=20)
+ATTEMPT_FAILED p02_C_j3_b03 attempt=1 code=1
+START p02_C_j3_b03 panel=claude_full attempt=2 (remaining pending=20)
+ATTEMPT_FAILED p02_C_j3_b03 attempt=2 code=2
+START p02_C_j3_b03 panel=claude_full attempt=3 (remaining pending=20)
+ATTEMPT_FAILED p02_C_j3_b03 attempt=2 code=1
+START p02_C_j3_b03 panel=claude_full attempt=3 (remaining pending=20)
+ATTEMPT_FAILED p02_C_j3_b03 attempt=3 code=2
+START p02_C_j4_b01 panel=claude_full attempt=1 (remaining pending=19)
+ATTEMPT_FAILED p02_C_j3_b03 attempt=3 code=1
+ATTEMPT_FAILED p02_C_j4_b01 attempt=1 code=1
+START p02_C_j4_b01 panel=claude_full attempt=2 (remaining pending=19)
+ATTEMPT_FAILED p02_C_j4_b01 attempt=2 code=1
+START p02_C_j4_b01 panel=claude_full attempt=3 (remaining pending=19)
+required=70
+START p01_C_j4_b09 panel=grok attempt=7 (remaining pending=24)
+ACCEPTED p01_C_j4_b09
+START p01_C_j4_b10 panel=grok attempt=1 (remaining pending=23)
+ACCEPTED p01_C_j4_b10
+START p01_C_j4_b11 panel=grok attempt=1 (remaining pending=22)
+ACCEPTED p01_C_j4_b11
+START p01_C_j5_b01 panel=grok attempt=1 (remaining pending=21)
+ACCEPTED p01_C_j5_b01
+START p01_C_j5_b02 panel=grok attempt=1 (remaining pending=20)
+ACCEPTED p01_C_j5_b02
+START p01_C_j5_b03 panel=grok attempt=1 (remaining pending=19)
+ACCEPTED p01_C_j5_b03
+START p01_C_j5_b04 panel=grok attempt=1 (remaining pending=18)
+ACCEPTED p01_C_j5_b04
+START p01_C_j5_b05 panel=grok attempt=1 (remaining pending=17)
+ACCEPTED p01_C_j5_b05
+START p01_C_j5_b06 panel=grok attempt=1 (remaining pending=16)
+ACCEPTED p01_C_j5_b06
+START p01_C_j5_b07 panel=grok attempt=1 (remaining pending=15)
+ACCEPTED p01_C_j5_b07
+START p01_C_j5_b08 panel=grok attempt=1 (remaining pending=14)
+ACCEPTED p01_C_j5_b08
+START p01_C_j5_b09 panel=grok attempt=1 (remaining pending=13)
+ATTEMPT_FAILED p01_C_j5_b09 attempt=1 code=1
+RESOURCE_EXHAUSTED p01_C_j5_b09 panel=grok; backing off 600s
+START p02_C_j2_b03 panel=claude_full attempt=4 (remaining pending=13)
+ACCEPTED p02_C_j2_b03
+START p02_C_j3_b01 panel=claude_full attempt=4 (remaining pending=12)
+ACCEPTED p02_C_j3_b01
+START p02_C_j3_b02 panel=claude_full attempt=4 (remaining pending=11)
+ACCEPTED p02_C_j3_b02
+START p02_C_j3_b03 panel=claude_full attempt=4 (remaining pending=10)
+ACCEPTED p02_C_j3_b03
+START p02_C_j4_b01 panel=claude_full attempt=3 (remaining pending=9)
+ACCEPTED p02_C_j4_b01
+START p02_C_j4_b02 panel=claude_full attempt=1 (remaining pending=8)
+ACCEPTED p02_C_j4_b02
+START p02_C_j4_b03 panel=claude_full attempt=1 (remaining pending=7)
+ACCEPTED p02_C_j4_b03
+START p02_C_j5_b01 panel=claude_full attempt=1 (remaining pending=6)
+ACCEPTED p02_C_j5_b01
+START p02_C_j5_b02 panel=claude_full attempt=1 (remaining pending=5)
+ACCEPTED p02_C_j5_b02
+START p02_C_j5_b03 panel=claude_full attempt=1 (remaining pending=4)
+ACCEPTED p02_C_j5_b03
+START p01_C_j5_b09 panel=grok attempt=2 (remaining pending=3)
+ACCEPTED p01_C_j5_b09
+START p01_C_j5_b10 panel=grok attempt=1 (remaining pending=2)
+ACCEPTED p01_C_j5_b10
+START p01_C_j5_b11 panel=grok attempt=1 (remaining pending=1)
+ACCEPTED p01_C_j5_b11
+ALL_REQUIRED_COMPLETE

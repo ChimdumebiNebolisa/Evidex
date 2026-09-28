@@ -5,9 +5,11 @@ from pathlib import Path
 import pandas as pd
 
 from reproduce import OUT, ROOT, SV, read_jsonl, write_json, write_rows
+from provenance import verify_historical
 
 
 def main():
+    verify_historical(ROOT)
     audit = {r["item_id"]: r for r in read_jsonl(OUT / "evidence_audit.jsonl")}
     tax = pd.read_csv(OUT / "taxonomy_rule_only.csv")
     tracker = pd.read_csv(ROOT / "experiment_tracker_with_evidence_balanced_10000_v1.csv").set_index("claim_id")
@@ -87,7 +89,7 @@ def main():
          "claims": ["legacy 36/113 and 46/149 FEVER disagreement", "title precedence", "A-only gold agreement"],
          "reason": "Consensus independently rebuilt from active raw records, legacy labels exactly reproduced. Cannot validate corrected packets."},
         {"id": "diagnostic_stage_C_and_taxonomy", "status": "fresh_judgments_required",
-         "inputs": ["corrections_v2/generated/historical_pages_used.json", "corrections_v2/generated/stage_c_corrected.jsonl", "corrections_v2/blind_io"],
+         "inputs": ["corrections_v2/inputs/historical_pages.json", "corrections_v2/generated/stage_c_corrected.jsonl", "corrections_v2/blind_io"],
          "outputs": ["silver_adjudication_v1/cursor_panel/tables/silver_by_cohort_full.csv", "silver_adjudication_v1/claude_full_regression_panel/tables/mechanism_proportions.csv",
                      "paper/tables/tab_mechanism.tex", "paper/tables/tab_cross_family.tex", "paper/tables/tab_shared.tex",
                      "silver_adjudication_v1/cursor_panel/figures", "silver_adjudication_v1/claude_full_regression_panel/figures"],

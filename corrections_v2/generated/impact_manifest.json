@@ -62,7 +62,7 @@
       "id": "diagnostic_stage_C_and_taxonomy",
       "status": "fresh_judgments_required",
       "inputs": [
-        "corrections_v2/generated/historical_pages_used.json",
+        "corrections_v2/inputs/historical_pages.json",
         "corrections_v2/generated/stage_c_corrected.jsonl",
         "corrections_v2/blind_io"
       ],

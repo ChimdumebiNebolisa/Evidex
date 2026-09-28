@@ -1,6 +1,7 @@
 [
   {
     "key": "blinded",
+    "status": "exact_recorded_bytes",
     "files": [
       "silver_adjudication_v1/claude_residual_panel/data/blinded_stage_c.jsonl"
     ],
@@ -17,6 +18,7 @@
   },
   {
     "key": "claude_judge_1",
+    "status": "exact_recorded_bytes",
     "files": [
       "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_1/claude_judge_1_batch_01.jsonl",
       "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_1/claude_judge_1_batch_02.jsonl",
@@ -35,6 +37,7 @@
   },
   {
     "key": "claude_judge_2",
+    "status": "exact_recorded_bytes",
     "files": [
       "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_2/claude_judge_2_batch_01.jsonl",
       "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_2/claude_judge_2_batch_02.jsonl",
@@ -53,6 +56,7 @@
   },
   {
     "key": "claude_judge_3",
+    "status": "exact_recorded_bytes",
     "files": [
       "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_3/claude_judge_3_batch_01.jsonl",
       "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_3/claude_judge_3_batch_02.jsonl",
@@ -71,6 +75,7 @@
   },
   {
     "key": "claude_judge_4",
+    "status": "exact_recorded_bytes",
     "files": [
       "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_4/claude_judge_4_batch_01.jsonl",
       "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_4/claude_judge_4_batch_02.jsonl",
@@ -89,6 +94,7 @@
   },
   {
     "key": "claude_judge_5",
+    "status": "exact_recorded_bytes",
     "files": [
       "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_5/claude_judge_5_batch_01.jsonl",
       "silver_adjudication_v1/claude_residual_panel/judgments/claude_judge_5/claude_judge_5_batch_02.jsonl",
@@ -107,6 +113,7 @@
   },
   {
     "key": "blinded_stage_c.jsonl",
+    "status": "exact_recorded_bytes",
     "files": [
       "silver_adjudication_v1/claude_residual_panel/data/blinded_stage_c.jsonl"
     ],
@@ -123,6 +130,7 @@
   },
   {
     "key": "id_map.csv",
+    "status": "exact_recorded_bytes",
     "files": [
       "silver_adjudication_v1/claude_residual_panel/data/id_map.csv"
     ],
@@ -139,6 +147,7 @@
   },
   {
     "key": "residual_source.json",
+    "status": "exact_recorded_bytes",
     "files": [
       "silver_adjudication_v1/claude_residual_panel/data/residual_source.json"
     ],
@@ -155,6 +164,7 @@
   },
   {
     "key": "consensus_raw.parquet",
+    "status": "exact_recorded_bytes",
     "files": [
       "silver_adjudication_v1/claude_residual_panel/freezes/consensus_raw.parquet"
     ],
@@ -170,6 +180,7 @@
   },
   {
     "key": "consensus_raw.csv",
+    "status": "exact_recorded_bytes",
     "files": [
       "silver_adjudication_v1/claude_residual_panel/tables/consensus_raw.csv"
     ],
@@ -186,6 +197,7 @@
   },
   {
     "key": "agreement.csv",
+    "status": "exact_recorded_bytes",
     "files": [
       "silver_adjudication_v1/claude_residual_panel/tables/agreement.csv"
     ],
@@ -202,6 +214,7 @@
   },
   {
     "key": "judge_behavior.csv",
+    "status": "exact_recorded_bytes",
     "files": [
       "silver_adjudication_v1/claude_residual_panel/tables/judge_behavior.csv"
     ],
@@ -218,6 +231,7 @@
   },
   {
     "key": "freeze_judgments",
+    "status": "exact_recorded_bytes",
     "files": [
       "silver_adjudication_v1/claude_residual_panel/freezes/freeze_judgments.json"
     ],

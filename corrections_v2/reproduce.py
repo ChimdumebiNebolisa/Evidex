@@ -4,7 +4,6 @@ All writes are confined to corrections_v2/generated and corrections_v2/blind_io.
 Old packets and judgments are inputs, never corrected in place.
 """
 import argparse
-import hashlib
 import json
 import subprocess
 import sys
@@ -16,6 +15,9 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 SV = ROOT / "silver_adjudication_v1"
 OUT = ROOT / "corrections_v2/generated"
+sys.path.insert(0, str(ROOT / "corrections_v2"))
+from provenance import (digest, write_json, verify_historical, verify_snapshot,
+                        implementation_inventory, seal_outputs)
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(SV / "src"))
 from fever_evidence import evidence_set_id, selected_evidence_set
@@ -25,24 +27,11 @@ from taxonomy_legacy_v1 import taxonomy_row
 from taxonomy_v2 import classify
 
 
-def digest(path):
-    h = hashlib.sha256()
-    with path.open("rb") as stream:
-        for block in iter(lambda: stream.read(1024 * 1024), b""):
-            h.update(block)
-    return h.hexdigest()
-
-
 def read_jsonl(path):
     text = path.read_text(encoding="utf-8")
     if text.lstrip().startswith("["):
         return json.loads(text)
     return [json.loads(line) for line in text.splitlines() if line.strip()]
-
-
-def write_json(path, value):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
 def write_rows(name, rows):
@@ -99,10 +88,6 @@ def evidence(regression_ids, snapshot=None):
     needed = {page for cid in idmap.claim_id for es in parse_evidence_sets(source.loc[cid, "raw_evidence"])
               for page, _ in es["pointers"]}
     pages, source_paths = load_needed_pages(needed, snapshot)
-    # Export only the needed historical pages to make corrected artifacts portable.
-    write_json(OUT / "historical_pages_used.json", pages)
-    raw_cache_path = SV / "data/cache/wiki_pages_needed.json"
-    raw_cache = json.loads(raw_cache_path.read_text(encoding="utf-8")) if raw_cache_path.exists() else {}
     audits, validation, b_out, c_out = [], [], {}, {}
     for m in idmap.to_dict("records"):
         cid, iid = m["claim_id"], m["item_id"]
@@ -125,7 +110,9 @@ def evidence(regression_ids, snapshot=None):
                 continue
             if previous["sentence"] is None:
                 causes["unavailable_in_old_packet"] += 1
-                if normalized_page(page) not in raw_cache and lines is not None:
+                # Observable frozen-packet absence + archived recovery. Do not
+                # depend on a gitignored cache existing on this machine.
+                if lines is not None:
                     causes["title_normalization_or_cache_recovery"] += 1
             elif actual is None:
                 causes["unavailable_in_local_archive"] += 1
@@ -250,7 +237,8 @@ def taxonomy(audits):
                            "legacy_title_resolutions_absorbed": sum(r["title_resolution"] and r["legacy"] == "silver_structured_evidence_sensitive" for r in subset),
                            "proposed_rule_only_on_old_inputs": dict(Counter(r["category"] for r in subset)),
                            "sentence_only_utilization_compatible": sum(r["sentence_only_utilization_compatible"] for r in subset)}
-    pd.DataFrame(outputs).to_csv(OUT / "taxonomy_rule_only.csv", index=False)
+    pd.DataFrame(outputs).to_csv(OUT / "taxonomy_rule_only.csv", index=False,
+                               encoding="utf-8", lineterminator="\n")
     write_json(OUT / "taxonomy_summary.json", summaries)
     return outputs
 
@@ -319,7 +307,8 @@ def prepare_reruns(audits, b_out, c_out):
     manifest = {"version": "correction_v2", "status": "PREPARED_NOT_EXECUTED",
                 "method": "one fresh Cursor Task context per job; five independent contexts per batch; no simulated panel",
                 "retry_limit_per_job": 2, "panels": panels, "jobs": jobs,
-                "retained_stage_freezes": {p.relative_to(ROOT).as_posix(): digest(p)
+                "retained_stage_freezes": {p.relative_to(ROOT).as_posix():
+                    {"identity": "historical baseline inventory", "path": p.relative_to(ROOT).as_posix()}
                     for root in (SV / "cursor_panel", SV / "claude_full_regression_panel")
                     for p in (root / "freezes/freeze_stage_A.json", root / "freezes/freeze_stage_B.json")},
                 "provider_filtered_not_retried": sorted(filtered),
@@ -333,35 +322,44 @@ def prepare_reruns(audits, b_out, c_out):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--pages", type=Path, help="Explicit local page snapshot; no shard fallback")
+    parser.add_argument("--pages", type=Path, default=ROOT / "corrections_v2/inputs/historical_pages.json",
+                        help="Pinned local snapshot; verified before writes; no shard fallback")
     args = parser.parse_args()
+    # This gate precedes every output write. Never trust a freshly observed hash
+    # as the expected historical identity.
+    historical = verify_historical(ROOT)
+    snapshot = verify_snapshot(args.pages, ROOT)
     if any((ROOT / "corrections_v2/blind_io").rglob("*.output.json")):
         raise SystemExit("Delivered judgments exist; do not regenerate their inputs in place.")
     OUT.mkdir(parents=True, exist_ok=True)
-    provenance = OUT / "archive_provenance.json"
-    if not provenance.exists() and (OUT / "source_revision.json").exists():
-        previous = json.loads((OUT / "source_revision.json").read_text())
-        previous_hashes = json.loads((OUT / "input_hashes.json").read_text())
-        sources = previous["archive_sources"]
-        write_json(provenance, {"sources": {p: previous_hashes[p] for p in sources},
-                               "exported_page_snapshot_sha256": digest(OUT / "historical_pages_used.json"),
-                               "note": "Existing local historical cache and shards; no web download. Original acquisition run scanned shards through the last source listed."})
-    if args.pages and provenance.exists():
-        expected = json.loads(provenance.read_text())["exported_page_snapshot_sha256"]
-        if digest(args.pages) != expected:
-            raise SystemExit("Page snapshot differs from the recorded acquisition; investigate, do not overwrite provenance.")
     regression_ids = behavior()
     audits, b_out, c_out, archive_sources = evidence(regression_ids, args.pages)
     taxonomy(audits)
     reruns = prepare_reruns(audits, b_out, c_out)
-    tracked = subprocess.check_output(["git", "ls-files"], cwd=ROOT, text=True).splitlines()
-    protected = [ROOT / p for p in tracked if p.endswith((".csv", ".parquet", ".json", ".jsonl", ".tex", ".pdf", ".png", ".md"))]
-    paths = sorted(set(protected + archive_sources))
-    write_json(OUT / "input_hashes.json", {p.relative_to(ROOT).as_posix(): digest(p) for p in paths})
+    write_json(OUT / "historical_integrity.json", historical)
+    write_json(OUT / "snapshot_integrity.json", snapshot)
+    write_json(OUT / "code_hashes.json", implementation_inventory(ROOT))
     write_json(OUT / "source_revision.json", {
-        "base_commit": subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip(),
-        "artifact_tag_commit": subprocess.check_output(["git", "rev-parse", "evidex-artifact-v1^{}"], cwd=ROOT, text=True).strip(),
-        "archive_sources": [p.relative_to(ROOT).as_posix() for p in archive_sources]})
+        "scientific_artifact_commit": historical["scientific_artifact_commit"],
+        "source_baseline_commit": historical["source_baseline_commit"],
+        "correction_implementation_revision": subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip(),
+        "implementation_identity": "generated/code_hashes.json pins actual LF-equivalent code/configuration, including uncommitted edits",
+        "snapshot_source_commit": snapshot["source_commit"]})
+    # Complete downstream writes in one command, then seal exact output bytes.
+    from build_report_data import main as build_report
+    from audit_freezes import audit as audit_freezes
+    build_report()
+    audit_freezes()
+    write_json(OUT / "verification_results.json", {
+        "historical_files_verified": len(historical["files"]),
+        "exact_recorded_bytes": historical["exact_recorded_bytes"],
+        "eol_only_equivalent": historical["eol_only_equivalent"],
+        "prepared_jobs": len(reruns["jobs"]), "required_jobs": 70,
+        "required_judgments": 6430, "optional_jobs": 15, "optional_judgments": 1155,
+        "inference_launched_by_workflow": 0, "corrected_consensus_available": False})
+    seal_outputs(ROOT)
+    from verify_outputs import main as verify_outputs
+    verify_outputs()
     print(json.dumps({"evidence": json.loads((OUT / "evidence_summary.json").read_text()),
                       "taxonomy": json.loads((OUT / "taxonomy_summary.json").read_text()),
                       "reruns": [{k: v for k, v in p.items() if not k.endswith("ids")} for p in reruns["panels"]]}, indent=2))

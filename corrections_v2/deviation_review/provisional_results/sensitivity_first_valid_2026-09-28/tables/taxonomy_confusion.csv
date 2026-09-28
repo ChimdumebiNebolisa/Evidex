@@ -1,0 +1,8 @@
+grok_category,sentence_only_gold_agreeing,title_disclosure_gold_agreeing,structured_disclosure_gold_agreeing,additional_evidence_gold_agreeing,nonmonotonic_judge_path,decisive_judge_fever_disagreement,final_nondecisive
+sentence_only_gold_agreeing,74,0,0,0,2,0,1
+title_disclosure_gold_agreeing,9,1,0,0,0,0,0
+structured_disclosure_gold_agreeing,1,1,0,0,0,0,0
+additional_evidence_gold_agreeing,2,0,0,13,2,0,0
+nonmonotonic_judge_path,5,0,0,0,0,0,0
+decisive_judge_fever_disagreement,0,0,0,0,0,43,1
+final_nondecisive,14,1,6,1,1,11,37

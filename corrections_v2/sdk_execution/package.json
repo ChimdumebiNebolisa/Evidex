@@ -1,0 +1,17 @@
+{
+  "name": "evidex-correction-v2-sdk-execution",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "catalog": "node catalog.mjs",
+    "validate:isolation": "node validate-isolation.mjs",
+    "run:proposed-job": "node run-proposed-job.mjs"
+  },
+  "dependencies": {
+    "@cursor/sdk": "1.0.32"
+  }
+}

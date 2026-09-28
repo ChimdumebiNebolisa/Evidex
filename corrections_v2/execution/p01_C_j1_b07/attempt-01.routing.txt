@@ -1,0 +1,20 @@
+Linux WSL2 SDK run for p01_C_j1_b07 attempt-01
+started 2026-09-27T23:20:54.135Z completed 2026-09-27T23:23:21.400Z
+legacy lock: cursor-grok-4.6-high-fast
+canonical selection: {"id":"grok-4.6","params":[{"id":"effort","value":"high"},{"id":"fast","value":"true"}]}
+run.model: {"id":"grok-4.6","params":[{"id":"effort","value":"high"},{"id":"fast","value":"true"}]}
+result.model: {"id":"grok-4.6","params":[{"id":"effort","value":"high"},{"id":"fast","value":"true"}]}
+agent_id: agent-6c3187bb-c077-4d24-8529-dac5621942ec
+run_id: run-1a744ede-0630-4127-9e3a-63ee38ccc5f7
+request_id: 0acfe7da-f910-4d53-965a-9044b9a9a0c3
+sandbox_enabled: true
+resolved_packet: /home/evidex/isolated/p01_C_j1_b07/attempt-01/workspace/corrections_v2/blind_io/p01/stage_c/p01_C_j1_b07.json
+resolved_output: /home/evidex/isolated/p01_C_j1_b07/attempt-01/workspace/corrections_v2/blind_io/p01/stage_c/p01_C_j1_b07.output.json
+packet_sha256: dd04dd92b144f27d71ea277f95fe51f550c3c942646cf4e73009f9058c5c33d5
+output_sha256: 3a2d59c792e8dce02dc98a34669b548bb0bcb4889ca58ced7820859d6e10c498
+raw_response_sha256: 3a2d59c792e8dce02dc98a34669b548bb0bcb4889ca58ced7820859d6e10c498
+offered_tools: read, edit, piWrite
+tool_events: [{"name":"read","status":"running"},{"name":"read","status":"completed"},{"name":"read","status":"running"},{"name":"read","status":"completed"},{"name":"read","status":"running"},{"name":"read","status":"running"},{"name":"read","status":"completed"},{"name":"read","status":"completed"},{"name":"read","status":"running"},{"name":"read","status":"running"},{"name":"read","status":"completed"},{"name":"read","status":"completed"},{"name":"read","status":"running"},{"name":"read","status":"running"},{"name":"read","status":"completed"},{"name":"read","status":"completed"},{"name":"read","status":"running"},{"name":"read","status":"running"},{"name":"read","status":"completed"},{"name":"read","status":"completed"},{"name":"edit","status":"running"},{"name":"edit","status":"running"},{"name":"edit","status":"completed"},{"name":"read","status":"running"},{"name":"read","status":"completed"},{"name":"edit","status":"running"},{"name":"edit","status":"running"},{"name":"edit","status":"completed"},{"name":"read","status":"running"},{"name":"read","status":"completed"},{"name":"read","status":"running"},{"name":"read","status":"completed"}]
+sdk_usage: {"inputTokens":459952,"outputTokens":27922,"cacheReadTokens":390336,"cacheWriteTokens":0,"totalTokens":878210}
+billed_usage: {"unavailable":true,"error_name":"UnknownAgentError"}
+provider_model_version: not exposed; catalog, dispatch, init, run, result, hooks, transcript, and usage were inspected

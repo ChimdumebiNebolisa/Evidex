@@ -102,7 +102,7 @@ class EvidenceTests(unittest.TestCase):
         self.assertEqual(c["structured_evidence"]["chosen_set"][0]["sentence"], text)
 
     def test_real_historical_cache_and_local_snapshot(self):
-        snapshot = ROOT / "corrections_v2/generated/historical_pages_used.json"
+        snapshot = ROOT / "corrections_v2/inputs/historical_pages.json"
         pages = json.loads(snapshot.read_text(encoding="utf-8"))
         old = json.loads((ROOT / "silver_adjudication_v1/data/blinded/stage_c.jsonl").read_text(encoding="utf-8").splitlines()[0])
         pointer = old["structured_evidence"]["chosen_set"][0]

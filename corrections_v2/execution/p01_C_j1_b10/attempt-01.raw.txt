@@ -1,0 +1,1002 @@
+[
+  {
+    "item_id": "SA-000902",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states he established the activist foreign policy known as Wilsonianism, contradicting the claim that he did not."
+  },
+  {
+    "item_id": "SA-000903",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 72,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence supports that Michelin Guides have been published for more than a century, but not that they are the definitive restaurant guide."
+  },
+  {
+    "item_id": "SA-000904",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["none"],
+    "brief_reason": "Two actors met while filming the series and later married, which warrants that Fortunes of War caused their union."
+  },
+  {
+    "item_id": "SA-000905",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence places Akkineni Nageswara Rao in the Telugu remake Vichitra Jeevitham, not in Daag."
+  },
+  {
+    "item_id": "SA-000906",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 78,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence discusses physics advances and applications but never mentions equations."
+  },
+  {
+    "item_id": "SA-000907",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence identifies the film as a 1975 release, which is after 1970 and not between 1934 and 1970."
+  },
+  {
+    "item_id": "SA-000908",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says it tends to advocate free trade and lowering tariffs, which are changes in economic policy."
+  },
+  {
+    "item_id": "SA-000909",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly states Avenged Sevenfold is a studio album by an American heavy metal band."
+  },
+  {
+    "item_id": "SA-000910",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says Charlotte was the second-largest U.S. banking center from 1995 to 2017, not the fourth-largest."
+  },
+  {
+    "item_id": "SA-000911",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence ranks Gal Gadot ahead of Esti Ginzburg, not behind her."
+  },
+  {
+    "item_id": "SA-000912",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence lists both a 1975 conference title and a 1975 division title for the team."
+  },
+  {
+    "item_id": "SA-000913",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "An alternative evidence sentence states she released her 17th album of original songs in 2007."
+  },
+  {
+    "item_id": "SA-000914",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence states Harvard University is a research university, contradicting the claim that it is not."
+  },
+  {
+    "item_id": "SA-000915",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says Bush grew up in Houston, so he has already spent time there."
+  },
+  {
+    "item_id": "SA-000916",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence identifies The Fly as a 1986 American film, which warrants that it is from the United States."
+  },
+  {
+    "item_id": "SA-000917",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 68,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The evidence names many films but uses wording such as including, so it does not establish an exact acting count of 13."
+  },
+  {
+    "item_id": "SA-000918",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 91,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says negative reviews were garnered about her, not that she wrote them."
+  },
+  {
+    "item_id": "SA-000919",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence identifies TV Choice as a weekly listings magazine, not a program that is on at 3 pm."
+  },
+  {
+    "item_id": "SA-000920",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states the single is by DJ Fresh, so the attribution is not described as mistaken."
+  },
+  {
+    "item_id": "SA-000921",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 70,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence says the series is based on X-Men properties, not that it was modeled on X-Men abilities."
+  },
+  {
+    "item_id": "SA-000922",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 85,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says its weekly listings run from Saturday to Friday."
+  },
+  {
+    "item_id": "SA-000923",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence states they won a UEFA club competition in 1963, which is in the sixties."
+  },
+  {
+    "item_id": "SA-000924",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says Hamm has received 16 Primetime Emmy nominations, not eight."
+  },
+  {
+    "item_id": "SA-000925",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly states Keith Urban is the second studio album by an Australian country music artist."
+  },
+  {
+    "item_id": "SA-000926",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence names the sequel Rio 2 but dates it to 2014, not 2013."
+  },
+  {
+    "item_id": "SA-000927",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 74,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The named American actor was born in September 1982, and no other cast member is given an October 1982 birth date."
+  },
+  {
+    "item_id": "SA-000928",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence identifies Recovery as Eminem's album, not a song, though Eminem is Marshall Mathers III."
+  },
+  {
+    "item_id": "SA-000929",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 66,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "The evidence mentions new animation and lighting software, not filming software."
+  },
+  {
+    "item_id": "SA-000930",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence ranks the Pakistani economy 41st in nominal GDP, not 42nd."
+  },
+  {
+    "item_id": "SA-000931",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Jones missed the playoffs only once, with the Trail Blazers in 2007-08."
+  },
+  {
+    "item_id": "SA-000932",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states the film was produced by Trevor Macy through Intrepid Pictures."
+  },
+  {
+    "item_id": "SA-000933",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Kerner companies produced the film and a Walt Disney Studios subsidiary distributed it, not produced it."
+  },
+  {
+    "item_id": "SA-000934",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence describes a grey, naked head and does not include a red head."
+  },
+  {
+    "item_id": "SA-000935",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states the sitcom originally aired on CBS."
+  },
+  {
+    "item_id": "SA-000936",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence identifies the film as a sports comedy, not a teen horror film."
+  },
+  {
+    "item_id": "SA-000937",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The lifespan dates end on 10 April 2008, matching the claimed death date."
+  },
+  {
+    "item_id": "SA-000938",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 83,
+    "issue_flags": ["none"],
+    "brief_reason": "Alternative evidence states he became and remained the 49ers' starting quarterback."
+  },
+  {
+    "item_id": "SA-000939",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence gives his name as Duane Lee \"Dog\" Chapman I."
+  },
+  {
+    "item_id": "SA-000940",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 64,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence says monsters are usually found in legends or horror fiction, not myths or horror fiction."
+  },
+  {
+    "item_id": "SA-000941",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 71,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence mentions a 2007 Berlin premiere and does not address the Toronto International Film Festival."
+  },
+  {
+    "item_id": "SA-000942",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says it contains 8 escalators, not 65."
+  },
+  {
+    "item_id": "SA-000943",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states the Latvian SSR was a republic of the Soviet Union, subordinated to its government."
+  },
+  {
+    "item_id": "SA-000944",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says a monk lives alone or with other monks, not with other types of people."
+  },
+  {
+    "item_id": "SA-000945",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence states his widow was buried on 3 October 1635, which is the 3rd."
+  },
+  {
+    "item_id": "SA-000946",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence states a theatrical release date, and alternative evidence states a DVD release, which is a format."
+  },
+  {
+    "item_id": "SA-000947",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states the dodo has been depicted with a grey, naked head."
+  },
+  {
+    "item_id": "SA-000948",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence gives his name as Kenneth Arnold \"Kenny\" Chesney."
+  },
+  {
+    "item_id": "SA-000949",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says Aarhus is the seat of Aarhus municipality, not the ball."
+  },
+  {
+    "item_id": "SA-000950",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence identifies The Invisible Man as a 1933 film, not a television series."
+  },
+  {
+    "item_id": "SA-000951",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says he directed music videos for other A$AP Mob members, not chemistry videos."
+  },
+  {
+    "item_id": "SA-000952",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 67,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence calls Probot a side project of ex-Nirvana drummer Dave Grohl but does not say he drummed in Probot."
+  },
+  {
+    "item_id": "SA-000953",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says the university helped identify the remains of Richard III, not his money."
+  },
+  {
+    "item_id": "SA-000954",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "Alternative evidence states Franklin earned the title of The First American, and the chosen sentence also notes election as president."
+  },
+  {
+    "item_id": "SA-000955",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "negation_or_scope"],
+    "brief_reason": "The evidence says he has written numerous musical works, contradicting the claim that none exist."
+  },
+  {
+    "item_id": "SA-000956",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 76,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence identifies him as their son and does not discuss whether he is an ally, let alone their only ally."
+  },
+  {
+    "item_id": "SA-000957",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence gives his birth date as June 6, 1993, not June 12."
+  },
+  {
+    "item_id": "SA-000958",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 85,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says the film is based on Highsmith's book of the same name, not an eighth novel titled Push."
+  },
+  {
+    "item_id": "SA-000959",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 69,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence says Kerplunk is Green Day's second studio album on Lookout, not that it was their first of many on that label."
+  },
+  {
+    "item_id": "SA-000960",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Kenneth Lonergan was born October 16, 1962."
+  },
+  {
+    "item_id": "SA-000961",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence identifies Same Old Love as a song by Selena Gomez, so it is associated with her."
+  },
+  {
+    "item_id": "SA-000962",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states season two takes place in the Midwestern United States, not Midwestern Canada."
+  },
+  {
+    "item_id": "SA-000963",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Leonardo DiCaprio starred in the film in a dual role, so he did not pass on the starring role."
+  },
+  {
+    "item_id": "SA-000964",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 73,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The evidence supports the October 12, 1875 birth date but does not establish that the day was a Tuesday."
+  },
+  {
+    "item_id": "SA-000965",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Phoenix is the capital of Arizona, not of the Atlantic Ocean."
+  },
+  {
+    "item_id": "SA-000966",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 87,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence attributes $16 million to the June 2014–June 2015 span, not to June 2014 alone."
+  },
+  {
+    "item_id": "SA-000967",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence identifies him as an American actor, which warrants calling him a thespian."
+  },
+  {
+    "item_id": "SA-000968",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence states they have won four conference titles, on the Washington Wizards page."
+  },
+  {
+    "item_id": "SA-000969",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 70,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The evidence places establishment in 1929 via the Lateran Treaty but does not specify January."
+  },
+  {
+    "item_id": "SA-000970",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["entity_or_attribute_confusion", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence assigns March 1, 1987 as her birth date, not a conception date."
+  },
+  {
+    "item_id": "SA-000971",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 68,
+    "issue_flags": ["partial_warrant", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence dates the last of three major windstorms to 2006, not necessarily the last windstorm of any kind."
+  },
+  {
+    "item_id": "SA-000972",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence identifies The 100 as a television series, not a music video following teens."
+  },
+  {
+    "item_id": "SA-000973",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence describes it as an association football tournament, which is soccer."
+  },
+  {
+    "item_id": "SA-000974",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says the seventh season began on July 11, 2011, not in July 2012."
+  },
+  {
+    "item_id": "SA-000975",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 72,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence places Prescott in Yavapai County but does not say it is in the northern part."
+  },
+  {
+    "item_id": "SA-000976",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence states the album Keith Urban was released by Capitol Nashville, a record label."
+  },
+  {
+    "item_id": "SA-000977",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 74,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The evidence credits Alvin Sargent as writer of the 2004 film but does not say the writing occurred in 2003."
+  },
+  {
+    "item_id": "SA-000978",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states the film received generally negative reviews."
+  },
+  {
+    "item_id": "SA-000979",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence says he serves as a director on Supernatural, and alternative evidence says he directed various television series."
+  },
+  {
+    "item_id": "SA-000980",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence attributes superhuman abilities to human enhancement by nanotechnology, not frog enhancement."
+  },
+  {
+    "item_id": "SA-000981",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says the debut album was released on September 29, 2009, not in May."
+  },
+  {
+    "item_id": "SA-000982",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states East Jerusalem is the designated capital, not West Jerusalem."
+  },
+  {
+    "item_id": "SA-000983",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence cites known roles on ABC and CBS sitcoms, so he did not only act in NBC shows."
+  },
+  {
+    "item_id": "SA-000984",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states the KGB was governed by army laws and regulations."
+  },
+  {
+    "item_id": "SA-000985",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence places Mars fourth from the Sun after Earth, so Mars is farther from the Sun, not closer."
+  },
+  {
+    "item_id": "SA-000986",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says the name is used officially as the Commonwealth of The Bahamas, not unofficially."
+  },
+  {
+    "item_id": "SA-000987",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "The evidence states he made a cameo as Professor Normal in Dr. Horrible's Sing-Along Blog."
+  },
+  {
+    "item_id": "SA-000988",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence defines a polynomial as an expression, not as an entity."
+  },
+  {
+    "item_id": "SA-000989",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 65,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence lists vomiting as a common side effect, which neither clearly proves nor rules out the weak claim that it may not cause vomiting."
+  },
+  {
+    "item_id": "SA-000990",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 74,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence gives March 1, 1987 as her birth date and says nothing about a baptism."
+  },
+  {
+    "item_id": "SA-000991",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 70,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence identifies SpongeBob SquarePants as a television series, not as a media franchise."
+  },
+  {
+    "item_id": "SA-000992",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says the song reached number one on the US Billboard Hot 100, a list in a country."
+  },
+  {
+    "item_id": "SA-000993",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "clearly_insufficient",
+    "confidence": 78,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence discusses past Norwegian rule and does not mention the Kingdom of Mercia."
+  },
+  {
+    "item_id": "SA-000994",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence identifies Kanye West as an American rapper featured on the song and lists West among its producers."
+  },
+  {
+    "item_id": "SA-000995",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence says it was the opening number on the Fearless Tour, not at Taylor Swift's birthday party."
+  },
+  {
+    "item_id": "SA-000996",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence identifies EA Black Box as a video game developer, not a picture game developer."
+  },
+  {
+    "item_id": "SA-000997",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence states the studios are located in North Hollywood, California, not outside it."
+  },
+  {
+    "item_id": "SA-000998",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 85,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence identifies him as an American actor, which warrants that acting is his career."
+  },
+  {
+    "item_id": "SA-000999",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["entity_or_attribute_confusion", "numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence assigns December 1, 1985 as her birth date, not a conception date."
+  },
+  {
+    "item_id": "SA-001000",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says the song reached the Top 40 at 38 and peaked at 23, which is a rise, not a fall to 23."
+  },
+  {
+    "item_id": "SA-001001",
+    "judge_id": "judge_1",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 68,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "The evidence places the doll in Monroe, Connecticut, but does not state that this location is in the United States."
+  }
+]

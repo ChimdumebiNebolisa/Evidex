@@ -1,0 +1,15 @@
+Linux WSL2 SDK run for p02_C_j4_b01 attempt-02
+status: error
+started unknown completed unknown
+legacy lock: claude-opus-5-thinking-high
+canonical selection: {"id":"claude-opus-5","params":[{"id":"context","value":"1m"},{"id":"cyber","value":"false"},{"id":"effort","value":"high"},{"id":"fast","value":"false"},{"id":"thinking","value":"true"}]}
+sandbox_enabled: true
+sandbox_initialized: true
+agent_id: agent-e503615c-6333-4f14-86da-baedefaa791d
+run_id: run-717201e9-85ad-42d2-b4c5-fa3c467cf6a8
+offered_tools: read, edit, piWrite
+observed_tool_names: read
+hooks_loaded: true
+designated_output_written: false
+error: Increase limits for faster responses You're out of usage. Switch to Auto, or ask your admin to increase your limit to continue.
+raw_response_unavailable_reason: stream stalled and run ended with status error; designated output was never created

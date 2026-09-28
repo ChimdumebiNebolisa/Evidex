@@ -1,0 +1,35 @@
+{
+  "job_id": "REPLACE_EXACT_JOB_ID",
+  "attempt": 1,
+  "status": "accepted",
+  "requested_model": "REPLACE_LOCKED_SLUG",
+  "resolved_model": "REPLACE_ACTUALLY_VERIFIED_SLUG",
+  "provider_model_version": null,
+  "version_metadata_status": "not_exposed",
+  "version_metadata_note": "REPLACE_WITH_WHAT_WAS_CHECKED_AND_NOT_EXPOSED",
+  "cursor_version": "REPLACE",
+  "session_id": "REPLACE_UNIQUE_FRESH_SESSION",
+  "started_at_utc": "REPLACE_ISO_TIMESTAMP_WITH_TIMEZONE",
+  "completed_at_utc": "REPLACE_ISO_TIMESTAMP_WITH_TIMEZONE",
+  "operator": "REPLACE",
+  "reviewer": "REPLACE",
+  "routing_and_isolation_reviewed": true,
+  "fresh_context": true,
+  "inherited_context": false,
+  "auto": false,
+  "inherit": false,
+  "web_browse": false,
+  "external_retrieval": false,
+  "temperature": "provider_default",
+  "visible_input_files": ["REPLACE_EXACT_PACKET_PATH"],
+  "packet_sha256": "REPLACE",
+  "output_sha256": "REPLACE",
+  "raw_response": {
+    "path": "corrections_v2/execution/REPLACE_JOB_ID/attempt-01.raw.txt",
+    "sha256": "REPLACE"
+  },
+  "routing_evidence": {
+    "path": "corrections_v2/execution/REPLACE_JOB_ID/attempt-01.routing.txt",
+    "sha256": "REPLACE"
+  }
+}

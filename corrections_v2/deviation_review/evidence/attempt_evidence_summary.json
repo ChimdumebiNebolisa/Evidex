@@ -1,0 +1,94 @@
+{
+  "jobs": 70,
+  "jobs_with_exactly_one_accepted": 70,
+  "jobs_over_three_records": [
+    "p01_C_j4_b08",
+    "p01_C_j4_b09",
+    "p02_C_j2_b03",
+    "p02_C_j3_b01",
+    "p02_C_j3_b02",
+    "p02_C_j3_b03"
+  ],
+  "jobs_with_earlier_schema_valid_output": [
+    {
+      "job_id": "p02_C_j2_b02",
+      "valid_slots": [
+        1,
+        2,
+        3
+      ],
+      "accepted": [
+        3
+      ]
+    },
+    {
+      "job_id": "p02_C_j2_b03",
+      "valid_slots": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "accepted": [
+        4
+      ]
+    }
+  ],
+  "slots_where_record_session_contradicts_evidence": [],
+  "slots_with_unknown_record_session_but_agent_evidence": [
+    [
+      "p02_C_j2_b02",
+      1
+    ],
+    [
+      "p02_C_j2_b02",
+      2
+    ],
+    [
+      "p02_C_j2_b03",
+      1
+    ],
+    [
+      "p02_C_j2_b03",
+      2
+    ],
+    [
+      "p02_C_j2_b03",
+      3
+    ],
+    [
+      "p02_C_j3_b01",
+      1
+    ],
+    [
+      "p02_C_j3_b01",
+      3
+    ],
+    [
+      "p02_C_j3_b02",
+      1
+    ],
+    [
+      "p02_C_j3_b02",
+      2
+    ],
+    [
+      "p02_C_j3_b02",
+      3
+    ],
+    [
+      "p02_C_j3_b03",
+      1
+    ],
+    [
+      "p02_C_j3_b03",
+      2
+    ],
+    [
+      "p02_C_j3_b03",
+      3
+    ]
+  ],
+  "staging_vs_wsl_mismatches": [],
+  "slots_without_execution_record": []
+}

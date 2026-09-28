@@ -1,0 +1,17 @@
+analysis,family,status,n,left_only,right_only,delta_right_minus_left_pp,method,statistic,p_value,p_bh,bh_family_size,cells,odds_ratio,ci_low,ci_high
+ambiguous_A,post_hoc_cross_family,estimated,226,39.0,2.0,-16.371681415929203,exact_McNemar_binomial,,7.839844329282641e-10,1.0975782060995698e-08,14,,,,
+ambiguous_B,post_hoc_cross_family,estimated,226,35.0,4.0,-13.716814159292035,exact_McNemar_binomial,,3.353161446284503e-07,1.173606506199576e-06,14,,,,
+ambiguous_C,post_hoc_cross_family,estimated,226,34.0,2.0,-14.15929203539823,exact_McNemar_binomial,,1.941225491464138e-08,9.05905229349931e-08,14,,,,
+resolved_by_titles,post_hoc_cross_family,estimated,226,12.0,5.0,-3.0973451327433628,exact_McNemar_binomial,,0.143463134765625,0.25106048583984375,14,,,,
+resolved_at_C,post_hoc_cross_family,estimated,226,12.0,12.0,0.0,exact_McNemar_binomial,,1.0,1.0,14,,,,
+reversed_after_titles,post_hoc_cross_family,estimated,226,0.0,0.0,0.0,exact_McNemar_binomial,,1.0,1.0,14,,,,
+reversed_at_C,post_hoc_cross_family,estimated,226,0.0,0.0,0.0,exact_McNemar_binomial,,1.0,1.0,14,,,,
+category_sentence_only_gold_agreeing,post_hoc_cross_family,estimated,226,3.0,31.0,12.389380530973455,exact_McNemar_binomial,,7.660128176212311e-07,2.144835889339447e-06,14,,,,
+category_title_disclosure_gold_agreeing,post_hoc_cross_family,estimated,226,9.0,2.0,-3.0973451327433628,exact_McNemar_binomial,,0.0654296875,0.130859375,14,,,,
+category_structured_disclosure_gold_agreeing,post_hoc_cross_family,estimated,226,2.0,6.0,1.7699115044247788,exact_McNemar_binomial,,0.2890625,0.4496527777777778,14,,,,
+category_additional_evidence_gold_agreeing,post_hoc_cross_family,estimated,226,4.0,1.0,-1.3274336283185848,exact_McNemar_binomial,,0.375,0.525,14,,,,
+category_nonmonotonic_judge_path,post_hoc_cross_family,estimated,226,5.0,5.0,0.0,exact_McNemar_binomial,,1.0,1.0,14,,,,
+category_decisive_judge_fever_disagreement,post_hoc_cross_family,estimated,226,1.0,11.0,4.4247787610619485,exact_McNemar_binomial,,0.00634765625,0.014811197916666666,14,,,,
+category_final_nondecisive,post_hoc_cross_family,estimated,226,34.0,2.0,-14.15929203539823,exact_McNemar_binomial,,1.941225491464138e-08,9.05905229349931e-08,14,,,,
+grok_nondecisive_shared_vs_specific_OR,post_hoc_subgroup,estimated,226,,,,,,0.059225661195414184,0.059225661195414184,2,"[18, 22, 53, 133]",2.0531732418524875,1.0200072816450805,4.132833595325133
+claude_nondecisive_shared_vs_specific_OR,post_hoc_subgroup,estimated,226,,,,,,0.0023104962724008198,0.0046209925448016395,2,"[14, 26, 25, 161]",3.4676923076923076,1.598554971494004,7.522349969353872

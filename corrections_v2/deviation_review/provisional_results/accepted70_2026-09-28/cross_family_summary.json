@@ -1,0 +1,18 @@
+{
+  "n": 226,
+  "exact_taxonomy_agreement": {
+    "status": "estimated",
+    "n": 226,
+    "k": 172,
+    "rate_pct": 76.10619469026548,
+    "ci_low": 70.35398230088495,
+    "ci_high": 81.41592920353983,
+    "wilson_low": 70.13964682575107,
+    "wilson_high": 81.20008996696113,
+    "bootstrap_iters": 2000,
+    "seed": 20260954
+  },
+  "fine_cohen_kappa": 0.6730604372053149,
+  "kappa_status": "estimated",
+  "broad_mapping": "not_defined_for_proposed_v2; no legacy mechanism labels reused"
+}

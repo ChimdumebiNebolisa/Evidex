@@ -1,0 +1,15 @@
+ConfigurationError at agent.send for p01_C_j1_b01 on 2026-09-27T22:15:13Z.
+
+Requested model selection:
+  id: grok-4.6
+  params: effort=high, fast=true
+  legacy lock: cursor-grok-4.6-high-fast
+
+Local SDK sandboxing was requested via local.sandboxOptions.enabled=true, but sandboxing is not supported in this environment (Windows 10; @cursor/sdk 1.0.32). Cursor documents sandbox helpers for Linux (bubblewrap) and macOS (seatbelt). The installed @cursor/sdk-win32-x64 package contains tree-sitter binaries only, not a sandbox helper.
+
+The SDK message was:
+"Local SDK sandboxing was requested, but sandboxing is not supported in this environment. Disable local.sandboxOptions.enabled or remove ~/.cursor/sandbox.json to run without sandboxing."
+
+No ~/.cursor/sandbox.json was present. Sandbox was not disabled. No model stream events were recorded. No output file was written. This attempt is not_launched from a judgment perspective.
+
+Operational amendment 2026-09-27 requires the local sandbox. Amendment section 5: unavailable sandbox/helper makes this execution profile unsuitable. No substitute model and no sandbox-off run was performed.

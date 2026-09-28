@@ -1,0 +1,1002 @@
+[
+  {
+    "item_id": "SA-000402",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states Dirty 30 is the thirtieth season of the MTV series The Challenge."
+  },
+  {
+    "item_id": "SA-000403",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says de la Rocha quit, leading to the band's breakup."
+  },
+  {
+    "item_id": "SA-000404",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Ditko studied under Jerry Robinson, which probably warrants the mentoring claim."
+  },
+  {
+    "item_id": "SA-000405",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "He is described as a BAFTA-nominated screenwriter, and an alternative sentence names the BAFTA screenplay nomination."
+  },
+  {
+    "item_id": "SA-000406",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 88,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The 1998 film starred DiCaprio but is an action drama, not a romantic comedy."
+  },
+  {
+    "item_id": "SA-000407",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence says the building was surpassed by the Empire State Building in 1931."
+  },
+  {
+    "item_id": "SA-000408",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Olivier Megaton directed the film; Luc Besson produced it."
+  },
+  {
+    "item_id": "SA-000409",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence identifies Matthew Staton Bomer as an American actor and lists acting roles."
+  },
+  {
+    "item_id": "SA-000410",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 86,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Crystal Kay covered the song but is described as a Japanese singer, not an American one."
+  },
+  {
+    "item_id": "SA-000411",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 68,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The sentence gives a coach-quarterback tandem Super Bowl reach/win record, not the team's Super Bowl losses."
+  },
+  {
+    "item_id": "SA-000412",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 62,
+    "issue_flags": ["partial_warrant", "possible_missing_surrounding_context"],
+    "brief_reason": "Alternatives place Sky UK as serving the UK, a sovereign country in western Europe, but not western Eurasia."
+  },
+  {
+    "item_id": "SA-000413",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The evidence gives his name as Amancio Ortega Gaona, so Amancio Ortega is not the full name."
+  },
+  {
+    "item_id": "SA-000414",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 74,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Seth Meyers hosted the ceremony and hosts Late Night, but the evidence does not say he invented Late Night."
+  },
+  {
+    "item_id": "SA-000415",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "He is identified as a British broadcaster, not an American one."
+  },
+  {
+    "item_id": "SA-000416",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Cléopâtre and Panurge are presented as two of Massenet's three posthumously premiered operas."
+  },
+  {
+    "item_id": "SA-000417",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The album page states it was originally released on 2 April 1990 by Columbia Records."
+  },
+  {
+    "item_id": "SA-000418",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states it is the forthcoming sixth novel in A Song of Ice and Fire."
+  },
+  {
+    "item_id": "SA-000419",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence gives her birth date as 18 July 1996, matching July 18, 1996."
+  },
+  {
+    "item_id": "SA-000420",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence says the sitcom originally aired on CBS, not NBC."
+  },
+  {
+    "item_id": "SA-000421",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence lists Tommy Lee Jones among the film's stars, so he did appear."
+  },
+  {
+    "item_id": "SA-000422",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 70,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "The first-season Netflix date matches, but the evidence does not establish that GLOW has only one season."
+  },
+  {
+    "item_id": "SA-000423",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The series is based on a Marvel Comics character, not a snail."
+  },
+  {
+    "item_id": "SA-000424",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Harrison's first marriage to Pattie Boyd in 1966 is stated on the George Harrison page."
+  },
+  {
+    "item_id": "SA-000425",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "Primary products listed are poultry, soybeans, and cattle, which does not clearly establish grain production."
+  },
+  {
+    "item_id": "SA-000426",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "An alternative set states that Night of the Living Dead is a 1990 American horror film remake."
+  },
+  {
+    "item_id": "SA-000427",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Arijit Singh is described as an Indian musician, which warrants that he is from India."
+  },
+  {
+    "item_id": "SA-000428",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence gives the longer name Natasha Bianca Lyonne Braunstein, better known as Natasha Lyonne."
+  },
+  {
+    "item_id": "SA-000429",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Dates 1943–2008 and an alternative sentence both put his age at death at 64, not 61."
+  },
+  {
+    "item_id": "SA-000430",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The siege is said to have ended on August 22, not in December."
+  },
+  {
+    "item_id": "SA-000431",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence calls The Endless River Pink Floyd's final studio album, not the second to last."
+  },
+  {
+    "item_id": "SA-000432",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["numerical_or_temporal_reasoning", "multi_sentence_integration"],
+    "brief_reason": "He was born August 12, which the paired Leo evidence places in Leo, not Gemini."
+  },
+  {
+    "item_id": "SA-000433",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 66,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "The evidence calls it a comedy web series that premiered on YouTube, not clearly a television series."
+  },
+  {
+    "item_id": "SA-000434",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence directly states D'Onofrio is an Emmy Award nominee."
+  },
+  {
+    "item_id": "SA-000435",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 68,
+    "issue_flags": ["partial_warrant", "numerical_or_temporal_reasoning"],
+    "brief_reason": "A $34 million budget is stated, but not that this amount was for cast and crew."
+  },
+  {
+    "item_id": "SA-000436",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "The poem is described as historically inaccurate and as mentioning events that never happened."
+  },
+  {
+    "item_id": "SA-000437",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence states Sacré-Cœur is a double monument, contradicting the claim that it is anything except that."
+  },
+  {
+    "item_id": "SA-000438",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 60,
+    "issue_flags": ["negation_or_scope", "partial_warrant"],
+    "brief_reason": "Untreated disease may slightly increase early-death risk, which neither clearly confirms nor rules out 'may not.'"
+  },
+  {
+    "item_id": "SA-000439",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The single is identified as being from DJ Fresh's album Nextlevelism."
+  },
+  {
+    "item_id": "SA-000440",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence says Greenland is usually not seen as part of Scandinavia."
+  },
+  {
+    "item_id": "SA-000441",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 56,
+    "issue_flags": ["partial_warrant", "possible_missing_surrounding_context"],
+    "brief_reason": "The university is placed in China and Beijing, but China is not described as a unitary sovereign state in East Asia."
+  },
+  {
+    "item_id": "SA-000442",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 94,
+    "issue_flags": ["none"],
+    "brief_reason": "Nero is described as an adopted heir, emperor, and someone who committed suicide, which establishes he is a person."
+  },
+  {
+    "item_id": "SA-000443",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 97,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states she earned Critics' Choice Award nominations, and alternatives add further nominations."
+  },
+  {
+    "item_id": "SA-000444",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The ride is said to have been replicated at Magic Kingdom in 1973, not 1993."
+  },
+  {
+    "item_id": "SA-000445",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "Mercedes-Benz is a division of Daimler AG and a global automobile manufacturer, which warrants a multi-country car-company section."
+  },
+  {
+    "item_id": "SA-000446",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "An NEO is defined as a Solar System body whose orbit brings it near Earth, which also places it in the universe."
+  },
+  {
+    "item_id": "SA-000447",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The evidence calls Barry Van Dyke the second son of Dick Van Dyke, not the oldest."
+  },
+  {
+    "item_id": "SA-000448",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "His birth date is given as December 27, 1931, not May 27, 1931."
+  },
+  {
+    "item_id": "SA-000449",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence identifies Make It or Break It as a television series that aired for multiple seasons."
+  },
+  {
+    "item_id": "SA-000450",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Kyle is said to have 160 officially confirmed kills, not 170."
+  },
+  {
+    "item_id": "SA-000451",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 91,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The film is based on a novel, not a play."
+  },
+  {
+    "item_id": "SA-000452",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 93,
+    "issue_flags": ["none"],
+    "brief_reason": "International reserve use and alternatives stating other countries use the dollar show it is not exclusive to the United States."
+  },
+  {
+    "item_id": "SA-000453",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning", "negation_or_scope"],
+    "brief_reason": "The evidence places her film and TV work in the late 1990s through the 2010s, not only the 1950s."
+  },
+  {
+    "item_id": "SA-000454",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 64,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "His widow was buried on 3 October 1635, which may or may not count as the early 1600s."
+  },
+  {
+    "item_id": "SA-000455",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 91,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Saw II is part of the franchise but is identified as a 2005 film, not 2006."
+  },
+  {
+    "item_id": "SA-000456",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Charlotte is described as the second- then third-largest U.S. banking center, not the fifth."
+  },
+  {
+    "item_id": "SA-000457",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The series is said to have been created by Guillermo del Toro, not Adam Sandler."
+  },
+  {
+    "item_id": "SA-000458",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 58,
+    "issue_flags": ["entity_or_attribute_confusion", "possible_coreference_or_entity_resolution"],
+    "brief_reason": "She is identified with a planet and a goddess equivalent, which does not settle whether Aphrodite is a person."
+  },
+  {
+    "item_id": "SA-000459",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 70,
+    "issue_flags": ["partial_warrant", "possible_missing_surrounding_context"],
+    "brief_reason": "Lyon is a city in France, but the evidence does not place it in Southwest France."
+  },
+  {
+    "item_id": "SA-000460",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 86,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Aarhus is the second-largest city in Denmark, not in flag."
+  },
+  {
+    "item_id": "SA-000461",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The evidence states he served as controller of BBC Two."
+  },
+  {
+    "item_id": "SA-000462",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 70,
+    "issue_flags": ["partial_warrant", "entity_or_attribute_confusion"],
+    "brief_reason": "Mahira Khan is listed among the stars, but her character is not named as Aasiya Alam."
+  },
+  {
+    "item_id": "SA-000463",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "The 2010 census figure of 662,577 for the metropolitan area is more than 600,000."
+  },
+  {
+    "item_id": "SA-000464",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["multi_sentence_integration", "partial_warrant"],
+    "brief_reason": "An alternative sentence says they depend on the ocean as their main food source, and their range includes the Arctic Ocean."
+  },
+  {
+    "item_id": "SA-000465",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 68,
+    "issue_flags": ["partial_warrant", "possible_missing_surrounding_context"],
+    "brief_reason": "He is from Maine, but Bangor is not mentioned."
+  },
+  {
+    "item_id": "SA-000466",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 62,
+    "issue_flags": ["possible_missing_surrounding_context"],
+    "brief_reason": "The film is called a two-part drama, with no mention of a trilogy or a third version."
+  },
+  {
+    "item_id": "SA-000467",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Her birth date is given as February 10, 2000, not February 7, 2000."
+  },
+  {
+    "item_id": "SA-000468",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 74,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Ten matches were contested at the SummerSlam event, which warrants that the event had ten matches."
+  },
+  {
+    "item_id": "SA-000469",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Entering electronics in the late 1960s falls within the late twentieth century."
+  },
+  {
+    "item_id": "SA-000470",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 68,
+    "issue_flags": ["partial_warrant", "entity_or_attribute_confusion"],
+    "brief_reason": "Lynn Barber wrote the source memoir, while the film is credited to Scherfig and Hornby."
+  },
+  {
+    "item_id": "SA-000471",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The series is said to have been created for Fox, not for dead people."
+  },
+  {
+    "item_id": "SA-000472",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "On the Hourglass album page, Taylor's studio album is said to have been released in 1997."
+  },
+  {
+    "item_id": "SA-000473",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The group is said to design passenger and commercial vehicles."
+  },
+  {
+    "item_id": "SA-000474",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "They are described as former child actresses, which warrants former child artists."
+  },
+  {
+    "item_id": "SA-000475",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 64,
+    "issue_flags": ["possible_missing_surrounding_context", "partial_warrant"],
+    "brief_reason": "The evidence mentions Marvel Comics work and does not address whether he wrote DC comics."
+  },
+  {
+    "item_id": "SA-000476",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 98,
+    "issue_flags": ["none"],
+    "brief_reason": "The evidence states the Brat Pack is a nickname given to a group of young actors."
+  },
+  {
+    "item_id": "SA-000477",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The charter is said to have been signed on 26 June 1945, not April 26, 1945."
+  },
+  {
+    "item_id": "SA-000478",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 66,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "Libya is called the 16th largest country, but the ranking is not dated to 2017."
+  },
+  {
+    "item_id": "SA-000479",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Mercedes-Benz is a division of Daimler AG, not a company of which Daimler is a division."
+  },
+  {
+    "item_id": "SA-000480",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Moscovium is identified as a synthetic element, not a molecule."
+  },
+  {
+    "item_id": "SA-000481",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 68,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "Several overlapping knockout counts are given, but not a career total of 30 knockouts."
+  },
+  {
+    "item_id": "SA-000482",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "Columbus gave the name in honor of the Virgin of La Antigua, not in honor of himself."
+  },
+  {
+    "item_id": "SA-000483",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 80,
+    "issue_flags": ["possible_coreference_or_entity_resolution", "possible_missing_title_context"],
+    "brief_reason": "On the Adobe Photoshop page, 'it' is described as licensed software."
+  },
+  {
+    "item_id": "SA-000484",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["none"],
+    "brief_reason": "SummerSlam 2015 is identified as a professional wrestling pay-per-view event, so it existed."
+  },
+  {
+    "item_id": "SA-000485",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 86,
+    "issue_flags": ["possible_coreference_or_entity_resolution"],
+    "brief_reason": "Ned is said to have been introduced in 1996's A Game of Thrones."
+  },
+  {
+    "item_id": "SA-000486",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 84,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The ice sheet is said to have covered North America during glacial periods over the last ~2.6 million years."
+  },
+  {
+    "item_id": "SA-000487",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["none"],
+    "brief_reason": "Principal photography is said to have begun on December 8, 2015."
+  },
+  {
+    "item_id": "SA-000488",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "The Battle of France is described as the German invasion during the Second World War."
+  },
+  {
+    "item_id": "SA-000489",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "He is identified as an American actor and stand-up comedian."
+  },
+  {
+    "item_id": "SA-000490",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 92,
+    "issue_flags": ["none"],
+    "brief_reason": "Wilk started as a drummer for Greta in 1990."
+  },
+  {
+    "item_id": "SA-000491",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "Born in 1207 and king from 1216, and an alternative sentence says he assumed the throne at nine, not two."
+  },
+  {
+    "item_id": "SA-000492",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 78,
+    "issue_flags": ["entity_or_attribute_confusion", "multi_sentence_integration"],
+    "brief_reason": "Burr killed Alexander Hamilton, who is identified as a Founding Father, though the evidence says killed rather than murdered."
+  },
+  {
+    "item_id": "SA-000493",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 70,
+    "issue_flags": ["entity_or_attribute_confusion", "partial_warrant"],
+    "brief_reason": "He scored 33 goals for the Brazil national team, but the evidence does not say that team is basketball."
+  },
+  {
+    "item_id": "SA-000494",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 76,
+    "issue_flags": ["entity_or_attribute_confusion"],
+    "brief_reason": "The work is identified as a 1992 film, which warrants treating it as a single motion picture."
+  },
+  {
+    "item_id": "SA-000495",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "probably_sufficient",
+    "confidence": 82,
+    "issue_flags": ["numerical_or_temporal_reasoning", "negation_or_scope"],
+    "brief_reason": "She served as Ambassador to Japan from 2013 to 2017, so the present-tense claim is not warranted."
+  },
+  {
+    "item_id": "SA-000496",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "First-week sales are given as 258,000 copies, not about 500,000."
+  },
+  {
+    "item_id": "SA-000497",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "partial_or_ambiguous",
+    "confidence": 68,
+    "issue_flags": ["partial_warrant"],
+    "brief_reason": "He is accompanied by Wilfred Mott on his final adventure in The End of Time, but recruiting him throughout is not stated."
+  },
+  {
+    "item_id": "SA-000498",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 95,
+    "issue_flags": ["numerical_or_temporal_reasoning"],
+    "brief_reason": "The first building is said to have operated from 1963 to 2006, not to have stopped in 1962."
+  },
+  {
+    "item_id": "SA-000499",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Refuted",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 90,
+    "issue_flags": ["negation_or_scope"],
+    "brief_reason": "The chair has been retired except for that group, not kept in operation except for that group."
+  },
+  {
+    "item_id": "SA-000500",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Ambiguous",
+    "evidence_sufficiency": "probably_insufficient",
+    "confidence": 70,
+    "issue_flags": ["numerical_or_temporal_reasoning", "partial_warrant"],
+    "brief_reason": "Seven studio albums are listed from 2009 onward, which does not establish more than eight."
+  },
+  {
+    "item_id": "SA-000501",
+    "judge_id": "judge_2",
+    "stage": "C",
+    "verdict": "Supported",
+    "evidence_sufficiency": "clearly_sufficient",
+    "confidence": 96,
+    "issue_flags": ["none"],
+    "brief_reason": "Roar is identified as a Katy Perry song for her fourth studio album, Prism."
+  }
+]

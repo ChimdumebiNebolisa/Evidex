@@ -1,0 +1,15 @@
+Linux WSL2 SDK run for p01_C_j3_b10 attempt-01
+status: error
+started 2026-09-28T00:36:01.366Z completed 2026-09-28T00:37:48.848Z
+legacy lock: cursor-grok-4.6-high-fast
+canonical selection: {"id":"grok-4.6","params":[{"id":"effort","value":"high"},{"id":"fast","value":"true"}]}
+sandbox_enabled: true
+sandbox_initialized: true
+agent_id: agent-14e01154-ce8b-46a6-acdc-5f2a2eb2e9f2
+run_id: run-6a03a5bd-c201-45f2-9105-eedafc0c3d81
+offered_tools: read, edit, piWrite
+observed_tool_names: read
+hooks_loaded: true
+designated_output_written: false
+error: Streaming connection stalled during generation; model run ended with status error before output was written.
+raw_response_unavailable_reason: stream stalled and run ended with status error; designated output was never created

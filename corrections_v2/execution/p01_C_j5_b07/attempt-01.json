@@ -1,0 +1,37 @@
+{
+  "job_id": "p01_C_j5_b07",
+  "attempt": 1,
+  "status": "accepted",
+  "requested_model": "cursor-grok-4.6-high-fast",
+  "resolved_model": "cursor-grok-4.6-high-fast",
+  "provider_model_version": null,
+  "version_metadata_status": "not_exposed",
+  "version_metadata_note": "Catalog, dispatch, SDK init, run.model, result.model, fail-closed hook audit, SDK event stream, and usage records were inspected. Provider/backend version is not exposed.",
+  "cursor_version": "3.17.8",
+  "session_id": "agent-88b8db32-24ad-4c20-a5ca-91c00582b803",
+  "started_at_utc": "2026-09-28T02:33:33.288Z",
+  "completed_at_utc": "2026-09-28T02:36:51.189Z",
+  "operator": "cursor-coordinator",
+  "reviewer": "cursor-coordinator-gate",
+  "routing_and_isolation_reviewed": true,
+  "fresh_context": true,
+  "inherited_context": false,
+  "auto": false,
+  "inherit": false,
+  "web_browse": false,
+  "external_retrieval": false,
+  "temperature": "provider_default",
+  "visible_input_files": [
+    "corrections_v2/blind_io/p01/stage_c/p01_C_j5_b07.json"
+  ],
+  "packet_sha256": "4b2e1230486eaf47a4ad96d493893541a8d8f771c38627fe3f325c000dd81aaa",
+  "output_sha256": "e87ac1f3c2f94e3101c6109c867ca26c14cef58b0d3cea5070b14d0d4b816d7c",
+  "raw_response": {
+    "path": "corrections_v2/execution/p01_C_j5_b07/attempt-01.raw.txt",
+    "sha256": "e87ac1f3c2f94e3101c6109c867ca26c14cef58b0d3cea5070b14d0d4b816d7c"
+  },
+  "routing_evidence": {
+    "path": "corrections_v2/execution/p01_C_j5_b07/attempt-01.routing.txt",
+    "sha256": "33964b5d50e6dab4a1509569bd7db5efe3337646ee979ec40953bff6d77f74f0"
+  }
+}

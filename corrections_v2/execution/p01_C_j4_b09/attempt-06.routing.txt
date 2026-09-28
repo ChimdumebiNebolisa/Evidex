@@ -1,0 +1,15 @@
+Linux WSL2 SDK run for p01_C_j4_b09 attempt-06
+status: error
+started unknown completed unknown
+legacy lock: cursor-grok-4.6-high-fast
+canonical selection: {"id":"grok-4.6","params":[{"id":"effort","value":"high"},{"id":"fast","value":"true"}]}
+sandbox_enabled: true
+sandbox_initialized: true
+agent_id: agent-75ca21dc-3cb7-4dfa-a4c6-969b0f30bc9a
+run_id: run-1de957b0-00a8-4f1a-9066-12ee1261c933
+offered_tools: read, edit, piWrite
+observed_tool_names: read
+hooks_loaded: true
+designated_output_written: false
+error: Increase limits for faster responses You're out of usage. Switch to Auto, or ask your admin to increase your limit to continue.
+raw_response_unavailable_reason: stream stalled and run ended with status error; designated output was never created
