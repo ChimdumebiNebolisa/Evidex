@@ -4,7 +4,7 @@ python paper_corrected_draft/check_draft.py
 
 Checks brace and environment balance per file, that every \\input and \\includegraphics target
 exists, that every \\ref has a \\label, that every
-\\citep/\\citet key is in ../paper/references.bib, and that withdrawn historical figures appear only
+\\citep/\\citet key is in ../historical/paper/references.bib, and that withdrawn historical figures appear only
 in the appendix section that lists them as withdrawn. Exit 0 = all checks pass.
 """
 import re
@@ -45,7 +45,7 @@ def main():
     labels = set(re.findall(r"\\label\{([^}]+)\}", text))
     refs = set(re.findall(r"\\ref\{([^}]+)\}", text))
     problems += [f"undefined \\ref: {r}" for r in sorted(refs - labels)]
-    bib = (DRAFT / "../paper/references.bib").read_text(encoding="utf-8")
+    bib = (DRAFT / "../historical/paper/references.bib").read_text(encoding="utf-8")
     keys = set(re.findall(r"@\w+\{([^,\s]+),", bib))
     cited = {k.strip() for group in re.findall(r"\\cite[pt]?\{([^}]+)\}", text) for k in group.split(",")}
     problems += [f"unknown citation key: {k}" for k in sorted(cited - keys)]

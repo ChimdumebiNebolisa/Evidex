@@ -2,15 +2,14 @@
 \label{sec:intro}
 
 Evidence grounding is a standard method for making language-model fact verification more trustworthy.
-If a model is shown the evidence that a benchmark designates as sufficient, aggregate accuracy should rise, and the errors that remain should reflect problems of retrieval or coverage rather than a failure to use that evidence.
-Aggregate accuracy can, however, hide a second phenomenon: claims that a model classifies correctly without evidence but incorrectly after the designated evidence is added.
+Providing benchmark-designated evidence can improve aggregate accuracy, yet that average can hide claims that a model classifies correctly without evidence but incorrectly after the evidence is added.
 We call such a correct-to-wrong change a \emph{regression}.
 
 We study regressions on FEVER \citep{thorne-etal-2018-fever}, a claim-verification dataset built from Wikipedia.
 Annotators labeled each FEVER claim Supported, Refuted or Not Enough Info and, for Supported and Refuted claims, recorded the Wikipedia sentences that serve as evidence.
 FEVER suits the question because this annotated evidence can be given to a model directly.
 From its development set we draw a balanced sample of 10{,}000 Supported and Refuted claims and evaluate GPT-5.4 and GPT-5.4-mini on each claim twice: once with the claim alone, and once with the claim plus its FEVER-designated evidence, which we call gold evidence.
-Because each claim is compared with itself and no retrieval step is involved, a change between the two conditions can be attributed to the supplied evidence rather than to retrieval.
+Because each claim is compared with itself and no retrieval step is involved, this design records changes observed when evidence is supplied without confounding them with retrieved passages.
 The sample is restricted to the two labels for which FEVER records evidence, so it does not represent FEVER as a whole.
 
 Evidence helps in aggregate (Table~\ref{tab:accuracy}), but it also produces regressions.

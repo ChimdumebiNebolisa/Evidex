@@ -1,6 +1,6 @@
 # Old claim → corrected claim (2026-09-28)
 
-"Old" is the pinned historical draft in `paper/` (unchanged). "Corrected" is this draft. Corrected
+"Old" is the pinned historical draft in `historical/paper/` (unchanged). "Corrected" is this draft. Corrected
 adjudication numbers come from the 70 accepted Stage C outputs under the dated post-judgment
 amendment A1 (`corrections_v2/amendment_2026-09-28/`). The first-valid outputs are reported as
 sensitivity. A1 is not preregistered, and the frozen protocol's own primary analysis remains
@@ -34,7 +34,7 @@ incomplete.
 
 | Old | Status in the corrected draft |
 |---|---|
-| `tab_accuracy.tex` | reused unchanged from `paper/tables/` |
+| `tab_accuracy.tex` | reused unchanged from `historical/paper/tables/` |
 | `tab_mechanism.tex`, `tab_cross_family.tex` | withdrawn; replaced by `tables/tab_diagnostic_v2.tex` |
 | `tab_shared.tex` | replaced by `tables/tab_shared_v2.tex` |
 | — | new: `tables/tab_stage_v2.tex` |

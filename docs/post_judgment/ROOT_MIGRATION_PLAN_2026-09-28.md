@@ -1,5 +1,7 @@
 # Root clean-up: post-submission migration plan — 2026-09-28
 
+**Historical planning note.** The organized-layout branch superseded this deferral decision. See `LAYOUT_MIGRATION_2026-09-28.md` for the implemented move and its verifier. The discussion below describes the pre-migration state.
+
 **Decision: the repository root is not reorganized now.** Every candidate move conflicts with at
 least one contract:
 

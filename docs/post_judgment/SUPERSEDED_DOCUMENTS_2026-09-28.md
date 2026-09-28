@@ -1,5 +1,7 @@
 # Superseded documents — successor index, 2026-09-28
 
+**Pre-layout index.** The original root README and REPRODUCING documents now live in `docs/historical/`. The current entry points are the new root `README.md`, root `REPRODUCING.md`, and `docs/CURRENT_STATUS.md`. Paths in the table below refer to the pre-layout commit.
+
 The documents below are dated snapshots. Each one is hash-pinned, either by the 774-file historical
 inventory or by the correction code fingerprint, so it cannot be edited or annotated in place without
 breaking verification. This index is their successor. The current entry point is `CURRENT_STATUS.md`

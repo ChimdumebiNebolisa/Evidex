@@ -1,5 +1,7 @@
 # Immutability map — 2026-09-28
 
+**Historical path map.** The organized-layout branch preserves this freeze at commit `33121b7`; moved files are checked at their new locations by `tools/verify_layout.py`. See `LAYOUT_MIGRATION_2026-09-28.md`. The original path restrictions below apply to the pre-layout commit.
+
 Path-level map of what may and may not change on `codex/methodology-correction-v2` after the
 required Stage C judgments (base commit `606681b`). This document sits outside every hash
 inventory (the `docs/post_judgment/` directory is matched by none of the globs below), so adding or

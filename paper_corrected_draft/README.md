@@ -1,6 +1,6 @@
 # Corrected submission draft — 2026-09-28 (for coauthor review)
 
-`evidex-corrected-draft.pdf` is the compiled draft. The historical draft in `paper/` is
+`evidex-corrected-draft.pdf` is the compiled draft. The historical draft in `historical/paper/` is
 hash-pinned and unchanged.
 
 - Behavioral findings (RQ1/RQ2 and the NLI characterization) are carried over unchanged.
@@ -15,10 +15,10 @@ hash-pinned and unchanged.
 
 Tables 2–4 and Figures 3–4 are generated from
 `corrections_v2/amendment_2026-09-28/results/` by `make_assets.py`. Table 1, the bibliography and
-Figures 1–2 are reused unchanged from `../paper/` and `../analysis_v2/figures/`.
+Figures 1–2 are reused unchanged from `../historical/paper/` and `../analysis_v2/figures/`.
 
 ```
-python corrections_v2/amendment_2026-09-28/amended_analysis.py status   # expect ready_under_amendment_A1
+python tools/run_frozen.py -- python corrections_v2/amendment_2026-09-28/amended_analysis.py status   # expect ready_under_amendment_A1
 python paper_corrected_draft/make_assets.py
 python paper_corrected_draft/check_draft.py
 cd paper_corrected_draft && latexmk -pdf main.tex && cp main.pdf evidex-corrected-draft.pdf

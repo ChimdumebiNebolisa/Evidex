@@ -1,0 +1,731 @@
+{
+  "source_commit": "33121b773ecbd438fc4c473d5b3cd3a06f8961fd",
+  "entries": [
+    {
+      "old_path": "CURRENT_STATUS.md",
+      "new_path": "docs/historical/CURRENT_STATUS_before_layout.md",
+      "sha256": "2d377d3ba791468c38dbbff63d2535e051c6c1b5922db82a520596e3bc87b8a6",
+      "kind": "text"
+    },
+    {
+      "old_path": "MARKDOWN_CONSISTENCY_AUDIT.md",
+      "new_path": "docs/historical/MARKDOWN_CONSISTENCY_AUDIT.md",
+      "sha256": "1994a244037a27b093e0eeccb7ab0d91069079fccb6978cd25a7e915000a7030",
+      "kind": "text"
+    },
+    {
+      "old_path": "PUBLICATION_ARTIFACT_AUDIT.md",
+      "new_path": "docs/historical/PUBLICATION_ARTIFACT_AUDIT.md",
+      "sha256": "63fdd431de01b1f61e325e722c2e75bf901d1863fbe66d9c0185d5a3ba9673d0",
+      "kind": "text"
+    },
+    {
+      "old_path": "README.md",
+      "new_path": "docs/historical/ROOT_README.md",
+      "sha256": "951abfecd05a555f5386bd453caa9e034c517d250049db5533c9c2ec1810a946",
+      "kind": "text"
+    },
+    {
+      "old_path": "REPRODUCING.md",
+      "new_path": "docs/historical/REPRODUCING.md",
+      "sha256": "4ef6b0b65c08d398e8f109dde5e6e9f0a961df89b74f64c09f3684dddcfc3b7b",
+      "kind": "text"
+    },
+    {
+      "old_path": "aggregate_manual_annotations.py",
+      "new_path": "historical/pipeline/aggregate_manual_annotations.py",
+      "sha256": "102efa9711ba4b56930c2a7b664ca5ad86b7c673c65aeada52e30c4813ac3308",
+      "kind": "text"
+    },
+    {
+      "old_path": "analyze_experiment_results.py",
+      "new_path": "historical/pipeline/analyze_experiment_results.py",
+      "sha256": "c25ea411ad028a7692bdc24c65b5fed395bb965fb8fc08d4f9f8427cf047a5b0",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/AI Fact checker - Evidence Helper.csv",
+      "new_path": "historical/archive_old_pipeline/AI Fact checker - Evidence Helper.csv",
+      "sha256": "255436a04f7702faaced0edbe478b73318525cb6d681a708b4617bb63bc106df",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/AI Fact checker - Experiment Tracker.csv",
+      "new_path": "historical/archive_old_pipeline/AI Fact checker - Experiment Tracker.csv",
+      "sha256": "2695bd9ee704b7836174fab10b00825ee3b9fec4ed9bd8752074a30b8e098417",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/AI Fact checker - Legend.csv",
+      "new_path": "historical/archive_old_pipeline/AI Fact checker - Legend.csv",
+      "sha256": "fccd8ef1ec57c7acc337d177aeca813e2f41733eae427164591d02ecbd9c40d5",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/evidence_index_large_v1.csv",
+      "new_path": "historical/archive_old_pipeline/evidence_index_large_v1.csv",
+      "sha256": "d5a497a5d96ffd57954f5cd53e67d1cd5e2d4dbe4c141d67c0b65c47843ec8c0",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/experiment_results.csv",
+      "new_path": "historical/archive_old_pipeline/experiment_results.csv",
+      "sha256": "c36b1ae07c0e60f5de75a83dcb5de3d4e0120a4e437285704fc2c002c302a417",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/experiment_runs.csv",
+      "new_path": "historical/archive_old_pipeline/experiment_runs.csv",
+      "sha256": "ff6b0e0a681373a71bea20fadba8f882f5bb05259d676d808039e9678cee1063",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/experiment_runs_large_v1.csv",
+      "new_path": "historical/archive_old_pipeline/experiment_runs_large_v1.csv",
+      "sha256": "2af0aa9637fe50301e29716d76373e0c5375b375b63d3aaa3b3b8ca391abd5a3",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/experiment_summary.csv",
+      "new_path": "historical/archive_old_pipeline/experiment_summary.csv",
+      "sha256": "0997c70257fb25d02e6353a44519aa5e358b1787cc1b578aa7e6eee3b9763ff3",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/experiment_tracker_large_v1.csv",
+      "new_path": "historical/archive_old_pipeline/experiment_tracker_large_v1.csv",
+      "sha256": "7435c54a44cc9280b7c1771f459bada701e53c69c874cd67a0b4d3214af4ac05",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/experiment_tracker_with_evidence.csv",
+      "new_path": "historical/archive_old_pipeline/experiment_tracker_with_evidence.csv",
+      "sha256": "eb7ca4fb7aa68be8ea3f71cf8e43a0f363bc0a47f8f085f5a6e5873c50ff9daa",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/experiment_tracker_with_evidence_large_v1.csv",
+      "new_path": "historical/archive_old_pipeline/experiment_tracker_with_evidence_large_v1.csv",
+      "sha256": "4bbb267c1f3b6aaad325de11947295664811522f018941cbb504335d6e9abcd2",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/fever_pilot.csv",
+      "new_path": "historical/archive_old_pipeline/fever_pilot.csv",
+      "sha256": "55ac730e41ce6c4a3759a663f2516c658e19602a0601f3a22538b3ece025873d",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/legacy_large_v1_clean/experiment_results_large_v1_clean.csv",
+      "new_path": "historical/archive_old_pipeline/legacy_large_v1_clean/experiment_results_large_v1_clean.csv",
+      "sha256": "3a4db278960da4ff267ecf3eb59a501321e5d4d2f50a7d94487831a611878414",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/legacy_large_v1_clean/experiment_runs_large_v1_clean.csv",
+      "new_path": "historical/archive_old_pipeline/legacy_large_v1_clean/experiment_runs_large_v1_clean.csv",
+      "sha256": "7c48f1bda4be5c40393f872f7c379ff9a1c3c862c8adc4e0292f5760604407b5",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/legacy_large_v1_clean/experiment_summary_large_v1_clean.csv",
+      "new_path": "historical/archive_old_pipeline/legacy_large_v1_clean/experiment_summary_large_v1_clean.csv",
+      "sha256": "4e7a9c80d5085a72dea55c7e00df041e9bab9251558ab6c9d98c10c5fa3d3ab1",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/legacy_large_v1_clean/experiment_tracker_with_evidence_large_v1_clean.csv",
+      "new_path": "historical/archive_old_pipeline/legacy_large_v1_clean/experiment_tracker_with_evidence_large_v1_clean.csv",
+      "sha256": "c285823d9e795145f0c1c0fc2031c1038180aa93f7aed60a001d925ea75eebe8",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/legacy_large_v1_clean/fever_large_v1_source_clean.csv",
+      "new_path": "historical/archive_old_pipeline/legacy_large_v1_clean/fever_large_v1_source_clean.csv",
+      "sha256": "2f8545d1a4b0b5354a268d9228881c1c53a075e2f9aef1bfe8db399f89cf4fbc",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/legacy_large_v1_clean/resolved_gold_evidence_large_v1_clean.csv",
+      "new_path": "historical/archive_old_pipeline/legacy_large_v1_clean/resolved_gold_evidence_large_v1_clean.csv",
+      "sha256": "3caea33696ea2b83d184fe65923baf4f875b9f15818d79fbe962c870160e53db",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/pilot_evidence_index.csv",
+      "new_path": "historical/archive_old_pipeline/pilot_evidence_index.csv",
+      "sha256": "2fc5f81a005974dabbff536ac1b5fc6ba33edac38639ed1b572717de966c68cc",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/resolved_gold_evidence.csv",
+      "new_path": "historical/archive_old_pipeline/resolved_gold_evidence.csv",
+      "sha256": "57173077778a6736e3614bafb50b61f28c8711ff0745fdb852c40a581a4f3f96",
+      "kind": "text"
+    },
+    {
+      "old_path": "archive_old_pipeline/resolved_gold_evidence_large_v1.csv",
+      "new_path": "historical/archive_old_pipeline/resolved_gold_evidence_large_v1.csv",
+      "sha256": "2fe49fcff460eaad9e3050caa507a9c9b4c533f9ee068b04eae87b23d2ad4cad",
+      "kind": "text"
+    },
+    {
+      "old_path": "create_pilot_runs_subset.py",
+      "new_path": "historical/pipeline/create_pilot_runs_subset.py",
+      "sha256": "befb6f8ce0eaf4225564a0969b015993de09d24ae4be83661aa601b88aae783d",
+      "kind": "text"
+    },
+    {
+      "old_path": "dataset_validation_balanced_10000_v1.json",
+      "new_path": "historical/inputs/dataset_validation_balanced_10000_v1.json",
+      "sha256": "d41acfa53e0c51e3ac03237fde95c574dc6649b926e633fb174f30f7651e899d",
+      "kind": "text"
+    },
+    {
+      "old_path": "dataset_validation_balanced_1000_v1.json",
+      "new_path": "historical/pilot/dataset_validation_balanced_1000_v1.json",
+      "sha256": "fa3fadedcc5d449d56bf2024d84ac08ca6d36fa54eb9586e9b84d85104f7e1e3",
+      "kind": "text"
+    },
+    {
+      "old_path": "error_taxonomy_counts_balanced_10000_v1.csv",
+      "new_path": "historical/behavioral_results/error_taxonomy_counts_balanced_10000_v1.csv",
+      "sha256": "9d1d6cd8729c29d052e6ff5aa294ced61dffdbcfbd1ec59d2c46851189d4a0ea",
+      "kind": "text"
+    },
+    {
+      "old_path": "error_taxonomy_counts_balanced_10000_v1_pilot.csv",
+      "new_path": "historical/pilot/error_taxonomy_counts_balanced_10000_v1_pilot.csv",
+      "sha256": "4ab9a096c24c39df74f47c32513c3ae18014c29a07b427f51d6869651c423ff5",
+      "kind": "text"
+    },
+    {
+      "old_path": "error_taxonomy_counts_balanced_1000_v1.csv",
+      "new_path": "historical/pilot/error_taxonomy_counts_balanced_1000_v1.csv",
+      "sha256": "145cc72d9b4d7c3e3e1105adb2db73b063e2491dc82208d6abd285f1c60b21db",
+      "kind": "text"
+    },
+    {
+      "old_path": "error_taxonomy_counts_balanced_1000_v1_pilot.csv",
+      "new_path": "historical/pilot/error_taxonomy_counts_balanced_1000_v1_pilot.csv",
+      "sha256": "13fa5066bc5f3f3ceb1d8bc7ced85b1f0cdd2e5dbfa4100193163060e0b8dc66",
+      "kind": "text"
+    },
+    {
+      "old_path": "evidence_condition_errors_balanced_10000_v1.csv",
+      "new_path": "historical/behavioral_results/evidence_condition_errors_balanced_10000_v1.csv",
+      "sha256": "2183a5a4fe7f7285bb85889607a4344a4d989ecf0992d6a3cb0c89412dde4544",
+      "kind": "text"
+    },
+    {
+      "old_path": "evidence_condition_errors_balanced_10000_v1_pilot.csv",
+      "new_path": "historical/pilot/evidence_condition_errors_balanced_10000_v1_pilot.csv",
+      "sha256": "e35cf0bd16a7948741d3a40260484dde0d75c806759883bd19a8b40fde2bdd0c",
+      "kind": "text"
+    },
+    {
+      "old_path": "evidence_condition_errors_balanced_1000_v1.csv",
+      "new_path": "historical/pilot/evidence_condition_errors_balanced_1000_v1.csv",
+      "sha256": "70db4b5feea44d6951a9bcec06825b8a086e3e1677146e6ed3a472dce3d0b040",
+      "kind": "text"
+    },
+    {
+      "old_path": "evidence_condition_errors_balanced_1000_v1_pilot.csv",
+      "new_path": "historical/pilot/evidence_condition_errors_balanced_1000_v1_pilot.csv",
+      "sha256": "553f8e5e1697894788c81ecfc6841e969f0beb3fd3730288a215c4b8236acdaa",
+      "kind": "text"
+    },
+    {
+      "old_path": "example_failure_cases_balanced_10000_v1.csv",
+      "new_path": "historical/behavioral_results/example_failure_cases_balanced_10000_v1.csv",
+      "sha256": "441ae7510718db965a5f7e5616a13b317fdbdaa862d43a09e427a21c4bbfeb0c",
+      "kind": "text"
+    },
+    {
+      "old_path": "example_failure_cases_balanced_10000_v1_pilot.csv",
+      "new_path": "historical/pilot/example_failure_cases_balanced_10000_v1_pilot.csv",
+      "sha256": "b1d218248dc8a977f476e11c184aa1bab8737501269af2c7df34471bccac78ce",
+      "kind": "text"
+    },
+    {
+      "old_path": "example_failure_cases_balanced_1000_v1.csv",
+      "new_path": "historical/pilot/example_failure_cases_balanced_1000_v1.csv",
+      "sha256": "966a023c49faf23e950dc96d31c903ac8ef7719d1c4e8315c5ccd017425ad08a",
+      "kind": "text"
+    },
+    {
+      "old_path": "example_failure_cases_balanced_1000_v1_pilot.csv",
+      "new_path": "historical/pilot/example_failure_cases_balanced_1000_v1_pilot.csv",
+      "sha256": "0684bcbed4f001866c982fc7504d3f098ca5a984861aa3e6cc16204ae5fa1dd0",
+      "kind": "text"
+    },
+    {
+      "old_path": "expand_experiment_runs.py",
+      "new_path": "historical/pipeline/expand_experiment_runs.py",
+      "sha256": "42ff52622c918050c2fa9b2fe6058b84f065948d62df5664ee2f8f0592e6c711",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_config.py",
+      "new_path": "historical/pipeline/experiment_config.py",
+      "sha256": "366c4b61bb39c5fa15e8499af494152cccd396fd7b5848f4cc3ad927be99f33e",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_metrics_balanced_10000_v1.csv",
+      "new_path": "historical/behavioral_results/experiment_metrics_balanced_10000_v1.csv",
+      "sha256": "71d4c48454b7486ac9eb5b3982ee6850302c10456c2ef48707dd2a935b8ab386",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_metrics_balanced_10000_v1_pilot.csv",
+      "new_path": "historical/pilot/experiment_metrics_balanced_10000_v1_pilot.csv",
+      "sha256": "d9598bc93e4572b77d3570e2ad1f7f282b7477746b8cc86c3dd509a8721df991",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_metrics_balanced_1000_v1.csv",
+      "new_path": "historical/pilot/experiment_metrics_balanced_1000_v1.csv",
+      "sha256": "0aaede6b187f77407dd0de408112d731d685c58ea263ac876ff34b7dcdc212d9",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_metrics_balanced_1000_v1_pilot.csv",
+      "new_path": "historical/pilot/experiment_metrics_balanced_1000_v1_pilot.csv",
+      "sha256": "9e081dc73a3354e8355132fb351ac1f0a87035ddac73dbdb1b97a33a507bd290",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_results_balanced_10000_v1.csv",
+      "new_path": "historical/experiment/experiment_results_balanced_10000_v1.csv",
+      "sha256": "40b4d8937d886672058cf7352616d3566660b991e5fe2770f4f72b1172a84d20",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_results_balanced_10000_v1_pilot.csv",
+      "new_path": "historical/pilot/experiment_results_balanced_10000_v1_pilot.csv",
+      "sha256": "ecb53c512b54a873d42df55b4b282b605f0b44151296a817b41a1f4af1c58cc9",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_results_balanced_1000_v1.csv",
+      "new_path": "historical/pilot/experiment_results_balanced_1000_v1.csv",
+      "sha256": "a0fd81e01f73418d3a489387b037fdefc37f89807dfd0294049c86dd75021891",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_results_balanced_1000_v1_pilot.csv",
+      "new_path": "historical/pilot/experiment_results_balanced_1000_v1_pilot.csv",
+      "sha256": "8764cbef0a3351a79ac93f1947e12101222090c52467c136275b54890e3eb8ea",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_runs_balanced_10000_v1.csv",
+      "new_path": "historical/experiment/experiment_runs_balanced_10000_v1.csv",
+      "sha256": "81e5c46c89bab0347ba9216d763f4fabbd6b98e68d0205ca7ae8b705a0a7cbb1",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_runs_balanced_10000_v1_pilot.csv",
+      "new_path": "historical/pilot/experiment_runs_balanced_10000_v1_pilot.csv",
+      "sha256": "1762bd976216ea5f38b684d74d6223ed3e2472e118f99e379249d371d7926627",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_runs_balanced_1000_v1.csv",
+      "new_path": "historical/pilot/experiment_runs_balanced_1000_v1.csv",
+      "sha256": "d90d9bb06fea3045ad86c4e48847e856fca8d669bf27eb07fffbb9aab1698fa0",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_runs_balanced_1000_v1_pilot.csv",
+      "new_path": "historical/pilot/experiment_runs_balanced_1000_v1_pilot.csv",
+      "sha256": "72766dd8c4be55bcb71f038024cf4e002339e2d5d4e1ab06ac9ca35c52d99fab",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_summary_balanced_10000_v1.csv",
+      "new_path": "historical/behavioral_results/experiment_summary_balanced_10000_v1.csv",
+      "sha256": "a46444a365f3688134e821149968ba1a81259344770658f60303d9e998e8d754",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_summary_balanced_10000_v1_pilot.csv",
+      "new_path": "historical/pilot/experiment_summary_balanced_10000_v1_pilot.csv",
+      "sha256": "89419fcb9536ebdd3c38c6e7ec8feba2c7de4350555c9c2bab4ded80f079197c",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_summary_balanced_1000_v1.csv",
+      "new_path": "historical/pilot/experiment_summary_balanced_1000_v1.csv",
+      "sha256": "dc9074496e65caee67f66a268f31b05a86f77dc477f078d3c3010e67f7d3239c",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_summary_balanced_1000_v1_pilot.csv",
+      "new_path": "historical/pilot/experiment_summary_balanced_1000_v1_pilot.csv",
+      "sha256": "f7a9a93be8dc529e33a76ae2860e4c33c1fdb4a54df17b29853a34bf8e4c3a0a",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_tracker_balanced_10000_v1.csv",
+      "new_path": "historical/experiment/experiment_tracker_balanced_10000_v1.csv",
+      "sha256": "07e5376c12b1f437f9410c1e27253f982a4e460dc717ca708a885f1421a3b681",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_tracker_balanced_1000_v1.csv",
+      "new_path": "historical/pilot/experiment_tracker_balanced_1000_v1.csv",
+      "sha256": "62a97e8f43ceb27cc53cf3e30face7744e27bf7610362f6610ed70a88cf9da15",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_tracker_with_evidence_balanced_10000_v1.csv",
+      "new_path": "historical/experiment/experiment_tracker_with_evidence_balanced_10000_v1.csv",
+      "sha256": "9adf96a56c16f271ce1f72aeda2a53ac2bd8107c41a057ccd657ec681da50339",
+      "kind": "text"
+    },
+    {
+      "old_path": "experiment_tracker_with_evidence_balanced_1000_v1.csv",
+      "new_path": "historical/pilot/experiment_tracker_with_evidence_balanced_1000_v1.csv",
+      "sha256": "b0e5ba63bc9b8f39a641149a7c990c125007004132011779dc03b96a25fd39cf",
+      "kind": "text"
+    },
+    {
+      "old_path": "extract_fever_balanced_sample.py",
+      "new_path": "historical/pipeline/extract_fever_balanced_sample.py",
+      "sha256": "0a73554a272542a5470bd64b4ca70482e4db59435a6d5aeae571f76313a27a02",
+      "kind": "text"
+    },
+    {
+      "old_path": "fever_balanced_10000_v1_source.csv",
+      "new_path": "historical/inputs/fever_balanced_10000_v1_source.csv",
+      "sha256": "6731b33d2eb015bc19b7c15dc90640662d0c423dce85f76df8bed9758235dc19",
+      "kind": "text"
+    },
+    {
+      "old_path": "fever_balanced_1000_v1_source.csv",
+      "new_path": "historical/pilot/fever_balanced_1000_v1_source.csv",
+      "sha256": "fbf50b6ddb0521a4b63f1c5bf4711095ec4f061119141a1dc74fd88c65c0eec0",
+      "kind": "text"
+    },
+    {
+      "old_path": "fever_evidence.py",
+      "new_path": "historical/pipeline/fever_evidence.py",
+      "sha256": "69f0fd327b7966ba0f8214738f37dc596fbcc46b545d29aa7758364cf5c175f2",
+      "kind": "text"
+    },
+    {
+      "old_path": "manual_annotations_evidence_failures_balanced_10000_v1.csv",
+      "new_path": "historical/behavioral_results/manual_annotations_evidence_failures_balanced_10000_v1.csv",
+      "sha256": "ae1619b3d1b54bbf15f98be3d898169ac50caacf43e3b1a213067bf5f1cfa16f",
+      "kind": "text"
+    },
+    {
+      "old_path": "merge_parallel_results.py",
+      "new_path": "historical/pipeline/merge_parallel_results.py",
+      "sha256": "224c33cf2cb5e589f2f5936ebe7bfa9296333f5a060277a37eb00fcd328534af",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/.gitignore",
+      "new_path": "historical/paper/.gitignore",
+      "sha256": "a78d7c76ff2cd290db7ae1bc64cab61cb0172ae25686e90309a65e1404af425b",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/CITATION_TODOS.md",
+      "new_path": "historical/paper/CITATION_TODOS.md",
+      "sha256": "d6f926b5aa9a13412026b297f5940f4fc714a7d5a324bb974ec3251156078e97",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/CLAIM_SOURCE_MAP.md",
+      "new_path": "historical/paper/CLAIM_SOURCE_MAP.md",
+      "sha256": "8f63d85c7f536fda3f305b84ac0dfaf24a6d47c75de3619891032d75e8aefe23",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/LITERATURE_MAP.md",
+      "new_path": "historical/paper/LITERATURE_MAP.md",
+      "sha256": "b7023fdd3aa5f83963ee4bfbb00a00eab50625d12ef377cb90a91e81ae1e4dfb",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/README.md",
+      "new_path": "historical/paper/README.md",
+      "sha256": "8be08e0fae1de8ab20640eb8797895ef55b7697a511a9ca169c0b0d2ed25af9e",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/TITLE_OPTIONS.md",
+      "new_path": "historical/paper/TITLE_OPTIONS.md",
+      "sha256": "c83f373fad275f57bff5a58822eac02369b44599e69cbbd098a377dc82e4af63",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/appendix.tex",
+      "new_path": "historical/paper/appendix.tex",
+      "sha256": "bb33cabc4453f88198477ed91fb4545907137036f50cb3791f2c0db20011c00c",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/evidex-manuscript-draft.pdf",
+      "new_path": "historical/paper/evidex-manuscript-draft.pdf",
+      "sha256": "47c9c52553395a6598ccabc2c6dcddc78a047b3ccfd5150e90a08e31ed0cc7d2",
+      "kind": "binary"
+    },
+    {
+      "old_path": "paper/figures/README.md",
+      "new_path": "historical/paper/figures/README.md",
+      "sha256": "3b47f7b864b4250b8589571165ce7c5bc246f087e73f8d0b026551ac3313c427",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/main.tex",
+      "new_path": "historical/paper/main.tex",
+      "sha256": "e4521132c441908cbc5ed6e96ec030eab8f019d5e54652598803ef379f7dfaf7",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/references.bib",
+      "new_path": "historical/paper/references.bib",
+      "sha256": "1efd1b5a0cbf84cd90a2d02043eb3e498d6b46833772d424ad483482b32be3e5",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/sections/abstract.tex",
+      "new_path": "historical/paper/sections/abstract.tex",
+      "sha256": "693e693a9951a02d9436b99a422e40ac3c0d414f4577d7cfd7c10a2530e604b5",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/sections/conclusion.tex",
+      "new_path": "historical/paper/sections/conclusion.tex",
+      "sha256": "befccba736d189c40e3df443478d4442649e91b63e5b08f89aa4f2d6196cab3f",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/sections/discussion.tex",
+      "new_path": "historical/paper/sections/discussion.tex",
+      "sha256": "c6b506781d1922bd39c73b05d0bf79a588540d72e7c6944aa3fe8bc383699d8d",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/sections/introduction.tex",
+      "new_path": "historical/paper/sections/introduction.tex",
+      "sha256": "6ad6334653f28bf47268cd7aeb945f33474ccb55e37bc6fdeab77d94bcdb69eb",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/sections/limitations.tex",
+      "new_path": "historical/paper/sections/limitations.tex",
+      "sha256": "7ba4d64426ddca532a473cbdd43de10c7e943d5e8dc4e67edabf92121785bb45",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/sections/related_work.tex",
+      "new_path": "historical/paper/sections/related_work.tex",
+      "sha256": "9a0799074bb6192991c7f7911870c93c9c3c2ba15cdc52f3d34d9594f54e805b",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/sections/results.tex",
+      "new_path": "historical/paper/sections/results.tex",
+      "sha256": "cb7f94bc82fd67946823e0c02ce70f02b2710f08c4a86f53ffae37f4d3ce1663",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/sections/study_design.tex",
+      "new_path": "historical/paper/sections/study_design.tex",
+      "sha256": "b418bf67a45eaa27a4f4a32288032c548157e8c0bcd50fc064ab60797fddfbab",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/tables/tab_accuracy.tex",
+      "new_path": "historical/paper/tables/tab_accuracy.tex",
+      "sha256": "4d5d0844bf71fa3e05b5768116de76c20e51cd0dae5a51d6d4edba6093a6d2d5",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/tables/tab_cross_family.tex",
+      "new_path": "historical/paper/tables/tab_cross_family.tex",
+      "sha256": "7815cc5a8ae53b989c5939c458077898565232242338aecf40b822ce25fe60c5",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/tables/tab_mechanism.tex",
+      "new_path": "historical/paper/tables/tab_mechanism.tex",
+      "sha256": "abb73974cc856e00518b504e4cdca5307a0470d593e25fb44ff0f51164cbf7e8",
+      "kind": "text"
+    },
+    {
+      "old_path": "paper/tables/tab_shared.tex",
+      "new_path": "historical/paper/tables/tab_shared.tex",
+      "sha256": "cf03e472ba19bde4b45023c5fdc7cc116b4dbc79522cd227bc9ca82d782aa8af",
+      "kind": "text"
+    },
+    {
+      "old_path": "parallel_shards_balanced_10000_v1/experiment_results_balanced_10000_v1_remaining_shard_01.csv",
+      "new_path": "historical/parallel_shards_balanced_10000_v1/experiment_results_balanced_10000_v1_remaining_shard_01.csv",
+      "sha256": "9dcf2970b9d82e3cc66cdd84f6c2ca138e93faf15898620855c3392ef20b9e1c",
+      "kind": "text"
+    },
+    {
+      "old_path": "parallel_shards_balanced_10000_v1/experiment_results_balanced_10000_v1_remaining_shard_02.csv",
+      "new_path": "historical/parallel_shards_balanced_10000_v1/experiment_results_balanced_10000_v1_remaining_shard_02.csv",
+      "sha256": "048911b72e8f77d53bd61675757a8d1c153843386427430154bdf8523bd5851b",
+      "kind": "text"
+    },
+    {
+      "old_path": "parallel_shards_balanced_10000_v1/experiment_results_balanced_10000_v1_remaining_shard_03.csv",
+      "new_path": "historical/parallel_shards_balanced_10000_v1/experiment_results_balanced_10000_v1_remaining_shard_03.csv",
+      "sha256": "b99fdacbeefa142bbfe338616fd72ce363ca038b84e6aec676e5f9d28200622a",
+      "kind": "text"
+    },
+    {
+      "old_path": "parallel_shards_balanced_10000_v1/experiment_results_balanced_10000_v1_remaining_shard_04.csv",
+      "new_path": "historical/parallel_shards_balanced_10000_v1/experiment_results_balanced_10000_v1_remaining_shard_04.csv",
+      "sha256": "7c6a731b1b5f2d98a8b5df20f1b5d3b4d1f05ebf13535fd7c7bffe7710e3695d",
+      "kind": "text"
+    },
+    {
+      "old_path": "parallel_shards_balanced_10000_v1/experiment_runs_balanced_10000_v1_remaining_shard_01.csv",
+      "new_path": "historical/parallel_shards_balanced_10000_v1/experiment_runs_balanced_10000_v1_remaining_shard_01.csv",
+      "sha256": "a47b7c072b3534f818b6aa3d995ca3ab6aff380bdc003b112acf6e87367dbc53",
+      "kind": "text"
+    },
+    {
+      "old_path": "parallel_shards_balanced_10000_v1/experiment_runs_balanced_10000_v1_remaining_shard_02.csv",
+      "new_path": "historical/parallel_shards_balanced_10000_v1/experiment_runs_balanced_10000_v1_remaining_shard_02.csv",
+      "sha256": "6b8d5d2c411f060d31534e2f0809d0236d28c8fb8c6cd9d30f8ce296d06e9839",
+      "kind": "text"
+    },
+    {
+      "old_path": "parallel_shards_balanced_10000_v1/experiment_runs_balanced_10000_v1_remaining_shard_03.csv",
+      "new_path": "historical/parallel_shards_balanced_10000_v1/experiment_runs_balanced_10000_v1_remaining_shard_03.csv",
+      "sha256": "cbbb5d9488b75f2cf4e9b7381abf5a21fb990c1390df2991174b27dac390140d",
+      "kind": "text"
+    },
+    {
+      "old_path": "parallel_shards_balanced_10000_v1/experiment_runs_balanced_10000_v1_remaining_shard_04.csv",
+      "new_path": "historical/parallel_shards_balanced_10000_v1/experiment_runs_balanced_10000_v1_remaining_shard_04.csv",
+      "sha256": "67fed076b143af32109a7d71ca34b1ecf383e9cde0df8d18fbef3059937f0c7c",
+      "kind": "text"
+    },
+    {
+      "old_path": "parallelize_remaining_runs.py",
+      "new_path": "historical/pipeline/parallelize_remaining_runs.py",
+      "sha256": "c441e21ad80172dede1016a45756047d8707c9b003f2be12ba7893fcb228e45b",
+      "kind": "text"
+    },
+    {
+      "old_path": "poster-presentation-info/PROVENANCE.md",
+      "new_path": "docs/historical/poster-presentation-info/PROVENANCE.md",
+      "sha256": "1d039e316534c79310ceddfdc82db732cee27590316a95c409be91fa69eeee49",
+      "kind": "text"
+    },
+    {
+      "old_path": "poster-presentation-info/README.md",
+      "new_path": "docs/historical/poster-presentation-info/README.md",
+      "sha256": "7810a92c05a2e7259e62ff6a6b671501456bd39bb9426d612b38536c4de55c08",
+      "kind": "text"
+    },
+    {
+      "old_path": "poster-presentation-info/error_taxonomy_counts_balanced_10000_v1.csv",
+      "new_path": "docs/historical/poster-presentation-info/error_taxonomy_counts_balanced_10000_v1.csv",
+      "sha256": "9d1d6cd8729c29d052e6ff5aa294ced61dffdbcfbd1ec59d2c46851189d4a0ea",
+      "kind": "text"
+    },
+    {
+      "old_path": "poster-presentation-info/experiment_metrics_balanced_10000_v1.csv",
+      "new_path": "docs/historical/poster-presentation-info/experiment_metrics_balanced_10000_v1.csv",
+      "sha256": "71d4c48454b7486ac9eb5b3982ee6850302c10456c2ef48707dd2a935b8ab386",
+      "kind": "text"
+    },
+    {
+      "old_path": "poster-presentation-info/experiment_summary_balanced_10000_v1.csv",
+      "new_path": "docs/historical/poster-presentation-info/experiment_summary_balanced_10000_v1.csv",
+      "sha256": "a46444a365f3688134e821149968ba1a81259344770658f60303d9e998e8d754",
+      "kind": "text"
+    },
+    {
+      "old_path": "poster-presentation-info/presentation_dossier_comprehensive.md",
+      "new_path": "docs/historical/poster-presentation-info/presentation_dossier_comprehensive.md",
+      "sha256": "31aa6bb7aac47d7df888fad7b88b07e3bca841e9269779cce9e583c2cf394119",
+      "kind": "text"
+    },
+    {
+      "old_path": "prepare_fever_wiki_pages.py",
+      "new_path": "historical/pipeline/prepare_fever_wiki_pages.py",
+      "sha256": "2acf21947178935f0e6ee3ccf5ce85fa3d5d944d24d46259a7fab2beba6f6ddf",
+      "kind": "text"
+    },
+    {
+      "old_path": "presentation_dossier_comprehensive.md",
+      "new_path": "docs/historical/presentation_dossier_comprehensive.md",
+      "sha256": "0ea5c9ae48a148ca07da3f5be5f6c133ddd33f008e0e9d4528b15052b32dfca8",
+      "kind": "text"
+    },
+    {
+      "old_path": "professor_update.md",
+      "new_path": "docs/historical/professor_update.md",
+      "sha256": "322b0d33f41623660b963a56e8bce472a83a99dba98f770ef67021922676785c",
+      "kind": "text"
+    },
+    {
+      "old_path": "resolve_gold_evidence.py",
+      "new_path": "historical/pipeline/resolve_gold_evidence.py",
+      "sha256": "01d9a9922248acc67013efc1691d7a4ee7f898606911a23f5350446ddb63efe4",
+      "kind": "text"
+    },
+    {
+      "old_path": "resolve_summary_balanced_10000_v1.json",
+      "new_path": "historical/inputs/resolve_summary_balanced_10000_v1.json",
+      "sha256": "99b393f8f20b8e02221cad89d7e38b3fd7cadc2e6ed6859db692374037e04128",
+      "kind": "text"
+    },
+    {
+      "old_path": "resolve_summary_balanced_1000_v1.json",
+      "new_path": "historical/pilot/resolve_summary_balanced_1000_v1.json",
+      "sha256": "900673e6d9ab002275a1839ff4e4bf957a6fa1d81b2ff12181b4de9015ea3c9b",
+      "kind": "text"
+    },
+    {
+      "old_path": "run_fact_check_experiment.py",
+      "new_path": "historical/pipeline/run_fact_check_experiment.py",
+      "sha256": "6be10b224dcabea215cfacd29d176ae5266cc870d6772a273b54367fc1b9225f",
+      "kind": "text"
+    },
+    {
+      "old_path": "sample_provenance_balanced_10000_v1.csv",
+      "new_path": "historical/inputs/sample_provenance_balanced_10000_v1.csv",
+      "sha256": "2b285d7ed0da995cd3c687e6f3b1bd00bc6e1764624091dded326a1662d63b8b",
+      "kind": "text"
+    },
+    {
+      "old_path": "sample_provenance_balanced_1000_v1.csv",
+      "new_path": "historical/pilot/sample_provenance_balanced_1000_v1.csv",
+      "sha256": "653e1dbfe62d86da78a21e0a6d7680fddb8e8d15d3091e058d6352edaff85f67",
+      "kind": "text"
+    },
+    {
+      "old_path": "sample_validation_balanced_10000_v1.json",
+      "new_path": "historical/inputs/sample_validation_balanced_10000_v1.json",
+      "sha256": "5424e80d591d2b45719bb04a6b9eaf0e0dc4ffaef1e059efa0a421fcb96702f0",
+      "kind": "text"
+    },
+    {
+      "old_path": "sample_validation_balanced_1000_v1.json",
+      "new_path": "historical/pilot/sample_validation_balanced_1000_v1.json",
+      "sha256": "599fa3dd28d456f896dc75f8b4be4f43c7503fa383a38073833fe317e51e7957",
+      "kind": "text"
+    },
+    {
+      "old_path": "shared_task_dev.jsonl",
+      "new_path": "historical/inputs/shared_task_dev.jsonl",
+      "sha256": "e89865bfe1b4dd054e03dd57d7241a6fde24862905f31117cf0cd719f7c78df7",
+      "kind": "text"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Repository map (2026-09-28)
 
+**Historical pre-layout inventory.** The current map is in the root `README.md`, and the 121 moves are recorded in `LAYOUT_MIGRATION_2026-09-28.md`. Counts and links below describe the pre-layout commit.
+
 This is a map of the repository as of branch `codex/methodology-correction-v2`.
 Start at [`CURRENT_STATUS.md`](../../CURRENT_STATUS.md). The machine-readable
 file inventory, with a movability verdict for every Python file and root file,
