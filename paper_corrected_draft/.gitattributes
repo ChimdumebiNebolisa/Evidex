@@ -1,0 +1,8 @@
+*.pdf binary
+*.docx binary
+*.png binary
+*.svg -text
+main.tex -text
+references.bib -text
+tables/family_tests.tex -text
+tables/sensitivity.tex -text

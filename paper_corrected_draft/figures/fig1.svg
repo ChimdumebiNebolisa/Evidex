@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500pt" height="260pt" viewBox="0 0 500 260">
+<title>Separate predictor evaluation from later judging</title>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7" fill="#334155"/></marker></defs>
+<polyline points="139,35.0 176,35.0" fill="none" stroke="#334155" stroke-width="1.2" marker-end="url(#arrow)"/>
+<polyline points="316,35.0 350,35.0" fill="none" stroke="#334155" stroke-width="1.2" marker-end="url(#arrow)"/>
+<polyline points="495,35.0 499,75 6,75 6,125 14,125.0" fill="none" stroke="#334155" stroke-width="1.2" marker-end="url(#arrow)"/>
+<polyline points="139,125.0 176,125.0" fill="none" stroke="#334155" stroke-width="1.2" marker-end="url(#arrow)"/>
+<polyline points="316,125.0 350,125.0" fill="none" stroke="#334155" stroke-width="1.2" marker-end="url(#arrow)"/>
+<polyline points="495,125.0 498,175 160,175 160,222 176,222.0" fill="none" stroke="#334155" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="14" y="5" width="125" height="60" rx="5" fill="#e6eef6" stroke="#334155"/>
+<text x="76.5" y="32.21" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#172535">Claims and reference labels</text>
+<text x="76.5" y="43.910000000000004" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#172535">Designated evidence</text>
+<rect x="176" y="5" width="140" height="60" rx="5" fill="#e6eef6" stroke="#334155"/>
+<text x="246.0" y="31.9" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#172535">Original predictor evaluation</text>
+<text x="246.0" y="44.9" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#172535">Claim only / with evidence</text>
+<rect x="350" y="5" width="145" height="60" rx="5" fill="#e6eef6" stroke="#334155"/>
+<text x="422.5" y="31.9" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#172535">Paired correctness records</text>
+<text x="422.5" y="44.9" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#172535">Transition counts</text>
+<rect x="14" y="95" width="125" height="60" rx="5" fill="#e6eef6" stroke="#334155"/>
+<text x="76.5" y="122.21000000000001" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#172535">Select regression claims</text>
+<text x="76.5" y="133.91" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#172535">Construct blinded packets</text>
+<rect x="176" y="95" width="140" height="60" rx="5" fill="#e6eef6" stroke="#334155"/>
+<text x="246.0" y="116.36" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#172535">Separate judge evaluation</text>
+<text x="246.0" y="128.06" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#172535">A sentences / B add titles</text>
+<text x="246.0" y="139.76" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#172535">C structure / optional text</text>
+<rect x="350" y="95" width="145" height="60" rx="5" fill="#e6eef6" stroke="#334155"/>
+<text x="422.5" y="121.9" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#172535">Stage consensus per family</text>
+<text x="422.5" y="134.9" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#172535">Descriptive categories</text>
+<rect x="176" y="192" width="140" height="60" rx="5" fill="#e6eef6" stroke="#334155"/>
+<text x="246.0" y="219.21" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#172535">Matched family comparison</text>
+<text x="246.0" y="230.91" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#172535">Output-selection sensitivity</text>
+</svg>

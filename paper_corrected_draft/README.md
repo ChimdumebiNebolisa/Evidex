@@ -1,48 +1,25 @@
-# Corrected submission draft — 2026-09-28 (for coauthor review)
+# Current manuscript — October 11, 2026
 
-`evidex-corrected-draft.pdf` is the compiled draft. The historical draft in `historical/paper/` is
-hash-pinned and unchanged.
+**Evidence-Conditioned Classification and Judge Family Sensitivity in LLM Fact Verification**
 
-- Behavioral findings (RQ1/RQ2 and the NLI characterization) are carried over unchanged.
-- Adjudication results (RQ3/RQ4) come from the 70 accepted Stage C outputs, analysed under the
-  dated post-judgment amendment A1 (`corrections_v2/amendment_2026-09-28/AMENDMENT_A1.md`), with
-  the first-valid outputs as sensitivity.
-- The historical mechanism splits, the ordering claim and the old taxonomy agreement are withdrawn.
-  They appear only in the appendix list of withdrawn results.
-- `CLAIM_MAPPING.md` maps each old claim to its corrected status.
+- [PDF](evidex-corrected-draft.pdf)
+- [Editable Word](evidex-corrected-draft.docx)
+- [LaTeX master](main.tex), with [bibliography](references.bib)
 
-## Sources and build
+These formats contain the final reviewed manuscript, including the expanded RQ2, exploratory NLI integration, Figure 1 caption and parallel-method clarification, and removal of the specified defensive sentence. Word was exported from the same LaTeX text, citations, tables and figures. Pagination may differ across formats. This is a neutral coauthor review draft; venue compliance has not been assessed.
 
-Tables 2–4 and Figures 3–4 are generated from
-`corrections_v2/amendment_2026-09-28/results/` by `make_assets.py`. Table 1, the bibliography and
-Figures 1–2 are reused unchanged from `../historical/paper/` and `../analysis_v2/figures/`.
+## Build and check
 
-```
-python tools/run_frozen.py -- python corrections_v2/amendment_2026-09-28/amended_analysis.py status   # expect ready_under_amendment_A1
-python paper_corrected_draft/make_assets.py
+```bash
 python paper_corrected_draft/check_draft.py
-cd paper_corrected_draft && latexmk -pdf main.tex && cp main.pdf evidex-corrected-draft.pdf
+cd paper_corrected_draft
+latexmk -pdf main.tex
 ```
 
-The PDF was built with TeX Live 2025 (Debian packages) under WSL.
+Alternatively, use Tectonic with `tectonic -X compile --untrusted main.tex`. The master includes its methodology and appendices directly, uses the local bibliography, the five `figures/fig1`–`fig5` files, and `tables/sensitivity.tex` and `tables/family_tests.tex`. The published PDF is the reviewed export, rather than an automatically regenerated unreviewed version.
 
-## Provisional editorial choices (change freely)
+The earlier `sections/`, `appendix.tex`, legacy figure/table files, `make_assets.py` and `CLAIM_MAPPING.md` are retained for traceability; they are not inputs to the current master. Do not use the legacy asset generator to rebuild this version. Earlier current-paper versions also remain in Git history. The hash-pinned manuscript in `../historical/paper/` is unchanged.
 
-- Title: "Characterizing" replaces the historical "Diagnosing", because the adjudication is
-  descriptive.
-- The error-ending Grok output (`p01_C_j5_b09`, attempt 1) counts as valid in the first-valid
-  sensitivity; it changes one non-regression label from Ambiguous to Unresolved.
-- Figures and tables are top-of-page floats; Tables 1–4 are placed just before the Results
-  section, Figures 1–4 within it.
+## Scientific provenance
 
-## Decisions for the authors
-
-1. **Amendment A1 and the main selection.** Endorse the post-judgment amendment and the
-   accepted outputs as primary, or make first-valid primary (closer to the frozen rule). No
-   conclusion changes either way.
-2. **The v2 taxonomy.** Approve its category names and priority order. It was specified post hoc.
-3. **Retained Stage A/B judgments.** Accept combining historical A/B with new C judgments, which
-   rests on documented but not independently verified fresh-context isolation.
-4. **Before submission:** whether to run the residual Claude panel, the Stage C resolver or a
-   human review of the 54–58 Grok–Claude category disagreements (the draft states that none was
-   run); the venue; affiliations.
+The original paired predictions and existing NLI analyses are unchanged. The adjudication reports accepted outputs under the post-execution September 28 amendment A1 as the main analysis, with first-valid outputs as sensitivity. The original September 27 frozen-protocol primary analysis remains incomplete. Judge verdicts remain unvalidated silver judgments; the proposed taxonomy requires coauthor review. Correction records, historical judgments and withdrawn estimates retain their documented status. This replacement makes no new experimental or protocol change.

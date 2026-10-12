@@ -2,7 +2,7 @@
 
 Evidex evaluates how supplying FEVER-designated evidence changes claim-verification predictions. The paired study contains 40,000 predictions on 10,000 claims; the corrected manuscript examines 226 distinct correct-to-wrong regressions.
 
-**Read the current paper:** [corrected draft PDF](paper_corrected_draft/evidex-corrected-draft.pdf) and [source](paper_corrected_draft/). The older manuscript in `historical/paper/` contains withdrawn adjudication claims and is retained as part of the research record.
+**Read the current paper:** [PDF](paper_corrected_draft/evidex-corrected-draft.pdf), [editable Word](paper_corrected_draft/evidex-corrected-draft.docx), and [LaTeX source](paper_corrected_draft/main.tex). The older manuscript in `historical/paper/` contains withdrawn adjudication claims and is retained as part of the research record.
 
 ## Repository map
 
