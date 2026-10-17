@@ -1,0 +1,17 @@
+test_independent_analysis_distinguishes_pending_retry (test_experiment.RunnerTests.test_independent_analysis_distinguishes_pending_retry) ... FAIL
+
+======================================================================
+FAIL: test_independent_analysis_distinguishes_pending_retry (test_experiment.RunnerTests.test_independent_analysis_distinguishes_pending_retry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Chimdumebi\evidex\replacement_predictor_v1\tests\test_experiment.py", line 80, in test_independent_analysis_distinguishes_pending_retry
+    self.assertEqual(analyze.observation(self.path,self.job)['state'],'pending_retry')
+AssertionError: 'service_failure' != 'pending_retry'
+- service_failure
++ pending_retry
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.182s
+
+FAILED (failures=1)

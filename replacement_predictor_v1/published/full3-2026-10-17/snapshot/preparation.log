@@ -1,0 +1,44 @@
+{
+  "inputs": 10000,
+  "plans": [
+    "hybrid3",
+    "smoke"
+  ],
+  "costs": [
+    {
+      "design": "full1",
+      "calls": 60000,
+      "expected_usd": 8.24852275
+    },
+    {
+      "design": "full3",
+      "calls": 180000,
+      "expected_usd": 24.745568249999998
+    },
+    {
+      "design": "full5",
+      "calls": 300000,
+      "expected_usd": 41.242613750000004
+    },
+    {
+      "design": "hybrid3",
+      "calls": 84000,
+      "expected_usd": 11.519998750000001
+    },
+    {
+      "design": "hybrid5",
+      "calls": 108000,
+      "expected_usd": 14.79147475
+    },
+    {
+      "design": "hybrid3-historical",
+      "calls": 86280,
+      "expected_usd": 11.84244425
+    },
+    {
+      "design": "smoke",
+      "calls": 12,
+      "expected_usd": 0.0018005
+    }
+  ]
+}

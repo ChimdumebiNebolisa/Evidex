@@ -1,0 +1,18 @@
+# Operational revision 2026-10-16-rpm600
+
+This revision prepares a 600-RPM aggregate target for the existing twenty-process launcher. Full3 remains prospective. The twelve authorized smoke calls already exist and their full response inventory is preserved. No further generation is authorized or performed.
+
+The original protocol seal and the 2026-10-16-workers20 seal remain byte-for-byte intact. `BASELINE.json` records both hashes. The three replaced operational files (`common.py`, `coordination.py`, `launcher.py`) are archived under this revision's `original/` directory. The new seal checks those archived bytes against the previous seal before checking the new files. Original scientific source and the previous operational revision remain recoverable. Existing run identity and prior operational binding are retained; a separate throughput binding is added.
+
+Changes:
+
+- Add an explicitly selected operational configuration with shared/model ceilings of 600 RPM and 600,000 reserved TPM. Per-model advertised 5,000 RPM and 1,000,000/2,000,000 TPM are supported by smoke headers and the user's Limits-page report. Those observations do not verify shared/project/daily capacity. Until shared capacity is evidenced, the new configuration enforces the previous conservative shared 60 RPM / 60,000 TPM ceiling. It does not call that ceiling an account entitlement.
+- Add a shared SQLite ramp: 60, 120, 240, 360, 480, 600 RPM at one-minute steps, bounded by verified capacity and adaptive penalties. Transient `rate_limit_exceeded` 429 or 503 halves the shared rate, with a 15-RPM floor. Successful traffic restores at most 60 RPM per minute. Restart begins the ramp again and retains the adaptive penalty and cooldowns.
+- Reduce operational jitter from the previous 10–200 ms to 1–9 ms only when the new configuration is selected. Retain positive randomized pacing and wakeups, shared Retry-After/reset cooldowns, provider remaining budgets, rolling request/token windows, and all existing retry/uncertain-transmission rules.
+- Read admission time inside the database transaction. Avoid repeated rolling-window scans while an existing pacing/cooldown gate blocks. Keep known exhausted header/reset waits authoritative on that fast path. Add a queue state/ordinal index and an atomic cumulative admission counter to avoid full-ledger scans on each waiting worker. These changes affect scheduling, not job selection/order or requests.
+- Reuse the existing launcher, worker, SQLite queue, raw response recording, recovery, global halts and progress reporting. Progress adds the target/current policy rate and evidence status.
+- Add offline scheduling projection using measured smoke latency, conservative prepared-request reservations, actual pacing/jitter and a 20-process synthetic benchmark at the end of a 180,000-row queue/ledger. No new live benchmark or smoke is used.
+
+No changes to claims, model identifiers, messages, settings, repetitions, randomized job order, parsing, scientific analysis, terminal invalid responses, retry eligibility/count, or treatment of uncertain transmission. The prior default limits file remains intact; this revision requires explicit `--limits` selection.
+
+Validation is recorded in `TEST_RESULTS.txt` and `MOCK_BENCHMARK.json`. The additional mocked tests cover twenty-process contention, aggregate RPM, token windows, cooldown/reset behavior, adaptive reduction/recovery, sticky global halts, interruption/recovery and duplicate prevention (including the relevant existing tests). An existing header-wait regression found during development was reproduced, corrected and rerun before sealing.

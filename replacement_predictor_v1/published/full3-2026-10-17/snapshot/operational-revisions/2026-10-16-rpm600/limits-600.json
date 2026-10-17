@@ -1,0 +1,27 @@
+{
+  "status": "Target 600 shared RPM; activation above 60 RPM requires verified shared/account capacity",
+  "buckets": [
+    {"id":"shared","models":["gpt-5.4","gpt-5.4-mini"],"rpm":600,"tpm":600000},
+    {"id":"gpt-5.4","models":["gpt-5.4"],"rpm":600,"tpm":600000},
+    {"id":"gpt-5.4-mini","models":["gpt-5.4-mini"],"rpm":600,"tpm":600000}
+  ],
+  "header_groups":{"gpt-5.4":"gpt-5.4","gpt-5.4-mini":"gpt-5.4-mini"},
+  "rate_policy":{
+    "ramp_rpm":[60,120,240,360,480,600],
+    "step_seconds":60,
+    "minimum_rpm":15,
+    "throttle_factor":0.5,
+    "recovery_step_rpm":60,
+    "recovery_seconds":60,
+    "jitter_seconds":[0.001,0.009],
+    "unverified_shared_rpm":60,
+    "unverified_shared_tpm":60000,
+    "capacity_evidence":{
+      "verified":false,
+      "source":"Saved smoke headers and user Limits-page report verify per-model caps only; shared/project/daily capacity unverified; available dashboard is signed out",
+      "shared_rpm":null,
+      "shared_tpm":null,
+      "daily_limits":"Unverified"
+    }
+  }
+}

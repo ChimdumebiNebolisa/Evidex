@@ -1,0 +1,22 @@
+{
+  "at_utc": "2026-10-17T21:32:37.614048+00:00",
+  "analysis_pid": 23376,
+  "stage": "Initial artifact-reading pass, before frozen summaries/output creation",
+  "expected_initial_artifact_read_bytes": 635090362,
+  "expected_later_provenance_read_bytes": 140037521,
+  "mandatory_startup_file_read_bytes": 88450963,
+  "process_read_transfer_bytes": 558417302,
+  "process_read_operations": 1057035,
+  "initial_snapshot_read_bytes": 95998763,
+  "estimated_stage_percent_low": 72.8114559231809,
+  "estimated_stage_percent_high": 73.99991672366144,
+  "read_counter_calibration": {
+    "one_saved_response_bytes": 780,
+    "observed_read_transfer_increment": 780,
+    "observed_read_operation_increment": 2
+  },
+  "additional_crosscheck_percent_from_8_read_operations_per_job": 73.40520833333333,
+  "method": "Frozen observation reads each request and receipt once and each response twice. Sum exact bytes from completed immutable artifact inventory. Subtract known startup file reads; bracket startup/import overhead using the early process snapshot. Cross-check a Path.read_bytes read with Windows IO counters. No frozen script or running process was modified.",
+  "limitations": "Approximate initial reading-stage progress only; not elapsed-time progress or whole-analysis percentage. Bracket assumes substantial unrelated reads have not occurred within the artifact loop. Later statistical computation, provenance reading and output verification remain.",
+  "whole_analysis_percent": null
+}

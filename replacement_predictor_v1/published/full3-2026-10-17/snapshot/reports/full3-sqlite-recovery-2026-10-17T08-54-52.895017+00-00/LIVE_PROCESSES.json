@@ -1,0 +1,128 @@
+[
+  {
+    "ProcessId": 44500,
+    "ParentProcessId": 49848,
+    "CreationDate": "2026-10-17T03:51:47.438804-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" -B C:\\Users\\Chimdumebi\\evidex\\replacement_predictor_v1\\sqlite_supervisor.py --live --resume"
+  },
+  {
+    "ProcessId": 43316,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.504767-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=376)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 36672,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.524476-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=732)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 16940,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.543712-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=760)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 35116,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.560597-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=764)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 36476,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.577989-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=788)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 44632,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.596929-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=780)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 31264,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.612672-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=804)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 39428,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.628635-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=792)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 46980,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.644084-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=812)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 16096,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.688809-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=836)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 34984,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.704153-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=844)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 13612,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.748557-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=848)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 48048,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.790784-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=860)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 9004,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.829417-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=904)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 15220,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.851664-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=916)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 45364,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.921239-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=876)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 31700,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.942264-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=896)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 25852,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.96196-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=892)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 38952,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:13.983067-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=964)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 2116,
+    "ParentProcessId": 44500,
+    "CreationDate": "2026-10-17T03:52:14.003102-05:00",
+    "CommandLine": "\"C:\\Users\\Chimdumebi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"-B\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=44500, pipe_handle=908)\" \"--multiprocessing-fork\""
+  }
+]

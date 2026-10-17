@@ -1,0 +1,19 @@
+{
+  "checked_date_local": "2026-10-16",
+  "route": "OpenAI global standard API, https://api.openai.com/v1/chat/completions",
+  "public_documentation_status": "Both original aliases listed; Chat Completions supported; none reasoning effort listed as default",
+  "account_access_status_at_build": "UNVERIFIED_NO_OPENAI_API_KEY_IN_PROCESS",
+  "generating_requests_made_at_build": 0,
+  "sources": [
+    {"url":"https://developers.openai.com/api/docs/models/gpt-5.4","model":"gpt-5.4","documented_snapshot":"gpt-5.4-2026-03-05","supports_reasoning_effort":"none"},
+    {"url":"https://developers.openai.com/api/docs/models/gpt-5.4-mini","model":"gpt-5.4-mini","documented_snapshot":"gpt-5.4-mini-2026-03-17","supports_reasoning_effort":"none"},
+    {"url":"https://developers.openai.com/api/docs/pricing","standard_usd_per_million":{"gpt-5.4":{"input":2.5,"output":15},"gpt-5.4-mini":{"input":0.75,"output":4.5}},"no_cached_discount_assumed":true},
+    {"url":"https://developers.openai.com/api/reference/resources/chat","support":"Chat Completions parameters and response; max_completion_tokens includes visible and reasoning tokens"}
+  ],
+  "limitations": [
+    "Public listing does not verify this account's entitlement, quota, routing snapshot, or successful parameter acceptance.",
+    "The metadata-only preflight must succeed, then the separately approved paid smoke test verifies actual completions and settings.",
+    "No fallback to another model, route, reasoning effort, or sampling temperature is permitted on error.",
+    "Explicit none reasoning effort and 32-token completion cap are prospective controls; historical calls did not record all effective backend settings."
+  ]
+}

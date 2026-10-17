@@ -1,0 +1,46 @@
+test_blocked_poll_reads_budget_without_competing_for_writer (test_sqlite_recovery.SQLiteRecoveryTests.test_blocked_poll_reads_budget_without_competing_for_writer) ... ERROR
+test_response_database_retry_never_repeats_transport (test_sqlite_recovery.SQLiteRecoveryTests.test_response_database_retry_never_repeats_transport) ... ERROR
+
+======================================================================
+ERROR: test_blocked_poll_reads_budget_without_competing_for_writer (test_sqlite_recovery.SQLiteRecoveryTests.test_blocked_poll_reads_budget_without_competing_for_writer)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Chimdumebi\evidex\replacement_predictor_v1\tests\test_sqlite_recovery.py", line 41, in test_blocked_poll_reads_budget_without_competing_for_writer
+    wait=self.c.admission({'job_id':'poll','model':'gpt-5.4'},1,100)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chimdumebi\evidex\replacement_predictor_v1\coordination.py", line 139, in admission
+    with self.transaction():
+         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chimdumebi\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Chimdumebi\evidex\replacement_predictor_v1\coordination.py", line 119, in transaction
+    self.db.execute('BEGIN IMMEDIATE')
+sqlite3.OperationalError: database is locked
+
+======================================================================
+ERROR: test_response_database_retry_never_repeats_transport (test_sqlite_recovery.SQLiteRecoveryTests.test_response_database_retry_never_repeats_transport)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Chimdumebi\evidex\replacement_predictor_v1\tests\test_sqlite_recovery.py", line 56, in test_response_database_retry_never_repeats_transport
+    result=runner.run_attempt(self.store,self.rows[0],job,n,transport)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chimdumebi\evidex\replacement_predictor_v1\runner.py", line 264, in run_attempt
+    return finish(store, job, attempt, directory)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chimdumebi\evidex\replacement_predictor_v1\runner.py", line 228, in finish
+    coordinator.record(job, attempt, receipt, result, saved_request)
+  File "C:\Users\Chimdumebi\evidex\replacement_predictor_v1\coordination.py", line 237, in record
+    with self.transaction():
+         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chimdumebi\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Chimdumebi\evidex\replacement_predictor_v1\coordination.py", line 119, in transaction
+    self.db.execute('BEGIN IMMEDIATE')
+sqlite3.OperationalError: database is locked
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.709s
+
+FAILED (errors=2)

@@ -1,0 +1,1319 @@
+{
+  "completion_status": "all_jobs_valid",
+  "design": "full3",
+  "first_pass": {
+    "claims": 10000,
+    "details": {
+      "gpt-5.4-mini/A/accuracy_ITT": {
+        "accuracy_ITT": 0.849,
+        "accuracy_identification_bounds": [
+          0.849,
+          0.849
+        ],
+        "accuracy_valid_only": 0.849,
+        "assigned_calls": 10000,
+        "correct": 8490,
+        "valid_calls": 10000
+      },
+      "gpt-5.4-mini/AB": {
+        "assigned_pairs": 10000,
+        "regression_identification_bounds": [
+          0.0145,
+          0.0145
+        ],
+        "regression_valid_pair_rate": 0.0145,
+        "regressions_known": 145,
+        "rescue_identification_bounds": [
+          0.12,
+          0.12
+        ],
+        "rescues_known": 1200,
+        "resistant_known": 310,
+        "robust_known": 8345,
+        "unclassified_pairs": 0,
+        "valid_pairs": 10000
+      },
+      "gpt-5.4-mini/AC": {
+        "assigned_pairs": 10000,
+        "regression_identification_bounds": [
+          0.0147,
+          0.0147
+        ],
+        "regression_valid_pair_rate": 0.0147,
+        "regressions_known": 147,
+        "rescue_identification_bounds": [
+          0.1227,
+          0.1227
+        ],
+        "rescues_known": 1227,
+        "resistant_known": 283,
+        "robust_known": 8343,
+        "unclassified_pairs": 0,
+        "valid_pairs": 10000
+      },
+      "gpt-5.4-mini/B/accuracy_ITT": {
+        "accuracy_ITT": 0.9545,
+        "accuracy_identification_bounds": [
+          0.9545,
+          0.9545
+        ],
+        "accuracy_valid_only": 0.9545,
+        "assigned_calls": 10000,
+        "correct": 9545,
+        "valid_calls": 10000
+      },
+      "gpt-5.4-mini/BC": {
+        "assigned_pairs": 10000,
+        "regression_identification_bounds": [
+          0.0066,
+          0.0066
+        ],
+        "regression_valid_pair_rate": 0.0066,
+        "regressions_known": 66,
+        "rescue_identification_bounds": [
+          0.0091,
+          0.0091
+        ],
+        "rescues_known": 91,
+        "resistant_known": 364,
+        "robust_known": 9479,
+        "unclassified_pairs": 0,
+        "valid_pairs": 10000
+      },
+      "gpt-5.4-mini/C/accuracy_ITT": {
+        "accuracy_ITT": 0.957,
+        "accuracy_identification_bounds": [
+          0.957,
+          0.957
+        ],
+        "accuracy_valid_only": 0.957,
+        "assigned_calls": 10000,
+        "correct": 9570,
+        "valid_calls": 10000
+      },
+      "gpt-5.4/A/accuracy_ITT": {
+        "accuracy_ITT": 0.8858,
+        "accuracy_identification_bounds": [
+          0.8858,
+          0.8858
+        ],
+        "accuracy_valid_only": 0.8858,
+        "assigned_calls": 10000,
+        "correct": 8858,
+        "valid_calls": 10000
+      },
+      "gpt-5.4/AB": {
+        "assigned_pairs": 10000,
+        "regression_identification_bounds": [
+          0.0098,
+          0.0098
+        ],
+        "regression_valid_pair_rate": 0.0098,
+        "regressions_known": 98,
+        "rescue_identification_bounds": [
+          0.0857,
+          0.0857
+        ],
+        "rescues_known": 857,
+        "resistant_known": 285,
+        "robust_known": 8760,
+        "unclassified_pairs": 0,
+        "valid_pairs": 10000
+      },
+      "gpt-5.4/AC": {
+        "assigned_pairs": 10000,
+        "regression_identification_bounds": [
+          0.0108,
+          0.0108
+        ],
+        "regression_valid_pair_rate": 0.0108,
+        "regressions_known": 108,
+        "rescue_identification_bounds": [
+          0.0872,
+          0.0872
+        ],
+        "rescues_known": 872,
+        "resistant_known": 270,
+        "robust_known": 8750,
+        "unclassified_pairs": 0,
+        "valid_pairs": 10000
+      },
+      "gpt-5.4/B/accuracy_ITT": {
+        "accuracy_ITT": 0.9617,
+        "accuracy_identification_bounds": [
+          0.9617,
+          0.9617
+        ],
+        "accuracy_valid_only": 0.9617,
+        "assigned_calls": 10000,
+        "correct": 9617,
+        "valid_calls": 10000
+      },
+      "gpt-5.4/BC": {
+        "assigned_pairs": 10000,
+        "regression_identification_bounds": [
+          0.0041,
+          0.0041
+        ],
+        "regression_valid_pair_rate": 0.0041,
+        "regressions_known": 41,
+        "rescue_identification_bounds": [
+          0.0046,
+          0.0046
+        ],
+        "rescues_known": 46,
+        "resistant_known": 337,
+        "robust_known": 9576,
+        "unclassified_pairs": 0,
+        "valid_pairs": 10000
+      },
+      "gpt-5.4/C/accuracy_ITT": {
+        "accuracy_ITT": 0.9622,
+        "accuracy_identification_bounds": [
+          0.9622,
+          0.9622
+        ],
+        "accuracy_valid_only": 0.9622,
+        "assigned_calls": 10000,
+        "correct": 9622,
+        "valid_calls": 10000
+      }
+    },
+    "estimates": {
+      "gpt-5.4-mini/A/accuracy_ITT": {
+        "cluster_bootstrap_95": [
+          0.8418734937244716,
+          0.8560235243992416
+        ],
+        "estimate": 0.849
+      },
+      "gpt-5.4-mini/AB/accuracy_difference_ITT": {
+        "cluster_bootstrap_95": [
+          0.09865113482053313,
+          0.11258084542295632
+        ],
+        "estimate": 0.1055
+      },
+      "gpt-5.4-mini/AB/known_regression_fraction": {
+        "cluster_bootstrap_95": [
+          0.012265117528599868,
+          0.016872457143290883
+        ],
+        "estimate": 0.0145
+      },
+      "gpt-5.4-mini/AB/known_rescue_fraction": {
+        "cluster_bootstrap_95": [
+          0.11372611467718867,
+          0.12620233704129405
+        ],
+        "estimate": 0.12
+      },
+      "gpt-5.4-mini/AC/accuracy_difference_ITT": {
+        "cluster_bootstrap_95": [
+          0.1011231389183931,
+          0.11498565180689146
+        ],
+        "estimate": 0.108
+      },
+      "gpt-5.4-mini/AC/known_regression_fraction": {
+        "cluster_bootstrap_95": [
+          0.012427385615462907,
+          0.017076424755909377
+        ],
+        "estimate": 0.0147
+      },
+      "gpt-5.4-mini/AC/known_rescue_fraction": {
+        "cluster_bootstrap_95": [
+          0.11649694771943879,
+          0.12896069129317309
+        ],
+        "estimate": 0.1227
+      },
+      "gpt-5.4-mini/B/accuracy_ITT": {
+        "cluster_bootstrap_95": [
+          0.9503648046510338,
+          0.9585812285262955
+        ],
+        "estimate": 0.9545
+      },
+      "gpt-5.4-mini/BC/accuracy_difference_ITT": {
+        "cluster_bootstrap_95": [
+          0.00011672023110805612,
+          0.005050276958096757
+        ],
+        "estimate": 0.0025
+      },
+      "gpt-5.4-mini/BC/known_regression_fraction": {
+        "cluster_bootstrap_95": [
+          0.0050044769906287265,
+          0.008128993258162463
+        ],
+        "estimate": 0.0066
+      },
+      "gpt-5.4-mini/BC/known_rescue_fraction": {
+        "cluster_bootstrap_95": [
+          0.007422568606801672,
+          0.011038733604906006
+        ],
+        "estimate": 0.0091
+      },
+      "gpt-5.4-mini/C/accuracy_ITT": {
+        "cluster_bootstrap_95": [
+          0.95301290589469,
+          0.960678445845822
+        ],
+        "estimate": 0.957
+      },
+      "gpt-5.4/A/accuracy_ITT": {
+        "cluster_bootstrap_95": [
+          0.8795352143991995,
+          0.8920446210561572
+        ],
+        "estimate": 0.8858
+      },
+      "gpt-5.4/AB/accuracy_difference_ITT": {
+        "cluster_bootstrap_95": [
+          0.07010368801003325,
+          0.08193875745110184
+        ],
+        "estimate": 0.0759
+      },
+      "gpt-5.4/AB/known_regression_fraction": {
+        "cluster_bootstrap_95": [
+          0.007906483072661313,
+          0.01180532988529449
+        ],
+        "estimate": 0.0098
+      },
+      "gpt-5.4/AB/known_rescue_fraction": {
+        "cluster_bootstrap_95": [
+          0.08031233830593025,
+          0.09116764970609416
+        ],
+        "estimate": 0.0857
+      },
+      "gpt-5.4/AC/accuracy_difference_ITT": {
+        "cluster_bootstrap_95": [
+          0.07041872897551707,
+          0.08223854397353993
+        ],
+        "estimate": 0.0764
+      },
+      "gpt-5.4/AC/known_regression_fraction": {
+        "cluster_bootstrap_95": [
+          0.00886287740094909,
+          0.012916108919587136
+        ],
+        "estimate": 0.0108
+      },
+      "gpt-5.4/AC/known_rescue_fraction": {
+        "cluster_bootstrap_95": [
+          0.08172922592537125,
+          0.09275021330639707
+        ],
+        "estimate": 0.0872
+      },
+      "gpt-5.4/B/accuracy_ITT": {
+        "cluster_bootstrap_95": [
+          0.9577069544246164,
+          0.965343666135208
+        ],
+        "estimate": 0.9617
+      },
+      "gpt-5.4/BC/accuracy_difference_ITT": {
+        "cluster_bootstrap_95": [
+          -0.001374052509846853,
+          0.0024138579530200324
+        ],
+        "estimate": 0.0005
+      },
+      "gpt-5.4/BC/known_regression_fraction": {
+        "cluster_bootstrap_95": [
+          0.0028909122532268065,
+          0.00539574175443363
+        ],
+        "estimate": 0.0041
+      },
+      "gpt-5.4/BC/known_rescue_fraction": {
+        "cluster_bootstrap_95": [
+          0.003335013497127238,
+          0.005985709357510449
+        ],
+        "estimate": 0.0046
+      },
+      "gpt-5.4/C/accuracy_ITT": {
+        "cluster_bootstrap_95": [
+          0.9582857230604295,
+          0.9660534374589576
+        ],
+        "estimate": 0.9622
+      }
+    },
+    "group": "all_assigned_claims_repetition_1",
+    "repetitions": [
+      1
+    ],
+    "status_counts": {
+      "valid": 60000
+    },
+    "text_clusters": 9855,
+    "uncertainty": "2000 joint text-cluster bootstrap draws; original observed label-stratum weights (50/50 for full and representative sample); repeats reduced within claim; fixed provider occasion. Identification bounds include all unclassified outputs."
+  },
+  "historical_cases_first_pass": {
+    "claims": 226,
+    "details": {
+      "gpt-5.4-mini/A/accuracy_ITT": {
+        "accuracy_ITT": 0.8230088495575221,
+        "accuracy_identification_bounds": [
+          0.8230088495575221,
+          0.8230088495575221
+        ],
+        "accuracy_valid_only": 0.8230088495575221,
+        "assigned_calls": 226,
+        "correct": 186,
+        "valid_calls": 226
+      },
+      "gpt-5.4-mini/AB": {
+        "assigned_pairs": 226,
+        "regression_identification_bounds": [
+          0.45132743362831856,
+          0.45132743362831856
+        ],
+        "regression_valid_pair_rate": 0.45132743362831856,
+        "regressions_known": 102,
+        "rescue_identification_bounds": [
+          0.04424778761061947,
+          0.04424778761061947
+        ],
+        "rescues_known": 10,
+        "resistant_known": 30,
+        "robust_known": 84,
+        "unclassified_pairs": 0,
+        "valid_pairs": 226
+      },
+      "gpt-5.4-mini/AC": {
+        "assigned_pairs": 226,
+        "regression_identification_bounds": [
+          0.5088495575221239,
+          0.5088495575221239
+        ],
+        "regression_valid_pair_rate": 0.5088495575221239,
+        "regressions_known": 115,
+        "rescue_identification_bounds": [
+          0.04424778761061947,
+          0.04424778761061947
+        ],
+        "rescues_known": 10,
+        "resistant_known": 30,
+        "robust_known": 71,
+        "unclassified_pairs": 0,
+        "valid_pairs": 226
+      },
+      "gpt-5.4-mini/B/accuracy_ITT": {
+        "accuracy_ITT": 0.415929203539823,
+        "accuracy_identification_bounds": [
+          0.415929203539823,
+          0.415929203539823
+        ],
+        "accuracy_valid_only": 0.415929203539823,
+        "assigned_calls": 226,
+        "correct": 94,
+        "valid_calls": 226
+      },
+      "gpt-5.4-mini/BC": {
+        "assigned_pairs": 226,
+        "regression_identification_bounds": [
+          0.11946902654867257,
+          0.11946902654867257
+        ],
+        "regression_valid_pair_rate": 0.11946902654867257,
+        "regressions_known": 27,
+        "rescue_identification_bounds": [
+          0.061946902654867256,
+          0.061946902654867256
+        ],
+        "rescues_known": 14,
+        "resistant_known": 118,
+        "robust_known": 67,
+        "unclassified_pairs": 0,
+        "valid_pairs": 226
+      },
+      "gpt-5.4-mini/C/accuracy_ITT": {
+        "accuracy_ITT": 0.3584070796460177,
+        "accuracy_identification_bounds": [
+          0.3584070796460177,
+          0.3584070796460177
+        ],
+        "accuracy_valid_only": 0.3584070796460177,
+        "assigned_calls": 226,
+        "correct": 81,
+        "valid_calls": 226
+      },
+      "gpt-5.4/A/accuracy_ITT": {
+        "accuracy_ITT": 0.7787610619469026,
+        "accuracy_identification_bounds": [
+          0.7787610619469026,
+          0.7787610619469026
+        ],
+        "accuracy_valid_only": 0.7787610619469026,
+        "assigned_calls": 226,
+        "correct": 176,
+        "valid_calls": 226
+      },
+      "gpt-5.4/AB": {
+        "assigned_pairs": 226,
+        "regression_identification_bounds": [
+          0.35398230088495575,
+          0.35398230088495575
+        ],
+        "regression_valid_pair_rate": 0.35398230088495575,
+        "regressions_known": 80,
+        "rescue_identification_bounds": [
+          0.05309734513274336,
+          0.05309734513274336
+        ],
+        "rescues_known": 12,
+        "resistant_known": 38,
+        "robust_known": 96,
+        "unclassified_pairs": 0,
+        "valid_pairs": 226
+      },
+      "gpt-5.4/AC": {
+        "assigned_pairs": 226,
+        "regression_identification_bounds": [
+          0.415929203539823,
+          0.415929203539823
+        ],
+        "regression_valid_pair_rate": 0.415929203539823,
+        "regressions_known": 94,
+        "rescue_identification_bounds": [
+          0.05309734513274336,
+          0.05309734513274336
+        ],
+        "rescues_known": 12,
+        "resistant_known": 38,
+        "robust_known": 82,
+        "unclassified_pairs": 0,
+        "valid_pairs": 226
+      },
+      "gpt-5.4/B/accuracy_ITT": {
+        "accuracy_ITT": 0.4778761061946903,
+        "accuracy_identification_bounds": [
+          0.4778761061946903,
+          0.4778761061946903
+        ],
+        "accuracy_valid_only": 0.4778761061946903,
+        "assigned_calls": 226,
+        "correct": 108,
+        "valid_calls": 226
+      },
+      "gpt-5.4/BC": {
+        "assigned_pairs": 226,
+        "regression_identification_bounds": [
+          0.08849557522123894,
+          0.08849557522123894
+        ],
+        "regression_valid_pair_rate": 0.08849557522123894,
+        "regressions_known": 20,
+        "rescue_identification_bounds": [
+          0.02654867256637168,
+          0.02654867256637168
+        ],
+        "rescues_known": 6,
+        "resistant_known": 112,
+        "robust_known": 88,
+        "unclassified_pairs": 0,
+        "valid_pairs": 226
+      },
+      "gpt-5.4/C/accuracy_ITT": {
+        "accuracy_ITT": 0.415929203539823,
+        "accuracy_identification_bounds": [
+          0.415929203539823,
+          0.415929203539823
+        ],
+        "accuracy_valid_only": 0.415929203539823,
+        "assigned_calls": 226,
+        "correct": 94,
+        "valid_calls": 226
+      }
+    },
+    "estimates": {
+      "gpt-5.4-mini/A/accuracy_ITT": {
+        "cluster_bootstrap_95": [
+          0.7734256047945907,
+          0.8712590356535354
+        ],
+        "estimate": 0.8230088495575221
+      },
+      "gpt-5.4-mini/AB/accuracy_difference_ITT": {
+        "cluster_bootstrap_95": [
+          -0.47928516452668946,
+          -0.3350172530085022
+        ],
+        "estimate": -0.40707964601769914
+      },
+      "gpt-5.4-mini/AB/known_regression_fraction": {
+        "cluster_bootstrap_95": [
+          0.38807037777181497,
+          0.515279021322665
+        ],
+        "estimate": 0.45132743362831856
+      },
+      "gpt-5.4-mini/AB/known_rescue_fraction": {
+        "cluster_bootstrap_95": [
+          0.017698957466656583,
+          0.0755295000702992
+        ],
+        "estimate": 0.04424778761061947
+      },
+      "gpt-5.4-mini/AC/accuracy_difference_ITT": {
+        "cluster_bootstrap_95": [
+          -0.5396093257356309,
+          -0.3921848748102978
+        ],
+        "estimate": -0.4646017699115044
+      },
+      "gpt-5.4-mini/AC/known_regression_fraction": {
+        "cluster_bootstrap_95": [
+          0.44441385357554297,
+          0.5742549646706032
+        ],
+        "estimate": 0.5088495575221239
+      },
+      "gpt-5.4-mini/AC/known_rescue_fraction": {
+        "cluster_bootstrap_95": [
+          0.018070848491785526,
+          0.07184287565924728
+        ],
+        "estimate": 0.04424778761061947
+      },
+      "gpt-5.4-mini/B/accuracy_ITT": {
+        "cluster_bootstrap_95": [
+          0.3518446154199499,
+          0.47972392596073327
+        ],
+        "estimate": 0.415929203539823
+      },
+      "gpt-5.4-mini/BC/accuracy_difference_ITT": {
+        "cluster_bootstrap_95": [
+          -0.11333584130247136,
+          -0.003221908839030591
+        ],
+        "estimate": -0.05752212389380531
+      },
+      "gpt-5.4-mini/BC/known_regression_fraction": {
+        "cluster_bootstrap_95": [
+          0.0784472465627865,
+          0.16301109827994287
+        ],
+        "estimate": 0.11946902654867257
+      },
+      "gpt-5.4-mini/BC/known_rescue_fraction": {
+        "cluster_bootstrap_95": [
+          0.03256869706262582,
+          0.09491589695567114
+        ],
+        "estimate": 0.061946902654867256
+      },
+      "gpt-5.4-mini/C/accuracy_ITT": {
+        "cluster_bootstrap_95": [
+          0.29586029694598265,
+          0.4199459374177669
+        ],
+        "estimate": 0.3584070796460177
+      },
+      "gpt-5.4/A/accuracy_ITT": {
+        "cluster_bootstrap_95": [
+          0.7232408741793604,
+          0.8320375499306624
+        ],
+        "estimate": 0.7787610619469026
+      },
+      "gpt-5.4/AB/accuracy_difference_ITT": {
+        "cluster_bootstrap_95": [
+          -0.36953063167759503,
+          -0.22694220156101663
+        ],
+        "estimate": -0.3008849557522124
+      },
+      "gpt-5.4/AB/known_regression_fraction": {
+        "cluster_bootstrap_95": [
+          0.2911703476913142,
+          0.41261365106337045
+        ],
+        "estimate": 0.35398230088495575
+      },
+      "gpt-5.4/AB/known_rescue_fraction": {
+        "cluster_bootstrap_95": [
+          0.0258264873642445,
+          0.08343544361243475
+        ],
+        "estimate": 0.05309734513274336
+      },
+      "gpt-5.4/AC/accuracy_difference_ITT": {
+        "cluster_bootstrap_95": [
+          -0.43253807090666857,
+          -0.28909611292241955
+        ],
+        "estimate": -0.36283185840707965
+      },
+      "gpt-5.4/AC/known_regression_fraction": {
+        "cluster_bootstrap_95": [
+          0.35280860419269133,
+          0.4778899460094149
+        ],
+        "estimate": 0.415929203539823
+      },
+      "gpt-5.4/AC/known_rescue_fraction": {
+        "cluster_bootstrap_95": [
+          0.026638313852708227,
+          0.08462697114260909
+        ],
+        "estimate": 0.05309734513274336
+      },
+      "gpt-5.4/B/accuracy_ITT": {
+        "cluster_bootstrap_95": [
+          0.4145066295493273,
+          0.5422715061487186
+        ],
+        "estimate": 0.4778761061946903
+      },
+      "gpt-5.4/BC/accuracy_difference_ITT": {
+        "cluster_bootstrap_95": [
+          -0.10616583298702789,
+          -0.021141487568478726
+        ],
+        "estimate": -0.061946902654867256
+      },
+      "gpt-5.4/BC/known_regression_fraction": {
+        "cluster_bootstrap_95": [
+          0.0531246410789454,
+          0.12667657817409236
+        ],
+        "estimate": 0.08849557522123894
+      },
+      "gpt-5.4/BC/known_rescue_fraction": {
+        "cluster_bootstrap_95": [
+          0.008584214341594357,
+          0.04927463591048222
+        ],
+        "estimate": 0.02654867256637168
+      },
+      "gpt-5.4/C/accuracy_ITT": {
+        "cluster_bootstrap_95": [
+          0.3556024627030902,
+          0.4816749863662279
+        ],
+        "estimate": 0.415929203539823
+      }
+    },
+    "group": "selected_historical_regression_cases",
+    "repetitions": [
+      1
+    ],
+    "status_counts": {
+      "valid": 1356
+    },
+    "text_clusters": 225,
+    "uncertainty": "2000 joint text-cluster bootstrap draws; original observed label-stratum weights (50/50 for full and representative sample); repeats reduced within claim; fixed provider occasion. Identification bounds include all unclassified outputs."
+  },
+  "historical_cases_repeated": {
+    "claims_assigned_repeats": 226,
+    "estimates": {
+      "gpt-5.4-mini/A/identical_prompt_disagreement": {
+        "cluster_bootstrap_95": [
+          0.0589518293362015,
+          0.11536505025039444
+        ],
+        "complete_claims": 226,
+        "estimate_complete_claims": 0.0855457227138643
+      },
+      "gpt-5.4-mini/AB/excess_loss_over_identical_left_prompt": {
+        "cluster_bootstrap_95": [
+          0.34445647159984744,
+          0.4652867143056574
+        ],
+        "complete_claims": 226,
+        "estimate_complete_claims": 0.4041297935103245
+      },
+      "gpt-5.4-mini/B/identical_prompt_disagreement": {
+        "cluster_bootstrap_95": [
+          0.05504337753380962,
+          0.11033366689924103
+        ],
+        "complete_claims": 226,
+        "estimate_complete_claims": 0.08259587020648966
+      },
+      "gpt-5.4-mini/BC/excess_loss_over_identical_left_prompt": {
+        "cluster_bootstrap_95": [
+          0.048459895375258785,
+          0.11293931453799068
+        ],
+        "complete_claims": 226,
+        "estimate_complete_claims": 0.07964601769911504
+      },
+      "gpt-5.4-mini/C/identical_prompt_disagreement": {
+        "cluster_bootstrap_95": [
+          0.06264167999312516,
+          0.12325802022147722
+        ],
+        "complete_claims": 226,
+        "estimate_complete_claims": 0.09144542772861355
+      },
+      "gpt-5.4/A/identical_prompt_disagreement": {
+        "cluster_bootstrap_95": [
+          0.011280603588565944,
+          0.0448953087447862
+        ],
+        "complete_claims": 226,
+        "estimate_complete_claims": 0.026548672566371678
+      },
+      "gpt-5.4/AB/excess_loss_over_identical_left_prompt": {
+        "cluster_bootstrap_95": [
+          0.2800039924115751,
+          0.400662446227482
+        ],
+        "complete_claims": 226,
+        "estimate_complete_claims": 0.3421828908554573
+      },
+      "gpt-5.4/B/identical_prompt_disagreement": {
+        "cluster_bootstrap_95": [
+          0.012394618559899782,
+          0.048913045573921926
+        ],
+        "complete_claims": 226,
+        "estimate_complete_claims": 0.02949852507374631
+      },
+      "gpt-5.4/BC/excess_loss_over_identical_left_prompt": {
+        "cluster_bootstrap_95": [
+          0.059626487955552324,
+          0.1345863649970804
+        ],
+        "complete_claims": 226,
+        "estimate_complete_claims": 0.09587020648967551
+      },
+      "gpt-5.4/C/identical_prompt_disagreement": {
+        "cluster_bootstrap_95": [
+          0.01756236008121689,
+          0.05633068513995114
+        ],
+        "complete_claims": 226,
+        "estimate_complete_claims": 0.035398230088495575
+      }
+    },
+    "limit": "Complete-repeat summaries have selected denominators; incomplete claims are reported rather than imputed. Persistence across these repetitions is not an individual stable causal effect.",
+    "per_claim_outcomes_location": "snapshot/runs/full3/analysis-2026-10-17T18-43-50.666851+00-00/summary.json.gz",
+    "per_claim_outcomes_count": 2260
+  },
+  "historical_comparison_limit": "New calls cannot recreate or identify changes in undocumented historical model snapshots; historical normalized labels are a separate recorded baseline.",
+  "historical_label_comparisons": [
+    {
+      "assigned": 10000,
+      "historical_condition": "claim_only",
+      "model": "gpt-5.4",
+      "new_condition": "A",
+      "same_label": 9789,
+      "valid_new": 10000
+    },
+    {
+      "assigned": 10000,
+      "historical_condition": "claim_plus_evidence",
+      "model": "gpt-5.4",
+      "new_condition": "C",
+      "same_label": 9936,
+      "valid_new": 10000
+    },
+    {
+      "assigned": 10000,
+      "historical_condition": "claim_only",
+      "model": "gpt-5.4-mini",
+      "new_condition": "A",
+      "same_label": 9683,
+      "valid_new": 10000
+    },
+    {
+      "assigned": 10000,
+      "historical_condition": "claim_plus_evidence",
+      "model": "gpt-5.4-mini",
+      "new_condition": "C",
+      "same_label": 9902,
+      "valid_new": 10000
+    }
+  ],
+  "interpretation_gate": "Terminal outcomes include all invalids/nonresponses; report their denominators",
+  "planned_jobs": 180000,
+  "purpose": "new_predictor_experiment",
+  "repeat_representative": {
+    "claims": 10000,
+    "details": {
+      "gpt-5.4-mini/A/accuracy_ITT": {
+        "accuracy_ITT": 0.8473,
+        "accuracy_identification_bounds": [
+          0.8473,
+          0.8473
+        ],
+        "accuracy_valid_only": 0.8473,
+        "assigned_calls": 30000,
+        "correct": 25419,
+        "valid_calls": 30000
+      },
+      "gpt-5.4-mini/AB": {
+        "assigned_pairs": 30000,
+        "regression_identification_bounds": [
+          0.0142,
+          0.0142
+        ],
+        "regression_valid_pair_rate": 0.0142,
+        "regressions_known": 426,
+        "rescue_identification_bounds": [
+          0.12206666666666667,
+          0.12206666666666667
+        ],
+        "rescues_known": 3662,
+        "resistant_known": 919,
+        "robust_known": 24993,
+        "unclassified_pairs": 0,
+        "valid_pairs": 30000
+      },
+      "gpt-5.4-mini/AC": {
+        "assigned_pairs": 30000,
+        "regression_identification_bounds": [
+          0.014966666666666666,
+          0.014966666666666666
+        ],
+        "regression_valid_pair_rate": 0.014966666666666666,
+        "regressions_known": 449,
+        "rescue_identification_bounds": [
+          0.12453333333333333,
+          0.12453333333333333
+        ],
+        "rescues_known": 3736,
+        "resistant_known": 845,
+        "robust_known": 24970,
+        "unclassified_pairs": 0,
+        "valid_pairs": 30000
+      },
+      "gpt-5.4-mini/B/accuracy_ITT": {
+        "accuracy_ITT": 0.9551666666666667,
+        "accuracy_identification_bounds": [
+          0.9551666666666667,
+          0.9551666666666667
+        ],
+        "accuracy_valid_only": 0.9551666666666667,
+        "assigned_calls": 30000,
+        "correct": 28655,
+        "valid_calls": 30000
+      },
+      "gpt-5.4-mini/BC": {
+        "assigned_pairs": 30000,
+        "regression_identification_bounds": [
+          0.006666666666666667,
+          0.006666666666666667
+        ],
+        "regression_valid_pair_rate": 0.006666666666666667,
+        "regressions_known": 200,
+        "rescue_identification_bounds": [
+          0.008366666666666666,
+          0.008366666666666666
+        ],
+        "rescues_known": 251,
+        "resistant_known": 1094,
+        "robust_known": 28455,
+        "unclassified_pairs": 0,
+        "valid_pairs": 30000
+      },
+      "gpt-5.4-mini/C/accuracy_ITT": {
+        "accuracy_ITT": 0.9568666666666666,
+        "accuracy_identification_bounds": [
+          0.9568666666666666,
+          0.9568666666666666
+        ],
+        "accuracy_valid_only": 0.9568666666666666,
+        "assigned_calls": 30000,
+        "correct": 28706,
+        "valid_calls": 30000
+      },
+      "gpt-5.4/A/accuracy_ITT": {
+        "accuracy_ITT": 0.8861333333333333,
+        "accuracy_identification_bounds": [
+          0.8861333333333333,
+          0.8861333333333333
+        ],
+        "accuracy_valid_only": 0.8861333333333333,
+        "assigned_calls": 30000,
+        "correct": 26584,
+        "valid_calls": 30000
+      },
+      "gpt-5.4/AB": {
+        "assigned_pairs": 30000,
+        "regression_identification_bounds": [
+          0.010033333333333333,
+          0.010033333333333333
+        ],
+        "regression_valid_pair_rate": 0.010033333333333333,
+        "regressions_known": 301,
+        "rescue_identification_bounds": [
+          0.0855,
+          0.0855
+        ],
+        "rescues_known": 2565,
+        "resistant_known": 851,
+        "robust_known": 26283,
+        "unclassified_pairs": 0,
+        "valid_pairs": 30000
+      },
+      "gpt-5.4/AC": {
+        "assigned_pairs": 30000,
+        "regression_identification_bounds": [
+          0.0112,
+          0.0112
+        ],
+        "regression_valid_pair_rate": 0.0112,
+        "regressions_known": 336,
+        "rescue_identification_bounds": [
+          0.08683333333333333,
+          0.08683333333333333
+        ],
+        "rescues_known": 2605,
+        "resistant_known": 811,
+        "robust_known": 26248,
+        "unclassified_pairs": 0,
+        "valid_pairs": 30000
+      },
+      "gpt-5.4/B/accuracy_ITT": {
+        "accuracy_ITT": 0.9616,
+        "accuracy_identification_bounds": [
+          0.9616,
+          0.9616
+        ],
+        "accuracy_valid_only": 0.9616,
+        "assigned_calls": 30000,
+        "correct": 28848,
+        "valid_calls": 30000
+      },
+      "gpt-5.4/BC": {
+        "assigned_pairs": 30000,
+        "regression_identification_bounds": [
+          0.004633333333333333,
+          0.004633333333333333
+        ],
+        "regression_valid_pair_rate": 0.004633333333333333,
+        "regressions_known": 139,
+        "rescue_identification_bounds": [
+          0.0048,
+          0.0048
+        ],
+        "rescues_known": 144,
+        "resistant_known": 1008,
+        "robust_known": 28709,
+        "unclassified_pairs": 0,
+        "valid_pairs": 30000
+      },
+      "gpt-5.4/C/accuracy_ITT": {
+        "accuracy_ITT": 0.9617666666666667,
+        "accuracy_identification_bounds": [
+          0.9617666666666667,
+          0.9617666666666667
+        ],
+        "accuracy_valid_only": 0.9617666666666667,
+        "assigned_calls": 30000,
+        "correct": 28853,
+        "valid_calls": 30000
+      }
+    },
+    "estimates": {
+      "gpt-5.4-mini/A/accuracy_ITT": {
+        "cluster_bootstrap_95": [
+          0.8404356071860722,
+          0.8542731203799343
+        ],
+        "estimate": 0.8473
+      },
+      "gpt-5.4-mini/AB/accuracy_difference_ITT": {
+        "cluster_bootstrap_95": [
+          0.10134573914183725,
+          0.11440113636297138
+        ],
+        "estimate": 0.10786666666666665
+      },
+      "gpt-5.4-mini/AB/known_regression_fraction": {
+        "cluster_bootstrap_95": [
+          0.012143677295408712,
+          0.016333821418128947
+        ],
+        "estimate": 0.0142
+      },
+      "gpt-5.4-mini/AB/known_rescue_fraction": {
+        "cluster_bootstrap_95": [
+          0.11608991846134581,
+          0.1282089601007999
+        ],
+        "estimate": 0.12206666666666666
+      },
+      "gpt-5.4-mini/AC/accuracy_difference_ITT": {
+        "cluster_bootstrap_95": [
+          0.10305246584675215,
+          0.11621910434016847
+        ],
+        "estimate": 0.10956666666666667
+      },
+      "gpt-5.4-mini/AC/known_regression_fraction": {
+        "cluster_bootstrap_95": [
+          0.012778223854712965,
+          0.017254400378190173
+        ],
+        "estimate": 0.014966666666666666
+      },
+      "gpt-5.4-mini/AC/known_rescue_fraction": {
+        "cluster_bootstrap_95": [
+          0.11846158981327866,
+          0.13062412458963016
+        ],
+        "estimate": 0.12453333333333333
+      },
+      "gpt-5.4-mini/B/accuracy_ITT": {
+        "cluster_bootstrap_95": [
+          0.9512284185209888,
+          0.9589337838313253
+        ],
+        "estimate": 0.9551666666666668
+      },
+      "gpt-5.4-mini/BC/accuracy_difference_ITT": {
+        "cluster_bootstrap_95": [
+          -0.00020927953235907112,
+          0.0037418560180814252
+        ],
+        "estimate": 0.0017
+      },
+      "gpt-5.4-mini/BC/known_regression_fraction": {
+        "cluster_bootstrap_95": [
+          0.005329725646514791,
+          0.007954999705018905
+        ],
+        "estimate": 0.006666666666666665
+      },
+      "gpt-5.4-mini/BC/known_rescue_fraction": {
+        "cluster_bootstrap_95": [
+          0.006919073175363406,
+          0.00992379061357675
+        ],
+        "estimate": 0.008366666666666666
+      },
+      "gpt-5.4-mini/C/accuracy_ITT": {
+        "cluster_bootstrap_95": [
+          0.952914865335288,
+          0.9605934988370481
+        ],
+        "estimate": 0.9568666666666666
+      },
+      "gpt-5.4/A/accuracy_ITT": {
+        "cluster_bootstrap_95": [
+          0.8800580642490993,
+          0.8921959885142843
+        ],
+        "estimate": 0.8861333333333332
+      },
+      "gpt-5.4/AB/accuracy_difference_ITT": {
+        "cluster_bootstrap_95": [
+          0.06949109122408219,
+          0.0813771727398422
+        ],
+        "estimate": 0.07546666666666667
+      },
+      "gpt-5.4/AB/known_regression_fraction": {
+        "cluster_bootstrap_95": [
+          0.008195988251396929,
+          0.011952206424476395
+        ],
+        "estimate": 0.010033333333333333
+      },
+      "gpt-5.4/AB/known_rescue_fraction": {
+        "cluster_bootstrap_95": [
+          0.08025980521605437,
+          0.09083773042546943
+        ],
+        "estimate": 0.0855
+      },
+      "gpt-5.4/AC/accuracy_difference_ITT": {
+        "cluster_bootstrap_95": [
+          0.06983424312233542,
+          0.08143480212885039
+        ],
+        "estimate": 0.07563333333333333
+      },
+      "gpt-5.4/AC/known_regression_fraction": {
+        "cluster_bootstrap_95": [
+          0.009261321739295548,
+          0.013295516424220864
+        ],
+        "estimate": 0.0112
+      },
+      "gpt-5.4/AC/known_rescue_fraction": {
+        "cluster_bootstrap_95": [
+          0.08146231978679444,
+          0.09227812635831298
+        ],
+        "estimate": 0.08683333333333333
+      },
+      "gpt-5.4/B/accuracy_ITT": {
+        "cluster_bootstrap_95": [
+          0.9576980856614028,
+          0.9652608218028021
+        ],
+        "estimate": 0.9616
+      },
+      "gpt-5.4/BC/accuracy_difference_ITT": {
+        "cluster_bootstrap_95": [
+          -0.0015866080952843017,
+          0.0019970079571194027
+        ],
+        "estimate": 0.0001666666666666668
+      },
+      "gpt-5.4/BC/known_regression_fraction": {
+        "cluster_bootstrap_95": [
+          0.003439698193958048,
+          0.005893496928713014
+        ],
+        "estimate": 0.004633333333333333
+      },
+      "gpt-5.4/BC/known_rescue_fraction": {
+        "cluster_bootstrap_95": [
+          0.0035944185858579627,
+          0.006166033019659293
+        ],
+        "estimate": 0.0048
+      },
+      "gpt-5.4/C/accuracy_ITT": {
+        "cluster_bootstrap_95": [
+          0.9579317362724356,
+          0.9655592122264072
+        ],
+        "estimate": 0.9617666666666667
+      }
+    },
+    "group": "prospectively_random_repeat_records",
+    "repetitions": [
+      1,
+      2,
+      3
+    ],
+    "status_counts": {
+      "valid": 180000
+    },
+    "text_clusters": 9855,
+    "uncertainty": "2000 joint text-cluster bootstrap draws; original observed label-stratum weights (50/50 for full and representative sample); repeats reduced within claim; fixed provider occasion. Identification bounds include all unclassified outputs."
+  },
+  "repeat_variation": {
+    "claims_assigned_repeats": 10000,
+    "estimates": {
+      "gpt-5.4-mini/A/identical_prompt_disagreement": {
+        "cluster_bootstrap_95": [
+          0.020910649883873103,
+          0.025793972770385056
+        ],
+        "complete_claims": 10000,
+        "estimate_complete_claims": 0.02333333333333333
+      },
+      "gpt-5.4-mini/AB/excess_loss_over_identical_left_prompt": {
+        "cluster_bootstrap_95": [
+          0.0001938321176908558,
+          0.004897285948412558
+        ],
+        "complete_claims": 10000,
+        "estimate_complete_claims": 0.002533333333333334
+      },
+      "gpt-5.4-mini/B/identical_prompt_disagreement": {
+        "cluster_bootstrap_95": [
+          0.005852013635094408,
+          0.008546434186253733
+        ],
+        "complete_claims": 10000,
+        "estimate_complete_claims": 0.007133333333333333
+      },
+      "gpt-5.4-mini/BC/excess_loss_over_identical_left_prompt": {
+        "cluster_bootstrap_95": [
+          0.0018345666220592487,
+          0.004399725630859185
+        ],
+        "complete_claims": 10000,
+        "estimate_complete_claims": 0.0031
+      },
+      "gpt-5.4-mini/C/identical_prompt_disagreement": {
+        "cluster_bootstrap_95": [
+          0.005247187161183757,
+          0.007859988138067492
+        ],
+        "complete_claims": 10000,
+        "estimate_complete_claims": 0.006533333333333333
+      },
+      "gpt-5.4/A/identical_prompt_disagreement": {
+        "cluster_bootstrap_95": [
+          0.005398456962548023,
+          0.007998821462263656
+        ],
+        "complete_claims": 10000,
+        "estimate_complete_claims": 0.006666666666666665
+      },
+      "gpt-5.4/AB/excess_loss_over_identical_left_prompt": {
+        "cluster_bootstrap_95": [
+          0.004806468916646952,
+          0.008705346565103
+        ],
+        "complete_claims": 10000,
+        "estimate_complete_claims": 0.0067
+      },
+      "gpt-5.4/B/identical_prompt_disagreement": {
+        "cluster_bootstrap_95": [
+          0.0009911375782107263,
+          0.002193684090616718
+        ],
+        "complete_claims": 10000,
+        "estimate_complete_claims": 0.0015333333333333332
+      },
+      "gpt-5.4/BC/excess_loss_over_identical_left_prompt": {
+        "cluster_bootstrap_95": [
+          0.0026668645461799876,
+          0.005082742986803233
+        ],
+        "complete_claims": 10000,
+        "estimate_complete_claims": 0.003866666666666667
+      },
+      "gpt-5.4/C/identical_prompt_disagreement": {
+        "cluster_bootstrap_95": [
+          0.0012588827849286872,
+          0.002631821718233762
+        ],
+        "complete_claims": 10000,
+        "estimate_complete_claims": 0.0019333333333333331
+      }
+    },
+    "limit": "Complete-repeat summaries have selected denominators; incomplete claims are reported rather than imputed. Persistence across these repetitions is not an individual stable causal effect.",
+    "per_claim_outcomes_location": "snapshot/runs/full3/analysis-2026-10-17T18-43-50.666851+00-00/summary.json.gz",
+    "per_claim_outcomes_count": 100000
+  },
+  "status_counts": {
+    "valid": 180000
+  },
+  "usage_accounting": {
+    "gpt-5.4": {
+      "limit": "Only available reported usage; absent usage and uncertain transmissions do not imply zero billed usage.",
+      "receipts": 90000,
+      "receipts_with_usage": 90000,
+      "receipts_without_usage": 0,
+      "reported_cached_prompt_tokens": 0,
+      "reported_completion_tokens": 429827,
+      "reported_prompt_tokens": 6444021,
+      "reported_reasoning_tokens": 0
+    },
+    "gpt-5.4-mini": {
+      "limit": "Only available reported usage; absent usage and uncertain transmissions do not imply zero billed usage.",
+      "receipts": 90000,
+      "receipts_with_usage": 90000,
+      "receipts_without_usage": 0,
+      "reported_cached_prompt_tokens": 0,
+      "reported_completion_tokens": 532690,
+      "reported_prompt_tokens": 6444021,
+      "reported_reasoning_tokens": 0
+    }
+  }
+}

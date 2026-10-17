@@ -1,0 +1,185 @@
+{
+  "scope": "Source, prepared artifacts and delivery records; ignored local dependencies, run databases and synthetic fixtures excluded",
+  "files": {
+    ".gitignore": {
+      "sha256": "53c8e09ec38752c4a751521be2aeef56f837458529986dc61d6c08d9f8f1fb0b",
+      "bytes": 69
+    },
+    "analyze.py": {
+      "sha256": "50878788121b1ac56ae5a65c475049d3360f6781e510fa120b0cff5e87e6919b",
+      "bytes": 19408
+    },
+    "build_delivery.py": {
+      "sha256": "cf1399771a323e123e86397ce76d48d945b3c8ae35f6376cf094405d49a216af",
+      "bytes": 7300
+    },
+    "common.py": {
+      "sha256": "4fc78a0ce94c516591618d69b9652ce62b0dcfde40b13f58e4eb9c447b7a640b",
+      "bytes": 2709
+    },
+    "COST_ESTIMATE.json": {
+      "sha256": "acfb35ae63b649eb66a3d2e82e34a2db3b6c0f9a211952755433bd23d4f4ad5e",
+      "bytes": 4789
+    },
+    "COST_ESTIMATE.md": {
+      "sha256": "eba7fda8c460749d4135e5a7d4c1534e1203ab863013750e5058f2b32f9aff75",
+      "bytes": 4359
+    },
+    "delivery-build.log": {
+      "sha256": "a00f380908b2a997ec0bedeb540dac1fdbd8643fe5fe86cc4f808483c1147290",
+      "bytes": 105
+    },
+    "DELIVERY_REPORT.md": {
+      "sha256": "a5d23becead9f97481ed263c1e63de4da1ccf19215e76aa1f05dcd6bdbf82c86",
+      "bytes": 4008
+    },
+    "dependency-install.log": {
+      "sha256": "1ec4f189bdcc56881d52c4ef73871a6d86fb2b72f647dc960b4f3326284c2c0c",
+      "bytes": 2281
+    },
+    "freeze.log": {
+      "sha256": "369e9d473322e5333aa68367c04cc88c498b12ddbc7f6efc51c05ff1249a9791",
+      "bytes": 153
+    },
+    "full3-initial-status.log": {
+      "sha256": "8a444efe6dcb914be8750c30c4eaea405a563816f72a1f1aaed6894ec1e9f745",
+      "bytes": 27
+    },
+    "LATEST_MOCK_INTEGRATION.json": {
+      "sha256": "e35001440148b975f3eed0c59c63303320b9f0c82cf1f862104a7f9c9f0d027b",
+      "bytes": 424
+    },
+    "MESSAGE_EXAMPLES.json": {
+      "sha256": "37aab994a57cd069d5a24a8b61e3da254f915a222aae03722ad0f1c20efc0de3",
+      "bytes": 3693
+    },
+    "mock-integration.log": {
+      "sha256": "3256b401255cc086ecbab8b032befff545f0583ade5577f53f37c64602d07bbe",
+      "bytes": 328
+    },
+    "MOCK_INTEGRATION.json": {
+      "sha256": "6ca0569adcf440549d2fac3701c0be0daaab0b7c07fb93daca0671f8e0d50fca",
+      "bytes": 358
+    },
+    "official-sources.json": {
+      "sha256": "54ee70483a6a54c645828f56d70f75bc08304d552290a60addf6b84a53be8fa1",
+      "bytes": 1688
+    },
+    "preflight.log": {
+      "sha256": "ade62a971909c28abf11919d063590cdd572a905929365064506d4f1c08566aa",
+      "bytes": 183
+    },
+    "preparation.log": {
+      "sha256": "d84296f87c2ae5f3d787dc2a1bfd40eec90f3e89a0d9196069eb70da5ed99c99",
+      "bytes": 821
+    },
+    "prepare.py": {
+      "sha256": "f4533bbb7f0e85fa786343fe6fa1f1fb6197e327fcdefb278ebaf469095e2364",
+      "bytes": 11910
+    },
+    "PRESERVATION.json": {
+      "sha256": "35b6d3082a4c8dbefd273c38f6d721ed9f62f7c561712a38dc8a9864dc00860f",
+      "bytes": 3224
+    },
+    "protocol-freeze.json": {
+      "sha256": "2dcd6ee8877201c7c96d3413768ac6db9718403cadbda4410a56267e859af676",
+      "bytes": 2277
+    },
+    "PROTOCOL.md": {
+      "sha256": "eed75c42905e9a9586b421ce41b5fde81984142f9653918d5c5914b9db44eb3d",
+      "bytes": 20118
+    },
+    "README.md": {
+      "sha256": "b95e4ead0d690762c4c957abb01e92d354420c52b28b73f89f186bdc7d771c94",
+      "bytes": 9803
+    },
+    "release-check.log": {
+      "sha256": "644ce4d77a9266889aaa6ab083ab44859765f51f10c558c68f83269d5e28c808",
+      "bytes": 1207
+    },
+    "RELEASE_CHECK.json": {
+      "sha256": "4fa64ab86474516243900117a7bd0f9647f34d9673b13c88d37b8579b1f09c86",
+      "bytes": 1205
+    },
+    "requirements.txt": {
+      "sha256": "2ce0dedfac0ceb0caaaa2a85e17b3d6d6a9903bde50021d271931e45cbad9d0e",
+      "bytes": 30
+    },
+    "retry-edge-before.txt": {
+      "sha256": "9fc69abf7f65e6e9360ab050e1c58e753510e24bf7d6d9690879b3cfd40a980d",
+      "bytes": 928
+    },
+    "runner.py": {
+      "sha256": "9fb02ab15e2b210158f6c6c128838610ed50ae69084a254f30069db59f2ac421",
+      "bytes": 18613
+    },
+    "RUN_MATRIX.csv": {
+      "sha256": "f3bf820eb325c884d812fd468f0114e8ad3e2a7aaf75d03e207154cde22c22f7",
+      "bytes": 351
+    },
+    "seal.py": {
+      "sha256": "425f744dec6207590a3a2044f9a9d7e862ab5114fe53da83819f4c310a4c010d",
+      "bytes": 1844
+    },
+    "smoke-initial-status.log": {
+      "sha256": "fbf53ac685b27777ee20413eb3bc160b384440784995b76273bd7d4c1e620119",
+      "bytes": 23
+    },
+    "TEST_RESULTS.txt": {
+      "sha256": "57cb607294efbfed28248a215bcfacc68c3aba2a3aabc99df2599090e619bf40",
+      "bytes": 3230
+    },
+    "verify_release.py": {
+      "sha256": "380846b54e7aef3b79fbabd3800f82893cb33ab94a9b90424effe457bb52c480",
+      "bytes": 5390
+    },
+    "availability/2026-10-16T07-30-06.360506+00-00.json": {
+      "sha256": "ae8577dda00c5bfb0a2ba456f92667ce456d569b6753982da0a5b18e08b4efbd",
+      "bytes": 183
+    },
+    "prepared/input-verification.json": {
+      "sha256": "9ed6d3af215b98a41621f1cc21e07a847bdd43a35d056946e834dfe1c6c5bb2f",
+      "bytes": 5168
+    },
+    "prepared/inputs.jsonl": {
+      "sha256": "662f92fc9a991bc79b13885c431e13200b5c90903a9414d7d103be560e7fc348",
+      "bytes": 7253599
+    },
+    "tests/run_mock_integration.py": {
+      "sha256": "5b20003192c01559ec905971c1dfd51342af685fc10945c80af97f2587da7dba",
+      "bytes": 3270
+    },
+    "tests/test_experiment.py": {
+      "sha256": "c109ff028892a3216509ff23afa458ff25fe29b8251747f7135c8f0d029dfa9e",
+      "bytes": 12807
+    },
+    "prepared/full3/jobs.jsonl": {
+      "sha256": "c9874b27d37867cd438aa76bddd3efcfcd02d1fd6eccfe65147474017513e963",
+      "bytes": 36971554
+    },
+    "prepared/full3/plan.json": {
+      "sha256": "826a3db3de52423f4d33fe6d0191e01e7175bc67c079948465a0592434b5eefc",
+      "bytes": 428
+    },
+    "prepared/hybrid3/jobs.jsonl": {
+      "sha256": "d2f70df3840e091e3613992d5fc9f3f57781c38afcdf5065d1c3c517cb2e79c2",
+      "bytes": 17209946
+    },
+    "prepared/hybrid3/plan.json": {
+      "sha256": "633111bf4e94e93634704ef6e0c32973ee515ca255c52f1953e95902a6601ca5",
+      "bytes": 429
+    },
+    "prepared/smoke/jobs.jsonl": {
+      "sha256": "2cb675a6225de44b99eb25081a1cec28700475e431611a1546f86648b5a9d632",
+      "bytes": 2318
+    },
+    "prepared/smoke/plan.json": {
+      "sha256": "b27991997599336cc3ef301602a4168335680f9a6ca316a2f3143abafad851e7",
+      "bytes": 415
+    },
+    ".gitattributes": {
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "bytes": 8
+    }
+  }
+}

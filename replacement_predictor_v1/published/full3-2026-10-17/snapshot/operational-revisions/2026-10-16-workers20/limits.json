@@ -1,0 +1,9 @@
+{
+  "status": "Conservative local ceilings; account limits not yet verified",
+  "buckets": [
+    {"id": "shared", "models": ["gpt-5.4", "gpt-5.4-mini"], "rpm": 60, "tpm": 60000},
+    {"id": "gpt-5.4", "models": ["gpt-5.4"], "rpm": 60, "tpm": 60000},
+    {"id": "gpt-5.4-mini", "models": ["gpt-5.4-mini"], "rpm": 60, "tpm": 60000}
+  ],
+  "header_groups": {"gpt-5.4": "gpt-5.4", "gpt-5.4-mini": "gpt-5.4-mini"}
+}

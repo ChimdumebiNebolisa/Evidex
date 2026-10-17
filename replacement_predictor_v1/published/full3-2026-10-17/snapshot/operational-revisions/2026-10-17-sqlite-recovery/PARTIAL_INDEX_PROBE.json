@@ -1,0 +1,1 @@
+{"at_utc":"2026-10-17T08:30:57.685570+00:00","mean_query_seconds":1.7690000822767617e-05,"production_modified":false,"query_plan":[[1,0,0,"COMPOUND QUERY"],[2,1,0,"LEFT-MOST SUBQUERY"],[5,2,50,"SEARCH op_attempts USING INDEX probe_open (model=? AND started<?)"],[23,1,0,"UNION ALL"],[26,23,204,"SEARCH op_attempts USING INDEX op_attempt_time (started>?)"]]}

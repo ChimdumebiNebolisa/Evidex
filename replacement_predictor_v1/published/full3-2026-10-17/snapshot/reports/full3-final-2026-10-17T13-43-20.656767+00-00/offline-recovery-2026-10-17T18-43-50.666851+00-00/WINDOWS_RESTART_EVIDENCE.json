@@ -1,0 +1,64 @@
+{
+  "checked_at_utc": "2026-10-17T18:44:53.2076273Z",
+  "operating_system": {
+    "LastBootUpTime": "2026-10-17T12:06:34.5-05:00",
+    "LocalDateTime": "2026-10-17T13:44:53.745-05:00"
+  },
+  "events": [
+    {
+      "Id": 6005,
+      "TimeCreated": "2026-10-17T12:06:51.0217764-05:00",
+      "ProviderName": "EventLog",
+      "Message": "The Event log service was started."
+    },
+    {
+      "Id": 6006,
+      "TimeCreated": "2026-10-17T12:06:18.7884158-05:00",
+      "ProviderName": "EventLog",
+      "Message": "The Event log service was stopped."
+    },
+    {
+      "Id": 1074,
+      "TimeCreated": "2026-10-17T12:06:10.9386424-05:00",
+      "ProviderName": "User32",
+      "Message": "The process C:\\WINDOWS\\servicing\\TrustedInstaller.exe (LAPTOP-AB61BC44) has initiated the restart of computer LAPTOP-AB61BC44 on behalf of user NT AUTHORITY\\SYSTEM for the following reason: Operating System: Upgrade (Planned)\r\n Reason Code: 0x80020003\r\n Shutdown Type: restart\r\n Comment: "
+    },
+    {
+      "Id": 6005,
+      "TimeCreated": "2026-10-17T12:05:51.7212142-05:00",
+      "ProviderName": "EventLog",
+      "Message": "The Event log service was started."
+    },
+    {
+      "Id": 6006,
+      "TimeCreated": "2026-10-17T12:05:16.5662778-05:00",
+      "ProviderName": "EventLog",
+      "Message": "The Event log service was stopped."
+    },
+    {
+      "Id": 1074,
+      "TimeCreated": "2026-10-17T12:05:10.2605669-05:00",
+      "ProviderName": "User32",
+      "Message": "The process C:\\WINDOWS\\servicing\\TrustedInstaller.exe (LAPTOP-AB61BC44) has initiated the restart of computer LAPTOP-AB61BC44 on behalf of user NT AUTHORITY\\SYSTEM for the following reason: Operating System: Upgrade (Planned)\r\n Reason Code: 0x80020003\r\n Shutdown Type: restart\r\n Comment: "
+    },
+    {
+      "Id": 6005,
+      "TimeCreated": "2026-10-17T12:03:39.6966876-05:00",
+      "ProviderName": "EventLog",
+      "Message": "The Event log service was started."
+    },
+    {
+      "Id": 6006,
+      "TimeCreated": "2026-10-17T12:02:59.3102566-05:00",
+      "ProviderName": "EventLog",
+      "Message": "The Event log service was stopped."
+    },
+    {
+      "Id": 1074,
+      "TimeCreated": "2026-10-17T11:58:47.5073146-05:00",
+      "ProviderName": "User32",
+      "Message": "The process C:\\WINDOWS\\uus\\AMD64\\MoUsoCoreWorker.exe (LAPTOP-AB61BC44) has initiated the restart of computer LAPTOP-AB61BC44 on behalf of user NT AUTHORITY\\SYSTEM for the following reason: Operating System: Service pack (Planned)\r\n Reason Code: 0x80020010\r\n Shutdown Type: restart\r\n Comment: "
+    }
+  ],
+  "prior_processes_absent": true
+}
