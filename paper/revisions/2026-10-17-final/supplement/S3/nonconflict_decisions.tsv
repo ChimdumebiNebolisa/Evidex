@@ -1,0 +1,57 @@
+claim_id	revised_assessment	revised_categories	justification
+102892	UNCHANGED	UNCHANGED	The intended Taylor album is placed in 1997, outside the claimed 1980s. Retain NUM and the implicit album context.
+103503	UNCHANGED	UNCHANGED	Main and major oppose minor in the ordinary river-importance reading. Retain the scalar/semantic codes without a model-mechanism account.
+103833	UNCHANGED	UNCHANGED	The approximately 2.6-million-year period matches the broadly worded dates-back claim. NUM and LEX describe the approximation and wording, not a cause.
+104555	insufficient	REL;LEX;GAP	Abandoning some populated areas can coexist with an influx into other populated areas. The selected sentence does not exclude the claim's causal migration pattern; the original supports_gold judgment for Refuted was too strong.
+105216	ambiguous	NEG;LEX;CTX	The supplied referent is one film, but the title can denote a series. The original justification already acknowledged that alternative. Keep the features and record the unresolved referent rather than categorical support.
+106115	UNCHANGED	UNCHANGED	After 1947 does not by itself exclude continuation after 1955; the missing endpoint makes the temporal interpretation unresolved.
+111069	UNCHANGED	UNCHANGED	The intended Minogue recording is identified with a 2007 album, supporting the loose post-1923 bound. This is conditional on that intended recording referent, not proof about every same-title work.
+111938	UNCHANGED	UNCHANGED	The KO counts describe overlapping subsets. They cannot be added to establish the full career total; retain insufficiency and NUM/SCOPE/CTX/GAP.
+113297	ambiguous	UNCHANGED	Arjit and Arijit can be a tolerated spelling error or different literal names. Apply the same ambiguity policy as Kojol/Kajol rather than silently granting identity tolerance in this success case.
+113712	UNCHANGED	UNCHANGED	The passage gives release and earnings, without naming a format. The generic format proposition needs an unstated bridge; retain the narrow insufficiency assessment.
+114093	UNCHANGED	UNCHANGED	Non-fiction explicitly differs from fiction. NEG is a genuine negative prefix here, unlike negative review sentiment.
+122596	UNCHANGED	UNCHANGED	The first-openly-gay chart distinction is supplied, with him and the album requiring the intended artist link. Retain the coded ordinal/scope/context demand.
+130833	UNCHANGED	UNCHANGED	Leg and foot swelling does not exclude additional hand symptoms. The existing insufficient assessment correctly avoids turning an omitted symptom into a contradiction.
+140067	UNCHANGED	UNCHANGED	The intended excerpt states that 23 percent live there; lacks reverses the ordinary presence assertion. The corrupted population wording still limits literal precision.
+145848	UNCHANGED	LEX	A film-versus-crisis category substitution is a semantic distinction. Remove TXT because the sentence is grammatically well formed and no additional extraction or wording defect is identified.
+147411	UNCHANGED	UNCHANGED	Mistaken attribution denies the validity of the stated artist relation; retain NEG/REL. The source explicitly attributes the song to DJ Fresh.
+147632	UNCHANGED	UNCHANGED	The period is 1960s-1970s; mapping the Civil War to dates is additional information absent from this excerpt. Retain the text-limited insufficiency judgment.
+150763	UNCHANGED	UNCHANGED	Starred in American Gothic directly opposes did not perform in it. Retain genuine negation and performance relation coding.
+166844	UNCHANGED	UNCHANGED	The supplied referent is an EP that Bell released, making attended a mismatch of action and object type under the intended title reading.
+167471	UNCHANGED	UNCHANGED	Original Movie is a branded category and does not settle whether the work is an unadapted original. Retain lexical ambiguity and missing warrant.
+173130	UNCHANGED	UNCHANGED	The same death event is dated October, not December. This is an event-date conflict, not competing compatible lower bounds.
+173930	UNCHANGED	UNCHANGED	Created can identify authorship of the memoir or production of its film adaptation. The existing ambiguous assessment preserves both readings.
+174515	ambiguous	LEX;REL;GAP	Under a licence is an administrative relation; under a bridge can be a literal location, which the licence statement does not exclude. Remove TXT and qualify the original categorical Refuted-support assessment.
+1774	UNCHANGED	UNCHANGED	An explicitly named rock band satisfies the broad band claim with no distinctive comparison feature. DIRECT remains an appropriate fallback.
+17914	UNCHANGED	UNCHANGED	Television/film producer does not establish animation. The existing insufficiency assessment correctly preserves that missing subtype.
+179302	UNCHANGED	UNCHANGED	The United States is explicitly listed among countries regulating franchising. Other country counts do not determine this claim, so DIRECT rather than NUM is appropriate.
+181125	UNCHANGED	UNCHANGED	A premiere and later ratings are supplied, not cancellation. The existing insufficiency assessment does not treat one event as automatically excluding every other event.
+183473	UNCHANGED	ENT;CTX	The successor role is unchanged; its filler is Henry IV rather than Louis III, with King of Navarre providing a linked identity. Replace REL with CTX to follow the unchanged-role boundary.
+183481	UNCHANGED	UNCHANGED	The occupation actress is explicitly given. Dates in the biography are background, so retaining DIRECT without NUM is consistent.
+190072	UNCHANGED	UNCHANGED	Playing James Rhodes entails an appearance in Iron Man under the actor sense of in. The surname/context and acting relation remain the visible comparison demands.
+192212	UNCHANGED	UNCHANGED	Anything but cultural is a genuine denial opposed by explicit cultural. Retain NEG/LEX without a causal inference.
+193883	UNCHANGED	UNCHANGED	Born Bernice is an earlier-name relation, while renamed Bernice reverses that ordinary direction. No internal temporal-processing claim follows.
+193911	UNCHANGED	UNCHANGED	The life-date convention identifies birth rather than conception. NUM and REL capture the event/date distinction under ordinary biographical meaning.
+199420	UNCHANGED	UNCHANGED	The person is the director's daughter Lorelei, while the claim substitutes a goose in the kinship/performer construction. Keep the visible semantic/role coding, not an explanation of mini's answer.
+204307	UNCHANGED	UNCHANGED	The alias is supplied but the since-2016 boundary is not. Retain insufficiency rather than invent a Soviet-history chronology from outside this text.
+204572	UNCHANGED	UNCHANGED	Between two ranks supplies order, not necessarily a metric midpoint. The existing halfway ambiguity is appropriate.
+206465	UNCHANGED	UNCHANGED	The proposed graduation occurs on the supplied birth date; the surname also differs by a letter. Retain the event/date distinction and spelling ambiguity.
+207382	UNCHANGED	UNCHANGED	The stated sentence length is four rather than five years for the same described sentencing event. Retain the ordinary exact-duration reading.
+209859	UNCHANGED	ENT;GAP	UK chart positions do not establish Billboard appearance. Remove NUM because no numerical comparison decides the claim; the chart entity and omitted Billboard fact are the relevant demands.
+216392	ambiguous	UNCHANGED	Hickman versus Hickam and the missing first name require identity tolerance. Apply the same spelling ambiguity policy across both success and regression groups rather than selecting the reference-favoring reading.
+222759	UNCHANGED	UNCHANGED	Solely Canadian is ordinarily incompatible with the supplied American production identity. Keep the exclusivity qualifier explicit.
+33322	insufficient	REL;GAP	Created by the named people does not exclude their later destroying a character or writing its destruction. The original interpretation confused different predicates with a contradiction; retain the relation feature and add the missing-warrant flag.
+37097	UNCHANGED	UNCHANGED	The father's occupations do not establish Rupert's work. The existing subject-binding insufficiency assessment is correctly limited.
+38599	UNCHANGED	UNCHANGED	Kojol and Kajol permit typo-tolerant and literal identity readings. Retain ambiguity; it supplies the consistency comparator for other spelling variants.
+39873	UNCHANGED	UNCHANGED	The early-1600s cutoff is unstated, and 1635 can be included or excluded by reasonable readings. Retain ambiguity rather than invent a threshold.
+51355	UNCHANGED	UNCHANGED	Journalists' reporting and deaths do not specify a criminal investigation as the film's subject. Retain the missing-warrant interpretation.
+70784	UNCHANGED	UNCHANGED	The cast belongs to the named remake; the excerpt does not establish or exclude Vanisri in the original. Retain insufficiency.
+82883	UNCHANGED	UNCHANGED	Whether two is several has no specified threshold. The existing numerical-scope ambiguity is appropriate.
+84673	UNCHANGED	UNCHANGED	The evidence explicitly preserves sometimes included for Finland. Retain scope/context, without turning a qualified geographic convention into an absolute claim.
+85196	UNCHANGED	UNCHANGED	The linked discoverer's birth is August 14, not after the month of August under the ordinary within-year reading. The person/discovery link is explicit across the supplied sentences.
+86242	UNCHANGED	UNCHANGED	A rock band's album need not inherit the band's genre. The existing missing-warrant assessment is appropriately narrower than automatic genre refutation.
+88301	UNCHANGED	UNCHANGED	Overall-series and actor totals cannot determine the director-specific ordinal. Retain the distinct-denominator insufficiency assessment.
+88941	UNCHANGED	UNCHANGED	Publication duration does not establish definitive status. The scalar and missing-warrant codes are tied to that omitted evaluation, not background dates.
+92419	UNCHANGED	UNCHANGED	National pain remains uninterpretable as a symptom from this record. Retain UNCLEAR, low confidence and pending human review; do not repair it to chest pain.
+98107	UNCHANGED	UNCHANGED	The same burial is explicitly dated 1635 instead of 1636. Retain NUM and the widow/subject context.
+9915	UNCHANGED	ENT;CTX	The tribal-classification role is unchanged, but its value is East rather than North Germanic. Replace REL with CTX because later North African geography is the distractor that must be kept separate.

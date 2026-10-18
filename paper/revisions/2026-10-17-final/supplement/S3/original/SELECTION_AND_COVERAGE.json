@@ -1,0 +1,24 @@
+{
+  "claims": 10000,
+  "text_clusters": 9855,
+  "clusters_with_multiple_records": 126,
+  "claims_in_duplicate_text_clusters": 271,
+  "clusters_with_conflicting_gold_labels": 1,
+  "gold_counts": {
+    "Refuted": 5000,
+    "Supported": 5000
+  },
+  "models": [
+    "gpt-5.4",
+    "gpt-5.4-mini"
+  ],
+  "complete_case_rows": 60000,
+  "summary_rows": 185,
+  "sample_cases": 465,
+  "sample_distinct_claims": 416,
+  "ab_all3_model_claim_cases": 186,
+  "ab_all3_distinct_claims": 160,
+  "bc_all3_model_claim_cases": 59,
+  "pilot_unique_claims": 30,
+  "selection_not_population_prevalence": true
+}

@@ -1,0 +1,295 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.9in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,graphicx,booktabs,tabularx,amsmath,natbib,caption,float,placeins}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\captionsetup{font=small,labelfont=bf}
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.15}
+\bibliographystyle{plainnat}
+\title{Evidence-Conditioned Classification and Judge Family Sensitivity in LLM Fact Verification}
+\author{Chimdumebi Mitchell Nebolisa \and Jessica Udry}
+\date{October 11, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+% P:ABS1
+A large language model's (LLM's) aggregate accuracy can conceal losses on previously correct classifications. We compare paired claim classifications under claim-only and evidence-conditioned prompts, which also differ in instruction, and characterize the transitions with local natural language inference (NLI) diagnostics and blinded judge panels. On a balanced sample of 10,000 FEVER Supported and Refuted claims, accuracy increases from 88.69\% to 96.04\% for GPT-5.4 and from 84.67\% to 95.54\% for GPT-5.4-mini. Nevertheless, 115 and 151 classifications respectively change from correct to incorrect, covering 226 distinct FEVER claim records. Exploratory NLI disagreement with FEVER is more common in regressions and resistant failures than in robust cases. Separate Grok and Claude panels evaluate the regression claims through progressively disclosed evidence. In the amended accepted-output analysis, final nondecisiveness occurs for 31.4\% of claims under Grok and 18.1\% under Claude; the panels assign the same descriptive category to 76.1\%. First-valid output selection changes some Claude outcomes but preserves the principal contrasts. These findings connect paired behavioral losses, observable claim--evidence characteristics, and evaluator sensitivity. One recorded predictor output per condition establishes neither repeat-run stability nor individual causes. The amended corrected adjudication supplies silver judgments, without human validation or replacement of FEVER labels. Evaluation should report paired transitions alongside accuracy and distinguish exploratory associations from evaluator-dependent descriptions.
+\end{abstract}
+
+\section{Introduction}\label{sec:intro}
+% P:I1
+A large language model (LLM) can classify a factual claim using information encoded during training and text supplied at inference time. In evidence-based fact verification, the task is to decide whether a claim is supported or refuted by a reference source. Supplying relevant evidence offers a way to ground that classification in inspectable material rather than relying entirely on the model's stored knowledge. FEVER provides claims, reference labels, and annotated Wikipedia evidence, making these components available for controlled input comparisons \citep{thorne-etal-2018-fever,guo-etal-2022-survey}.
+
+% P:I2
+An improvement in aggregate accuracy does not establish that evidence preserves every initially correct classification. Some claims may be classified correctly from the claim alone but incorrectly when evidence is included. We call that observed transition a regression. Its practical significance is that a beneficial input change at the dataset level can still invalidate particular decisions that had been correct. Reporting only the average gain leaves those losses invisible and makes it difficult to distinguish improvement from preservation.
+
+% P:I3
+We examine this distinction by comparing the predicted label for each claim with and without its FEVER-designated evidence, which we call gold evidence. The evidence is supplied directly, so the comparison contains no retrieval step. The evidence condition also instructs the predictor to use only the supplied evidence; the contrast evaluates this combined prompt-and-evidence change. The resulting transitions identify the claims on which the recorded classifications regress. We use existing local natural language inference (NLI) outputs to examine observable claim--evidence characteristics across the transition categories. We then ask separate LLM judges to evaluate evidence for the regression claims under progressive disclosure. These measurements describe associations and other models' evidence judgments; they do not repeat the predictor experiment or recover its internal reasoning.
+
+% P:I4
+The description itself can depend on the evaluator. For the same regression claims, one judge family can remain nondecisive while another reaches a Supported or Refuted verdict. We compare Grok and Claude panels on identical claims and disclosure stages to measure that sensitivity. Family differences matter because an explanation inferred from a single automated panel may reflect the measurement procedure as well as the evidence being examined.
+
+% P:I5
+Our contribution combines three analyses on the same recorded study: paired behavioral analysis that exposes losses concealed by aggregate gains; exploratory characterization of claim--evidence relationships across transition categories; and a matched judge-family comparison on the regression claims. The first identifies where classifications change, the second describes observable evidence-related associations, and the third measures how automated descriptions depend on the evaluator. This joint account builds on established work on evidence use and context sensitivity without claiming priority for any individual component. It supports evaluation and reporting conclusions, not a method that repairs predictor errors. Section~\ref{sec:related} develops the motivating literature, Section~\ref{sec:methods} explains the workflow, Section~\ref{sec:results} presents configuration and findings, and Section~\ref{sec:discussion} discusses their implications and limits.
+
+\section{Related Work}\label{sec:related}
+\subsection{Evidence-based verification}
+% P:RW1
+Evidence-based verification links a claim to material that can support or refute it. FEVER formalizes this task using Wikipedia claims and annotated evidence, while the verification survey distinguishes evidence retrieval from the subsequent assessment of veracity \citep{thorne-etal-2018-fever,guo-etal-2022-survey}. These components create two different evaluation problems: whether the required material is found, and how a model classifies a claim when that material is available. Our direct-evidence comparison addresses the latter.
+
+% P:RW2
+Even a successful classifier need not rely on the supplied evidence. \citet{schuster-etal-2019-towards} show that biases in fact-verification claims can support prediction without the intended evidential reasoning. That result motivates comparing claim-only and evidence conditions rather than treating a correct evidence-condition label as proof of evidence use. The comparison can reveal label changes, but neither unchanged correctness nor a changed label by itself identifies the reasoning that produced it. Evaluating dependence on evidence therefore requires attention to the joint behavior of the two conditions.
+
+\subsection{Evidence-related prediction changes}
+% P:RW3
+Contrastive evidence provides a way to test whether classifications respond to relevant information. Vitamin C pairs claims with closely related evidence that changes the appropriate verification outcome, exposing a need for sensitivity to evidential differences \citep{schuster-etal-2021-get}. Our comparison asks a complementary question: when designated evidence is added to a claim-only input, which already correct classifications are lost? The desired behavior differs between these designs because a changed truth-relevant passage can warrant a changed answer, whereas adding benchmark-designated evidence need not warrant moving away from the benchmark label.
+
+% P:RW4
+Context sensitivity also depends on how models combine stored and supplied information. In question answering, \citet{longpre-etal-2021-entity} study conflicts between parametric knowledge and contextual passages and find over-reliance on memorized information. FactEval studies LLM fact-verification responses to word and character perturbations and reports brittleness and subgroup variation \citep{mamta-cocarascu-2025-facteval}. These findings establish reasons to examine individual input-related changes, but their interventions differ from supplying designated evidence under an evidence-specific instruction. Our paired transitions quantify the observed changes, and the exploratory NLI comparison asks which claim--evidence characteristics accompany them. Such associations do not identify predictor mechanisms. Automated adjudication then asks a separate question: how do other models judge the evidence for the regression claims?
+
+\subsection{Evidence judgments and evaluator sensitivity}
+% P:RW5
+Evidence insufficiency means that the supplied material lacks enough information to establish support or refutation. It is distinct from a model's inability or unwillingness to decide. \citet{atanasova-etal-2022-fact} remove information from evidence and test whether verification models recognize insufficiency. AmbiFC instead represents ambiguity through competing interpretations and annotator disagreement \citep{glockner-etal-2024-ambifc}. These studies connect directly to our adjudication outcomes: a nondecisive verdict may reflect missing information, ambiguity, or limitations of the judge, and cannot by itself establish logical insufficiency.
+
+% P:RW6
+Automated judges introduce another source of variation. \citet{chen-etal-2024-humans} study judgment bias in LLM evaluation, showing why evaluator outputs require their own assessment. That evidence concerns evaluation settings different from our blinded fact-verification panels; it supports testing evaluator sensitivity rather than assuming it has a particular magnitude here. The preceding work establishes evidence sensitivity, robustness concerns, and variation in evidence interpretation. It does not make aggregate accuracy a measure of preserved correctness, an NLI association a causal explanation, or one judge's description an evaluator-independent property. Our study connects these evaluation questions within a fixed behavioral record: paired transitions identify regressions, exploratory diagnostics characterize their evidence relationships alongside other transitions, and matched Grok and Claude panels measure the family sensitivity of their automated descriptions. FEVER remains the scoring reference throughout.
+
+\section{Methodology}\label{sec:methods}
+\subsection{Paired classification and transition analysis}
+% P:M1
+The workflow begins with claims, reference labels, and designated evidence. Each predictor classifies each claim under a claim-only input and an input that includes the designated evidence. Comparing both predicted labels with the same reference label yields a paired correctness record. Transition analysis summarizes these records and selects regression claims for later characterization. The later judges receive evidence packets derived from that selection, rather than participating in the original predictor evaluation (Figure~\ref{fig:workflow}). Separately, exploratory NLI diagnostics examine claim--evidence characteristics across all four paired transition categories (Section~\ref{sec:nli}); they neither select regression claims nor generate judge verdicts.
+
+% P:M2
+Each paired record belongs to one of four mutually exclusive transitions. A \emph{robust} case is correct in both conditions; a \emph{rescue} is incorrect from the claim alone and correct with evidence; a \emph{resistant} case is incorrect in both; and a \emph{regression} is correct from the claim alone and incorrect with evidence. These transitions partition the evaluated claims for a predictor. Claim-only accuracy includes robust cases and regressions, whereas evidence-condition accuracy includes robust cases and rescues. The robust fraction alone is consequently not either condition's overall accuracy.
+
+\begin{figure}[H]\centering
+\includegraphics[width=\linewidth]{figures/fig1.pdf}
+\caption{Workflow for paired classification and subsequent automated evidence adjudication. Arrows denote data transfer and selection, not causal explanations. The disclosure stages belong to the separate judge evaluation; original predictors are not repeatedly exposed at those stages.}\label{fig:workflow}
+\end{figure}
+
+\subsection{Blinded progressive disclosure}
+% P:M3
+Judges receive the claim and progressively richer evidence packets. Sentence-only disclosure presents the evidence text originally supplied to the predictors. Title disclosure adds the associated page titles. Structured disclosure adds source pointers, annotation boundaries, and alternative designated evidence sets where available. Structured disclosure can therefore introduce additional sentence text as well as change presentation. The judging protocol withholds reference labels, predictor outputs, transition categories, diagnostic scores, and other judges' responses, and disallows browsing or retrieval. It calls for fresh context for each judge run, batch, and stage.
+
+\subsection{Consensus and cross-family characterization}
+% P:M4
+Within each family, judge verdicts are aggregated into a consensus at each disclosure stage. A decisive consensus identifies support or refutation; a nondecisive consensus records ambiguity or unresolved disagreement under the aggregation rule. The sequence of consensus outcomes determines a descriptive category based on final decisiveness, agreement with the reference label, and where that agreement emerges or is lost. Comparing these categories and stage outcomes across families assesses evaluator sensitivity on matched claims. Consensus is an automated silver judgment, rather than a human annotation or a replacement reference label. The instantiated aggregation thresholds and executable taxonomy appear in Section~\ref{sec:analysis} and Appendix~\ref{app:rubric}.
+
+\section{Experiments and Results}\label{sec:results}
+\subsection{Research questions}
+% P:RQ1
+The experiment asks: RQ1, how does aggregate classification accuracy differ between claim-only and evidence conditions? RQ2, how frequently do correct-to-incorrect transitions occur, how much do they overlap across predictors, and what observable claim--evidence characteristics accompany these regressions? RQ3, which observable evidence-judgment outcomes characterize the regression claims under progressive disclosure? RQ4, which of those outcomes depend on judging family? Paired predictions answer RQ1 and the frequency and overlap components of RQ2; exploratory NLI comparisons address its claim--evidence component. Matched consensus paths answer RQ3 and RQ4.
+
+\subsection{Experimental configuration}\label{sec:setup}
+% P:X1
+The behavioral sample contains 10,000 FEVER development claims: 5,000 Supported and 5,000 Refuted, selected using pseudorandom seed 42 to make the sampling reproducible. Not Enough Info claims are excluded because this experiment uses designated evidence for the binary task. Evidence sentences are resolved from the official Wikipedia shards. Table~\ref{tab:config} separates this sample from the later judging cohort.
+
+% P:X2
+The predictor identifiers are \texttt{gpt-5.4} and \texttt{gpt-5.4-mini}. Each has one recorded label per claim per condition, giving 40,000 predictions across the two models and two conditions. The recorded experiment script specifies temperature 0. Both prompts request one word, Supported or Refuted; the evidence prompt additionally says ``based only on the evidence provided.'' It supplies the designated sentences directly. The observed contrast combines that instruction with added evidence and does not isolate their individual effects. The script normalizes label text, including selecting the first Supported or Refuted word in longer responses. Valid raw completions are not retained, so the frequency or correctness of that fallback cannot be audited. The record contains labels without predictor rationales or confidence scores. No repeat-run stability is measured.
+
+% P:X3
+The judging cohort initially contains 1,061 distinct claims: all 226 regressions, 335 resistant cases, and sampled sets of 250 rescue and 250 robust cases. One provider-filtered item leaves 1,060 judged claims. Grok covers this broader cohort; Claude covers the 226 regression claims used for the family comparison. The configured judging identifiers are \texttt{cursor-\allowbreak grok-\allowbreak 4.6-\allowbreak high-\allowbreak fast} and \texttt{claude-\allowbreak opus-\allowbreak 5-\allowbreak thinking-\allowbreak high}, with provider-default temperature. Each family uses five judge runs per claim and stage. These are repeated automated judgments from one configured family, not five human raters or five distinct model architectures. Stage A is sentence-only, Stage B adds titles, and Stage C adds structured disclosure. Stage C adds sentence text for 149 claims in the broader cohort, including 41 regressions.
+
+\begin{table}[H]\centering\small
+\caption{Experimental configuration and observational units. Model identifiers are recorded execution identifiers; provider snapshot versions are not independently pinned.}\label{tab:config}
+\begin{tabularx}{\linewidth}{lX}\toprule
+Component & Recorded configuration \\\midrule
+Behavioral sample & 10,000 development claims; 5,000 per binary label; sampling seed 42 \\
+Predictors & GPT-5.4 and GPT-5.4-mini; claim-only and claim plus designated sentences; temperature 0 in script \\
+Behavioral unit & One model--claim paired record; 20,000 pairs and 40,000 labels \\
+Judging selection & 1,061 selected claims; 1,060 judged after one filtered item \\
+Paired judge comparison & Same 226 regression claims; Grok and Claude; five judge runs per stage \\
+Judging temperature & Provider default; fresh-context protocol; no browsing or retrieval \\
+Disclosure & A sentences; B sentences plus titles; C structured packets, sometimes new text \\\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Analysis and correction choices}\label{sec:analysis}
+% P:X4
+Historical Stage C packets contained corrupted sentence text and were repaired from archived evidence. Stage A and B judgments were retained. The repaired analysis combines those historical judgments with newly collected Stage C judgments. The correction protocol and descriptive taxonomy were frozen before the new corrected judgments, after inspection of historical results and defects; they are not a preregistration of the original experiment. The taxonomy remains proposed and requires coauthor review. Amendment A1 was specified after execution and inspection of provisional results, and changes particular attempt-cap, session-provenance, and output-selection rules. We report the accepted outputs as the main amended analysis and the first schema-valid outputs as a selection sensitivity analysis. The original frozen-protocol primary analysis remains incomplete. Appendix~\ref{app:provenance} documents execution and supersession details.
+
+% P:X5
+Consensus requires at least four of five Supported or Refuted verdicts for decisiveness. Otherwise the implementation uses modal-label and evidence-sufficiency rules to assign Ambiguous or Unresolved (Appendix~\ref{app:rubric}). Behavioral accuracy comparisons use continuity-corrected McNemar tests; archived bootstrap intervals use 2,000 claim resamples. Adjudication proportions use Wilson 95\% intervals. Cross-family outcome contrasts use exact McNemar tests with Benjamini--Hochberg (BH) correction across 14 post hoc tests. Shared-versus-model-specific regression comparisons use Fisher tests and odds ratios in a separate two-test BH family. Agreement is summarized by exact category match and Cohen's $\kappa$. These intervals describe variation conditional on the selected claims and recorded outputs; they do not measure repeat-run or provider-version uncertainty.
+
+\subsection{Accuracy gains and regressions}\label{sec:behavior}
+% P:B1
+The evidence condition has higher aggregate accuracy for both predictors (Table~\ref{tab:behavior}). GPT-5.4 increases from 88.69\% to 96.04\%, a gain of 7.35 percentage points (bootstrap 95\% interval 6.72--7.92). GPT-5.4-mini increases from 84.67\% to 95.54\%, a gain of 10.87 points (10.13--11.57). The paired McNemar statistics are 558.30 and 849.10, respectively, with $p<0.001$ for both. Rescues substantially exceed regressions, accounting for the positive net gain while retaining a visible set of losses.
+
+% P:B2
+The losses cover 115 GPT-5.4 pairs and 151 mini pairs: 1.15\% (bootstrap 95\% interval 0.95--1.36) and 1.51\% (1.28--1.75) of each model's 10,000 claims. Forty claims regress for both models. Subtracting this overlap gives $115+151-40=226$ distinct FEVER regression records, whereas $115+151=266$ counts model--claim observations. The remaining regressions comprise 75 GPT-5.4-only and 111 mini-only claims. This is cross-model overlap within the recorded experiment, not consistency across repeated runs. Figure~\ref{fig:transitions} shows all four transitions so that regressions can be read alongside the much larger gains. These results address the frequency and overlap components of RQ2; Section~\ref{sec:nli} examines the accompanying claim--evidence characteristics.
+
+\begin{table}[H]\centering\small
+\caption{Paired behavioral outcomes. Counts sum to 10,000 for each predictor. Claim-only accuracy is (robust + regression)/10,000; evidence accuracy is (robust + rescue)/10,000. Forty overlapping regressions yield 226 distinct claims.}\label{tab:behavior}
+\begin{tabular}{lrr}\toprule
+Outcome & GPT-5.4 & GPT-5.4-mini \\\midrule
+Robust & 8,754 & 8,316 \\
+Rescue & 850 & 1,238 \\
+Resistant & 281 & 295 \\
+Regression & 115 & 151 \\
+Claim-only accuracy & 88.69\% & 84.67\% \\
+Evidence accuracy & 96.04\% & 95.54\% \\
+Net gain (percentage points) & 7.35 & 10.87 \\
+Regression fraction & 1.15\% & 1.51\% \\\bottomrule
+\end{tabular}
+\end{table}
+\begin{figure}[H]\centering
+\includegraphics[width=\linewidth]{figures/fig2.pdf}
+\caption{Paired transitions by predictor. Each annotation gives count and percentage of that predictor's 10,000 claims. Correctness is measured against FEVER. Robust cases alone do not equal overall accuracy in either condition. Counts are observed paired outputs, without repeat-run uncertainty.}\label{fig:transitions}
+\end{figure}
+
+% P:B3
+Supporting comparisons show that the regressions are not distributed identically across the two predictors. GPT-5.4 has 88 Supported and 27 Refuted regressions, whereas mini has 74 and 77. Inter-model label agreement increases from 89.34\% without evidence to 97.20\% with evidence. These summaries identify differences in the recorded outputs, without establishing their internal causes. Appendix~\ref{app:supplement} records conditional rates and subgroup tests.
+
+\subsection{Supporting natural language inference diagnostic}\label{sec:nli}
+% P:N1
+The exploratory NLI analysis addresses the claim--evidence component of RQ2 by comparing evidence relationships across the paired transition categories. Including resistant failures and robust cases tests whether a characteristic accompanies regressions specifically or is shared more broadly by evidence-condition errors. NLI treats the evidence as a premise and the claim as a hypothesis, producing entailment, contradiction, and neutral scores. We compare its highest-scoring class with entailment for FEVER Supported and contradiction for FEVER Refuted; any other class counts as disagreement. The primary diagnostic uses \texttt{cross-encoder/nli-deberta-v3-small}, and the second uses \texttt{typeform/distilbert-base-uncased-mnli}.
+
+% P:N2
+For GPT-5.4, primary NLI disagreement is 74.8\% on regressions and 75.8\% on resistant cases, compared with 22.6\% on robust cases and 31.5\% on rescues (Figure~\ref{fig:nli}). Mini and the second diagnostic preserve the broad contrast between evidence-condition errors and robust cases. This answers the characterization component of RQ2 as an association shared by both failure categories, not a feature uniquely identifying regressions. Disagreement means that another model reads a claim--evidence pair differently from FEVER; it neither shows that the reference label is wrong nor validates the NLI label, proves insufficiency, or identifies the cause of a predictor error. The archived predictive comparisons also have low rare-class precision--recall performance (Appendix~\ref{app:supplement}), so the association does not establish reliable detection of rare regressions. These diagnostics characterize recorded transitions; the following adjudication instead measures separate judges' evidence interpretations on the regression claims.
+
+\begin{figure}[H]\centering
+\includegraphics[width=\linewidth]{figures/fig3.pdf}
+\caption{Supporting NLI disagreement with FEVER by paired transition and predictor. Bars represent two fixed local NLI models; denominators are the transition counts in Table 2. This is a descriptive diagnostic of the recorded outputs, not human validation or a replacement scoring reference.}\label{fig:nli}
+\end{figure}
+
+\subsection{Adjudication outcomes and disclosure}\label{sec:judge}
+% P:J1
+The amended accepted-output adjudication describes a mixture of outcomes on the 226 regression claims (Table~\ref{tab:categories}; Figure~\ref{fig:categories}). Grok reaches sentence-only gold agreement that persists through later stages on 77 claims (34.1\%), ends nondecisive on 71 (31.4\%), and ends decisively disagreeing with FEVER on 44 (19.5\%). Claude assigns these outcomes to 106 (46.9\%), 41 (18.1\%), and 54 (23.9\%) claims, respectively. Later title or Stage C disclosure accounts for the remaining gold-agreeing categories, alongside five nonmonotonic paths per family. Among final decisive cases, agreement with FEVER is 111/155 (71.6\%) under Grok and 131/185 (70.8\%) under Claude. Those conditional percentages use different denominators and do not establish equivalence.
+
+\begin{table}[H]\centering\small
+\caption{Descriptive categories on the same 226 regression claims under amended accepted selection. Parentheses give percentages of 226. Each family partitions the cohort. Categories characterize judge paths rather than causes of predictor regressions.}\label{tab:categories}
+\begin{tabularx}{\linewidth}{Xrr}\toprule
+Category & Grok & Claude \\\midrule
+Sentence-only gold agreement & 77 (34.1) & 106 (46.9) \\
+Title-disclosure gold agreement & 10 (4.4) & 3 (1.3) \\
+Structured-disclosure gold agreement & 2 (0.9) & 3 (1.3) \\
+Additional-evidence gold agreement & 17 (7.5) & 14 (6.2) \\
+Nonmonotonic judge path & 5 (2.2) & 5 (2.2) \\
+Decisive disagreement with FEVER & 44 (19.5) & 54 (23.9) \\
+Final nondecisiveness & 71 (31.4) & 41 (18.1) \\\midrule
+Total & 226 (100.0) & 226 (100.0) \\\bottomrule
+\end{tabularx}
+\end{table}
+\begin{figure}[H]\centering
+\includegraphics[width=\linewidth]{figures/fig4.pdf}
+\caption{Amended accepted category percentages for Grok and Claude on 226 matched regression claims. Paths combine retained historical A/B judgments with new corrected C judgments. Horizontal intervals are Wilson 95\% intervals for each descriptive proportion. Point estimates describe silver consensus paths; intervals do not establish judge calibration or predictor causes.}\label{fig:categories}
+\end{figure}
+
+% P:J2
+Progressive disclosure reduces nondecisiveness overall, while some paths lose decisiveness (Table~\ref{tab:disclosure}; Figure~\ref{fig:stages}). Grok is nondecisive on 103, 95, and 71 claims at A, B, and C; Claude on 66, 64, and 41. Titles resolve 16 initially nondecisive Grok cases and nine Claude cases. Stage C resolves 27 and 24 of the respective Stage B nondecisive cases. No decisive Supported-to-Refuted or Refuted-to-Supported consensus switches occur between adjacent stages in either family. A loss of decisiveness is a different event and does occur. Stage C resolutions cannot be attributed solely to formatting because Stage C can also add evidence text.
+
+\begin{table}[H]\centering\small
+\caption{Disclosure outcomes under amended accepted selection. Stage counts use 226 claims per family; resolution fractions use the initially nondecisive subset at the indicated transition. Loss counts use the preceding decisive subset.}\label{tab:disclosure}
+\begin{tabularx}{\linewidth}{Xrr}\toprule
+Outcome & Grok & Claude \\\midrule
+Nondecisive at A & 103/226 & 66/226 \\
+Nondecisive at B & 95/226 & 64/226 \\
+Nondecisive at C & 71/226 & 41/226 \\
+Nondecisive A to decisive B & 16/103 & 9/66 \\
+Nondecisive B to decisive C & 27/95 & 24/64 \\
+Decisive A to nondecisive B & 8/123 & 7/160 \\
+Decisive B to nondecisive C & 3/131 & 1/162 \\
+Opposite decisive label at A to B & 0 & 0 \\
+Opposite decisive label at B to C & 0 & 0 \\\bottomrule
+\end{tabularx}
+\end{table}
+\begin{figure}[H]\centering
+\includegraphics[width=\linewidth]{figures/fig5.pdf}
+\caption{Stage-wise nondecisiveness under amended accepted selection. Each point is a proportion of the same 226 regression claims; bars are Wilson 95\% intervals. A is sentence-only, B adds titles, and C adds structured disclosure and sometimes sentence text. A/B judgments are retained historical outputs; C judgments are new outputs on corrected packets. Points follow automated consensus paths, not repeated predictor exposures.}\label{fig:stages}
+\end{figure}
+
+% P:J3
+Decisive disagreement with FEVER is an observed judge result. FEVER remains the reference used to score the original predicted labels. The panels lack independent human validation, so their disagreement supplies no demonstrated correction to the benchmark. Likewise, nondecisiveness records the aggregation of these judges' responses, without showing that the designated evidence is logically insufficient.
+
+\subsection{Judge family comparison and selection sensitivity}\label{sec:family}
+% P:FAM1
+Judge family changes the distribution of outcomes on matched claims. Claude is less often nondecisive at every stage, with differences of 13.3--16.4 percentage points. Its final nondecisiveness is 18.1\% versus Grok's 31.4\% (exact paired test, BH-adjusted $p<0.001$), while sentence-only gold agreement is 12.8 points higher (46.9\% versus 34.1\%; adjusted $p<0.001$). Claude also has more final decisive disagreement with FEVER: 54 versus 44 claims, a difference of 4.4 points (adjusted $p=0.015$). Greater decisiveness therefore does not imply greater benchmark agreement.
+
+% P:FAM3
+The families assign the same category to 172/226 claims (76.1\%; Wilson 95\% interval 70.1--81.2), with Cohen's $\kappa=0.673$. Title resolution and Stage C resolution indicators do not differ significantly across families after correction ($p=0.251$ and $p=0.929$). Those paired tests compare whether resolution occurred on each of the 226 claims; they do not directly compare the conditional fractions in Table~\ref{tab:disclosure}, whose nondecisive subsets differ. The common absence of opposite-label switches and the similar conditional FEVER-agreement percentages coexist with different nondecisiveness and category shares. This answers RQ4 as shared qualitative outcomes with family-dependent proportions, without evidence of equivalent or better calibration.
+
+% P:FAM2
+First-valid output selection changes six Claude Stage C consensus outcomes and their categories. Claude's final nondecisive count becomes 39 instead of 41, sentence-only agreement 105 instead of 106, and structured-disclosure agreement six instead of three. Grok's regression categories are unchanged. Exact category agreement becomes 168/226 (74.3\%) with $\kappa=0.651$. The principal family differences remain, and none of the 16 BH decisions across the two analysis families changes. This is evidence of limited sensitivity to the documented selection alternative, rather than assurance against every selection effect. Additional output combinations and subgroup comparisons are reported in Appendix~\ref{app:supplement}.
+
+\subsection{Reproducibility}\label{sec:repro}
+% P:REP1
+The \href{https://github.com/ChimdumebiNebolisa/Evidex}{Evidex repository} contains the recorded predictions, evidence-resolution provenance, judging packets, execution records, and analysis scripts. The \href{https://github.com/ChimdumebiNebolisa/Evidex/tree/evidex-artifact-v1}{frozen behavioral artifact} is preserved separately from the corrections. The inspected editorial baseline is \href{https://github.com/ChimdumebiNebolisa/Evidex/tree/fcb35b161e297fe756daef299772d5fe47f17ff3/paper_corrected_draft}{the corrected manuscript at the pinned main commit}. The \href{https://github.com/ChimdumebiNebolisa/Evidex/tree/fcb35b161e297fe756daef299772d5fe47f17ff3/corrections_v2}{corrected evidence and protocol} and \href{https://github.com/ChimdumebiNebolisa/Evidex/tree/fcb35b161e297fe756daef299772d5fe47f17ff3/corrections_v2/amendment_2026-09-28}{amendment A1 with accepted and sensitivity results} have direct stable links. Project code is MIT-licensed; FEVER and Wikipedia material retain their third-party terms. Raw historical judging-session transcripts are unavailable, limiting independent verification of context isolation.
+
+\section{Discussion and Conclusion}\label{sec:discussion}
+\subsection{Interpretation of the linked findings}
+% P:D1
+The paired experiment shows that overall benefit and preservation of correct classifications are separate properties. Evidence-condition accuracy is higher because rescues outnumber regressions, yet each regression is a recorded loss relative to the same benchmark reference. The exploratory NLI comparison extends this behavioral account: disagreement with FEVER is common in both regression and resistant-failure categories, compared with robust cases. It therefore describes an associated claim--evidence characteristic shared by evidence-condition failures, without uniquely identifying regressions or explaining their causes. The adjudication adds a separate observation about the regression claims. Grok agrees with FEVER from the original sentences and retains that agreement on 77 claims. Claude does so on 106. Thus a separate panel can reach the benchmark label from the sentences that accompanied a predictor regression. This is compatible with difficulties using evidence, but it does not establish that cause: the judges are different models reading different prompts, and the original record provides no predictor reasoning.
+
+% P:D2
+The family comparison limits how confidently the adjudication can be treated as an intrinsic property of the regression set. Both families produce benchmark-agreeing, benchmark-disagreeing, and nondecisive cases, but the mixture differs. The same evidence can therefore yield different automated descriptions depending on the judging instrument. The appropriate conclusion is evaluator sensitivity, without ranking the families' evidential reliability or estimating the prevalence of a particular predictor mechanism.
+
+\subsection{Evaluation implications}
+% P:D3
+An evidence-based classifier should be evaluated with the joint correctness table as well as before-and-after accuracy. The table identifies gains and losses that a net percentage hides and makes denominators explicit. Exploratory diagnostics should be reported across comparison categories, with their scoring reference and predictive limits, so a shared failure characteristic is not presented as a reliable detector of rare regressions. If automated judges are used to characterize the losses, the evaluation should disclose their family, aggregation rule, evidence stages, and output-selection policy, while preserving nondecisiveness as an outcome. Reporting matched family comparisons and selection alternatives helps readers distinguish behavioral observations from contingent descriptions. Input checks also matter: the historical formatter defect demonstrates that a judging pipeline can present different evidence from what its documentation intends. These are reporting implications drawn from the recorded experiment; their effect on a deployed verification workflow has not been tested.
+
+\subsection{Limitations}
+% P:L1
+The dataset is a balanced binary development slice of FEVER's 2017-era Wikipedia claims, rather than the full three-label task or a deployment distribution. Excluding Not Enough Info and providing designated evidence limits generalization to retrieved evidence, temporal updates, other domains, and naturally occurring label frequencies. Both predictors are GPT-5.4 variants, so overlap may reflect dependencies within one model family. Only two primary judge families are compared. Provider aliases do not independently establish an immutable model snapshot, and the analysis does not measure variation across model releases. Exposure to FEVER or its Wikipedia text during model training is unknown; these development claims cannot be assumed to be unseen training-independent examples.
+
+% P:L2
+One recorded predictor output per claim and condition establishes an observed transition, without repeat-run stability or an internal causal explanation. The experiment provides no human validation of judge verdicts, no calibration comparison between the judge families, and no replacement FEVER labels. Even decisive silver consensus can be wrong, and nondecisiveness cannot be equated with logical insufficiency. The NLI diagnostic and later judging outputs are measurements by other models, rather than privileged access to the original predictors' reasoning.
+
+% P:L4
+Targeted human review of the claims on which families disagree would be a useful next measurement, alongside repeated predictor evaluation if stability is the question of interest. Such review could compare human evidence interpretations with the silver categories; it would still need an explicit rubric and an appropriate validation design. Neither follow-up is part of the current evidence.
+
+% P:L3
+The correction protocol was written after inspection of historical defects and results, and frozen before the new corrected Stage C judgments. Amendment A1 was adopted after execution and provisional-result inspection; first-valid sensitivity cannot make its amended rules prospective. Stage C combines changes in presentation with additional evidence text for some claims. Retained historical Stage A/B and new Stage C judgments come from different occasions, and their interpretation as one path relies on the historical fresh-context protocol. Without raw session transcripts, context isolation cannot be independently confirmed. The original frozen-protocol analysis remains incomplete, and the corrected descriptive taxonomy lacks human validation. Appendix~\ref{app:provenance} records the dependencies and withdrawn historical interpretations.
+
+\subsection{Conclusion}
+% P:CON1
+This study connects paired classification changes, exploratory evidence characterization, and evaluator sensitivity. The evidence-conditioned prompt has higher overall accuracy while some previously correct classifications become incorrect; the contrast includes both added evidence and an instruction change. NLI disagreement with FEVER is more common in regressions and resistant failures than in robust cases, describing a shared association rather than a unique regression signature. Separate judge families describe the same regression claims differently. Paired transitions expose losses hidden by aggregate gains, while diagnostic and matched evaluator comparisons bound their characterization. These findings support evaluation and reporting conclusions without identifying individual causes or validating an automated replacement for the benchmark.
+
+\bibliography{references}
+\clearpage
+\appendix
+\section{Rubric and descriptive taxonomy}\label{app:rubric}
+% P:A1
+Judges return a Supported, Refuted, or Ambiguous verdict from the disclosed material, an evidence-sufficiency rating, a confidence score, and a short explanation. Sufficiency distinguishes clearly sufficient, probably sufficient, partial or ambiguous, probably insufficient, and clearly insufficient evidence. Confidence is a judge-reported score, not a predictor confidence estimate or a calibrated probability. Unresolved is an aggregation outcome rather than a requested individual verdict. Packets prohibit consulting undisclosed sources and withhold benchmark labels and predictor behavior.
+
+% P:A2
+The executable aggregation uses exactly five distinct judge slots in fixed identifier order. Supported or Refuted becomes decisive only with at least four matching verdicts. Otherwise, if Ambiguous is the modal verdict with at least two votes and no decisive label has more than three, consensus is Ambiguous. If no decisive label has more than three votes and at least three sufficiency ratings are partial or ambiguous, probably insufficient, or clearly insufficient, consensus is also Ambiguous. Remaining cases are Unresolved. Modal ties follow the earliest observed label in the fixed judge order, so the fallback can be order-sensitive. This full rule matters beyond describing the panel as a majority vote.
+
+% P:A3
+The proposed descriptive taxonomy applies ordered rules to each A/B/C consensus path; its frozen implementation identifies it as requiring coauthor review. First, a nondecisive final verdict yields final nondecisiveness. Next, a final decisive verdict opposite to FEVER yields decisive judge--FEVER disagreement. A final FEVER-agreeing path that previously reverses a decisive label or loses decisiveness is nonmonotonic. Otherwise, agreement at A yields sentence-only gold agreement; a nondecisive A followed by decisive B yields title-disclosure gold agreement. Remaining final gold-agreeing cases are separated by whether C adds sentence text: additional-evidence agreement if it does, structured-disclosure agreement if it does not. Rule priority makes the categories mutually exclusive. They describe judge observations and do not classify predictor causes.
+
+\section{Correction and execution provenance}\label{app:provenance}
+% P:APB1
+The historical Stage C formatter used a final tab-delimited field containing hyperlink information as if it were sentence text. This affected 936 of 1,061 selected claims, including 190 of the 226 regressions; ten claims also encountered a Unicode/cache-resolution defect. The correction recovered the selected designated evidence sets from archived data. Historical predictions, judgments, packets, and protocols remain preserved. A/B judgments were retained, and corrected C judgments were collected. The former mechanism-oriented taxonomy conflated disagreement with FEVER with evidence utilization; its estimates are withdrawn as current findings (Appendix~\ref{app:withdrawn}).
+
+% P:APB2
+The correction protocol was frozen on September 27, 2026, after inspection of the historical defects and before the new corrected Stage C judgments. The primary corrected judging plan contains 70 required jobs: 55 Grok and 15 Claude, producing 6,430 new judgments, with 2,260 retained Claude A/B judgments. The dated September 28 amendment A1 changes the permitted attempt cap from three to nine after execution. Six jobs exceeded the original cap. Execution records distinguish 101 unique launched agents from 13 collision/unknown records that do not establish launches. The amended provenance status is \texttt{ready\_under\_amendment\_A1}. The original frozen-protocol primary result is incomplete; residual follow-up panels and optional historical residual reruns were not performed. There is no new original-protocol judgment freeze or replacement result directory.
+
+% P:APB3
+Three jobs have earlier schema-valid alternatives, two Claude and one Grok. The main analysis uses the recorded accepted selection; sensitivity uses the first-valid selection. One Grok rescue consensus changes from Ambiguous to Unresolved outside the regression comparison. Historical Claude A/B dependencies include quarantined reruns after a blinding leak, a paused/resumed stage, and duplicate-batch handling that kept the first ingested record rather than selecting labels. Five quarantined files contain 577 valid records; the paused Stage B had 601 of 1,130 judgments before resumption. Those events remain documented because retained A/B judgments depend on them. Protocol requirements for isolated contexts do not independently verify that isolation in unavailable historical transcripts.
+
+\section{Supplementary diagnostics and denominators}\label{app:supplement}
+% P:APC1
+For GPT-5.4, claim-only correctness is $8,754+115=8,869$ and evidence correctness is $8,754+850=9,604$. Mini correctness is $8,316+151=8,467$ and $8,316+1,238=9,554$. Gains equal rescues minus regressions divided by 10,000. Among initially correct claims, regression rates are 115/8,869 (1.30\%) and 151/8,467 (1.78\%); among initial errors, rescue rates are 850/1,131 (75.15\%) and 1,238/1,533 (80.76\%). These conditional rates differ from fractions of all sampled claims. The distinct-claim union is $115+151-40=226$, with 186 claims regressing for exactly one predictor. Distinct claims here means distinct FEVER identifiers: the 10,000 records contain 9,855 unique claim texts, with 271 records in 126 duplicate-text groups; the 226 regression records contain 225 unique texts. The intervals are record-level and do not adjust for dependence among repeated texts. The broader judged cohort is $226+335+250+250-1=1,060$: the filtered item belongs to the resistant cohort, leaving 334 judged resistant cases. Each family's seven regression categories sums to 226.
+
+% P:APC4
+The paired between-model regression comparison has continuity-corrected McNemar statistic 6.59 ($p=0.010$), using 75 GPT-5.4-only and 111 mini-only regression indicators. The models share the same transition class on 87.3\% of claims. Cohen's $\kappa$ for their predicted labels increases from 0.786 without evidence to 0.944 with evidence. Label-contrast tests for regressions yield $p<0.001$ for GPT-5.4's 88 Supported versus 27 Refuted cases, and $p=0.870$ for mini's 74 versus 77. The latter is a negative result, without proving identical label-specific regression probabilities.
+
+% P:APC2
+The primary NLI disagreement proportions for mini are 22.6\% on robust cases, 27.7\% on rescues, 71.2\% on resistant cases, and 76.8\% on regressions. The second NLI model changes the exact proportions but preserves the contrast between errors with evidence and robust cases. A separate weak-warrant flag uses a primary NLI score below 0.35 for the FEVER-implied class; this is a diagnostic threshold, without probability calibration. It selects 2,462 claims with GPT-5.4 claim-only accuracy about 81.0\%, compared with 88.69\% over all 10,000 claims. This subset-versus-full-sample comparison indicates that the diagnostic also marks initial task difficulty; it does not compare disjoint populations or identify evidence-related causes.
+
+% P:APC5
+Archived predictive analyses use claim/evidence surface features, NLI scores, and semantic similarity to predict transition indicators. Their claim-grouped cross-validation keeps a claim's observations within one fold; an additional grouping check handles exact duplicate claim texts. NLI-enriched features perform better than surface-only features, but rare-class precision--recall performance remains low. These predictive diagnostics do not establish an actionable error-repair method or a causal explanation. Likewise, a separate GLM-5.3 Stage A probe has modal agreement 86.2\% and consensus agreement 83.1\% with the primary Grok Stage A results, with nondecisiveness 22.3\% versus 29.1\%. It covers the broader cohort at Stage A only, so it cannot substitute for the matched Grok--Claude regression comparison across all stages.
+
+% P:APC3
+Shared regressions are more often finally nondecisive than model-specific regressions under Claude: 14/40 (35.0\%) versus 27/186 (14.5\%), odds ratio 3.17 (95\% interval 1.47--6.83), two-test BH-adjusted $p=0.011$. Under Grok the corresponding counts are 18/40 (45.0\%) and 53/186 (28.5\%), odds ratio 2.05 (1.02--4.13), adjusted $p=0.059$. The latter does not pass the selected 0.05 threshold after correction. Across 12 documented Claude output combinations, zero to six Stage C consensus labels change, and the Ambiguous count ranges from 37 to 42. This label count must not be treated as a universal combined Ambiguous-plus-Unresolved measure. First-valid selection preserves all 14 cross-family and two subgroup BH decisions; cross-family effect differences shift by at most 1.3 percentage points. Full archived test and combination records accompany the manuscript package.
+
+\input{tables/sensitivity.tex}
+\input{tables/family_tests.tex}
+
+\section{Withdrawn historical estimates}\label{app:withdrawn}
+% P:APD1
+The former mechanism categories are preserved only for historical traceability. Grok's historical counts were 113, 27, and 86 (50.0\%, 11.9\%, 38.1\%); Claude's were 149, 12, and 65 (65.9\%, 5.3\%, 28.8\%). Historical residual estimates of 134/231 (58.0\%) are also withdrawn. These numbers came from superseded packet or taxonomy interpretations and are not current scientific findings. Historical agreement of 74.3\% with $\kappa=0.537$ is likewise superseded. The amended first-valid result also rounds to 74.3\%, but has $\kappa=0.651$ and a different evidential meaning. That coincidental percentage does not reinstate the historical analysis.
+\end{document}

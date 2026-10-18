@@ -1,0 +1,254 @@
+[
+  {
+    "claim_id": "129011",
+    "claim": "DNA is uninvolved with Little Mix.",
+    "supplied_evidence": "DNA is the debut studio album by British girl group Little Mix .",
+    "evidence_quote_scope": "complete supplied sentence; no excerpt or ellipsis",
+    "frozen_reference": "Refuted",
+    "displayed_model": "gpt-5.4",
+    "predictions": {
+      "A": [
+        "Refuted",
+        "Refuted",
+        "Refuted"
+      ],
+      "B": [
+        "Supported",
+        "Supported",
+        "Supported"
+      ],
+      "C": [
+        "Refuted",
+        "Refuted",
+        "Refuted"
+      ]
+    },
+    "all_models_predictions": {
+      "gpt-5.4": {
+        "A": [
+          "Refuted",
+          "Refuted",
+          "Refuted"
+        ],
+        "B": [
+          "Supported",
+          "Supported",
+          "Supported"
+        ],
+        "C": [
+          "Refuted",
+          "Refuted",
+          "Refuted"
+        ]
+      },
+      "gpt-5.4-mini": {
+        "A": [
+          "Supported",
+          "Refuted",
+          "Refuted"
+        ],
+        "B": [
+          "Refuted",
+          "Refuted",
+          "Refuted"
+        ],
+        "C": [
+          "Refuted",
+          "Refuted",
+          "Refuted"
+        ]
+      }
+    },
+    "feature_and_inference": "Negation and album context. In the album sense, the sentence opposes the claim. B loses reference agreement in all three calls and C restores it; the outputs do not identify why.",
+    "source_input_line": 5723
+  },
+  {
+    "claim_id": "75904",
+    "claim": "The Indian Army does not comprise more than 80% of the country's active defense personnel.",
+    "supplied_evidence": "It is an all-volunteer force and comprises more than 80 % of the country 's active defence personnel .",
+    "evidence_quote_scope": "complete supplied sentence; no excerpt or ellipsis",
+    "frozen_reference": "Refuted",
+    "displayed_model": "gpt-5.4",
+    "predictions": {
+      "A": [
+        "Supported",
+        "Supported",
+        "Supported"
+      ],
+      "B": [
+        "Refuted",
+        "Refuted",
+        "Refuted"
+      ],
+      "C": [
+        "Refuted",
+        "Refuted",
+        "Refuted"
+      ]
+    },
+    "all_models_predictions": {
+      "gpt-5.4": {
+        "A": [
+          "Supported",
+          "Supported",
+          "Supported"
+        ],
+        "B": [
+          "Refuted",
+          "Refuted",
+          "Refuted"
+        ],
+        "C": [
+          "Refuted",
+          "Refuted",
+          "Refuted"
+        ]
+      },
+      "gpt-5.4-mini": {
+        "A": [
+          "Supported",
+          "Supported",
+          "Supported"
+        ],
+        "B": [
+          "Refuted",
+          "Refuted",
+          "Refuted"
+        ],
+        "C": [
+          "Refuted",
+          "Refuted",
+          "Refuted"
+        ]
+      }
+    },
+    "feature_and_inference": "Negation and number comparison. The supplied assertion opposes its direct denial, accompanying a rescue in all three calls. These visible demands also occur in regression cases.",
+    "source_input_line": 3374
+  },
+  {
+    "claim_id": "51757",
+    "claim": "The KGB was not a military service.",
+    "supplied_evidence": "The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops .",
+    "evidence_quote_scope": "complete supplied sentence; no excerpt or ellipsis",
+    "frozen_reference": "Supported",
+    "displayed_model": "gpt-5.4",
+    "predictions": {
+      "A": [
+        "Supported",
+        "Supported",
+        "Supported"
+      ],
+      "B": [
+        "Refuted",
+        "Refuted",
+        "Refuted"
+      ],
+      "C": [
+        "Refuted",
+        "Refuted",
+        "Refuted"
+      ]
+    },
+    "all_models_predictions": {
+      "gpt-5.4": {
+        "A": [
+          "Supported",
+          "Supported",
+          "Supported"
+        ],
+        "B": [
+          "Refuted",
+          "Refuted",
+          "Refuted"
+        ],
+        "C": [
+          "Refuted",
+          "Refuted",
+          "Refuted"
+        ]
+      },
+      "gpt-5.4-mini": {
+        "A": [
+          "Supported",
+          "Supported",
+          "Supported"
+        ],
+        "B": [
+          "Refuted",
+          "Refuted",
+          "Refuted"
+        ],
+        "C": [
+          "Refuted",
+          "Refuted",
+          "Refuted"
+        ]
+      }
+    },
+    "feature_and_inference": "Reference/evidence tension. The sentence calls the KGB a military service, opposing the Supported claim. Repeated benchmark loss does not settle factual deterioration; adjudication is pending.",
+    "source_input_line": 2317
+  },
+  {
+    "claim_id": "180726",
+    "claim": "Victoria (Dance Exponents song) reached number 8 on the New Zealand singles chart.",
+    "supplied_evidence": "Released in 1982 it reached Number 6 on the New Zealand singles chart .",
+    "evidence_quote_scope": "complete supplied sentence; no excerpt or ellipsis",
+    "frozen_reference": "Supported",
+    "displayed_model": "gpt-5.4",
+    "predictions": {
+      "A": [
+        "Supported",
+        "Supported",
+        "Supported"
+      ],
+      "B": [
+        "Refuted",
+        "Refuted",
+        "Refuted"
+      ],
+      "C": [
+        "Refuted",
+        "Refuted",
+        "Refuted"
+      ]
+    },
+    "all_models_predictions": {
+      "gpt-5.4": {
+        "A": [
+          "Supported",
+          "Supported",
+          "Supported"
+        ],
+        "B": [
+          "Refuted",
+          "Refuted",
+          "Refuted"
+        ],
+        "C": [
+          "Refuted",
+          "Refuted",
+          "Refuted"
+        ]
+      },
+      "gpt-5.4-mini": {
+        "A": [
+          "Supported",
+          "Supported",
+          "Supported"
+        ],
+        "B": [
+          "Refuted",
+          "Refuted",
+          "Refuted"
+        ],
+        "C": [
+          "Refuted",
+          "Refuted",
+          "Refuted"
+        ]
+      }
+    },
+    "feature_and_inference": "Numerical interpretation. Reached 6 does not explicitly mean peaked at 6 or never reached 8. The repeated loss is observed, while the intended reading remains unresolved.",
+    "source_input_line": 7942
+  }
+]

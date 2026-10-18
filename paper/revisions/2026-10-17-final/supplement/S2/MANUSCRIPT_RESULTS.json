@@ -1,0 +1,1405 @@
+{
+  "estimates": {
+    "first_pass": {
+      "gpt-5.4/A/accuracy_ITT": {
+        "estimate_percent": 88.58,
+        "low_percent": 87.95352143991994,
+        "high_percent": 89.20446210561572,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/B/accuracy_ITT": {
+        "estimate_percent": 96.17,
+        "low_percent": 95.77069544246164,
+        "high_percent": 96.53436661352079,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/C/accuracy_ITT": {
+        "estimate_percent": 96.22,
+        "low_percent": 95.82857230604294,
+        "high_percent": 96.60534374589575,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/AB/known_regression_fraction": {
+        "estimate_percent": 0.98,
+        "low_percent": 0.7906483072661313,
+        "high_percent": 1.180532988529449,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/AB/known_rescue_fraction": {
+        "estimate_percent": 8.57,
+        "low_percent": 8.031233830593026,
+        "high_percent": 9.116764970609417,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/AB/accuracy_difference_ITT": {
+        "estimate_percent": 7.59,
+        "low_percent": 7.010368801003325,
+        "high_percent": 8.193875745110184,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/BC/known_regression_fraction": {
+        "estimate_percent": 0.41000000000000003,
+        "low_percent": 0.28909122532268067,
+        "high_percent": 0.5395741754433631,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/BC/known_rescue_fraction": {
+        "estimate_percent": 0.45999999999999996,
+        "low_percent": 0.3335013497127238,
+        "high_percent": 0.5985709357510449,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/BC/accuracy_difference_ITT": {
+        "estimate_percent": 0.05,
+        "low_percent": -0.1374052509846853,
+        "high_percent": 0.24138579530200324,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/AC/known_regression_fraction": {
+        "estimate_percent": 1.08,
+        "low_percent": 0.886287740094909,
+        "high_percent": 1.2916108919587137,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/AC/known_rescue_fraction": {
+        "estimate_percent": 8.72,
+        "low_percent": 8.172922592537125,
+        "high_percent": 9.275021330639706,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/AC/accuracy_difference_ITT": {
+        "estimate_percent": 7.64,
+        "low_percent": 7.041872897551707,
+        "high_percent": 8.223854397353993,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/A/accuracy_ITT": {
+        "estimate_percent": 84.89999999999999,
+        "low_percent": 84.18734937244716,
+        "high_percent": 85.60235243992416,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/B/accuracy_ITT": {
+        "estimate_percent": 95.45,
+        "low_percent": 95.03648046510338,
+        "high_percent": 95.85812285262955,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/C/accuracy_ITT": {
+        "estimate_percent": 95.7,
+        "low_percent": 95.301290589469,
+        "high_percent": 96.06784458458219,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/AB/known_regression_fraction": {
+        "estimate_percent": 1.4500000000000002,
+        "low_percent": 1.2265117528599867,
+        "high_percent": 1.6872457143290882,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/AB/known_rescue_fraction": {
+        "estimate_percent": 12.0,
+        "low_percent": 11.372611467718867,
+        "high_percent": 12.620233704129404,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/AB/accuracy_difference_ITT": {
+        "estimate_percent": 10.549999999999999,
+        "low_percent": 9.865113482053314,
+        "high_percent": 11.258084542295633,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/BC/known_regression_fraction": {
+        "estimate_percent": 0.66,
+        "low_percent": 0.5004476990628727,
+        "high_percent": 0.8128993258162462,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/BC/known_rescue_fraction": {
+        "estimate_percent": 0.91,
+        "low_percent": 0.7422568606801673,
+        "high_percent": 1.1038733604906006,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/BC/accuracy_difference_ITT": {
+        "estimate_percent": 0.25,
+        "low_percent": 0.011672023110805611,
+        "high_percent": 0.5050276958096757,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/AC/known_regression_fraction": {
+        "estimate_percent": 1.47,
+        "low_percent": 1.2427385615462907,
+        "high_percent": 1.7076424755909376,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/AC/known_rescue_fraction": {
+        "estimate_percent": 12.27,
+        "low_percent": 11.64969477194388,
+        "high_percent": 12.896069129317308,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/AC/accuracy_difference_ITT": {
+        "estimate_percent": 10.8,
+        "low_percent": 10.11231389183931,
+        "high_percent": 11.498565180689146,
+        "claims": 10000,
+        "clusters": 9855
+      }
+    },
+    "repeat_representative": {
+      "gpt-5.4/A/accuracy_ITT": {
+        "estimate_percent": 88.61333333333332,
+        "low_percent": 88.00580642490992,
+        "high_percent": 89.21959885142843,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/B/accuracy_ITT": {
+        "estimate_percent": 96.16,
+        "low_percent": 95.76980856614028,
+        "high_percent": 96.52608218028021,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/C/accuracy_ITT": {
+        "estimate_percent": 96.17666666666666,
+        "low_percent": 95.79317362724356,
+        "high_percent": 96.55592122264072,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/AB/known_regression_fraction": {
+        "estimate_percent": 1.0033333333333334,
+        "low_percent": 0.8195988251396928,
+        "high_percent": 1.1952206424476395,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/AB/known_rescue_fraction": {
+        "estimate_percent": 8.55,
+        "low_percent": 8.025980521605437,
+        "high_percent": 9.083773042546943,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/AB/accuracy_difference_ITT": {
+        "estimate_percent": 7.546666666666667,
+        "low_percent": 6.949109122408219,
+        "high_percent": 8.13771727398422,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/BC/known_regression_fraction": {
+        "estimate_percent": 0.4633333333333333,
+        "low_percent": 0.3439698193958048,
+        "high_percent": 0.5893496928713015,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/BC/known_rescue_fraction": {
+        "estimate_percent": 0.48,
+        "low_percent": 0.35944185858579625,
+        "high_percent": 0.6166033019659293,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/BC/accuracy_difference_ITT": {
+        "estimate_percent": 0.01666666666666668,
+        "low_percent": -0.15866080952843017,
+        "high_percent": 0.19970079571194027,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/AC/known_regression_fraction": {
+        "estimate_percent": 1.1199999999999999,
+        "low_percent": 0.9261321739295548,
+        "high_percent": 1.3295516424220863,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/AC/known_rescue_fraction": {
+        "estimate_percent": 8.683333333333334,
+        "low_percent": 8.146231978679443,
+        "high_percent": 9.227812635831297,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/AC/accuracy_difference_ITT": {
+        "estimate_percent": 7.563333333333333,
+        "low_percent": 6.983424312233542,
+        "high_percent": 8.14348021288504,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/A/accuracy_ITT": {
+        "estimate_percent": 84.73,
+        "low_percent": 84.04356071860722,
+        "high_percent": 85.42731203799343,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/B/accuracy_ITT": {
+        "estimate_percent": 95.51666666666668,
+        "low_percent": 95.12284185209889,
+        "high_percent": 95.89337838313253,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/C/accuracy_ITT": {
+        "estimate_percent": 95.68666666666667,
+        "low_percent": 95.2914865335288,
+        "high_percent": 96.05934988370481,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/AB/known_regression_fraction": {
+        "estimate_percent": 1.4200000000000002,
+        "low_percent": 1.2143677295408712,
+        "high_percent": 1.6333821418128947,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/AB/known_rescue_fraction": {
+        "estimate_percent": 12.206666666666665,
+        "low_percent": 11.60899184613458,
+        "high_percent": 12.820896010079991,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/AB/accuracy_difference_ITT": {
+        "estimate_percent": 10.786666666666665,
+        "low_percent": 10.134573914183726,
+        "high_percent": 11.440113636297138,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/BC/known_regression_fraction": {
+        "estimate_percent": 0.6666666666666665,
+        "low_percent": 0.5329725646514791,
+        "high_percent": 0.7954999705018905,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/BC/known_rescue_fraction": {
+        "estimate_percent": 0.8366666666666667,
+        "low_percent": 0.6919073175363406,
+        "high_percent": 0.9923790613576751,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/BC/accuracy_difference_ITT": {
+        "estimate_percent": 0.16999999999999998,
+        "low_percent": -0.020927953235907112,
+        "high_percent": 0.37418560180814253,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/AC/known_regression_fraction": {
+        "estimate_percent": 1.4966666666666666,
+        "low_percent": 1.2778223854712965,
+        "high_percent": 1.7254400378190173,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/AC/known_rescue_fraction": {
+        "estimate_percent": 12.453333333333333,
+        "low_percent": 11.846158981327866,
+        "high_percent": 13.062412458963015,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/AC/accuracy_difference_ITT": {
+        "estimate_percent": 10.956666666666667,
+        "low_percent": 10.305246584675215,
+        "high_percent": 11.621910434016847,
+        "claims": 10000,
+        "clusters": 9855
+      }
+    },
+    "repeat_variation": {
+      "gpt-5.4/A/identical_prompt_disagreement": {
+        "estimate_percent": 0.6666666666666665,
+        "low_percent": 0.5398456962548024,
+        "high_percent": 0.7998821462263656,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/B/identical_prompt_disagreement": {
+        "estimate_percent": 0.15333333333333332,
+        "low_percent": 0.09911375782107262,
+        "high_percent": 0.21936840906167182,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/C/identical_prompt_disagreement": {
+        "estimate_percent": 0.1933333333333333,
+        "low_percent": 0.1258882784928687,
+        "high_percent": 0.26318217182337617,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/AB/excess_loss_over_identical_left_prompt": {
+        "estimate_percent": 0.67,
+        "low_percent": 0.4806468916646952,
+        "high_percent": 0.8705346565103,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4/BC/excess_loss_over_identical_left_prompt": {
+        "estimate_percent": 0.3866666666666667,
+        "low_percent": 0.2666864546179988,
+        "high_percent": 0.5082742986803234,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/A/identical_prompt_disagreement": {
+        "estimate_percent": 2.333333333333333,
+        "low_percent": 2.0910649883873105,
+        "high_percent": 2.5793972770385056,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/B/identical_prompt_disagreement": {
+        "estimate_percent": 0.7133333333333333,
+        "low_percent": 0.5852013635094409,
+        "high_percent": 0.8546434186253733,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/C/identical_prompt_disagreement": {
+        "estimate_percent": 0.6533333333333333,
+        "low_percent": 0.5247187161183757,
+        "high_percent": 0.7859988138067492,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/AB/excess_loss_over_identical_left_prompt": {
+        "estimate_percent": 0.2533333333333334,
+        "low_percent": 0.01938321176908558,
+        "high_percent": 0.4897285948412558,
+        "claims": 10000,
+        "clusters": 9855
+      },
+      "gpt-5.4-mini/BC/excess_loss_over_identical_left_prompt": {
+        "estimate_percent": 0.31,
+        "low_percent": 0.18345666220592485,
+        "high_percent": 0.43997256308591853,
+        "claims": 10000,
+        "clusters": 9855
+      }
+    },
+    "historical_cases_first_pass": {
+      "gpt-5.4/A/accuracy_ITT": {
+        "estimate_percent": 77.87610619469027,
+        "low_percent": 72.32408741793604,
+        "high_percent": 83.20375499306624,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4/B/accuracy_ITT": {
+        "estimate_percent": 47.78761061946903,
+        "low_percent": 41.45066295493274,
+        "high_percent": 54.22715061487187,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4/C/accuracy_ITT": {
+        "estimate_percent": 41.5929203539823,
+        "low_percent": 35.56024627030903,
+        "high_percent": 48.16749863662279,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4/AB/known_regression_fraction": {
+        "estimate_percent": 35.39823008849557,
+        "low_percent": 29.117034769131422,
+        "high_percent": 41.261365106337045,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4/AB/known_rescue_fraction": {
+        "estimate_percent": 5.3097345132743365,
+        "low_percent": 2.58264873642445,
+        "high_percent": 8.343544361243477,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4/AB/accuracy_difference_ITT": {
+        "estimate_percent": -30.08849557522124,
+        "low_percent": -36.9530631677595,
+        "high_percent": -22.694220156101665,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4/BC/known_regression_fraction": {
+        "estimate_percent": 8.849557522123893,
+        "low_percent": 5.31246410789454,
+        "high_percent": 12.667657817409236,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4/BC/known_rescue_fraction": {
+        "estimate_percent": 2.6548672566371683,
+        "low_percent": 0.8584214341594356,
+        "high_percent": 4.927463591048221,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4/BC/accuracy_difference_ITT": {
+        "estimate_percent": -6.1946902654867255,
+        "low_percent": -10.616583298702787,
+        "high_percent": -2.1141487568478725,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4/AC/known_regression_fraction": {
+        "estimate_percent": 41.5929203539823,
+        "low_percent": 35.28086041926913,
+        "high_percent": 47.78899460094149,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4/AC/known_rescue_fraction": {
+        "estimate_percent": 5.3097345132743365,
+        "low_percent": 2.663831385270823,
+        "high_percent": 8.462697114260909,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4/AC/accuracy_difference_ITT": {
+        "estimate_percent": -36.283185840707965,
+        "low_percent": -43.253807090666854,
+        "high_percent": -28.909611292241955,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4-mini/A/accuracy_ITT": {
+        "estimate_percent": 82.30088495575221,
+        "low_percent": 77.34256047945907,
+        "high_percent": 87.12590356535352,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4-mini/B/accuracy_ITT": {
+        "estimate_percent": 41.5929203539823,
+        "low_percent": 35.184461541994985,
+        "high_percent": 47.97239259607332,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4-mini/C/accuracy_ITT": {
+        "estimate_percent": 35.84070796460177,
+        "low_percent": 29.586029694598263,
+        "high_percent": 41.9945937417767,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4-mini/AB/known_regression_fraction": {
+        "estimate_percent": 45.13274336283185,
+        "low_percent": 38.8070377771815,
+        "high_percent": 51.527902132266505,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4-mini/AB/known_rescue_fraction": {
+        "estimate_percent": 4.424778761061947,
+        "low_percent": 1.7698957466656582,
+        "high_percent": 7.55295000702992,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4-mini/AB/accuracy_difference_ITT": {
+        "estimate_percent": -40.707964601769916,
+        "low_percent": -47.92851645266895,
+        "high_percent": -33.50172530085022,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4-mini/BC/known_regression_fraction": {
+        "estimate_percent": 11.946902654867257,
+        "low_percent": 7.8447246562786495,
+        "high_percent": 16.301109827994285,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4-mini/BC/known_rescue_fraction": {
+        "estimate_percent": 6.1946902654867255,
+        "low_percent": 3.2568697062625813,
+        "high_percent": 9.491589695567114,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4-mini/BC/accuracy_difference_ITT": {
+        "estimate_percent": -5.752212389380531,
+        "low_percent": -11.333584130247138,
+        "high_percent": -0.3221908839030591,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4-mini/AC/known_regression_fraction": {
+        "estimate_percent": 50.88495575221239,
+        "low_percent": 44.441385357554296,
+        "high_percent": 57.42549646706032,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4-mini/AC/known_rescue_fraction": {
+        "estimate_percent": 4.424778761061947,
+        "low_percent": 1.8070848491785523,
+        "high_percent": 7.184287565924728,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4-mini/AC/accuracy_difference_ITT": {
+        "estimate_percent": -46.46017699115044,
+        "low_percent": -53.96093257356309,
+        "high_percent": -39.218487481029776,
+        "claims": 226,
+        "clusters": 225
+      }
+    },
+    "historical_cases_repeated": {
+      "gpt-5.4/A/identical_prompt_disagreement": {
+        "estimate_percent": 2.654867256637168,
+        "low_percent": 1.1280603588565945,
+        "high_percent": 4.4895308744786195,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4/B/identical_prompt_disagreement": {
+        "estimate_percent": 2.9498525073746307,
+        "low_percent": 1.2394618559899782,
+        "high_percent": 4.891304557392194,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4/C/identical_prompt_disagreement": {
+        "estimate_percent": 3.5398230088495577,
+        "low_percent": 1.756236008121689,
+        "high_percent": 5.633068513995114,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4/AB/excess_loss_over_identical_left_prompt": {
+        "estimate_percent": 34.21828908554573,
+        "low_percent": 28.00039924115751,
+        "high_percent": 40.0662446227482,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4/BC/excess_loss_over_identical_left_prompt": {
+        "estimate_percent": 9.58702064896755,
+        "low_percent": 5.962648795555232,
+        "high_percent": 13.45863649970804,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4-mini/A/identical_prompt_disagreement": {
+        "estimate_percent": 8.55457227138643,
+        "low_percent": 5.895182933620149,
+        "high_percent": 11.536505025039444,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4-mini/B/identical_prompt_disagreement": {
+        "estimate_percent": 8.259587020648967,
+        "low_percent": 5.504337753380961,
+        "high_percent": 11.033366689924103,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4-mini/C/identical_prompt_disagreement": {
+        "estimate_percent": 9.144542772861355,
+        "low_percent": 6.264167999312516,
+        "high_percent": 12.325802022147721,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4-mini/AB/excess_loss_over_identical_left_prompt": {
+        "estimate_percent": 40.412979351032455,
+        "low_percent": 34.445647159984745,
+        "high_percent": 46.52867143056574,
+        "claims": 226,
+        "clusters": 225
+      },
+      "gpt-5.4-mini/BC/excess_loss_over_identical_left_prompt": {
+        "estimate_percent": 7.964601769911504,
+        "low_percent": 4.845989537525879,
+        "high_percent": 11.293931453799068,
+        "claims": 226,
+        "clusters": 225
+      }
+    }
+  },
+  "transitions": {
+    "gpt-5.4": {
+      "AB": {
+        "1": {
+          "stayed_correct": 8760,
+          "rescue": 857,
+          "regression": 98,
+          "stayed_wrong": 285
+        },
+        "2": {
+          "stayed_correct": 8764,
+          "rescue": 851,
+          "regression": 102,
+          "stayed_wrong": 283
+        },
+        "3": {
+          "stayed_correct": 8759,
+          "rescue": 857,
+          "regression": 101,
+          "stayed_wrong": 283
+        }
+      },
+      "BC": {
+        "1": {
+          "stayed_correct": 9576,
+          "rescue": 46,
+          "regression": 41,
+          "stayed_wrong": 337
+        },
+        "2": {
+          "stayed_correct": 9570,
+          "rescue": 47,
+          "regression": 45,
+          "stayed_wrong": 338
+        },
+        "3": {
+          "stayed_correct": 9563,
+          "rescue": 51,
+          "regression": 53,
+          "stayed_wrong": 333
+        }
+      },
+      "AC": {
+        "1": {
+          "stayed_correct": 8750,
+          "rescue": 872,
+          "regression": 108,
+          "stayed_wrong": 270
+        },
+        "2": {
+          "stayed_correct": 8755,
+          "rescue": 862,
+          "regression": 111,
+          "stayed_wrong": 272
+        },
+        "3": {
+          "stayed_correct": 8743,
+          "rescue": 871,
+          "regression": 117,
+          "stayed_wrong": 269
+        }
+      }
+    },
+    "gpt-5.4-mini": {
+      "AB": {
+        "1": {
+          "stayed_correct": 8345,
+          "rescue": 1200,
+          "regression": 145,
+          "stayed_wrong": 310
+        },
+        "2": {
+          "stayed_correct": 8334,
+          "rescue": 1220,
+          "regression": 141,
+          "stayed_wrong": 305
+        },
+        "3": {
+          "stayed_correct": 8314,
+          "rescue": 1242,
+          "regression": 140,
+          "stayed_wrong": 304
+        }
+      },
+      "BC": {
+        "1": {
+          "stayed_correct": 9479,
+          "rescue": 91,
+          "regression": 66,
+          "stayed_wrong": 364
+        },
+        "2": {
+          "stayed_correct": 9480,
+          "rescue": 76,
+          "regression": 74,
+          "stayed_wrong": 370
+        },
+        "3": {
+          "stayed_correct": 9496,
+          "rescue": 84,
+          "regression": 60,
+          "stayed_wrong": 360
+        }
+      },
+      "AC": {
+        "1": {
+          "stayed_correct": 8343,
+          "rescue": 1227,
+          "regression": 147,
+          "stayed_wrong": 283
+        },
+        "2": {
+          "stayed_correct": 8319,
+          "rescue": 1237,
+          "regression": 156,
+          "stayed_wrong": 288
+        },
+        "3": {
+          "stayed_correct": 8308,
+          "rescue": 1272,
+          "regression": 146,
+          "stayed_wrong": 274
+        }
+      }
+    }
+  },
+  "recurrence": {
+    "AB": {
+      "all3": {
+        "gpt-5.4": 87,
+        "gpt-5.4-mini": 99,
+        "model_claim_cases": 186,
+        "distinct_claims": 160,
+        "overlap": 26
+      },
+      "any": {
+        "gpt-5.4": 112,
+        "gpt-5.4-mini": 189,
+        "model_claim_cases": 301,
+        "distinct_claims": 255,
+        "overlap": 46
+      }
+    },
+    "BC": {
+      "all3": {
+        "gpt-5.4": 32,
+        "gpt-5.4-mini": 27,
+        "model_claim_cases": 59,
+        "distinct_claims": 58,
+        "overlap": 1
+      },
+      "any": {
+        "gpt-5.4": 61,
+        "gpt-5.4-mini": 117,
+        "model_claim_cases": 178,
+        "distinct_claims": 168,
+        "overlap": 10
+      }
+    },
+    "AC": {
+      "all3": {
+        "gpt-5.4": 98,
+        "gpt-5.4-mini": 110,
+        "model_claim_cases": 208,
+        "distinct_claims": 174,
+        "overlap": 34
+      },
+      "any": {
+        "gpt-5.4": 125,
+        "gpt-5.4-mini": 195,
+        "model_claim_cases": 320,
+        "distinct_claims": 264,
+        "overlap": 56
+      }
+    }
+  },
+  "coding": {
+    "at_utc": "2026-10-18T02:45:05.729123+00:00",
+    "status": "SECOND_AI_REVIEW_COMPLETE_WITH_LIMITS",
+    "original_conflict_claims": 43,
+    "original_conflict_recheck_classifications": {
+      "plausible_conflict": 34,
+      "coding_mistake": 2,
+      "additional_context": 3,
+      "unresolved_interpretation": 4
+    },
+    "full_second_review_claims": 99,
+    "seeded_nonconflict_claims": 56,
+    "targeted_additional_claims": 131,
+    "total_second_review_claims": 230,
+    "not_second_reviewed_claims": 186,
+    "total_selected_claims": 416,
+    "total_selected_cases": 465,
+    "second_reviewed_cases": 258,
+    "changed_claim_annotations": 50,
+    "assessment_changed_claims": 29,
+    "feature_changed_claims": 34,
+    "v2_distinct_claim_alignment_counts": {
+      "supports_gold": 193,
+      "insufficient": 96,
+      "conflicts_gold": 34,
+      "ambiguous": 93
+    },
+    "v2_codebook_sha256": "077c98c693e371bb11827b45ab6b162bd36cf44d6f0547df74352792f8d9cd08",
+    "scope": "Same-assistant unblinded AI recheck; no human validation or independent-coder agreement; selected counts are not population prevalence",
+    "benchmark_scoring": "UNCHANGED"
+  },
+  "tables": {
+    "CONDITIONS": {
+      "caption": "Controlled input conditions. All calls request a single Supported or Refuted label; evidence is supplied directly, with no retrieval.",
+      "label": "tab:conditions",
+      "headers": [
+        "Condition",
+        "Claim",
+        "Selected evidence",
+        "First-sentence instruction"
+      ],
+      "rows": [
+        [
+          "A",
+          "Present",
+          "Absent",
+          "Classify the claim as Supported or Refuted."
+        ],
+        [
+          "B",
+          "Present",
+          "Present",
+          "Same as A."
+        ],
+        [
+          "C",
+          "Present",
+          "Present",
+          "As B, with ``based only on the evidence provided."
+        ]
+      ]
+    },
+    "ACCURACY": {
+      "caption": "Primary first-pass reference-label accuracy (percent). Each cell uses 10,000 assigned valid calls. Parentheses are descriptive 95\\% text-cluster bootstrap intervals. Mini denotes GPT-5.4-mini.",
+      "label": "tab:accuracy",
+      "headers": [
+        "Condition",
+        "GPT-5.4",
+        "Mini"
+      ],
+      "rows": [
+        [
+          "A",
+          "88.58 (87.95 to 89.20)",
+          "84.90 (84.19 to 85.60)"
+        ],
+        [
+          "B",
+          "96.17 (95.77 to 96.53)",
+          "95.45 (95.04 to 95.86)"
+        ],
+        [
+          "C",
+          "96.22 (95.83 to 96.61)",
+          "95.70 (95.30 to 96.07)"
+        ]
+      ]
+    },
+    "TRANSITIONS": {
+      "caption": "Primary first-pass paired outcomes. AB adds evidence; BC changes the instruction. Four counts sum to 10,000 pairs per row. The final column gives accuracy change in percentage points with its descriptive 95\\% cluster interval.",
+      "label": "tab:transitions",
+      "headers": [
+        "Model",
+        "Pair",
+        "Stay correct",
+        "Rescue",
+        "Regress",
+        "Stay wrong",
+        "Change (pp)"
+      ],
+      "rows": [
+        [
+          "5.4",
+          "AB",
+          "8,760",
+          "857",
+          "98",
+          "285",
+          "7.59 (7.01 to 8.19)"
+        ],
+        [
+          "5.4",
+          "BC",
+          "9,576",
+          "46",
+          "41",
+          "337",
+          "0.05 (-0.14 to 0.24)"
+        ],
+        [
+          "Mini",
+          "AB",
+          "8,345",
+          "1,200",
+          "145",
+          "310",
+          "10.55 (9.87 to 11.26)"
+        ],
+        [
+          "Mini",
+          "BC",
+          "9,479",
+          "91",
+          "66",
+          "364",
+          "0.25 (0.01 to 0.51)"
+        ]
+      ]
+    },
+    "REPEAT": {
+      "caption": "All-three-repetition accuracy (percent) and primary accuracy changes (percentage points). These summaries include repetition 1. Accuracy cells contain 30,000 calls per model/condition, averaged within 10,000 claims; parentheses are descriptive 95\\% cluster intervals.",
+      "label": "tab:repeat",
+      "headers": [
+        "Measure",
+        "GPT-5.4",
+        "Mini"
+      ],
+      "rows": [
+        [
+          "A accuracy",
+          "88.61 (88.01 to 89.22)",
+          "84.73 (84.04 to 85.43)"
+        ],
+        [
+          "B accuracy",
+          "96.16 (95.77 to 96.53)",
+          "95.52 (95.12 to 95.89)"
+        ],
+        [
+          "C accuracy",
+          "96.18 (95.79 to 96.56)",
+          "95.69 (95.29 to 96.06)"
+        ],
+        [
+          "AB change",
+          "7.55 (6.95 to 8.14)",
+          "10.79 (10.13 to 11.44)"
+        ],
+        [
+          "BC change",
+          "0.02 (-0.16 to 0.20)",
+          "0.17 (-0.02 to 0.37)"
+        ]
+      ]
+    },
+    "VARIABILITY": {
+      "caption": "Identical-prompt variation (percent). Disagreement averages three unordered output pairs within each of 10,000 claims; parentheses are descriptive 95\\% cluster intervals. Directional loss averages six ordered pairs and equals half the disagreement rate for these complete binary labels.",
+      "label": "tab:variability",
+      "headers": [
+        "Model",
+        "Condition",
+        "Label disagreement",
+        "Directional loss"
+      ],
+      "rows": [
+        [
+          "5.4",
+          "A",
+          "0.667 (0.540 to 0.800)",
+          "0.333"
+        ],
+        [
+          "5.4",
+          "B",
+          "0.153 (0.099 to 0.219)",
+          "0.077"
+        ],
+        [
+          "5.4",
+          "C",
+          "0.193 (0.126 to 0.263)",
+          "0.097"
+        ],
+        [
+          "Mini",
+          "A",
+          "2.333 (2.091 to 2.579)",
+          "1.167"
+        ],
+        [
+          "Mini",
+          "B",
+          "0.713 (0.585 to 0.855)",
+          "0.357"
+        ],
+        [
+          "Mini",
+          "C",
+          "0.653 (0.525 to 0.786)",
+          "0.327"
+        ]
+      ]
+    },
+    "EXCESS": {
+      "caption": "Excess between-condition loss over the identical-left-prompt directional baseline, in percentage points. All three matched repetitions are reduced within claim. Parentheses are descriptive 95\\% cluster intervals; the quantity is not permanent-error prevalence.",
+      "label": "tab:excess",
+      "headers": [
+        "Contrast",
+        "GPT-5.4",
+        "Mini"
+      ],
+      "rows": [
+        [
+          "AB",
+          "0.670 (0.481 to 0.871)",
+          "0.253 (0.019 to 0.490)"
+        ],
+        [
+          "BC",
+          "0.387 (0.267 to 0.508)",
+          "0.310 (0.183 to 0.440)"
+        ]
+      ]
+    },
+    "ALIGNMENT": {
+      "caption": "Exploratory version 2 supplied-text assessments by selected case group. Counts use model--claim--contrast cases; IDs are distinct claims within a row. Support means apparent support for the frozen reference; conflict means an unvalidated apparent tension. Groups overlap in claims, and selected counts are not population prevalence.",
+      "label": "tab:alignment",
+      "headers": [
+        "Selected group",
+        "Cases",
+        "IDs",
+        "Support",
+        "Conflict",
+        "Insufficient",
+        "Ambiguous"
+      ],
+      "rows": [
+        [
+          "AB all-three loss",
+          186,
+          160,
+          59,
+          25,
+          56,
+          46
+        ],
+        [
+          "BC all-three loss",
+          59,
+          58,
+          22,
+          2,
+          18,
+          17
+        ],
+        [
+          "AB rescue",
+          60,
+          60,
+          47,
+          0,
+          7,
+          6
+        ],
+        [
+          "AB stayed wrong",
+          60,
+          58,
+          6,
+          14,
+          13,
+          27
+        ],
+        [
+          "AB stayed correct",
+          60,
+          60,
+          54,
+          0,
+          5,
+          1
+        ],
+        [
+          "AB mixed loss",
+          40,
+          40,
+          14,
+          4,
+          14,
+          8
+        ]
+      ]
+    },
+    "SECONDARY": {
+      "caption": "Secondary combined A-to-C comparison. First-pass counts use 10,000 pairs per model; all-three accuracy changes reduce 30,000 pairs within the same 10,000 claims. Change values are percentage points with descriptive 95\\% cluster intervals.",
+      "label": "tab:secondary",
+      "headers": [
+        "Measure",
+        "GPT-5.4",
+        "Mini"
+      ],
+      "rows": [
+        [
+          "Stayed correct",
+          "8,750",
+          "8,343"
+        ],
+        [
+          "Rescue",
+          "872",
+          "1,227"
+        ],
+        [
+          "Regression",
+          "108",
+          "147"
+        ],
+        [
+          "Stayed wrong",
+          "270",
+          "283"
+        ],
+        [
+          "First-pass change",
+          "7.64 (7.04 to 8.22)",
+          "10.80 (10.11 to 11.50)"
+        ],
+        [
+          "All-three change",
+          "7.56 (6.98 to 8.14)",
+          "10.96 (10.31 to 11.62)"
+        ]
+      ]
+    },
+    "FEATURES": {
+      "caption": "Exploratory version 2 feature counts in the selected cases. Multiple labels overlap. Column denominators are 186/59/60/60/60/40 cases, respectively. Full per-model identities, distinct-claim counts, and review coverage are retained in the coding supplement; counts do not identify causes.",
+      "label": "tab:features",
+      "headers": [
+        "Code",
+        "AB all3",
+        "BC all3",
+        "Rescue",
+        "Stay wrong",
+        "Stay correct",
+        "AB mixed"
+      ],
+      "rows": [
+        [
+          "NEG",
+          12,
+          1,
+          9,
+          4,
+          4,
+          4
+        ],
+        [
+          "SCOPE",
+          34,
+          11,
+          11,
+          13,
+          9,
+          6
+        ],
+        [
+          "REL",
+          87,
+          24,
+          14,
+          20,
+          14,
+          19
+        ],
+        [
+          "ENT",
+          33,
+          12,
+          6,
+          10,
+          13,
+          4
+        ],
+        [
+          "NUM",
+          65,
+          15,
+          34,
+          15,
+          12,
+          9
+        ],
+        [
+          "LEX",
+          62,
+          27,
+          10,
+          26,
+          16,
+          17
+        ],
+        [
+          "CTX",
+          69,
+          19,
+          26,
+          24,
+          15,
+          18
+        ],
+        [
+          "GAP",
+          70,
+          24,
+          8,
+          23,
+          5,
+          17
+        ],
+        [
+          "TXT",
+          10,
+          4,
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          "DIRECT",
+          1,
+          0,
+          3,
+          1,
+          8,
+          0
+        ],
+        [
+          "UNCLEAR",
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "directional_baselines": {
+    "gpt-5.4": {
+      "A": {
+        "estimate_percent": 0.33333333333333326,
+        "low_percent": 0.2699228481274012,
+        "high_percent": 0.3999410731131828
+      },
+      "B": {
+        "estimate_percent": 0.07666666666666666,
+        "low_percent": 0.04955687891053631,
+        "high_percent": 0.10968420453083591
+      },
+      "C": {
+        "estimate_percent": 0.09666666666666665,
+        "low_percent": 0.06294413924643436,
+        "high_percent": 0.13159108591168808
+      }
+    },
+    "gpt-5.4-mini": {
+      "A": {
+        "estimate_percent": 1.1666666666666665,
+        "low_percent": 1.0455324941936552,
+        "high_percent": 1.2896986385192528
+      },
+      "B": {
+        "estimate_percent": 0.35666666666666663,
+        "low_percent": 0.2926006817547204,
+        "high_percent": 0.42732170931268665
+      },
+      "C": {
+        "estimate_percent": 0.32666666666666666,
+        "low_percent": 0.26235935805918786,
+        "high_percent": 0.3929994069033746
+      }
+    }
+  },
+  "coding_groups": {
+    "AB_regression_all3": {
+      "cases": 186,
+      "distinct_claims": 160,
+      "alignments": {
+        "supports_gold": 59,
+        "conflicts_gold": 25,
+        "insufficient": 56,
+        "ambiguous": 46
+      }
+    },
+    "BC_regression_all3": {
+      "cases": 59,
+      "distinct_claims": 58,
+      "alignments": {
+        "insufficient": 18,
+        "ambiguous": 17,
+        "supports_gold": 22,
+        "conflicts_gold": 2
+      }
+    },
+    "AB_firstpass_rescue": {
+      "cases": 60,
+      "distinct_claims": 60,
+      "alignments": {
+        "supports_gold": 47,
+        "insufficient": 7,
+        "ambiguous": 6
+      }
+    },
+    "AB_firstpass_stayed_wrong": {
+      "cases": 60,
+      "distinct_claims": 58,
+      "alignments": {
+        "insufficient": 13,
+        "ambiguous": 27,
+        "conflicts_gold": 14,
+        "supports_gold": 6
+      }
+    },
+    "AB_firstpass_stayed_correct": {
+      "cases": 60,
+      "distinct_claims": 60,
+      "alignments": {
+        "supports_gold": 54,
+        "insufficient": 5,
+        "ambiguous": 1
+      }
+    },
+    "AB_regression_some_not_all": {
+      "cases": 40,
+      "distinct_claims": 40,
+      "alignments": {
+        "supports_gold": 14,
+        "insufficient": 14,
+        "ambiguous": 8,
+        "conflicts_gold": 4
+      }
+    }
+  },
+  "provenance": {
+    "frozen_summary_sha256": "5bda8f7923adcac44f8b39e53f5764497a0fe676e526e2e5a400127739f2728a",
+    "bootstrap_reproduced_sha256": "11b99b9d56805f2326883000ace562d350ead01a41632e3e4ee4322bdf68402f",
+    "outcome_summary_sha256": "0b34563ed976e8a6bd28bafb66708e3652e2e0823eda2ded6d509b0abaca029e",
+    "coding_v2_sha256": "7ed0ab031249d34f38dd77e6714b4f72f7a0eff052219582f0690bc414e35d48"
+  }
+}

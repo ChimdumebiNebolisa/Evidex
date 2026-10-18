@@ -1,0 +1,36 @@
+{
+  "requested_url": "https://fever.ai/download/fever/shared_task_dev.jsonl",
+  "final_url": "https://fever.ai/download/fever/shared_task_dev.jsonl",
+  "retrieved_at_utc": "2026-10-18T03:46:48.987637+00:00",
+  "headers": {
+    "Content-Type": "binary/octet-stream",
+    "Content-Length": "4349935",
+    "Last-Modified": "Thu, 24 Feb 2022 18:25:31 GMT",
+    "ETag": "\"4eecc1018b3d2bd46089ca36d886f439\""
+  },
+  "sha256": "e89865bfe1b4dd054e03dd57d7241a6fde24862905f31117cf0cd719f7c78df7",
+  "expected_sha256": "e89865bfe1b4dd054e03dd57d7241a6fde24862905f31117cf0cd719f7c78df7",
+  "expected_hash_matches": true,
+  "bytes": 4349935,
+  "status": "PASS",
+  "compared_at_utc": "2026-10-18T03:47:53.295286+00:00",
+  "prepared_inputs_sha256": "662f92fc9a991bc79b13885c431e13200b5c90903a9414d7d103be560e7fc348",
+  "prepared_records": 10000,
+  "official_records": 19998,
+  "mismatch_counts": {
+    "missing_ids": 0,
+    "claim_text": 0,
+    "reference_label": 0,
+    "selected_pointer_set_after_existing_title_canonicalization": 0
+  },
+  "byte_exact_pointer_set_mismatches_before_canonicalization": 97,
+  "comparison_rules": {
+    "claim": "Exact unchanged Unicode claim strings; no normalization.",
+    "label": "Official SUPPORTS/REFUTES mapped to Supported/Refuted.",
+    "pointers": "An unordered set of (NFC(page.strip()), integer sentence index) must equal one complete official annotated evidence-group set. Duplicate pointers/order/annotator IDs ignored; no subset or union matching.",
+    "normalization_provenance": "Unchanged experiment prepare.py canonical() already uses Unicode NFC and strip. 97 raw set mismatches are encoding-only and are retained in BYTE_EXACT_POINTER_COMPARISON.json.",
+    "limits": "Confirms release correspondence of claim texts, labels and selected pointer sets; does not establish factual correctness of annotations or independently authenticate Wikipedia sentence bytes."
+  },
+  "mismatches": [],
+  "read_only": true
+}

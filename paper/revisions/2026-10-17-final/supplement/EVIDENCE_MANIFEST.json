@@ -1,0 +1,454 @@
+{
+  "assembled_at_utc": "2026-10-18T04:28:54.474061+00:00",
+  "scope": "Copies of existing records only; no new scientific audit, coding or analysis.",
+  "files": [
+    {
+      "section": "S1",
+      "path": "S1/PROTOCOL.md",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\experiment\\PROTOCOL.md",
+      "sha256": "eed75c42905e9a9586b421ce41b5fde81984142f9653918d5c5914b9db44eb3d",
+      "bytes": 20118,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S1",
+      "path": "S1/common.py",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\experiment\\common.py",
+      "sha256": "6f84dd2f93838cc673af3e577b5a83be583d52870a081f79e3f891701b840910",
+      "bytes": 4353,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S1",
+      "path": "S1/analyze.py",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\experiment\\analyze.py",
+      "sha256": "50878788121b1ac56ae5a65c475049d3360f6781e510fa120b0cff5e87e6919b",
+      "bytes": 19408,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S1",
+      "path": "S1/INTEGRITY.json",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\experiment\\final\\INTEGRITY.json",
+      "sha256": "c33c0a1e65e72610da3d1d8fefd56194868cecd5dd4db92b74844a7598c7e059",
+      "bytes": 2890,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S1",
+      "path": "S1/ANALYSIS_VERIFICATION.json",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\experiment\\final\\ANALYSIS_VERIFICATION.json",
+      "sha256": "739b2f0877623cd6df6b8e8fcfb0024b9fe16262b48d28fb759fc0009506b183",
+      "bytes": 1011,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S1",
+      "path": "S1/ACTUAL_RESULTS.md",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\experiment\\final\\ACTUAL_RESULTS.md",
+      "sha256": "a7caff150e77805d39ec172e8844bb172b4687745c8d34186ab53634727450a1",
+      "bytes": 10905,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S1",
+      "path": "S1/SCIENTIFIC_AUDIT.md",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\audit\\SCIENTIFIC_AUDIT.md",
+      "sha256": "ef6deaec1fd8dac8cc66057e0e2b2b0cf5c06c9b3651883e79580c4e60c9646f",
+      "bytes": 22935,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S1",
+      "path": "S1/INPUT_AND_PUBLICATION_AUDIT.json",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\audit\\INPUT_AND_PUBLICATION_AUDIT.json",
+      "sha256": "a56c5ddb9d4c4e095993a7b1d38bf1d17b2b90f9b5ce61942e9f8f291cc9f19c",
+      "bytes": 884,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S2",
+      "path": "S2/OUTCOME_SUMMARY.csv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\audit\\OUTCOME_SUMMARY.csv",
+      "sha256": "0b34563ed976e8a6bd28bafb66708e3652e2e0823eda2ded6d509b0abaca029e",
+      "bytes": 13723,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S2",
+      "path": "S2/COMPARISON_CASES.csv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\audit\\COMPARISON_CASES.csv",
+      "sha256": "f7bca886182498de10df4b1e6abbcc0b1ff8d09e08ac1162694520a9a3b5e64b",
+      "bytes": 5935304,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S2",
+      "path": "S2/IDENTICAL_PROMPT_VARIABILITY.csv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\audit\\IDENTICAL_PROMPT_VARIABILITY.csv",
+      "sha256": "3edbaaf48acfff6f6da09d8f165c624ddc41f91eaab6f0b8f00b33564a591910",
+      "bytes": 4164981,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S2",
+      "path": "S2/BOOTSTRAP_REPRODUCED.csv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\audit\\BOOTSTRAP_REPRODUCED.csv",
+      "sha256": "11b99b9d56805f2326883000ace562d350ead01a41632e3e4ee4322bdf68402f",
+      "bytes": 15818,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S2",
+      "path": "S2/STATISTICAL_AUDIT.json",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\audit\\STATISTICAL_AUDIT.json",
+      "sha256": "46635803e921b9b1f25920fe3b964fc57f7838394106e7659466fc13116d95d1",
+      "bytes": 2228,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S2",
+      "path": "S2/MANUSCRIPT_RESULTS.json",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\MANUSCRIPT_RESULTS.json",
+      "sha256": "d0e7292146f5486c55f1184530f09b08d9f34b343e7a9c589bc93252fe7ef3ff",
+      "bytes": 40795,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/ANNOTATION_REVIEW_COVERAGE.csv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\ANNOTATION_REVIEW_COVERAGE.csv",
+      "sha256": "4974208ef4f4c88f898d7a2064b1dc9f0b347e55cce709adc1fd6082e72e815b",
+      "bytes": 83849,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/CATEGORY_COUNTS_v2.csv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\CATEGORY_COUNTS_v2.csv",
+      "sha256": "021155975d1ac671b489ee6e523deda69fe614f398754b9114799eb8dced4102",
+      "bytes": 2771,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/CODING_CHANGE_LOG.csv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\CODING_CHANGE_LOG.csv",
+      "sha256": "acab4443f6479b3e83da9834d350a91615875c097fdc14ae2bf4afddf489ef9e",
+      "bytes": 14873,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/conflict_decisions.tsv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\conflict_decisions.tsv",
+      "sha256": "240b8c0452d14e9df5704a41da101e0d212570ab50ad5b13fdf67eec1c9ac03a",
+      "bytes": 10590,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/DECISION_HISTORY.json",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\DECISION_HISTORY.json",
+      "sha256": "1140dd94859eba883d170b8bd4b86f31f45ee42b67b9b36e835dad9fb6de1b2b",
+      "bytes": 109897,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/followup_corrections.tsv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\followup_corrections.tsv",
+      "sha256": "3c923fb44dd23e41441885e6c77e0350879b2ccf53fb4e855eefbb071b359d6f",
+      "bytes": 335,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/nonconflict_decisions.tsv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\nonconflict_decisions.tsv",
+      "sha256": "a08d608ac6770f4093f3e05bce4493bb0a1a629fcd8134b5c40318d1f76656b8",
+      "bytes": 10349,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/RECHECK_PACKETS.jsonl",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\RECHECK_PACKETS.jsonl",
+      "sha256": "739d0972ac7579a46fe69ad7d27afa18f6e748a993b388f9b377f7ad1cfeb371",
+      "bytes": 198988,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/RECHECK_REPORT.md",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\RECHECK_REPORT.md",
+      "sha256": "b0c28c77eef75930380e175040e4cf63ce9e301026a42d3baef599d0dc75fa2b",
+      "bytes": 4726,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/RECHECK_SELECTION.json",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\RECHECK_SELECTION.json",
+      "sha256": "11b42955d35b059c2e61f301c2977af18224fbbb170a2ea9e56a9df656c290c1",
+      "bytes": 6245,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/RECHECK_SUMMARY.json",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\RECHECK_SUMMARY.json",
+      "sha256": "3ca6f996de787e6fd1d4c1b6c4db54df88b331126143823f3426a587fbda8321",
+      "bytes": 1138,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/REFERENCE_CONFLICT_REVIEW.csv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\REFERENCE_CONFLICT_REVIEW.csv",
+      "sha256": "ac5f0baa8a53ac2b78f56c28d976eb6b83166914c796ba1651521d77eaa78998",
+      "bytes": 51209,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/REFERENCE_CONFLICT_REVIEW.html",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\REFERENCE_CONFLICT_REVIEW.html",
+      "sha256": "5331f321fcc28ebf2da42ae339baf031f763c5393cf468ee8831e4c29be86d20",
+      "bytes": 61345,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/REGRESSION_CODEBOOK_v2.md",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\REGRESSION_CODEBOOK_v2.md",
+      "sha256": "077c98c693e371bb11827b45ab6b162bd36cf44d6f0547df74352792f8d9cd08",
+      "bytes": 12593,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/targeted_01.tsv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\targeted_01.tsv",
+      "sha256": "938f621b22eaddd71d21e7bdc97fd726c3813b41a6a03ea2e1280f035b43ecb2",
+      "bytes": 2935,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/targeted_02.tsv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\targeted_02.tsv",
+      "sha256": "65198fac0c17b8d3f592dbd11ed913ef3efb615329d96b0b47302487066b6115",
+      "bytes": 2972,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/targeted_03.tsv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\targeted_03.tsv",
+      "sha256": "8509b348753e343fcb6199184c5892525f29a69bbc3ea8c15ae15eb248493c2e",
+      "bytes": 2917,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/targeted_04.tsv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\targeted_04.tsv",
+      "sha256": "c0f3431aede84b3b2e0ae6e65eeba6406cd9cd0259ba2ba570f5672b811a94c6",
+      "bytes": 2864,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/targeted_05.tsv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\targeted_05.tsv",
+      "sha256": "b94a740220e241a570eca950943f11bb9ccf68c1a483c89b64d6e99f52f70cf1",
+      "bytes": 3080,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/targeted_06.tsv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\targeted_06.tsv",
+      "sha256": "143f223c74a79501c52e83e43799b3af1095c318dd4bd2f25c00278dee6ee93c",
+      "bytes": 3288,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/targeted_07.tsv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\targeted_07.tsv",
+      "sha256": "56d349fe8948764496ae9f51c6d5223a0f776457a13c37c15dcfc5bf5c99badc",
+      "bytes": 1995,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/TARGETED_PACKETS.jsonl",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\TARGETED_PACKETS.jsonl",
+      "sha256": "061976168aec77963bb4578bc1c81ca35c752205a25e2a2950d333ec8b365413",
+      "bytes": 110435,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/TARGETED_SELECTION.json",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\TARGETED_SELECTION.json",
+      "sha256": "98e03e5e5c5ecd089b5f00d0bc2c6f33a84fa08bbff024292604f37d7d819341",
+      "bytes": 5365,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/TAXONOMY_CASES_v2.csv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\taxonomy-review\\TAXONOMY_CASES_v2.csv",
+      "sha256": "7ed0ab031249d34f38dd77e6714b4f72f7a0eff052219582f0690bc414e35d48",
+      "bytes": 1089934,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/original/SELECTION_AND_COVERAGE.json",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\audit\\SELECTION_AND_COVERAGE.json",
+      "sha256": "f7a78f320f4b184ee428964e0f59bf980585e6a48e62411b82071d410bed472d",
+      "bytes": 589,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/original/SELECTED_CLAIM_RECORDS.jsonl",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\audit\\SELECTED_CLAIM_RECORDS.jsonl",
+      "sha256": "ab363652b8c200889d7cf2872251e2620af1af2403eb21e77c536c242a4da1f8",
+      "bytes": 509375,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/original/REGRESSION_CODEBOOK.md",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\audit\\REGRESSION_CODEBOOK.md",
+      "sha256": "2473b81cd885b2d243fa5eb4055332ad37b612d87d88371cb4e2235a5f6b02a9",
+      "bytes": 10105,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/WORKED_EXAMPLES.json",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\WORKED_EXAMPLES.json",
+      "sha256": "30c7711269f161cd3db75e36e6510adfe23709aadb4591c7f3f44780c1eedbd1",
+      "bytes": 6374,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S3",
+      "path": "S3/WORKED_EXAMPLES.csv",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\WORKED_EXAMPLES.csv",
+      "sha256": "f4921f69a27092cf9c3c09b62c8c4e216e5a87682dd53011cdeb20bf2e786d8a",
+      "bytes": 1879,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S4",
+      "path": "S4/historical-manuscript.tex",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\baseline\\manuscript.tex",
+      "sha256": "f2fe75b3675414310067247d9bb641412ba72469ab87651838f505fd50616618",
+      "bytes": 49799,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S4",
+      "path": "S4/historical-manuscript.pdf",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\baseline\\manuscript.pdf",
+      "sha256": "0120b856908acf329b9d6516142d0723306a47d16915bc8eb33ce26a6b971165",
+      "bytes": 145748,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S4",
+      "path": "S4/historical-REVISION_REPORT.md",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\baseline\\REVISION_REPORT.md",
+      "sha256": "b4190ef337b06f4a4d13460b6d8a14a005dcf895f40108f40f70a38b0c313493",
+      "bytes": 8061,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S4",
+      "path": "S4/historical-FINAL_EDITORIAL_CORRECTIONS.md",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\baseline\\FINAL_EDITORIAL_CORRECTIONS.md",
+      "sha256": "edf1bdd1f13b068f90b4a19eb39c8c330ebde76ad89b9bec728d5c38e2f45a74",
+      "bytes": 1587,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S5",
+      "path": "S5/official_shared_task_dev.jsonl",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\editorial-20261017-2246\\official_shared_task_dev.jsonl",
+      "sha256": "e89865bfe1b4dd054e03dd57d7241a6fde24862905f31117cf0cd719f7c78df7",
+      "bytes": 4349935,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S5",
+      "path": "S5/EXTERNAL_SOURCE_VERIFICATION.json",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\editorial-20261017-2246\\EXTERNAL_SOURCE_VERIFICATION.json",
+      "sha256": "3219b89b2ca6f24392f588d8b7525ab808c7dea3f110aee1a77725e629656bf4",
+      "bytes": 1985,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S5",
+      "path": "S5/RETRIEVAL.json",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\editorial-20261017-2246\\RETRIEVAL.json",
+      "sha256": "90a9a8024fce235caa2bc414a6324e7f6fe91c392878e8c553d35d5478b3385c",
+      "bytes": 645,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S5",
+      "path": "S5/BYTE_EXACT_POINTER_COMPARISON.json",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\editorial-20261017-2246\\BYTE_EXACT_POINTER_COMPARISON.json",
+      "sha256": "19c96e499bc6bf40221df62c286d028e33ab21d3f1c2022e23ef8786dfad8233",
+      "bytes": 9764,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S5",
+      "path": "S5/RECORD_MATCHES.jsonl",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\editorial-20261017-2246\\RECORD_MATCHES.jsonl",
+      "sha256": "fd2e06dcfa227c1414b379f213472ab6bb1a8cc34c03312245eef307d15dfdf6",
+      "bytes": 2084950,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S5",
+      "path": "S5/BYTE_EXACT_RECORD_MATCHES.jsonl",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\editorial-20261017-2246\\BYTE_EXACT_RECORD_MATCHES.jsonl",
+      "sha256": "361352f0d9ff27f60feb583d6007e7abf39f8807f116d83853e03700bef51548",
+      "bytes": 1794848,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S5",
+      "path": "S5/prepared-inputs.jsonl",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\experiment\\prepared\\inputs.jsonl",
+      "sha256": "662f92fc9a991bc79b13885c431e13200b5c90903a9414d7d103be560e7fc348",
+      "bytes": 7253599,
+      "access": "Included in this companion package; publication status is listed separately."
+    },
+    {
+      "section": "S1",
+      "path": "S1/BACKUP_AND_RAW_AUDIT.json",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\audit\\BACKUP_AND_RAW_AUDIT.json",
+      "sha256": "a4f423ae9912d446a0297e1fef20673a84d38c179642a497715050d7c8dd5ab9",
+      "bytes": 1356,
+      "access": "Included existing verification record; raw archive is local-only."
+    },
+    {
+      "section": "S1",
+      "path": "S1/REFERENCE_BACKUP.json",
+      "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\audit\\REFERENCE_BACKUP.json",
+      "sha256": "f16b6024c6f327cab14ccf3e0628ff70ff7442d83de4bf77bd5cc0f507780c95",
+      "bytes": 10603,
+      "access": "Included existing verification record; raw archive is local-only."
+    }
+  ]
+}

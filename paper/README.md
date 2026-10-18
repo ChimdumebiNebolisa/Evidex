@@ -1,3 +1,5 @@
+> **Historical draft:** the [latest completed manuscript, Word/PDF versions, supplements and tracker](revisions/2026-10-17-final/README.md) are in the dated revision directory. The original source and PDF below remain preserved.
+
 # Evidex manuscript draft v1
 
 Working title: *Evidence Helps on Average, but Sometimes Hurts: Diagnosing Evidence-Induced Regressions in LLM Fact Verification*

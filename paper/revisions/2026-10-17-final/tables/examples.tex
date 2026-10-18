@@ -1,0 +1,15 @@
+\begin{table}[htbp]\centering\small
+\setlength{\tabcolsep}{4pt}
+\caption{Four illustrative supplied-text comparisons. Claims and complete supplied sentences are quoted verbatim; no excerpts or ellipses are used. Prediction triplets show GPT-5.4 repetitions 1, 2, and 3 in A, B, and C; S means Supported and R means Refuted. These selected examples do not estimate prevalence.}\label{tab:examples}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{.20\linewidth}>{\raggedright\arraybackslash}p{.27\linewidth}>{\raggedright\arraybackslash}p{.12\linewidth}>{\raggedright\arraybackslash}X}\toprule
+ID and claim & Supplied sentence and frozen reference & Predictions & Feature and interpretation \\ \midrule
+129011\newline DNA is uninvolved with Little Mix. & ``DNA is the debut studio album by British girl group Little Mix .''\newline Reference: Refuted & A: RRR\newline B: SSS\newline C: RRR & Negation and album context. In the album sense, the sentence opposes the claim. B loses reference agreement in all three calls and C restores it; the outputs do not identify why. \\
+\midrule
+75904\newline The Indian Army does not comprise more than 80\% of the country's active defense personnel. & ``It is an all-volunteer force and comprises more than 80 \% of the country 's active defence personnel .''\newline Reference: Refuted & A: SSS\newline B: RRR\newline C: RRR & Negation and number comparison. The supplied assertion opposes its direct denial, accompanying a rescue in all three calls. These visible demands also occur in regression cases. \\
+\midrule
+51757\newline The KGB was not a military service. & ``The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops .''\newline Reference: Supported & A: SSS\newline B: RRR\newline C: RRR & Reference/evidence tension. The sentence calls the KGB a military service, opposing the Supported claim. Repeated benchmark loss does not settle factual deterioration; adjudication is pending. \\
+\midrule
+180726\newline Victoria (Dance Exponents song) reached number 8 on the New Zealand singles chart. & ``Released in 1982 it reached Number 6 on the New Zealand singles chart .''\newline Reference: Supported & A: SSS\newline B: RRR\newline C: RRR & Numerical interpretation. Reached 6 does not explicitly mean peaked at 6 or never reached 8. The repeated loss is observed, while the intended reading remains unresolved. \\
+\bottomrule
+\end{tabularx}
+\end{table}

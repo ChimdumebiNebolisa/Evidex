@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "at_utc": "2026-10-18T00:10:06.644360+00:00",
+  "independent_metrics_and_intervals_matched": 92,
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 20261016,
+  "independent_implementation": "C:\\Users\\Chimdumebi\\evidex\\replacement_predictor_v1\\audits\\full3-2026-10-17\\audit_statistics.py",
+  "source_sha256": "93a1901f9e2a65165e1a4c4e59aa6892fd3c2a5731f0d97a183976eaf5f8f082",
+  "numpy_version": "2.4.4",
+  "claims": 10000,
+  "text_clusters": 9855,
+  "label_counts": {
+    "Supported": 5000,
+    "Refuted": 5000
+  },
+  "historical_selected_claims": 226,
+  "conflicting_reference_text_clusters": [
+    {
+      "cluster": "b0da63c0e493b430f37cd157b7bf3d477edf52b0aa642687099d8bae5dfe0d81",
+      "records": [
+        {
+          "claim_id": "519",
+          "claim_text": "The Hundred Years' War includes the Civil War.",
+          "gold_label": "Supported",
+          "gold_evidence": "Local conflicts in neighbouring areas , which were contemporarily related to the war , including the War of the Breton Succession -LRB- 1341 -- 1364 -RRB- , the Castilian Civil War -LRB- 1366 -- 1369 -RRB- , the War of the Two Peters -LRB- 1356 -- 1375 -RRB- in Aragon , and the 1383 -- 85 Crisis in Portugal , were availed by the parties to advance their agendas ."
+        },
+        {
+          "claim_id": "54077",
+          "claim_text": "The Hundred Years' War includes the Civil War.",
+          "gold_label": "Refuted",
+          "gold_evidence": "The Hundred Years ' War was a series of conflicts waged from 1337 to 1453 by the House of Plantagenet , rulers of the Kingdom of England , against the House of Valois , rulers of the Kingdom of France , over the succession of the French throne . The American Civil War was fought in the United States from 1861 to 1865 ."
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Descriptive percentile intervals, not simultaneous tests or equivalence tests",
+    "Fixed claim/evidence set and provider occasion; cluster resampling reflects case-composition uncertainty",
+    "Repetition 1 is primary; repeated summary includes repetition 1",
+    "Binary complete labels permit correctness-based disagreement reconstruction"
+  ]
+}

@@ -1,0 +1,21 @@
+claim_id	revised_assessment	revised_categories	justification
+29594	UNCHANGED	LEX	Pizzas versus rates is the substantive semantic substitution. Remove TXT so the same odd noun is not also counted as a separate formatting defect.
+3019	UNCHANGED	UNCHANGED	Widespread by 3000 BC does not exclude an earlier broad-scale date. The existing insufficiency judgment correctly handles the one-sided temporal bound.
+3202	UNCHANGED	UNCHANGED	The same birth event is in June rather than May 1978.
+34496	UNCHANGED	LEX;ENT	The redirected object changes from messages to birds while the redirect role is unchanged. Replace REL with ENT and remove TXT; the substantive object/type mismatch supplies the feature.
+35174	UNCHANGED	UNCHANGED	The supplied claimed date is death rather than birth, with both endpoints explicit.
+36171	UNCHANGED	UNCHANGED	Fell can describe numeric rank decrease or worsening popularity; the existing lexical/directional ambiguity remains appropriate.
+41606	UNCHANGED	UNCHANGED	An explicit highest-rated statement opposes the claim's not highest-rated denial under the series link.
+42173	UNCHANGED	UNCHANGED	An induction into one hall in 2001 directly supports the broad induction claim; 1998 for another hall does not negate it.
+4500	UNCHANGED	UNCHANGED	First live performance is explicitly 2014, not 2004, for the intended song.
+48484	UNCHANGED	UNCHANGED	The stated ages imply about 19-20 years, not almost 40. This is a duration calculation rather than copying the final age.
+48815	UNCHANGED	UNCHANGED	The excerpt provides 2006 but no month; May remains unestablished.
+55645	UNCHANGED	UNCHANGED	The specific January gold certification supports the broader claim, independent of the later platinum certification.
+56396	UNCHANGED	UNCHANGED	The intended novel is dated 1983; keep title/context qualification rather than conflating it with an adaptation.
+56481	UNCHANGED	UNCHANGED	Three Grammy awards is explicitly stated, so NUM is a relevant matching count rather than an arbitrary background number.
+5826	ambiguous	NUM;SCOPE;CTX;GAP	The excerpt dates the last of three major storms, not necessarily every windstorm. The unqualified last-storm claim can refer to that salient set or all storms; the prior support assessment suppressed that scope distinction.
+59355	ambiguous	LEX;CTX;GAP	Policies do not establish or exclude windows under every possible meaning of implemented. Remove TXT and avoid claiming that one positive predicate automatically excludes the other; retain the substantive lexical/context gap.
+61401	UNCHANGED	UNCHANGED	One cast member's September birth does not resolve whether another named cast member was born in October. The existing existential insufficiency assessment is correct.
+63846	UNCHANGED	UNCHANGED	The same person's death is 1990, while March 12, 1911 marks birth.
+64142	UNCHANGED	UNCHANGED	The US sales total is not identified as digital-only by the separate digital ranking. Retain the format-scope gap.
+66473	UNCHANGED	UNCHANGED	The stated alternate-history film setting is explicitly 1985, conditional on the intended film subject.

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-18T04:59:57.493928+00:00",
+  "scope": "Selected publication files only; no new scientific audit, revision or experiment.",
+  "latest_source_PDF_Word_and_tracker_exact": true,
+  "supporting_records_with_verified_hashes": 56,
+  "supplement_access_wording_only_change": true,
+  "supplement_labels": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
+  ],
+  "relative_markdown_links_checked": 78,
+  "broken_relative_links": 0,
+  "selected_text_and_document_parts_scanned": 100,
+  "credential_pattern_hits": [],
+  "temporary_files_or_private_backup_contents": false,
+  "supplement_ZIP_readback": "PASS",
+  "email_descriptions_verified": {
+    "related_work_and_contribution": true,
+    "methodology_separate_from_settings_and_results": true,
+    "180000_responses_separate_AB_BC": true,
+    "repeated_calls_regression_rescue_examples": true,
+    "AI_taxonomy_limits_and_historical_separation": true
+  },
+  "remaining_limit": "Full native Word pagination remains unverified; published Word/PDF bytes equal the completed revision."
+}

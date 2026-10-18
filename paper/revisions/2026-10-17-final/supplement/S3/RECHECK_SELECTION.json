@@ -1,0 +1,309 @@
+{
+  "master_seed": 20261018,
+  "unit": "distinct claim ID; review applies to all selected model/contrast cases for that claim",
+  "selection": "6 without replacement per outcome route plus 2 per feature category, sampled independently; deduplicate and retain flags",
+  "groups": [
+    {
+      "group": "AB_firstpass_rescue",
+      "eligible_distinct_claims": 60,
+      "selected_count": 6,
+      "derived_seed": 15373018134172844058,
+      "claim_ids": [
+        "102892",
+        "103503",
+        "114093",
+        "147411",
+        "88301",
+        "98107"
+      ]
+    },
+    {
+      "group": "AB_firstpass_stayed_correct",
+      "eligible_distinct_claims": 60,
+      "selected_count": 6,
+      "derived_seed": 1850132698988584684,
+      "claim_ids": [
+        "145848",
+        "150763",
+        "1774",
+        "183473",
+        "207382",
+        "222759"
+      ]
+    },
+    {
+      "group": "AB_firstpass_stayed_wrong",
+      "eligible_distinct_claims": 39,
+      "selected_count": 6,
+      "derived_seed": 8918923611254712626,
+      "claim_ids": [
+        "147632",
+        "173130",
+        "181125",
+        "190072",
+        "204572",
+        "82883"
+      ]
+    },
+    {
+      "group": "AB_regression_all3",
+      "eligible_distinct_claims": 139,
+      "selected_count": 6,
+      "derived_seed": 981065041396347640,
+      "claim_ids": [
+        "106115",
+        "111069",
+        "140067",
+        "192212",
+        "38599",
+        "85196"
+      ]
+    },
+    {
+      "group": "AB_regression_some_not_all",
+      "eligible_distinct_claims": 35,
+      "selected_count": 6,
+      "derived_seed": 4816603964634978873,
+      "claim_ids": [
+        "113712",
+        "166844",
+        "174515",
+        "204307",
+        "37097",
+        "39873"
+      ]
+    },
+    {
+      "group": "BC_regression_all3",
+      "eligible_distinct_claims": 56,
+      "selected_count": 6,
+      "derived_seed": 16959798925592374270,
+      "claim_ids": [
+        "104555",
+        "167471",
+        "173930",
+        "17914",
+        "193883",
+        "193911"
+      ]
+    },
+    {
+      "group": "CTX",
+      "eligible_distinct_claims": 132,
+      "selected_count": 2,
+      "derived_seed": 1881163890885956349,
+      "claim_ids": [
+        "111938",
+        "84673"
+      ]
+    },
+    {
+      "group": "DIRECT",
+      "eligible_distinct_claims": 12,
+      "selected_count": 2,
+      "derived_seed": 1591968394230713438,
+      "claim_ids": [
+        "179302",
+        "183481"
+      ]
+    },
+    {
+      "group": "ENT",
+      "eligible_distinct_claims": 65,
+      "selected_count": 2,
+      "derived_seed": 9385724228864958857,
+      "claim_ids": [
+        "113297",
+        "9915"
+      ]
+    },
+    {
+      "group": "GAP",
+      "eligible_distinct_claims": 112,
+      "selected_count": 2,
+      "derived_seed": 6034335716404961154,
+      "claim_ids": [
+        "130833",
+        "70784"
+      ]
+    },
+    {
+      "group": "LEX",
+      "eligible_distinct_claims": 130,
+      "selected_count": 2,
+      "derived_seed": 15046686195077578955,
+      "claim_ids": [
+        "103833",
+        "199420"
+      ]
+    },
+    {
+      "group": "NEG",
+      "eligible_distinct_claims": 27,
+      "selected_count": 2,
+      "derived_seed": 4262649206810778882,
+      "claim_ids": [
+        "105216",
+        "86242"
+      ]
+    },
+    {
+      "group": "NUM",
+      "eligible_distinct_claims": 117,
+      "selected_count": 2,
+      "derived_seed": 16232237883750882341,
+      "claim_ids": [
+        "122596",
+        "209859"
+      ]
+    },
+    {
+      "group": "REL",
+      "eligible_distinct_claims": 147,
+      "selected_count": 2,
+      "derived_seed": 5279124224911637614,
+      "claim_ids": [
+        "33322",
+        "51355"
+      ]
+    },
+    {
+      "group": "SCOPE",
+      "eligible_distinct_claims": 64,
+      "selected_count": 2,
+      "derived_seed": 2907867588645124281,
+      "claim_ids": [
+        "39873",
+        "88941"
+      ]
+    },
+    {
+      "group": "TXT",
+      "eligible_distinct_claims": 30,
+      "selected_count": 2,
+      "derived_seed": 8163914546612038126,
+      "claim_ids": [
+        "206465",
+        "216392"
+      ]
+    },
+    {
+      "group": "UNCLEAR",
+      "eligible_distinct_claims": 1,
+      "selected_count": 1,
+      "derived_seed": 16675163667389149561,
+      "claim_ids": [
+        "92419"
+      ]
+    }
+  ],
+  "original_conflicts": [
+    "104930",
+    "109461",
+    "117129",
+    "119915",
+    "12467",
+    "129066",
+    "13076",
+    "141758",
+    "142286",
+    "15155",
+    "152918",
+    "154086",
+    "154761",
+    "160508",
+    "161094",
+    "162837",
+    "169984",
+    "172507",
+    "180726",
+    "181118",
+    "186598",
+    "193844",
+    "194241",
+    "196159",
+    "20603",
+    "207260",
+    "223499",
+    "24795",
+    "33547",
+    "4100",
+    "42643",
+    "4537",
+    "50382",
+    "51757",
+    "53421",
+    "54932",
+    "67818",
+    "76867",
+    "83043",
+    "85350",
+    "87187",
+    "89727",
+    "91498"
+  ],
+  "nonconflict_ids": [
+    "102892",
+    "103503",
+    "103833",
+    "104555",
+    "105216",
+    "106115",
+    "111069",
+    "111938",
+    "113297",
+    "113712",
+    "114093",
+    "122596",
+    "130833",
+    "140067",
+    "145848",
+    "147411",
+    "147632",
+    "150763",
+    "166844",
+    "167471",
+    "173130",
+    "173930",
+    "174515",
+    "1774",
+    "17914",
+    "179302",
+    "181125",
+    "183473",
+    "183481",
+    "190072",
+    "192212",
+    "193883",
+    "193911",
+    "199420",
+    "204307",
+    "204572",
+    "206465",
+    "207382",
+    "209859",
+    "216392",
+    "222759",
+    "33322",
+    "37097",
+    "38599",
+    "39873",
+    "51355",
+    "70784",
+    "82883",
+    "84673",
+    "85196",
+    "86242",
+    "88301",
+    "88941",
+    "92419",
+    "98107",
+    "9915"
+  ],
+  "conflict_claims": 43,
+  "nonconflict_claims": 56,
+  "unique_claims": 99,
+  "reviewed_model_claim_contrast_cases": 121,
+  "status": "SELECTION_FROZEN_BEFORE_SECOND_REVIEW",
+  "human_review": "PENDING"
+}

@@ -1,0 +1,424 @@
+{
+  "requested_url": "https://fever.ai/download/fever/shared_task_dev.jsonl",
+  "final_url": "https://fever.ai/download/fever/shared_task_dev.jsonl",
+  "retrieved_at_utc": "2026-10-18T03:46:48.987637+00:00",
+  "headers": {
+    "Content-Type": "binary/octet-stream",
+    "Content-Length": "4349935",
+    "Last-Modified": "Thu, 24 Feb 2022 18:25:31 GMT",
+    "ETag": "\"4eecc1018b3d2bd46089ca36d886f439\""
+  },
+  "sha256": "e89865bfe1b4dd054e03dd57d7241a6fde24862905f31117cf0cd719f7c78df7",
+  "expected_sha256": "e89865bfe1b4dd054e03dd57d7241a6fde24862905f31117cf0cd719f7c78df7",
+  "expected_hash_matches": true,
+  "bytes": 4349935,
+  "status": "FAIL",
+  "comparison_at_utc": "2026-10-18T03:46:50.525592+00:00",
+  "prepared_inputs_sha256": "662f92fc9a991bc79b13885c431e13200b5c90903a9414d7d103be560e7fc348",
+  "prepared_records": 10000,
+  "official_release_records": 19998,
+  "mismatch_counts": {
+    "missing_ids": 0,
+    "claim_text": 0,
+    "reference_label": 0,
+    "selected_pointer_set": 97
+  },
+  "rules": {
+    "ids": "Match string form of prepared claim_id to unique official id.",
+    "claims": "Exact Unicode string equality, no case/space/punctuation normalization.",
+    "labels": "Official SUPPORTS/REFUTES mapped exactly to Supported/Refuted; no relabeling.",
+    "pointers": "Prepared (page,sent_idx) set must equal a complete official annotated evidence-group set. Order and duplicate pointers ignored, annotator/evidence IDs ignored; not mere subset matching or equality to union of alternative groups.",
+    "sentence_text": "This targeted check does not compare or independently authenticate Wikipedia sentence text, and does not establish factual correctness of annotations."
+  },
+  "mismatches": [
+    {
+      "claim_id": "455",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "1746",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "3509",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "4458",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "4863",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "6462",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "6576",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "7012",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "7013",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "9267",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "9824",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "10147",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "10688",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "10689",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "16588",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "17283",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "19236",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "25505",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "25545",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "27041",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "28338",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "33700",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "38046",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "38052",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "43526",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "44361",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "46365",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "46366",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "47230",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "48210",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "51708",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "61803",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "65031",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "66440",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "71111",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "72693",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "72694",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "73126",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "76375",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "77048",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "78311",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "79123",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "79419",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "82293",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "83269",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "84858",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "86635",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "89573",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "91100",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "92675",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "95159",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "95877",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "96740",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "104150",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "107042",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "108345",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "108434",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "114897",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "116209",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "119891",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "125385",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "127369",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "128322",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "131411",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "138033",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "138974",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "140536",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "146225",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "149063",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "150765",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "150916",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "151529",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "152694",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "155955",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "156440",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "157678",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "183452",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "192174",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "192190",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "192193",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "192196",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "192197",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "192198",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "192203",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "192204",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "192205",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "192212",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "197363",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "197364",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "197366",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "197373",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "197377",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "197380",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "197381",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "197384",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "197386",
+      "field": "selected_pointer_set"
+    },
+    {
+      "claim_id": "197389",
+      "field": "selected_pointer_set"
+    }
+  ],
+  "read_only": true
+}

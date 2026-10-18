@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "published_commit": "3893a57e6f9addadf2b2fcd2d5a4e7251abcb677",
+  "published_snapshot_files_rechecked": 160,
+  "source_files_equal_published_snapshot": true,
+  "source_csv_hashes_match_preparation": {
+    "experiment_results_balanced_10000_v1.csv": true,
+    "experiment_tracker_with_evidence_balanced_10000_v1.csv": true,
+    "fever_balanced_10000_v1_source.csv": true
+  },
+  "local_fever_source_sha256": "5c879cd3b24764db46d826cf93a08b46967ee4aa5560a95e19952432a66088df",
+  "limits": [
+    "Available local FEVER file matched on IDs, text and labels; external official dataset download provenance not reauthenticated",
+    "Reuses sound 11137-pointer archival evidence check from preparation; no full wiki shard rescan",
+    "Published bundle excludes raw bytes; this audit additionally reads local raw artifacts into a separate backup"
+  ]
+}

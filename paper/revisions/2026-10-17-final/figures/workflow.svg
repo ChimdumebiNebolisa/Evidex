@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700pt" height="220pt" viewBox="0 0 700 220">
+<title>Separate frozen benchmark scoring from exploratory case interpretation</title>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7" fill="#334155"/></marker></defs>
+<polyline points="150,47.5 180,47.5" fill="none" stroke="#334155" stroke-width="1.2" marker-end="url(#arrow)"/>
+<polyline points="325,47.5 355,47.5" fill="none" stroke="#334155" stroke-width="1.2" marker-end="url(#arrow)"/>
+<polyline points="500,47.5 535,47.5" fill="none" stroke="#334155" stroke-width="1.2" marker-end="url(#arrow)"/>
+<polyline points="500,47.5 515,47.5 515,110 340,110 340,172.5 355,172.5" fill="none" stroke="#334155" stroke-width="1.2" marker-end="url(#arrow)"/>
+<polyline points="500,172.5 535,172.5" fill="none" stroke="#334155" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="5" y="10" width="145" height="75" rx="5" fill="#edf2f7" stroke="#334155"/>
+<text x="77.5" y="35.019999999999996" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#172535">Fixed claims</text>
+<text x="77.5" y="51.92" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#172535">reference labels</text>
+<text x="77.5" y="68.82000000000001" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#172535">selected evidence</text>
+<rect x="180" y="10" width="145" height="75" rx="5" fill="#edf2f7" stroke="#334155"/>
+<text x="252.5" y="35.019999999999996" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#172535">Fresh stateless</text>
+<text x="252.5" y="51.92" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#172535">A / B / C calls</text>
+<text x="252.5" y="68.82000000000001" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#172535">with repetitions</text>
+<rect x="355" y="10" width="145" height="75" rx="5" fill="#edf2f7" stroke="#334155"/>
+<text x="427.5" y="35.019999999999996" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#172535">Saved responses</text>
+<text x="427.5" y="51.92" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#172535">strict parsing</text>
+<text x="427.5" y="68.82000000000001" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#172535">paired outcomes</text>
+<rect x="535" y="10" width="160" height="75" rx="5" fill="#e5eef4" stroke="#334155"/>
+<text x="615.0" y="35.019999999999996" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#172535">Frozen benchmark</text>
+<text x="615.0" y="51.92" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#172535">accuracy / transitions</text>
+<text x="615.0" y="68.82000000000001" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#172535">repeat summaries</text>
+<rect x="355" y="135" width="145" height="75" rx="5" fill="#f5f1e7" stroke="#334155"/>
+<text x="427.5" y="160.01999999999998" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#172535">Selected case groups</text>
+<text x="427.5" y="176.92" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#172535">complete text</text>
+<text x="427.5" y="193.82" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#172535">and predictions</text>
+<rect x="535" y="135" width="160" height="75" rx="5" fill="#f5f1e7" stroke="#334155"/>
+<text x="615.0" y="160.01999999999998" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#172535">Exploratory AI coding</text>
+<text x="615.0" y="176.92" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#172535">versioned recheck</text>
+<text x="615.0" y="193.82" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#172535">human review pending</text>
+</svg>

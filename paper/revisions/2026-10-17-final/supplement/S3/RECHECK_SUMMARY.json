@@ -1,0 +1,31 @@
+{
+  "at_utc": "2026-10-18T02:45:05.729123+00:00",
+  "status": "SECOND_AI_REVIEW_COMPLETE_WITH_LIMITS",
+  "original_conflict_claims": 43,
+  "original_conflict_recheck_classifications": {
+    "plausible_conflict": 34,
+    "coding_mistake": 2,
+    "additional_context": 3,
+    "unresolved_interpretation": 4
+  },
+  "full_second_review_claims": 99,
+  "seeded_nonconflict_claims": 56,
+  "targeted_additional_claims": 131,
+  "total_second_review_claims": 230,
+  "not_second_reviewed_claims": 186,
+  "total_selected_claims": 416,
+  "total_selected_cases": 465,
+  "second_reviewed_cases": 258,
+  "changed_claim_annotations": 50,
+  "assessment_changed_claims": 29,
+  "feature_changed_claims": 34,
+  "v2_distinct_claim_alignment_counts": {
+    "supports_gold": 193,
+    "insufficient": 96,
+    "conflicts_gold": 34,
+    "ambiguous": 93
+  },
+  "v2_codebook_sha256": "077c98c693e371bb11827b45ab6b162bd36cf44d6f0547df74352792f8d9cd08",
+  "scope": "Same-assistant unblinded AI recheck; no human validation or independent-coder agreement; selected counts are not population prevalence",
+  "benchmark_scoring": "UNCHANGED"
+}

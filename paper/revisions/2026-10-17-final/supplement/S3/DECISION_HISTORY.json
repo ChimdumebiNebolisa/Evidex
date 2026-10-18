@@ -1,0 +1,2823 @@
+[
+  {
+    "claim_id": "104930",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "104930",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "ENT;CTX",
+      "justification": "The supplied ONR definition names Navy and Marine Corps programs, whereas the claim substitutes Army; the original FEVER annotation points to the same two pages and retains SUPPORTS. This is a plausible text/reference tension, not an authenticated gold correction.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "109461",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "109461",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "LEX;CTX",
+      "justification": "The annotated Recovery page is specifically the Eminem album, and both supplied sentences link that album to Mathers. Calling this referent a song conflicts with that description; another same-title work would require different context.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "117129",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "117129",
+      "flag_status": "coding_mistake",
+      "revised_assessment": "insufficient",
+      "revised_categories": "LEX;CTX;GAP",
+      "justification": "DVD is digital, but a DVD release does not exclude a separate analog optical release. The original flag treated one format as the only format. The supplied text cannot settle the existential claim about any analog release.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "119915",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "119915",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NEG;REL",
+      "justification": "The facility is expressly located in North Hollywood; the claim says outside it. The annotation identifies that same facility sentence and SUPPORTS, leaving the location tension intact.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "12467",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "12467",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NEG;SCOPE;CTX",
+      "justification": "The annotated SpongeBob sentence says most distributed, opposing the claim's not most distributed under its intended series referent. The original annotation does not remove this polarity tension.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "129066",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "129066",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NEG;REL;CTX",
+      "justification": "The full two-sentence chain identifies Patel as a Chappie star and Blomkamp as director. This ordinarily supports working together, contrary to the Supported denial; unusual meanings of worked with are not adjudicated here.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "13076",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "13076",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "REL;LEX",
+      "justification": "The official post's primary responsibility is explicitly spokesperson, while the claim substitutes father. FEVER SUPPORTS and its pointer are unchanged; the role mismatch remains apparent.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "141758",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "141758",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NUM;GAP",
+      "justification": "The exact supplied date is 1960-01-07. Gregorian calendar calculation gives Thursday, not Monday. FEVER contains the same date claim and SUPPORTS. The weekday calculation is an explicit review operation, not text supplied to the predictor.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "142286",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "142286",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NEG;NUM;CTX",
+      "justification": "The annotated second-season sentence gives premiere on January 2, 2017, opposing did not begin in January under the normal premiere reading.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "15155",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "15155",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NEG;REL",
+      "justification": "The supplied sentence explicitly says Cage teams up with Iron Fist, opposing the frozen Supported denial.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "152918",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "152918",
+      "flag_status": "additional_context",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "SCOPE;ENT",
+      "justification": "American politician does not establish all ancestry, citizenship or ethnic identities. Only German lacks a specified identity dimension. The earlier conflict was too categorical; reference interpretation needs context.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "154086",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "154086",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "REL;CTX",
+      "justification": "Kanye West is introduced in the same sentence and West is explicitly in its producer list. A shared production credit satisfies produced by without requiring sole production.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "154761",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "154761",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "ENT;REL",
+      "justification": "The supplied sentence credits Christopher Columbus with giving the country's name, while the claim credits Isabella. The full annotation retains those same country-page pointers and SUPPORTS.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "160508",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "160508",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "ENT;GAP",
+      "justification": "The source gives Rose, not Rosa, and says nothing about who bestowed the name. Retain a plausible name/reference tension, but remove TXT: a different name is an entity mismatch, not malformed wording by itself.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "161094",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "161094",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "LEX",
+      "justification": "A grouping of French colonial territories is a grouping of territories. The narrower supplied description supports the broader claim, despite REFUTES.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "162837",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "162837",
+      "flag_status": "unresolved_interpretation",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "NUM;SCOPE;CTX",
+      "justification": "Sixteen differs from fifteen on an exact-total reading, but includes fifteen on an at-least reading. Neither the selected sentence nor the annotation explains the intended cardinality rule. Retain numeric scope ambiguity rather than an unconditional conflict.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "169984",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "169984",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "DIRECT",
+      "justification": "The claim repeats the opening proposition of the evidence almost verbatim. Retain the apparent REFUTES tension; replace LEX with DIRECT because no distinctive paraphrase or type distinction is required.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "172507",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "172507",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "CTX",
+      "justification": "The evidence says generally negative reviews, matching the claim under the annotated film referent. Remove NEG and LEX: negative is review valence, not explicit propositional denial, and the wording is directly repeated rather than a substantive paraphrase.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "180726",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "180726",
+      "flag_status": "unresolved_interpretation",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "NUM;CTX",
+      "justification": "The sentence says reached Number 6, not peaked at 6 or never reached 8. Chart-peak convention suggests a mismatch, but the literal reading permits both positions. The prior justification imported peak; record the competing readings.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "181118",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "181118",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NUM;REL;CTX",
+      "justification": "The supplied premiere occurred on July 20, 2005, while the claim says before that date. The annotation gives that same series sentence, with no distinct earlier premiere context.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "186598",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "186598",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NUM",
+      "justification": "The explicit founding year is 1971 rather than the claimed 1979. This is a date of one event, not a lower-bound count comparison.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "193844",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "193844",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NUM",
+      "justification": "The supplied death date is May 11, 2014; the claim says April 11. Both refer to the same person's death event.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "194241",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "194241",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NUM;SCOPE",
+      "justification": "The claim gives May 27, 1949 and the evidence March 27, 1949 for the same birth. The word only does not remove the month mismatch.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "196159",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "196159",
+      "flag_status": "unresolved_interpretation",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "NUM;SCOPE",
+      "justification": "Received eight nominations can be an exact total or an existential lower count within sixteen. The original justification already acknowledged the latter reading; its unconditional conflicts_gold assignment was inconsistent with the ambiguity rule.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "20603",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "20603",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NEG;NUM",
+      "justification": "The evidence explicitly states 203,850 square miles, while the claim denies that exact area. This is an explicit negation, not the mere coexistence of unequal lower bounds.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "207260",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "207260",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "LEX",
+      "justification": "Have risen and has gone up express the same change in the supplied sentence. The original REFUTES annotation preserves, rather than resolves, that apparent contradiction.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "223499",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "223499",
+      "flag_status": "coding_mistake",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;SCOPE;CTX;GAP",
+      "justification": "Over 1.8 million and over 18 million are compatible lower bounds. The earlier comparison treated the smaller lower bound as an upper bound. The supplied sentence does not establish or exclude the larger threshold.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "24795",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "24795",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NUM;SCOPE",
+      "justification": "The full evidence includes twice ranking number one, which supports the unqualified claim of having ranked in the top ten. Top twenty over eight seasons does not negate those number-one occasions.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "33547",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "33547",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "ENT;CTX",
+      "justification": "The annotated subject was born in Des Moines, Iowa; the claim substitutes Ohio. The explicit birthplace relation is the discriminating fact.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "4100",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "4100",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "The selected career-start sentence says mid-1960s, not mid-1930s. The original annotation also lists an alternative sentence on the same Sonny and Cher page. Its existence alone does not resolve the selected-text tension.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "42643",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "42643",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "CTX",
+      "justification": "The evidence explicitly says Tourette described symptoms; REFUTES is unchanged. Remove REL: the claim and evidence do not change or distinguish the described relation, so CTX captures the surname/full-name link without an extra role feature.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "4537",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "4537",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NUM;REL",
+      "justification": "May 3, 1977 is identified as birth, and the complete supplied passage recounts his career decades later. The claim assigns that date to death, preserving a clear apparent role/date tension.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "50382",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "50382",
+      "flag_status": "additional_context",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "REL;CTX;GAP",
+      "justification": "Remaining in syndication establishes television exposure but does not exclude losing a particular earlier opportunity. The claim leaves that opportunity unspecified. Remove NEG because lost is not explicit denial under the polarity rule.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "51757",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "51757",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NEG",
+      "justification": "The evidence explicitly calls KGB a military service and the Supported claim explicitly denies it. The original annotation points to that same statement.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "53421",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "53421",
+      "flag_status": "additional_context",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "SCOPE;ENT;LEX;CTX;GAP",
+      "justification": "Papua has several supplied referents and the claim uses past tense without a period or country identity. Present-day province/part descriptions do not settle every historical all-country reading. The original conflict overstated what selected text excludes.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "54932",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "54932",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "CTX",
+      "justification": "The evidence expressly identifies Williams as an inmate in California, opposing REFUTES. Replace DIRECT with CTX because the full-name claim relies on the evidence's surname link, matching treatment of other contextual subject links.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "67818",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "67818",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NUM;LEX",
+      "justification": "The biographical life-date range ends January 5, 1998. Under the usual date-range convention it supports perished on that date, despite REFUTES.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "76867",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "76867",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NUM;REL;CTX",
+      "justification": "The complete bridge gives a 1933 Pre-Code film and Code enforcement in mid-1934. The claim explicitly places release after enforcement, opposite to the supplied chronology.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "83043",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "83043",
+      "flag_status": "unresolved_interpretation",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "NUM;SCOPE",
+      "justification": "The sentence gives 3,090,953 members. An exact-total reading conflicts with 953; an existential reading includes that many. As with other bare cardinal counts, the annotation supplies no explicit exactness policy, so retain ambiguity.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "85350",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "85350",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NUM;GAP",
+      "justification": "Gregorian calculation for the supplied 1964-08-14 gives Friday, not Monday. The weekday is absent from the sentence but deterministically follows from its date; no benchmark label is changed.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "87187",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "87187",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "NUM;SCOPE",
+      "justification": "Both supplied height measurements, 554 and 555 feet, fall below the claim's explicit 560-to-575 interval. Unlike two lower bounds, these stated values do not fit the interval.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "89727",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "89727",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "LEX;CTX",
+      "justification": "Historically inaccurate and events that never happened support factually inaccurate for the annotated poem. REFUTES remains an apparent tension, not a corrected label.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "91498",
+    "source": "conflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "91498",
+      "flag_status": "plausible_conflict",
+      "revised_assessment": "conflicts_gold",
+      "revised_categories": "LEX",
+      "justification": "The named field is explicitly deepwater offshore in the Gulf of Mexico, while the claim says landlocked. The location-type descriptions oppose one another under the ordinary reading.",
+      "decision_source": "conflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "102892",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "102892",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "The intended Taylor album is placed in 1997, outside the claimed 1980s. Retain NUM and the implicit album context.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "103503",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "103503",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "SCOPE;LEX",
+      "justification": "Main and major oppose minor in the ordinary river-importance reading. Retain the scalar/semantic codes without a model-mechanism account.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "103833",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "103833",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;LEX",
+      "justification": "The approximately 2.6-million-year period matches the broadly worded dates-back claim. NUM and LEX describe the approximation and wording, not a cause.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "104555",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "104555",
+      "revised_assessment": "insufficient",
+      "revised_categories": "REL;LEX;GAP",
+      "justification": "Abandoning some populated areas can coexist with an influx into other populated areas. The selected sentence does not exclude the claim's causal migration pattern; the original supports_gold judgment for Refuted was too strong.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "105216",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "105216",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "NEG;LEX;CTX",
+      "justification": "The supplied referent is one film, but the title can denote a series. The original justification already acknowledged that alternative. Keep the features and record the unresolved referent rather than categorical support.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "106115",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "106115",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "NUM;REL;GAP",
+      "justification": "After 1947 does not by itself exclude continuation after 1955; the missing endpoint makes the temporal interpretation unresolved.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "111069",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "111069",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM",
+      "justification": "The intended Minogue recording is identified with a 2007 album, supporting the loose post-1923 bound. This is conditional on that intended recording referent, not proof about every same-title work.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "111938",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "111938",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;SCOPE;CTX;GAP",
+      "justification": "The KO counts describe overlapping subsets. They cannot be added to establish the full career total; retain insufficiency and NUM/SCOPE/CTX/GAP.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "113297",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "113297",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "ENT;TXT",
+      "justification": "Arjit and Arijit can be a tolerated spelling error or different literal names. Apply the same ambiguity policy as Kojol/Kajol rather than silently granting identity tolerance in this success case.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "113712",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "113712",
+      "revised_assessment": "insufficient",
+      "revised_categories": "LEX;GAP",
+      "justification": "The passage gives release and earnings, without naming a format. The generic format proposition needs an unstated bridge; retain the narrow insufficiency assessment.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "114093",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "114093",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;LEX",
+      "justification": "Non-fiction explicitly differs from fiction. NEG is a genuine negative prefix here, unlike negative review sentiment.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "122596",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "122596",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;SCOPE;CTX",
+      "justification": "The first-openly-gay chart distinction is supplied, with him and the album requiring the intended artist link. Retain the coded ordinal/scope/context demand.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "130833",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "130833",
+      "revised_assessment": "insufficient",
+      "revised_categories": "ENT;GAP",
+      "justification": "Leg and foot swelling does not exclude additional hand symptoms. The existing insufficient assessment correctly avoids turning an omitted symptom into a contradiction.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "140067",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "140067",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;NUM;CTX",
+      "justification": "The intended excerpt states that 23 percent live there; lacks reverses the ordinary presence assertion. The corrupted population wording still limits literal precision.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "145848",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "145848",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "LEX",
+      "justification": "A film-versus-crisis category substitution is a semantic distinction. Remove TXT because the sentence is grammatically well formed and no additional extraction or wording defect is identified.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "147411",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "147411",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;REL",
+      "justification": "Mistaken attribution denies the validity of the stated artist relation; retain NEG/REL. The source explicitly attributes the song to DJ Fresh.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "147632",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "147632",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;GAP",
+      "justification": "The period is 1960s-1970s; mapping the Civil War to dates is additional information absent from this excerpt. Retain the text-limited insufficiency judgment.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "150763",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "150763",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;REL",
+      "justification": "Starred in American Gothic directly opposes did not perform in it. Retain genuine negation and performance relation coding.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "166844",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "166844",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "REL;LEX",
+      "justification": "The supplied referent is an EP that Bell released, making attended a mismatch of action and object type under the intended title reading.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "167471",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "167471",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "LEX;GAP",
+      "justification": "Original Movie is a branded category and does not settle whether the work is an unadapted original. Retain lexical ambiguity and missing warrant.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "173130",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "173130",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM",
+      "justification": "The same death event is dated October, not December. This is an event-date conflict, not competing compatible lower bounds.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "173930",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "173930",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "REL;LEX;CTX",
+      "justification": "Created can identify authorship of the memoir or production of its film adaptation. The existing ambiguous assessment preserves both readings.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "174515",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "174515",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "LEX;REL;GAP",
+      "justification": "Under a licence is an administrative relation; under a bridge can be a literal location, which the licence statement does not exclude. Remove TXT and qualify the original categorical Refuted-support assessment.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "1774",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "1774",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "DIRECT",
+      "justification": "An explicitly named rock band satisfies the broad band claim with no distinctive comparison feature. DIRECT remains an appropriate fallback.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "17914",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "17914",
+      "revised_assessment": "insufficient",
+      "revised_categories": "REL;LEX;GAP",
+      "justification": "Television/film producer does not establish animation. The existing insufficiency assessment correctly preserves that missing subtype.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "179302",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "179302",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "DIRECT",
+      "justification": "The United States is explicitly listed among countries regulating franchising. Other country counts do not determine this claim, so DIRECT rather than NUM is appropriate.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "181125",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "181125",
+      "revised_assessment": "insufficient",
+      "revised_categories": "REL;NUM;CTX;GAP",
+      "justification": "A premiere and later ratings are supplied, not cancellation. The existing insufficiency assessment does not treat one event as automatically excluding every other event.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "183473",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "183473",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "ENT;CTX",
+      "justification": "The successor role is unchanged; its filler is Henry IV rather than Louis III, with King of Navarre providing a linked identity. Replace REL with CTX to follow the unchanged-role boundary.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "183481",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "183481",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "DIRECT",
+      "justification": "The occupation actress is explicitly given. Dates in the biography are background, so retaining DIRECT without NUM is consistent.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "190072",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "190072",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "REL;CTX",
+      "justification": "Playing James Rhodes entails an appearance in Iron Man under the actor sense of in. The surname/context and acting relation remain the visible comparison demands.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "192212",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "192212",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;LEX",
+      "justification": "Anything but cultural is a genuine denial opposed by explicit cultural. Retain NEG/LEX without a causal inference.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "193883",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "193883",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "REL",
+      "justification": "Born Bernice is an earlier-name relation, while renamed Bernice reverses that ordinary direction. No internal temporal-processing claim follows.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "193911",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "193911",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "REL;NUM",
+      "justification": "The life-date convention identifies birth rather than conception. NUM and REL capture the event/date distinction under ordinary biographical meaning.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "199420",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "199420",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "REL;LEX",
+      "justification": "The person is the director's daughter Lorelei, while the claim substitutes a goose in the kinship/performer construction. Keep the visible semantic/role coding, not an explanation of mini's answer.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "204307",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "204307",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;GAP",
+      "justification": "The alias is supplied but the since-2016 boundary is not. Retain insufficiency rather than invent a Soviet-history chronology from outside this text.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "204572",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "204572",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "SCOPE;LEX",
+      "justification": "Between two ranks supplies order, not necessarily a metric midpoint. The existing halfway ambiguity is appropriate.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "206465",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "206465",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "REL;NUM;TXT",
+      "justification": "The proposed graduation occurs on the supplied birth date; the surname also differs by a letter. Retain the event/date distinction and spelling ambiguity.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "207382",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "207382",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM",
+      "justification": "The stated sentence length is four rather than five years for the same described sentencing event. Retain the ordinary exact-duration reading.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "209859",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "209859",
+      "revised_assessment": "insufficient",
+      "revised_categories": "ENT;GAP",
+      "justification": "UK chart positions do not establish Billboard appearance. Remove NUM because no numerical comparison decides the claim; the chart entity and omitted Billboard fact are the relevant demands.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "216392",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "216392",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "ENT;TXT;CTX",
+      "justification": "Hickman versus Hickam and the missing first name require identity tolerance. Apply the same spelling ambiguity policy across both success and regression groups rather than selecting the reference-favoring reading.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "222759",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "222759",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "SCOPE;ENT",
+      "justification": "Solely Canadian is ordinarily incompatible with the supplied American production identity. Keep the exclusivity qualifier explicit.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "33322",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "33322",
+      "revised_assessment": "insufficient",
+      "revised_categories": "REL;GAP",
+      "justification": "Created by the named people does not exclude their later destroying a character or writing its destruction. The original interpretation confused different predicates with a contradiction; retain the relation feature and add the missing-warrant flag.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "37097",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "37097",
+      "revised_assessment": "insufficient",
+      "revised_categories": "REL;CTX;GAP",
+      "justification": "The father's occupations do not establish Rupert's work. The existing subject-binding insufficiency assessment is correctly limited.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "38599",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "38599",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "ENT;TXT",
+      "justification": "Kojol and Kajol permit typo-tolerant and literal identity readings. Retain ambiguity; it supplies the consistency comparator for other spelling variants.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "39873",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "39873",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "NUM;SCOPE;CTX",
+      "justification": "The early-1600s cutoff is unstated, and 1635 can be included or excluded by reasonable readings. Retain ambiguity rather than invent a threshold.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "51355",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "51355",
+      "revised_assessment": "insufficient",
+      "revised_categories": "REL;LEX;GAP",
+      "justification": "Journalists' reporting and deaths do not specify a criminal investigation as the film's subject. Retain the missing-warrant interpretation.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "70784",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "70784",
+      "revised_assessment": "insufficient",
+      "revised_categories": "REL;CTX;GAP",
+      "justification": "The cast belongs to the named remake; the excerpt does not establish or exclude Vanisri in the original. Retain insufficiency.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "82883",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "82883",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "NUM;SCOPE",
+      "justification": "Whether two is several has no specified threshold. The existing numerical-scope ambiguity is appropriate.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "84673",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "84673",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "SCOPE;CTX",
+      "justification": "The evidence explicitly preserves sometimes included for Finland. Retain scope/context, without turning a qualified geographic convention into an absolute claim.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "85196",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "85196",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;REL;CTX",
+      "justification": "The linked discoverer's birth is August 14, not after the month of August under the ordinary within-year reading. The person/discovery link is explicit across the supplied sentences.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "86242",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "86242",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NEG;LEX;GAP",
+      "justification": "A rock band's album need not inherit the band's genre. The existing missing-warrant assessment is appropriately narrower than automatic genre refutation.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "88301",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "88301",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;REL;SCOPE;GAP",
+      "justification": "Overall-series and actor totals cannot determine the director-specific ordinal. Retain the distinct-denominator insufficiency assessment.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "88941",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "88941",
+      "revised_assessment": "insufficient",
+      "revised_categories": "SCOPE;GAP",
+      "justification": "Publication duration does not establish definitive status. The scalar and missing-warrant codes are tied to that omitted evaluation, not background dates.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "92419",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "92419",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "LEX;TXT;GAP;UNCLEAR",
+      "justification": "National pain remains uninterpretable as a symptom from this record. Retain UNCLEAR, low confidence and pending human review; do not repair it to chest pain.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "98107",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "98107",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "The same burial is explicitly dated 1635 instead of 1636. Retain NUM and the widow/subject context.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "9915",
+    "source": "nonconflict_decisions.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "9915",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "ENT;CTX",
+      "justification": "The tribal-classification role is unchanged, but its value is East rather than North Germanic. Replace REL with CTX because later North African geography is the distractor that must be kept separate.",
+      "decision_source": "nonconflict_decisions.tsv"
+    }
+  },
+  {
+    "claim_id": "101212",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "101212",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "LEX",
+      "justification": "Remove TXT: ball versus municipal seat is the substantive semantic substitution; no separate fragmentation, spelling or extraction defect is identified.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "102789",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "102789",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;REL;CTX",
+      "justification": "The total explicitly separates 57 elevators from 8 escalators. It does not support relabeling their sum as escalators.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "103005",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "103005",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;REL",
+      "justification": "The full starring list includes Ryan Phillipe. Did not star is genuine propositional negation.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "10328",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "10328",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "REL;NUM",
+      "justification": "The date is explicitly birth rather than graduation, preserving the intended life-event distinction.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "10530",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "10530",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;LEX",
+      "justification": "An explicitly identified family sitcom opposes unable to be one; retain genuine negative-prefix polarity.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "105813",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "105813",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM",
+      "justification": "The same birth event has March 16 rather than March 22. No lower-bound issue arises.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "106030",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "106030",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;SCOPE;GAP",
+      "justification": "A combined Romani/Egyptian percentage does not determine the Romani-only percentage. Retain the subgroup gap.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "10689",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "10689",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "LEX;CTX;GAP",
+      "justification": "In a manner is vague and can have a manor-like reading, but is not grammatically malformed on its own. Replace TXT with the missing warrant for the intended manner/location relation.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "107119",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "107119",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;GAP",
+      "justification": "A 1968 debut does not exclude a 2007 release. The existing insufficiency judgment correctly allows both events.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "107307",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "107307",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM",
+      "justification": "The life-date convention gives the exact claimed birth date.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "108547",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "108547",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;LEX;CTX",
+      "justification": "The film referent explicitly satisfies movie; NEG/LEX/CTX appropriately retain the title/person distinction.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "108767",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "108767",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;SCOPE;GAP",
+      "justification": "A year's earnings do not identify the amount in its first month. Retain insufficiency without treating the year total as a monthly contradiction.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "108880",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "108880",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM",
+      "justification": "Gregorian 1894-02-10 is Saturday, not Monday. Retain the stated deterministic calendar check.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "110839",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "110839",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "Eight awards including Best Film matches the claim, with the film referent implicit.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "11666",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "11666",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "NEG;LEX",
+      "justification": "Astronomical body and corpse are distinct senses. Retain ambiguity rather than silently interpreting body as dead body.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "117409",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "117409",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "LEX",
+      "justification": "Umbrella admits figurative package and literal object readings. Retain lexical ambiguity, removing TXT because an odd but possible metaphor is not a separate extraction defect.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "119878",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "119878",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "LEX",
+      "justification": "Studio sandwich versus studio album is the substantive semantic substitution. Remove TXT rather than double-counting the same incompatibility as malformed wording.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "12015",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "12015",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;SCOPE;CTX;GAP",
+      "justification": "The title/opponent KO subsets overlap; their sum cannot determine the full career count.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "121486",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "121486",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;SCOPE;ENT;GAP",
+      "justification": "The US membership estimate does not give a Baltimore subtotal. The numeric scope/entity gap is correctly retained.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "123238",
+    "source": "targeted_01.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "123238",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "NUM;SCOPE",
+      "justification": "Nine total and seven since 2000 coexist. The existing exact-versus-at-least ambiguity is consistent with the revised count policy.",
+      "decision_source": "targeted_01.tsv"
+    }
+  },
+  {
+    "claim_id": "123756",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "123756",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "ENT;TXT;CTX",
+      "justification": "Iran/Irian can change the place or be a misspelling; retain explicit identity/context ambiguity.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "127363",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "127363",
+      "revised_assessment": "insufficient",
+      "revised_categories": "REL;NUM;GAP",
+      "justification": "A dated draft event does not determine undated current team/position status. Retain the temporal missing warrant.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "129011",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "129011",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;CTX",
+      "justification": "The named album is by Little Mix, opposing uninvolved under that album sense. NEG is genuine denial and CTX retains DNA's alternate senses.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "129996",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "129996",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;NUM",
+      "justification": "A dated past dinner appearance opposes has yet to appear at the recorded occasion. Retain temporal/polarity features.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "130108",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "130108",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;REL",
+      "justification": "The exact claimed birth date is the supplied death date; the life-date endpoints discriminate the events.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "132858",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "132858",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;REL",
+      "justification": "Sixth most among sixteen differs from sixth least. The reversed ordering is supported by the stated total and ordinal.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "134473",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "134473",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "The interval explicitly begins June 15 rather than June 14 for the intended film.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "13473",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "13473",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM",
+      "justification": "The single birth event is in December rather than January.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "134927",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "134927",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "SCOPE;ENT;NUM;GAP",
+      "justification": "Paris premiere and world premiere terminology differ from worldwide simultaneous release; the existing ambiguity is preserved.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "140359",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "140359",
+      "revised_assessment": "insufficient",
+      "revised_categories": "REL;CTX;TXT;GAP",
+      "justification": "The supplied text truly lacks its subject and does not give production credits. TXT and GAP represent distinct defects here.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "14096",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "14096",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "Both population and year match, conditional on the town identity.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "14123",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "14123",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "The same filming interval starts June 15, not June 14, consistent with its paraphrase case 134473.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "141282",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "141282",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "REL;CTX",
+      "justification": "Remove NUM because neither date nor magnitude decides the initially-won claim; the relevant distinction is initial victory versus later stripping with an implicit subject.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "145512",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "145512",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM",
+      "justification": "February 10 and February 20 are different dates of the same birth event.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "147045",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "147045",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;CTX;GAP",
+      "justification": "The zodiac range lacks its sign name in the executed sentence. Retain the missing sign/context bridge rather than importing it from a page title.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "150412",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "150412",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;GAP",
+      "justification": "Gregorian 1875-10-12 is Tuesday, matching the added weekday. This uses the same transparent calculation rule as the conflicting weekday cases.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "152752",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "152752",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;REL;GAP",
+      "justification": "Second album overall does not determine first on one label. The existing denominator/sequence gap is appropriate.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "153303",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "153303",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "LEX",
+      "justification": "Picture game admits broad and narrow semantic readings, but the compound alone is not a separate formatting defect. Retain ambiguity and remove TXT.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "155934",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "155934",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "ENT;TXT",
+      "justification": "Apply the same Kojol/Kajol identity ambiguity as case 38599, irrespective of the opposite frozen label or model outcomes. The previous support judgment favored typo tolerance without a consistent rule.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "159080",
+    "source": "targeted_02.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "159080",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;REL",
+      "justification": "The passage explicitly groups government and rebels as the two aggregate sides. It does not claim that either side lacks factions.",
+      "decision_source": "targeted_02.tsv"
+    }
+  },
+  {
+    "claim_id": "15941",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "15941",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;REL;GAP",
+      "justification": "A film's 2004 date does not exclude writing in 2003. The existing role/date gap is correctly distinguished.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "159578",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "159578",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;LEX",
+      "justification": "The life dates indicate death before the recorded occasion. Remove NEG because still alive contains no explicit denial; the contrast is lexical and temporal.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "159708",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "159708",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "April 18 lies outside the supplied May-June sign range, conditional on linking this sign to Gemini. Retain NUM/CTX.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "160350",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "160350",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "REL;NUM",
+      "justification": "The date is expressly birth, not conception. Retain the ordinary event distinction.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "161903",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "161903",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "NUM;SCOPE;CTX",
+      "justification": "The claimed interval is contained in the longer tenure but changes its putative start. The existing start-versus-subinterval ambiguity is appropriate.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "162200",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "162200",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM",
+      "justification": "The same birth event is in August, not April.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "163820",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "163820",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;REL",
+      "justification": "Explicit education at two institutions contradicts no education. NEG is a genuine absence assertion.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "169037",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "169037",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;SCOPE",
+      "justification": "The supplied first Sikh in office is different from second; this is the same ordinal definition and office context.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "169316",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "169316",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;REL;CTX;GAP",
+      "justification": "The listed 2010 film year is not an explicit production date. Apply the same distinction between a work's year and the date of writing/production used in case 15941, rather than treating it as automatic contradiction.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "170419",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "170419",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "REL;NUM",
+      "justification": "A birth date is not the conception date under the ordinary life-event reading.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "172753",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "172753",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "REL;LEX",
+      "justification": "Made for film can mean adapted or broader production. Retain semantic/role ambiguity; remove TXT because the wording alone is not an independent formatting defect.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "17333",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "17333",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM",
+      "justification": "The life-date endpoint gives death in June 2007, matching the claim's month and year.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "174033",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "174033",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "The complete album-band chain explicitly gives founding in 1965, not 1966.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "179745",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "179745",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "The same Stoker film is identified as 2013 rather than the claim's 2016 film; retain the implicit subject link.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "180572",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "180572",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;LEX;CTX",
+      "justification": "The film explicitly centers on an ex-convict, contradicting incapable of being about one. The negative prefix is material.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "184071",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "184071",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;ENT;GAP",
+      "justification": "The date is given, but birthplace New York is not. Retain the omitted location rather than inferring it from nationality.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "184100",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "184100",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "The described acquittal is linked to 1971 by same year, not 1987, under the intended single-case reading.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "185206",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "185206",
+      "revised_assessment": "insufficient",
+      "revised_categories": "REL;NUM;CTX;GAP",
+      "justification": "A cast member's name does not establish fourth-stepchild status. The ordinal/kinship bridge remains missing.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "192975",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "192975",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "LEX;CTX",
+      "justification": "Openly versus closeted is a lexical contrast, not explicit denial. Remove NEG while retaining ordinary reference support under the implicit subject link.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "203181",
+    "source": "targeted_03.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "203181",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;NUM",
+      "justification": "Zero is explicit absence, contradicted by approximately forty. NEG and NUM both apply.",
+      "decision_source": "targeted_03.tsv"
+    }
+  },
+  {
+    "claim_id": "203695",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "203695",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "NEG;NUM;REL;GAP",
+      "justification": "Gross revenue minus production budget is not necessarily net profit. Retain genuine denial, numeric comparison and unresolved profit definition.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "204309",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "204309",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;SCOPE",
+      "justification": "Explicit also known as Latvia opposes never known as Latvia. NEG and SCOPE are material.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "204654",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "204654",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;REL;CTX;GAP",
+      "justification": "The original film's year does not supply a sequel release date. Retain the work/event mismatch and missing warrant.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "205134",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "205134",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "The supplied 85 BC death precedes 30 BC under BC ordering. The named father's context is explicit.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "206453",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "206453",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "REL;NUM;TXT",
+      "justification": "Hagan/Hagen admits literal identity and typo-tolerant readings. The birth/death distinction supports Refuted only under the intended-identity reading; use the same spelling policy as other names.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "209099",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "209099",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "REL;LEX;NUM;CTX",
+      "justification": "Assassinated and fatal accident describe incompatible causes of the same intended death, despite a matching year.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "211025",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "211025",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "First versus second installment is the same film-series ordinal, with an implicit film subject.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "214784",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "214784",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "NUM;SCOPE;CTX",
+      "justification": "The two listed premiere dates do not exclude every other local premiere. The existing scope ambiguity correctly avoids that inference.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "214977",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "214977",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "The sentence explicitly gives series 1 on ABC TV. Retain ordinal/context features.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "215128",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "215128",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM",
+      "justification": "Three-act and two-act descriptions classify the same play's act structure, rather than merely existential lower counts.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "21784",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "21784",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "ENT;TXT",
+      "justification": "Apply the same Arjit/Arijit spelling ambiguity as case 113297. Literal identity and typo tolerance are not resolved by the frozen Supported label.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "218245",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "218245",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM",
+      "justification": "The same world ranking is explicitly 16th rather than 13th; fourth in Africa uses a separate comparison set.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "220207",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "220207",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "ENT;TXT;NUM",
+      "justification": "Rabbta/Raabta requires an untested spelling-tolerance decision. Keep the matching song facts but mark identity interpretation unresolved consistently across sampled outcomes.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "223775",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "223775",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM",
+      "justification": "Both requested life-date facts match the supplied endpoints exactly.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "224384",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "224384",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "The club's second-place First Division finish is explicitly stated, with no changed denominator.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "226856",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "226856",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM",
+      "justification": "The same death event is dated 1450, not 1890.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "227070",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "227070",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM",
+      "justification": "The album modifier identifies Prism as 2013, not 2017, under ordinary work-year meaning.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "24080",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "24080",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "The supplied June 4 satisfies the unqualified day-of-month claim, conditional on the intended subject.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "26317",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "26317",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "NUM;REL;SCOPE",
+      "justification": "Album-track availability in 2000 and single release in 2001 are different release senses. Retain the existing ambiguity.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "29353",
+    "source": "targeted_04.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "29353",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;REL",
+      "justification": "The direct artist attribution opposes mistaken attribution, consistent with its duplicate claim/evidence case 147411.",
+      "decision_source": "targeted_04.tsv"
+    }
+  },
+  {
+    "claim_id": "29594",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "29594",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "LEX",
+      "justification": "Pizzas versus rates is the substantive semantic substitution. Remove TXT so the same odd noun is not also counted as a separate formatting defect.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "3019",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "3019",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;SCOPE;GAP",
+      "justification": "Widespread by 3000 BC does not exclude an earlier broad-scale date. The existing insufficiency judgment correctly handles the one-sided temporal bound.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "3202",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "3202",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM",
+      "justification": "The same birth event is in June rather than May 1978.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "34496",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "34496",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "LEX;ENT",
+      "justification": "The redirected object changes from messages to birds while the redirect role is unchanged. Replace REL with ENT and remove TXT; the substantive object/type mismatch supplies the feature.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "35174",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "35174",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;REL",
+      "justification": "The supplied claimed date is death rather than birth, with both endpoints explicit.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "36171",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "36171",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "NUM;REL;LEX",
+      "justification": "Fell can describe numeric rank decrease or worsening popularity; the existing lexical/directional ambiguity remains appropriate.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "41606",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "41606",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;SCOPE;CTX",
+      "justification": "An explicit highest-rated statement opposes the claim's not highest-rated denial under the series link.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "42173",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "42173",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;SCOPE;REL",
+      "justification": "An induction into one hall in 2001 directly supports the broad induction claim; 1998 for another hall does not negate it.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "4500",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "4500",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "First live performance is explicitly 2014, not 2004, for the intended song.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "48484",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "48484",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;REL",
+      "justification": "The stated ages imply about 19-20 years, not almost 40. This is a duration calculation rather than copying the final age.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "48815",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "48815",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;GAP",
+      "justification": "The excerpt provides 2006 but no month; May remains unestablished.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "55645",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "55645",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;LEX;CTX",
+      "justification": "The specific January gold certification supports the broader claim, independent of the later platinum certification.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "56396",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "56396",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "The intended novel is dated 1983; keep title/context qualification rather than conflating it with an adaptation.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "56481",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "56481",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM",
+      "justification": "Three Grammy awards is explicitly stated, so NUM is a relevant matching count rather than an arbitrary background number.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "5826",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "5826",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "NUM;SCOPE;CTX;GAP",
+      "justification": "The excerpt dates the last of three major storms, not necessarily every windstorm. The unqualified last-storm claim can refer to that salient set or all storms; the prior support assessment suppressed that scope distinction.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "59355",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "59355",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "LEX;CTX;GAP",
+      "justification": "Policies do not establish or exclude windows under every possible meaning of implemented. Remove TXT and avoid claiming that one positive predicate automatically excludes the other; retain the substantive lexical/context gap.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "61401",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "61401",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;ENT;CTX;GAP",
+      "justification": "One cast member's September birth does not resolve whether another named cast member was born in October. The existing existential insufficiency assessment is correct.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "63846",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "63846",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "REL;NUM",
+      "justification": "The same person's death is 1990, while March 12, 1911 marks birth.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "64142",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "64142",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;SCOPE;CTX;GAP",
+      "justification": "The US sales total is not identified as digital-only by the separate digital ranking. Retain the format-scope gap.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "66473",
+    "source": "targeted_05.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "66473",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;CTX",
+      "justification": "The stated alternate-history film setting is explicitly 1985, conditional on the intended film subject.",
+      "decision_source": "targeted_05.tsv"
+    }
+  },
+  {
+    "claim_id": "67404",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "67404",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "ENT;TXT;NUM;CTX",
+      "justification": "The award/year match under an intended Kajol link, but Kojol and the unnamed her leave identity unresolved. Apply the same spelling policy as cases 38599 and 155934; add NUM for the claimed award year.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "67568",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "67568",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;SCOPE;GAP",
+      "justification": "A June-to-June total is not a calendar-year total. Retain the unresolved earnings scope.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "68676",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "68676",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM",
+      "justification": "The same person's birth year is explicitly 1979, not 1995.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "68983",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "68983",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "REL;LEX;TXT",
+      "justification": "Granular as an undefined noun reverses a texture attribute into identity; the unresolved referent is an additional wording issue, so TXT is retained here.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "71124",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "71124",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "LEX;NUM;GAP",
+      "justification": "A magazine is not ordinarily an airing program, but on at 3 pm could be an imprecise availability claim. The passage gives no time; replace categorical Refuted support with the identified reading ambiguity.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "7138",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "7138",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "SCOPE;REL;NUM;CTX",
+      "justification": "Attempted lone travel and an accompanied final adventure permit general-pattern and universal-period readings. Retain the existing scope ambiguity.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "72194",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "72194",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "ENT;TXT",
+      "justification": "Mellila/Melilla requires spelling tolerance or a different literal referent. Treat the identity ambiguity consistently rather than silently correcting the name.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "74806",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "74806",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;GAP",
+      "justification": "The year is given but January is not, so the more precise date claim remains unestablished.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "75025",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "75025",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "ENT;TXT;LEX",
+      "justification": "City versus dish supports Refuted only if Mellila is treated as the supplied Melilla. The literal-name alternative is not settled; apply the same identity policy as case 72194.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "75288",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "75288",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;SCOPE",
+      "justification": "The explicit nine-season run begins in 1962 and ends in 1971, not a run beginning in 1972.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "75904",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "75904",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;NUM;CTX",
+      "justification": "An explicit more-than-80-percent statement opposes its direct denial. This does not make two unequal positive lower bounds contradictory.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "76348",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "76348",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "REL;NUM",
+      "justification": "The same life-date convention gives birth in 1935 and death in 1998; the claimed death date uses the wrong endpoint.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "7697",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "7697",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;GAP",
+      "justification": "An undated film list does not exclude or establish a 2023 appearance. Retain insufficiency without importing later release history.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "79420",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "79420",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;SCOPE;GAP",
+      "justification": "Six cities and towns does not state how many are cities; one is also exact or existential. Retain the unresolved scope/count assessment.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "80984",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "80984",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "NUM;SCOPE;CTX",
+      "justification": "A series of novels and one novel differ under an exact-only reading but coexist under an at-least-one reading. The existing ambiguity is consistent.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "84702",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "84702",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NEG;REL;CTX;GAP",
+      "justification": "One named role does not explicitly exclude an additional unnamed role. Retain the negative-prefix and role demand, but replace the automatic contradiction with an omitted-role assessment.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "86361",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "86361",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;LEX",
+      "justification": "Debut and sophomore give different ordinals of the same EP sequence.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "87838",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "87838",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;SCOPE;ENT;GAP",
+      "justification": "Establishment and relocation do not supply comparative member counts. Retain the quantitative/context gap.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "88110",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "88110",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NEG;REL;CTX;GAP",
+      "justification": "The sons' causal role does not establish the father's non-involvement. Genuine denial is present but unsupported by the selected fact.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "88112",
+    "source": "targeted_06.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "88112",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;REL",
+      "justification": "The supplied years place accession about eight or nine years after birth, excluding age two without requiring an exact birthday calculation.",
+      "decision_source": "targeted_06.tsv"
+    }
+  },
+  {
+    "claim_id": "88764",
+    "source": "targeted_07.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "88764",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;REL",
+      "justification": "The supplied cause of death is explicitly alcohol poisoning, opposing the denial.",
+      "decision_source": "targeted_07.tsv"
+    }
+  },
+  {
+    "claim_id": "88865",
+    "source": "targeted_07.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "88865",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "SCOPE;NUM;TXT",
+      "justification": "Barely has no stated degree and from/and is an actual awkward interval construction. Retain semantic scope and wording ambiguity separately.",
+      "decision_source": "targeted_07.tsv"
+    }
+  },
+  {
+    "claim_id": "89458",
+    "source": "targeted_07.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "89458",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "CTX;TXT",
+      "justification": "Computer science is explicitly listed under an intended speech-recognition subject, but It and the claim's awkward incorporation wording remain visible context/language demands.",
+      "decision_source": "targeted_07.tsv"
+    }
+  },
+  {
+    "claim_id": "89682",
+    "source": "targeted_07.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "89682",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "REL;NUM;TXT",
+      "justification": "Is boxes is genuinely malformed, and former competitive status differs from present activity. Retain the explicit temporal/wording ambiguity.",
+      "decision_source": "targeted_07.tsv"
+    }
+  },
+  {
+    "claim_id": "91674",
+    "source": "targeted_07.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "91674",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;REL;SCOPE",
+      "justification": "The claim dates the 2010 game, while the song's DLC is 2011. The existing support judgment correctly avoids attaching the game year to inclusion time.",
+      "decision_source": "targeted_07.tsv"
+    }
+  },
+  {
+    "claim_id": "9410",
+    "source": "targeted_07.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "9410",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "NUM;REL;CTX",
+      "justification": "The song appears on a 2000 album and a 2001 single. Retain release-format ambiguity, consistent with case 26317 despite opposite gold labels.",
+      "decision_source": "targeted_07.tsv"
+    }
+  },
+  {
+    "claim_id": "94603",
+    "source": "targeted_07.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "94603",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "REL;NUM;CTX;TXT",
+      "justification": "Ahead versus behind conflicts under the intended person link, but Rafaeli/Refaeli is a spelling or transliteration variation. Add TXT and retain identity uncertainty rather than silently normalizing this case alone.",
+      "decision_source": "targeted_07.tsv"
+    }
+  },
+  {
+    "claim_id": "94829",
+    "source": "targeted_07.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "94829",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "LEX",
+      "justification": "Codes versus membrane-bearing cells is the substantive semantic type substitution. Remove TXT rather than duplicating that same incompatibility as a separate wording defect.",
+      "decision_source": "targeted_07.tsv"
+    }
+  },
+  {
+    "claim_id": "95738",
+    "source": "targeted_07.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "95738",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NUM;SCOPE;CTX",
+      "justification": "The full passage explicitly gives 26 wins without loss in world-title fights; fifteen titles is a distinct counted object.",
+      "decision_source": "targeted_07.tsv"
+    }
+  },
+  {
+    "claim_id": "9825",
+    "source": "targeted_07.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "9825",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "NEG;LEX",
+      "justification": "The complete passage lists elements from several explicitly named genres. Genuine does-not-combine denial is contradicted by the first sentence; later definitions do not alter it.",
+      "decision_source": "targeted_07.tsv"
+    }
+  },
+  {
+    "claim_id": "99511",
+    "source": "targeted_07.tsv",
+    "prior_decision": null,
+    "decision": {
+      "claim_id": "99511",
+      "revised_assessment": "insufficient",
+      "revised_categories": "NUM;REL;CTX;GAP",
+      "justification": "The 1785 start does not supply the American Revolution's dates or resolve since. Retain the external-period/context gap.",
+      "decision_source": "targeted_07.tsv"
+    }
+  },
+  {
+    "claim_id": "206465",
+    "source": "followup_corrections.tsv",
+    "prior_decision": {
+      "claim_id": "206465",
+      "revised_assessment": "supports_gold",
+      "revised_categories": "REL;NUM;TXT",
+      "justification": "The proposed graduation occurs on the supplied birth date; the surname also differs by a letter. Retain the event/date distinction and spelling ambiguity.",
+      "decision_source": "nonconflict_decisions.tsv"
+    },
+    "decision": {
+      "claim_id": "206465",
+      "revised_assessment": "ambiguous",
+      "revised_categories": "REL;NUM;TXT",
+      "justification": "The targeted counterpart 206453 exposed the same Hagan/Hagen spelling-tolerance issue. Apply the common identity policy here too: graduation versus birth supports Refuted only under the intended-person reading; literal identity remains unsettled.",
+      "decision_source": "followup_corrections.tsv"
+    }
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-18T04:57:42.903841+00:00",
+  "scope": "Publication copy verification only; no scientific revision or reanalysis.",
+  "source_sha256": "bd6be9c7d6df9691c99cd5c2a69e8149d769a65a75cbb2c6f980f65a61a4e0bd",
+  "pdf_sha256": "abef0dc8a2afb3eff634f5e267a38271af774393cc66f6cf76bc5eacb2a6a497",
+  "word_sha256": "0bacfe3be7c89978c3795a2590865905e0ecf7dbdaa6dee0303da570c048343f",
+  "exact_latest_local_manuscript_copies": true,
+  "copied_supporting_files": 83,
+  "local_revision_checks_passed": 46,
+  "word_source_equivalence": {
+    "all_source_paragraphs": true,
+    "nine_native_tables": true,
+    "one_figure": true,
+    "nine_references": true,
+    "literal_evidence_placeholder": true,
+    "two_exact_message_quotes": true,
+    "two_native_display_equations": true,
+    "all_native_table_values": true,
+    "no_unconverted_commands": true,
+    "valid_zip": true
+  },
+  "pdf_pages": 13,
+  "pdf_visual_review": "All pages inspected in completed revision; PDF bytes unchanged.",
+  "Word_render_limit": "Complete content inspected in bounded QA parts; native full-document pagination not certified.",
+  "supplementary_sections": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
+  ],
+  "tracker_entries": 98,
+  "supplement_only_change": "Publication access wording; scientific text and supporting record bytes unchanged.",
+  "email_descriptions_verified": {
+    "related_work_and_contribution": true,
+    "methodology_separate_from_settings_and_results": true,
+    "180000_responses_separate_AB_BC": true,
+    "repeated_calls_regression_rescue_examples": true,
+    "AI_taxonomy_limits_and_historical_separation": true
+  }
+}
