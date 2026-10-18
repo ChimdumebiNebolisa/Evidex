@@ -1,0 +1,709 @@
+{
+  "status": "PASS",
+  "checks": {
+    "all_source_paragraphs": true,
+    "nine_native_tables": true,
+    "one_figure": true,
+    "nine_references": true,
+    "literal_evidence_placeholder": true,
+    "two_exact_message_quotes": true,
+    "two_native_display_equations": true,
+    "all_native_table_values": true,
+    "no_unconverted_commands": true,
+    "valid_zip": true
+  },
+  "master_sha256": "bd6be9c7d6df9691c99cd5c2a69e8149d769a65a75cbb2c6f980f65a61a4e0bd",
+  "docx_sha256": "0bacfe3be7c89978c3795a2590865905e0ecf7dbdaa6dee0303da570c048343f",
+  "paragraphs": {
+    "ABS1": {
+      "expected": "Adding evidence and restricting a classifier to that evidence are different input changes. We separate them in a repeated evaluation of two related large language models on 10,000 balanced binary FEVER records. In the primary first pass, adding selected evidence with the classification instruction fixed raises accuracy from 88.58% to 96.17% for GPT-5.4 and from 84.90% to 95.45% for GPT-5.4-mini. Gains are 7.59 and 10.55 percentage points, with descriptive cluster-bootstrap 95% intervals of 7.01–8.19 and 9.87–11.26. Rescues outnumber regressions, although 98 and 145 first-pass classifications regress. Across three repetitions, matched losses exceed identical-prompt directional loss: a correct classification becoming incorrect across fresh calls using the same prompt, and 186 model–claim cases regress every time across 160 distinct claims. An exploratory, unblinded AI analysis of 465 selected cases compares visible features across losses, rescues, and successful outcomes; worked examples distinguish prediction/reference disagreement from unresolved evidence interpretation. The study shows how controlled input contrasts and repeated calls complement aggregate accuracy on this fixed slice during the recorded collection period and under the stated model configurations.",
+      "source": "Adding evidence and restricting a classifier to that evidence are different input changes. We separate them in a repeated evaluation of two related large language models on 10,000 balanced binary FEVER records. In the primary first pass, adding selected evidence with the classification instruction fixed raises accuracy from 88.58\\% to 96.17\\% for GPT-5.4 and from 84.90\\% to 95.45\\% for GPT-5.4-mini. Gains are 7.59 and 10.55 percentage points, with descriptive cluster-bootstrap 95\\% intervals of 7.01--8.19 and 9.87--11.26. Rescues outnumber regressions, although 98 and 145 first-pass classifications regress. Across three repetitions, matched losses exceed identical-prompt directional loss: a correct classification becoming incorrect across fresh calls using the same prompt, and 186 model--claim cases regress every time across 160 distinct claims. An exploratory, unblinded AI analysis of 465 selected cases compares visible features across losses, rescues, and successful outcomes; worked examples distinguish prediction/reference disagreement from unresolved evidence interpretation. The study shows how controlled input contrasts and repeated calls complement aggregate accuracy on this fixed slice during the recorded collection period and under the stated model configurations.",
+      "equal": true
+    },
+    "I1": {
+      "expected": "A large language model (LLM) can classify a factual claim from the claim alone or from a claim accompanied by source text. In evidence-based fact verification, the task is to assess whether a claim is supported or refuted. Supplying evidence makes the relevant material inspectable, while a benchmark reference label provides a common scoring rule. FEVER supplies claims, labels, and annotated Wikipedia evidence, allowing these components to be compared in a fixed evaluation [Thorne et al. (2018); Guo et al. (2022)].",
+      "source": "A large language model (LLM) can classify a factual claim from the claim alone or from a claim accompanied by source text. In evidence-based fact verification, the task is to assess whether a claim is supported or refuted. Supplying evidence makes the relevant material inspectable, while a benchmark reference label provides a common scoring rule. FEVER supplies claims, labels, and annotated Wikipedia evidence, allowing these components to be compared in a fixed evaluation \\citep{thorne-etal-2018-fever,guo-etal-2022-survey}.",
+      "equal": true
+    },
+    "I2": {
+      "expected": "Accuracy alone cannot show whether adding evidence preserves previously correct decisions; paired outcomes and repeated calls reveal losses that the overall improvement conceals. Counting those losses alone also leaves an attribution problem. A comparison that adds evidence and changes the instruction simultaneously mixes two input changes. A single observed change lacks a reference for how often the same classifier changes under an identical prompt. Separating these comparisons is necessary to describe what evidence addition contributes beyond a net accuracy difference.",
+      "source": "Accuracy alone cannot show whether adding evidence preserves previously correct decisions; paired outcomes and repeated calls reveal losses that the overall improvement conceals. Counting those losses alone also leaves an attribution problem. A comparison that adds evidence and changes the instruction simultaneously mixes two input changes. A single observed change lacks a reference for how often the same classifier changes under an identical prompt. Separating these comparisons is necessary to describe what evidence addition contributes beyond a net accuracy difference.",
+      "equal": true
+    },
+    "I3": {
+      "expected": "The present experiment holds the classification instruction fixed when moving from claim-only A to evidence-supplied B, then separately adds an evidence-only restriction in C. Three fresh calls under each condition provide an observed identical-prompt comparison for the matched between-condition losses. A regression is correct-to-incorrect against the frozen benchmark label, and a rescue is the reverse. These are scoring transitions: movement away from the reference does not by itself establish factual deterioration.",
+      "source": "The present experiment holds the classification instruction fixed when moving from claim-only A to evidence-supplied B, then separately adds an evidence-only restriction in C. Three fresh calls under each condition provide an observed identical-prompt comparison for the matched between-condition losses. A \\emph{regression} is correct-to-incorrect against the frozen benchmark label, and a \\emph{rescue} is the reverse. These are scoring transitions: movement away from the reference does not by itself establish factual deterioration.",
+      "equal": true
+    },
+    "I4": {
+      "expected": "The contribution is a joint empirical account of input differences and repeated classification behavior. The A-to-B contrast measures evidence addition under the same task instruction; B-to-C measures the further instruction restriction. Comparing matched losses with identical-prompt directional loss places them against an observed repeat baseline, while reporting recurring losses alongside rescues shows which losses persist across the recorded calls despite the aggregate benefit. Selected claim–evidence examples then clarify what those scoring transitions can mean. This design describes behavior within the tested records, recorded collection period, and stated model configurations; it does not propose a mitigation method or identify an internal causal mechanism.",
+      "source": "The contribution is a joint empirical account of input differences and repeated classification behavior. The A-to-B contrast measures evidence addition under the same task instruction; B-to-C measures the further instruction restriction. Comparing matched losses with identical-prompt directional loss places them against an observed repeat baseline, while reporting recurring losses alongside rescues shows which losses persist across the recorded calls despite the aggregate benefit. Selected claim--evidence examples then clarify what those scoring transitions can mean. This design describes behavior within the tested records, recorded collection period, and stated model configurations; it does not propose a mitigation method or identify an internal causal mechanism.",
+      "equal": true
+    },
+    "RW1": {
+      "expected": "Evidence-based verification links a claim to material that can support or refute it. FEVER formalizes this task using Wikipedia claims and annotated evidence, while the verification survey distinguishes evidence retrieval from the subsequent assessment of veracity [Thorne et al. (2018); Guo et al. (2022)]. These components create different evaluation questions: whether relevant material is found, and how a classifier responds when particular material is supplied.",
+      "source": "Evidence-based verification links a claim to material that can support or refute it. FEVER formalizes this task using Wikipedia claims and annotated evidence, while the verification survey distinguishes evidence retrieval from the subsequent assessment of veracity \\citep{thorne-etal-2018-fever,guo-etal-2022-survey}. These components create different evaluation questions: whether relevant material is found, and how a classifier responds when particular material is supplied.",
+      "equal": true
+    },
+    "RW2": {
+      "expected": "Correct classification need not establish the intended use of evidence. Schuster et al. (2019) show that biases in fact-verification claims can support prediction without the intended evidential reasoning. Claim-only accuracy can therefore provide a behavioral baseline, but does not establish possession of the relevant factual knowledge. Likewise, accuracy with evidence does not identify a particular reasoning process. Aggregate scores leave open which individual classifications are preserved or changed when evidence is supplied.",
+      "source": "Correct classification need not establish the intended use of evidence. \\citet{schuster-etal-2019-towards} show that biases in fact-verification claims can support prediction without the intended evidential reasoning. Claim-only accuracy can therefore provide a behavioral baseline, but does not establish possession of the relevant factual knowledge. Likewise, accuracy with evidence does not identify a particular reasoning process. Aggregate scores leave open which individual classifications are preserved or changed when evidence is supplied.",
+      "equal": true
+    },
+    "RW3": {
+      "expected": "Contrastive evidence tests whether classifications respond to relevant changes in the supplied text. Vitamin C pairs claims with closely related evidence that changes the appropriate verification outcome [Schuster et al. (2021)]. In that setting, evidence sensitivity can require a changed predicted label. This differs from asking whether supplying a fixed designated passage preserves a classification that already agrees with a fixed benchmark reference.",
+      "source": "Contrastive evidence tests whether classifications respond to relevant changes in the supplied text. Vitamin C pairs claims with closely related evidence that changes the appropriate verification outcome \\citep{schuster-etal-2021-get}. In that setting, evidence sensitivity can require a changed predicted label. This differs from asking whether supplying a fixed designated passage preserves a classification that already agrees with a fixed benchmark reference.",
+      "equal": true
+    },
+    "RW4": {
+      "expected": "Related work also examines conflicts between stored and supplied information and robustness to input changes. Longpre et al. (2021) study entity-based knowledge conflicts in question answering. FactEval studies word- and character-level perturbations in fact verification [Mamta and Cocarascu (2025)]. These interventions establish distinct settings for studying changes in returned outputs. They leave open how losses under evidence addition with the instruction fixed compare with variation across fresh calls using an identical prompt.",
+      "source": "Related work also examines conflicts between stored and supplied information and robustness to input changes. \\citet{longpre-etal-2021-entity} study entity-based knowledge conflicts in question answering. FactEval studies word- and character-level perturbations in fact verification \\citep{mamta-cocarascu-2025-facteval}. These interventions establish distinct settings for studying changes in returned outputs. They leave open how losses under evidence addition with the instruction fixed compare with variation across fresh calls using an identical prompt.",
+      "equal": true
+    },
+    "RW5": {
+      "expected": "Evidence insufficiency means that the supplied material does not settle a relevant support or refutation judgment; it is distinct from a classifier's failure to decide. Atanasova et al. (2022) examine recognition of insufficiency after information is removed from evidence. AmbiFC represents ambiguous claims through competing interpretations and annotator disagreement [Glockner et al. (2024)]. These distinctions matter when interpreting a scored regression: the selected text can omit a necessary fact, permit more than one reading, or appear to conflict with the reference. An automated text review can flag those possibilities without validating a replacement label.",
+      "source": "Evidence insufficiency means that the supplied material does not settle a relevant support or refutation judgment; it is distinct from a classifier's failure to decide. \\citet{atanasova-etal-2022-fact} examine recognition of insufficiency after information is removed from evidence. AmbiFC represents ambiguous claims through competing interpretations and annotator disagreement \\citep{glockner-etal-2024-ambifc}. These distinctions matter when interpreting a scored regression: the selected text can omit a necessary fact, permit more than one reading, or appear to conflict with the reference. An automated text review can flag those possibilities without validating a replacement label.",
+      "equal": true
+    },
+    "RW6": {
+      "expected": "Automated judgments themselves require qualification. Chen et al. (2024) examine judgment bias in LLM evaluation, supporting scrutiny of the evaluator rather than treating its output as ground truth. Automated interpretation of claim–evidence relations therefore requires disclosure of the evaluator and review procedure, alongside a distinction between interpretive flags and benchmark scoring.",
+      "source": "Automated judgments themselves require qualification. \\citet{chen-etal-2024-humans} examine judgment bias in LLM evaluation, supporting scrutiny of the evaluator rather than treating its output as ground truth. Automated interpretation of claim--evidence relations therefore requires disclosure of the evaluator and review procedure, alongside a distinction between interpretive flags and benchmark scoring.",
+      "equal": true
+    },
+    "RW7": {
+      "expected": "The present experiment addresses these evaluation questions by supplying a fixed designated evidence set under an unchanged classification instruction, then testing an additional evidence-only restriction separately. Paired outcomes show which classifications improve or regress, and repeated identical-prompt calls provide an observed directional-loss comparison. An exploratory selected-case analysis examines visible claim–evidence features and interpretation concerns; its unblinded AI judgments remain separate from the frozen benchmark scores. Earlier Evidex judge-family analyses concern a different cohort and procedure, documented in Supplement S4.",
+      "source": "The present experiment addresses these evaluation questions by supplying a fixed designated evidence set under an unchanged classification instruction, then testing an additional evidence-only restriction separately. Paired outcomes show which classifications improve or regress, and repeated identical-prompt calls provide an observed directional-loss comparison. An exploratory selected-case analysis examines visible claim--evidence features and interpretation concerns; its unblinded AI judgments remain separate from the frozen benchmark scores. Earlier Evidex judge-family analyses concern a different cohort and procedure, documented in Supplement S4.",
+      "equal": true
+    },
+    "M1": {
+      "expected": "The workflow begins with fixed claims, reference labels, and selected evidence. Each model classifies every claim separately under A, B, and C. A-to-B changes the evidence content while holding the instruction fixed; B-to-C changes only the evidence-only phrase. Each repetition is a fresh stateless request, rather than another choice returned by one request. Saved raw responses are parsed under the fixed rule and compared with the unchanged reference. The resulting matched outcomes feed the quantitative summaries and a separately selected exploratory case analysis (Figure 1). Coding never feeds back into benchmark scoring.",
+      "source": "The workflow begins with fixed claims, reference labels, and selected evidence. Each model classifies every claim separately under A, B, and C. A-to-B changes the evidence content while holding the instruction fixed; B-to-C changes only the evidence-only phrase. Each repetition is a fresh stateless request, rather than another choice returned by one request. Saved raw responses are parsed under the fixed rule and compared with the unchanged reference. The resulting matched outcomes feed the quantitative summaries and a separately selected exploratory case analysis (Figure~\\ref{fig:workflow}). Coding never feeds back into benchmark scoring.",
+      "equal": true
+    },
+    "M2": {
+      "expected": "For a fixed model, claim, and matched repetition, each contrast has four mutually exclusive outcomes: stayed correct, rescue (wrong to correct), regression (correct to wrong), and stayed wrong. They partition the assigned pairs. Left-condition accuracy counts stayed-correct cases plus regressions; right-condition accuracy counts stayed-correct cases plus rescues. Consequently, the accuracy difference equals rescues minus regressions divided by the assigned pair count. The stayed-correct fraction alone is neither condition's accuracy. The same definitions apply to A-to-B, B-to-C, and the combined A-to-C contrast.",
+      "source": "For a fixed model, claim, and matched repetition, each contrast has four mutually exclusive outcomes: \\emph{stayed correct}, \\emph{rescue} (wrong to correct), \\emph{regression} (correct to wrong), and \\emph{stayed wrong}. They partition the assigned pairs. Left-condition accuracy counts stayed-correct cases plus regressions; right-condition accuracy counts stayed-correct cases plus rescues. Consequently, the accuracy difference equals rescues minus regressions divided by the assigned pair count. The stayed-correct fraction alone is neither condition's accuracy. The same definitions apply to A-to-B, B-to-C, and the combined A-to-C contrast.",
+      "equal": true
+    },
+    "M3": {
+      "expected": "Repeated summaries first reduce outcomes within each claim, then aggregate across claims. They do not treat repeated calls as new independent claim observations. Let cimXr indicate whether model m classifies claim i correctly in condition X, repetition r, and let K be the assigned number of repetitions. Matched between-condition loss and ordered identical-left-condition loss are",
+      "source": "Repeated summaries first reduce outcomes within each claim, then aggregate across claims. They do not treat repeated calls as new independent claim observations. Let $c_{imXr}$ indicate whether model $m$ classifies claim $i$ correctly in condition $X$, repetition $r$, and let $K$ be the assigned number of repetitions. Matched between-condition loss and ordered identical-left-condition loss are",
+      "equal": true
+    },
+    "M4": {
+      "expected": "Their difference is the per-claim excess loss relative to observed directional variation under the left prompt. Label disagreement instead counts unequal outputs over unordered pairs. With complete binary outputs, its rate is twice the ordered correct-to-wrong rate: each unequal unordered pair contributes one loss among its two orderings. These are different denominators and quantities. Recurrence records how many matched repetitions have the same outcome, including loss on every recorded repetition; it does not establish a permanent individual property.",
+      "source": "Their difference is the per-claim excess loss relative to observed directional variation under the left prompt. Label disagreement instead counts unequal outputs over unordered pairs. With complete binary outputs, its rate is twice the ordered correct-to-wrong rate: each unequal unordered pair contributes one loss among its two orderings. These are different denominators and quantities. Recurrence records how many matched repetitions have the same outcome, including loss on every recorded repetition; it does not establish a permanent individual property.",
+      "equal": true
+    },
+    "RQ1": {
+      "expected": "The experiment asks: RQ1, how do aggregate accuracy and paired gains and losses differ when selected evidence is added and when the instruction is subsequently restricted? RQ2, how do those losses compare with identical-prompt variation, and which recur over the recorded repetitions? RQ3, what observable claim–evidence features and interpretation concerns accompany selected regressions and comparison outcomes? The first-pass contrasts answer RQ1; repeated summaries answer RQ2; the explicitly exploratory case analysis addresses RQ3 without identifying internal causes.",
+      "source": "The experiment asks: RQ1, how do aggregate accuracy and paired gains and losses differ when selected evidence is added and when the instruction is subsequently restricted? RQ2, how do those losses compare with identical-prompt variation, and which recur over the recorded repetitions? RQ3, what observable claim--evidence features and interpretation concerns accompany selected regressions and comparison outcomes? The first-pass contrasts answer RQ1; repeated summaries answer RQ2; the explicitly exploratory case analysis addresses RQ3 without identifying internal causes.",
+      "equal": true
+    },
+    "X1": {
+      "expected": "The present experiment reuses a fixed FEVER development slice of 10,000 records: 5,000 Supported and 5,000 Refuted, excluding Not Enough Info. Each input retains its previously selected annotated evidence and unchanged sentence text. A targeted comparison with the official FEVER development release matched all 10,000 claim texts, reference labels, and selected evidence-pointer sets, using the preparation's existing Unicode NFC title normalization (Supplement S5). This establishes release correspondence, not factual correctness of every annotation. Evidence is supplied directly; “selected gold evidence” does not imply retrieval or guaranteed sufficiency under every interpretation.",
+      "source": "The present experiment reuses a fixed FEVER development slice of 10,000 records: 5,000 Supported and 5,000 Refuted, excluding Not Enough Info. Each input retains its previously selected annotated evidence and unchanged sentence text. A targeted comparison with the \\href{https://fever.ai/download/fever/shared_task_dev.jsonl}{official FEVER development release} matched all 10,000 claim texts, reference labels, and selected evidence-pointer sets, using the preparation's existing Unicode NFC title normalization (Supplement S5). This establishes release correspondence, not factual correctness of every annotation. Evidence is supplied directly; ``selected gold evidence'' does not imply retrieval or guaranteed sufficiency under every interpretation.",
+      "equal": true
+    },
+    "X2": {
+      "expected": "Requests used gpt-5.4 and gpt-5.4-mini. The corresponding returned identifiers were gpt-5.4-2026-03-05 and gpt-5.4-mini-2026-03-17. Recorded provider creation times span October 17, 2026, 00:31–13:41 UTC. Three fresh stateless calls per model, claim, and condition yield 10,000×2×3×3=180,000 responses. Temperature was zero, with no prior conversation, retrieval, or tools. The joint schedule was shuffled across models, claims, conditions, and repetition indices. Table 1 defines the input contrasts; Appendix A gives exact messages and settings.",
+      "source": "Requests used \\texttt{gpt-5.4} and \\texttt{gpt-5.4-mini}. The corresponding returned identifiers were \\texttt{gpt-\\allowbreak{}5.4-\\allowbreak{}2026-\\allowbreak{}03-\\allowbreak{}05} and \\texttt{gpt-\\allowbreak{}5.4-\\allowbreak{}mini-\\allowbreak{}2026-\\allowbreak{}03-\\allowbreak{}17}. Recorded provider creation times span October 17, 2026, 00:31--13:41 UTC. Three fresh stateless calls per model, claim, and condition yield $10{,}000\\times2\\times3\\times3=180{,}000$ responses. Temperature was zero, with no prior conversation, retrieval, or tools. The joint schedule was shuffled across models, claims, conditions, and repetition indices. Table~\\ref{tab:conditions} defines the input contrasts; Appendix~\\ref{app:messages} gives exact messages and settings.",
+      "equal": true
+    },
+    "X3": {
+      "expected": "The frozen parser accepts one valid Supported or Refuted label under strict returned-model, choice, stop, and refusal checks. All 180,000 planned outcomes were valid, with zero failed, invalid, uncertain, missing, or detected duplicate request-bearing submissions. Recording retained requests, raw responses, parsed labels, and usage. Collection resumed after a database interruption without changing the scientific configuration; the execution and recording details are in Supplement S1.",
+      "source": "The frozen parser accepts one valid Supported or Refuted label under strict returned-model, choice, stop, and refusal checks. All 180,000 planned outcomes were valid, with zero failed, invalid, uncertain, missing, or detected duplicate request-bearing submissions. Recording retained requests, raw responses, parsed labels, and usage. Collection resumed after a database interruption without changing the scientific configuration; the execution and recording details are in Supplement S1.",
+      "equal": true
+    },
+    "S1": {
+      "expected": "Repetition 1 and the A-to-B and B-to-C contrasts were designated primary before collection; A-to-C is secondary. “First pass” names that prespecified index, not chronological finishing order. All-three summaries include repetition 1. Descriptive 95% intervals use the frozen 2,000-draw bootstrap of 9,855 casefolded, whitespace-normalized claim-text clusters, seed 20261016. Repetitions are reduced within claim before resampling, with shared cluster weights across models, conditions, repetitions, and labels and fixed observed label-stratum proportions. Thus calls are not treated as independent claims. Supplement S2 gives the complete resampling rules and denominators.",
+      "source": "Repetition 1 and the A-to-B and B-to-C contrasts were designated primary before collection; A-to-C is secondary. ``First pass'' names that prespecified index, not chronological finishing order. All-three summaries include repetition 1. Descriptive 95\\% intervals use the frozen 2,000-draw bootstrap of 9,855 casefolded, whitespace-normalized claim-text clusters, seed 20261016. Repetitions are reduced within claim before resampling, with shared cluster weights across models, conditions, repetitions, and labels and fixed observed label-stratum proportions. Thus calls are not treated as independent claims. Supplement S2 gives the complete resampling rules and denominators.",
+      "equal": true
+    },
+    "T1": {
+      "expected": "The exploratory case sample includes every all-three A-to-B regression (186 model–claim cases across 160 IDs), every all-three B-to-C regression separately (59 cases across 58 IDs), and capped samples of A-to-B rescues, stayed-wrong cases, stayed-correct cases, and mixed-repetition regressions. It contains 465 cases across 416 distinct claims. Seeded sampling and the codebook are documented in Supplement S3. Multiple visible feature labels are allowed; a separate assessment records support, apparent conflict, insufficiency, or ambiguity relative to the frozen reference.",
+      "source": "The exploratory case sample includes every all-three A-to-B regression (186 model--claim cases across 160 IDs), every all-three B-to-C regression separately (59 cases across 58 IDs), and capped samples of A-to-B rescues, stayed-wrong cases, stayed-correct cases, and mixed-repetition regressions. It contains 465 cases across 416 distinct claims. Seeded sampling and the codebook are documented in Supplement S3. Multiple visible feature labels are allowed; a separate assessment records support, apparent conflict, insufficiency, or ambiguity relative to the frozen reference.",
+      "equal": true
+    },
+    "T2": {
+      "expected": "The same unblinded AI assistant coded the cases and performed a subsequent review covering 230 of the 416 claims; 186 did not receive second review. No independent coding or human validation was performed. Reference-conflict assessments remain review flags, and neither coding nor rechecking changes benchmark labels or scores. Coverage, revisions, and complete case records are retained in Supplement S3.",
+      "source": "The same unblinded AI assistant coded the cases and performed a subsequent review covering 230 of the 416 claims; 186 did not receive second review. No independent coding or human validation was performed. Reference-conflict assessments remain review flags, and neither coding nor rechecking changes benchmark labels or scores. Coverage, revisions, and complete case records are retained in Supplement S3.",
+      "equal": true
+    },
+    "B1": {
+      "expected": "Adding selected evidence improves first-pass benchmark accuracy for both models while leaving a smaller set of paired losses. GPT-5.4 rises from 88.58% in A to 96.17% in B; mini rises from 84.90% to 95.45% (Table 2). The corresponding gains are 7.59 percentage points (descriptive 95% interval 7.01–8.19) and 10.55 points (9.87–11.26). Because A and B use the same instruction, these gains quantify evidence addition under the same classification task.",
+      "source": "Adding selected evidence improves first-pass benchmark accuracy for both models while leaving a smaller set of paired losses. GPT-5.4 rises from 88.58\\% in A to 96.17\\% in B; mini rises from 84.90\\% to 95.45\\% (Table~\\ref{tab:accuracy}). The corresponding gains are 7.59 percentage points (descriptive 95\\% interval 7.01--8.19) and 10.55 points (9.87--11.26). Because A and B use the same instruction, these gains quantify evidence addition under the same classification task.",
+      "equal": true
+    },
+    "B2": {
+      "expected": "Rescues explain the positive net gains, but do not erase regressions (Table 3). A-to-B produces 857 rescues and 98 regressions for GPT-5.4, and 1,200 rescues and 145 regressions for mini. Thirty-four claim IDs regress for both models, so 98+145−34=209 distinct records account for 243 model–claim regression observations. The remaining 8,760/285 and 8,345/310 pairs stayed correct/stayed wrong for main/mini. These joint counts distinguish improvement from preservation without treating overlapping model observations as independent claims.",
+      "source": "Rescues explain the positive net gains, but do not erase regressions (Table~\\ref{tab:transitions}). A-to-B produces 857 rescues and 98 regressions for GPT-5.4, and 1,200 rescues and 145 regressions for mini. Thirty-four claim IDs regress for both models, so $98+145-34=209$ distinct records account for 243 model--claim regression observations. The remaining 8,760/285 and 8,345/310 pairs stayed correct/stayed wrong for main/mini. These joint counts distinguish improvement from preservation without treating overlapping model observations as independent claims.",
+      "equal": true
+    },
+    "B3": {
+      "expected": "The evidence-only instruction changes much less than evidence addition in the first pass. B-to-C gives a 0.05-point difference for GPT-5.4 (-0.14–0.24) and 0.25 points for mini (0.01–0.51). Its regressions/rescues are 41/46 and 66/91. The small positive lower bound for mini is part of the descriptive interval family, not an isolated confirmatory discovery. Neither these estimates nor intervals containing zero establish equivalence. The secondary A-to-C contrast combines both input changes and is retained separately in Appendix B.",
+      "source": "The evidence-only instruction changes much less than evidence addition in the first pass. B-to-C gives a 0.05-point difference for GPT-5.4 (-0.14--0.24) and 0.25 points for mini (0.01--0.51). Its regressions/rescues are 41/46 and 66/91. The small positive lower bound for mini is part of the descriptive interval family, not an isolated confirmatory discovery. Neither these estimates nor intervals containing zero establish equivalence. The secondary A-to-C contrast combines both input changes and is retained separately in Appendix~\\ref{app:outcomes}.",
+      "equal": true
+    },
+    "V1": {
+      "expected": "Averaging all three repetitions preserves the large observed evidence benefit while making within-claim variation visible. GPT-5.4's A, B, and C accuracies are respectively 88.61%, 96.16%, and 96.18%; mini's are 84.73%, 95.52%, and 95.69%. A-to-B gains are 7.55 points (6.95–8.14) and 10.79 (10.13–11.44); B-to-C gains are 0.02 (-0.16–0.20) and 0.17 (-0.02–0.37). These summaries contain 30,000 calls per model/condition but only 10,000 claim IDs, and include the primary first pass. They are not an independent replication of it. Full estimates and interval endpoints remain in the frozen output and supplementary result tables.",
+      "source": "Averaging all three repetitions preserves the large observed evidence benefit while making within-claim variation visible. GPT-5.4's A, B, and C accuracies are respectively 88.61\\%, 96.16\\%, and 96.18\\%; mini's are 84.73\\%, 95.52\\%, and 95.69\\%. A-to-B gains are 7.55 points (6.95--8.14) and 10.79 (10.13--11.44); B-to-C gains are 0.02 (-0.16--0.20) and 0.17 (-0.02--0.37). These summaries contain 30,000 calls per model/condition but only 10,000 claim IDs, and include the primary first pass. They are not an independent replication of it. Full estimates and interval endpoints remain in the frozen output and supplementary result tables.",
+      "equal": true
+    },
+    "V2": {
+      "expected": "Identical messages do not always yield identical labels at temperature zero (Table 5). Unordered-pair disagreement is 0.667%/0.153%/0.193% in A/B/C for GPT-5.4 and 2.333%/0.713%/0.653% for mini. The ordered directional loss baseline is half each rate for these complete binary outputs, as defined in Section 3.3. Matched between-condition losses exceed that baseline in both primary contrasts (Table 6). The A-to-B excess is 0.670 percentage points (0.481–0.871) for main and 0.253 (0.019–0.490) for mini; B-to-C excesses are 0.387 (0.267–0.508) and 0.310 (0.183–0.440). The subtraction describes observed loss frequencies under this design, not the fraction of latent permanent or causal failures.",
+      "source": "Identical messages do not always yield identical labels at temperature zero (Table~\\ref{tab:variability}). Unordered-pair disagreement is 0.667\\%/0.153\\%/0.193\\% in A/B/C for GPT-5.4 and 2.333\\%/0.713\\%/0.653\\% for mini. The ordered directional loss baseline is half each rate for these complete binary outputs, as defined in Section~\\ref{sec:repeat-method}. Matched between-condition losses exceed that baseline in both primary contrasts (Table~\\ref{tab:excess}). The A-to-B excess is 0.670 percentage points (0.481--0.871) for main and 0.253 (0.019--0.490) for mini; B-to-C excesses are 0.387 (0.267--0.508) and 0.310 (0.183--0.440). The subtraction describes observed loss frequencies under this design, not the fraction of latent permanent or causal failures.",
+      "equal": true
+    },
+    "V3": {
+      "expected": "Some losses recur in every recorded matched repetition. A-to-B has 87 such GPT-5.4 cases and 99 mini cases, overlapping on 26 IDs: 186 model–claim cases across 160 distinct claims. B-to-C has 32 and 27 cases, overlapping on one ID: 59 cases across 58 claims. Across any of the repetitions, A-to-B regression appears in 301 model–claim cases across 255 IDs; the all-three cohort is a subset. The complete four-outcome count vector for every model–claim–contrast is retained, so mixed rescues, losses, and unchanged outcomes are not collapsed into a stability label. Three observed losses establish finite recurrence, not a permanent individual failure.",
+      "source": "Some losses recur in every recorded matched repetition. A-to-B has 87 such GPT-5.4 cases and 99 mini cases, overlapping on 26 IDs: 186 model--claim cases across 160 distinct claims. B-to-C has 32 and 27 cases, overlapping on one ID: 59 cases across 58 claims. Across any of the repetitions, A-to-B regression appears in 301 model--claim cases across 255 IDs; the all-three cohort is a subset. The complete four-outcome count vector for every model--claim--contrast is retained, so mixed rescues, losses, and unchanged outcomes are not collapsed into a stability label. Three observed losses establish finite recurrence, not a permanent individual failure.",
+      "equal": true
+    },
+    "C1": {
+      "expected": "The case analysis distinguishes a visible comparison demand from an explanation of a model's error. Table 7 gives four worked examples from existing records. The same negation demand accompanies a recurring regression and a successful rescue. Other rows show why a repeated benchmark loss can leave a text/reference or interpretation question unresolved.",
+      "source": "The case analysis distinguishes a visible comparison demand from an explanation of a model's error. Table~\\ref{tab:examples} gives four worked examples from existing records. The same negation demand accompanies a recurring regression and a successful rescue. Other rows show why a repeated benchmark loss can leave a text/reference or interpretation question unresolved.",
+      "equal": true
+    },
+    "C2": {
+      "expected": "The comparison groups make that distinction concrete. Numerical features occur in 65 of 186 selected recurring A-to-B regression cases and 34 of 60 sampled rescue cases (Table 9). A numerical comparison can therefore accompany either outcome; its presence is not sufficient to explain a regression. These counts use selected model–claim–contrast cases, allow overlapping features, and compare an exhaustive recurring-loss group with a capped rescue sample. They describe the selected cases rather than estimate population prevalence or identify a causal mechanism.",
+      "source": "The comparison groups make that distinction concrete. Numerical features occur in 65 of 186 selected recurring A-to-B regression cases and 34 of 60 sampled rescue cases (Table~\\ref{tab:features}). A numerical comparison can therefore accompany either outcome; its presence is not sufficient to explain a regression. These counts use selected model--claim--contrast cases, allow overlapping features, and compare an exhaustive recurring-loss group with a capped rescue sample. They describe the selected cases rather than estimate population prevalence or identify a causal mechanism.",
+      "equal": true
+    },
+    "C3": {
+      "expected": "The interpretation axis serves a different purpose from feature coding. The KGB example flags an explicit tension between the supplied sentence and the reference; the chart-position example preserves competing readings of a numerical statement. Those concerns qualify how a scored loss is described without replacing its reference label. The full assessment table and pending-review cases are provided in Supplement S3.",
+      "source": "The interpretation axis serves a different purpose from feature coding. The KGB example flags an explicit tension between the supplied sentence and the reference; the chart-position example preserves competing readings of a numerical statement. Those concerns qualify how a scored loss is described without replacing its reference label. The full assessment table and pending-review cases are provided in Supplement S3.",
+      "equal": true
+    },
+    "P1": {
+      "expected": "The pinned results bundle provides the protocol, source snapshots, frozen analysis, and provenance inventories; individual raw request/response bytes remain in the preserved local archive. Collection finished on October 17, 2026, at 13:42 UTC after database recovery. A later operating-system restart interrupted offline analysis; recovery used the unchanged analysis source and settings, completing at 23:35 UTC. Supplement S1 records the execution chronology, recording checks, usage, and archive access boundaries. The companion supplementary package assembles S1–S5, including later audit and coding records that are separate from the pinned results bundle.",
+      "source": "The \\href{https://github.com/ChimdumebiNebolisa/Evidex/tree/3893a57e6f9addadf2b2fcd2d5a4e7251abcb677/replacement_predictor_v1/published/full3-2026-10-17}{pinned results bundle} provides the protocol, source snapshots, frozen analysis, and provenance inventories; individual raw request/response bytes remain in the preserved local archive. Collection finished on October 17, 2026, at 13:42 UTC after database recovery. A later operating-system restart interrupted offline analysis; recovery used the unchanged analysis source and settings, completing at 23:35 UTC. Supplement S1 records the execution chronology, recording checks, usage, and archive access boundaries. The companion supplementary package assembles S1--S5, including later audit and coding records that are separate from the pinned results bundle.",
+      "equal": true
+    },
+    "D1": {
+      "expected": "The results separate the overall value of supplied evidence from preservation of individual benchmark-correct answers. The primary A-to-B gains are substantial, while the joint counts expose smaller paired losses and show how many rescues underlie the improvement. B-to-C changes are much smaller in this experiment, so combining that instruction change with evidence addition would obscure the distinction between them. The repeated comparison adds a reference for interpreting losses: matched between-condition losses exceed the observed directional variation under identical messages. That excess is a descriptive difference between measured rates, not a causal decomposition of error.",
+      "source": "The results separate the overall value of supplied evidence from preservation of individual benchmark-correct answers. The primary A-to-B gains are substantial, while the joint counts expose smaller paired losses and show how many rescues underlie the improvement. B-to-C changes are much smaller in this experiment, so combining that instruction change with evidence addition would obscure the distinction between them. The repeated comparison adds a reference for interpreting losses: matched between-condition losses exceed the observed directional variation under identical messages. That excess is a descriptive difference between measured rates, not a causal decomposition of error.",
+      "equal": true
+    },
+    "D2": {
+      "expected": "Recurrence adds information that a single paired output cannot provide. Losses on all three recorded matches identify a repeat pattern within these calls, even while overall accuracy improves. The selected examples show why such a pattern still needs interpretation: the model can disagree with a clear local relation, follow a sentence that conflicts with the reference, or confront competing numerical readings. Comparing regressions with rescues and successful cases prevents a common textual feature from being treated as an explanation merely because it occurs in a loss.",
+      "source": "Recurrence adds information that a single paired output cannot provide. Losses on all three recorded matches identify a repeat pattern within these calls, even while overall accuracy improves. The selected examples show why such a pattern still needs interpretation: the model can disagree with a clear local relation, follow a sentence that conflicts with the reference, or confront competing numerical readings. Comparing regressions with rescues and successful cases prevents a common textual feature from being treated as an explanation merely because it occurs in a loss.",
+      "equal": true
+    },
+    "D3": {
+      "expected": "For this evaluation, aggregate accuracy, paired transitions, repeated variation, and supplied-text interpretation answer different questions. Reporting them together makes an evidence benefit assessable without hiding losses or treating every benchmark disagreement as factual deterioration. Earlier Evidex predictions, natural language inference diagnostics, and automated judging used a separate historical cohort, including the original 226 claims; they are context rather than additional observations from the present experiment. Supplement S4 preserves their results and methodological qualifications.",
+      "source": "For this evaluation, aggregate accuracy, paired transitions, repeated variation, and supplied-text interpretation answer different questions. Reporting them together makes an evidence benefit assessable without hiding losses or treating every benchmark disagreement as factual deterioration. Earlier Evidex predictions, natural language inference diagnostics, and automated judging used a separate historical cohort, including the original 226 claims; they are context rather than additional observations from the present experiment. Supplement S4 preserves their results and methodological qualifications.",
+      "equal": true
+    },
+    "L1": {
+      "expected": "The balanced binary FEVER slice excludes Not Enough Info, natural label frequencies, and retrieval, so the results concern supplied-text classification rather than deployed fact verification. Training exposure to the claims or Wikipedia source is unknown. Identical claim texts can have different references under different supplied contexts; claim-only A cannot identify a context absent from its input. Text clustering addresses statistical dependence, not that semantic ambiguity. Correspondence with the official release does not independently verify the truth of its labels or every Wikipedia sentence.",
+      "source": "The balanced binary FEVER slice excludes Not Enough Info, natural label frequencies, and retrieval, so the results concern supplied-text classification rather than deployed fact verification. Training exposure to the claims or Wikipedia source is unknown. Identical claim texts can have different references under different supplied contexts; claim-only A cannot identify a context absent from its input. Text clustering addresses statistical dependence, not that semantic ambiguity. Correspondence with the official release does not independently verify the truth of its labels or every Wikipedia sentence.",
+      "equal": true
+    },
+    "L2": {
+      "expected": "The two models are related GPT variants observed during one recorded collection period under the stated model configurations. Snapshot identifiers do not exclude hidden serving changes, and system fingerprints were unreported. Three calls at temperature zero describe finite variation rather than future stability. Bootstrap intervals condition on the recorded outputs and label balance; they do not cover all provider or population uncertainty, and small instruction differences do not establish equivalence.",
+      "source": "The two models are related GPT variants observed during one recorded collection period under the stated model configurations. Snapshot identifiers do not exclude hidden serving changes, and system fingerprints were unreported. Three calls at temperature zero describe finite variation rather than future stability. Bootstrap intervals condition on the recorded outputs and label balance; they do not cover all provider or population uncertainty, and small instruction differences do not establish equivalence.",
+      "equal": true
+    },
+    "L3": {
+      "expected": "The taxonomy is an exploratory, outcome-enriched sample with overlapping features, unblinded AI coding, incomplete second review, and no human validation. Its counts cannot estimate population error prevalence or adjudicate true reference errors. Stronger reference-correction claims would require source and human adjudication.",
+      "source": "The taxonomy is an exploratory, outcome-enriched sample with overlapping features, unblinded AI coding, incomplete second review, and no human validation. Its counts cannot estimate population error prevalence or adjudicate true reference errors. Stronger reference-correction claims would require source and human adjudication.",
+      "equal": true
+    },
+    "CON1": {
+      "expected": "Adding selected evidence under a fixed instruction improves first-pass reference-label accuracy for both tested models, with rescues exceeding regressions. Separating the instruction contrast, measuring identical-prompt directional loss, and recording finite recurrence provide information that the net gain alone omits. The exploratory cases make the interpretation of those benchmark transitions more specific while preserving unresolved reference and evidence questions. Together, these measurements give a bounded account of evidence benefits and recurring losses on the tested FEVER slice.",
+      "source": "Adding selected evidence under a fixed instruction improves first-pass reference-label accuracy for both tested models, with rescues exceeding regressions. Separating the instruction contrast, measuring identical-prompt directional loss, and recording finite recurrence provide information that the net gain alone omits. The exploratory cases make the interpretation of those benchmark transitions more specific while preserving unresolved reference and evidence questions. Together, these measurements give a bounded account of evidence benefits and recurring losses on the tested FEVER slice.",
+      "equal": true
+    },
+    "APM1": {
+      "expected": "The following templates use literal line breaks. Braced fields are replaced by the unchanged prepared strings. Every call has one user message; the request body adds only the model identifier and settings described in Section 4.2. A contains no empty evidence field. The three conditions are not the historical judge-disclosure stages, which used different inputs and labels.",
+      "source": "The following templates use literal line breaks. Braced fields are replaced by the unchanged prepared strings. Every call has one user message; the request body adds only the model identifier and settings described in Section~\\ref{sec:setup}. A contains no empty evidence field. The three conditions are not the historical judge-disclosure stages, which used different inputs and labels.",
+      "equal": true
+    },
+    "APM2": {
+      "expected": "Condition B appends Evidence: {gold_evidence} on a new line after the claim. Condition C instead uses the first sentence below, followed by the same one-word output instruction, blank line, claim, and evidence as B.",
+      "source": "Condition B appends \\texttt{Evidence: \\{gold\\_evidence\\}} on a new line after the claim. Condition C instead uses the first sentence below, followed by the same one-word output instruction, blank line, claim, and evidence as B.",
+      "equal": true
+    },
+    "APM3": {
+      "expected": "Requests used the direct OpenAI Chat Completions endpoint. The output contract accepts exactly the requested binary label with the frozen minimal normalization and validates raw structure, finish reason, refusal, and returned identity. Plan/job hashes, receipts, raw bytes, parsed results, and usage remain linked. Complete materialized request examples and all scientific settings are in the pinned publication bundle; raw request headers containing credentials were not archived.",
+      "source": "Requests used the direct OpenAI Chat Completions endpoint. The output contract accepts exactly the requested binary label with the frozen minimal normalization and validates raw structure, finish reason, refusal, and returned identity. Plan/job hashes, receipts, raw bytes, parsed results, and usage remain linked. Complete materialized request examples and all scientific settings are in the pinned publication bundle; raw request headers containing credentials were not archived.",
+      "equal": true
+    },
+    "APM4": {
+      "expected": "Every request used one user message and no system/developer message, history, retrieval, tools, or appended run identifier. Settings were temperature 0, reasoning effort none, completion cap 32 tokens, n=1, non-streaming, storage disabled, and requested service tier default; no API sampling seed varied across calls. The joint schedule used seed 20261016. Returned service tiers were default; system fingerprints were unreported. The original fixed-slice extraction recorded seed 42.",
+      "source": "Every request used one user message and no system/developer message, history, retrieval, tools, or appended run identifier. Settings were temperature 0, reasoning effort \\texttt{none}, completion cap 32 tokens, $n=1$, non-streaming, storage disabled, and requested service tier \\texttt{default}; no API sampling seed varied across calls. The joint schedule used seed 20261016. Returned service tiers were \\texttt{default}; system fingerprints were unreported. The original fixed-slice extraction recorded seed 42.",
+      "equal": true
+    },
+    "APO1": {
+      "expected": "Table 8 reports the secondary A-to-C contrast, which combines evidence addition and the instruction restriction. Its first-pass counts use 10,000 matched pairs per model; all-three changes average within those same 10,000 claims. Supplement S2 retains the complete four-outcome vectors and repetition records.",
+      "source": "Table~\\ref{tab:secondary} reports the secondary A-to-C contrast, which combines evidence addition and the instruction restriction. Its first-pass counts use 10,000 matched pairs per model; all-three changes average within those same 10,000 claims. Supplement S2 retains the complete four-outcome vectors and repetition records.",
+      "equal": true
+    },
+    "APO2": {
+      "expected": "Secondary A-to-C all-three recurrence is 208 model–claim cases across 174 IDs. Across any matched repetition it appears in 320 model–claim cases across 264 IDs. These combine evidence and instruction changes, rather than adding evidence alone. Fresh outcomes within the historically selected cohort are reported separately in the frozen summary; they are not the historical predictors' recorded responses.",
+      "source": "Secondary A-to-C all-three recurrence is 208 model--claim cases across 174 IDs. Across any matched repetition it appears in 320 model--claim cases across 264 IDs. These combine evidence and instruction changes, rather than adding evidence alone. Fresh outcomes within the historically selected cohort are reported separately in the frozen summary; they are not the historical predictors' recorded responses.",
+      "equal": true
+    },
+    "APT2": {
+      "expected": "Features describe visible comparison demands: negation (NEG), scope or degree (SCOPE), relations and roles (REL), entities and attribute fillers (ENT), numerical comparison (NUM), semantic readings or granularity (LEX), contextual linkage (CTX), missing warrant in the supplied text (GAP), and material wording or extraction issues (TXT). DIRECT is an ordinary local match or mismatch with no distinctive feature; UNCLEAR retains unresolved coding. Multiple labels may apply, except that DIRECT does not accompany a substantive feature.",
+      "source": "Features describe visible comparison demands: negation (NEG), scope or degree (SCOPE), relations and roles (REL), entities and attribute fillers (ENT), numerical comparison (NUM), semantic readings or granularity (LEX), contextual linkage (CTX), missing warrant in the supplied text (GAP), and material wording or extraction issues (TXT). DIRECT is an ordinary local match or mismatch with no distinctive feature; UNCLEAR retains unresolved coding. Multiple labels may apply, except that DIRECT does not accompany a substantive feature.",
+      "equal": true
+    },
+    "APT3": {
+      "expected": "Table 9 counts selected model–claim–contrast cases, so feature totals can exceed group sizes. Cases can overlap across claim IDs and selection groups. The supplied-text assessment axis, sampling definitions, AI review coverage, and complete case records appear in Supplement S3.",
+      "source": "Table~\\ref{tab:features} counts selected model--claim--contrast cases, so feature totals can exceed group sizes. Cases can overlap across claim IDs and selection groups. The supplied-text assessment axis, sampling definitions, AI review coverage, and complete case records appear in Supplement S3.",
+      "equal": true
+    }
+  },
+  "tables": [
+    {
+      "label": "tab:conditions",
+      "cells": [
+        [
+          "Condition",
+          "Claim",
+          "Selected evidence",
+          "First-sentence instruction"
+        ],
+        [
+          "A",
+          "Present",
+          "Absent",
+          "Classify the claim as Supported or Refuted."
+        ],
+        [
+          "B",
+          "Present",
+          "Present",
+          "Same as A."
+        ],
+        [
+          "C",
+          "Present",
+          "Present",
+          "As B, with “based only on the evidence provided” added."
+        ]
+      ]
+    },
+    {
+      "label": "tab:accuracy",
+      "cells": [
+        [
+          "Condition",
+          "GPT-5.4",
+          "Mini"
+        ],
+        [
+          "A",
+          "88.58 (87.95 to 89.20)",
+          "84.90 (84.19 to 85.60)"
+        ],
+        [
+          "B",
+          "96.17 (95.77 to 96.53)",
+          "95.45 (95.04 to 95.86)"
+        ],
+        [
+          "C",
+          "96.22 (95.83 to 96.61)",
+          "95.70 (95.30 to 96.07)"
+        ]
+      ]
+    },
+    {
+      "label": "tab:transitions",
+      "cells": [
+        [
+          "Model",
+          "Pair",
+          "Stay correct",
+          "Rescue",
+          "Regress",
+          "Stay wrong",
+          "Change (pp)"
+        ],
+        [
+          "5.4",
+          "AB",
+          "8,760",
+          "857",
+          "98",
+          "285",
+          "7.59 (7.01 to 8.19)"
+        ],
+        [
+          "5.4",
+          "BC",
+          "9,576",
+          "46",
+          "41",
+          "337",
+          "0.05 (-0.14 to 0.24)"
+        ],
+        [
+          "Mini",
+          "AB",
+          "8,345",
+          "1,200",
+          "145",
+          "310",
+          "10.55 (9.87 to 11.26)"
+        ],
+        [
+          "Mini",
+          "BC",
+          "9,479",
+          "91",
+          "66",
+          "364",
+          "0.25 (0.01 to 0.51)"
+        ]
+      ]
+    },
+    {
+      "label": "tab:repeat",
+      "cells": [
+        [
+          "Measure",
+          "GPT-5.4",
+          "Mini"
+        ],
+        [
+          "A accuracy",
+          "88.61 (88.01 to 89.22)",
+          "84.73 (84.04 to 85.43)"
+        ],
+        [
+          "B accuracy",
+          "96.16 (95.77 to 96.53)",
+          "95.52 (95.12 to 95.89)"
+        ],
+        [
+          "C accuracy",
+          "96.18 (95.79 to 96.56)",
+          "95.69 (95.29 to 96.06)"
+        ],
+        [
+          "AB change",
+          "7.55 (6.95 to 8.14)",
+          "10.79 (10.13 to 11.44)"
+        ],
+        [
+          "BC change",
+          "0.02 (-0.16 to 0.20)",
+          "0.17 (-0.02 to 0.37)"
+        ]
+      ]
+    },
+    {
+      "label": "tab:variability",
+      "cells": [
+        [
+          "Model",
+          "Condition",
+          "Label disagreement",
+          "Directional loss"
+        ],
+        [
+          "5.4",
+          "A",
+          "0.667 (0.540 to 0.800)",
+          "0.333"
+        ],
+        [
+          "5.4",
+          "B",
+          "0.153 (0.099 to 0.219)",
+          "0.077"
+        ],
+        [
+          "5.4",
+          "C",
+          "0.193 (0.126 to 0.263)",
+          "0.097"
+        ],
+        [
+          "Mini",
+          "A",
+          "2.333 (2.091 to 2.579)",
+          "1.167"
+        ],
+        [
+          "Mini",
+          "B",
+          "0.713 (0.585 to 0.855)",
+          "0.357"
+        ],
+        [
+          "Mini",
+          "C",
+          "0.653 (0.525 to 0.786)",
+          "0.327"
+        ]
+      ]
+    },
+    {
+      "label": "tab:excess",
+      "cells": [
+        [
+          "Contrast",
+          "GPT-5.4",
+          "Mini"
+        ],
+        [
+          "AB",
+          "0.670 (0.481 to 0.871)",
+          "0.253 (0.019 to 0.490)"
+        ],
+        [
+          "BC",
+          "0.387 (0.267 to 0.508)",
+          "0.310 (0.183 to 0.440)"
+        ]
+      ]
+    },
+    {
+      "label": "tab:examples",
+      "cells": [
+        [
+          "ID and claim",
+          "Supplied sentence and frozen reference",
+          "Predictions",
+          "Feature and interpretation"
+        ],
+        [
+          "129011; DNA is uninvolved with Little Mix.",
+          "“DNA is the debut studio album by British girl group Little Mix .”; Reference: Refuted",
+          "A: RRR; B: SSS; C: RRR",
+          "Negation and album context. In the album sense, the sentence opposes the claim. B loses reference agreement in all three calls and C restores it; the outputs do not identify why."
+        ],
+        [
+          "75904; The Indian Army does not comprise more than 80% of the country's active defense personnel.",
+          "“It is an all-volunteer force and comprises more than 80 % of the country 's active defence personnel .”; Reference: Refuted",
+          "A: SSS; B: RRR; C: RRR",
+          "Negation and number comparison. The supplied assertion opposes its direct denial, accompanying a rescue in all three calls. These visible demands also occur in regression cases."
+        ],
+        [
+          "51757; The KGB was not a military service.",
+          "“The KGB was a military service and was governed by army laws and regulations , similar to the Soviet Army or MVD Internal Troops .”; Reference: Supported",
+          "A: SSS; B: RRR; C: RRR",
+          "Reference/evidence tension. The sentence calls the KGB a military service, opposing the Supported claim. Repeated benchmark loss does not settle factual deterioration; adjudication is pending."
+        ],
+        [
+          "180726; Victoria (Dance Exponents song) reached number 8 on the New Zealand singles chart.",
+          "“Released in 1982 it reached Number 6 on the New Zealand singles chart .”; Reference: Supported",
+          "A: SSS; B: RRR; C: RRR",
+          "Numerical interpretation. Reached 6 does not explicitly mean peaked at 6 or never reached 8. The repeated loss is observed, while the intended reading remains unresolved."
+        ]
+      ]
+    },
+    {
+      "label": "tab:secondary",
+      "cells": [
+        [
+          "Measure",
+          "GPT-5.4",
+          "Mini"
+        ],
+        [
+          "Stayed correct",
+          "8,750",
+          "8,343"
+        ],
+        [
+          "Rescue",
+          "872",
+          "1,227"
+        ],
+        [
+          "Regression",
+          "108",
+          "147"
+        ],
+        [
+          "Stayed wrong",
+          "270",
+          "283"
+        ],
+        [
+          "First-pass change",
+          "7.64 (7.04 to 8.22)",
+          "10.80 (10.11 to 11.50)"
+        ],
+        [
+          "All-three change",
+          "7.56 (6.98 to 8.14)",
+          "10.96 (10.31 to 11.62)"
+        ]
+      ]
+    },
+    {
+      "label": "tab:features",
+      "cells": [
+        [
+          "Code",
+          "AB all3",
+          "BC all3",
+          "Rescue",
+          "Stay wrong",
+          "Stay correct",
+          "AB mixed"
+        ],
+        [
+          "NEG",
+          "12",
+          "1",
+          "9",
+          "4",
+          "4",
+          "4"
+        ],
+        [
+          "SCOPE",
+          "34",
+          "11",
+          "11",
+          "13",
+          "9",
+          "6"
+        ],
+        [
+          "REL",
+          "87",
+          "24",
+          "14",
+          "20",
+          "14",
+          "19"
+        ],
+        [
+          "ENT",
+          "33",
+          "12",
+          "6",
+          "10",
+          "13",
+          "4"
+        ],
+        [
+          "NUM",
+          "65",
+          "15",
+          "34",
+          "15",
+          "12",
+          "9"
+        ],
+        [
+          "LEX",
+          "62",
+          "27",
+          "10",
+          "26",
+          "16",
+          "17"
+        ],
+        [
+          "CTX",
+          "69",
+          "19",
+          "26",
+          "24",
+          "15",
+          "18"
+        ],
+        [
+          "GAP",
+          "70",
+          "24",
+          "8",
+          "23",
+          "5",
+          "17"
+        ],
+        [
+          "TXT",
+          "10",
+          "4",
+          "3",
+          "2",
+          "0",
+          "0"
+        ],
+        [
+          "DIRECT",
+          "1",
+          "0",
+          "3",
+          "1",
+          "8",
+          "0"
+        ],
+        [
+          "UNCLEAR",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0"
+        ]
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "label": "fig:workflow",
+      "caption": "Workflow for paired classification and subsequent exploratory case analysis. Arrows show data flow and selection, not causal explanations. Repeated A/B/C calls feed frozen benchmark summaries; selected claim–evidence cases feed AI coding and its documented recheck. Coding does not alter reference labels or benchmark outcomes."
+    }
+  ],
+  "references": [
+    {
+      "id": "atanasova-etal-2022-fact",
+      "text": "Pepa Atanasova, Jakob Grue Simonsen, Christina Lioma, and Isabelle Augenstein. Fact checking with insufficient evidence. Transactions of the Association for Computational Linguistics, 10: 746–763, 2022. doi: 10.1162/tacl_a_00486. URL https://aclanthology.org/2022.tacl-1.43/."
+    },
+    {
+      "id": "chen-etal-2024-humans",
+      "text": "Guiming Hardy Chen, Shunian Chen, Ziche Liu, Feng Jiang, and Benyou Wang. Humans or LLMs as the judge? a study on judgement bias. In Yaser Al-Onaizan, Mohit Bansal, and Yun-Nung Chen, editors, Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, pages 8301–8327, Miami, Florida, USA, November 2024. Association for Computational Linguistics. doi: 10.18653/v1/2024.emnlp-main.474. URL https://aclanthology.org/2024.emnlp-main.474/."
+    },
+    {
+      "id": "glockner-etal-2024-ambifc",
+      "text": "Max Glockner, Ieva Staliūnaitė, James Thorne, Gisela Vallejo, Andreas Vlachos, and Iryna Gurevych. AmbiFC: Fact-checking ambiguous claims with evidence. Transactions of the Association for Computational Linguistics, 12: 1–18, 2024. doi: 10.1162/tacl_a_00629. URL https://aclanthology.org/2024.tacl-1.1/."
+    },
+    {
+      "id": "guo-etal-2022-survey",
+      "text": "Zhijiang Guo, Michael Schlichtkrull, and Andreas Vlachos. A survey on automated fact-checking. Transactions of the Association for Computational Linguistics, 10: 178–206, 2022. doi: 10.1162/tacl_a_00454. URL https://aclanthology.org/2022.tacl-1.11/."
+    },
+    {
+      "id": "longpre-etal-2021-entity",
+      "text": "Shayne Longpre, Kartik Perisetla, Anthony Chen, Nikhil Ramesh, Chris DuBois, and Sameer Singh. Entity-based knowledge conflicts in question answering. In Marie-Francine Moens, Xuanjing Huang, Lucia Specia, and Scott Wen-tau Yih, editors, Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, pages 7052–7063, Online and Punta Cana, Dominican Republic, November 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.emnlp-main.565. URL https://aclanthology.org/2021.emnlp-main.565/."
+    },
+    {
+      "id": "mamta-cocarascu-2025-facteval",
+      "text": "Mamta and Oana Cocarascu. FactEval: Evaluating the robustness of fact verification systems in the era of large language models. In Luis Chiruzzo, Alan Ritter, and Lu Wang, editors, Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers), pages 10647–10660, Albuquerque, New Mexico, April 2025. Association for Computational Linguistics. ISBN 979-8-89176-189-6. doi: 10.18653/v1/2025.naacl-long.534. URL https://aclanthology.org/2025.naacl-long.534/."
+    },
+    {
+      "id": "schuster-etal-2019-towards",
+      "text": "Tal Schuster, Darsh Shah, Yun Jie Serene Yeo, Daniel Roberto Filizzola Ortiz, Enrico Santus, and Regina Barzilay. Towards debiasing fact verification models. In Kentaro Inui, Jing Jiang, Vincent Ng, and Xiaojun Wan, editors, Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 3419–3425, Hong Kong, China, November 2019. Association for Computational Linguistics. doi: 10.18653/v1/D19-1341. URL https://aclanthology.org/D19-1341/."
+    },
+    {
+      "id": "schuster-etal-2021-get",
+      "text": "Tal Schuster, Adam Fisch, and Regina Barzilay. Get your vitamin C! robust fact verification with contrastive evidence. In Kristina Toutanova, Anna Rumshisky, Luke Zettlemoyer, Dilek Hakkani-Tur, Iz Beltagy, Steven Bethard, Ryan Cotterell, Tanmoy Chakraborty, and Yichao Zhou, editors, Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pages 624–643, Online, June 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.naacl-main.52. URL https://aclanthology.org/2021.naacl-main.52/."
+    },
+    {
+      "id": "thorne-etal-2018-fever",
+      "text": "James Thorne, Andreas Vlachos, Christos Christodoulopoulos, and Arpit Mittal. FEVER: a large-scale dataset for fact extraction and VERification. In Marilyn Walker, Heng Ji, and Amanda Stent, editors, Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers), pages 809–819, New Orleans, Louisiana, June 2018. Association for Computational Linguistics. doi: 10.18653/v1/N18-1074. URL https://aclanthology.org/N18-1074/."
+    }
+  ],
+  "quotes": [
+    "Classify the claim as Supported or Refuted.\n\nOutput only one word: Supported or Refuted.\n\n\nClaim: {claim_text}",
+    "Classify the claim as Supported or Refuted based only on the evidence provided."
+  ],
+  "equations": [
+    1,
+    2
+  ],
+  "visual_status": "NOT_RENDERED",
+  "equation_method": "Native OMML transformed from explicitly source-matched MathML with installed Office MML2OMML.XSL; visual QA required."
+}

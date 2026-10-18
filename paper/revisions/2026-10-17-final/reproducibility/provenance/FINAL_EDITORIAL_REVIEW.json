@@ -1,0 +1,22 @@
+{
+  "manuscript_sha256": "bd6be9c7d6df9691c99cd5c2a69e8149d769a65a75cbb2c6f980f65a61a4e0bd",
+  "independent_review": false,
+  "passes": [
+    {
+      "pass": "argument",
+      "finding": "Connected literature sequence ends with one current-study paragraph; explicit evaluation consequence in I2."
+    },
+    {
+      "pass": "evidence",
+      "finding": "Existing scientific text and numerical/table/equation/citation evidence retained; no new claims of novelty or causal mechanisms."
+    },
+    {
+      "pass": "reader/prose",
+      "finding": "Internal run name removed from ordinary prose; directional loss defined in abstract; classification remains task term."
+    },
+    {
+      "pass": "delivery",
+      "finding": "All 13 PDF pages and 14 bounded Word QA images viewed; S1–S5 assembled and portable links verified; native full Word pagination limitation disclosed."
+    }
+  ]
+}

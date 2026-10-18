@@ -16,6 +16,11 @@
       "sha256": "104c800635805d346b0ea0010f08fd3140cfadaad6e4b31e8358ae7275e10075"
     },
     {
+      "path": "export_word.py",
+      "bytes": 13369,
+      "sha256": "9d6f844827f25b0062a3328c5caa2488cc61eda8fa684f8e823d0f6d9265b360"
+    },
+    {
       "path": "figures/workflow.pdf",
       "bytes": 2547,
       "sha256": "85aab048ce5af2778893691572da92b39f116253d2139c526456ce8b2c840b31"
@@ -57,13 +62,123 @@
     },
     {
       "path": "README.md",
-      "bytes": 3093,
-      "sha256": "9c76c4051a887c30a84299fba8e7a34b40121f2be79670ad6e667253236be013"
+      "bytes": 3198,
+      "sha256": "fca0e97a8981e9be981eef9c34bc2b25fdceda9e0bb1a6359f21fe7e7c737cf9"
     },
     {
       "path": "references.bib",
       "bytes": 6581,
       "sha256": "49a6df72e448c75d42c10b6a5b85f4db33684f1a2e304ec645eac8e15da0f2d6"
+    },
+    {
+      "path": "reproducibility/provenance/citation-support.json",
+      "bytes": 36055,
+      "sha256": "2ed20dda9b6a2f82b12ff6f6c2ff2d26eb10553869587481db20691a00b9f32e"
+    },
+    {
+      "path": "reproducibility/provenance/citations.json",
+      "bytes": 54117,
+      "sha256": "1846cf93570182bb4ba8af78f3967287e1a1f8b8d61d90b24f487b2c2036d56a"
+    },
+    {
+      "path": "reproducibility/provenance/claims.json",
+      "bytes": 300319,
+      "sha256": "d94d6ebec66f88414da98d1fced550d18d2f96343ef28370b8c38332378c5e88"
+    },
+    {
+      "path": "reproducibility/provenance/compilation.json",
+      "bytes": 3544,
+      "sha256": "d453937d01bc32d404401606f5e2c4d4295225ea782311203a2ea7e9a8c0cdb5"
+    },
+    {
+      "path": "reproducibility/provenance/FINAL_EDITORIAL_REVIEW.json",
+      "bytes": 907,
+      "sha256": "2601f49f4a424a9cab9cacc95f473d86f416767111e0f63dd5c27f4d99f43587"
+    },
+    {
+      "path": "reproducibility/provenance/FINAL_PRESERVATION_CHECK.json",
+      "bytes": 2991,
+      "sha256": "83e9bc128a36b910330de1278318f726ede0fec1b9fc395dedfeb0d5823fb5c9"
+    },
+    {
+      "path": "reproducibility/provenance/integrity.json",
+      "bytes": 1244,
+      "sha256": "6164cda20cc4ba6de0ddb16dda229edb1bbefcb706e92b4eee19c65b256f3368"
+    },
+    {
+      "path": "reproducibility/provenance/layout.json",
+      "bytes": 3552,
+      "sha256": "aa8e210b0ce61a848eb6ca8994247c8ffd1f0d4b6646c27d60b3ae55e252dd13"
+    },
+    {
+      "path": "reproducibility/provenance/word-equivalence.json",
+      "bytes": 72225,
+      "sha256": "ba5e8cdc83f3655fea5b83558a9804616b56910abb0048a80899c56892d13038"
+    },
+    {
+      "path": "reproducibility/provenance/word-part-render.json",
+      "bytes": 4404,
+      "sha256": "4bfa8887f539e83382cbf034faac4b42880e15d7c28878d01a558b5191bb4f33"
+    },
+    {
+      "path": "reproducibility/README.md",
+      "bytes": 4468,
+      "sha256": "ccc1278da2481ac88e9ee98cf9d019f0e95b46aa7be2d4934220dd0f66ff0501"
+    },
+    {
+      "path": "reproducibility/REPRODUCIBILITY_CHECK.json",
+      "bytes": 860,
+      "sha256": "6b98cb875e98f8cf05dfe3cf23ea43b426f783cd4931e9516312faa5b6276318"
+    },
+    {
+      "path": "reproducibility/requirements-word.txt",
+      "bytes": 33,
+      "sha256": "9d71863b008fae501d6451d8bb458cfe7716e1bb5be3fd1388e0b9028ab234c1"
+    },
+    {
+      "path": "reproducibility/source-snapshots/assemble_recheck.py",
+      "bytes": 10797,
+      "sha256": "bcfcff29fc970f322551a5f0036cd16edfce64b03e2c8b64f451ca297e9748cb"
+    },
+    {
+      "path": "reproducibility/source-snapshots/assemble_taxonomy.py",
+      "bytes": 16802,
+      "sha256": "6a50faf29b83fe8099dcfc1294ecdf2455ea9ae754f43564a775c81c8ae43d42"
+    },
+    {
+      "path": "reproducibility/source-snapshots/audit_statistics.py",
+      "bytes": 6689,
+      "sha256": "93a1901f9e2a65165e1a4c4e59aa6892fd3c2a5731f0d97a183976eaf5f8f082"
+    },
+    {
+      "path": "reproducibility/source-snapshots/classify_and_select.py",
+      "bytes": 10714,
+      "sha256": "cbd718e39bde57923b31133e1e4f1a86694204f07959998a87be8750bdc34007"
+    },
+    {
+      "path": "reproducibility/source-snapshots/prepare_recheck.py",
+      "bytes": 4029,
+      "sha256": "729c9a0337404c06808d6de99c30416f24fa4a14dd13e5a58306d088c092440a"
+    },
+    {
+      "path": "reproducibility/source-snapshots/verify_taxonomy.py",
+      "bytes": 5903,
+      "sha256": "90a20f4109f5b4d22ef7648dd170c0bd6a7227e6ad5b07f422bbc4651be97942"
+    },
+    {
+      "path": "reproducibility/SOURCE_MANIFEST.json",
+      "bytes": 10859,
+      "sha256": "c828ba7d441778b2ada5844a40d8f8ab16ebbc27ef7b3314299159dbc0b3b424"
+    },
+    {
+      "path": "reproducibility/tests/test_verify_publication.py",
+      "bytes": 3079,
+      "sha256": "e50a3dae26746597de6427c4be47aeb3f3e960ce1f8efbb50b328aecbec04647"
+    },
+    {
+      "path": "reproducibility/verify_publication.py",
+      "bytes": 2969,
+      "sha256": "3a7f5fe0139916e5d024f75328b553a4da99ea48ca863e755a2354bb801a3520"
     },
     {
       "path": "REVISION_TRACKER.csv",
@@ -451,5 +566,6 @@
       "sha256": "30c7711269f161cd3db75e36e6510adfe23709aadb4591c7f3f44780c1eedbd1"
     }
   ],
-  "manifest_self_excluded": true
+  "manifest_self_excluded": true,
+  "reproducibility_added_at_utc": "2026-10-18T05:19:49.940783+00:00"
 }

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-18T05:19:49.915103+00:00",
+  "scope": "Reproducibility publication only; no scientific analysis, model call or manuscript rebuild.",
+  "copied_missing_source_and_provenance_files": 17,
+  "copied_files_match_original_hashes": true,
+  "existing_publication_files_preserved_except_navigation_and_manifest": true,
+  "manuscript_PDF_Word_and_all_supplements_unchanged": true,
+  "new_python_sources_parse": true,
+  "fixture_tests": 6,
+  "fixture_tests_status": "PASS; test output retained locally",
+  "navigation_links_checked": 48,
+  "credential_pattern_hits": [],
+  "excluded": "drafts, QA renders, caches, email, raw requests/responses, databases and private backups",
+  "limits": "Historical source snapshots retain original path/write assumptions; native Word pagination remains unverified."
+}

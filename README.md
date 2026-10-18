@@ -17,6 +17,8 @@ Chimdumebi Mitchell Nebolisa and Jessica Udry — completed editorial revision, 
 
 The manuscript reports the completed **180,000-response experiment**: 10,000 balanced binary FEVER records, two models, three input conditions, and three fresh calls per cell. It separates evidence addition under a fixed classification instruction from a subsequent evidence-only instruction change. Paired outcomes, repeated-call comparisons and concrete examples complement accuracy. The selected-case taxonomy is exploratory, uses unblinded AI interpretation, and does not constitute human validation or establish internal mechanisms.
 
+[Reproducibility sources, publication checker, tests and final provenance](paper/revisions/2026-10-17-final/reproducibility/README.md) are available alongside the completed revision.
+
 ## Frozen results and supporting records
 
 - [Original published results bundle](replacement_predictor_v1/published/full3-2026-10-17/README.md), pinned at [commit 3893a57](https://github.com/ChimdumebiNebolisa/Evidex/tree/3893a57e6f9addadf2b2fcd2d5a4e7251abcb677/replacement_predictor_v1/published/full3-2026-10-17), preserves protocol/source snapshots, frozen analysis and provenance/accounting records.

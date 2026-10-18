@@ -1,0 +1,1557 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "unresolved": [],
+  "records": [
+    {
+      "key": "atanasova-etal-2022-fact",
+      "identity": "VERIFIED",
+      "claim_support": "REVIEWED",
+      "metadata": {
+        "DOI": "10.1162/tacl_a_00486",
+        "title": [
+          "Fact Checking with Insufficient Evidence"
+        ],
+        "author": [
+          {
+            "given": "Pepa",
+            "family": "Atanasova",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, University of Copenhagen, Denmark. pepa@di.ku.dk"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jakob Grue",
+            "family": "Simonsen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, University of Copenhagen, Denmark. simonsen@di.ku.dk"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Christina",
+            "family": "Lioma",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, University of Copenhagen, Denmark. c.lioma@di.ku.dk"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Isabelle",
+            "family": "Augenstein",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, University of Copenhagen, Denmark. augenstein@di.ku.dk"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              27
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              27
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "publisher": "MIT Press"
+      },
+      "source": "https://api.crossref.org/works/10.1162/tacl_a_00486"
+    },
+    {
+      "key": "chen-etal-2024-humans",
+      "identity": "VERIFIED",
+      "claim_support": "REVIEWED",
+      "metadata": {
+        "DOI": "10.18653/v1/2024.emnlp-main.474",
+        "title": [
+          "Humans or LLMs as the Judge? A Study on Judgement Bias"
+        ],
+        "author": [
+          {
+            "given": "Guiming Hardy",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shunian",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ziche",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Feng",
+            "family": "Jiang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Benyou",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "published-online": null,
+        "issued": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "publisher": "Association for Computational Linguistics"
+      },
+      "source": "https://api.crossref.org/works/10.18653/v1/2024.emnlp-main.474"
+    },
+    {
+      "key": "glockner-etal-2024-ambifc",
+      "identity": "VERIFIED",
+      "claim_support": "REVIEWED",
+      "metadata": {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              30
+            ]
+          ],
+          "date-time": "2026-09-30T17:39:56Z",
+          "timestamp": 1790789996240,
+          "version": "4.1.0"
+        },
+        "reference-count": 54,
+        "publisher": "MIT Press",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  1,
+                  11
+                ]
+              ],
+              "date-time": "2024-01-11T00:00:00Z",
+              "timestamp": 1704931200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 10,
+            "URL": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "direct.mit.edu"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [],
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              9
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Automated fact-checking systems verify claims against evidence to predict their veracity. In real-world scenarios, the retrieved evidence may not unambiguously support or refute the claim and yield conflicting but valid interpretations. Existing fact-checking datasets assume that the models developed with them predict a single veracity label for each claim, thus discouraging the handling of such ambiguity. To address this issue we present AmbiFC,1 a fact-checking dataset with 10k claims derived from real-world information needs. It contains fine-grained evidence annotations of 50k passages from 5k Wikipedia pages. We analyze the disagreements arising from ambiguity when comparing claims against evidence in AmbiFC, observing a strong correlation of annotator disagreement with linguistic phenomena such as underspecification and probabilistic reasoning. We develop models for predicting veracity handling this ambiguity via soft labels, and find that a pipeline that learns the label distribution for sentence-level evidence selection and veracity prediction yields the best performance. We compare models trained on different subsets of AmbiFC and show that models trained on the ambiguous instances perform better when faced with the identified linguistic phenomena.</jats:p>",
+        "DOI": "10.1162/tacl_a_00629",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              11
+            ]
+          ],
+          "date-time": "2024-01-11T09:39:38Z",
+          "timestamp": 1704965978000
+        },
+        "page": "1-18",
+        "update-policy": "https://doi.org/10.1162/mitpressjournals.corrections.policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 12,
+        "title": [
+          "<scp>AmbiFC</scp>\n                    : Fact-Checking Ambiguous Claims with Evidence"
+        ],
+        "prefix": "10.1162",
+        "volume": "12",
+        "author": [
+          {
+            "given": "Max",
+            "family": "Glockner",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "UKP Lab, Department of Computer Science, Technical University of Darmstadt, Germany. max.glockner@tu-darmstadt.de"
+              },
+              {
+                "name": "hessian.ai, Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ieva",
+            "family": "Staliūnaitė",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Technology, University of Cambridge, UK. irs38@cam.ac.uk"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "James",
+            "family": "Thorne",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "KAIST AI, South Korea. thorne@kaist.ac.kr"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Gisela",
+            "family": "Vallejo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The University of Melbourne, Australia. gvallejo@student.unimelb.edu.au"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Andreas",
+            "family": "Vlachos",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Technology, University of Cambridge, UK. av308@cam.ac.uk"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Iryna",
+            "family": "Gurevych",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "UKP Lab, Department of Computer Science, Technical University of Darmstadt, Germany. iryna.gurevych@tu-darmstadt.de"
+              },
+              {
+                "name": "hessian.ai, Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "281",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              9
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "2024011114393074200_bib1",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.18653/v1/2021.fever-1.1",
+            "article-title": "The Fact Extraction and Verification Over Unstructured and Structured information (FEVEROUS) Shared Task",
+            "volume-title": "Proceedings of the Fourth Workshop on Fact Extraction and VERification (FEVER)",
+            "author": "Aly",
+            "year": "2021"
+          },
+          {
+            "key": "2024011114393074200_bib2",
+            "doi-asserted-by": "publisher",
+            "first-page": "4685",
+            "DOI": "10.18653/v1/D19-1475",
+            "article-title": "MultiFC: A real-world multi-domain dataset for evidence-based fact checking of claims",
+            "volume-title": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+            "author": "Augenstein",
+            "year": "2019"
+          },
+          {
+            "key": "2024011114393074200_bib3",
+            "doi-asserted-by": "publisher",
+            "first-page": "1892",
+            "DOI": "10.18653/v1/2022.emnlp-main.124",
+            "article-title": "Stop measuring calibration when humans disagree",
+            "volume-title": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+            "author": "Baan",
+            "year": "2022"
+          },
+          {
+            "key": "2024011114393074200_bib4",
+            "doi-asserted-by": "publisher",
+            "first-page": "542",
+            "DOI": "10.18653/v1/N19-1053",
+            "article-title": "Seeing things from a different angle: Discovering diverse perspectives about claims",
+            "volume-title": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+            "author": "Chen",
+            "year": "2019"
+          },
+          {
+            "key": "2024011114393074200_bib5",
+            "doi-asserted-by": "publisher",
+            "first-page": "1452",
+            "DOI": "10.1111/j.1551-6709.2010.01126.x",
+            "article-title": "Generic statements require little evidence for acceptance but have powerful implications",
+            "volume": "348",
+            "author": "Cimpian",
+            "year": "2010",
+            "journal-title": "Cognitive Science"
+          },
+          {
+            "key": "2024011114393074200_bib6",
+            "doi-asserted-by": "publisher",
+            "first-page": "2924",
+            "DOI": "10.18653/v1/N19-1300",
+            "article-title": "BoolQ: Exploring the surprising difficulty of natural yes/ no questions",
+            "volume-title": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+            "author": "Clark",
+            "year": "2019"
+          },
+          {
+            "key": "2024011114393074200_bib7",
+            "doi-asserted-by": "publisher",
+            "first-page": "177",
+            "DOI": "10.1007/11736790_9",
+            "article-title": "The PASCAL recognising textual entailment challenge",
+            "volume-title": "Machine Learning Challenges. Evaluating Predictive Uncertainty, Visual Object Classification, and Recognising Textual Entailment: First PASCAL Machine Learning Challenges Workshop, MLCW 2005, Southampton, UK, April 11–13, 2005, Revised Selected Papers",
+            "author": "Dagan",
+            "year": "2006"
+          },
+          {
+            "issue": "1",
+            "key": "2024011114393074200_bib8",
+            "doi-asserted-by": "publisher",
+            "first-page": "20",
+            "DOI": "10.2307/2346806",
+            "article-title": "Maximum likelihood estimation of observer error-rates using the EM algorithm",
+            "volume": "28",
+            "author": "Dawid",
+            "year": "1979",
+            "journal-title": "Journal of the Royal Statistical Society. Series C (Applied Statistics)"
+          },
+          {
+            "key": "2024011114393074200_bib9",
+            "doi-asserted-by": "publisher",
+            "first-page": "295",
+            "DOI": "10.18653/v1/2020.emnlp-main.21",
+            "article-title": "Calibration of pre-trained transformers",
+            "volume-title": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+            "author": "Desai",
+            "year": "2020"
+          },
+          {
+            "key": "2024011114393074200_bib10",
+            "article-title": "CLIMATE-FEVER: A dataset for verification of real-world climate claims",
+            "volume-title": "Tackling Climate Change with Machine Learning workshop at NeurIPS 2020",
+            "author": "Diggelmann",
+            "year": "2020"
+          },
+          {
+            "key": "2024011114393074200_bib11",
+            "doi-asserted-by": "publisher",
+            "first-page": "1473",
+            "DOI": "10.1162/tacl_a_00529",
+            "article-title": "FaithDial: A faithful benchmark for information-seeking dialogue",
+            "volume": "10",
+            "author": "Dziri",
+            "year": "2022",
+            "journal-title": "Transactions of the Association for Computational Linguistics"
+          },
+          {
+            "key": "2024011114393074200_bib12",
+            "article-title": "When the majority is wrong: Leveraging annotator disagreement for subjective tasks",
+            "author": "Fleisig",
+            "year": "2023",
+            "journal-title": "arXiv preprint arXiv:2305.06626v3"
+          },
+          {
+            "key": "2024011114393074200_bib13",
+            "doi-asserted-by": "publisher",
+            "first-page": "2591",
+            "DOI": "10.18653/v1/2021.naacl-main.204",
+            "article-title": "Beyond black & white: Leveraging annotator disagreement via soft-label multi-task learning",
+            "volume-title": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+            "author": "Fornaciari",
+            "year": "2021"
+          },
+          {
+            "key": "2024011114393074200_bib14",
+            "doi-asserted-by": "publisher",
+            "first-page": "5916",
+            "DOI": "10.18653/v1/2022.emnlp-main.397",
+            "article-title": "Missing counter-evidence renders NLP fact-checking unrealistic for misinformation",
+            "volume-title": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+            "author": "Glockner",
+            "year": "2022"
+          },
+          {
+            "key": "2024011114393074200_bib15",
+            "doi-asserted-by": "publisher",
+            "first-page": "719",
+            "DOI": "10.1163/9789004368811_003",
+            "article-title": "Logic and conversation",
+            "author": "Grice",
+            "year": "1975",
+            "journal-title": "Foundations of Cognitive Psychology"
+          },
+          {
+            "key": "2024011114393074200_bib16",
+            "first-page": "1321",
+            "article-title": "On calibration of modern neural networks",
+            "volume-title": "Proceedings of the 34th International Conference on Machine Learning",
+            "author": "Guo",
+            "year": "2017"
+          },
+          {
+            "key": "2024011114393074200_bib17",
+            "doi-asserted-by": "publisher",
+            "first-page": "178",
+            "DOI": "10.1162/tacl_a_00454",
+            "article-title": "A survey on automated fact-checking",
+            "volume": "10",
+            "author": "Guo",
+            "year": "2022",
+            "journal-title": "Transactions of the Association for Computational Linguistics"
+          },
+          {
+            "issue": "1",
+            "key": "2024011114393074200_bib18",
+            "doi-asserted-by": "publisher",
+            "first-page": "125",
+            "DOI": "10.1162/COLI_a_00276",
+            "article-title": "Argumentation mining in user-generated web discourse",
+            "volume": "43",
+            "author": "Habernal",
+            "year": "2017",
+            "journal-title": "Computational Linguistics"
+          },
+          {
+            "key": "2024011114393074200_bib19",
+            "doi-asserted-by": "publisher",
+            "first-page": "493",
+            "DOI": "10.18653/v1/K19-1046",
+            "article-title": "A richly annotated corpus for different tasks in automated fact-checking",
+            "volume-title": "Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL)",
+            "author": "Hanselowski",
+            "year": "2019"
+          },
+          {
+            "key": "2024011114393074200_bib20",
+            "doi-asserted-by": "publisher",
+            "first-page": "80",
+            "DOI": "10.18653/v1/2021.acl-short.12",
+            "article-title": "Automatic fake news detection: Are models learning to reason?",
+            "volume-title": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+            "author": "Hansen",
+            "year": "2021"
+          },
+          {
+            "key": "2024011114393074200_bib21",
+            "article-title": "DeBERTaV3: Improving DeBERTa using ELECTRA-style pre-training with gradient-disentangled embedding sharing",
+            "author": "He",
+            "year": "2021",
+            "journal-title": "arXiv preprint arXiv:2111.09543v3"
+          },
+          {
+            "key": "2024011114393074200_bib22",
+            "article-title": "Distilling the knowledge in a neural network",
+            "author": "Hinton",
+            "year": "2015",
+            "journal-title": "arXiv preprint arXiv:1503.02531"
+          },
+          {
+            "issue": "1",
+            "key": "2024011114393074200_bib23",
+            "doi-asserted-by": "publisher",
+            "first-page": "67",
+            "DOI": "10.1207/s15516709cog0301_4",
+            "article-title": "Coherence and coreference",
+            "volume": "3",
+            "author": "Hobbs",
+            "year": "1979",
+            "journal-title": "Cognitive Science"
+          },
+          {
+            "issue": "12",
+            "key": "2024011114393074200_bib24",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.1145/3571730",
+            "article-title": "Survey of hallucination in natural language generation",
+            "volume": "55",
+            "author": "Ji",
+            "year": "2023",
+            "journal-title": "ACM Computing Surveys"
+          },
+          {
+            "key": "2024011114393074200_bib25",
+            "doi-asserted-by": "publisher",
+            "first-page": "1357",
+            "DOI": "10.1162/tacl_a_00523",
+            "article-title": "Investigating reasons for disagreement in natural language inference",
+            "volume": "10",
+            "author": "Jiang",
+            "year": "2022",
+            "journal-title": "Transactions of the Association for Computational Linguistics"
+          },
+          {
+            "key": "2024011114393074200_bib26",
+            "doi-asserted-by": "publisher",
+            "first-page": "3441",
+            "DOI": "10.18653/v1/2020.findings-emnlp.309",
+            "article-title": "HoVer: A dataset for many-hop fact extraction and claim verification",
+            "volume-title": "Findings of the Association for Computational Linguistics: EMNLP 2020",
+            "author": "Jiang",
+            "year": "2020"
+          },
+          {
+            "key": "2024011114393074200_bib27",
+            "article-title": "WiCE: Real-world entailment for claims in Wikipedia",
+            "author": "Kamoi",
+            "year": "2023",
+            "journal-title": "arXiv preprint arXiv:2303.01432v1"
+          },
+          {
+            "issue": "1-3",
+            "key": "2024011114393074200_bib28",
+            "doi-asserted-by": "publisher",
+            "first-page": "181",
+            "DOI": "10.1515/thli.1974.1.1-3.181",
+            "article-title": "Presupposition and linguistic context",
+            "volume": "1",
+            "author": "Karttunen",
+            "year": "1974",
+            "journal-title": "Theoretical Linguistics"
+          },
+          {
+            "key": "2024011114393074200_bib29",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.7551/mitpress/7064.001.0001",
+            "volume-title": "Vagueness: A Reader",
+            "author": "Kenney",
+            "year": "1997"
+          },
+          {
+            "key": "2024011114393074200_bib30",
+            "doi-asserted-by": "publisher",
+            "first-page": "1293",
+            "DOI": "10.18653/v1/2022.acl-long.92",
+            "article-title": "WatClaimCheck: A new dataset for claim entailment and inference",
+            "volume-title": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+            "author": "Khan",
+            "year": "2022"
+          },
+          {
+            "key": "2024011114393074200_bib31",
+            "doi-asserted-by": "publisher",
+            "first-page": "16190",
+            "DOI": "10.18653/v1/2023.acl-long.895",
+            "article-title": "FactKG: Fact verification via reasoning on knowledge graphs",
+            "volume-title": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+            "author": "Kim",
+            "year": "2023"
+          },
+          {
+            "key": "2024011114393074200_bib32",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.18653/v1/2023.semeval-1.314",
+            "article-title": "SemEval-2023 Task 11: Learning With Disagreements (LeWiDi)",
+            "author": "Leonardelli",
+            "year": "2023",
+            "journal-title": "arXiv preprint arXiv:2304.14803v1"
+          },
+          {
+            "issue": "3",
+            "key": "2024011114393074200_bib33",
+            "doi-asserted-by": "publisher",
+            "first-page": "2053168018786848",
+            "DOI": "10.1177/2053168018786848",
+            "article-title": "Checking how fact-checkers check",
+            "volume": "5",
+            "author": "Lim",
+            "year": "2018",
+            "journal-title": "Research & Politics"
+          },
+          {
+            "key": "2024011114393074200_bib34",
+            "doi-asserted-by": "publisher",
+            "first-page": "5783",
+            "DOI": "10.18653/v1/2020.emnlp-main.466",
+            "article-title": "AmbigQA: Answering ambiguous open-domain questions",
+            "volume-title": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+            "author": "Min",
+            "year": "2020"
+          },
+          {
+            "key": "2024011114393074200_bib35",
+            "doi-asserted-by": "publisher",
+            "first-page": "9131",
+            "DOI": "10.18653/v1/2020.emnlp-main.734",
+            "article-title": "What can we learn from collective human opinions on natural language inference data?",
+            "volume-title": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+            "author": "Nie",
+            "year": "2020"
+          },
+          {
+            "key": "2024011114393074200_bib36",
+            "doi-asserted-by": "publisher",
+            "first-page": "5154",
+            "DOI": "10.18653/v1/2022.acl-long.354",
+            "article-title": "FaVIQ: FAct verification from information-seeking questions",
+            "volume-title": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+            "author": "Park",
+            "year": "2022"
+          },
+          {
+            "key": "2024011114393074200_bib37",
+            "doi-asserted-by": "publisher",
+            "first-page": "677",
+            "DOI": "10.1162/tacl_a_00293",
+            "article-title": "Inherent disagreements in human textual inferences",
+            "volume": "7",
+            "author": "Pavlick",
+            "year": "2019",
+            "journal-title": "Transactions of the Association for Computational Linguistics"
+          },
+          {
+            "key": "2024011114393074200_bib38",
+            "doi-asserted-by": "publisher",
+            "first-page": "9617",
+            "DOI": "10.1109/ICCV.2019.00971",
+            "article-title": "Human uncertainty makes classification more robust",
+            "volume-title": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+            "author": "Peterson",
+            "year": "2019"
+          },
+          {
+            "key": "2024011114393074200_bib39",
+            "doi-asserted-by": "publisher",
+            "first-page": "10671",
+            "DOI": "10.18653/v1/2022.emnlp-main.731",
+            "article-title": "The “problem” of human label variation: On ground truth in data, modeling and evaluation",
+            "volume-title": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+            "author": "Plank",
+            "year": "2022"
+          },
+          {
+            "key": "2024011114393074200_bib40",
+            "doi-asserted-by": "publisher",
+            "first-page": "133",
+            "DOI": "10.18653/v1/2021.law-1.14",
+            "article-title": "On releasing annotator-level labels and information in datasets",
+            "volume-title": "Proceedings of the Joint 15th Linguistic Annotation Workshop (LAW) and 3rd Designing Meaning Representations (DMR) Workshop",
+            "author": "Prabhakaran",
+            "year": "2021"
+          },
+          {
+            "key": "2024011114393074200_bib41",
+            "doi-asserted-by": "publisher",
+            "first-page": "2116",
+            "DOI": "10.18653/v1/2021.acl-long.165",
+            "article-title": "COVID-fact: Fact extraction and verification of real-world claims on COVID-19 pandemic",
+            "volume-title": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+            "author": "Saakyan",
+            "year": "2021"
+          },
+          {
+            "key": "2024011114393074200_bib42",
+            "doi-asserted-by": "publisher",
+            "first-page": "3499",
+            "DOI": "10.18653/v1/2021.findings-emnlp.297",
+            "article-title": "Evidence-based fact-checking of health-related claims",
+            "volume-title": "Findings of the Association for Computational Linguistics: EMNLP 2021",
+            "author": "Sarrouti",
+            "year": "2021"
+          },
+          {
+            "key": "2024011114393074200_bib43",
+            "first-page": "6874",
+            "article-title": "Automated fact-checking of claims from Wikipedia",
+            "volume-title": "Proceedings of the Twelfth Language Resources and Evaluation Conference",
+            "author": "Sathe",
+            "year": "2020"
+          },
+          {
+            "key": "2024011114393074200_bib44",
+            "article-title": "AVeriTeC: A dataset for real-world claim verification with evidence from the Web",
+            "author": "Schlichtkrull",
+            "year": "2023",
+            "journal-title": "arXiv preprint arXiv:2305 .13117v2"
+          },
+          {
+            "key": "2024011114393074200_bib45",
+            "doi-asserted-by": "publisher",
+            "first-page": "624",
+            "DOI": "10.18653/v1/2021.naacl-main.52",
+            "article-title": "Get your vitamin C! Robust fact verification with contrastive evidence",
+            "volume-title": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+            "author": "Schuster",
+            "year": "2021"
+          },
+          {
+            "key": "2024011114393074200_bib46",
+            "doi-asserted-by": "publisher",
+            "first-page": "3419",
+            "DOI": "10.18653/v1/D19-1341",
+            "article-title": "Towards debiasing fact verification models",
+            "volume-title": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+            "author": "Schuster",
+            "year": "2019"
+          },
+          {
+            "key": "2024011114393074200_bib47",
+            "doi-asserted-by": "publisher",
+            "first-page": "2652",
+            "DOI": "10.18653/v1/2023.eacl-main.194",
+            "article-title": "Multi2Claim: Generating scientific claims from multi-choice questions for scientific fact-checking",
+            "volume-title": "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics",
+            "author": "Tan",
+            "year": "2023"
+          },
+          {
+            "key": "2024011114393074200_bib48",
+            "doi-asserted-by": "publisher",
+            "first-page": "809",
+            "DOI": "10.18653/v1/N18-1074",
+            "article-title": "FEVER: A Large-scale dataset for fact extraction and VERification",
+            "volume-title": "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)",
+            "author": "Thorne",
+            "year": "2018"
+          },
+          {
+            "key": "2024011114393074200_bib49",
+            "doi-asserted-by": "publisher",
+            "first-page": "173",
+            "DOI": "10.1609/hcomp.v8i1.7478",
+            "article-title": "A case for soft loss functions",
+            "volume-title": "Proceedings of the AAAI Conference on Human Computation and Crowdsourcing",
+            "author": "Uma",
+            "year": "2020"
+          },
+          {
+            "key": "2024011114393074200_bib50",
+            "doi-asserted-by": "publisher",
+            "first-page": "1385",
+            "DOI": "10.1613/jair.1.12752",
+            "article-title": "Learning from disagreement: A survey",
+            "volume": "72",
+            "author": "Uma",
+            "year": "2022",
+            "journal-title": "Journal of Artificial Intelligence Research"
+          },
+          {
+            "key": "2024011114393074200_bib51",
+            "article-title": "A general-purpose crowdsourcing computational quality control toolkit for Python",
+            "volume-title": "The Ninth AAAI Conference on Human Computation and Crowdsourcing: Works-in-Progress and Demonstration Track",
+            "author": "Ustalov",
+            "year": "2021"
+          },
+          {
+            "key": "2024011114393074200_bib52",
+            "doi-asserted-by": "publisher",
+            "first-page": "7534",
+            "DOI": "10.18653/v1/2020.emnlp-main.609",
+            "article-title": "Fact or fiction: Verifying scientific claims",
+            "volume-title": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+            "author": "Wadden",
+            "year": "2020"
+          },
+          {
+            "key": "2024011114393074200_bib53",
+            "doi-asserted-by": "publisher",
+            "first-page": "1112",
+            "DOI": "10.18653/v1/N18-1101",
+            "article-title": "A broad-coverage challenge corpus for sentence understanding through inference",
+            "volume-title": "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)",
+            "author": "Williams",
+            "year": "2018"
+          },
+          {
+            "key": "2024011114393074200_bib54",
+            "doi-asserted-by": "publisher",
+            "first-page": "38",
+            "DOI": "10.18653/v1/2020.emnlp-demos.6",
+            "article-title": "Transformers: State-of-the-art natural language processing",
+            "volume-title": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+            "author": "Wolf",
+            "year": "2020"
+          }
+        ],
+        "container-title": [
+          "Transactions of the Association for Computational Linguistics"
+        ],
+        "original-title": [],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00629/2208861/tacl_a_00629.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00629/2208861/tacl_a_00629.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              11
+            ]
+          ],
+          "date-time": "2024-01-11T09:39:44Z",
+          "timestamp": 1704965984000
+        },
+        "score": 1,
+        "resource": {
+          "primary": {
+            "URL": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00629/119057/AmbiFC-Fact-Checking-Ambiguous-Claims-with"
+          }
+        },
+        "subtitle": [],
+        "short-title": [],
+        "issued": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "references-count": 54,
+        "URL": "https://doi.org/10.1162/tacl_a_00629",
+        "relation": {},
+        "ISSN": [
+          "2307-387X"
+        ],
+        "issn-type": [
+          {
+            "value": "2307-387X",
+            "type": "electronic"
+          }
+        ],
+        "subject": [],
+        "published-other": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "source": "https://api.crossref.org/works/10.1162/tacl_a_00629",
+      "identity_method": "Same documented Crossref <scp> markup false positive. Retained identity from the prior verified primary metadata, unchanged BibTeX and source PDF; current statement support refreshed."
+    },
+    {
+      "key": "guo-etal-2022-survey",
+      "identity": "VERIFIED",
+      "claim_support": "REVIEWED",
+      "metadata": {
+        "DOI": "10.1162/tacl_a_00454",
+        "title": [
+          "A Survey on Automated Fact-Checking"
+        ],
+        "author": [
+          {
+            "given": "Zhijiang",
+            "family": "Guo",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Technology, University of Cambridge, UK. zg283@cam.ac.uk"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Michael",
+            "family": "Schlichtkrull",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Technology, University of Cambridge, UK. mss84@cam.ac.uk"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Andreas",
+            "family": "Vlachos",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Technology, University of Cambridge, UK. av308@cam.ac.uk"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              2,
+              9
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              2,
+              9
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "publisher": "MIT Press"
+      },
+      "source": "https://api.crossref.org/works/10.1162/tacl_a_00454"
+    },
+    {
+      "key": "longpre-etal-2021-entity",
+      "identity": "VERIFIED",
+      "claim_support": "REVIEWED",
+      "metadata": {
+        "DOI": "10.18653/v1/2021.emnlp-main.565",
+        "title": [
+          "Entity-Based Knowledge Conflicts in Question Answering"
+        ],
+        "author": [
+          {
+            "given": "Shayne",
+            "family": "Longpre",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kartik",
+            "family": "Perisetla",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Anthony",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nikhil",
+            "family": "Ramesh",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chris",
+            "family": "DuBois",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sameer",
+            "family": "Singh",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published-online": null,
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "publisher": "Association for Computational Linguistics"
+      },
+      "source": "https://api.crossref.org/works/10.18653/v1/2021.emnlp-main.565"
+    },
+    {
+      "key": "mamta-cocarascu-2025-facteval",
+      "identity": "VERIFIED",
+      "claim_support": "REVIEWED",
+      "metadata": {
+        "DOI": "10.18653/v1/2025.naacl-long.534",
+        "title": [
+          "FactEval: Evaluating the Robustness of Fact Verification Systems in the Era of Large Language Models"
+        ],
+        "author": [
+          {
+            "given": "Mamta",
+            "family": "Mamta",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Oana",
+            "family": "Cocarascu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-online": null,
+        "issued": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "publisher": "Association for Computational Linguistics"
+      },
+      "source": "https://api.crossref.org/works/10.18653/v1/2025.naacl-long.534"
+    },
+    {
+      "key": "schuster-etal-2019-towards",
+      "identity": "VERIFIED",
+      "claim_support": "REVIEWED",
+      "metadata": {
+        "DOI": "10.18653/v1/d19-1341",
+        "title": [
+          "Towards Debiasing Fact Verification Models"
+        ],
+        "author": [
+          {
+            "given": "Tal",
+            "family": "Schuster",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Darsh",
+            "family": "Shah",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yun Jie Serene",
+            "family": "Yeo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Daniel",
+            "family": "Roberto Filizzola Ortiz",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Enrico",
+            "family": "Santus",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Regina",
+            "family": "Barzilay",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "published-online": null,
+        "issued": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "publisher": "Association for Computational Linguistics"
+      },
+      "source": "https://api.crossref.org/works/10.18653/v1/D19-1341"
+    },
+    {
+      "key": "schuster-etal-2021-get",
+      "identity": "VERIFIED",
+      "claim_support": "REVIEWED",
+      "metadata": {
+        "DOI": "10.18653/v1/2021.naacl-main.52",
+        "title": [
+          "Get Your Vitamin C! Robust Fact Verification with Contrastive Evidence"
+        ],
+        "author": [
+          {
+            "given": "Tal",
+            "family": "Schuster",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Adam",
+            "family": "Fisch",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Regina",
+            "family": "Barzilay",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published-online": null,
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "publisher": "Association for Computational Linguistics"
+      },
+      "source": "https://api.crossref.org/works/10.18653/v1/2021.naacl-main.52"
+    },
+    {
+      "key": "thorne-etal-2018-fever",
+      "identity": "VERIFIED",
+      "claim_support": "REVIEWED",
+      "metadata": {
+        "DOI": "10.18653/v1/n18-1074",
+        "title": [
+          "FEVER: a Large-scale Dataset for Fact Extraction and VERification"
+        ],
+        "author": [
+          {
+            "given": "James",
+            "family": "Thorne",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Andreas",
+            "family": "Vlachos",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Christos",
+            "family": "Christodoulopoulos",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Arpit",
+            "family": "Mittal",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "published-online": null,
+        "issued": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "publisher": "Association for Computational Linguistics"
+      },
+      "source": "https://api.crossref.org/works/10.18653/v1/N18-1074"
+    }
+  ],
+  "online_requested": true,
+  "manuscript_sha256": "bd6be9c7d6df9691c99cd5c2a69e8149d769a65a75cbb2c6f980f65a61a4e0bd",
+  "bibliography_sha256": "49a6df72e448c75d42c10b6a5b85f4db33684f1a2e304ec645eac8e15da0f2d6",
+  "support_sha256": "2ed20dda9b6a2f82b12ff6f6c2ff2d26eb10553869587481db20691a00b9f32e",
+  "identity_reconciliation_source": "paper-studio\\evidex-full3-revision-20261017\\reports\\citations.json",
+  "identity_reuse": {
+    "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-editorial-20261017-2246\\reports\\citations.json",
+    "source_sha256": "09875bce69376d5258609f483e505a84cc74a5c8ea7c34574fb174888c2371d0",
+    "unchanged_bibliography": true,
+    "new_remote_lookup": false,
+    "claim_support": "Reviewed revised RW statements against retained source support; identities unchanged."
+  }
+}

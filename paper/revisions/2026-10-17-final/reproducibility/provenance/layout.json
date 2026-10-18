@@ -1,0 +1,103 @@
+{
+  "pdf_sha256": "abef0dc8a2afb3eff634f5e267a38271af774393cc66f6cf76bc5eacb2a6a497",
+  "pages": [
+    {
+      "page": 1,
+      "image": "page-001.png",
+      "sha256": "ba442345cea639620e2c6791c2fbc4ce834e3766f84cefcb5262767098c950c5",
+      "words": 427,
+      "minimum_font_pt": 9.962639808654785
+    },
+    {
+      "page": 2,
+      "image": "page-002.png",
+      "sha256": "fb3a85261abd5e368a8e99ffbf1fb9c46f110a089a5cb664d3a904775e7c6a8f",
+      "words": 462,
+      "minimum_font_pt": 10.909088134765625
+    },
+    {
+      "page": 3,
+      "image": "page-003.png",
+      "sha256": "003e0dccd4beaa23e3f8f0a4a8c527775f9b64c09f73b90b1dd540ad968f0de7",
+      "words": 380,
+      "minimum_font_pt": 8.95907974243164
+    },
+    {
+      "page": 4,
+      "image": "page-004.png",
+      "sha256": "0555fb8b18022a7b3831a4af154b209e05fff0edc0c9f974de4b701b5b8ec527",
+      "words": 429,
+      "minimum_font_pt": 7.970111846923828
+    },
+    {
+      "page": 5,
+      "image": "page-005.png",
+      "sha256": "9b219e38a31d5183057026b63c8f8410a1920ab20d152e76b8d0656c2f8542f3",
+      "words": 519,
+      "minimum_font_pt": 9.962639808654785
+    },
+    {
+      "page": 6,
+      "image": "page-006.png",
+      "sha256": "311e0046fe486b4cd657ab4da38362c86fb780041dfc61e9a4e45dc679fbf4d7",
+      "words": 480,
+      "minimum_font_pt": 9.962639808654785
+    },
+    {
+      "page": 7,
+      "image": "page-007.png",
+      "sha256": "c82d591a95cd858a765449b84210ce1a7d75566a4fa887dca6c991ba85f42755",
+      "words": 228,
+      "minimum_font_pt": 9.962639808654785
+    },
+    {
+      "page": 8,
+      "image": "page-008.png",
+      "sha256": "c498879d4e1e1cf54f9b7b4646bc4c7c909030af2112bca277a97dd896f73c3b",
+      "words": 533,
+      "minimum_font_pt": 9.962639808654785
+    },
+    {
+      "page": 9,
+      "image": "page-009.png",
+      "sha256": "42018e1fcfa529025efa10eb33db3bdf552ea72e73e829d214b74b1d62ef9ae7",
+      "words": 452,
+      "minimum_font_pt": 10.909088134765625
+    },
+    {
+      "page": 10,
+      "image": "page-010.png",
+      "sha256": "a2f3e1ed4bde2b0a48bd61be6a3c7e04ed5b8863b31ee9fac1b7b3f332a48a8a",
+      "words": 418,
+      "minimum_font_pt": 10.909088134765625
+    },
+    {
+      "page": 11,
+      "image": "page-011.png",
+      "sha256": "90abb7bcd41dc1d8c95db7bc638df69f8ad0a445373097c1d59286287ea6af1f",
+      "words": 295,
+      "minimum_font_pt": 10.909088134765625
+    },
+    {
+      "page": 12,
+      "image": "page-012.png",
+      "sha256": "ab89728f01cbe1c8864e5591e55e919fe113d3e381f5b0c7b4c6a24424b66e54",
+      "words": 408,
+      "minimum_font_pt": 9.962639808654785
+    },
+    {
+      "page": 13,
+      "image": "page-013.png",
+      "sha256": "bf8c7c54e9fcfbc31406cd31e8448b107716693747776920345657892b27a89a",
+      "words": 278,
+      "minimum_font_pt": 9.962639808654785
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "programmatic_status": "PASS",
+  "visual_status": "INSPECTED",
+  "limits": "Glyph bounds do not prove figure placement, readability, margin compliance, or image clipping.",
+  "reviewer": "Codex final bounded editorial inspection",
+  "visual_notes": "Viewed all 13 current page PNGs. Equations 1–2 legible and unchanged p4; all nine tables readable within margins p5–8,12–13; Figure1 p3 unchanged; nine references p10–11 resolve; exact templates p12; Related Work closes with one current-study paragraph p3. No clipping or unresolved markers observed. Conventional float spacing retained."
+}

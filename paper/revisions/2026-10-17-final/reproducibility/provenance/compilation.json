@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "engine": "tectonic",
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\Chimdumebi\\.codex\\tools\\research-paper-studio\\tectonic-0.17.0\\tectonic.exe",
+        "-X",
+        "compile",
+        "--untrusted",
+        "--only-cached",
+        "--keep-logs",
+        "--keep-intermediates",
+        "--outdir",
+        "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-final-editorial-20261017-2327",
+        "manuscript.tex"
+      ],
+      "returncode": 0,
+      "stdout": "note: \"version 2\" Tectonic command-line interface activated\nnote: using only cached resource files\nnote: Running TeX ...\nnote: Running BibTeX on manuscript.aux ...\nnote: Rerunning TeX because bibtex was run ...\nnote: Rerunning TeX because \"manuscript.aux\" changed ...\nnote: Rerunning TeX because \"manuscript.aux\" changed ...\nnote: Running xdvipdfmx ...\nnote: Writing `C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-final-editorial-20261017-2327\\manuscript.blg` (200 B)\nnote: Writing `C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-final-editorial-20261017-2327\\manuscript.out` (4.8037109375 KiB)\nnote: Writing `C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-final-editorial-20261017-2327\\manuscript.aux` (12.9921875 KiB)\nnote: Writing `C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-final-editorial-20261017-2327\\manuscript.pdf` (86.5576171875 KiB)\nnote: Writing `C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-final-editorial-20261017-2327\\manuscript.bbl` (5.7529296875 KiB)\nnote: Writing `C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-final-editorial-20261017-2327\\manuscript.log` (18.0322265625 KiB)\n",
+      "stderr": "Fontconfig error: Cannot load default config file: No such file: (null)\n"
+    }
+  ],
+  "diagnostics": {
+    "overfull": [],
+    "underfull": [],
+    "unresolved": [],
+    "missing_glyph": []
+  },
+  "manuscript_sha256": "bd6be9c7d6df9691c99cd5c2a69e8149d769a65a75cbb2c6f980f65a61a4e0bd",
+  "repair_budget": 3,
+  "remaining_repairs": 2,
+  "input_hashes": {
+    "manuscript.template.tex": "25c27b968266eccf9281a0b8ee2e72635b1fc8cde4bab031c1b39273d5fa843e",
+    "manuscript.tex": "bd6be9c7d6df9691c99cd5c2a69e8149d769a65a75cbb2c6f980f65a61a4e0bd",
+    "references.bib": "49a6df72e448c75d42c10b6a5b85f4db33684f1a2e304ec645eac8e15da0f2d6",
+    "figures/workflow.pdf": "85aab048ce5af2778893691572da92b39f116253d2139c526456ce8b2c840b31",
+    "tables/accuracy.tex": "747bd0573f6fbd6cb602195318f3330fa4d578954f0048cc13aea854f9ee4de9",
+    "tables/alignment.tex": "6afccbea38ad703055339f8c87d681aef715b338817e3dc5b6743ab35e4b232f",
+    "tables/conditions.tex": "8cf7cc235762fd2a89c5b6d39107f4630a10d135ff760287561a83447948a81a",
+    "tables/examples.tex": "ab55f222cd00a2d3833fad363cbb1058143bd6a0b357d54836abc1bf3a3c8b1b",
+    "tables/excess.tex": "383c89372a244bd96f1247c89de5326373f3eb5b8f1355519080a3df5c5a9753",
+    "tables/features.tex": "54e9b3fb3b5be4ae7a6c3b12f755840810ca634225f4ed82631ed7250f86b054",
+    "tables/repeat.tex": "e294170f6a2da2d9995a65210e0f7e85f2a6a9f6997e8eb05546a8645f00f416",
+    "tables/secondary.tex": "a96bac72240e11ffebffa6f7763723b970c4a3a3714b8e78f0c16bfcb84f8388",
+    "tables/transitions.tex": "0d3d6625de38b6e0d10fe6405a01096dbe9a1b39628fcc95ac5d34bc20845e45",
+    "tables/variability.tex": "28e839f66c0e93ec70a8bc854ec5fc05adb252064e4953e67e03be6fa0f91cbc",
+    "supplement/S4/historical-manuscript.tex": "f2fe75b3675414310067247d9bb641412ba72469ab87651838f505fd50616618"
+  }
+}

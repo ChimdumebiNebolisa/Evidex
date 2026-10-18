@@ -10,6 +10,7 @@ Chimdumebi Mitchell Nebolisa and Jessica Udry
 - [Supplements S1–S5 with supporting files](supplement/SUPPLEMENT.md), or [download the supplementary ZIP](supplements-S1-S5.zip).
 - [Jessica feedback revision tracker](REVISION_TRACKER.md) and [full 98-entry tracker](REVISION_TRACKER.csv).
 - [Document agreement record](DOCUMENT_AGREEMENT.json) and [publication file manifest](PUBLICATION_MANIFEST.json).
+- [Reproducibility sources, publication checks, tests and final provenance](reproducibility/README.md).
 
 This is the latest completed revision, incorporating the remaining September 22 and October 2 feedback. It distinguishes fixed-instruction evidence addition from the subsequent instruction change in the completed 180,000-response experiment. Related Work ends with the study-specific discussion; general methodology precedes experiment settings and results. Repeated-call comparisons and worked regression/rescue examples accompany the exploratory AI taxonomy and its stated limitations.
 
