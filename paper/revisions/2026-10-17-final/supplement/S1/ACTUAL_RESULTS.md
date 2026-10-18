@@ -1,3 +1,5 @@
+> Publication navigation copy: the eight original local-file links now point to the pinned public results bundle. [Original report bytes](ACTUAL_RESULTS.original.txt) are retained unchanged; all result text below is unchanged.
+
 # Evidex full3 actual results
 
 Analysis and integrity verification: **PASS**. Frozen analysis exited 0 at 2026-10-17 23:35:33 UTC (6:35 pm Central); output verification passed at 23:35:42 UTC. Collection completed at 13:42:03 UTC. No paid calls were made during offline finalization.
@@ -95,14 +97,14 @@ No unresolved integrity or accounting mismatch was found. Provider invoice recon
 
 ## Evidence and checks
 
-- [Frozen summary](C:/Users/Chimdumebi/evidex/replacement_predictor_v1/runs/full3/analysis-2026-10-17T18-43-50.666851+00-00/summary.json)
-- [Frozen observations](C:/Users/Chimdumebi/evidex/replacement_predictor_v1/runs/full3/analysis-2026-10-17T18-43-50.666851+00-00/observations.csv)
-- [Frozen provenance](C:/Users/Chimdumebi/evidex/replacement_predictor_v1/runs/full3/analysis-2026-10-17T18-43-50.666851+00-00/provenance.json)
-- [Analysis verification](C:/Users/Chimdumebi/evidex/replacement_predictor_v1/reports/full3-final-2026-10-17T13-43-20.656767+00-00/ANALYSIS_VERIFICATION.json)
-- [Completed integrity/accounting](C:/Users/Chimdumebi/evidex/replacement_predictor_v1/reports/full3-final-2026-10-17T13-43-20.656767+00-00/INTEGRITY.json)
-- [Independent outcomes](C:/Users/Chimdumebi/evidex/replacement_predictor_v1/reports/full3-final-2026-10-17T13-43-20.656767+00-00/OUTCOMES.jsonl)
-- [Independent comparison verification and numeric supplement](C:/Users/Chimdumebi/evidex/replacement_predictor_v1/reports/full3-final-2026-10-17T13-43-20.656767+00-00/RESULTS_VERIFICATION.json)
-- [Report-generation/check source](C:/Users/Chimdumebi/evidex/replacement_predictor_v1/reports/full3-final-2026-10-17T13-43-20.656767+00-00/finish_actual_results.py)
+- [Frozen summary](https://github.com/ChimdumebiNebolisa/Evidex/blob/3893a57e6f9addadf2b2fcd2d5a4e7251abcb677/replacement_predictor_v1/published/full3-2026-10-17/snapshot/runs/full3/analysis-2026-10-17T18-43-50.666851+00-00/summary.json.gz)
+- [Frozen observations](https://github.com/ChimdumebiNebolisa/Evidex/blob/3893a57e6f9addadf2b2fcd2d5a4e7251abcb677/replacement_predictor_v1/published/full3-2026-10-17/snapshot/runs/full3/analysis-2026-10-17T18-43-50.666851+00-00/observations.csv.gz)
+- [Frozen provenance](https://github.com/ChimdumebiNebolisa/Evidex/blob/3893a57e6f9addadf2b2fcd2d5a4e7251abcb677/replacement_predictor_v1/published/full3-2026-10-17/snapshot/runs/full3/analysis-2026-10-17T18-43-50.666851+00-00/provenance.json.gz)
+- [Analysis verification](https://github.com/ChimdumebiNebolisa/Evidex/blob/3893a57e6f9addadf2b2fcd2d5a4e7251abcb677/replacement_predictor_v1/published/full3-2026-10-17/snapshot/reports/full3-final-2026-10-17T13-43-20.656767+00-00/ANALYSIS_VERIFICATION.json)
+- [Completed integrity/accounting](https://github.com/ChimdumebiNebolisa/Evidex/blob/3893a57e6f9addadf2b2fcd2d5a4e7251abcb677/replacement_predictor_v1/published/full3-2026-10-17/snapshot/reports/full3-final-2026-10-17T13-43-20.656767+00-00/INTEGRITY.json)
+- [Independent outcomes](https://github.com/ChimdumebiNebolisa/Evidex/blob/3893a57e6f9addadf2b2fcd2d5a4e7251abcb677/replacement_predictor_v1/published/full3-2026-10-17/snapshot/reports/full3-final-2026-10-17T13-43-20.656767+00-00/OUTCOMES.jsonl.gz)
+- [Independent comparison verification and numeric supplement](https://github.com/ChimdumebiNebolisa/Evidex/blob/3893a57e6f9addadf2b2fcd2d5a4e7251abcb677/replacement_predictor_v1/published/full3-2026-10-17/snapshot/reports/full3-final-2026-10-17T13-43-20.656767+00-00/RESULTS_VERIFICATION.json)
+- [Report-generation/check source](https://github.com/ChimdumebiNebolisa/Evidex/blob/3893a57e6f9addadf2b2fcd2d5a4e7251abcb677/replacement_predictor_v1/published/full3-2026-10-17/snapshot/reports/full3-final-2026-10-17T13-43-20.656767+00-00/finish_actual_results.py)
 
 Output hashes were rechecked against ANALYSIS_VERIFICATION.json. Independently checked first-pass, repeated and selected historical accuracy/pair numerators and denominators against OUTCOMES.jsonl, plus every full-set and historical per-claim repeat record and aggregate point estimate. Frozen confidence intervals were transcribed without recomputation.
 

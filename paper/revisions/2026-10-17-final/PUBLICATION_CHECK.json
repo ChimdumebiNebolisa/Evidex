@@ -1,10 +1,11 @@
 {
   "status": "PASS",
-  "checked_at_utc": "2026-10-18T04:59:57.493928+00:00",
+  "checked_at_utc": "2026-10-18T05:04:17.246110+00:00",
   "scope": "Selected publication files only; no new scientific audit, revision or experiment.",
   "latest_source_PDF_Word_and_tracker_exact": true,
   "supporting_records_with_verified_hashes": 56,
-  "supplement_access_wording_only_change": true,
+  "supporting_originals_preserved_with_portable_navigation_copy": true,
+  "portable_report_links_rewritten": 8,
   "supplement_labels": [
     "S1",
     "S2",
@@ -12,9 +13,9 @@
     "S4",
     "S5"
   ],
-  "relative_markdown_links_checked": 78,
+  "relative_markdown_links_checked": 71,
   "broken_relative_links": 0,
-  "selected_text_and_document_parts_scanned": 100,
+  "selected_text_and_document_parts_scanned": 101,
   "credential_pattern_hits": [],
   "temporary_files_or_private_backup_contents": false,
   "supplement_ZIP_readback": "PASS",

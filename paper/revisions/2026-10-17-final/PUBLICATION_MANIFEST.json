@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-10-18T04:59:57.499331+00:00",
+  "created_at_utc": "2026-10-18T05:04:17.252583+00:00",
   "branch": "codex/methodology-correction-v2",
   "source_revision": "evidex-final-editorial-20261017-2327",
   "original_results_commit": "3893a57e6f9addadf2b2fcd2d5a4e7251abcb677",
@@ -12,8 +12,8 @@
     },
     {
       "path": "DOCUMENT_AGREEMENT.json",
-      "bytes": 1711,
-      "sha256": "b06d190632cce0be409d8a66f629a48e142d3dd42a3c5b3cd6a7e7eee272d442"
+      "bytes": 1803,
+      "sha256": "104c800635805d346b0ea0010f08fd3140cfadaad6e4b31e8358ae7275e10075"
     },
     {
       "path": "figures/workflow.pdf",
@@ -52,8 +52,8 @@
     },
     {
       "path": "PUBLICATION_CHECK.json",
-      "bytes": 1107,
-      "sha256": "8f927d5fe56ca2a5d9ff4382bdfedffefa810fe58516e81f65589e1ba74a1e44"
+      "bytes": 1171,
+      "sha256": "28810d507bd41a260f50ecc8560a5e6b5ad04f55f155593bbb5e7bf85e76e6fc"
     },
     {
       "path": "README.md",
@@ -77,8 +77,8 @@
     },
     {
       "path": "supplement/EVIDENCE_MANIFEST.json",
-      "bytes": 23829,
-      "sha256": "cf476ccd40a7cd51582ca3b3b6b55a5e9efaf386155596d2e951bddd91d74aa8"
+      "bytes": 24109,
+      "sha256": "a2c9e9cf3734452ab9e783084332cc9e1fadc62715aa742ba3ea8bfbd5c8eb64"
     },
     {
       "path": "supplement/PINNED_PUBLIC_CONTENTS.json",
@@ -97,6 +97,11 @@
     },
     {
       "path": "supplement/S1/ACTUAL_RESULTS.md",
+      "bytes": 12056,
+      "sha256": "0b675ba42aaa6f6abe4ffec60310f33a677eb3d1314149749d917f259037afe4"
+    },
+    {
+      "path": "supplement/S1/ACTUAL_RESULTS.original.txt",
       "bytes": 10905,
       "sha256": "a7caff150e77805d39ec172e8844bb172b4687745c8d34186ab53634727450a1"
     },
@@ -382,8 +387,8 @@
     },
     {
       "path": "supplements-S1-S5.zip",
-      "bytes": 3678566,
-      "sha256": "c40f453da64aa4ffa0f3f121d5bee5981a98782ba59d37e621b013bce1dd8b2c"
+      "bytes": 3683097,
+      "sha256": "9984e8b91e56db16eecbb51e28113ff7e52dfadc8e63adb64d751b83fb3ee3b9"
     },
     {
       "path": "tables/accuracy.tex",

@@ -44,7 +44,7 @@
     },
     {
       "section": "S1",
-      "path": "S1/ACTUAL_RESULTS.md",
+      "path": "S1/ACTUAL_RESULTS.original.txt",
       "source": "C:\\Users\\Chimdumebi\\evidex\\paper-studio\\evidex-full3-source-20261017\\experiment\\final\\ACTUAL_RESULTS.md",
       "sha256": "a7caff150e77805d39ec172e8844bb172b4687745c8d34186ab53634727450a1",
       "bytes": 10905,
@@ -449,6 +449,14 @@
       "sha256": "f16b6024c6f327cab14ccf3e0628ff70ff7442d83de4bf77bd5cc0f507780c95",
       "bytes": 10603,
       "access": "Included existing verification record; raw archive is local-only."
+    }
+  ],
+  "navigation_copies": [
+    {
+      "path": "S1/ACTUAL_RESULTS.md",
+      "original": "S1/ACTUAL_RESULTS.original.txt",
+      "transform": "Link targets and an explicit navigation-copy note only; result text unchanged.",
+      "links_rewritten": 8
     }
   ]
 }
